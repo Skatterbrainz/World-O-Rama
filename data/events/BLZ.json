@@ -1,0 +1,62 @@
+{
+  "country": "BLZ",
+  "events": [
+    {
+      "id": "BLZ-baymen-logwood",
+      "title": "British logwood and mahogany settlements",
+      "startYear": 1717,
+      "endYear": 1862,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "timber",
+        "slaves",
+        "land"
+      ],
+      "territoryNames": [
+        "the Settlement of Belize"
+      ],
+      "hints": [
+        "Buccaneers turned woodcutters used a Caribbean coastline claimed by another crown.",
+        "The trade began with logwood for dyes and shifted to mahogany, cut by enslaved Africans.",
+        "A 1798 clash at St George's Caye ended the last Spanish attempt to dislodge the settlers."
+      ],
+      "summary": "English-speaking woodcutters, known as Baymen, cut logwood on the coast from the 17th century, and the first permanent British settlement dates from the late 1710s. Mahogany later became the main export, cut largely by enslaved Africans. Spain repeatedly attacked the settlers until the 1798 Battle of St. George's Caye.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Belize",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Belize"
+      ]
+    },
+    {
+      "id": "BLZ-british-honduras",
+      "title": "British Honduras",
+      "startYear": 1862,
+      "endYear": 1981,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "timber",
+        "land",
+        "sugar"
+      ],
+      "territoryNames": [
+        "British Honduras"
+      ],
+      "hints": [
+        "A Crown colony was declared in 1862 over a Central American coastal territory that a neighbour still claims.",
+        "Land and the mahogany trade were controlled by a small number of companies.",
+        "It adopted a new name in 1973 and became independent in September 1981."
+      ],
+      "summary": "Britain formally named the Colony of British Honduras in 1862, and it became a Crown colony in 1871. Land and the timber trade were concentrated in a few firms, and a long-running Guatemalan territorial claim delayed full independence until 1981.",
+      "wikipediaTitle": "British Honduras",
+      "sources": [
+        "https://en.wikipedia.org/wiki/British_Honduras"
+      ]
+    }
+  ]
+}

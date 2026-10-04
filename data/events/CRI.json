@@ -1,0 +1,83 @@
+{
+  "country": "CRI",
+  "events": [
+    {
+      "id": "CRI-spanish-colony",
+      "title": "Spanish conquest and the poor province",
+      "startYear": 1502,
+      "endYear": 1821,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "labour",
+        "gold"
+      ],
+      "hints": [
+        "A voyage in 1502 named this coast the Rich Coast hoping for gold.",
+        "Settlers found little gold, and the Indigenous population was greatly reduced by disease and the encomienda system.",
+        "It remained one of the poorest and most remote provinces of the Spanish empire until 1821."
+      ],
+      "summary": "Columbus reached the coast in 1502 and Spanish colonisation followed from the 1520s. Little gold was found, and Indigenous communities were reduced by disease and forced labour under the encomienda. The province stayed poor and remote until independence in 1821.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Costa Rica",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Costa_Rica"
+      ]
+    },
+    {
+      "id": "CRI-walker-invasion",
+      "title": "Walker's filibuster invasion",
+      "startYear": 1856,
+      "endYear": 1857,
+      "exploiter": {
+        "label": "William Walker's filibusters"
+      },
+      "type": "occupation",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "hints": [
+        "A private army from the north, led by an adventurer who had made himself ruler of a neighbouring republic, invaded in 1856.",
+        "Volunteers repelled it at a hacienda in the north in March of that year.",
+        "A young drummer boy, Juan Santamaría, became a national hero for setting fire to a building at Rivas."
+      ],
+      "summary": "William Walker, an American adventurer who had taken power in Nicaragua, sent his filibusters into the north of the country in 1856. A national army defeated them at Santa Rosa and Rivas, and Walker was forced out of Central America in 1857.",
+      "quip": "A one-man empire with no navy, no mandate and a lot of confidence.",
+      "wikipediaTitle": "Walker affair",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Walker_affair"
+      ]
+    },
+    {
+      "id": "CRI-fruit-railway",
+      "title": "Keith's railway and the banana enclaves",
+      "startYear": 1871,
+      "endYear": 1934,
+      "exploiter": {
+        "label": "the United Fruit Company"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "bananas",
+        "land",
+        "labour",
+        "coffee"
+      ],
+      "hints": [
+        "A railway to carry coffee to the Caribbean coast was begun in 1871 by an American entrepreneur.",
+        "Workers from Jamaica, China and Italy built it, and many died of disease and accidents.",
+        "The bananas planted along the line fed a fruit giant, and a 1934 strike challenged its power."
+      ],
+      "summary": "From 1871 Minor C. Keith built a railway to the Caribbean coast, with labourers from Jamaica, China, Italy and elsewhere. Bananas planted along the line became the basis of an export empire that merged into the United Fruit Company, and workers struck against it in 1934.",
+      "sensitive": true,
+      "wikipediaTitle": "Minor C. Keith",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Minor_C._Keith"
+      ]
+    }
+  ]
+}

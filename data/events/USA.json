@@ -1,0 +1,259 @@
+{
+  "country": "USA",
+  "events": [
+    {
+      "id": "USA-spanish-florida",
+      "title": "Spanish Florida",
+      "startYear": 1513,
+      "endYear": 1821,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "slaves",
+        "livestock"
+      ],
+      "territoryNames": [
+        "Spanish Florida"
+      ],
+      "hints": [
+        "Ponce de León made the first recorded European landing in 1513 on a peninsula he named for Easter.",
+        "Mission chains among the Timucua and Apalachee were destroyed by raids in the early 1700s.",
+        "Spain sold the colony in 1819 under the Adams-Onís Treaty."
+      ],
+      "summary": "Spain claimed Florida from 1513 and founded St. Augustine in 1565, the oldest continuously inhabited European settlement in the contiguous US. A mission system worked Indigenous labour until British-allied raids destroyed it around 1704. Spain ceded Florida by treaty in 1819, effective 1821.",
+      "sensitive": true,
+      "wikipediaTitle": "Spanish Florida",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spanish_Florida"
+      ]
+    },
+    {
+      "id": "USA-new-mexico-pueblo",
+      "title": "Spanish New Mexico and the Pueblo Revolt",
+      "startYear": 1598,
+      "endYear": 1680,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "livestock",
+        "tribute"
+      ],
+      "territoryNames": [
+        "Santa Fe de Nuevo México"
+      ],
+      "hints": [
+        "A colonising expedition under Juan de Oñate crossed the Rio Grande in 1598.",
+        "Pueblo communities were forced to pay tribute and supply labour, and their religious practices were suppressed.",
+        "In 1680 a coordinated uprising drove the colonists south for twelve years."
+      ],
+      "summary": "Juan de Oñate led colonists into the upper Rio Grande in 1598. The encomienda system and suppression of Pueblo religion led to the Pueblo Revolt of 1680, which expelled the Spanish. They returned in 1692.",
+      "sensitive": true,
+      "wikipediaTitle": "Pueblo Revolt",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pueblo_Revolt"
+      ]
+    },
+    {
+      "id": "USA-new-netherland",
+      "title": "New Netherland",
+      "startYear": 1624,
+      "endYear": 1664,
+      "exploiter": {
+        "label": "the Netherlands"
+      },
+      "type": "colonization",
+      "resources": [
+        "furs",
+        "slaves",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "New Netherland"
+      ],
+      "hints": [
+        "A trading colony was founded in 1624 on a river and harbour at the mouth of a great waterway.",
+        "Furs were collected from Indigenous traders, and the colony used enslaved Africans for labour.",
+        "England seized it without a fight in 1664."
+      ],
+      "summary": "The Dutch West India Company founded New Netherland in 1624, centred on trade in beaver furs, with the main settlement at New Amsterdam. Enslaved Africans were imported to work, and England took the colony in 1664, renaming it New York.",
+      "sensitive": true,
+      "wikipediaTitle": "New Netherland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/New_Netherland"
+      ]
+    },
+    {
+      "id": "USA-thirteen-colonies",
+      "title": "British North American colonies",
+      "startYear": 1607,
+      "endYear": 1776,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tobacco",
+        "slaves",
+        "land",
+        "furs"
+      ],
+      "territoryNames": [
+        "the Thirteen Colonies"
+      ],
+      "hints": [
+        "The first lasting English settlement was founded in 1607 on a river named for a king.",
+        "Tobacco, rice and indigo exports depended on the labour of enslaved Africans.",
+        "Colonists' resentment of taxes and trade restrictions led to a declaration in 1776."
+      ],
+      "summary": "Britain and England established thirteen colonies on the Atlantic seaboard between 1607 and 1732. Their economies were tied to British trade policy, and tobacco, rice and indigo were produced with enslaved African labour. Disputes over taxation and representation led to the 1776 Declaration of Independence.",
+      "sensitive": true,
+      "wikipediaTitle": "Thirteen Colonies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Thirteen_Colonies"
+      ]
+    },
+    {
+      "id": "USA-french-louisiana",
+      "title": "French Louisiana",
+      "startYear": 1682,
+      "endYear": 1803,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "furs",
+        "slaves",
+        "land",
+        "indigo"
+      ],
+      "territoryNames": [
+        "French Louisiana"
+      ],
+      "hints": [
+        "An explorer claimed the Mississippi basin in 1682 and named it for a king.",
+        "The colony relied on Indigenous trade, enslaved Africans and tobacco and indigo planting.",
+        "Napoleon sold the territory in 1803 to finance his wars."
+      ],
+      "summary": "René-Robert Cavelier de La Salle claimed the Mississippi basin for Louis XIV in 1682. France built a colony on Indigenous trade and plantations using enslaved Africans. After a spell under Spain, Napoleon sold it to the United States in the 1803 Louisiana Purchase.",
+      "wikipediaTitle": "Louisiana (New France)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Louisiana_(New_France)"
+      ]
+    },
+    {
+      "id": "USA-russian-america",
+      "title": "Russian America",
+      "startYear": 1799,
+      "endYear": 1867,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "furs",
+        "land",
+        "labour"
+      ],
+      "territoryNames": [
+        "Russian America"
+      ],
+      "hints": [
+        "A chartered company controlled an Arctic coastline for the sea otter fur trade.",
+        "The Aleut were pressed into hunting under the threat of hostage-taking.",
+        "The territory was sold in 1867 for $7.2 million."
+      ],
+      "summary": "The Russian-American Company ran the Alaskan colony from 1799 to 1867. Its fur harvest depended on Aleut and Alutiiq hunters who were coerced into service, and the Aleut population fell sharply. Russia sold the territory to the United States for 7.2 million dollars.",
+      "sensitive": true,
+      "wikipediaTitle": "Russian America",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Russian_America"
+      ]
+    },
+    {
+      "id": "USA-indian-removal",
+      "title": "Indian Removal and the Trail of Tears",
+      "startYear": 1830,
+      "endYear": 1850,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "cotton"
+      ],
+      "hints": [
+        "A law signed in 1830 authorised the exchange of eastern lands for territory west of the Mississippi.",
+        "Cherokee, Muscogee, Chickasaw, Choctaw and Seminole peoples were forced to march west.",
+        "An estimated 4,000 Cherokee died on the 1838-1839 forced march alone."
+      ],
+      "summary": "The 1830 Indian Removal Act led to the forced relocation of tens of thousands of Native people from the Southeast to Indian Territory. Thousands died from exposure, disease and hunger, including an estimated 4,000 Cherokee on the 1838-1839 Trail of Tears.",
+      "sensitive": true,
+      "wikipediaTitle": "Trail of Tears",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Trail_of_Tears"
+      ]
+    },
+    {
+      "id": "USA-hawaii-overthrow",
+      "title": "Overthrow of the Hawaiian Kingdom",
+      "startYear": 1893,
+      "endYear": 1898,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "annexation",
+      "resources": [
+        "sugar",
+        "land",
+        "strategic_location"
+      ],
+      "territoryNames": [
+        "the Kingdom of Hawaii"
+      ],
+      "hints": [
+        "In 1893 a group of planters and businessmen deposed a Pacific queen with help from marines.",
+        "A republic was proclaimed, and the new government asked to join a larger nation.",
+        "Annexation was approved by Congress in 1898 through a joint resolution, and an apology came in 1993."
+      ],
+      "summary": "In January 1893 a Committee of Safety of mainly American businessmen overthrew Queen Liliuokalani, aided by US Marines landed from a warship. After the short-lived Republic of Hawaii, the islands were annexed in 1898 by joint resolution. Congress passed an apology resolution in 1993.",
+      "quip": "A coup by sugar planters, with the Marines as the cheering section.",
+      "wikipediaTitle": "Overthrow of the Hawaiian Kingdom",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Overthrow_of_the_Hawaiian_Kingdom"
+      ]
+    },
+    {
+      "id": "USA-boarding-schools",
+      "title": "Native American boarding schools",
+      "startYear": 1860,
+      "endYear": 1978,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "labour"
+      ],
+      "hints": [
+        "Federal policy in the 19th century removed Native children from their homes for schooling far away.",
+        "The motto of the first off-reservation school was to kill the Indian and save the man.",
+        "A 2022 federal investigation identified hundreds of schools and many child deaths."
+      ],
+      "summary": "From the 1860s federal and church-run boarding schools removed Native children from their families to assimilate them. A 2022 Department of the Interior report identified more than 400 schools and at least 500 child deaths at the sites it examined, with the total likely higher.",
+      "sensitive": true,
+      "wikipediaTitle": "American Indian boarding schools",
+      "sources": [
+        "https://en.wikipedia.org/wiki/American_Indian_boarding_schools"
+      ]
+    }
+  ]
+}

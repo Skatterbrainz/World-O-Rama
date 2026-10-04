@@ -1,0 +1,186 @@
+{
+  "country": "CAN",
+  "events": [
+    {
+      "id": "CAN-new-france",
+      "title": "New France and the fur trade",
+      "startYear": 1534,
+      "endYear": 1763,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "furs",
+        "land",
+        "fish"
+      ],
+      "territoryNames": [
+        "New France"
+      ],
+      "hints": [
+        "Explorers claimed the St Lawrence valley in 1534, and a trading post was founded in 1608.",
+        "The fur trade bound allied Indigenous nations to the colony, and rivalries with the Haudenosaunee led to the Beaver Wars.",
+        "France ceded the colony to Britain at the 1763 Treaty of Paris."
+      ],
+      "summary": "Jacques Cartier claimed the St Lawrence region for France in 1534, and Samuel de Champlain founded Quebec in 1608. The colony's economy rested on the fur trade, and its rivalry with the Haudenosaunee and with British colonies shaped North American history until the 1763 cession.",
+      "wikipediaTitle": "New France",
+      "sources": [
+        "https://en.wikipedia.org/wiki/New_France"
+      ]
+    },
+    {
+      "id": "CAN-hbc-rupertsland",
+      "title": "Hudson's Bay Company and Rupert's Land",
+      "startYear": 1670,
+      "endYear": 1870,
+      "exploiter": {
+        "label": "the Hudson's Bay Company"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "furs",
+        "land",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "Rupert's Land"
+      ],
+      "hints": [
+        "A royal charter in 1670 gave a London company control over a vast watershed.",
+        "Beaver pelts bought from Indigenous trappers were exported to Europe by the shipload.",
+        "The company sold its claim for £300,000 in 1869-1870, triggering the Red River Resistance."
+      ],
+      "summary": "The 1670 royal charter gave the Hudson's Bay Company a monopoly over the lands draining into Hudson Bay, called Rupert's Land. It traded furs with Indigenous nations for two centuries. The 1869-1870 transfer to the new dominion was made without consulting the Métis and others living there.",
+      "wikipediaTitle": "Rupert's Land",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rupert's_Land"
+      ]
+    },
+    {
+      "id": "CAN-acadian-expulsion",
+      "title": "Expulsion of the Acadians",
+      "startYear": 1755,
+      "endYear": 1764,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "Acadia"
+      ],
+      "hints": [
+        "A French-speaking farming people refused to swear an unconditional oath to the British crown in the 1750s.",
+        "Thousands were rounded up and deported on ships, and their farms and villages were burned.",
+        "Many died of disease and shipwreck, and some ended up in Louisiana."
+      ],
+      "summary": "During the Seven Years' War, British authorities and New England troops deported thousands of Acadians from 1755. Many died of disease and in shipwrecks, their lands were given to British settlers, and many descendants ended up in Louisiana as Cajuns.",
+      "sensitive": true,
+      "wikipediaTitle": "Expulsion of the Acadians",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Expulsion_of_the_Acadians"
+      ]
+    },
+    {
+      "id": "CAN-numbered-treaties",
+      "title": "Numbered Treaties",
+      "startYear": 1871,
+      "endYear": 1921,
+      "exploiter": {
+        "label": "Canada"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "Eleven agreements with First Nations opened the prairies and north for settlement and railways.",
+        "The Crown promised reserves, annuities and food aid in return for vast cessions of land.",
+        "The Indigenous signatories understood the terms differently, and promises such as famine relief were not always kept."
+      ],
+      "summary": "Between 1871 and 1921 the Crown signed eleven numbered treaties covering much of the prairies and the north. First Nations understood them as agreements to share land, while the government treated them as land cessions. Disputes over interpretation and unfulfilled promises continue.",
+      "sensitive": true,
+      "wikipediaTitle": "Numbered Treaties",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Numbered_Treaties"
+      ]
+    },
+    {
+      "id": "CAN-chinese-head-tax",
+      "title": "Chinese head tax and railway labour",
+      "startYear": 1881,
+      "endYear": 1923,
+      "exploiter": {
+        "label": "Canada"
+      },
+      "type": "other",
+      "resources": [
+        "labour"
+      ],
+      "hints": [
+        "Thousands of workers from China were recruited in the 1880s to build the railway through the mountains.",
+        "After the line was finished, each new arrival from China had to pay a tax.",
+        "The tax rose to $500 per person in 1903 and was followed by an exclusion act in 1923."
+      ],
+      "summary": "Thousands of Chinese workers built the most dangerous sections of the Canadian Pacific Railway in the 1880s and many died. The government then imposed a head tax on Chinese immigrants from 1885, raised to $500 in 1903, before banning them in 1923. It apologised in 2006.",
+      "sensitive": true,
+      "wikipediaTitle": "Chinese head tax in Canada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chinese_head_tax_in_Canada"
+      ]
+    },
+    {
+      "id": "CAN-residential-schools",
+      "title": "Indian residential school system",
+      "startYear": 1831,
+      "endYear": 1996,
+      "exploiter": {
+        "label": "Canada"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "labour"
+      ],
+      "hints": [
+        "Church-run boarding schools funded by the federal government took Indigenous children from their families for generations.",
+        "Children were forbidden to speak their languages, and many suffered abuse and died in the care of the schools.",
+        "The last such school closed in 1996, and a Truth and Reconciliation Commission reported in 2015."
+      ],
+      "summary": "From the 1830s to 1996, about 150,000 First Nations, Inuit and Métis children were taken to residential schools designed to assimilate them. Thousands died, and the Truth and Reconciliation Commission described the system as cultural genocide.",
+      "sensitive": true,
+      "wikipediaTitle": "Canadian Indian residential school system",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Canadian_Indian_residential_school_system"
+      ]
+    },
+    {
+      "id": "CAN-japanese-internment",
+      "title": "Internment of Japanese people",
+      "startYear": 1942,
+      "endYear": 1949,
+      "exploiter": {
+        "label": "Canada"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "labour"
+      ],
+      "hints": [
+        "After Japan's entry into the Pacific War, people of Japanese ancestry were expelled from the west coast.",
+        "About 22,000 were sent to camps and farms, and their homes and businesses were sold off.",
+        "Restrictions lasted until 1949, and an official apology and compensation followed in 1988."
+      ],
+      "summary": "In 1942 about 22,000 people of Japanese descent, most of them born in the country, were removed from the Pacific coast. Their property was seized and sold, and many were sent to road camps and internment sites. Restrictions ended in 1949, and Ottawa apologised in 1988.",
+      "sensitive": true,
+      "wikipediaTitle": "Internment of Japanese Canadians",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Internment_of_Japanese_Canadians"
+      ]
+    }
+  ]
+}

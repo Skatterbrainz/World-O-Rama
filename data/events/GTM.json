@@ -1,0 +1,159 @@
+{
+  "country": "GTM",
+  "events": [
+    {
+      "id": "GTM-spanish-conquest",
+      "title": "Spanish conquest of the Maya highlands",
+      "startYear": 1524,
+      "endYear": 1821,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "cocoa",
+        "indigo",
+        "slaves"
+      ],
+      "territoryNames": [
+        "the Captaincy General of Guatemala",
+        "the Kingdom of Guatemala"
+      ],
+      "hints": [
+        "Pedro de Alvarado marched south from Mexico in 1523-1524 and fought the K'iche' and Kaqchikel kingdoms.",
+        "Indigenous communities were pushed into congregated towns and forced to supply labour and tribute.",
+        "The colonial capital governed a region stretching from Chiapas to Costa Rica."
+      ],
+      "summary": "Pedro de Alvarado's expedition defeated the K'iche' in 1524, and Spain subjugated the highland Maya kingdoms. The colonial government imposed tribute and forced labour on Indigenous communities and administered a large captaincy general until 1821.",
+      "sensitive": true,
+      "wikipediaTitle": "Captaincy General of Guatemala",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Captaincy_General_of_Guatemala"
+      ]
+    },
+    {
+      "id": "GTM-itza-conquest",
+      "title": "Spanish conquest of the Itza kingdom",
+      "startYear": 1697,
+      "endYear": 1697,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "The last independent Maya kingdom, on an island in a lake, held out until 1697.",
+        "Spanish troops attacked its capital Nojpetén from boats in March of that year.",
+        "Its fall ended Maya sovereignty in the region after more than 170 years of resistance."
+      ],
+      "summary": "In March 1697 Spanish forces under Martín de Urzúa attacked Nojpetén, the island capital of the Itza Maya kingdom, bringing the last independent Maya polity under Spanish control.",
+      "wikipediaTitle": "Itza people",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Itza_people"
+      ]
+    },
+    {
+      "id": "GTM-united-fruit",
+      "title": "United Fruit Company dominance",
+      "startYear": 1901,
+      "endYear": 1954,
+      "exploiter": {
+        "label": "the United Fruit Company"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "bananas",
+        "land",
+        "labour"
+      ],
+      "hints": [
+        "A Boston-based fruit company became the largest landowner and employer in the early 20th century.",
+        "It controlled the main railway, the Atlantic port and the telegraph.",
+        "Its unused holdings were targeted by a 1952 land reform law."
+      ],
+      "summary": "The United Fruit Company gained huge landholdings, a near-monopoly on the railway and control of the Atlantic port of Puerto Barrios from 1901. Its large uncultivated lands became a target of the 1952 agrarian reform under President Jacobo Árbenz.",
+      "wikipediaTitle": "United Fruit Company",
+      "sources": [
+        "https://en.wikipedia.org/wiki/United_Fruit_Company"
+      ]
+    },
+    {
+      "id": "GTM-1954-coup",
+      "title": "CIA-backed coup",
+      "startYear": 1954,
+      "endYear": 1954,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "puppet_regime",
+      "resources": [
+        "bananas",
+        "land"
+      ],
+      "hints": [
+        "A land reform affecting a fruit company was condemned by Washington as communist-influenced.",
+        "CIA Operation PBSuccess backed a small exile force and a radio propaganda campaign in June 1954.",
+        "An elected president resigned and a colonel took over, beginning decades of military rule."
+      ],
+      "summary": "In June 1954 the CIA's Operation PBSuccess backed a small army led by Carlos Castillo Armas against the elected president Jacobo Árbenz. Árbenz resigned and Castillo Armas took power, reversing the land reform.",
+      "wikipediaTitle": "1954 Guatemalan coup d'état",
+      "sources": [
+        "https://en.wikipedia.org/wiki/1954_Guatemalan_coup_d'%C3%A9tat"
+      ]
+    },
+    {
+      "id": "GTM-civil-war-genocide",
+      "title": "Cold War counterinsurgency and the Maya genocide",
+      "startYear": 1960,
+      "endYear": 1996,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "proxy_war",
+      "resources": [
+        "land",
+        "strategic_location"
+      ],
+      "hints": [
+        "A 36-year internal war began in 1960 after an uprising by junior officers.",
+        "A superpower trained and funded the army's counterinsurgency, including during the 1982-1983 scorched-earth campaign.",
+        "A UN-backed truth commission found acts of genocide against the Maya in the early 1980s."
+      ],
+      "summary": "The 1960-1996 civil war killed an estimated 200,000 people. The UN-backed Historical Clarification Commission attributed the great majority of killings to state forces, found that acts of genocide were committed against Maya groups, and documented US training and support for the military.",
+      "sensitive": true,
+      "wikipediaTitle": "Guatemalan Civil War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guatemalan_Civil_War"
+      ]
+    },
+    {
+      "id": "GTM-mexican-annexation",
+      "title": "Annexation to the Mexican Empire",
+      "startYear": 1822,
+      "endYear": 1823,
+      "exploiter": {
+        "label": "Mexico"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "the Mexican Empire"
+      ],
+      "hints": [
+        "The Central American provinces declared independence from Spain in September 1821.",
+        "In January 1822 the regional leadership voted to join a new empire to the north.",
+        "The empire collapsed in 1823 and the provinces formed their own federation."
+      ],
+      "summary": "Guatemala City's leaders voted in January 1822 to join the First Mexican Empire. The annexation lasted until the empire collapsed in 1823, after which the provinces formed the Federal Republic of Central America.",
+      "wikipediaTitle": "First Mexican Empire",
+      "sources": [
+        "https://en.wikipedia.org/wiki/First_Mexican_Empire"
+      ]
+    }
+  ]
+}
