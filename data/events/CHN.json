@@ -51,6 +51,169 @@
       "sensitive": true,
       "wikipediaTitle": "Japanese invasion of Manchuria",
       "sources": ["https://en.wikipedia.org/wiki/Japanese_invasion_of_Manchuria"]
+    },
+    {
+      "id": "CHN-mongol-conquest",
+      "title": "Mongol conquest of the Jin and Song",
+      "startYear": 1211,
+      "endYear": 1279,
+      "exploiter": { "label": "the Mongol Empire" },
+      "type": "other",
+      "resources": ["tribute", "silver"],
+      "hints": [
+        "Nomadic horsemen from the north brought down successive dynasties across seven decades.",
+        "Beijing fell in 1215 and the southern capital Lin'an in 1276.",
+        "A Mongol grandson of Genghis founded a new dynasty, the Yuan, that ruled all of the land."
+      ],
+      "summary": "Genghis Khan's armies invaded the Jin dynasty in 1211, and his successors destroyed it in 1234 and the Southern Song by 1279. Kublai Khan's Yuan dynasty then ruled the whole country. The conquest caused enormous loss of life, though estimates are uncertain.",
+      "sensitive": true,
+      "wikipediaTitle": "Mongol conquest of China",
+      "sources": ["https://en.wikipedia.org/wiki/Mongol_conquest_of_China"]
+    },
+    {
+      "id": "CHN-amur-annexation",
+      "title": "Russian annexation of the Amur and Ussuri lands",
+      "startYear": 1858,
+      "endYear": 1860,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "unequal_treaty",
+      "resources": ["land", "strategic_location"],
+      "territoryNames": ["Outer Manchuria"],
+      "hints": [
+        "Weakened by a war with other powers, an empire ceded a huge northeastern region to a neighbour.",
+        "The Treaty of Aigun of 1858 gave away the left bank of a great river.",
+        "The 1860 Convention of Peking added the coastal land where Vladivostok was founded."
+      ],
+      "summary": "In the Treaty of Aigun (1858) and the Convention of Peking (1860), the Qing dynasty, weakened by the Opium Wars and the Taiping Rebellion, ceded hundreds of thousands of square kilometres north of the Amur and east of the Ussuri to Russia, depriving China of its coast on the Sea of Japan.",
+      "wikipediaTitle": "Amur Annexation",
+      "sources": ["https://en.wikipedia.org/wiki/Amur_Annexation"]
+    },
+    {
+      "id": "CHN-kiautschou-bay",
+      "title": "German lease of Kiautschou Bay",
+      "startYear": 1898,
+      "endYear": 1914,
+      "exploiter": { "label": "Imperial Germany" },
+      "type": "colonization",
+      "resources": ["coal", "strategic_location", "trade_routes"],
+      "territoryNames": ["Kiautschou Bay"],
+      "hints": [
+        "The killing of two missionaries gave a European empire a pretext to seize a Shandong port.",
+        "A 99-year lease was extracted in 1898, and a naval base and brewery followed.",
+        "Japan captured the colony in November 1914."
+      ],
+      "summary": "After the 1897 killing of two German missionaries, Germany occupied Kiautschou Bay and obtained a 99-year lease in 1898. The territory around Tsingtao became a naval base and port, with railway and mining rights in Shandong, until Japan seized it in 1914. The Tsingtao Brewery dates from 1903.",
+      "quip": "Germany's 99-year lease lasted sixteen years, though the brewery is still going.",
+      "wikipediaTitle": "Kiautschou Bay Leased Territory",
+      "sources": ["https://en.wikipedia.org/wiki/Kiautschou_Bay_Leased_Territory"]
+    },
+    {
+      "id": "CHN-kwantung-leased-territory",
+      "title": "Kwantung Leased Territory and the South Manchuria Railway",
+      "startYear": 1898,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "colonization",
+      "resources": ["coal", "iron_ore", "strategic_location"],
+      "territoryNames": ["the Kwantung Leased Territory"],
+      "hints": [
+        "A leased peninsula at the tip of Liaodong passed from one empire to another after a war in 1905.",
+        "Russia leased Port Arthur and Dalian in 1898 and lost them to Japan.",
+        "The Kwantung Army, which started in this enclave, engineered the 1931 invasion of Manchuria."
+      ],
+      "summary": "Russia leased Port Arthur and Dalian from China in 1898. After the Russo-Japanese War, Japan took over the lease and the South Manchuria Railway in 1905, running a leased territory that served as a base for the Kwantung Army and for exploiting coal and iron in Manchuria until 1945.",
+      "wikipediaTitle": "Kwantung Leased Territory",
+      "sources": ["https://en.wikipedia.org/wiki/Kwantung_Leased_Territory"]
+    },
+    {
+      "id": "CHN-shanghai-international-settlement",
+      "title": "Shanghai International Settlement",
+      "startYear": 1863,
+      "endYear": 1943,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["opium", "trade_routes"],
+      "territoryNames": ["the Shanghai International Settlement"],
+      "hints": [
+        "A district of a great port city was governed by foreign residents' own council.",
+        "British and American enclaves merged in 1863.",
+        "Extraterritoriality ended there in 1943."
+      ],
+      "summary": "The treaty ports opened after the Opium Wars included Shanghai, where British and American concessions merged in 1863 into the International Settlement, run by a foreign-dominated municipal council with its own police and extraterritorial legal privileges. The foreign powers gave it up in 1943.",
+      "wikipediaTitle": "Shanghai International Settlement",
+      "sources": ["https://en.wikipedia.org/wiki/Shanghai_International_Settlement"]
+    },
+    {
+      "id": "CHN-younghusband-expedition",
+      "title": "British expedition to Tibet",
+      "startYear": 1903,
+      "endYear": 1904,
+      "exploiter": { "label": "the British Empire" },
+      "type": "unequal_treaty",
+      "resources": ["strategic_location", "tribute"],
+      "territoryNames": ["Tibet"],
+      "hints": [
+        "A British commander marched an army over the Himalayas to force trade talks in 1903.",
+        "Machine guns met swords and matchlocks at a place called Guru in March 1904.",
+        "The Treaty of Lhasa imposed an indemnity and trade marts."
+      ],
+      "summary": "To forestall perceived Russian influence, a British expedition under Colonel Francis Younghusband crossed into Tibet in 1903 and fought its way to Lhasa in 1904, where it imposed a convention requiring an indemnity and trade rights. Hundreds of Tibetan soldiers were killed at Guru and elsewhere.",
+      "sensitive": true,
+      "wikipediaTitle": "British expedition to Tibet",
+      "sources": ["https://en.wikipedia.org/wiki/British_expedition_to_Tibet"]
+    },
+    {
+      "id": "CHN-twenty-one-demands",
+      "title": "Twenty-One Demands",
+      "startYear": 1915,
+      "endYear": 1915,
+      "exploiter": { "label": "Japan" },
+      "type": "unequal_treaty",
+      "resources": ["land", "coal", "iron_ore"],
+      "hints": [
+        "While Europe was at war, a neighbour presented a list of demands in January 1915.",
+        "It sought control of Shandong, Manchuria and mining interests.",
+        "The republic accepted most of them after a May ultimatum."
+      ],
+      "summary": "In January 1915, while the great powers were distracted by the First World War, Japan presented China with Twenty-One Demands seeking control over former German rights in Shandong, a stronger position in Manchuria and Inner Mongolia, and mining and railway concessions. After an ultimatum in May, the Chinese government accepted most of them.",
+      "wikipediaTitle": "Twenty-One Demands",
+      "sources": ["https://en.wikipedia.org/wiki/Twenty-One_Demands"]
+    },
+    {
+      "id": "CHN-nanjing-massacre",
+      "title": "Nanjing Massacre",
+      "startYear": 1937,
+      "endYear": 1938,
+      "exploiter": { "label": "Japan" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "The capital fell in December 1937 after a fast advance up a great river.",
+        "Weeks of killing followed the entry of troops into the walled city.",
+        "Estimates of the dead run to at least two hundred thousand."
+      ],
+      "summary": "After Japanese forces captured Nanjing on 13 December 1937, they killed large numbers of civilians and disarmed soldiers and committed widespread rape and looting over several weeks. Estimates of the dead are at least 200,000, and the massacre remains a central issue in the memory of the war.",
+      "sensitive": true,
+      "wikipediaTitle": "Nanjing Massacre",
+      "sources": ["https://en.wikipedia.org/wiki/Nanjing_Massacre"]
+    },
+    {
+      "id": "CHN-soviet-manchuria",
+      "title": "Soviet invasion and occupation of Manchuria",
+      "startYear": 1945,
+      "endYear": 1946,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "occupation",
+      "resources": ["coal", "iron_ore"],
+      "territoryNames": ["Soviet-occupied Manchuria"],
+      "hints": [
+        "A superpower declared war on Japan in August 1945 and swept across the northeastern plains.",
+        "The invading army dismantled factories and shipped machinery home as war booty.",
+        "It withdrew in the spring of 1946."
+      ],
+      "summary": "On 9 August 1945 the Soviet Union attacked the Japanese in Manchuria, quickly overrunning the region. The Red Army remained until the spring of 1946 and removed much of the region's industrial equipment as war booty before handing control to Chinese communist forces.",
+      "wikipediaTitle": "Soviet invasion of Manchuria",
+      "sources": ["https://en.wikipedia.org/wiki/Soviet_invasion_of_Manchuria"]
     }
   ]
 }

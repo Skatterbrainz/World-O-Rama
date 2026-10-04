@@ -1,0 +1,92 @@
+{
+  "country": "JPN",
+  "events": [
+    {
+      "id": "JPN-mongol-invasions",
+      "title": "Mongol invasions",
+      "startYear": 1274,
+      "endYear": 1281,
+      "exploiter": { "label": "the Mongol Empire" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "Two huge fleets crossed the sea from the continent in the thirteenth century.",
+        "The first landed at Hakata Bay in 1274.",
+        "A typhoon destroyed the larger fleet in 1281, a storm later called the divine wind."
+      ],
+      "summary": "Kublai Khan's Yuan dynasty launched two invasions, in 1274 and in 1281, the second with a much larger force. Samurai resistance, defensive walls and storms, remembered as kamikaze or divine wind, destroyed much of the invasion fleets.",
+      "wikipediaTitle": "Mongol invasions of Japan",
+      "sources": ["https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan"]
+    },
+    {
+      "id": "JPN-ansei-treaties",
+      "title": "Perry expedition and the unequal treaties",
+      "startYear": 1853,
+      "endYear": 1911,
+      "exploiter": { "label": "the United States" },
+      "type": "unequal_treaty",
+      "resources": ["trade_routes", "strategic_location"],
+      "hints": [
+        "Black ships anchored in Edo Bay in 1853 and demanded that a closed country open its ports.",
+        "Treaties of 1858 fixed low tariffs and gave foreigners extraterritorial rights.",
+        "Full control over customs tariffs was recovered only in 1911."
+      ],
+      "summary": "Commodore Matthew Perry's naval squadron forced the opening of ports in 1853 to 1854. The 1858 Harris Treaty and similar agreements with Britain, France, Russia and the Netherlands fixed tariffs and granted extraterritoriality, privileges that Japan worked for decades to end, recovering tariff autonomy in 1911.",
+      "quip": "Perry's sales pitch for free trade came with cannons.",
+      "wikipediaTitle": "Unequal treaties",
+      "sources": ["https://en.wikipedia.org/wiki/Unequal_treaties"]
+    },
+    {
+      "id": "JPN-allied-occupation",
+      "title": "Allied occupation of Japan",
+      "startYear": 1945,
+      "endYear": 1952,
+      "exploiter": { "label": "the United States" },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "After surrender in 1945, a foreign general ran the country as Supreme Commander.",
+        "A new constitution was drafted by occupation staff in 1946.",
+        "The San Francisco Peace Treaty ended it in April 1952."
+      ],
+      "summary": "From 1945 to 1952 the country was occupied by Allied forces, overwhelmingly American under General Douglas MacArthur. The occupation oversaw land reform, demilitarisation, a new constitution and war crimes trials, and ended when the San Francisco Peace Treaty took effect in April 1952.",
+      "wikipediaTitle": "Occupation of Japan",
+      "sources": ["https://en.wikipedia.org/wiki/Occupation_of_Japan"]
+    },
+    {
+      "id": "JPN-okinawa-us-administration",
+      "title": "US administration of Okinawa",
+      "startYear": 1945,
+      "endYear": 1972,
+      "exploiter": { "label": "the United States" },
+      "type": "occupation",
+      "resources": ["land", "strategic_location"],
+      "territoryNames": ["the Ryukyu Islands"],
+      "hints": [
+        "An island chain remained under a foreign flag for two decades after the rest of the country regained sovereignty.",
+        "Land was seized for bases in the 1950s with bulldozers and bayonets.",
+        "Reversion to its former owner took place in May 1972."
+      ],
+      "summary": "After the Battle of Okinawa, the islands were administered by the United States military until 1972. Land was acquired for large bases, sometimes by force, and residents lacked many civil rights. Despite the 1972 reversion, a large US military presence remains.",
+      "wikipediaTitle": "United States Civil Administration of the Ryukyu Islands",
+      "sources": ["https://en.wikipedia.org/wiki/United_States_Civil_Administration_of_the_Ryukyu_Islands"]
+    },
+    {
+      "id": "JPN-soviet-kurils",
+      "title": "Soviet seizure of the Kuril Islands",
+      "startYear": 1945,
+      "endYear": 1949,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "occupation",
+      "resources": ["fish", "strategic_location"],
+      "hints": [
+        "Days after the surrender announcement, troops landed on northern islands.",
+        "The residents were deported between 1946 and 1949.",
+        "A dispute over the southernmost islands has blocked a formal peace treaty ever since."
+      ],
+      "summary": "In the final days of the Second World War, Soviet forces seized the Kuril Islands and southern Sakhalin from Japan. The Japanese residents were expelled in 1946 to 1949, and sovereignty over the four southernmost islands is still disputed, preventing a formal peace treaty between Russia and Japan.",
+      "wikipediaTitle": "Kuril Islands dispute",
+      "sources": ["https://en.wikipedia.org/wiki/Kuril_Islands_dispute"]
+    }
+  ]
+}

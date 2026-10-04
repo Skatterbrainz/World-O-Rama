@@ -1,0 +1,149 @@
+{
+  "country": "KOR",
+  "events": [
+    {
+      "id": "KOR-mongol-invasions",
+      "title": "Mongol invasions of Goryeo",
+      "startYear": 1231,
+      "endYear": 1259,
+      "exploiter": { "label": "the Mongol Empire" },
+      "type": "other",
+      "resources": ["tribute", "labour"],
+      "territoryNames": ["Goryeo"],
+      "hints": [
+        "The royal court moved to an island fortress to escape a series of invasions.",
+        "Six major campaigns devastated the countryside across three decades.",
+        "Peace in 1259 made the kingdom a vassal that supplied tribute and princesses."
+      ],
+      "summary": "The Mongols invaded Goryeo repeatedly from 1231 to 1259. The court retreated to Ganghwa Island while the countryside was ravaged. The peace of 1259 made Goryeo a vassal that supplied tribute and later contributed to the Mongol invasions of Japan.",
+      "sensitive": true,
+      "wikipediaTitle": "Mongol invasions of Korea",
+      "sources": ["https://en.wikipedia.org/wiki/Mongol_invasions_of_Korea"]
+    },
+    {
+      "id": "KOR-imjin-war",
+      "title": "Imjin War",
+      "startYear": 1592,
+      "endYear": 1598,
+      "exploiter": { "label": "Japan" },
+      "type": "other",
+      "resources": ["land", "labour"],
+      "hints": [
+        "A unifying warlord launched a huge invasion as the first step in a plan to conquer a continent.",
+        "Admiral Yi Sun-sin's turtle ships won decisive sea battles.",
+        "Skilled potters were among those taken away to the invaders' homeland."
+      ],
+      "summary": "Toyotomi Hideyoshi invaded in 1592 and again in 1597 as part of his plan to conquer Ming China. Joseon forces, righteous armies and Ming troops, together with naval victories by Admiral Yi Sun-sin, drove the invaders out by 1598. The wars devastated the peninsula, and many artisans were taken to Japan.",
+      "sensitive": true,
+      "wikipediaTitle": "Imjin War",
+      "sources": ["https://en.wikipedia.org/wiki/Imjin_War"]
+    },
+    {
+      "id": "KOR-qing-invasion",
+      "title": "Qing invasion of Joseon",
+      "startYear": 1636,
+      "endYear": 1637,
+      "exploiter": { "label": "the Qing dynasty" },
+      "type": "unequal_treaty",
+      "resources": ["tribute"],
+      "hints": [
+        "The king took refuge at a mountain fortress in the winter of 1636.",
+        "His surrender was made by kowtowing at Samjeondo in January 1637.",
+        "Royal princes were taken to the invaders' capital as hostages."
+      ],
+      "summary": "In 1636 the Manchu leader Hong Taiji, newly proclaimed emperor of the Qing, invaded Joseon. King Injo surrendered at Samjeondo in January 1637, accepted vassalage, agreed to pay tribute and send princes as hostages, and cut ties with the Ming. Many captives were taken north.",
+      "sensitive": true,
+      "wikipediaTitle": "Qing invasion of Joseon",
+      "sources": ["https://en.wikipedia.org/wiki/Qing_invasion_of_Joseon"]
+    },
+    {
+      "id": "KOR-ganghwa-treaty",
+      "title": "Ganghwa Treaty",
+      "startYear": 1875,
+      "endYear": 1876,
+      "exploiter": { "label": "Japan" },
+      "type": "unequal_treaty",
+      "resources": ["rice", "trade_routes"],
+      "hints": [
+        "A gunboat incident near an island fortress in 1875 led to a treaty the following year.",
+        "Three ports were opened, and Japanese subjects gained extraterritorial rights.",
+        "It was modelled on the treaty Commodore Perry had imposed on its signatory a generation earlier."
+      ],
+      "summary": "After the Unyo gunboat incident of 1875, Japan forced Joseon to sign the Treaty of Ganghwa in February 1876. It opened three ports to Japanese trade, granted extraterritoriality and gave Japan trading terms favourable to its exports of manufactured goods, while rice flowed out.",
+      "quip": "Japan used the same gunboat diplomacy that Commodore Perry had used on it a generation earlier.",
+      "wikipediaTitle": "Japan–Korea Treaty of 1876",
+      "sources": ["https://en.wikipedia.org/wiki/Japan%E2%80%93Korea_Treaty_of_1876"]
+    },
+    {
+      "id": "KOR-japanese-rule",
+      "title": "Japanese colonial rule",
+      "startYear": 1910,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "colonization",
+      "resources": ["rice", "labour", "land"],
+      "territoryNames": ["Chosen"],
+      "hints": [
+        "An annexation treaty in August 1910 ended a dynasty that had lasted five centuries.",
+        "Rice was exported on a large scale to feed another country.",
+        "In the late 1930s residents were pressed to adopt new names and to use another language."
+      ],
+      "summary": "Japan annexed the peninsula in 1910 and ruled it as a colony until 1945. Rice was exported to Japan, land was reorganised under cadastral surveys, and from the late 1930s the colonial government pursued assimilation policies, including pressure to adopt Japanese names and speak Japanese.",
+      "wikipediaTitle": "Korea under Japanese rule",
+      "sources": ["https://en.wikipedia.org/wiki/Korea_under_Japanese_rule"]
+    },
+    {
+      "id": "KOR-forced-labour-mobilisation",
+      "title": "Wartime forced labour mobilisation",
+      "startYear": 1939,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "forced_labour",
+      "resources": ["labour", "coal"],
+      "hints": [
+        "Workers were drafted for mines and factories during the Pacific War.",
+        "Hundreds of thousands were sent across the sea to work.",
+        "Lawsuits over compensation have strained relations for decades."
+      ],
+      "summary": "As the war expanded, Japan mobilised hundreds of thousands of colonial subjects to work in mines, factories and construction in Japan and its empire under the National Mobilization Law, often in harsh and dangerous conditions. Compensation remains a diplomatic issue.",
+      "sensitive": true,
+      "wikipediaTitle": "Korea under Japanese rule",
+      "sources": ["https://en.wikipedia.org/wiki/Korea_under_Japanese_rule"]
+    },
+    {
+      "id": "KOR-comfort-women",
+      "title": "Comfort women system",
+      "startYear": 1932,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "The wartime army ran a network of brothels staffed by coerced women.",
+        "Many victims came from the colony on the peninsula.",
+        "A weekly protest has been held outside an embassy in the capital since 1992."
+      ],
+      "summary": "From the 1930s until 1945 the Japanese military operated a system of 'comfort stations' where women, many from Korea, China, the Philippines and other territories, were forced or coerced into sexual slavery. Estimates of the number of victims range from tens of thousands to about 200,000.",
+      "sensitive": true,
+      "wikipediaTitle": "Comfort women",
+      "sources": ["https://en.wikipedia.org/wiki/Comfort_women"]
+    },
+    {
+      "id": "KOR-usamgik",
+      "title": "US Army Military Government",
+      "startYear": 1945,
+      "endYear": 1948,
+      "exploiter": { "label": "the United States" },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "The peninsula was split along a parallel at the end of the Second World War.",
+        "Occupation forces refused to recognise a self-declared people's republic.",
+        "A UN-supervised election in 1948 led to a separate state."
+      ],
+      "summary": "After Japan's surrender in 1945, the US Army Military Government governed the southern half of the peninsula, which was split at the 38th parallel with the Soviet zone. It dissolved the self-declared People's Republic and oversaw the 1948 election that created a separate government.",
+      "wikipediaTitle": "United States Army Military Government in Korea",
+      "sources": ["https://en.wikipedia.org/wiki/United_States_Army_Military_Government_in_Korea"]
+    }
+  ]
+}
