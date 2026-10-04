@@ -148,14 +148,90 @@ body {
 .main {
   flex: 1;
   display: flex;
+  flex-direction: column;
   min-height: 0;
+}
+
+/* Question bar: docked above the map so it never covers or intercepts map gestures */
+.question-bar {
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 16px;
+}
+
+.qb-main {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.qb-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.qb-side {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.clue-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.clue-text {
+  margin: 2px 0 0;
+  font-size: 1.2rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+.badge {
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+
+.badge.d1 {
+  color: #7be0a4;
+  border-color: #2c6a4a;
+}
+
+.badge.d2 {
+  color: #f4cf7a;
+  border-color: #6f5a22;
+}
+
+.badge.d3 {
+  color: #ff9d9d;
+  border-color: #703030;
+}
+
+.hint-list {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  color: #c9d3e6;
+  font-size: 0.9rem;
+}
+
+.hint-list:empty {
+  display: none;
 }
 
 .map-wrap {
   position: relative;
   flex: 1;
+  min-height: 0;
   min-width: 0;
   background: var(--sea);
+  overflow: hidden;
 }
 
 .map-host {
@@ -169,6 +245,7 @@ body {
   display: block;
   outline: none;
   cursor: grab;
+  touch-action: none;
 }
 
 .map-svg:active {
@@ -234,82 +311,29 @@ body {
   stroke: #ffc4bd;
 }
 
-/* Question card */
-.question-card {
+.map-tooltip {
   position: absolute;
-  top: 14px;
-  left: 14px;
-  max-width: min(520px, calc(100% - 90px));
-  background: rgba(21, 29, 44, 0.94);
+  left: 0;
+  top: 0;
+  z-index: 5;
+  pointer-events: none;
+  background: rgba(10, 15, 25, 0.95);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 12px 14px;
-  backdrop-filter: blur(4px);
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
-}
-
-.qc-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.clue-label {
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--muted);
-}
-
-.clue-text {
-  margin: 6px 0 8px;
-  font-size: 1.15rem;
-  line-height: 1.35;
-  font-weight: 600;
-}
-
-.badge {
-  font-size: 0.7rem;
-  padding: 2px 8px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  color: var(--muted);
-}
-
-.badge.d1 {
-  color: #7be0a4;
-  border-color: #2c6a4a;
-}
-
-.badge.d2 {
-  color: #f4cf7a;
-  border-color: #6f5a22;
-}
-
-.badge.d3 {
-  color: #ff9d9d;
-  border-color: #703030;
-}
-
-.hint-list {
-  margin: 8px 0 0;
-  padding-left: 18px;
-  color: #c9d3e6;
-  font-size: 0.9rem;
-}
-
-.hint-list:empty {
-  display: none;
+  border-radius: 6px;
+  padding: 3px 9px;
+  font-size: 0.82rem;
+  white-space: nowrap;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
 }
 
 .map-controls {
   position: absolute;
-  right: 14px;
+  left: 14px;
   bottom: 14px;
   display: flex;
   flex-direction: column;
   gap: 6px;
+  z-index: 4;
 }
 
 .toast {
@@ -324,16 +348,25 @@ body {
   font-size: 0.88rem;
   max-width: 80%;
   text-align: center;
+  pointer-events: none;
+  z-index: 6;
 }
 
-/* Reveal card */
+/* Reveal card: an overlay on the right, so the map never changes size mid-zoom */
 .reveal {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  bottom: 12px;
   width: 380px;
-  max-width: 42vw;
-  background: var(--panel);
-  border-left: 1px solid var(--border);
+  max-width: 46%;
+  background: rgba(21, 29, 44, 0.97);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.5);
   padding: 16px;
   overflow-y: auto;
+  z-index: 7;
 }
 
 .reveal h3 {
@@ -544,15 +577,22 @@ body {
 }
 
 @media (max-width: 820px) {
-  .main {
+  .qb-main {
     flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .qb-side {
+    justify-content: space-between;
   }
   .reveal {
+    top: auto;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
     width: auto;
     max-width: none;
-    max-height: 45vh;
-    border-left: none;
-    border-top: 1px solid var(--border);
+    max-height: 50%;
   }
   .chips {
     margin-left: 0;

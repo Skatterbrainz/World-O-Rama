@@ -187,6 +187,8 @@ export const SETTINGS_KEY = "world-o-rama:settings:v1";
 
 export interface Settings {
   quips: boolean;
+  /** Show the country name in a tooltip while hovering over the map. */
+  showNames: boolean;
   mode: Mode;
   regions: Region[] | null;
   eras: EraBucket[] | null;
@@ -195,6 +197,7 @@ export interface Settings {
 
 export const DEFAULT_SETTINGS: Settings = {
   quips: true,
+  showNames: true,
   mode: "quick",
   regions: null,
   eras: null,

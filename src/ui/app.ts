@@ -133,7 +133,17 @@ export function startApp(root: HTMLElement): void {
   const diffBadge = el("span", { class: "badge" }, "");
   const hintBtn = el("button", { class: "btn small", type: "button" }, "Hint");
   const hintList = el("ul", { class: "hint-list" });
-  const questionCard = el("div", { class: "question-card" }, el("div", { class: "qc-head" }, clueLabel, diffBadge), clueText, el("div", { class: "qc-foot" }, hintBtn), hintList);
+  const questionBar = el(
+    "div",
+    { class: "question-bar" },
+    el(
+      "div",
+      { class: "qb-main" },
+      el("div", { class: "qb-text" }, clueLabel, clueText),
+      el("div", { class: "qb-side" }, diffBadge, hintBtn),
+    ),
+    hintList,
+  );
 
   const zoomIn = el("button", { class: "btn icon", type: "button", "aria-label": "Zoom in" }, "+");
   const zoomOut = el("button", { class: "btn icon", type: "button", "aria-label": "Zoom out" }, "\u2212");
@@ -141,10 +151,9 @@ export function startApp(root: HTMLElement): void {
   const mapControls = el("div", { class: "map-controls" }, zoomIn, zoomOut, zoomReset);
   const toast = el("div", { class: "toast hidden", role: "status" });
   const mapHost = el("div", { class: "map-host" });
-  const mapWrap = el("div", { class: "map-wrap" }, mapHost, questionCard, mapControls, toast);
-
   const reveal = el("aside", { class: "reveal hidden", "aria-live": "polite" });
-  const main = el("main", { class: "main" }, mapWrap, reveal);
+  const mapWrap = el("div", { class: "map-wrap" }, mapHost, mapControls, toast, reveal);
+  const main = el("main", { class: "main" }, questionBar, mapWrap);
   const footer = el(
     "footer",
     { class: "foot" },
@@ -157,6 +166,7 @@ export function startApp(root: HTMLElement): void {
   root.append(el("div", { class: "app" }, header, main, footer), trendDlg, settingsDlg, endDlg);
 
   const map: MapHandle = createMap(mapHost);
+  map.setNamesVisible(settings.showNames);
 
   // ---- State --------------------------------------------------------------
   let game: GameState | null = null;
@@ -330,10 +340,18 @@ export function startApp(root: HTMLElement): void {
 
     map.setInteractive(false);
     map.showResult(q.answers, iso);
-    map.zoomTo(ok ? [iso] : q.answers);
     updateHintBtn();
     updateChips();
     renderReveal(q, ev, iso, ok, result);
+    map.zoomTo(ok ? [iso] : q.answers, revealInsets());
+  }
+
+  /** Area of the map covered by the reveal overlay, so the zoom centres in what is still visible. */
+  function revealInsets(): { right?: number; bottom?: number } {
+    const m = mapWrap.getBoundingClientRect();
+    const r = reveal.getBoundingClientRect();
+    if (r.width === 0) return {};
+    return r.width > m.width * 0.8 ? { bottom: m.bottom - r.top + 8 } : { right: m.right - r.left + 8 };
   }
 
   function renderReveal(q: Question, ev: GameEvent | undefined, guessed: string, ok: boolean, result: ReturnType<typeof scoreAnswer>): void {
@@ -464,6 +482,8 @@ export function startApp(root: HTMLElement): void {
     const diffG = checkboxGroup<number>("Difficulty", [[1, "Easy"], [2, "Medium"], [3, "Hard"]], settings.difficulties);
     const quips = el("input", { type: "checkbox" });
     quips.checked = settings.quips;
+    const names = el("input", { type: "checkbox" });
+    names.checked = settings.showNames;
 
     const exportBtn = el("button", { class: "btn small", type: "button" }, "Export stats");
     exportBtn.onclick = () => download("world-o-rama-stats.json", exportStats(stats));
@@ -498,12 +518,14 @@ export function startApp(root: HTMLElement): void {
     save.onclick = () => {
       settings = {
         quips: quips.checked,
+        showNames: names.checked,
         mode: modeSel.value as Mode,
         regions: regionG.read(),
         eras: eraG.read(),
         difficulties: diffG.read() as (1 | 2 | 3)[] | null,
       };
       saveSettings(store, settings);
+      map.setNamesVisible(settings.showNames);
       settingsDlg.close();
       startGame(settings.mode);
     };
@@ -517,6 +539,7 @@ export function startApp(root: HTMLElement): void {
       eraG.node,
       diffG.node,
       el("label", { class: "check" }, quips, " Show quips on reveal cards (never on sensitive events)"),
+      el("label", { class: "check" }, names, " Show country names when hovering over the map"),
       el("div", { class: "row wrap" }, exportBtn, importBtn, importInput, exportFlags, resetBtn),
       el("p", { class: "muted" }, `${EVENTS.length} events, ${bank.questions.length} questions across ${COUNTRIES.filter((c) => bank.byCountry.has(c.iso3)).length} countries.`),
       el("div", { class: "dlg-actions" }, save, cancel),
