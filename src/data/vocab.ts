@@ -60,6 +60,8 @@ export const TYPE_VERBS: Record<EventType, string> = {
   unequal_treaty: "was forced into unequal treaties by",
   puppet_regime: "was turned into a puppet state by",
   proxy_war: "was used as a proxy battleground by",
+  coup: "had its government overthrown in a coup backed by",
+  invasion: "was invaded by",
   engineered_famine: "suffered famine under policies of",
   other: "was exploited by",
 };
@@ -75,6 +77,8 @@ export const TYPE_NOUNS: Record<EventType, string> = {
   unequal_treaty: "was forced into unequal treaties",
   puppet_regime: "was turned into a puppet state",
   proxy_war: "was used as a proxy battleground",
+  coup: "had its government overthrown in a coup",
+  invasion: "was invaded",
   engineered_famine: "suffered an engineered famine",
   other: "was exploited",
 };
@@ -124,5 +128,7 @@ export const TYPE_LABELS: Partial<Record<EventType, string>> = {
   unequal_treaty: "an unequal treaty",
   puppet_regime: "a puppet regime",
   proxy_war: "a proxy war",
+  coup: "a coup",
+  invasion: "an invasion",
   engineered_famine: "famine",
 };

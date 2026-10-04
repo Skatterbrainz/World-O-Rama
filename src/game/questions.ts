@@ -10,7 +10,9 @@ export function normName(label: string): string {
   return label.trim().toLowerCase().replace(/^the\s+/, "");
 }
 
+/** "A European", "A Uruguayan", but "An African", "An Oceanian": a leading "yoo" sound takes "a". */
 export function aOrAn(phrase: string): string {
+  if (/^(eu|uni|use|ura|uru|uti|ugand)/i.test(phrase)) return `A ${phrase}`;
   return /^[aeiou]/i.test(phrase) ? `An ${phrase}` : `A ${phrase}`;
 }
 
@@ -169,6 +171,24 @@ function* candidatesFor(ev: GameEvent): Generator<Candidate> {
         constraints: { exploiter, type: ev.type, ...eraC },
         event: ev,
       };
+      // T6b: region (or subregion) + exploiter + type + era, e.g. "A South American nation that had
+      // its government overthrown in a coup backed by the CIA in the 1970s"
+      yield {
+        template: "region-exploiter-type-era",
+        text: `${aOrAn(nounPhrase({ region }))} that ${TYPE_VERBS[ev.type]} ${label} ${eraText}`,
+        difficulty: 2,
+        constraints: { region, exploiter, type: ev.type, ...eraC },
+        event: ev,
+      };
+      if (sub) {
+        yield {
+          template: "subregion-exploiter-type-era",
+          text: `${aOrAn(nounPhrase({ subregion: sub }))} that ${TYPE_VERBS[ev.type]} ${label} ${eraText}`,
+          difficulty: 1,
+          constraints: { subregion: sub, exploiter, type: ev.type, ...eraC },
+          event: ev,
+        };
+      }
     }
   }
 
@@ -190,6 +210,26 @@ function* candidatesFor(ev: GameEvent): Generator<Candidate> {
       constraints: { region, exploiter, resource: r },
       event: ev,
     };
+  }
+
+  // T6c: region + exploiter + type (no era), e.g. "An Eastern European nation that was invaded by the Soviet Union"
+  if (hasType) {
+    yield {
+      template: "region-exploiter-type",
+      text: `${aOrAn(nounPhrase({ region }))} that ${TYPE_VERBS[ev.type]} ${label}`,
+      difficulty: 2,
+      constraints: { region, exploiter, type: ev.type },
+      event: ev,
+    };
+    if (sub) {
+      yield {
+        template: "subregion-exploiter-type",
+        text: `${aOrAn(nounPhrase({ subregion: sub }))} that ${TYPE_VERBS[ev.type]} ${label}`,
+        difficulty: 1,
+        constraints: { subregion: sub, exploiter, type: ev.type },
+        event: ev,
+      };
+    }
   }
 
   // T4: historical territory names

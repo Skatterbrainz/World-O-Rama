@@ -19,6 +19,8 @@ export const EVENT_TYPES = [
   "unequal_treaty",
   "puppet_regime",
   "proxy_war",
+  "coup",
+  "invasion",
   "engineered_famine",
   "other",
 ] as const;

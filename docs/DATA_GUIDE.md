@@ -32,7 +32,7 @@ Run `npm run validate` after every change. `npm run validate -- --online` also c
 
 - File name = ISO3 code from `src/data/countries.ts`; `country` must match. Event ids start with `<ISO3>-` and are unique.
 - Years: integers, negative for BCE, no year 0. `endYear` is inclusive; use the same year for a single-year event.
-- `type`: colonization, occupation, annexation, slave_trade, resource_extraction, forced_labour, unequal_treaty, puppet_regime, proxy_war, engineered_famine, other. Use `other` when none fits (type-based questions are skipped for it).
+- `type`: colonization, occupation, annexation, slave_trade, resource_extraction, forced_labour, unequal_treaty, puppet_regime, proxy_war, coup, invasion, engineered_famine, other. Use `coup` for a government overthrown with the exploiter's backing (clue wording: "had its government overthrown in a coup backed by <exploiter>") and `invasion` for a military invasion ("was invaded by <exploiter>"). Use `occupation` for the period of control that follows. Use `other` when none fits (type-based questions are skipped for it).
 - `resources`: ids from `src/data/vocab.ts` (`RESOURCES`). Use as many as are genuinely accurate; each one yields extra questions. Leave empty if none applies. Do not edit `vocab.ts` (shared file); mention missing resources in your report instead.
 - `territoryNames`: historical names of the territory, written as in prose including the article ("the Belgian Congo", "Dutch East Indies"). Each one yields a "which modern nation was once part of ..." question.
 - `hints`: 0-3 clues ordered vague to specific. They must not contain the country name or its adjective ("Egyptian", "Haitian"). The last one should be solid enough to answer the question on its own. Hints double as the paid hint ladder.
@@ -40,7 +40,7 @@ Run `npm run validate` after every change. `npm run validate -- --online` also c
 
 ## Exploiter labels
 
-Use one consistent label per exploiter across all files, written as in prose. A leading "the" is ignored for matching. Canonical labels already in use: Belgium, King Leopold II, France, the British Empire, England, Spain, Portugal, the Netherlands, the Dutch East India Company, the East India Company, the United States, Japan, Nazi Germany, Imperial Germany, Prussia, the Russian Empire, the Soviet Union, the Ottoman Empire, Chile, the Vikings, the Eight-Nation Alliance. Reuse them. Only introduce a new label when the actor is genuinely different.
+Use one consistent label per exploiter across all files, written as in prose. A leading "the" is ignored for matching. Canonical labels already in use: Belgium, King Leopold II, France, the British Empire, England, Spain, Portugal, the Netherlands, the Dutch East India Company, the East India Company, the United States, Japan, Nazi Germany, Imperial Germany, Prussia, the Russian Empire, the Soviet Union, the Ottoman Empire, Chile, the Vikings, the Eight-Nation Alliance. Intelligence agencies get their own label when they were the principal backer or organiser, e.g. "the CIA" (coups, covert operations). Reuse labels. Only introduce a new label when the actor is genuinely different.
 
 Choose the actor responsible for the exploitation. Several powers in the same episode can be written as separate events.
 

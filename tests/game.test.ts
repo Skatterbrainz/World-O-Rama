@@ -3,7 +3,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { flattenCountryFiles } from "../src/data/load";
 import { centuryEra, decadeEra, eraBucket, eventEras, fmtYear, ordinal } from "../src/game/era";
-import { buildQuestionBank, constraintsKey, isCorrect, matches, normName, pickQuestion, NO_FILTERS } from "../src/game/questions";
+import { aOrAn, buildQuestionBank, constraintsKey, isCorrect, matches, normName, pickQuestion, NO_FILTERS } from "../src/game/questions";
 import { scoreAnswer } from "../src/game/scoring";
 import { breakdown, emptyStats, parseStats, recordAnswer, rollingAccuracy, saveStats, loadStats, startSession, weakSpots, type AnswerRecord, type KeyValueStore } from "../src/game/stats";
 import { quipFor } from "../src/game/humor";
@@ -59,6 +59,16 @@ describe("question engine", () => {
     ev({ id: "COD-b", country: "COD", exploiter: { label: "Belgium" }, resources: ["rubber", "ivory"], territoryNames: ["the Congo Free State"], hints: ["Clue one.", "Clue two."] }),
   ];
 
+  it("picks the right article", () => {
+    expect(aOrAn("European nation")).toBe("A European nation");
+    expect(aOrAn("African nation")).toBe("An African nation");
+    expect(aOrAn("Oceanian nation")).toBe("An Oceanian nation");
+    expect(aOrAn("Eastern European nation")).toBe("An Eastern European nation");
+    expect(aOrAn("Asian nation")).toBe("An Asian nation");
+    expect(aOrAn("South American nation")).toBe("A South American nation");
+    expect(aOrAn("nation in the Caucasus")).toBe("A nation in the Caucasus");
+  });
+
   it("normalises exploiter names", () => {
     expect(normName("the Soviet Union")).toBe(normName("Soviet Union"));
   });
@@ -105,6 +115,22 @@ describe("question engine", () => {
     expect(q.hints.some((h) => h.includes("involved rubber"))).toBe(false);
     const withSub = bank.questions.find((x) => x.template === "subregion-exploiter-era" && x.constraints.exploiter === "belgium");
     expect(withSub?.hints.length ?? 0).toBeGreaterThan(0);
+  });
+
+  it("asks about coups and invasions by region, exploiter and era", () => {
+    const coups = [
+      ev({ id: "CHL-coup", country: "CHL", type: "coup", exploiter: { label: "the CIA" }, startYear: 1970, endYear: 1973, resources: [] }),
+      ev({ id: "HUN-inv", country: "HUN", type: "invasion", exploiter: { label: "the Soviet Union" }, startYear: 1956, endYear: 1956, resources: [] }),
+    ];
+    const bank = buildQuestionBank(coups);
+    const texts = bank.questions.map((q) => q.text);
+    expect(texts).toContain("A South American nation that had its government overthrown in a coup backed by the CIA in the 1970s");
+    expect(texts).toContain("A South American nation that had its government overthrown in a coup backed by the CIA");
+    expect(texts).toContain("A nation that was invaded by the Soviet Union in the 1950s");
+    expect(texts).toContain("An Eastern European nation that was invaded by the Soviet Union in the 1950s");
+    expect(texts).toContain("A European nation that was invaded by the Soviet Union");
+    const q = bank.questions.find((x) => x.text === "An Eastern European nation that was invaded by the Soviet Union in the 1950s")!;
+    expect(q.answers).toEqual(["HUN"]);
   });
 
   it("deduplicates identical constraints", () => {
