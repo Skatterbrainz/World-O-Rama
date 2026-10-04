@@ -78,7 +78,7 @@
       "title": "Panguna copper mine",
       "startYear": 1972,
       "endYear": 1989,
-      "exploiter": { "label": "Rio Tinto" },
+      "exploiter": { "label": "the Rio Tinto Company" },
       "type": "resource_extraction",
       "resources": ["copper", "gold"],
       "territoryNames": ["Bougainville"],

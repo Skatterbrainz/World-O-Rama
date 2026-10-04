@@ -96,7 +96,7 @@
       "title": "Russo-Georgian War and occupation of Abkhazia and South Ossetia",
       "startYear": 2008,
       "endYear": 2025,
-      "exploiter": { "label": "Russia" },
+      "exploiter": { "label": "the Russian Federation" },
       "type": "occupation",
       "resources": ["strategic_location", "land"],
       "hints": [

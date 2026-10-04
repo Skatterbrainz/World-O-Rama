@@ -147,16 +147,28 @@ for (let i = 0; i < keys.length; i++)
 console.log(`Exploiters used: ${keys.length}`);
 
 // ---- Optional: Wikipedia title check --------------------------------------
+async function fetchWithBackoff(url: string): Promise<Response | null> {
+  for (let attempt = 0; attempt < 6; attempt++) {
+    const res = await fetch(url, { headers: { "User-Agent": "world-o-rama-validate/0.1 (local dataset check)" } });
+    if (res.status !== 429 && res.status < 500) return res;
+    const retryAfter = Number(res.headers.get("retry-after"));
+    const waitMs = Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : 2000 * 2 ** attempt;
+    await new Promise((r) => setTimeout(r, Math.min(waitMs, 60000)));
+  }
+  return null;
+}
+
 async function checkWikipedia(): Promise<void> {
   const titles = [...new Set(events.map((e) => e.wikipediaTitle))];
-  console.log(`\nChecking ${titles.length} Wikipedia titles (batched)...`);
+  console.log(`\nChecking ${titles.length} Wikipedia titles (batched, with backoff)...`);
+  let unchecked = 0;
   for (let i = 0; i < titles.length; i += 40) {
     const batch = titles.slice(i, i + 40);
     const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&redirects=1&titles=${encodeURIComponent(batch.join("|"))}`;
     try {
-      const res = await fetch(url, { headers: { "User-Agent": "world-o-rama-validate/0.1 (local dataset check)" } });
-      if (!res.ok) {
-        warn(`Wikipedia API returned ${res.status}; skipped ${batch.length} titles`);
+      const res = await fetchWithBackoff(url);
+      if (!res || !res.ok) {
+        unchecked += batch.length;
         continue;
       }
       const data = (await res.json()) as {
@@ -173,10 +185,13 @@ async function checkWikipedia(): Promise<void> {
         if (missing.has(resolved)) err(`Wikipedia title does not exist: ${t}`);
       }
     } catch (e) {
+      unchecked += batch.length;
       warn(`could not reach Wikipedia: ${(e as Error).message}`);
     }
-    await new Promise((r) => setTimeout(r, 500));
+    await new Promise((r) => setTimeout(r, 1000));
   }
+  console.log(unchecked ? `UNCHECKED: ${unchecked} of ${titles.length} titles could not be verified (rate limited). Re-run later.` : `All ${titles.length} titles checked.`);
+  if (unchecked) warn(`${unchecked} Wikipedia titles unchecked`);
 }
 
 async function main(): Promise<void> {
