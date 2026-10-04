@@ -103,6 +103,29 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Acre_War"
       ]
+    },
+    {
+      "id": "BOL-1971-banzer-coup",
+      "title": "CIA funding of Torres's opponents and the 1971 Banzer coup",
+      "startYear": 1971,
+      "endYear": 1971,
+      "exploiter": {
+        "label": "the CIA"
+      },
+      "type": "coup",
+      "resources": [],
+      "hints": [
+        "A left-leaning military president took office after an uprising in October 1970.",
+        "A US ambassador called a proposed covert funding package for the opposition 'coup money' before it was approved in July 1971.",
+        "In August 1971 a colonel seized power and ruled for seven years."
+      ],
+      "summary": "In July 1971 the US 40 Committee approved a CIA proposal of $410,000 in covert funding for the MNR party and moderate officers opposed to President Juan José Torres. In August the CIA transferred funds to an ex-military figure involved in coup plotting and to another dissident officer, intended according to a White House memo to discourage a coup and cement relations. Two days later Hugo Banzer seized power, and an estimated 100 people died in the fighting.",
+      "sensitive": true,
+      "wikipediaTitle": "1971 Bolivian coup d'état",
+      "sources": [
+        "https://history.state.gov/historicaldocuments/frus1969-76ve10/d76a",
+        "https://en.wikipedia.org/wiki/1971_Bolivian_coup_d%27%C3%A9tat"
+      ]
     }
   ]
 }
