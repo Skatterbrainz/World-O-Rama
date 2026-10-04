@@ -1,0 +1,85 @@
+{
+  "country": "GNQ",
+  "events": [
+    {
+      "id": "GNQ-portuguese-fernando-po",
+      "title": "Portuguese Fernando Pó and Annobón",
+      "startYear": 1472,
+      "endYear": 1778,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "colonization",
+      "resources": [
+        "slaves",
+        "trade_routes"
+      ],
+      "hints": [
+        "An island named after the navigator who sighted it in 1472 was claimed by Portugal.",
+        "It served as a trading and slaving stop in the Gulf of Guinea.",
+        "Portugal ceded it to another Iberian power in 1778."
+      ],
+      "summary": "Portuguese navigators reached the Gulf of Guinea islands of Fernando Pó and Annobón in the 1470s, and Portugal held them as trading stations, including for the slave trade, until it ceded them to Spain in 1778.",
+      "sensitive": true,
+      "wikipediaTitle": "Bioko",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bioko"
+      ]
+    },
+    {
+      "id": "GNQ-treaty-of-el-pardo",
+      "title": "Treaty of El Pardo",
+      "startYear": 1778,
+      "endYear": 1778,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "hints": [
+        "Two European crowns swapped islands and mainland rights in a deal about territory halfway round the world.",
+        "In return for the Gulf of Guinea holdings, Portugal got a better Brazilian frontier and Spain got Colonia del Sacramento.",
+        "The people who lived there were not consulted."
+      ],
+      "summary": "In the 1778 Treaty of El Pardo, Portugal ceded Fernando Pó, Annobón and trading rights on the neighbouring coast to Spain, while Spain confirmed Portuguese control of lands in Brazil. The deal was part of a settlement of Iberian borders in South America.",
+      "quip": "Two empires traded islands like football cards, and the residents were not asked to sign.",
+      "wikipediaTitle": "Treaty of El Pardo (1778)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaty_of_El_Pardo_(1778)"
+      ]
+    },
+    {
+      "id": "GNQ-spanish-guinea",
+      "title": "Spanish Guinea",
+      "startYear": 1843,
+      "endYear": 1968,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "cocoa",
+        "coffee",
+        "timber",
+        "labour"
+      ],
+      "territoryNames": [
+        "Spanish Guinea",
+        "Fernando Po"
+      ],
+      "hints": [
+        "Spain did not effectively occupy these possessions for decades after acquiring them.",
+        "Cocoa plantations on an island relied on labourers brought in from neighbouring countries.",
+        "Independence came in 1968, followed by one of Africa's most brutal dictatorships."
+      ],
+      "summary": "Spain began to occupy the islands effectively in the 1840s and later the mainland enclave of Río Muni. Cocoa, coffee and timber were the main exports, and the plantations depended on contract workers largely from other countries. Independence came in 1968.",
+      "wikipediaTitle": "Spanish Guinea",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spanish_Guinea"
+      ]
+    }
+  ]
+}
