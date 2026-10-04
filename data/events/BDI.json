@@ -1,0 +1,86 @@
+{
+  "country": "BDI",
+  "events": [
+    {
+      "id": "BDI-german-urundi",
+      "title": "German rule over Urundi",
+      "startYear": 1890,
+      "endYear": 1916,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "colonization",
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "German East Africa",
+        "Urundi"
+      ],
+      "hints": [
+        "A European power claimed this kingdom in 1890 but ruled it lightly through the royal court.",
+        "It was one half of a colonial administrative unit with its northern neighbour, governed from a coastal capital.",
+        "Belgian troops from a neighbouring colony occupied it in 1916."
+      ],
+      "summary": "Germany claimed Urundi as part of German East Africa from 1890 and exercised indirect rule through the Burundian monarchy, with a small number of officials and soldiers. Belgian forces from the Congo occupied it in 1916.",
+      "wikipediaTitle": "German East Africa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/German_East_Africa"
+      ]
+    },
+    {
+      "id": "BDI-ruanda-urundi-belgian-mandate",
+      "title": "Belgian mandate of Ruanda-Urundi",
+      "startYear": 1916,
+      "endYear": 1962,
+      "exploiter": {
+        "label": "Belgium"
+      },
+      "type": "colonization",
+      "resources": [
+        "coffee",
+        "cotton",
+        "labour"
+      ],
+      "territoryNames": [
+        "Ruanda-Urundi"
+      ],
+      "hints": [
+        "A League of Nations mandate handed a small, densely populated kingdom to a European power that already had a large colony to the west.",
+        "Cash crops such as coffee and cotton were promoted, and Belgium classified people by ethnic group on identity papers.",
+        "It became independent as a monarchy on 1 July 1962."
+      ],
+      "summary": "Belgian forces occupied the territory in 1916, and it became a League of Nations mandate and later a UN trust territory called Ruanda-Urundi, ruled until 1962. Belgium promoted cash crops, and ethnic classification became rigid under its administration.",
+      "wikipediaTitle": "Ruanda-Urundi",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ruanda-Urundi"
+      ]
+    },
+    {
+      "id": "BDI-belgian-compulsory-labour",
+      "title": "Compulsory labour under Belgian rule",
+      "startYear": 1920,
+      "endYear": 1957,
+      "exploiter": {
+        "label": "Belgium"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "coffee",
+        "cotton",
+        "labour"
+      ],
+      "hints": [
+        "Under the mandate, men were required to give labour for roads and public works without pay.",
+        "Farmers were also obliged to plant crops for export.",
+        "The system fell hardest on poorer peasants."
+      ],
+      "summary": "Under Belgian administration, adult men were required to perform unpaid compulsory labour on roads and public works, and households were obliged to grow cash crops such as coffee and cotton. These obligations were gradually relaxed in the 1950s.",
+      "sensitive": true,
+      "wikipediaTitle": "Ruanda-Urundi",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ruanda-Urundi"
+      ]
+    }
+  ]
+}

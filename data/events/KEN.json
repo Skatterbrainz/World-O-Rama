@@ -1,0 +1,164 @@
+{
+  "country": "KEN",
+  "events": [
+    {
+      "id": "KEN-portuguese-mombasa",
+      "title": "Portuguese Fort Jesus at Mombasa",
+      "startYear": 1593,
+      "endYear": 1698,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "colonization",
+      "resources": [
+        "trade_routes",
+        "ivory",
+        "gold"
+      ],
+      "hints": [
+        "A European fort designed by an Italian architect was finished in 1596 to control a coastal island port.",
+        "It guarded a base in the Indian Ocean trade in ivory, gold and cloth.",
+        "A siege by Omani forces ended with its capture in 1698."
+      ],
+      "summary": "Portugal built Fort Jesus on Mombasa Island between 1593 and 1596 to control the Swahili coast and its Indian Ocean trade. Omani forces captured it in 1698 after a siege of about two and a half years, and it changed hands several times afterwards.",
+      "wikipediaTitle": "Fort Jesus",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fort_Jesus"
+      ]
+    },
+    {
+      "id": "KEN-zanzibar-coast-rule",
+      "title": "Zanzibari rule over the coast and the ivory and slave trade",
+      "startYear": 1837,
+      "endYear": 1888,
+      "exploiter": {
+        "label": "the Sultanate of Zanzibar"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "ivory",
+        "spices",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Sultanate of Zanzibar"
+      ],
+      "hints": [
+        "After 1837 a sultan based on an island took Mombasa and ruled the coast from his new capital.",
+        "Caravans from the coast carried ivory and captives from the interior.",
+        "The coastal strip was leased to a British company in 1888."
+      ],
+      "summary": "After taking Mombasa in 1837, the Sultan of Zanzibar ruled the Kenyan coast and used it as an outlet for ivory and enslaved people carried from the interior by caravans. In 1888 the sultan leased the coastal strip to a British company.",
+      "sensitive": true,
+      "wikipediaTitle": "Sultanate of Zanzibar",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sultanate_of_Zanzibar"
+      ]
+    },
+    {
+      "id": "KEN-witu-german-protectorate",
+      "title": "German protectorate at Witu",
+      "startYear": 1885,
+      "endYear": 1890,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "colonization",
+      "resources": [
+        "ivory",
+        "land"
+      ],
+      "territoryNames": [
+        "Witu"
+      ],
+      "hints": [
+        "A small coastal sultanate was declared a protectorate by Germany in 1885.",
+        "German brothers called Denhardt had obtained concessions there.",
+        "Germany gave it up in 1890 in a deal that also brought a North Sea island into Germany."
+      ],
+      "summary": "Germany declared a protectorate over the Sultanate of Witu in 1885 after concessions obtained by the Denhardt brothers. In 1890 the Heligoland-Zanzibar Treaty ended it, with Germany giving up its claims in the region in exchange for Heligoland.",
+      "wikipediaTitle": "Heligoland–Zanzibar Treaty",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Heligoland%E2%80%93Zanzibar_Treaty"
+      ]
+    },
+    {
+      "id": "KEN-ibeac-kenya",
+      "title": "Imperial British East Africa Company",
+      "startYear": 1888,
+      "endYear": 1895,
+      "exploiter": {
+        "label": "the Imperial British East Africa Company"
+      },
+      "type": "colonization",
+      "resources": [
+        "ivory",
+        "trade_routes"
+      ],
+      "hints": [
+        "A chartered company was given the right to rule a vast stretch of the interior from the coast to a great lake.",
+        "It ran out of money building a railway survey and military posts.",
+        "Its territory was taken over by the British government in 1895."
+      ],
+      "summary": "The Imperial British East Africa Company received a royal charter in 1888 to administer territory from the coast inland. Financial troubles led the British government to take over in 1895 and declare the East Africa Protectorate.",
+      "wikipediaTitle": "Imperial British East Africa Company",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Imperial_British_East_Africa_Company"
+      ]
+    },
+    {
+      "id": "KEN-british-east-africa-protectorate",
+      "title": "East Africa Protectorate and the White Highlands",
+      "startYear": 1895,
+      "endYear": 1963,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "coffee",
+        "tea",
+        "labour"
+      ],
+      "territoryNames": [
+        "the East Africa Protectorate"
+      ],
+      "hints": [
+        "The railway to a great lake opened up fertile highlands to European settlers.",
+        "Land there was reserved for white farmers, while Africans were pushed into reserves.",
+        "Tea and coffee estates relied on African labour that was compelled by taxes and passes."
+      ],
+      "summary": "After 1895 Britain governed the territory as a protectorate and later a colony. Fertile highlands were reserved for European settlers, African people were confined to reserves, and tea and coffee estates drew labour through taxes and pass laws. Independence came in December 1963.",
+      "wikipediaTitle": "Kenya Colony",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kenya_Colony"
+      ]
+    },
+    {
+      "id": "KEN-mau-mau-detention",
+      "title": "Mau Mau rebellion and British detention camps",
+      "startYear": 1952,
+      "endYear": 1960,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A state of emergency was declared in 1952 over an uprising linked to land grievances.",
+        "Tens of thousands of people were held without trial in detention camps, where abuse was widespread.",
+        "In 2013 the British government expressed regret and agreed to compensate survivors."
+      ],
+      "summary": "In response to the Mau Mau uprising, Britain declared an emergency in 1952 and detained tens of thousands of Kikuyu people in camps, where torture and abuse were common. The Hola camp killings in 1959 caused a scandal, and Britain agreed compensation for survivors in 2013.",
+      "sensitive": true,
+      "wikipediaTitle": "Mau Mau uprising",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mau_Mau_uprising"
+      ]
+    }
+  ]
+}

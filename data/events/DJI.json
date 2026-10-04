@@ -1,0 +1,82 @@
+{
+  "country": "DJI",
+  "events": [
+    {
+      "id": "DJI-obock-treaty",
+      "title": "Treaty of Obock",
+      "startYear": 1862,
+      "endYear": 1862,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "strategic_location",
+        "trade_routes"
+      ],
+      "hints": [
+        "In 1862 Afar chiefs signed a treaty ceding a Red Sea port to a European power for a modest payment.",
+        "It gave France a foothold at the mouth of a sea route that the Suez Canal would soon make vital.",
+        "France only began to settle there in the 1880s."
+      ],
+      "summary": "In 1862 Afar sultans signed a treaty ceding the port of Obock to France in return for payment. France did not occupy it until the 1880s, but it gave Paris a claim at the entrance to the Red Sea just before the Suez Canal opened.",
+      "wikipediaTitle": "Obock",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Obock"
+      ]
+    },
+    {
+      "id": "DJI-french-somaliland",
+      "title": "French Somaliland",
+      "startYear": 1884,
+      "endYear": 1967,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "strategic_location",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "French Somaliland"
+      ],
+      "hints": [
+        "A French coaling station and port grew where a railway to the Ethiopian highlands was built.",
+        "Its harbour became one of the busiest on the Red Sea route.",
+        "Voters chose to stay with France in a 1958 referendum, and again in 1967."
+      ],
+      "summary": "France expanded from Obock in the 1880s and in 1894 established a permanent administration at Djibouti, naming the colony French Somaliland. Its port, linked by railway to Addis Ababa, controlled access to the Red Sea route. Voters chose to remain French in referendums in 1958 and 1967.",
+      "wikipediaTitle": "French Somaliland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Somaliland"
+      ]
+    },
+    {
+      "id": "DJI-afars-and-issas",
+      "title": "French Territory of the Afars and Issas",
+      "startYear": 1967,
+      "endYear": 1977,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "strategic_location"
+      ],
+      "territoryNames": [
+        "the French Territory of the Afars and Issas"
+      ],
+      "hints": [
+        "The colony was renamed in 1967 after a referendum whose fairness was widely questioned.",
+        "France deported many people of one ethnic group in the run-up to the vote.",
+        "Independence finally came in June 1977."
+      ],
+      "summary": "After a 1967 referendum, criticised as unfair, France renamed the colony the French Territory of the Afars and Issas and tightened control, including deporting thousands of people. Independence came on 27 June 1977.",
+      "wikipediaTitle": "French Territory of the Afars and Issas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Territory_of_the_Afars_and_Issas"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "country": "MDG",
+  "events": [
+    {
+      "id": "MDG-franco-hova-wars",
+      "title": "French conquest of the Merina Kingdom",
+      "startYear": 1883,
+      "endYear": 1896,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "annexation",
+      "resources": [
+        "strategic_location",
+        "land"
+      ],
+      "territoryNames": [
+        "the Merina Kingdom"
+      ],
+      "hints": [
+        "A highland kingdom with a queen in its capital was invaded by a European power in the 1880s and again in 1895.",
+        "France declared its conquest an annexation in August 1896.",
+        "The last queen was exiled to Réunion and later Algeria."
+      ],
+      "summary": "After the First Franco-Hova War in 1883-1885 France established a protectorate claim. In 1895 a French expeditionary force captured the capital Antananarivo, and in 1896 the island was declared a French colony. Queen Ranavalona III was exiled in 1897.",
+      "wikipediaTitle": "Franco-Hova Wars",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Franco-Hova_Wars"
+      ]
+    },
+    {
+      "id": "MDG-french-madagascar-colony",
+      "title": "French colonial rule and forced labour",
+      "startYear": 1896,
+      "endYear": 1946,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "coffee",
+        "spices",
+        "gold",
+        "labour"
+      ],
+      "hints": [
+        "After the conquest, the colonial regime used compulsory labour to build railways and roads.",
+        "Coffee and vanilla estates operated for export.",
+        "Forced labour was officially abolished across the French empire in 1946."
+      ],
+      "summary": "After 1896 France ruled the island as a colony and used compulsory labour to build roads and railways and to staff plantations. Coffee, vanilla and gold were exported. Forced labour was officially abolished in 1946.",
+      "sensitive": true,
+      "wikipediaTitle": "French Madagascar",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Madagascar"
+      ]
+    },
+    {
+      "id": "MDG-malagasy-uprising",
+      "title": "Malagasy Uprising",
+      "startYear": 1947,
+      "endYear": 1949,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A nationalist rebellion in March 1947 was met with a brutal military response.",
+        "Estimates of the dead run from about 11,000 to 100,000.",
+        "It is remembered in the country each 29 March."
+      ],
+      "summary": "The Malagasy Uprising began in March 1947 and was put down by French forces by 1949. Estimates of the number of dead range from about 11,000 to 100,000, many from disease and starvation after villages were destroyed.",
+      "sensitive": true,
+      "wikipediaTitle": "Malagasy Uprising",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Malagasy_Uprising"
+      ]
+    },
+    {
+      "id": "MDG-madagascar-plan",
+      "title": "Nazi Madagascar Plan",
+      "startYear": 1940,
+      "endYear": 1940,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "In June 1940 a German diplomat proposed deporting millions of people to a large island off Africa.",
+        "The idea was shelved after Britain was not defeated and the sea lanes remained closed.",
+        "It was a precursor in thinking to the Holocaust."
+      ],
+      "summary": "In June 1940 officials of Nazi Germany drew up the Madagascar Plan to expel Europe's Jews to the island. The plan was never carried out because Germany could not control the sea, and it was formally shelved in 1942 as the Nazi leadership turned to the Final Solution.",
+      "sensitive": true,
+      "wikipediaTitle": "Madagascar Plan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Madagascar_Plan"
+      ]
+    },
+    {
+      "id": "MDG-battle-of-madagascar",
+      "title": "British invasion of Vichy Madagascar",
+      "startYear": 1942,
+      "endYear": 1942,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "In May 1942 British forces landed at a northern port to stop Japan using the island.",
+        "It was one of the largest amphibious operations of the war before D-Day.",
+        "The island was handed to the Free French in 1943."
+      ],
+      "summary": "In May 1942 British and Commonwealth forces invaded Vichy-held Madagascar in Operation Ironclad to deny its ports to the Japanese navy. Fighting ended in November, and administration passed to the Free French in 1943.",
+      "wikipediaTitle": "Battle of Madagascar",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Battle_of_Madagascar"
+      ]
+    }
+  ]
+}
