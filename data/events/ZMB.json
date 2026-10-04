@@ -1,0 +1,130 @@
+{
+  "country": "ZMB",
+  "events": [
+    {
+      "id": "ZMB-lochner-concession",
+      "title": "Lochner Concession",
+      "startYear": 1890,
+      "endYear": 1890,
+      "exploiter": {
+        "label": "the British South Africa Company"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "land",
+        "gold"
+      ],
+      "territoryNames": [
+        "Barotseland"
+      ],
+      "hints": [
+        "In 1890 an agent of a chartered company obtained a treaty from a king upriver in the west.",
+        "The king believed he was getting British protection, but the text gave mining and trading rights away.",
+        "The agent was Frank Lochner, acting for Cecil Rhodes."
+      ],
+      "summary": "In 1890 Frank Lochner, acting for Cecil Rhodes's British South Africa Company, secured a concession from King Lewanika of Barotseland that gave the company mineral and trading rights. Lewanika understood it as a protection arrangement with Britain.",
+      "wikipediaTitle": "Lewanika",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lewanika"
+      ]
+    },
+    {
+      "id": "ZMB-bsac-northern-rhodesia",
+      "title": "British South Africa Company rule",
+      "startYear": 1891,
+      "endYear": 1924,
+      "exploiter": {
+        "label": "the British South Africa Company"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "ivory",
+        "labour"
+      ],
+      "territoryNames": [
+        "North-Western Rhodesia",
+        "North-Eastern Rhodesia",
+        "Northern Rhodesia"
+      ],
+      "hints": [
+        "A private company with a royal charter governed this territory as a business for over three decades.",
+        "It collected taxes and recruited workers for farms and mines in the south.",
+        "The British government took over in 1924 after copper was found."
+      ],
+      "summary": "The British South Africa Company administered the territories north of the Zambezi from the 1890s, collecting taxes and supplying labour. The company's rule ended in 1924, when the British Colonial Office took over as copper mining began to develop.",
+      "wikipediaTitle": "Northern Rhodesia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Northern_Rhodesia"
+      ]
+    },
+    {
+      "id": "ZMB-copperbelt",
+      "title": "Copperbelt mining",
+      "startYear": 1924,
+      "endYear": 1964,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "copper",
+        "labour"
+      ],
+      "hints": [
+        "Rich ore bodies near the border with the neighbouring Congo drew Anglo-American and Rhodesian mining giants.",
+        "African miners were paid far less than European workers, and strikes in 1935 and 1940 were suppressed.",
+        "Copper sales funded much of a wider federation."
+      ],
+      "summary": "From the 1920s, mining companies including Anglo American and the Rhodesian Selection Trust developed the Copperbelt. African miners were paid far less than white workers, and strikes in 1935 and 1940 were met with force. The revenue largely funded the Central African Federation.",
+      "wikipediaTitle": "Northern Rhodesia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Northern_Rhodesia"
+      ]
+    },
+    {
+      "id": "ZMB-kariba-dam-displacement",
+      "title": "Kariba Dam and displacement of the Gwembe Tonga",
+      "startYear": 1955,
+      "endYear": 1959,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A huge dam on the Zambezi was built in the 1950s to power the copper mines.",
+        "The Gwembe Tonga people were moved to make way for the reservoir.",
+        "Police fired on protesters who resisted the move in 1958."
+      ],
+      "summary": "To build the Kariba Dam on the Zambezi, the colonial authorities relocated tens of thousands of Gwembe Tonga people on both sides of the river in 1956-1958. Police shot dead several protesters who resisted the move in 1958.",
+      "sensitive": true,
+      "wikipediaTitle": "Kariba Dam",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kariba_Dam"
+      ]
+    },
+    {
+      "id": "ZMB-rhodesian-raids-zambia",
+      "title": "Rhodesian raids into Zambia",
+      "startYear": 1973,
+      "endYear": 1979,
+      "exploiter": {
+        "label": "Rhodesia"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A white-minority state to the south repeatedly attacked guerrilla bases across the river from the early 1970s.",
+        "In 1979 it struck at the capital itself.",
+        "The host government supported liberation movements fighting the raiders."
+      ],
+      "summary": "During the Rhodesian Bush War, Rhodesia raided guerrilla camps run by ZAPU and others in Zambia, culminating in air and ground attacks in 1978 and 1979, including strikes on Lusaka. The raids killed many refugees and civilians.",
+      "sensitive": true,
+      "wikipediaTitle": "Rhodesian Bush War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rhodesian_Bush_War"
+      ]
+    }
+  ]
+}

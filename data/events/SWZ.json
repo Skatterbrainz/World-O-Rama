@@ -1,0 +1,76 @@
+{
+  "country": "SWZ",
+  "events": [
+    {
+      "id": "SWZ-mbandzeni-concessions",
+      "title": "Concessions granted to European prospectors",
+      "startYear": 1875,
+      "endYear": 1889,
+      "exploiter": {
+        "label": "European concessionaires"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "land",
+        "gold"
+      ],
+      "hints": [
+        "In the 1880s a king granted European speculators rights over land, minerals and even monopolies.",
+        "The grants were often vague and overlapping, and many were signed with little understanding of the terms.",
+        "By his death in 1889 much of the kingdom was claimed by outsiders."
+      ],
+      "summary": "During the reign of Mbandzeni, European concession seekers obtained rights over land, grazing, minerals and trading monopolies, often in vague and overlapping grants. By the time of his death in 1889 much of the kingdom's land was claimed by concessionaires.",
+      "wikipediaTitle": "Mbandzeni",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mbandzeni"
+      ]
+    },
+    {
+      "id": "SWZ-south-african-republic-protectorate",
+      "title": "Joint rule and Boer protectorate",
+      "startYear": 1890,
+      "endYear": 1899,
+      "exploiter": {
+        "label": "the South African Republic"
+      },
+      "type": "colonization",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A provisional government dominated by outside powers was set up in 1890 to deal with the concessions.",
+        "In 1894 a Boer republic was given powers of protection and administration.",
+        "The arrangement ended with the outbreak of the Second Boer War."
+      ],
+      "summary": "After a joint administration in 1890 failed, the 1894 convention gave the Boer South African Republic the right to protect and administer the kingdom. The arrangement collapsed in 1899 when the Second Boer War began, and Britain took over.",
+      "wikipediaTitle": "History of Eswatini",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Eswatini"
+      ]
+    },
+    {
+      "id": "SWZ-british-protectorate-swaziland",
+      "title": "British protectorate and the Concession Partition Act",
+      "startYear": 1903,
+      "endYear": 1968,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "labour"
+      ],
+      "hints": [
+        "After the Boer War, Britain took over the kingdom and settled the concession claims.",
+        "A 1907 law gave the concessionaires the larger share of the land and left the local people with the rest.",
+        "Many men worked in the mines of the neighbouring country."
+      ],
+      "summary": "After the Second Boer War Britain made the kingdom a protectorate in 1903. A 1907 Concession Partition Act settled the concession disputes by giving European concessionaires the larger share of the land. Many Swazi men migrated to work in South African mines until independence in 1968.",
+      "wikipediaTitle": "History of Eswatini",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Eswatini"
+      ]
+    }
+  ]
+}

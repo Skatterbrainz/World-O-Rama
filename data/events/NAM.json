@@ -1,0 +1,163 @@
+{
+  "country": "NAM",
+  "events": [
+    {
+      "id": "NAM-german-south-west-africa",
+      "title": "German South West Africa",
+      "startYear": 1884,
+      "endYear": 1915,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "livestock",
+        "diamonds",
+        "copper"
+      ],
+      "territoryNames": [
+        "German South West Africa"
+      ],
+      "hints": [
+        "A Bremen merchant bought a coastal strip in 1883, and Germany declared a protectorate the following year.",
+        "Settlers took vast tracts of grazing land from local herders.",
+        "Diamonds were found near the coast in 1908."
+      ],
+      "summary": "Germany declared a protectorate in 1884 after the merchant Adolf Lüderitz acquired land at Angra Pequena. Settlers took large areas of pastoral land, and diamonds discovered near Lüderitz in 1908 became a major export. South African forces occupied the colony in 1915.",
+      "wikipediaTitle": "German South West Africa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/German_South_West_Africa"
+      ]
+    },
+    {
+      "id": "NAM-herero-nama-genocide",
+      "title": "Herero and Nama genocide",
+      "startYear": 1904,
+      "endYear": 1908,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "livestock"
+      ],
+      "hints": [
+        "Two pastoral peoples rose up against land seizures in 1904.",
+        "A German general issued an extermination order against one of them.",
+        "Survivors were sent to concentration camps, and Germany formally acknowledged a genocide in 2021."
+      ],
+      "summary": "After the Herero and Nama rose against German rule in 1904, German forces under Lothar von Trotha drove the Herero into the desert and issued an extermination order. Survivors were held in concentration camps. Germany formally acknowledged the genocide in 2021.",
+      "sensitive": true,
+      "wikipediaTitle": "Herero and Nama genocide",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Herero_and_Nama_genocide"
+      ]
+    },
+    {
+      "id": "NAM-ichaboe-guano-rush",
+      "title": "Ichaboe guano rush",
+      "startYear": 1843,
+      "endYear": 1845,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "guano"
+      ],
+      "hints": [
+        "In 1843 hundreds of ships crowded around a rocky islet off a desert coast to dig seabird droppings.",
+        "Guano was prized as an agricultural fertiliser.",
+        "The deposit was largely stripped within about two years."
+      ],
+      "summary": "In 1843 a guano rush began on Ichaboe Island, where hundreds of ships, many British, loaded seabird droppings for use as fertiliser. The deposit was largely exhausted within two years.",
+      "quip": "Hundreds of ships fought over seabird droppings, a good reminder of what empire was often really about.",
+      "wikipediaTitle": "Ichaboe Island",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ichaboe_Island"
+      ]
+    },
+    {
+      "id": "NAM-south-african-rule",
+      "title": "South African occupation of South West Africa",
+      "startYear": 1915,
+      "endYear": 1990,
+      "exploiter": {
+        "label": "South Africa"
+      },
+      "type": "occupation",
+      "resources": [
+        "diamonds",
+        "uranium",
+        "fish",
+        "copper"
+      ],
+      "territoryNames": [
+        "South West Africa"
+      ],
+      "hints": [
+        "After a League of Nations mandate in 1920, a neighbouring state treated the territory as a fifth province.",
+        "It refused to give up control even after the UN revoked its mandate in 1966.",
+        "Apartheid laws were applied, and uranium and diamonds were mined."
+      ],
+      "summary": "South Africa took the colony from Germany in 1915 and ruled it under a League of Nations mandate, applying apartheid laws. After the UN revoked the mandate in 1966 it held the territory illegally until independence in 1990, exploiting diamonds, uranium, copper and fisheries.",
+      "wikipediaTitle": "South West Africa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/South_West_Africa"
+      ]
+    },
+    {
+      "id": "NAM-ovambo-contract-labour",
+      "title": "Contract labour system",
+      "startYear": 1925,
+      "endYear": 1972,
+      "exploiter": {
+        "label": "South Africa"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "labour",
+        "diamonds",
+        "copper"
+      ],
+      "hints": [
+        "Men from the densely populated north were recruited on fixed contracts for mines and farms in the south.",
+        "They could not bring their families or change employers.",
+        "A mass strike in 1971-72 forced reforms."
+      ],
+      "summary": "A migrant contract labour system recruited men from Ovamboland for mines and farms in the south under strict conditions, without family accompaniment or freedom to change employer. A general strike in 1971-1972 forced concessions.",
+      "sensitive": true,
+      "wikipediaTitle": "Ovamboland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ovamboland"
+      ]
+    },
+    {
+      "id": "NAM-border-war",
+      "title": "South African Border War",
+      "startYear": 1966,
+      "endYear": 1990,
+      "exploiter": {
+        "label": "South Africa"
+      },
+      "type": "proxy_war",
+      "resources": [
+        "uranium",
+        "diamonds"
+      ],
+      "hints": [
+        "A liberation movement began an armed struggle against an illegal occupier in 1966.",
+        "The conflict spilled into a northern neighbour and drew in Cuban troops.",
+        "A 1988 agreement set the stage for independence in 1990."
+      ],
+      "summary": "From 1966 SWAPO fought South African forces in a conflict that spread to Angola and involved Cuban and Soviet support on one side and US-backed UNITA on the other. The 1988 New York Accords led to UN-supervised elections and independence in 1990.",
+      "sensitive": true,
+      "wikipediaTitle": "South African Border War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/South_African_Border_War"
+      ]
+    }
+  ]
+}
