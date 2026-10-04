@@ -1,0 +1,234 @@
+{
+  "country": "UKR",
+  "events": [
+    {
+      "id": "UKR-mongol-sack-kyiv",
+      "title": "Mongol sack of Kyiv",
+      "startYear": 1240,
+      "endYear": 1240,
+      "exploiter": {
+        "label": "the Mongol Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "After a siege in December 1240 a great medieval capital on the Dnieper was destroyed.",
+        "A hill fortress fell after days of bombardment by siege engines."
+      ],
+      "summary": "Batu Khan's Mongol army besieged Kyiv in the winter of 1240 and took the city on 6 December after heavy bombardment. The sack devastated the former capital of Rus', and a large part of the population was killed or enslaved.",
+      "sensitive": true,
+      "wikipediaTitle": "Siege of Kiev (1240)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siege_of_Kiev_(1240)"
+      ]
+    },
+    {
+      "id": "UKR-crimean-slave-raids",
+      "title": "Crimean slave raids",
+      "startYear": 1500,
+      "endYear": 1700,
+      "exploiter": {
+        "label": "the Crimean Khanate"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves"
+      ],
+      "hints": [
+        "Mounted raiders from the south drove captives across the steppe to a Black Sea port.",
+        "The market at Kaffa in the Crimea was one of the largest slave markets in Europe."
+      ],
+      "summary": "From the 15th to the 18th century, Tatar horsemen of the Crimean Khanate raided the Ukrainian, Russian and Polish lands, carrying captives to be sold at slave markets such as Kaffa. Estimates of the number taken run into the millions over several centuries.",
+      "sensitive": true,
+      "wikipediaTitle": "Crimean–Nogai slave raids in Eastern Europe",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Crimean%E2%80%93Nogai_slave_raids_in_Eastern_Europe"
+      ]
+    },
+    {
+      "id": "UKR-union-of-lublin",
+      "title": "Union of Lublin and Polish rule",
+      "startYear": 1569,
+      "endYear": 1648,
+      "exploiter": {
+        "label": "the Polish-Lithuanian Commonwealth"
+      },
+      "type": "other",
+      "resources": [
+        "grain",
+        "land"
+      ],
+      "hints": [
+        "A union in 1569 moved the central lands from a grand duchy to the crown of a neighbouring kingdom.",
+        "Great estates grew rich on grain exported down the Vistula."
+      ],
+      "summary": "In 1569 the Union of Lublin transferred Volhynia, Podolia, Bratslav and Kyiv from the Grand Duchy of Lithuania to the Polish crown. Magnates acquired huge estates worked by serfs, and the grain trade and religious and social tension contributed to the Cossack uprising of 1648.",
+      "wikipediaTitle": "Union of Lublin",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Union_of_Lublin"
+      ]
+    },
+    {
+      "id": "UKR-galicia-habsburg",
+      "title": "Habsburg Galicia",
+      "startYear": 1772,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "the Habsburg Monarchy"
+      },
+      "type": "annexation",
+      "resources": [
+        "salt",
+        "land"
+      ],
+      "territoryNames": [
+        "the Kingdom of Galicia and Lodomeria"
+      ],
+      "hints": [
+        "A first partition of a neighbouring kingdom in 1772 created a new Habsburg crown land.",
+        "The province became known as one of the poorest in the empire."
+      ],
+      "summary": "In the First Partition of Poland in 1772 Austria acquired the Kingdom of Galicia and Lodomeria, including Lviv. It was known as one of the poorest provinces of the empire, with a state salt monopoly, and was lost at the end of the First World War.",
+      "wikipediaTitle": "Kingdom of Galicia and Lodomeria",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kingdom_of_Galicia_and_Lodomeria"
+      ]
+    },
+    {
+      "id": "UKR-valuev-ems-bans",
+      "title": "Valuev Circular and Ems Ukaz",
+      "startYear": 1863,
+      "endYear": 1905,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "An 1863 circular declared that a language spoken by millions had never existed.",
+        "An 1876 decree banned publishing and stage performances in it."
+      ],
+      "summary": "The 1863 Valuev Circular restricted publishing in Ukrainian, claiming there had never been a separate 'Little Russian' language. The Ems Ukaz of 1876 further banned printing, theatre and music in the language, and the bans were relaxed only after the 1905 revolution.",
+      "quip": "An official declaration that a language of millions did not exist.",
+      "wikipediaTitle": "Valuev Circular",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Valuev_Circular"
+      ]
+    },
+    {
+      "id": "UKR-german-occupation-1918",
+      "title": "Occupation by the Central Powers",
+      "startYear": 1918,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "grain"
+      ],
+      "hints": [
+        "After the 'bread peace' of February 1918 foreign troops moved in to collect food.",
+        "A hetman installed with foreign backing ruled until November 1918."
+      ],
+      "summary": "After the Treaty of Brest-Litovsk with the Ukrainian People's Republic in February 1918, German and Austro-Hungarian troops occupied the country to secure grain deliveries. In April 1918 Germany backed a coup that installed Hetman Pavlo Skoropadskyi until the end of the war.",
+      "wikipediaTitle": "Ukrainian State",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ukrainian_State"
+      ]
+    },
+    {
+      "id": "UKR-holodomor",
+      "title": "Holodomor",
+      "startYear": 1932,
+      "endYear": 1933,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "engineered_famine",
+      "resources": [
+        "grain"
+      ],
+      "hints": [
+        "Grain quotas, blacklisted villages and sealed borders turned a bad harvest into a catastrophe.",
+        "Many countries now recognise it as a genocide, though historians debate the intent."
+      ],
+      "summary": "In 1932–33 Soviet grain procurement quotas, the blacklisting of villages and restrictions on movement led to a famine in the Ukrainian SSR that killed an estimated 3.5 to 5 million people. Ukraine and many other countries recognise it as a genocide, while historians continue to debate its intent.",
+      "sensitive": true,
+      "wikipediaTitle": "Holodomor",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Holodomor"
+      ]
+    },
+    {
+      "id": "UKR-nazi-occupation",
+      "title": "Nazi German occupation",
+      "startYear": 1941,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "grain",
+        "labour"
+      ],
+      "hints": [
+        "A civil administration split the country into districts, with a capital at Rivne.",
+        "In late September 1941 about 34,000 Jews were shot in a ravine outside Kyiv."
+      ],
+      "summary": "German forces occupied the country from 1941 and ruled most of it through the Reichskommissariat Ukraine, extracting grain and deporting several million people as forced labourers. Mass killings of Jews and others included Babi Yar in September 1941.",
+      "sensitive": true,
+      "wikipediaTitle": "Reichskommissariat Ukraine",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Reichskommissariat_Ukraine"
+      ]
+    },
+    {
+      "id": "UKR-crimea-annexation-2014",
+      "title": "Annexation of Crimea",
+      "startYear": 2014,
+      "endYear": 2026,
+      "exploiter": {
+        "label": "the Russian Federation"
+      },
+      "type": "annexation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "Unmarked troops took control of the peninsula's parliament in February 2014.",
+        "A UN General Assembly resolution affirmed the country's territorial integrity."
+      ],
+      "summary": "In February and March 2014 Russian forces took control of Crimea and, after a referendum not recognised internationally, Russia declared it annexed. UN General Assembly Resolution 68/262 affirmed Ukraine's territorial integrity, and most states do not recognise the annexation.",
+      "sensitive": true,
+      "wikipediaTitle": "Annexation of Crimea by the Russian Federation",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation"
+      ]
+    },
+    {
+      "id": "UKR-russian-invasion-2022",
+      "title": "Full-scale Russian invasion",
+      "startYear": 2022,
+      "endYear": 2026,
+      "exploiter": {
+        "label": "the Russian Federation"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A large-scale offensive from three directions began on 24 February 2022.",
+        "The UN General Assembly demanded a withdrawal in March 2022."
+      ],
+      "summary": "Russia launched a full-scale invasion on 24 February 2022 and occupied parts of the south and east. The UN General Assembly demanded its withdrawal, and the war has caused large numbers of civilian deaths and millions of refugees.",
+      "sensitive": true,
+      "wikipediaTitle": "Russian invasion of Ukraine",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine"
+      ]
+    }
+  ]
+}
