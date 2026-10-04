@@ -1,0 +1,119 @@
+{
+  "country": "DNK",
+  "events": [
+    {
+      "id": "DNK-swedish-invasion-roskilde",
+      "title": "Swedish invasion and the Treaty of Roskilde",
+      "startYear": 1657,
+      "endYear": 1658,
+      "exploiter": {
+        "label": "Sweden"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "An army marched across frozen straits in the winter of 1658 to reach the capital's doorstep.",
+        "A treaty signed in February 1658 gave away the provinces on the far side of the Sound."
+      ],
+      "summary": "During the Second Northern War, King Charles X Gustav marched his army across the frozen Belts in early 1658 and forced Denmark to sign the Treaty of Roskilde. Denmark ceded Scania, Halland, Blekinge, Bornholm and Bohuslan, as well as Trondheim in Norway.",
+      "quip": "When the sea freezes over, certain kings get ideas.",
+      "wikipediaTitle": "Treaty of Roskilde",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaty_of_Roskilde"
+      ]
+    },
+    {
+      "id": "DNK-copenhagen-1807",
+      "title": "British bombardment of Copenhagen",
+      "startYear": 1807,
+      "endYear": 1807,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A neutral navy's ships were demanded as a 'deposit' by an overseas power in 1807.",
+        "A fleet and army bombarded the capital for several days in September."
+      ],
+      "summary": "Fearing the Danish fleet would be used by Napoleon, Britain demanded its surrender in 1807, and when it was refused, bombarded Copenhagen for several days. About 2,000 civilians were killed and the British carried off the Danish fleet.",
+      "sensitive": true,
+      "wikipediaTitle": "Second Battle of Copenhagen",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Second_Battle_of_Copenhagen"
+      ]
+    },
+    {
+      "id": "DNK-treaty-of-kiel",
+      "title": "Treaty of Kiel",
+      "startYear": 1814,
+      "endYear": 1814,
+      "exploiter": {
+        "label": "Sweden"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "land",
+        "fish",
+        "timber"
+      ],
+      "hints": [
+        "An ally of the losing side had to hand a kingdom to its old rival in January 1814.",
+        "An Atlantic outpost that the treaty exempted later became a self-governing territory of the loser."
+      ],
+      "summary": "After Napoleon's defeat, the Treaty of Kiel in January 1814 forced Denmark to cede Norway to the Swedish crown, while keeping Iceland, Greenland and the Faroe Islands. Heligoland went to Britain, and Denmark received Swedish Pomerania, which it exchanged for Lauenburg.",
+      "wikipediaTitle": "Treaty of Kiel",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaty_of_Kiel"
+      ]
+    },
+    {
+      "id": "DNK-second-schleswig-war",
+      "title": "Second Schleswig War",
+      "startYear": 1864,
+      "endYear": 1864,
+      "exploiter": {
+        "label": "Prussia"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "Two German powers attacked the kingdom's southern duchies in the winter of 1864.",
+        "The Dybbol fortifications fell in April, and about two fifths of the kingdom's land was lost."
+      ],
+      "summary": "In 1864 Prussia and Austria invaded after a dispute over the Danish crown's constitutional ties to the duchies of Schleswig and Holstein. The defeat at Dybbol led to the cession of Schleswig, Holstein and Lauenburg, around two fifths of the kingdom's territory.",
+      "wikipediaTitle": "Second Schleswig War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Second_Schleswig_War"
+      ]
+    },
+    {
+      "id": "DNK-german-occupation-ww2",
+      "title": "German occupation",
+      "startYear": 1940,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "livestock",
+        "grain",
+        "labour"
+      ],
+      "hints": [
+        "A surprise attack at dawn on 9 April 1940 ended resistance within hours.",
+        "Farms supplied much of the occupier's food, and the government cooperated until 1943."
+      ],
+      "summary": "Germany invaded on 9 April 1940 and the Danish government accepted its demands, remaining in office until 1943. The country's agricultural output was exported to Germany in large quantities, and the occupation ended in May 1945.",
+      "wikipediaTitle": "Occupation of Denmark",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occupation_of_Denmark"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "country": "ISL",
+  "events": [
+    {
+      "id": "ISL-old-covenant",
+      "title": "Old Covenant with the Norwegian crown",
+      "startYear": 1262,
+      "endYear": 1264,
+      "exploiter": {
+        "label": "Norway"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "After decades of feuding, chieftains swore allegiance to a foreign king, who had cut off trade.",
+        "The agreement of 1262 brought an end to the Commonwealth period."
+      ],
+      "summary": "Under pressure from King Haakon IV of Norway, the Icelandic chieftains agreed in 1262–64 to pay taxes and accept the Norwegian king as ruler in the Old Covenant. The decision ended the independent medieval commonwealth.",
+      "wikipediaTitle": "History of Iceland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Iceland"
+      ]
+    },
+    {
+      "id": "ISL-danish-trade-monopoly",
+      "title": "Danish trade monopoly",
+      "startYear": 1602,
+      "endYear": 1787,
+      "exploiter": {
+        "label": "Denmark"
+      },
+      "type": "other",
+      "resources": [
+        "fish",
+        "wool",
+        "trade_routes"
+      ],
+      "hints": [
+        "From 1602 only licensed merchants from one kingdom could trade with the island.",
+        "Fish and woollen goods were exported at prices fixed by the crown."
+      ],
+      "summary": "From 1602 until 1787 only Danish merchants licensed by the crown could trade with Iceland, buying fish and woollen goods at fixed prices and supplying imports. The monopoly was gradually relaxed in the late 18th century.",
+      "quip": "A shop with one supplier, one customer, and a king as the shopkeeper.",
+      "wikipediaTitle": "History of Iceland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Iceland"
+      ]
+    },
+    {
+      "id": "ISL-turkish-abductions",
+      "title": "Barbary corsair raids",
+      "startYear": 1627,
+      "endYear": 1627,
+      "exploiter": {
+        "label": "the Barbary corsairs"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves"
+      ],
+      "hints": [
+        "Ships from North Africa landed in the south and the east of the island in the summer of 1627.",
+        "Several hundred captives were taken to Algiers, and a few were ransomed in the 1630s."
+      ],
+      "summary": "In 1627 corsairs from Algiers raided the Westman Islands and parts of the east coast, killing some inhabitants and carrying off roughly 400 people to be sold into slavery in North Africa. A small number were ransomed years later.",
+      "sensitive": true,
+      "wikipediaTitle": "Turkish Abductions",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Turkish_Abductions"
+      ]
+    },
+    {
+      "id": "ISL-british-invasion-1940",
+      "title": "British invasion and Allied occupation",
+      "startYear": 1940,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A neutral island was invaded without warning in the spring of 1940.",
+        "Troops from another great power took over the garrison in 1941."
+      ],
+      "summary": "Britain invaded the neutral island on 10 May 1940 to prevent a German landing and to secure a naval base in the North Atlantic. American forces took over its defence from 1941, and US troops remained after the war.",
+      "wikipediaTitle": "Invasion of Iceland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Invasion_of_Iceland"
+      ]
+    },
+    {
+      "id": "ISL-cod-wars",
+      "title": "Cod Wars",
+      "startYear": 1958,
+      "endYear": 1976,
+      "exploiter": {
+        "label": "the United Kingdom"
+      },
+      "type": "other",
+      "resources": [
+        "fish"
+      ],
+      "hints": [
+        "Warships escorted trawlers into waters claimed by a small neighbour in 1958 and again in the 1970s.",
+        "A coastguard ship cut the nets of foreign fishing boats."
+      ],
+      "summary": "Between 1958 and 1976 Britain sent trawlers escorted by Royal Navy ships to fish inside the expanding fishing limits that Iceland declared, in three disputes known as the Cod Wars. Iceland won recognition of a 200-mile limit in 1976.",
+      "quip": "Frigates deployed to defend the supply of fish and chips.",
+      "wikipediaTitle": "Cod Wars",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cod_Wars"
+      ]
+    }
+  ]
+}

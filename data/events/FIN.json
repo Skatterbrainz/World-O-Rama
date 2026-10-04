@@ -1,0 +1,162 @@
+{
+  "country": "FIN",
+  "events": [
+    {
+      "id": "FIN-swedish-rule",
+      "title": "Swedish rule",
+      "startYear": 1150,
+      "endYear": 1809,
+      "exploiter": {
+        "label": "Sweden"
+      },
+      "type": "colonization",
+      "resources": [
+        "timber"
+      ],
+      "hints": [
+        "Crusading expeditions and settlers from across the Gulf of Bothnia brought the region under a western crown.",
+        "It was ceded to an eastern empire in 1809 after nearly seven centuries."
+      ],
+      "summary": "From the 12th and 13th centuries Swedish crusades and settlement brought most of the area under the Swedish crown, which ruled it until 1809. Swedish law, church and taxes were extended, and Finns supplied soldiers and goods such as timber.",
+      "wikipediaTitle": "Finland under Swedish rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Finland_under_Swedish_rule"
+      ]
+    },
+    {
+      "id": "FIN-greater-wrath",
+      "title": "Russian occupation: the Greater Wrath",
+      "startYear": 1713,
+      "endYear": 1721,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "After the defeat at Helsinki in 1713 the country was occupied for eight years.",
+        "Civilians fled across the sea while the occupiers raided the countryside."
+      ],
+      "summary": "During the Great Northern War, Russian forces occupied Finland from 1713 to 1721, a period known as the Greater Wrath. Many civilians fled to Sweden, towns and farms were destroyed or looted, and the occupation ended with the Treaty of Nystad.",
+      "sensitive": true,
+      "wikipediaTitle": "Greater Wrath",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Greater_Wrath"
+      ]
+    },
+    {
+      "id": "FIN-lesser-wrath",
+      "title": "Russian occupation: the Lesser Wrath",
+      "startYear": 1741,
+      "endYear": 1743,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A revenge war was lost by one side within a few months, and the south-east of the country was seized.",
+        "A treaty at Abo in 1743 forced the cession of a border strip."
+      ],
+      "summary": "The Russo-Swedish War of 1741–43 led to a second Russian occupation of Finland, called the Lesser Wrath. The Treaty of Abo in 1743 ceded part of south-eastern Finland to Russia.",
+      "wikipediaTitle": "Lesser Wrath",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lesser_Wrath"
+      ]
+    },
+    {
+      "id": "FIN-grand-duchy",
+      "title": "Russian conquest and the Grand Duchy",
+      "startYear": 1808,
+      "endYear": 1917,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "annexation",
+      "resources": [
+        "strategic_location",
+        "timber"
+      ],
+      "hints": [
+        "A surprise winter attack in February 1808 began the conquest.",
+        "A treaty at Fredrikshamn in 1809 created a grand duchy under the tsar."
+      ],
+      "summary": "Russia invaded in February 1808 during the Finnish War, and the Treaty of Fredrikshamn in 1809 ceded Finland, which became an autonomous grand duchy under the Russian emperor. The arrangement lasted until independence in December 1917.",
+      "wikipediaTitle": "Grand Duchy of Finland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Grand_Duchy_of_Finland"
+      ]
+    },
+    {
+      "id": "FIN-russification",
+      "title": "Russification of Finland",
+      "startYear": 1899,
+      "endYear": 1917,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A manifesto in February 1899 curtailed the grand duchy's lawmaking powers.",
+        "A conscription law in 1901 abolished the national army."
+      ],
+      "summary": "From the February Manifesto of 1899, Russia tried to curb Finnish autonomy, limiting legislation, imposing Russian as an official language and abolishing the national army in 1901. Resistance was strong, and the policy eased after the 1905 general strike before resuming in 1908.",
+      "quip": "An empire's attempt to tighten its grip on a duchy that had been left alone for ninety years.",
+      "wikipediaTitle": "Russification of Finland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Russification_of_Finland"
+      ]
+    },
+    {
+      "id": "FIN-winter-war",
+      "title": "Winter War",
+      "startYear": 1939,
+      "endYear": 1940,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "timber"
+      ],
+      "hints": [
+        "An attack on 30 November 1939 followed a staged border incident at Mainila.",
+        "A peace treaty in March 1940 took the second city and about a tenth of the territory."
+      ],
+      "summary": "The Soviet Union invaded on 30 November 1939 after Finland refused demands for territory near Leningrad. After three and a half months the Moscow Peace Treaty ceded the Karelian Isthmus, Vyborg and other regions, roughly a tenth of the territory.",
+      "wikipediaTitle": "Winter War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Winter_War"
+      ]
+    },
+    {
+      "id": "FIN-porkkala-lease",
+      "title": "Soviet naval base at Porkkala",
+      "startYear": 1944,
+      "endYear": 1956,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "other",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "An armistice forced a country to lease a peninsula only 30 km from its capital.",
+        "The lease was meant to last fifty years but ended after twelve."
+      ],
+      "summary": "Under the armistice of 1944, Finland had to lease the Porkkala peninsula to the Soviet Union for 50 years as a naval base, and about 7,000 residents were evacuated. The Soviet Union returned it in January 1956.",
+      "quip": "A fifty-year lease that was cut short at twelve.",
+      "wikipediaTitle": "Porkkala Naval Base",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Porkkala_Naval_Base"
+      ]
+    }
+  ]
+}
