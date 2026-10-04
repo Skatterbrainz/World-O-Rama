@@ -108,6 +108,24 @@
       "sensitive": true,
       "wikipediaTitle": "Burma Railway",
       "sources": ["https://en.wikipedia.org/wiki/Burma_Railway"]
+    },
+    {
+      "id": "MMR-kmt-operation-paper",
+      "title": "CIA support for Kuomintang remnants",
+      "startYear": 1950,
+      "endYear": 1953,
+      "exploiter": { "label": "the CIA" },
+      "type": "proxy_war",
+      "resources": [],
+      "hints": [
+        "Defeated soldiers from a neighbouring civil war crossed the border in 1949 and 1950 and stayed.",
+        "A CIA-run programme called Operation Paper airlifted arms to them through a neighbouring kingdom's airfields.",
+        "The government appealed to the United Nations in 1953, and a four-nation commission negotiated an evacuation."
+      ],
+      "summary": "From 1950 Chinese Nationalist troops under General Li Mi, who had fled into the Shan States, were supplied under Operation Paper, a programme approved by President Truman and run by the CIA's Office of Policy Coordination through Thailand using cover companies and Civil Air Transport aircraft. Their failed incursions into Yunnan in 1951 and 1952 strained relations, and Burma appealed to the United Nations in 1953.",
+      "quip": "Operation Paper was covert enough to fool the State Department, though not the host government.",
+      "wikipediaTitle": "Kuomintang in Burma",
+      "sources": ["https://en.wikipedia.org/wiki/Kuomintang_in_Burma", "https://library.fes.de/libalt/journals/swetsfulltext/11448875.pdf"]
     }
   ]
 }
