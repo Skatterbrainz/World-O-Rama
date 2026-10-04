@@ -1,0 +1,55 @@
+{
+  "country": "PER",
+  "events": [
+    {
+      "id": "PER-spanish-conquest",
+      "title": "Spanish conquest and the Viceroyalty",
+      "startYear": 1532,
+      "endYear": 1821,
+      "exploiter": { "label": "Spain" },
+      "type": "colonization",
+      "resources": ["silver", "gold", "labour"],
+      "territoryNames": ["the Viceroyalty of Peru"],
+      "hints": [
+        "An emperor was captured in 1532 and ransomed with a room filled with gold.",
+        "Its capital became the seat of Spain's South American empire."
+      ],
+      "summary": "Francisco Pizarro captured the Inca ruler Atahualpa in 1532 and, after the ransom, had him executed. Spain ruled the territory as a viceroyalty for nearly three centuries, extracting silver and gold and drafting indigenous labour.",
+      "sensitive": true,
+      "wikipediaTitle": "Spanish conquest of Peru",
+      "sources": ["https://en.wikipedia.org/wiki/Spanish_conquest_of_Peru"]
+    },
+    {
+      "id": "PER-chincha-islands-war",
+      "title": "Spanish seizure of the Chincha Islands",
+      "startYear": 1864,
+      "endYear": 1866,
+      "exploiter": { "label": "Spain" },
+      "type": "other",
+      "resources": ["guano"],
+      "hints": [
+        "A European power seized offshore islands rich in bird droppings in 1864."
+      ],
+      "summary": "In April 1864 a Spanish naval squadron occupied the Chincha Islands, the source of most of the country's guano income. The episode led to the Chincha Islands War against Spain, which ended without recovery of Spanish control.",
+      "quip": "Few wars have been fought quite so directly over fertilizer.",
+      "wikipediaTitle": "Chincha Islands War",
+      "sources": ["https://en.wikipedia.org/wiki/Chincha_Islands_War"]
+    },
+    {
+      "id": "PER-chilean-occupation",
+      "title": "Chilean occupation and loss of Tarapacá",
+      "startYear": 1879,
+      "endYear": 1884,
+      "exploiter": { "label": "Chile" },
+      "type": "occupation",
+      "resources": ["nitrates", "guano", "land"],
+      "hints": [
+        "Its southern provinces were lost together with their nitrate wealth.",
+        "Its capital was occupied from 1881 to 1883."
+      ],
+      "summary": "In the War of the Pacific, Chile defeated the Peruvian and Bolivian forces, occupied Lima from 1881 to 1883 and, under the 1883 Treaty of Ancón, annexed the nitrate-rich province of Tarapacá.",
+      "wikipediaTitle": "War of the Pacific",
+      "sources": ["https://en.wikipedia.org/wiki/War_of_the_Pacific"]
+    }
+  ]
+}

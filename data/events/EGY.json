@@ -1,0 +1,54 @@
+{
+  "country": "EGY",
+  "events": [
+    {
+      "id": "EGY-ottoman-rule",
+      "title": "Ottoman rule",
+      "startYear": 1517,
+      "endYear": 1805,
+      "exploiter": { "label": "the Ottoman Empire" },
+      "type": "colonization",
+      "resources": ["grain", "tribute"],
+      "territoryNames": ["Ottoman Egypt"],
+      "hints": [
+        "Conquered in 1517 after the defeat of the Mamluk sultanate.",
+        "Grain from the Nile valley was shipped annually to feed holy cities and the imperial capital."
+      ],
+      "summary": "The Ottomans conquered the territory in 1517 and ruled it as a province, taking annual tribute and large grain shipments. Local Mamluk households kept considerable power until Muhammad Ali became governor in 1805.",
+      "wikipediaTitle": "Ottoman Egypt",
+      "sources": ["https://en.wikipedia.org/wiki/Ottoman_Egypt"]
+    },
+    {
+      "id": "EGY-french-expedition",
+      "title": "French campaign",
+      "startYear": 1798,
+      "endYear": 1801,
+      "exploiter": { "label": "France" },
+      "type": "occupation",
+      "resources": ["strategic_location", "grain"],
+      "hints": [
+        "An army arrived in 1798 together with a team of scholars.",
+        "A stone found by soldiers in 1799 later helped decipher hieroglyphs."
+      ],
+      "summary": "Napoleon Bonaparte's army landed in 1798 to threaten British routes to the east. French forces were defeated and withdrew in 1801, but the expedition's scholars produced the Description de l'Égypte and the Rosetta Stone was discovered in 1799.",
+      "wikipediaTitle": "French campaign in Egypt and Syria",
+      "sources": ["https://en.wikipedia.org/wiki/French_campaign_in_Egypt_and_Syria"]
+    },
+    {
+      "id": "EGY-british-occupation",
+      "title": "British occupation of the Nile valley",
+      "startYear": 1882,
+      "endYear": 1956,
+      "exploiter": { "label": "the British Empire" },
+      "type": "occupation",
+      "resources": ["cotton", "trade_routes", "strategic_location"],
+      "hints": [
+        "A debt crisis and a nationalist revolt in 1882 brought an invasion fleet.",
+        "Cotton and a famous canal made it a prize."
+      ],
+      "summary": "After a financial crisis and the Urabi revolt, British forces seized control in 1882 to protect the Suez Canal and the cotton economy. Britain remained the effective power, through a protectorate from 1914 and troop presence, until the last troops left in 1956.",
+      "wikipediaTitle": "British occupation of Egypt",
+      "sources": ["https://en.wikipedia.org/wiki/British_occupation_of_Egypt"]
+    }
+  ]
+}

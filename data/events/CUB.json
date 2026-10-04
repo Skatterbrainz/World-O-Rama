@@ -1,0 +1,40 @@
+{
+  "country": "CUB",
+  "events": [
+    {
+      "id": "CUB-spanish-sugar-colony",
+      "title": "Spanish colonial sugar economy",
+      "startYear": 1511,
+      "endYear": 1898,
+      "exploiter": { "label": "Spain" },
+      "type": "colonization",
+      "resources": ["sugar", "tobacco", "slaves"],
+      "territoryNames": ["Spanish Cuba"],
+      "hints": [
+        "A Caribbean island held by a European crown for almost four centuries.",
+        "By the 19th century plantations of sugar and enslaved labour dominated its economy."
+      ],
+      "summary": "Spain colonised the island from 1511 and ruled it until 1898. In the 19th century sugar plantations worked by hundreds of thousands of enslaved Africans made it one of the world's largest sugar producers. Spanish rule ended after the Spanish-American War.",
+      "sensitive": true,
+      "wikipediaTitle": "Captaincy General of Cuba",
+      "sources": ["https://en.wikipedia.org/wiki/Captaincy_General_of_Cuba"]
+    },
+    {
+      "id": "CUB-platt-amendment",
+      "title": "Platt Amendment and the Guantánamo lease",
+      "startYear": 1901,
+      "endYear": 1934,
+      "exploiter": { "label": "the United States" },
+      "type": "unequal_treaty",
+      "resources": ["sugar", "land", "strategic_location"],
+      "hints": [
+        "An amendment attached to a new constitution gave a foreign power the right to intervene whenever it saw fit.",
+        "A naval base leased under this arrangement is still held today."
+      ],
+      "summary": "As a condition for ending its military occupation in 1902, the United States made the Platt Amendment part of the Cuban constitution. It gave Washington a right to intervene and led to the 1903 lease of Guantánamo Bay, and was repealed in 1934.",
+      "quip": "Independence, with a footnote the size of a naval base.",
+      "wikipediaTitle": "Platt Amendment",
+      "sources": ["https://en.wikipedia.org/wiki/Platt_Amendment"]
+    }
+  ]
+}

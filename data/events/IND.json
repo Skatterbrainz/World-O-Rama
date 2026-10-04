@@ -1,0 +1,76 @@
+{
+  "country": "IND",
+  "events": [
+    {
+      "id": "IND-company-rule",
+      "title": "East India Company rule",
+      "startYear": 1757,
+      "endYear": 1858,
+      "exploiter": { "label": "the East India Company" },
+      "type": "colonization",
+      "resources": ["cotton", "indigo", "opium", "tea", "land"],
+      "territoryNames": ["Company Raj", "the Bengal Presidency"],
+      "hints": [
+        "A chartered trading corporation governed a subcontinent with its own private army.",
+        "A victory at Plassey in 1757 opened the door to rule.",
+        "A great rebellion in 1857 ended its rule."
+      ],
+      "summary": "Following victory at Plassey in 1757 the English East India Company became the ruling power across large parts of the subcontinent, collecting land revenue and controlling trade in cotton textiles, indigo and opium. The Crown took over after the 1857 rebellion.",
+      "quip": "The only time a shareholder meeting came with an army and a tax code.",
+      "wikipediaTitle": "Company rule in India",
+      "sources": ["https://en.wikipedia.org/wiki/Company_rule_in_India"]
+    },
+    {
+      "id": "IND-british-raj",
+      "title": "The British Raj",
+      "startYear": 1858,
+      "endYear": 1947,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["cotton", "tea", "opium", "indigo", "labour"],
+      "territoryNames": ["the British Raj", "British India"],
+      "hints": [
+        "Rule passed from a trading company to the Crown in 1858.",
+        "Its viceroys governed from Calcutta and then a purpose-built new capital.",
+        "Independence arrived in 1947 together with a painful partition."
+      ],
+      "summary": "From 1858 the subcontinent was governed directly by the British Crown. Raw cotton, tea, indigo and opium flowed to Britain and its markets, while local industries such as handloom textiles declined and recurrent famines took many lives.",
+      "wikipediaTitle": "British Raj",
+      "sources": ["https://en.wikipedia.org/wiki/British_Raj"]
+    },
+    {
+      "id": "IND-bengal-famine-1943",
+      "title": "Bengal famine of 1943",
+      "startYear": 1943,
+      "endYear": 1944,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["rice", "grain"],
+      "hints": [
+        "A wartime famine struck a rice-growing province after a cyclone and the loss of imports.",
+        "Grain exports and requisitions continued while people starved."
+      ],
+      "summary": "An estimated two to three million people died in Bengal in 1943 and 1944. A cyclone, crop disease and the loss of Burmese rice imports triggered the shortage, and wartime policies of the British government, including requisitions, denial policies and continued exports, worsened it.",
+      "sensitive": true,
+      "wikipediaTitle": "Bengal famine of 1943",
+      "sources": ["https://en.wikipedia.org/wiki/Bengal_famine_of_1943"]
+    },
+    {
+      "id": "IND-portuguese-goa",
+      "title": "Portuguese Goa",
+      "startYear": 1510,
+      "endYear": 1961,
+      "exploiter": { "label": "Portugal" },
+      "type": "colonization",
+      "resources": ["spices", "trade_routes"],
+      "territoryNames": ["Portuguese India"],
+      "hints": [
+        "A coastal enclave held by a European crown for more than four centuries.",
+        "It outlasted every other European foothold on the subcontinent and ended only in 1961."
+      ],
+      "summary": "Portugal captured Goa in 1510 and made it the capital of its eastern empire, controlling the spice trade routes. It was the last European colony on the subcontinent, taken by a military operation in December 1961.",
+      "wikipediaTitle": "Portuguese India",
+      "sources": ["https://en.wikipedia.org/wiki/Portuguese_India"]
+    }
+  ]
+}

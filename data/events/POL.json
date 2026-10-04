@@ -1,0 +1,72 @@
+{
+  "country": "POL",
+  "events": [
+    {
+      "id": "POL-partitions-russia",
+      "title": "Partitions of Poland (Russian share)",
+      "startYear": 1772,
+      "endYear": 1915,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "annexation",
+      "resources": ["land"],
+      "territoryNames": ["the Polish–Lithuanian Commonwealth"],
+      "hints": [
+        "A once-vast union of crowns was erased from the map by three neighbours.",
+        "It vanished completely in 1795 and did not reappear as a state for 123 years."
+      ],
+      "summary": "Between 1772 and 1795 Russia, Prussia and Austria partitioned the Polish-Lithuanian Commonwealth until it ceased to exist. Russia took the largest share and ruled it, suppressing uprisings in 1830 and 1863, until German forces displaced it in 1915 and an independent state re-emerged in 1918.",
+      "wikipediaTitle": "Partitions of Poland",
+      "sources": ["https://en.wikipedia.org/wiki/Partitions_of_Poland"]
+    },
+    {
+      "id": "POL-partitions-prussia",
+      "title": "Prussian partition and Germanisation",
+      "startYear": 1772,
+      "endYear": 1918,
+      "exploiter": { "label": "Prussia" },
+      "type": "annexation",
+      "resources": ["land"],
+      "hints": [
+        "Western lands were annexed by a rising German kingdom.",
+        "Schools and settlement policy pushed the language of the ruler."
+      ],
+      "summary": "Prussia took western and northern territory in the partitions and later pursued Germanisation, including the Prussian Settlement Commission, which bought land for German settlers, and restrictions on Polish in schools.",
+      "wikipediaTitle": "Partitions of Poland",
+      "sources": ["https://en.wikipedia.org/wiki/Partitions_of_Poland"]
+    },
+    {
+      "id": "POL-nazi-occupation",
+      "title": "Nazi German occupation",
+      "startYear": 1939,
+      "endYear": 1945,
+      "exploiter": { "label": "Nazi Germany" },
+      "type": "occupation",
+      "resources": ["labour", "land", "grain", "coal"],
+      "territoryNames": ["the General Government"],
+      "hints": [
+        "Invaded on 1 September 1939, triggering a world war.",
+        "A rump administration called the General Government was ruled from Kraków."
+      ],
+      "summary": "Germany invaded on 1 September 1939 and occupied the country until 1945, annexing the west and running the rest as the General Government. Land, industry and labour were seized, and the occupation brought mass killing, including the Holocaust.",
+      "sensitive": true,
+      "wikipediaTitle": "Occupation of Poland (1939–1945)",
+      "sources": ["https://en.wikipedia.org/wiki/Occupation_of_Poland_(1939%E2%80%931945)"]
+    },
+    {
+      "id": "POL-soviet-domination",
+      "title": "Soviet domination of the Polish People's Republic",
+      "startYear": 1945,
+      "endYear": 1989,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "puppet_regime",
+      "resources": ["coal"],
+      "hints": [
+        "A 1945 deal sold its coal to a neighbour at a fraction of the market price.",
+        "Nominally independent, its government answered to Moscow's priorities for the whole Cold War."
+      ],
+      "summary": "After 1945 the country came under Soviet influence, with a Communist government installed and Soviet-aligned security forces. An early agreement supplied Polish coal to the Soviet Union at far below market prices, and the system lasted until 1989.",
+      "wikipediaTitle": "Polish People's Republic",
+      "sources": ["https://en.wikipedia.org/wiki/Polish_People%27s_Republic"]
+    }
+  ]
+}

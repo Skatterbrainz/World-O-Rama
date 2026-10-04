@@ -1,0 +1,55 @@
+{
+  "country": "EST",
+  "events": [
+    {
+      "id": "EST-soviet-annexation-1940",
+      "title": "Soviet occupation and annexation of 1940",
+      "startYear": 1940,
+      "endYear": 1941,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "annexation",
+      "resources": ["land"],
+      "hints": [
+        "Annexed after an ultimatum, bases treaty and rigged elections in the summer of 1940.",
+        "A secret protocol between two dictators had assigned it to a Soviet sphere of influence."
+      ],
+      "summary": "Following the secret protocol of the Molotov-Ribbentrop Pact, the Soviet Union forced military bases on the country in 1939, occupied it in June 1940, held staged elections and annexed it in August 1940.",
+      "wikipediaTitle": "Soviet occupation of the Baltic states (1940)",
+      "sources": ["https://en.wikipedia.org/wiki/Soviet_occupation_of_the_Baltic_states_(1940)"]
+    },
+    {
+      "id": "EST-nazi-occupation",
+      "title": "Nazi German occupation",
+      "startYear": 1941,
+      "endYear": 1944,
+      "exploiter": { "label": "Nazi Germany" },
+      "type": "occupation",
+      "resources": ["oil", "labour"],
+      "hints": [
+        "Occupied after the 1941 invasion of the Soviet Union and run as part of an eastern administrative district.",
+        "Its oil shale industry was taken over for the war effort."
+      ],
+      "summary": "German forces occupied the country in 1941 and incorporated it into the Reichskommissariat Ostland. The oil shale industry and local labour were exploited, and the occupation caused mass repression and the killing of most of the Jewish population.",
+      "sensitive": true,
+      "wikipediaTitle": "German occupation of Estonia during World War II",
+      "sources": ["https://en.wikipedia.org/wiki/German_occupation_of_Estonia_during_World_War_II"]
+    },
+    {
+      "id": "EST-soviet-occupation-postwar",
+      "title": "Soviet occupation 1944 to 1991",
+      "startYear": 1944,
+      "endYear": 1991,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "occupation",
+      "resources": ["oil", "labour", "land"],
+      "hints": [
+        "Tens of thousands were deported in a single March operation in 1949.",
+        "A mass singing movement helped win back independence in 1991."
+      ],
+      "summary": "The Red Army returned in 1944 and the country was incorporated into the Soviet Union for almost five decades. Collectivisation and mass deportations, notably Operation Priboi in March 1949, were followed by industrial development under Moscow's plans, and independence was restored in 1991.",
+      "sensitive": true,
+      "wikipediaTitle": "Baltic states under Soviet rule (1944–1991)",
+      "sources": ["https://en.wikipedia.org/wiki/Baltic_states_under_Soviet_rule_(1944%E2%80%931991)"]
+    }
+  ]
+}

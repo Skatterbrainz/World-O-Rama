@@ -1,0 +1,38 @@
+{
+  "country": "BOL",
+  "events": [
+    {
+      "id": "BOL-potosi-mita",
+      "title": "Potosí silver and the mita labour draft",
+      "startYear": 1545,
+      "endYear": 1825,
+      "exploiter": { "label": "Spain" },
+      "type": "forced_labour",
+      "resources": ["silver", "labour"],
+      "territoryNames": ["Upper Peru", "the Viceroyalty of Peru"],
+      "hints": [
+        "A mountain of silver financed an empire and consumed the lives of conscripted miners.",
+        "A rotating labour draft inherited from an earlier empire sent men to the mines."
+      ],
+      "summary": "After silver was found at Cerro Rico in 1545, Potosí became one of the world's largest cities. Spain used the mita, a rotating labour draft adapted from Inca practice, to supply miners, and the silver shaped the global economy until independence.",
+      "wikipediaTitle": "Potosí",
+      "sources": ["https://en.wikipedia.org/wiki/Potos%C3%AD"]
+    },
+    {
+      "id": "BOL-war-of-the-pacific",
+      "title": "War of the Pacific and the loss of the coast",
+      "startYear": 1879,
+      "endYear": 1884,
+      "exploiter": { "label": "Chile" },
+      "type": "annexation",
+      "resources": ["nitrates", "guano", "land"],
+      "hints": [
+        "A dispute over a tax on nitrate exports ended with the loss of all ocean access.",
+        "It has been landlocked ever since."
+      ],
+      "summary": "A dispute over taxes on Chilean nitrate companies in Antofagasta led to the War of the Pacific. Chile occupied the Bolivian coastal province and kept it under the 1884 truce, leaving Bolivia without a coastline.",
+      "wikipediaTitle": "War of the Pacific",
+      "sources": ["https://en.wikipedia.org/wiki/War_of_the_Pacific"]
+    }
+  ]
+}

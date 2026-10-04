@@ -1,0 +1,73 @@
+{
+  "country": "ROU",
+  "events": [
+    {
+      "id": "ROU-ottoman-suzerainty",
+      "title": "Ottoman suzerainty over Wallachia",
+      "startYear": 1417,
+      "endYear": 1878,
+      "exploiter": { "label": "the Ottoman Empire" },
+      "type": "other",
+      "resources": ["tribute", "grain"],
+      "territoryNames": ["Wallachia"],
+      "hints": [
+        "A principality kept its own prince but paid annual tribute to a distant sultan.",
+        "Its grain and livestock helped feed a faraway imperial capital."
+      ],
+      "summary": "Wallachia became a tributary of the Ottoman Empire from 1417 and, with neighbouring Moldavia, remained under Ottoman suzerainty for centuries. Tribute and compulsory grain and livestock deliveries fed Istanbul until independence was recognised in 1878.",
+      "quip": "The sultan collected the tribute; the princes kept the title and the paperwork.",
+      "wikipediaTitle": "Wallachia",
+      "sources": ["https://en.wikipedia.org/wiki/Wallachia"]
+    },
+    {
+      "id": "ROU-german-occupation-ww1",
+      "title": "German occupation and oil concessions in the First World War",
+      "startYear": 1916,
+      "endYear": 1918,
+      "exploiter": { "label": "Imperial Germany" },
+      "type": "occupation",
+      "resources": ["oil", "grain"],
+      "hints": [
+        "Wartime occupation seized oilfields to fuel a rival empire's war machine.",
+        "A harsh 1918 peace treaty handed the occupier control over oil and grain."
+      ],
+      "summary": "After entering the First World War in 1916, the country was overrun by the Central Powers. Germany took over the Ploiești oilfields and wheat harvests, and the 1918 Treaty of Bucharest imposed heavy economic terms before it was voided after the armistice.",
+      "wikipediaTitle": "Romanian Campaign (World War I)",
+      "sources": ["https://en.wikipedia.org/wiki/Romanian_Campaign_(World_War_I)"]
+    },
+    {
+      "id": "ROU-soviet-annexation-1940",
+      "title": "Soviet annexation of Bessarabia and Northern Bukovina",
+      "startYear": 1940,
+      "endYear": 1940,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "annexation",
+      "resources": ["land", "grain"],
+      "hints": [
+        "A June 1940 ultimatum demanded territory within days.",
+        "A secret protocol signed with another dictator had pre-agreed the carve-up."
+      ],
+      "summary": "In June 1940 the Soviet Union issued an ultimatum demanding Bessarabia and Northern Bukovina. Under the secret protocol of the Molotov-Ribbentrop Pact, the territory was ceded within days and later absorbed into the Soviet republics.",
+      "wikipediaTitle": "Soviet occupation of Bessarabia and Northern Bukovina",
+      "sources": ["https://en.wikipedia.org/wiki/Soviet_occupation_of_Bessarabia_and_Northern_Bukovina"]
+    },
+    {
+      "id": "ROU-soviet-occupation-postwar",
+      "title": "Soviet occupation and economic extraction",
+      "startYear": 1944,
+      "endYear": 1958,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "occupation",
+      "resources": ["oil", "grain"],
+      "hints": [
+        "Armistice terms demanded huge reparations paid in kind.",
+        "Joint \"Sov\" companies siphoned off its oil.",
+        "Red Army troops stayed until 1958."
+      ],
+      "summary": "After the August 1944 coup the Red Army occupied the country, and the armistice required heavy reparations in goods. Joint Soviet-run SovRom companies controlled oil and other sectors until the mid-1950s, and Soviet troops withdrew in 1958.",
+      "quip": "Joint ventures: where one partner contributes the oil and the other contributes the enthusiasm.",
+      "wikipediaTitle": "Soviet occupation of Romania",
+      "sources": ["https://en.wikipedia.org/wiki/Soviet_occupation_of_Romania"]
+    }
+  ]
+}

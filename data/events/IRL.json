@@ -1,0 +1,70 @@
+{
+  "country": "IRL",
+  "events": [
+    {
+      "id": "IRL-viking-slave-trade",
+      "title": "Viking raids and the Dublin slave market",
+      "startYear": 795,
+      "endYear": 1014,
+      "exploiter": { "label": "the Vikings" },
+      "type": "slave_trade",
+      "resources": ["slaves", "silver"],
+      "hints": [
+        "Longships raided monasteries, taking treasure and captives.",
+        "A fortified longphort on a river grew into a major slave market."
+      ],
+      "summary": "From 795 Norse raiders attacked monasteries and settlements, and their fortified bases such as Dublin became hubs of a slave trade that shipped captives across the Norse world. Viking power in the region declined after the Battle of Clontarf in 1014.",
+      "wikipediaTitle": "Vikings in Ireland",
+      "sources": ["https://en.wikipedia.org/wiki/Vikings_in_Ireland"]
+    },
+    {
+      "id": "IRL-plantations",
+      "title": "Plantations of Ireland",
+      "startYear": 1556,
+      "endYear": 1650,
+      "exploiter": { "label": "England" },
+      "type": "colonization",
+      "resources": ["land", "timber"],
+      "hints": [
+        "Land was confiscated and given to settlers from a neighbouring island.",
+        "The largest scheme settled the northern province from 1609."
+      ],
+      "summary": "Beginning with Laois and Offaly in the 1550s and culminating in the Plantation of Ulster from 1609, the English crown confiscated land and settled it with English and Scottish colonists, reshaping ownership of the island.",
+      "wikipediaTitle": "Plantations of Ireland",
+      "sources": ["https://en.wikipedia.org/wiki/Plantations_of_Ireland"]
+    },
+    {
+      "id": "IRL-trade-restrictions",
+      "title": "Cattle Acts and the Wool Act",
+      "startYear": 1663,
+      "endYear": 1699,
+      "exploiter": { "label": "England" },
+      "type": "other",
+      "resources": ["wool", "livestock"],
+      "hints": [
+        "Laws forbade selling the island's cattle, and later its woollen cloth, to its biggest market."
+      ],
+      "summary": "To protect English farmers and clothiers, Parliament banned the export of Irish cattle to England in the 1660s and restricted Irish woollen exports in 1699, damaging key industries.",
+      "quip": "Free trade, as long as the trade stayed in the right direction.",
+      "wikipediaTitle": "Navigation Acts",
+      "sources": ["https://en.wikipedia.org/wiki/Navigation_Acts"]
+    },
+    {
+      "id": "IRL-great-famine",
+      "title": "Great Famine and continued food exports",
+      "startYear": 1845,
+      "endYear": 1852,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["grain", "livestock"],
+      "hints": [
+        "A blight destroyed the staple crop for several years.",
+        "Food continued to leave the island by ship while people starved."
+      ],
+      "summary": "During the famine of 1845 to 1852 about a million people died and another million emigrated. Large quantities of grain and livestock were still exported, and the government's relief policy is widely regarded as inadequate.",
+      "sensitive": true,
+      "wikipediaTitle": "Great Famine (Ireland)",
+      "sources": ["https://en.wikipedia.org/wiki/Great_Famine_(Ireland)"]
+    }
+  ]
+}

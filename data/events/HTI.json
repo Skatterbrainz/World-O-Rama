@@ -1,0 +1,56 @@
+{
+  "country": "HTI",
+  "events": [
+    {
+      "id": "HTI-saint-domingue",
+      "title": "French Saint-Domingue plantation colony",
+      "startYear": 1697,
+      "endYear": 1804,
+      "exploiter": { "label": "France" },
+      "type": "colonization",
+      "resources": ["sugar", "coffee", "indigo", "slaves"],
+      "territoryNames": ["Saint-Domingue"],
+      "hints": [
+        "Once the richest colony in the world, its sugar and coffee were produced by enslaved people.",
+        "A revolt that began in 1791 ended colonial rule and created the first Black-led republic."
+      ],
+      "summary": "France acquired the western third of Hispaniola in 1697 and built Saint-Domingue into the world's leading sugar and coffee producer through the labour of several hundred thousand enslaved Africans. The Haitian Revolution (1791 to 1804) ended slavery and French rule.",
+      "sensitive": true,
+      "wikipediaTitle": "Saint-Domingue",
+      "sources": ["https://en.wikipedia.org/wiki/Saint-Domingue"]
+    },
+    {
+      "id": "HTI-independence-debt",
+      "title": "Independence debt to France",
+      "startYear": 1825,
+      "endYear": 1947,
+      "exploiter": { "label": "France" },
+      "type": "unequal_treaty",
+      "resources": ["tribute"],
+      "hints": [
+        "Recognition came at the price of a huge indemnity paid to the former colonial power.",
+        "The payments, and the loans taken to make them, lasted well over a century."
+      ],
+      "summary": "In 1825 a French fleet backed a demand for 150 million francs (later reduced to 90 million) as the price of recognising independence. Loans taken to pay the indemnity kept the country in debt to French banks until 1947.",
+      "quip": "Possibly history's most audacious invoice: payment for the privilege of having won.",
+      "wikipediaTitle": "Haitian independence debt",
+      "sources": ["https://en.wikipedia.org/wiki/Haitian_independence_debt"]
+    },
+    {
+      "id": "HTI-us-occupation",
+      "title": "United States occupation of Haiti",
+      "startYear": 1915,
+      "endYear": 1934,
+      "exploiter": { "label": "the United States" },
+      "type": "occupation",
+      "resources": ["labour", "sugar"],
+      "hints": [
+        "Marines landed in 1915 and stayed for nearly two decades.",
+        "Customs revenue was controlled by the occupier, and a forced-labour road gang system was revived."
+      ],
+      "summary": "US Marines occupied the country from 1915 to 1934. Washington controlled customs and finances, rewrote the constitution to allow foreign land ownership, and the forced-labour corvée system for road building sparked a revolt in 1919.",
+      "wikipediaTitle": "United States occupation of Haiti",
+      "sources": ["https://en.wikipedia.org/wiki/United_States_occupation_of_Haiti"]
+    }
+  ]
+}

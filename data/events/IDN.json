@@ -1,0 +1,58 @@
+{
+  "country": "IDN",
+  "events": [
+    {
+      "id": "IDN-voc-spice-monopoly",
+      "title": "Dutch East India Company spice monopoly",
+      "startYear": 1602,
+      "endYear": 1799,
+      "exploiter": { "label": "the Dutch East India Company" },
+      "type": "colonization",
+      "resources": ["spices", "trade_routes"],
+      "territoryNames": ["the Dutch East Indies"],
+      "hints": [
+        "The world's first publicly traded company ran its own colonies and fleets.",
+        "Islands producing nutmeg and cloves were controlled, and in places depopulated, to protect a monopoly."
+      ],
+      "summary": "The Dutch East India Company (VOC) took control of the spice trade of the archipelago from the early 1600s, using force to secure monopolies on nutmeg, mace and cloves. The company was dissolved in 1799 and its possessions passed to the Dutch state.",
+      "sensitive": true,
+      "wikipediaTitle": "Dutch East India Company",
+      "sources": ["https://en.wikipedia.org/wiki/Dutch_East_India_Company"]
+    },
+    {
+      "id": "IDN-cultivation-system",
+      "title": "Cultivation System",
+      "startYear": 1830,
+      "endYear": 1870,
+      "exploiter": { "label": "the Netherlands" },
+      "type": "forced_labour",
+      "resources": ["sugar", "coffee", "indigo", "labour"],
+      "territoryNames": ["the Dutch East Indies"],
+      "hints": [
+        "A compulsory farming scheme turned a fifth of village land into export-crop plantations.",
+        "Its profits helped balance the budget of a European kingdom."
+      ],
+      "summary": "From 1830 the colonial government required villages to dedicate a portion of their land, or labour days, to export crops such as sugar, coffee and indigo. The scheme produced very large revenues for the Netherlands and was gradually wound down after 1870.",
+      "wikipediaTitle": "Cultivation System",
+      "sources": ["https://en.wikipedia.org/wiki/Cultivation_System"]
+    },
+    {
+      "id": "IDN-japanese-occupation",
+      "title": "Japanese occupation of the Dutch East Indies",
+      "startYear": 1942,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["oil", "rice", "labour"],
+      "territoryNames": ["the Dutch East Indies"],
+      "hints": [
+        "Oilfields were among the main reasons for the invasion.",
+        "Hundreds of thousands were put to forced labour, known by a Japanese name, on projects across the region."
+      ],
+      "summary": "Japan occupied the archipelago from March 1942 to 1945 to secure oil and other resources. Rice was requisitioned and large numbers of romusha forced labourers were mobilised, many dying from hardship. Independence was proclaimed days after Japan surrendered.",
+      "sensitive": true,
+      "wikipediaTitle": "Japanese occupation of the Dutch East Indies",
+      "sources": ["https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Dutch_East_Indies"]
+    }
+  ]
+}

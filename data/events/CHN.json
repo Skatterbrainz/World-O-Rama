@@ -1,0 +1,56 @@
+{
+  "country": "CHN",
+  "events": [
+    {
+      "id": "CHN-opium-wars",
+      "title": "Opium Wars and the first unequal treaties",
+      "startYear": 1839,
+      "endYear": 1860,
+      "exploiter": { "label": "the British Empire" },
+      "type": "unequal_treaty",
+      "resources": ["opium", "tea", "silver", "trade_routes"],
+      "hints": [
+        "A trade deficit in tea and silk was reversed by selling an addictive drug.",
+        "A treaty signed aboard a warship in 1842 opened ports and handed over a rocky island."
+      ],
+      "summary": "British traders sold opium to reverse a silver outflow caused by tea purchases. When the Qing authorities tried to stop the trade, two wars followed (1839 to 1842 and 1856 to 1860). The treaties opened ports, ceded Hong Kong Island and set a pattern of unequal agreements.",
+      "quip": "The empire's solution to a trade deficit: sell the customers an addictive product, then send the navy when they objected.",
+      "wikipediaTitle": "First Opium War",
+      "sources": ["https://en.wikipedia.org/wiki/First_Opium_War"]
+    },
+    {
+      "id": "CHN-boxer-indemnity",
+      "title": "Boxer Protocol indemnity",
+      "startYear": 1901,
+      "endYear": 1901,
+      "exploiter": { "label": "the Eight-Nation Alliance" },
+      "type": "unequal_treaty",
+      "resources": ["tribute", "silver"],
+      "hints": [
+        "After an uprising was crushed, a coalition of foreign powers demanded a vast indemnity.",
+        "The total was set at 450 million taels of silver."
+      ],
+      "summary": "After the Boxer Rebellion was suppressed in 1900, the Boxer Protocol of 1901 required an indemnity of 450 million taels of silver, to be paid over decades, along with foreign garrisons and further restrictions.",
+      "wikipediaTitle": "Boxer Protocol",
+      "sources": ["https://en.wikipedia.org/wiki/Boxer_Protocol"]
+    },
+    {
+      "id": "CHN-japanese-invasion",
+      "title": "Japanese invasion of Manchuria and occupation",
+      "startYear": 1931,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["coal", "iron_ore", "land"],
+      "territoryNames": ["Manchukuo"],
+      "hints": [
+        "A staged railway explosion in 1931 provided the pretext for an invasion.",
+        "A puppet state was created in the northeast with a deposed emperor as its figurehead."
+      ],
+      "summary": "Japan invaded Manchuria in September 1931 after the Mukden Incident and created the puppet state of Manchukuo in 1932, exploiting its coal, iron and farmland. Full-scale war followed in 1937, and the occupation lasted until 1945.",
+      "sensitive": true,
+      "wikipediaTitle": "Japanese invasion of Manchuria",
+      "sources": ["https://en.wikipedia.org/wiki/Japanese_invasion_of_Manchuria"]
+    }
+  ]
+}
