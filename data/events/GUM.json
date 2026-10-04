@@ -1,0 +1,58 @@
+{
+  "country": "GUM",
+  "events": [
+    {
+      "id": "GUM-spanish-rule",
+      "title": "Spanish colonial rule",
+      "startYear": 1668,
+      "endYear": 1898,
+      "exploiter": { "label": "Spain" },
+      "type": "colonization",
+      "resources": ["trade_routes", "land"],
+      "hints": [
+        "Galleons from Acapulco stopped here for supplies for more than two centuries.",
+        "A mission established in 1668 led to wars with the indigenous population.",
+        "It was ceded after the war of 1898 while its neighbours were sold elsewhere."
+      ],
+      "summary": "Spain established a mission in 1668, and war and disease reduced the Chamorro population sharply. The island became a stopover for Manila galleons and the administrative centre of the Marianas until it was ceded to the United States after the Spanish-American War in 1898.",
+      "sensitive": true,
+      "wikipediaTitle": "Spanish East Indies",
+      "sources": ["https://en.wikipedia.org/wiki/Spanish_East_Indies"]
+    },
+    {
+      "id": "GUM-naval-government",
+      "title": "US naval government",
+      "startYear": 1899,
+      "endYear": 1950,
+      "exploiter": { "label": "the United States" },
+      "type": "colonization",
+      "resources": ["strategic_location", "land"],
+      "hints": [
+        "A naval captain governed the island from 1899.",
+        "Residents were not citizens and could not elect a legislature with real powers.",
+        "The Organic Act of 1950 transferred control to civilians."
+      ],
+      "summary": "From 1899 to 1950 the US Navy governed Guam through naval governors, using it as a coaling station and base. The Chamorro people were classified as nationals without citizenship until the Organic Act of 1950 granted citizenship and civilian government.",
+      "wikipediaTitle": "Naval Government of Guam",
+      "sources": ["https://en.wikipedia.org/wiki/Naval_Government_of_Guam"]
+    },
+    {
+      "id": "GUM-japanese-occupation",
+      "title": "Japanese occupation",
+      "startYear": 1941,
+      "endYear": 1944,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["labour"],
+      "hints": [
+        "Japan took the island days after the Pearl Harbor attack.",
+        "Residents were forced into labour and marches to camps.",
+        "US forces recaptured it in July and August 1944."
+      ],
+      "summary": "Japan captured the island on 10 December 1941 and held it for about two and a half years. The Chamorro people were forced into labour, subject to violence and, in 1944, marched to concentration camps such as Manenggon. More than a thousand died before the US retook the island.",
+      "sensitive": true,
+      "wikipediaTitle": "Japanese occupation of Guam",
+      "sources": ["https://en.wikipedia.org/wiki/Japanese_occupation_of_Guam"]
+    }
+  ]
+}

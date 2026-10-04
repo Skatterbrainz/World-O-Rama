@@ -1,0 +1,75 @@
+{
+  "country": "PYF",
+  "events": [
+    {
+      "id": "PYF-franco-tahitian-war",
+      "title": "French protectorate and the Franco-Tahitian War",
+      "startYear": 1842,
+      "endYear": 1847,
+      "exploiter": { "label": "France" },
+      "type": "colonization",
+      "resources": ["strategic_location"],
+      "hints": [
+        "An unwelcome protectorate was imposed on a queen in 1842.",
+        "The expulsion of a British missionary-consul, George Pritchard, caused a diplomatic row.",
+        "Fighting ended with a French victory in 1847."
+      ],
+      "summary": "France imposed a protectorate over Queen Pomare IV in 1842 after intrigues involving missionaries. The arrest and expulsion of the British consul George Pritchard sparked an international row, and the Franco-Tahitian War of 1844 to 1847 ended with French control.",
+      "wikipediaTitle": "Franco-Tahitian War",
+      "sources": ["https://en.wikipedia.org/wiki/Franco-Tahitian_War"]
+    },
+    {
+      "id": "PYF-annexation-1880",
+      "title": "Annexation and the French Establishments in Oceania",
+      "startYear": 1880,
+      "endYear": 1946,
+      "exploiter": { "label": "France" },
+      "type": "annexation",
+      "resources": ["land"],
+      "territoryNames": ["the French Establishments in Oceania"],
+      "hints": [
+        "The last Pomare king ceded his realm in June 1880.",
+        "Other island groups were annexed over the next two decades.",
+        "The colony was called the French Establishments in Oceania."
+      ],
+      "summary": "In June 1880 King Pomare V ceded Tahiti to France, which annexed the other island groups through the 1880s and 1890s. The colony, called the French Establishments in Oceania, became an overseas territory in 1946.",
+      "wikipediaTitle": "French Polynesia",
+      "sources": ["https://en.wikipedia.org/wiki/French_Polynesia"]
+    },
+    {
+      "id": "PYF-makatea-phosphate",
+      "title": "Makatea phosphate mining",
+      "startYear": 1908,
+      "endYear": 1966,
+      "exploiter": { "label": "France" },
+      "type": "resource_extraction",
+      "resources": ["phosphates", "labour"],
+      "hints": [
+        "A raised coral island was mined for fertiliser for nearly sixty years.",
+        "A French company ran mining, railways and a port.",
+        "It closed in 1966, just as nuclear testing began."
+      ],
+      "summary": "From 1908 to 1966 a French company mined phosphate on Makatea atoll for use as fertiliser, building railways and a port and employing workers from across the territory. The mine closed in 1966, leaving the atoll almost depopulated.",
+      "wikipediaTitle": "Makatea",
+      "sources": ["https://en.wikipedia.org/wiki/Makatea"]
+    },
+    {
+      "id": "PYF-nuclear-testing",
+      "title": "French nuclear testing",
+      "startYear": 1966,
+      "endYear": 1996,
+      "exploiter": { "label": "France" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A nuclear test centre was moved from the Algerian desert to the ocean after 1962.",
+        "Nearly two hundred tests took place at two atolls over three decades.",
+        "The final series in 1995 and 1996 prompted riots and global protest."
+      ],
+      "summary": "From 1966 to 1996 France carried out 193 nuclear tests at Moruroa and Fangataufa atolls, 46 of them atmospheric until 1974. The tests raised long-term health and environmental concerns, and the 1995 to 1996 series triggered protests worldwide.",
+      "sensitive": true,
+      "wikipediaTitle": "Moruroa",
+      "sources": ["https://en.wikipedia.org/wiki/Moruroa"]
+    }
+  ]
+}

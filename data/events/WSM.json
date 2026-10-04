@@ -1,0 +1,76 @@
+{
+  "country": "WSM",
+  "events": [
+    {
+      "id": "WSM-samoan-crisis",
+      "title": "Samoan crisis and the partition",
+      "startYear": 1887,
+      "endYear": 1899,
+      "exploiter": { "label": "Imperial Germany" },
+      "type": "annexation",
+      "resources": ["strategic_location"],
+      "hints": [
+        "Three powers' warships nearly fought in a harbour in 1889, until a hurricane sank them.",
+        "The great powers backed rival claimants in civil wars.",
+        "A convention in 1899 split the islands between two of the powers."
+      ],
+      "summary": "In the 1880s and 1890s Germany, Britain and the United States competed for influence over the islands, backing rival chiefs in civil wars. The 1889 Apia cyclone destroyed warships from all three, and the 1899 Tripartite Convention partitioned the islands, giving the western group to Germany.",
+      "wikipediaTitle": "Samoan crisis",
+      "sources": ["https://en.wikipedia.org/wiki/Samoan_crisis"]
+    },
+    {
+      "id": "WSM-german-colony",
+      "title": "German rule",
+      "startYear": 1900,
+      "endYear": 1914,
+      "exploiter": { "label": "Imperial Germany" },
+      "type": "colonization",
+      "resources": ["cocoa", "labour", "land"],
+      "territoryNames": ["German Samoa"],
+      "hints": [
+        "The western islands became a German colony in 1900.",
+        "Plantations used indentured labour brought from China and Melanesia.",
+        "New Zealand troops landed without a fight at the start of the First World War."
+      ],
+      "summary": "After the 1899 partition, Germany ruled the western islands from 1900 to 1914. German plantation companies expanded production of copra and cocoa, bringing in indentured Chinese and Melanesian workers. New Zealand forces took over in August 1914.",
+      "wikipediaTitle": "German Samoa",
+      "sources": ["https://en.wikipedia.org/wiki/German_Samoa"]
+    },
+    {
+      "id": "WSM-new-zealand-mandate",
+      "title": "New Zealand administration and the Mau movement",
+      "startYear": 1914,
+      "endYear": 1962,
+      "exploiter": { "label": "New Zealand" },
+      "type": "colonization",
+      "resources": ["land"],
+      "hints": [
+        "A dominion occupied the islands in 1914 and later administered them under a League of Nations mandate.",
+        "A non-violent independence movement called the Mau formed in the 1920s.",
+        "Police fired on a peaceful march on 'Black Saturday' in December 1929."
+      ],
+      "summary": "New Zealand occupied the islands in 1914 and administered them under a League mandate from 1920. Resentment led to the non-violent Mau movement. On 28 December 1929, police opened fire on a demonstration in Apia, killing eleven people including the leader Tupua Tamasese Lealofi III. Independence came in 1962.",
+      "sensitive": true,
+      "wikipediaTitle": "Territory of Western Samoa",
+      "sources": ["https://en.wikipedia.org/wiki/Territory_of_Western_Samoa"]
+    },
+    {
+      "id": "WSM-influenza-1918",
+      "title": "1918 influenza epidemic",
+      "startYear": 1918,
+      "endYear": 1918,
+      "exploiter": { "label": "New Zealand" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A passenger ship from a stricken port arrived in November 1918.",
+        "Its passengers were allowed to land despite the epidemic elsewhere.",
+        "About one in five people died within weeks."
+      ],
+      "summary": "The ship SS Talune arrived in Apia from Auckland on 7 November 1918, and passengers were allowed ashore during the influenza pandemic. A commission later estimated about 8,500 deaths, around 22 percent of the population, one of the highest mortality rates in the world.",
+      "sensitive": true,
+      "wikipediaTitle": "SS Talune",
+      "sources": ["https://en.wikipedia.org/wiki/SS_Talune"]
+    }
+  ]
+}

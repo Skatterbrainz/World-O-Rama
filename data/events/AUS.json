@@ -1,0 +1,79 @@
+{
+  "country": "AUS",
+  "events": [
+    {
+      "id": "AUS-colonisation-1788",
+      "title": "British colonisation and dispossession",
+      "startYear": 1788,
+      "endYear": 1850,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["land", "wool", "livestock"],
+      "territoryNames": ["New South Wales", "Van Diemen's Land", "New Holland"],
+      "hints": [
+        "A fleet of eleven ships anchored in a harbour in January 1788.",
+        "The newcomers regarded the continent as belonging to no one, a doctrine called terra nullius.",
+        "Sheep runs spread across the interior at the expense of the people already living there."
+      ],
+      "summary": "The First Fleet arrived at Sydney Cove in January 1788, and Britain claimed the east of the continent as New South Wales on the legal fiction that the land was unoccupied. As settlement and sheep pastoralism spread, Aboriginal peoples were dispossessed of land, and many died from violence and introduced disease.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Australia (1788–1850)",
+      "sources": ["https://en.wikipedia.org/wiki/History_of_Australia_(1788%E2%80%931850)"]
+    },
+    {
+      "id": "AUS-frontier-wars",
+      "title": "Frontier wars",
+      "startYear": 1788,
+      "endYear": 1934,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["land", "livestock"],
+      "hints": [
+        "Violent resistance to settlement continued for well over a century.",
+        "In the 1820s and 1830s the Black War devastated an island colony to the south.",
+        "Massacres of Aboriginal communities took place into the 1920s."
+      ],
+      "summary": "From 1788 to the early twentieth century, conflicts between settlers or colonial forces and Aboriginal Australians accompanied the spread of settlement. Historians estimate that tens of thousands of Aboriginal people were killed, including in the Black War in Tasmania, with the last well-documented massacres in the 1920s.",
+      "sensitive": true,
+      "wikipediaTitle": "Australian frontier wars",
+      "sources": ["https://en.wikipedia.org/wiki/Australian_frontier_wars"]
+    },
+    {
+      "id": "AUS-convict-transportation",
+      "title": "Convict transportation",
+      "startYear": 1788,
+      "endYear": 1868,
+      "exploiter": { "label": "the British Empire" },
+      "type": "forced_labour",
+      "resources": ["labour"],
+      "territoryNames": ["Van Diemen's Land"],
+      "hints": [
+        "Britain used the far side of the world as a penal colony for eight decades.",
+        "Around 162,000 convicts were shipped out.",
+        "The last convict ship arrived on the western coast in 1868."
+      ],
+      "summary": "Between 1788 and 1868 Britain transported around 162,000 convicts to its Australian colonies, where they worked for the government or assigned masters, building roads and public works. The system, often harsh, provided a labour force for the colonies and ended when the last convict ship arrived in 1868.",
+      "sensitive": true,
+      "wikipediaTitle": "Convicts in Australia",
+      "sources": ["https://en.wikipedia.org/wiki/Convicts_in_Australia"]
+    },
+    {
+      "id": "AUS-maralinga",
+      "title": "British nuclear tests",
+      "startYear": 1952,
+      "endYear": 1963,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A foreign government used remote parts of the continent to test atomic weapons.",
+        "Twelve major tests were carried out at Monte Bello, Emu Field and Maralinga.",
+        "A 1985 Royal Commission found that Aboriginal people and servicemen had been exposed to radiation."
+      ],
+      "summary": "Between 1952 and 1963 Britain conducted twelve major atomic tests, at the Monte Bello Islands, Emu Field and Maralinga, plus hundreds of minor trials. Aboriginal communities were displaced, and a Royal Commission in 1985 found that radiological safety was inadequate.",
+      "sensitive": true,
+      "wikipediaTitle": "British nuclear tests at Maralinga",
+      "sources": ["https://en.wikipedia.org/wiki/British_nuclear_tests_at_Maralinga"]
+    }
+  ]
+}

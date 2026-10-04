@@ -1,0 +1,76 @@
+{
+  "country": "MNP",
+  "events": [
+    {
+      "id": "MNP-spanish-chamorro-wars",
+      "title": "Spanish-Chamorro wars and the reduction",
+      "startYear": 1668,
+      "endYear": 1699,
+      "exploiter": { "label": "Spain" },
+      "type": "colonization",
+      "resources": ["land"],
+      "hints": [
+        "A Jesuit mission founded in 1668 provoked resistance.",
+        "Spanish forces fought the islanders for a quarter of a century.",
+        "The survivors were forcibly resettled on one southern island."
+      ],
+      "summary": "Spain established a mission in 1668 and fought the Chamorro people in the Spanish-Chamorro Wars of 1670 to 1695. War and disease reduced the population dramatically, and the survivors were forcibly relocated to Guam in the late 1690s, leaving the northern islands largely depopulated.",
+      "sensitive": true,
+      "wikipediaTitle": "Spanish–Chamorro Wars",
+      "sources": ["https://en.wikipedia.org/wiki/Spanish%E2%80%93Chamorro_Wars"]
+    },
+    {
+      "id": "MNP-german-rule",
+      "title": "German rule",
+      "startYear": 1899,
+      "endYear": 1914,
+      "exploiter": { "label": "Imperial Germany" },
+      "type": "colonization",
+      "resources": ["land"],
+      "hints": [
+        "Spain sold the islands in 1899, a year after losing a war.",
+        "They were administered as part of a larger colony.",
+        "Japan took them at the start of the First World War."
+      ],
+      "summary": "Germany purchased the northern Mariana Islands from Spain in 1899 and governed them as part of German New Guinea until 1914, when Japan seized them.",
+      "wikipediaTitle": "Northern Mariana Islands",
+      "sources": ["https://en.wikipedia.org/wiki/Northern_Mariana_Islands"]
+    },
+    {
+      "id": "MNP-japanese-sugar",
+      "title": "Japanese sugar economy",
+      "startYear": 1914,
+      "endYear": 1944,
+      "exploiter": { "label": "Japan" },
+      "type": "colonization",
+      "resources": ["sugar", "labour"],
+      "territoryNames": ["the South Seas Mandate"],
+      "hints": [
+        "A sugar company dominated the economy of the largest island.",
+        "Settlers from Japan and Okinawa far outnumbered the indigenous people.",
+        "US forces invaded in June 1944."
+      ],
+      "summary": "Under Japanese rule from 1914, a state-backed company, the Nan'yo Kohatsu Kaisha, developed sugar cane plantations on Saipan, Tinian and Rota, with settlers from Japan and Okinawa greatly outnumbering the Chamorro and Carolinian people. The US invaded in 1944.",
+      "wikipediaTitle": "South Seas Mandate",
+      "sources": ["https://en.wikipedia.org/wiki/South_Seas_Mandate"]
+    },
+    {
+      "id": "MNP-us-trust-territory",
+      "title": "US Trust Territory and Covenant",
+      "startYear": 1947,
+      "endYear": 1978,
+      "exploiter": { "label": "the United States" },
+      "type": "other",
+      "resources": ["strategic_location"],
+      "territoryNames": ["the Trust Territory of the Pacific Islands"],
+      "hints": [
+        "The territory's capital was on its largest island.",
+        "A covenant in 1975 chose union with a larger nation rather than independence.",
+        "A commonwealth was set up in 1978."
+      ],
+      "summary": "The islands were part of the US-administered Trust Territory of the Pacific Islands from 1947, with Saipan as its administrative centre. In 1975 voters approved a Covenant to become a US commonwealth, which took effect in 1978.",
+      "wikipediaTitle": "Trust Territory of the Pacific Islands",
+      "sources": ["https://en.wikipedia.org/wiki/Trust_Territory_of_the_Pacific_Islands"]
+    }
+  ]
+}

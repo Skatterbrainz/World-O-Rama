@@ -1,0 +1,77 @@
+{
+  "country": "FSM",
+  "events": [
+    {
+      "id": "FSM-german-carolines",
+      "title": "German purchase and rule of the Carolines",
+      "startYear": 1899,
+      "endYear": 1914,
+      "exploiter": { "label": "Imperial Germany" },
+      "type": "colonization",
+      "resources": ["land", "labour"],
+      "territoryNames": ["the Caroline Islands"],
+      "hints": [
+        "Spain sold its islands in the Pacific to another empire after losing a war.",
+        "The price was 25 million pesetas.",
+        "Copra plantations were run from a colonial office in the east."
+      ],
+      "summary": "After losing the Spanish-American War, Spain sold the Caroline, Mariana (except Guam) and Palau islands to Germany for 25 million pesetas in 1899. Germany ran the islands as part of German New Guinea until Japan seized them in 1914.",
+      "wikipediaTitle": "Caroline Islands",
+      "sources": ["https://en.wikipedia.org/wiki/Caroline_Islands"]
+    },
+    {
+      "id": "FSM-sokehs-rebellion",
+      "title": "Sokehs rebellion",
+      "startYear": 1910,
+      "endYear": 1911,
+      "exploiter": { "label": "Imperial Germany" },
+      "type": "other",
+      "resources": ["labour"],
+      "hints": [
+        "Road-building labour demands and a quarrel over land triggered an uprising on one island.",
+        "German marines crushed it in early 1911.",
+        "Many leaders were executed and the rest were exiled."
+      ],
+      "summary": "In 1910 forced labour demands on Sokehs people on Pohnpei led to an uprising in which a German district officer was killed. German forces suppressed the revolt in early 1911, executed its leaders, and exiled the rest of the Sokehs people to Palau.",
+      "sensitive": true,
+      "wikipediaTitle": "Sokehs rebellion",
+      "sources": ["https://en.wikipedia.org/wiki/Sokehs_rebellion"]
+    },
+    {
+      "id": "FSM-japanese-mandate",
+      "title": "Japanese South Seas Mandate",
+      "startYear": 1914,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "colonization",
+      "resources": ["land", "labour", "fish"],
+      "territoryNames": ["the South Seas Mandate"],
+      "hints": [
+        "An East Asian power seized the German islands in 1914 and held them under a League mandate.",
+        "Settlers soon outnumbered local people on some islands.",
+        "Truk lagoon became a major fleet anchorage in the Second World War."
+      ],
+      "summary": "Japan seized the German islands in 1914 and ruled them under a League of Nations mandate from 1920, developing sugar and fishing industries and encouraging Japanese and Okinawan migration. In the Second World War the islands, such as Truk lagoon, were fortified as bases until US forces took over.",
+      "wikipediaTitle": "South Seas Mandate",
+      "sources": ["https://en.wikipedia.org/wiki/South_Seas_Mandate"]
+    },
+    {
+      "id": "FSM-us-trust-territory",
+      "title": "US Trust Territory",
+      "startYear": 1947,
+      "endYear": 1986,
+      "exploiter": { "label": "the United States" },
+      "type": "other",
+      "resources": ["strategic_location"],
+      "territoryNames": ["the Trust Territory of the Pacific Islands"],
+      "hints": [
+        "A United Nations trusteeship placed a vast ocean area under one nation's military control.",
+        "It was the only 'strategic' trusteeship.",
+        "Its fate was settled by a Compact of Free Association."
+      ],
+      "summary": "After the war, the United Nations made the former Japanese islands a strategic trusteeship administered by the United States as the Trust Territory of the Pacific Islands in 1947. The US used some of it for weapons testing, and the territory ended with Compacts of Free Association.",
+      "wikipediaTitle": "Trust Territory of the Pacific Islands",
+      "sources": ["https://en.wikipedia.org/wiki/Trust_Territory_of_the_Pacific_Islands"]
+    }
+  ]
+}

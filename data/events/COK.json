@@ -1,0 +1,39 @@
+{
+  "country": "COK",
+  "events": [
+    {
+      "id": "COK-british-protectorate",
+      "title": "British protectorate",
+      "startYear": 1888,
+      "endYear": 1901,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["strategic_location"],
+      "hints": [
+        "A queen asked for British protection in 1888, fearing French intervention.",
+        "A British Resident was appointed in 1891.",
+        "A neighbouring dominion took over in 1901."
+      ],
+      "summary": "Fearing French designs, the chiefs of Rarotonga asked for British protection in 1888, and a British Resident was installed in 1891. The islands were annexed to New Zealand in 1901.",
+      "wikipediaTitle": "Cook Islands",
+      "sources": ["https://en.wikipedia.org/wiki/Cook_Islands"]
+    },
+    {
+      "id": "COK-new-zealand-rule",
+      "title": "New Zealand rule",
+      "startYear": 1901,
+      "endYear": 1965,
+      "exploiter": { "label": "New Zealand" },
+      "type": "colonization",
+      "resources": ["land", "labour"],
+      "hints": [
+        "The group was annexed to a dominion in 1901.",
+        "Land was subject to restrictions on sale and a Resident Commissioner governed.",
+        "Self-government in free association came in August 1965."
+      ],
+      "summary": "New Zealand annexed the group in 1901 and governed it through a Resident Commissioner until the islands became self-governing in free association in 1965. Development lagged, and many islanders moved to New Zealand for work.",
+      "wikipediaTitle": "Cook Islands",
+      "sources": ["https://en.wikipedia.org/wiki/Cook_Islands"]
+    }
+  ]
+}

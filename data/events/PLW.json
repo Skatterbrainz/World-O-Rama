@@ -1,0 +1,58 @@
+{
+  "country": "PLW",
+  "events": [
+    {
+      "id": "PLW-german-angaur",
+      "title": "German rule and Angaur phosphate",
+      "startYear": 1899,
+      "endYear": 1914,
+      "exploiter": { "label": "Imperial Germany" },
+      "type": "colonization",
+      "resources": ["phosphates", "land"],
+      "hints": [
+        "Spain sold the islands after losing a war in 1898.",
+        "A German company began mining phosphate on the southern island of Angaur in 1909.",
+        "Japan seized the group in 1914."
+      ],
+      "summary": "Germany bought the Palau islands from Spain in 1899 and governed them as part of the Carolines. From 1909 a German company mined phosphate on Angaur, work that continued under Japan until 1944. Japan took over the islands in 1914.",
+      "wikipediaTitle": "Angaur",
+      "sources": ["https://en.wikipedia.org/wiki/Angaur"]
+    },
+    {
+      "id": "PLW-japanese-mandate",
+      "title": "Japanese South Seas Mandate headquarters",
+      "startYear": 1914,
+      "endYear": 1944,
+      "exploiter": { "label": "Japan" },
+      "type": "colonization",
+      "resources": ["phosphates", "labour", "land"],
+      "territoryNames": ["the South Seas Mandate"],
+      "hints": [
+        "The civilian government of a vast ocean mandate was based at Koror.",
+        "Migrants from Japan and Okinawa came to outnumber the locals.",
+        "A bloody battle for the island of Peleliu took place in 1944."
+      ],
+      "summary": "Japan took Palau in 1914 and placed the headquarters of its South Seas Mandate administration at Koror. Phosphate mining on Angaur and agriculture and fishing industries drew large numbers of Japanese and Okinawan migrants, who outnumbered the Palauans by the 1930s.",
+      "wikipediaTitle": "South Seas Mandate",
+      "sources": ["https://en.wikipedia.org/wiki/South_Seas_Mandate"]
+    },
+    {
+      "id": "PLW-us-trust-territory",
+      "title": "US Trust Territory",
+      "startYear": 1947,
+      "endYear": 1994,
+      "exploiter": { "label": "the United States" },
+      "type": "other",
+      "resources": ["strategic_location"],
+      "territoryNames": ["the Trust Territory of the Pacific Islands"],
+      "hints": [
+        "The last of the Pacific trust territories to leave a United Nations trusteeship did so in 1994.",
+        "It adopted a constitution banning nuclear materials, which clashed with US plans.",
+        "A Compact of Free Association was approved only after multiple plebiscites."
+      ],
+      "summary": "Palau was part of the US-administered Trust Territory of the Pacific Islands from 1947. Its 1979 constitution banned nuclear weapons, which delayed approval of a Compact of Free Association for years, and it became the last of the territory's parts to leave the trusteeship in 1994.",
+      "wikipediaTitle": "Trust Territory of the Pacific Islands",
+      "sources": ["https://en.wikipedia.org/wiki/Trust_Territory_of_the_Pacific_Islands"]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "country": "ASM",
+  "events": [
+    {
+      "id": "ASM-deed-of-cession",
+      "title": "Partition and Deeds of Cession",
+      "startYear": 1899,
+      "endYear": 1904,
+      "exploiter": { "label": "the United States" },
+      "type": "annexation",
+      "resources": ["strategic_location"],
+      "hints": [
+        "A deep harbour was wanted as a coaling station for steamships.",
+        "The 1899 partition between rival powers left the eastern islands to one of them.",
+        "Local chiefs signed deeds of cession in 1900 and 1904."
+      ],
+      "summary": "The United States had obtained rights to a coaling station at Pago Pago harbour in 1878. Under the 1899 Tripartite Convention it took the eastern islands, and local chiefs signed deeds of cession for Tutuila in 1900 and Manu'a in 1904.",
+      "quip": "A coal depot with a country attached.",
+      "wikipediaTitle": "American Samoa",
+      "sources": ["https://en.wikipedia.org/wiki/American_Samoa"]
+    },
+    {
+      "id": "ASM-naval-rule",
+      "title": "US Navy administration",
+      "startYear": 1900,
+      "endYear": 1951,
+      "exploiter": { "label": "the United States" },
+      "type": "occupation",
+      "resources": ["strategic_location", "land"],
+      "hints": [
+        "A naval officer governed the islands as commandant of a station.",
+        "Naval governors held broad powers over local chiefs.",
+        "Control was transferred to a civilian department in 1951."
+      ],
+      "summary": "From 1900 to 1951 the islands were governed by the US Navy as Naval Station Tutuila, with naval officers serving as governors. Residents had no formal voice in the government, and the Navy's bases and rules shaped life on the islands until civilian administration began in 1951.",
+      "wikipediaTitle": "American Samoa",
+      "sources": ["https://en.wikipedia.org/wiki/American_Samoa"]
+    }
+  ]
+}
