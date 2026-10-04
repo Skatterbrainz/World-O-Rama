@@ -1,0 +1,187 @@
+{
+  "country": "TUR",
+  "events": [
+    {
+      "id": "TUR-persian-anatolia",
+      "title": "Achaemenid rule in Anatolia",
+      "startYear": -546,
+      "endYear": -334,
+      "exploiter": {
+        "label": "the Achaemenid Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "gold"
+      ],
+      "territoryNames": [
+        "Lydia",
+        "Ionia"
+      ],
+      "hints": [
+        "After defeating a king famed for his wealth, Cyrus the Great took the western coast in 546 BCE.",
+        "Greek cities were governed through satraps and paid tribute.",
+        "A revolt of these cities in 499 BCE was crushed, and Alexander ended the Persian presence in 334 BCE."
+      ],
+      "summary": "Cyrus the Great conquered the kingdom of Lydia around 546 BCE, and Persia took over the Greek cities of the Aegean coast. The Ionian Revolt of 499-493 BCE was crushed, and Persian rule lasted until Alexander the Great defeated satrapal forces at the Granicus in 334 BCE.",
+      "wikipediaTitle": "Achaemenid Empire",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Achaemenid_Empire"
+      ]
+    },
+    {
+      "id": "TUR-roman-asia",
+      "title": "Roman Republic's province of Asia",
+      "startYear": -133,
+      "endYear": -27,
+      "exploiter": {
+        "label": "the Roman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "territoryNames": [
+        "the Roman province of Asia"
+      ],
+      "hints": [
+        "In 133 BCE a king of Pergamon willed his kingdom to Rome.",
+        "Tax collectors known as publicani squeezed the cities for revenue.",
+        "In 88 BCE a local king ordered the killing of tens of thousands of Italians in the region."
+      ],
+      "summary": "Attalus III bequeathed the Kingdom of Pergamon to Rome in 133 BCE, and it became the province of Asia. Roman tax farmers imposed heavy burdens, and in 88 BCE Mithridates VI of Pontus ordered a massacre of Romans and Italians, followed by a Roman reconquest.",
+      "sensitive": true,
+      "wikipediaTitle": "Asia (Roman province)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Asia_(Roman_province)"
+      ]
+    },
+    {
+      "id": "TUR-latin-empire",
+      "title": "Fourth Crusade and the Latin Empire",
+      "startYear": 1204,
+      "endYear": 1261,
+      "exploiter": {
+        "label": "the Republic of Venice"
+      },
+      "type": "occupation",
+      "resources": [
+        "gold",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Latin Empire"
+      ],
+      "hints": [
+        "An army bound for Egypt sacked a Christian capital in April 1204.",
+        "Treasures, relics and bronze horses were carried off to a lagoon city.",
+        "A Latin emperor ruled for 57 years until the Greeks retook the city."
+      ],
+      "summary": "The Fourth Crusade, financed and transported by Venice, captured and sacked Constantinople in April 1204. Venice took a large share of the territory and the treasures, including the bronze horses of St Mark's, and a Latin Empire lasted until 1261.",
+      "sensitive": true,
+      "wikipediaTitle": "Latin Empire",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Latin_Empire"
+      ]
+    },
+    {
+      "id": "TUR-capitulations",
+      "title": "Ottoman capitulations",
+      "startYear": 1536,
+      "endYear": 1923,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "trade_routes"
+      ],
+      "hints": [
+        "A 1536 treaty gave one European king's merchants trading and legal privileges in the empire.",
+        "Over time other powers obtained similar rights and extended them to their protégés.",
+        "They were abolished only in 1923."
+      ],
+      "summary": "The Franco-Ottoman agreement of 1536 gave French merchants privileges that became known as capitulations. Over time the concessions grew to include extraterritorial jurisdiction and low customs rates for many European powers. The Treaty of Lausanne abolished them in 1923.",
+      "quip": "Privileges granted as a favour that became a permanent entitlement.",
+      "wikipediaTitle": "Capitulations of the Ottoman Empire",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Capitulations_of_the_Ottoman_Empire"
+      ]
+    },
+    {
+      "id": "TUR-public-debt",
+      "title": "Ottoman Public Debt Administration",
+      "startYear": 1881,
+      "endYear": 1914,
+      "exploiter": {
+        "label": "the Ottoman Public Debt Administration"
+      },
+      "type": "other",
+      "resources": [
+        "salt",
+        "tobacco",
+        "tribute"
+      ],
+      "hints": [
+        "After a bankruptcy in 1875, foreign creditors took control of key state revenues in 1881.",
+        "A council run by European bondholders collected taxes on salt, tobacco and spirits.",
+        "By 1912 it employed more staff than the state's own finance ministry."
+      ],
+      "summary": "After the Ottoman default of 1875, the 1881 Decree of Muharram created the Ottoman Public Debt Administration, run by European bondholders. It collected revenue from salt, tobacco, stamps and spirits, and became one of the largest institutions in the empire.",
+      "wikipediaTitle": "Ottoman Public Debt Administration",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ottoman_Public_Debt_Administration"
+      ]
+    },
+    {
+      "id": "TUR-allied-occupation",
+      "title": "Allied occupation of Constantinople",
+      "startYear": 1918,
+      "endYear": 1923,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "strategic_location",
+        "trade_routes"
+      ],
+      "hints": [
+        "After an armistice in October 1918, victorious powers sent warships and troops to the imperial capital.",
+        "In March 1920 they dissolved the parliament and arrested nationalist deputies.",
+        "The occupation ended in October 1923 after the Treaty of Lausanne."
+      ],
+      "summary": "After the Armistice of Mudros, British, French and Italian forces occupied Constantinople in 1918-1923. In March 1920 they formally occupied the city, closing the parliament and arresting nationalist leaders. The occupation ended in October 1923 under the Treaty of Lausanne.",
+      "wikipediaTitle": "Allied occupation of Constantinople",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Allied_occupation_of_Constantinople"
+      ]
+    },
+    {
+      "id": "TUR-greek-smyrna",
+      "title": "Greek occupation of Smyrna",
+      "startYear": 1919,
+      "endYear": 1922,
+      "exploiter": {
+        "label": "Greece"
+      },
+      "type": "occupation",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "hints": [
+        "In May 1919 Greek troops landed with Allied backing at a major Aegean port.",
+        "The Treaty of Sèvres in 1920 granted the area to the occupiers on paper.",
+        "A nationalist counteroffensive in 1922 ended the occupation, and the city was destroyed by fire in September."
+      ],
+      "summary": "Greece landed troops at Smyrna in May 1919 with the backing of the Allies. The occupation expanded into western Anatolia, and the Greek army was defeated in the Turkish War of Independence in 1922, when Smyrna was largely destroyed by fire.",
+      "sensitive": true,
+      "wikipediaTitle": "Occupation of Smyrna",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occupation_of_Smyrna"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "country": "PSE",
+  "events": [
+    {
+      "id": "PSE-ottoman-rule",
+      "title": "Ottoman rule",
+      "startYear": 1517,
+      "endYear": 1917,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "territoryNames": [
+        "Ottoman Palestine"
+      ],
+      "hints": [
+        "After 1517 a sultan ruled the region as districts of Damascus and Sidon.",
+        "Taxes were farmed out, and notables such as the Husayni family held local power.",
+        "Reforms in the 19th century opened the land to private ownership and foreign settlement."
+      ],
+      "summary": "The Ottomans ruled the region from 1517, administering it through districts of the province of Damascus. The 19th-century Tanzimat land reforms and foreign pressures reshaped landholding, and the Ottomans lost Jerusalem to British forces in 1917.",
+      "wikipediaTitle": "Ottoman Syria",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ottoman_Syria"
+      ]
+    },
+    {
+      "id": "PSE-british-mandate",
+      "title": "British Mandate",
+      "startYear": 1920,
+      "endYear": 1948,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "strategic_location"
+      ],
+      "territoryNames": [
+        "Mandatory Palestine"
+      ],
+      "hints": [
+        "A mandate was awarded in 1920 to a power that had promised two peoples a national home.",
+        "The British administered the territory with a high commissioner in Jerusalem.",
+        "The mandate ended in May 1948 amid an escalating civil war."
+      ],
+      "summary": "Britain governed the territory under a League of Nations mandate from 1920, with policy shaped by the Balfour Declaration and the wartime pledges made to Arab leaders. Violence between communities increased in the 1930s and 1940s, and Britain withdrew in May 1948.",
+      "wikipediaTitle": "Mandatory Palestine",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mandatory_Palestine"
+      ]
+    },
+    {
+      "id": "PSE-arab-revolt-1936",
+      "title": "Suppression of the Arab Revolt",
+      "startYear": 1936,
+      "endYear": 1939,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A general strike began in April 1936 against immigration and land sales.",
+        "British forces used collective punishment, detention and demolition of homes.",
+        "Thousands of fighters and civilians died, and leaders were exiled."
+      ],
+      "summary": "The 1936-1939 Arab Revolt began with a general strike against British policy and Jewish immigration. Britain used about 25,000 troops, collective punishment, house demolitions and detention, and killed an estimated 5,000 people. The Arab leadership was crushed or exiled.",
+      "sensitive": true,
+      "wikipediaTitle": "1936–1939 Arab revolt in Palestine",
+      "sources": [
+        "https://en.wikipedia.org/wiki/1936%E2%80%931939_Arab_revolt_in_Palestine"
+      ]
+    },
+    {
+      "id": "PSE-nakba",
+      "title": "1948 displacement",
+      "startYear": 1947,
+      "endYear": 1949,
+      "exploiter": {
+        "label": "Israel"
+      },
+      "type": "other",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A UN partition plan in November 1947 was followed by civil war and then a war with neighbouring states.",
+        "Villages and towns were emptied during the fighting, and refugees were not allowed to return.",
+        "An estimated 700,000 people fled or were expelled."
+      ],
+      "summary": "During the 1947-1949 war about 700,000 Palestinian Arabs fled or were expelled from their homes, and over 400 villages were depopulated. The refugees were not allowed to return, and the events are known to Palestinians as the Nakba.",
+      "sensitive": true,
+      "wikipediaTitle": "1948 Palestinian expulsion and flight",
+      "sources": [
+        "https://en.wikipedia.org/wiki/1948_Palestinian_expulsion_and_flight"
+      ]
+    },
+    {
+      "id": "PSE-jordanian-annexation",
+      "title": "Jordanian annexation of the West Bank",
+      "startYear": 1948,
+      "endYear": 1967,
+      "exploiter": {
+        "label": "Jordan"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "Troops from a neighbouring kingdom occupied the hill country west of the river in 1948.",
+        "In 1950 it was formally annexed, a step few states recognised.",
+        "Control ended in the June 1967 war."
+      ],
+      "summary": "Jordan's army took control of the West Bank and East Jerusalem in 1948, and in April 1950 the territory was formally annexed. Only Britain and Pakistan clearly recognised the annexation, and Jordan lost the territory to Israel in June 1967.",
+      "wikipediaTitle": "Jordanian annexation of the West Bank",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jordanian_annexation_of_the_West_Bank"
+      ]
+    },
+    {
+      "id": "PSE-israeli-occupation",
+      "title": "Occupation of the West Bank and Gaza",
+      "startYear": 1967,
+      "endYear": 2025,
+      "exploiter": {
+        "label": "Israel"
+      },
+      "type": "occupation",
+      "resources": [
+        "land",
+        "strategic_location"
+      ],
+      "hints": [
+        "In June 1967 a six-day war ended with a new military administration over two territories.",
+        "Settlements have been built in the hill country, in breach of the Geneva Conventions according to the UN.",
+        "The International Court of Justice stated in 2024 that the continued presence is unlawful."
+      ],
+      "summary": "Israel captured the West Bank, East Jerusalem and the Gaza Strip in June 1967 and has administered the West Bank militarily since. Israeli settlements have been established there, which the UN and most states consider illegal. In 2024 the ICJ issued an advisory opinion that the continued occupation is unlawful.",
+      "sensitive": true,
+      "wikipediaTitle": "Israeli occupation of the West Bank",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Israeli_occupation_of_the_West_Bank"
+      ]
+    }
+  ]
+}
