@@ -1,0 +1,95 @@
+{
+  "country": "BIH",
+  "events": [
+    {
+      "id": "BIH-roman-dalmatia",
+      "title": "Roman province of Dalmatia",
+      "startYear": 9,
+      "endYear": 476,
+      "exploiter": {
+        "label": "the Roman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "silver",
+        "iron_ore"
+      ],
+      "hints": [
+        "A large rebellion of tribes ended in AD 9, and a province was organised.",
+        "Mines in the interior supplied metals to the empire."
+      ],
+      "summary": "After crushing the Great Illyrian Revolt in AD 9, Rome organised the area as the province of Dalmatia, whose hinterland held mines worked for the imperial economy. Roman administration lasted until the collapse of the western empire.",
+      "wikipediaTitle": "Dalmatia (Roman province)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dalmatia_(Roman_province)"
+      ]
+    },
+    {
+      "id": "BIH-ottoman-conquest",
+      "title": "Ottoman conquest and rule",
+      "startYear": 1463,
+      "endYear": 1878,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "hints": [
+        "A kingdom fell in a swift campaign led by Sultan Mehmed II in 1463.",
+        "The territory was administered as an eyalet with a governor based first at Sarajevo and later Travnik."
+      ],
+      "summary": "Sultan Mehmed II conquered the Bosnian kingdom in 1463 and the region became an Ottoman province, taxed and garrisoned for over four centuries. Ottoman control ended when the Congress of Berlin authorised Austro-Hungarian occupation in 1878.",
+      "wikipediaTitle": "Bosnia Eyalet",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bosnia_Eyalet"
+      ]
+    },
+    {
+      "id": "BIH-austro-hungarian-rule",
+      "title": "Austro-Hungarian occupation and annexation",
+      "startYear": 1878,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "Austria-Hungary"
+      },
+      "type": "annexation",
+      "resources": [
+        "timber",
+        "iron_ore"
+      ],
+      "hints": [
+        "A Great Power mandate in 1878 became a formal annexation in 1908.",
+        "The takeover provoked a diplomatic crisis and the territory later became the setting for the 1914 assassination."
+      ],
+      "summary": "Austria-Hungary occupied the Ottoman province in 1878 and formally annexed it in October 1908, triggering the Bosnian Crisis. It developed mining, forestry and railways while keeping political control until the empire's collapse in 1918.",
+      "wikipediaTitle": "Condominium of Bosnia and Herzegovina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Condominium_of_Bosnia_and_Herzegovina"
+      ]
+    },
+    {
+      "id": "BIH-independent-state-of-croatia",
+      "title": "Axis puppet state and occupation",
+      "startYear": 1941,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "puppet_regime",
+      "resources": [],
+      "hints": [
+        "Carved up after the April 1941 invasion of a Balkan kingdom, and split into German and Italian zones.",
+        "A fascist puppet state was set up, run by the Ustase under Axis oversight."
+      ],
+      "summary": "After the Axis invasion of Yugoslavia in April 1941 the area was incorporated into the Independent State of Croatia, a puppet regime under German and Italian military influence. The period saw mass killings, deportations and brutal partisan warfare.",
+      "sensitive": true,
+      "wikipediaTitle": "Independent State of Croatia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Independent_State_of_Croatia"
+      ]
+    }
+  ]
+}

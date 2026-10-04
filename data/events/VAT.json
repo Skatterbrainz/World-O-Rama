@@ -1,0 +1,94 @@
+{
+  "country": "VAT",
+  "events": [
+    {
+      "id": "VAT-french-republic-rome",
+      "title": "French occupation of Rome",
+      "startYear": 1798,
+      "endYear": 1799,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [
+        "gold",
+        "silver"
+      ],
+      "hints": [
+        "General Berthier marched into the city in February 1798, and the pope was removed.",
+        "Art and treasures from the papal collections were requisitioned."
+      ],
+      "summary": "In February 1798 French troops entered Rome and proclaimed a republic, deposing the pope, who was taken to France and died there in 1799. Art and valuables were removed from the papal collections and used to pay indemnities.",
+      "wikipediaTitle": "Roman Republic (18th century)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Roman_Republic_(18th_century)"
+      ]
+    },
+    {
+      "id": "VAT-napoleonic-annexation-papal-states",
+      "title": "Annexation of the Papal States",
+      "startYear": 1809,
+      "endYear": 1814,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "Napoleon annexed the pope's territory in 1809 and the pontiff was arrested.",
+        "A sovereign was held in Savona and Fontainebleau for years."
+      ],
+      "summary": "Napoleon annexed the Papal States in 1809, and Pope Pius VII was arrested and held in Savona and later France until 1814. The papal territories were restored at the Congress of Vienna.",
+      "wikipediaTitle": "Pope Pius VII",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pope_Pius_VII"
+      ]
+    },
+    {
+      "id": "VAT-capture-of-rome-1870",
+      "title": "Capture of Rome",
+      "startYear": 1870,
+      "endYear": 1929,
+      "exploiter": {
+        "label": "the Kingdom of Italy"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "strategic_location"
+      ],
+      "hints": [
+        "Troops breached a wall near the Porta Pia in September 1870.",
+        "The pontiff declared himself a prisoner for nearly sixty years."
+      ],
+      "summary": "On 20 September 1870 Italian forces entered Rome and ended the temporal power of the popes, who remained 'prisoners in the Vatican' until the Lateran Treaty of 1929 created the modern Vatican City.",
+      "wikipediaTitle": "Capture of Rome",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Capture_of_Rome"
+      ]
+    },
+    {
+      "id": "VAT-german-occupation-rome",
+      "title": "German occupation of Rome",
+      "startYear": 1943,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "German troops surrounded the neutral enclave after taking the city in September 1943.",
+        "More than a thousand Jews were rounded up in October 1943 within sight of St Peter's."
+      ],
+      "summary": "German troops occupied Rome from September 1943 until the Allied liberation in June 1944, surrounding the Vatican enclave. On 16 October 1943 over 1,000 Roman Jews were rounded up for deportation to Auschwitz.",
+      "sensitive": true,
+      "wikipediaTitle": "German occupation of Rome",
+      "sources": [
+        "https://en.wikipedia.org/wiki/German_occupation_of_Rome"
+      ]
+    }
+  ]
+}

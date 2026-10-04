@@ -1,0 +1,123 @@
+{
+  "country": "BEL",
+  "events": [
+    {
+      "id": "BEL-roman-gallia-belgica",
+      "title": "Roman conquest of the Belgae",
+      "startYear": -57,
+      "endYear": -51,
+      "exploiter": {
+        "label": "the Roman Republic"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "slaves"
+      ],
+      "hints": [
+        "A proconsul called the Belgae the bravest of the Gauls.",
+        "A neighbouring tribe was nearly wiped out in 54–53 BCE."
+      ],
+      "summary": "In 57 BCE Julius Caesar defeated the Belgic tribes, and in 54–53 BCE crushed the Eburones, who were reportedly almost annihilated. The area was later organised as the province of Gallia Belgica.",
+      "sensitive": true,
+      "wikipediaTitle": "Gallia Belgica",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gallia_Belgica"
+      ]
+    },
+    {
+      "id": "BEL-spanish-netherlands",
+      "title": "Spanish Netherlands",
+      "startYear": 1556,
+      "endYear": 1714,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "hints": [
+        "A Catholic monarch kept the southern provinces after the northern ones broke away.",
+        "A mutinous army sacked Antwerp in 1576 in the 'Spanish Fury'."
+      ],
+      "summary": "After the northern provinces broke away, the southern Netherlands stayed under Spanish rule until 1714, when the Treaty of Utrecht transferred them to Austria. Wars with France and the unpaid Spanish army, which sacked Antwerp in 1576, burdened the region.",
+      "wikipediaTitle": "Spanish Netherlands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spanish_Netherlands"
+      ]
+    },
+    {
+      "id": "BEL-austrian-netherlands",
+      "title": "Austrian Netherlands",
+      "startYear": 1714,
+      "endYear": 1794,
+      "exploiter": {
+        "label": "the Habsburg Monarchy"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "hints": [
+        "The Treaty of Utrecht handed a prosperous region to Vienna.",
+        "Emperor Joseph II's reforms triggered the Brabant Revolution of 1789."
+      ],
+      "summary": "The Treaty of Utrecht in 1713–14 transferred the southern Netherlands to the Habsburg Monarchy. Joseph II's centralising reforms triggered the Brabant Revolution of 1789, and the French conquered the region in 1794.",
+      "wikipediaTitle": "Austrian Netherlands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Austrian_Netherlands"
+      ]
+    },
+    {
+      "id": "BEL-german-occupation-ww1",
+      "title": "German occupation in the First World War",
+      "startYear": 1914,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "labour",
+        "coal"
+      ],
+      "hints": [
+        "A neutral country was invaded in August 1914 and subjected to reprisals against civilians.",
+        "More than 100,000 workers were deported to work abroad in 1916 and 1917."
+      ],
+      "summary": "Imperial Germany invaded the neutral country in August 1914, killing thousands of civilians in reprisals, and occupied most of it for four years. It requisitioned industrial goods and deported more than 100,000 workers to Germany in 1916–17.",
+      "sensitive": true,
+      "wikipediaTitle": "German occupation of Belgium during World War I",
+      "sources": [
+        "https://en.wikipedia.org/wiki/German_occupation_of_Belgium_during_World_War_I"
+      ]
+    },
+    {
+      "id": "BEL-german-occupation-ww2",
+      "title": "German occupation in the Second World War",
+      "startYear": 1940,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "labour",
+        "coal"
+      ],
+      "hints": [
+        "An 18-day campaign in May 1940 ended with a king's capitulation.",
+        "The country was run by a military governor rather than a civilian administration."
+      ],
+      "summary": "After the 18-day campaign of May 1940, Germany ruled the country through a military administration. Its industry and coal supplies served the war economy, workers were sent to Germany and most of the Jewish population was deported.",
+      "sensitive": true,
+      "wikipediaTitle": "Military Administration in Belgium and Northern France",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Military_Administration_in_Belgium_and_Northern_France"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "country": "FRA",
+  "events": [
+    {
+      "id": "FRA-roman-conquest-gaul",
+      "title": "Roman conquest of Gaul",
+      "startYear": -58,
+      "endYear": -50,
+      "exploiter": {
+        "label": "the Roman Republic"
+      },
+      "type": "colonization",
+      "resources": [
+        "slaves",
+        "gold",
+        "land"
+      ],
+      "hints": [
+        "A proconsul wrote a famous account of his own campaigns, divided into three parts.",
+        "The last great rebel chieftain surrendered at Alesia in 52 BCE."
+      ],
+      "summary": "Between 58 and 50 BCE Julius Caesar conquered the Gallic tribes, ending with the siege of Alesia and the surrender of Vercingetorix. Ancient sources claim vast numbers killed or enslaved; the figures are disputed.",
+      "sensitive": true,
+      "wikipediaTitle": "Gallic Wars",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gallic_Wars"
+      ]
+    },
+    {
+      "id": "FRA-viking-raids-seine",
+      "title": "Viking raids and the Seine settlements",
+      "startYear": 845,
+      "endYear": 911,
+      "exploiter": {
+        "label": "the Vikings"
+      },
+      "type": "other",
+      "resources": [
+        "silver",
+        "tribute"
+      ],
+      "hints": [
+        "Longships sailed up the Seine to besiege the capital in 845.",
+        "A king paid thousands of pounds of silver to make them leave, and later ceded a coastal province to their chief."
+      ],
+      "summary": "From the 840s Norse fleets raided the Seine valley, and in 845 the Frankish king paid a ransom of several thousand pounds of silver to end the siege of Paris. In 911 a treaty with the chief Rollo granted the Vikings the territory that became Normandy.",
+      "wikipediaTitle": "Siege of Paris (845)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siege_of_Paris_(845)"
+      ]
+    },
+    {
+      "id": "FRA-english-occupation-normandy",
+      "title": "English occupation of northern France",
+      "startYear": 1417,
+      "endYear": 1450,
+      "exploiter": {
+        "label": "England"
+      },
+      "type": "occupation",
+      "resources": [
+        "land",
+        "tribute"
+      ],
+      "territoryNames": [
+        "Lancastrian Normandy"
+      ],
+      "hints": [
+        "A king's victory at Agincourt in 1415 opened the way to a conquest of the duchy.",
+        "A treaty at Troyes in 1420 declared the English king heir to the French crown."
+      ],
+      "summary": "After the victory at Agincourt, Henry V conquered Normandy from 1417, and the Treaty of Troyes in 1420 made him heir to the French throne. English garrisons and officials held Normandy until French forces retook it in 1450.",
+      "wikipediaTitle": "Treaty of Troyes",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaty_of_Troyes"
+      ]
+    },
+    {
+      "id": "FRA-allied-occupation-1815",
+      "title": "Allied occupation after Waterloo",
+      "startYear": 1815,
+      "endYear": 1818,
+      "exploiter": {
+        "label": "the Quadruple Alliance"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute"
+      ],
+      "hints": [
+        "A coalition left an army of 150,000 soldiers in the north-east at the nation's expense.",
+        "A second Treaty of Paris added an indemnity of 700 million francs."
+      ],
+      "summary": "After Napoleon's final defeat, the Second Treaty of Paris of November 1815 imposed an indemnity of 700 million francs and an allied army of occupation of 150,000 men on France's northern and eastern departments. The occupation ended in 1818.",
+      "wikipediaTitle": "Treaty of Paris (1815)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1815)"
+      ]
+    },
+    {
+      "id": "FRA-siege-of-paris-1870",
+      "title": "Siege of Paris",
+      "startYear": 1870,
+      "endYear": 1871,
+      "exploiter": {
+        "label": "Prussia"
+      },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "A capital was encircled for four months in the winter of 1870 to 1871.",
+        "Zoo animals appeared on restaurant menus as supplies ran out."
+      ],
+      "summary": "During the Franco-Prussian War, German forces led by Prussia besieged Paris from September 1870 until the armistice of January 1871. The city suffered severe hunger and a bombardment, and the German Empire was proclaimed at Versailles during the siege.",
+      "sensitive": true,
+      "wikipediaTitle": "Siege of Paris (1870–1871)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siege_of_Paris_(1870%E2%80%931871)"
+      ]
+    },
+    {
+      "id": "FRA-alsace-lorraine-annexation",
+      "title": "German annexation of Alsace-Lorraine",
+      "startYear": 1871,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "annexation",
+      "resources": [
+        "iron_ore",
+        "tribute"
+      ],
+      "territoryNames": [
+        "Alsace-Lorraine"
+      ],
+      "hints": [
+        "A war lost in 1870 cost a nation two eastern provinces and an indemnity of five billion francs.",
+        "The territory was run as an imperial land and returned only after 1918."
+      ],
+      "summary": "After the Franco-Prussian War, the Treaty of Frankfurt of 1871 gave Imperial Germany most of Alsace and part of Lorraine, rich in iron ore, and imposed an indemnity of five billion francs. The Reichsland was returned to France in 1918.",
+      "wikipediaTitle": "Alsace-Lorraine",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alsace-Lorraine"
+      ]
+    },
+    {
+      "id": "FRA-german-occupation-ww2",
+      "title": "German occupation",
+      "startYear": 1940,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "labour",
+        "land"
+      ],
+      "territoryNames": [
+        "the Zone Occupée"
+      ],
+      "hints": [
+        "The country was split by an armistice signed in a railway carriage in June 1940.",
+        "Daily occupation costs and a compulsory labour service drained resources and workers."
+      ],
+      "summary": "After the armistice of June 1940, Germany occupied the north and the Atlantic coast, and from November 1942 the whole country. It imposed heavy occupation costs, requisitioned goods and, through the compulsory labour service, sent hundreds of thousands of workers to Germany.",
+      "sensitive": true,
+      "wikipediaTitle": "Military Administration in France",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Military_Administration_in_France"
+      ]
+    }
+  ]
+}

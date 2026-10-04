@@ -1,0 +1,150 @@
+{
+  "country": "LVA",
+  "events": [
+    {
+      "id": "LVA-livonian-crusade",
+      "title": "Livonian Crusade",
+      "startYear": 1198,
+      "endYear": 1290,
+      "exploiter": {
+        "label": "the Teutonic Order"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "Old Livonia"
+      ],
+      "hints": [
+        "A bishop from Bremen founded a fortified port on a large river in 1201.",
+        "Crusading knights in white cloaks subjugated the pagan tribes by 1290."
+      ],
+      "summary": "From 1198 crusaders, first the Livonian Brothers of the Sword and then the Teutonic Order, conquered the tribes around the Gulf of Riga and founded Riga in 1201. The conquered lands became Livonia under a ruling class of German knights and merchants.",
+      "wikipediaTitle": "Livonian Crusade",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Livonian_Crusade"
+      ]
+    },
+    {
+      "id": "LVA-swedish-livonia",
+      "title": "Swedish Livonia",
+      "startYear": 1621,
+      "endYear": 1721,
+      "exploiter": {
+        "label": "Sweden"
+      },
+      "type": "colonization",
+      "resources": [
+        "grain",
+        "timber"
+      ],
+      "territoryNames": [
+        "Swedish Livonia"
+      ],
+      "hints": [
+        "After a siege in 1621 a northern kingdom took the largest city on the eastern Baltic.",
+        "The region was nicknamed the granary of its new master."
+      ],
+      "summary": "Sweden captured Riga in 1621 and gained most of Livonia, which it held until the Great Northern War. Livonia produced grain for the Swedish army and the port of Riga was a major source of customs revenue.",
+      "wikipediaTitle": "Swedish Livonia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Swedish_Livonia"
+      ]
+    },
+    {
+      "id": "LVA-russian-rule",
+      "title": "Russian imperial rule",
+      "startYear": 1721,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "annexation",
+      "resources": [
+        "grain",
+        "timber"
+      ],
+      "hints": [
+        "A treaty signed in a Finnish town in 1721 transferred the province to the tsar.",
+        "The duchy to the west was annexed in the third partition of its neighbour."
+      ],
+      "summary": "The Treaty of Nystad in 1721 gave Livonia to Russia, and Courland was annexed in 1795. Baltic German nobles retained local power, and from the 1880s Russification policies were imposed until independence in 1918.",
+      "wikipediaTitle": "Governorate of Livonia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Governorate_of_Livonia"
+      ]
+    },
+    {
+      "id": "LVA-soviet-annexation-1940",
+      "title": "Soviet occupation and annexation",
+      "startYear": 1940,
+      "endYear": 1941,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "Troops crossed the border in June 1940 after an ultimatum citing a secret deal with Berlin.",
+        "Mass arrests and a deportation of 14 June 1941 followed."
+      ],
+      "summary": "Following the secret protocol of the Molotov–Ribbentrop Pact, Soviet forces occupied the country in June 1940 and annexed it in August after staged elections. On 14 June 1941 about 15,000 people were deported to Siberia.",
+      "sensitive": true,
+      "wikipediaTitle": "Soviet occupation of the Baltic states (1940)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Soviet_occupation_of_the_Baltic_states_(1940)"
+      ]
+    },
+    {
+      "id": "LVA-nazi-occupation",
+      "title": "Nazi German occupation",
+      "startYear": 1941,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "labour"
+      ],
+      "hints": [
+        "German forces arrived in July 1941 and the country became part of a Reichskommissariat.",
+        "About 25,000 Jews were shot in the Rumbula forest in late 1941."
+      ],
+      "summary": "Germany occupied the country in 1941 and incorporated it into the Reichskommissariat Ostland. The Jewish population was largely murdered, including some 25,000 in the Rumbula massacres, and thousands were deported for forced labour.",
+      "sensitive": true,
+      "wikipediaTitle": "Reichskommissariat Ostland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Reichskommissariat_Ostland"
+      ]
+    },
+    {
+      "id": "LVA-soviet-occupation-postwar",
+      "title": "Soviet occupation 1944 to 1991",
+      "startYear": 1944,
+      "endYear": 1991,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "occupation",
+      "resources": [
+        "labour",
+        "land"
+      ],
+      "hints": [
+        "Tens of thousands were deported in March 1949 to break resistance to collectivisation.",
+        "Independence was restored in 1991 after a human chain stretching across three countries."
+      ],
+      "summary": "The Red Army returned in 1944 and the country was absorbed into the Soviet Union until 1991. Mass deportations in March 1949 accompanied forced collectivisation, and industrialisation brought many Soviet settlers.",
+      "sensitive": true,
+      "wikipediaTitle": "Latvian Soviet Socialist Republic",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Latvian_Soviet_Socialist_Republic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "country": "MDA",
+  "events": [
+    {
+      "id": "MDA-russian-annexation-bessarabia-1812",
+      "title": "Russian annexation of Bessarabia",
+      "startYear": 1812,
+      "endYear": 1917,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "grain"
+      ],
+      "hints": [
+        "A treaty signed at Bucharest in 1812 handed the land between two rivers to the tsar.",
+        "The territory was home to many ethnic groups and became a 'granary' for the empire."
+      ],
+      "summary": "The Treaty of Bucharest in 1812 ended the Russo-Turkish War of 1806–12, ceding the eastern half of the Principality of Moldavia, between the Prut and Dniester, to Russia. Russia named it Bessarabia and held it until 1917–18, with an Orthodox and Russian cultural policy.",
+      "wikipediaTitle": "Treaty of Bucharest (1812)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaty_of_Bucharest_(1812)"
+      ]
+    },
+    {
+      "id": "MDA-soviet-annexation-1940",
+      "title": "Soviet annexation",
+      "startYear": 1940,
+      "endYear": 1941,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "An ultimatum of 26 June 1940 gave a neighbour 24 hours to cede territory.",
+        "A republic with a new capital at Chisinau was formed in August 1940."
+      ],
+      "summary": "On 26 June 1940 the Soviet Union demanded Bessarabia and Northern Bukovina from Romania, citing the secret protocol of the Molotov–Ribbentrop Pact. The territory was annexed and part of it was formed into the Moldavian SSR, followed by deportations in 1941.",
+      "sensitive": true,
+      "wikipediaTitle": "Soviet occupation of Bessarabia and Northern Bukovina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Soviet_occupation_of_Bessarabia_and_Northern_Bukovina"
+      ]
+    },
+    {
+      "id": "MDA-transnistria-governorate",
+      "title": "Romanian rule and the Transnistria Governorate",
+      "startYear": 1941,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Romania"
+      },
+      "type": "occupation",
+      "resources": [
+        "land",
+        "labour"
+      ],
+      "hints": [
+        "An ally of the Axis reoccupied the territory in July 1941 and administered a new governorate east of the Dniester.",
+        "Tens of thousands of Jews were deported across the river to camps and ghettos."
+      ],
+      "summary": "Romania, allied with Nazi Germany, reoccupied Bessarabia in 1941 and also ran the Transnistria Governorate across the Dniester. Authorities deported Jews and Roma there, and a large number died, as part of what is called the Romanian Holocaust.",
+      "sensitive": true,
+      "wikipediaTitle": "Transnistria Governorate",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Transnistria_Governorate"
+      ]
+    },
+    {
+      "id": "MDA-soviet-famine-1946",
+      "title": "Soviet famine of 1946 to 1947",
+      "startYear": 1946,
+      "endYear": 1947,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "engineered_famine",
+      "resources": [
+        "grain"
+      ],
+      "hints": [
+        "A drought and continued grain requisitions caused hunger in the first postwar winter.",
+        "Villages were affected in the republic that had been annexed only a few years before."
+      ],
+      "summary": "In 1946–47 a drought, wartime destruction and continued compulsory grain deliveries caused a severe famine in the Moldavian SSR and other Soviet regions. Estimates of deaths in the republic are around 100,000, though figures vary.",
+      "sensitive": true,
+      "wikipediaTitle": "Soviet famine of 1946–1947",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Soviet_famine_of_1946%E2%80%931947"
+      ]
+    },
+    {
+      "id": "MDA-operation-south",
+      "title": "Deportation Operation South",
+      "startYear": 1949,
+      "endYear": 1949,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "other",
+      "resources": [
+        "labour"
+      ],
+      "hints": [
+        "In the early hours of 6 July 1949 trains took families from the countryside to the east.",
+        "Thousands of households of farmers and local officials were targeted."
+      ],
+      "summary": "On 6–7 July 1949 Soviet authorities deported more than 11,000 families, about 35,000 people, from the Moldavian SSR to Siberia and Kazakhstan under Operation South. The victims were labelled kulaks or 'enemies' of the system.",
+      "sensitive": true,
+      "wikipediaTitle": "Soviet deportations from Bessarabia and Northern Bukovina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Soviet_deportations_from_Bessarabia_and_Northern_Bukovina"
+      ]
+    },
+    {
+      "id": "MDA-transnistria-war",
+      "title": "Transnistria War",
+      "startYear": 1990,
+      "endYear": 1992,
+      "exploiter": {
+        "label": "the Russian Federation"
+      },
+      "type": "proxy_war",
+      "resources": [],
+      "hints": [
+        "A strip along the eastern river broke away in 1990 and fighting peaked in 1992.",
+        "A former Soviet army's units intervened and a ceasefire left troops stationed there."
+      ],
+      "summary": "Following Moldova's push towards independence, separatists in the strip east of the Dniester fought the Moldovan forces in 1992. The former Soviet 14th Army intervened on the separatists' side, and Russian troops have remained in the territory since the ceasefire.",
+      "sensitive": true,
+      "wikipediaTitle": "Transnistria War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Transnistria_War"
+      ]
+    }
+  ]
+}

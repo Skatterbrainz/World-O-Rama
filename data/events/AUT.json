@@ -1,0 +1,123 @@
+{
+  "country": "AUT",
+  "events": [
+    {
+      "id": "AUT-roman-noricum",
+      "title": "Roman annexation of Noricum",
+      "startYear": -16,
+      "endYear": 488,
+      "exploiter": {
+        "label": "the Roman Empire"
+      },
+      "type": "annexation",
+      "resources": [
+        "iron_ore",
+        "gold",
+        "salt"
+      ],
+      "hints": [
+        "A kingdom famed for its iron was absorbed peacefully into the empire.",
+        "A governor's seat at Virunum controlled mines and salt."
+      ],
+      "summary": "The Alpine kingdom of Noricum was incorporated into the Roman empire around 16 BCE, and became a province under Claudius. Its iron, gold and salt were valued, and Roman authority faded in the 5th century.",
+      "wikipediaTitle": "Noricum",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Noricum"
+      ]
+    },
+    {
+      "id": "AUT-hungarian-occupation-vienna",
+      "title": "Hungarian occupation of Vienna",
+      "startYear": 1485,
+      "endYear": 1490,
+      "exploiter": {
+        "label": "Hungary"
+      },
+      "type": "occupation",
+      "resources": [
+        "land",
+        "tribute"
+      ],
+      "hints": [
+        "A king known as the Raven ruled a capital from 1485.",
+        "He died in 1490 and the occupation ended."
+      ],
+      "summary": "Matthias Corvinus of Hungary conquered Lower Austria and took Vienna in 1485, ruling from the city until his death in 1490. The Habsburgs then recovered their territories.",
+      "wikipediaTitle": "Austrian–Hungarian War (1477–1488)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Austrian%E2%80%93Hungarian_War_(1477%E2%80%931488)"
+      ]
+    },
+    {
+      "id": "AUT-schonbrunn-1809",
+      "title": "Treaty of Schönbrunn",
+      "startYear": 1809,
+      "endYear": 1809,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "hints": [
+        "A defeated empire lost territory and paid an indemnity after Napoleon's victory at Wagram.",
+        "Salzburg and the Adriatic coast were ceded."
+      ],
+      "summary": "After the defeat at Wagram in July 1809, the Treaty of Schönbrunn forced the Habsburg empire to cede Salzburg, western Galicia and the Adriatic lands, to pay an indemnity and to limit its army. French troops had occupied Vienna twice, in 1805 and 1809.",
+      "wikipediaTitle": "Treaty of Schönbrunn (1809)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaty_of_Sch%C3%B6nbrunn_(1809)"
+      ]
+    },
+    {
+      "id": "AUT-anschluss",
+      "title": "Anschluss",
+      "startYear": 1938,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "annexation",
+      "resources": [
+        "gold",
+        "iron_ore",
+        "oil",
+        "labour"
+      ],
+      "hints": [
+        "Troops crossed the border in March 1938 to cheers and a rigged plebiscite.",
+        "National gold reserves were transferred to the neighbour's central bank."
+      ],
+      "summary": "German forces entered in March 1938 and annexed the country. The central bank's gold and foreign currency reserves were taken, iron ore and oil were exploited, and Jews and political opponents were persecuted.",
+      "sensitive": true,
+      "wikipediaTitle": "Anschluss",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anschluss"
+      ]
+    },
+    {
+      "id": "AUT-allied-occupation",
+      "title": "Allied occupation and Soviet oil seizure",
+      "startYear": 1945,
+      "endYear": 1955,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "occupation",
+      "resources": [
+        "oil"
+      ],
+      "hints": [
+        "Four powers divided the country and its capital in 1945.",
+        "A Soviet administration ran the oil fields as 'German property' until 1955."
+      ],
+      "summary": "After 1945 the country and its capital were divided among four occupying powers. The Soviets seized assets as 'German property', including the Zistersdorf oil fields, and ran them until the State Treaty of 1955.",
+      "wikipediaTitle": "Allied-occupied Austria",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Allied-occupied_Austria"
+      ]
+    }
+  ]
+}

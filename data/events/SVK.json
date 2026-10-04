@@ -1,0 +1,117 @@
+{
+  "country": "SVK",
+  "events": [
+    {
+      "id": "SVK-ottoman-uyvar",
+      "title": "Ottoman Uyvar Eyalet",
+      "startYear": 1663,
+      "endYear": 1685,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "land",
+        "tribute"
+      ],
+      "territoryNames": [
+        "the Uyvar Eyalet"
+      ],
+      "hints": [
+        "A fortress town in the south-west fell in 1663 and became a provincial capital.",
+        "A Habsburg-led alliance recaptured it in 1685."
+      ],
+      "summary": "In 1663 the Ottomans captured Nové Zámky and created the Uyvar Eyalet, which taxed much of south-western Slovakia. The Habsburgs retook the fortress in 1685.",
+      "wikipediaTitle": "Uyvar Eyalet",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Uyvar_Eyalet"
+      ]
+    },
+    {
+      "id": "SVK-magyarization",
+      "title": "Magyarization",
+      "startYear": 1867,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "Hungary"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "After 1867 the language of administration and schooling was imposed from Budapest.",
+        "Cultural institutions were closed in 1875 and a shooting in 1907 at Cernova became a symbol."
+      ],
+      "summary": "After the Compromise of 1867, Hungarian authorities pursued policies of Magyarization, including the closure of Slovak-language secondary schools and the cultural society Matica slovenska in 1874–75. The 1907 Cernova shooting killed 15 villagers.",
+      "sensitive": true,
+      "wikipediaTitle": "Magyarization",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Magyarization"
+      ]
+    },
+    {
+      "id": "SVK-first-vienna-award",
+      "title": "First Vienna Award",
+      "startYear": 1938,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "Hungary"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "Arbitrators from Berlin and Rome drew a new border in November 1938.",
+        "A fertile southern strip with Kosice was ceded."
+      ],
+      "summary": "The First Vienna Award of November 1938, decided by Germany and Italy, transferred southern Slovakia and part of Carpathian Ruthenia to Hungary. The territories returned in 1945.",
+      "wikipediaTitle": "First Vienna Award",
+      "sources": [
+        "https://en.wikipedia.org/wiki/First_Vienna_Award"
+      ]
+    },
+    {
+      "id": "SVK-slovak-state",
+      "title": "Slovak client state",
+      "startYear": 1939,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "puppet_regime",
+      "resources": [
+        "labour"
+      ],
+      "hints": [
+        "A republic declared in March 1939 under German 'protection'.",
+        "Tens of thousands of Jews were deported in 1942 under the regime's own laws."
+      ],
+      "summary": "The Slovak Republic was proclaimed in March 1939 as a client state of Nazi Germany, which kept a protectorate over it. In 1942 the government deported about 58,000 Jews, and an uprising in 1944 was crushed by German troops.",
+      "sensitive": true,
+      "wikipediaTitle": "Slovak Republic (1939–1945)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Slovak_Republic_(1939%E2%80%931945)"
+      ]
+    },
+    {
+      "id": "SVK-invasion-1968",
+      "title": "Warsaw Pact invasion and occupation",
+      "startYear": 1968,
+      "endYear": 1991,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "Soviet tanks rolled in during August 1968 to halt reforms.",
+        "Troops remained for more than two decades."
+      ],
+      "summary": "Warsaw Pact forces led by the Soviet Union invaded in August 1968 to end the reforms of the Prague Spring. Soviet forces remained in the country until 1991.",
+      "wikipediaTitle": "Warsaw Pact invasion of Czechoslovakia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia"
+      ]
+    }
+  ]
+}

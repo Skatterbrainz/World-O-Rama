@@ -1,0 +1,96 @@
+{
+  "country": "MNE",
+  "events": [
+    {
+      "id": "MNE-venetian-albania-kotor",
+      "title": "Venetian rule on the Bay of Kotor",
+      "startYear": 1420,
+      "endYear": 1797,
+      "exploiter": {
+        "label": "Venice"
+      },
+      "type": "colonization",
+      "resources": [
+        "trade_routes",
+        "salt"
+      ],
+      "territoryNames": [
+        "Venetian Albania"
+      ],
+      "hints": [
+        "A fjord-like bay on the Adriatic came under a lagoon republic in the 15th century.",
+        "The ports fell with the republic in 1797."
+      ],
+      "summary": "Cities such as Kotor and Budva came under Venetian rule in the early 15th century, as part of what Venice called Albania Veneta. They served as naval bases and trading ports until the republic was dissolved in 1797.",
+      "wikipediaTitle": "Venetian Albania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Venetian_Albania"
+      ]
+    },
+    {
+      "id": "MNE-french-occupation-bay-of-kotor",
+      "title": "French rule of the Bay of Kotor",
+      "startYear": 1806,
+      "endYear": 1814,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A Russian fleet's ally handed an Adriatic bay to Napoleon's army in 1806.",
+        "British and local forces ended French control in 1813 and 1814."
+      ],
+      "summary": "In 1806 French forces took over the Bay of Kotor after Austria ceded the territory under the Treaty of Pressburg, and it was later incorporated into the Illyrian Provinces. It was lost during campaigns in 1813 and 1814.",
+      "wikipediaTitle": "Illyrian Provinces",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Illyrian_Provinces"
+      ]
+    },
+    {
+      "id": "MNE-austro-hungarian-occupation",
+      "title": "Austro-Hungarian occupation",
+      "startYear": 1916,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "Austria-Hungary"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A mountain kingdom was overrun in January 1916 after a fierce battle for Lovcen.",
+        "Its king went into exile, and the occupation ended with the Allied advance in late 1918."
+      ],
+      "summary": "In the Montenegrin Campaign of January 1916, Austria-Hungary overran the kingdom, forcing King Nikola into exile. A military governorate was established until the end of the First World War.",
+      "wikipediaTitle": "Montenegrin campaign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Montenegrin_campaign"
+      ]
+    },
+    {
+      "id": "MNE-italian-governorate",
+      "title": "Italian Governorate of Montenegro",
+      "startYear": 1941,
+      "endYear": 1943,
+      "exploiter": {
+        "label": "Fascist Italy"
+      },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "After the April 1941 invasion, Rome tried to create a nominally independent client kingdom.",
+        "A popular uprising in July 1941 undermined the plan and Italian reprisals followed."
+      ],
+      "summary": "After the Axis invasion of Yugoslavia, Italy occupied the area and set up the Governorate of Montenegro, planning a nominally independent kingdom. A popular uprising in July 1941 and reprisals marked the period until the armistice of 1943.",
+      "sensitive": true,
+      "wikipediaTitle": "Governorate of Montenegro",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Governorate_of_Montenegro"
+      ]
+    }
+  ]
+}

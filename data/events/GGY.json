@@ -1,0 +1,75 @@
+{
+  "country": "GGY",
+  "events": [
+    {
+      "id": "GGY-annexation-normandy-933",
+      "title": "Annexation to Normandy",
+      "startYear": 933,
+      "endYear": 933,
+      "exploiter": {
+        "label": "the Normans"
+      },
+      "type": "annexation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A Norse-descended duke took the islands in 933.",
+        "They remained attached to a continental duchy until 1204."
+      ],
+      "summary": "In 933 the Channel Islands were annexed to the Duchy of Normandy by William Longsword. After Normandy fell to the French crown in 1204, the islands stayed with the English crown.",
+      "wikipediaTitle": "Channel Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Channel_Islands"
+      ]
+    },
+    {
+      "id": "GGY-french-occupation-1338",
+      "title": "French occupation in the Hundred Years' War",
+      "startYear": 1338,
+      "endYear": 1345,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "French and allied ships captured the island in 1338.",
+        "One castle held out for the English crown."
+      ],
+      "summary": "During the Hundred Years' War, a Franco-Genoese force raided the Channel Islands in 1338 and occupied Guernsey for several years, though Castle Cornet remained in English hands. English authority was gradually restored by the mid-1340s.",
+      "wikipediaTitle": "Channel Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Channel_Islands"
+      ]
+    },
+    {
+      "id": "GGY-german-occupation",
+      "title": "German occupation of the Channel Islands",
+      "startYear": 1940,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "labour"
+      ],
+      "territoryNames": [
+        "the Channel Islands"
+      ],
+      "hints": [
+        "Bombing preceded landings in June and July 1940.",
+        "Slave labourers built vast tunnels and coastal batteries."
+      ],
+      "summary": "German forces occupied Guernsey in June 1940, and the island was heavily fortified until liberation in May 1945. Thousands of forced and slave workers built defences, and many islanders were deported to camps in Germany.",
+      "sensitive": true,
+      "wikipediaTitle": "German occupation of the Channel Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/German_occupation_of_the_Channel_Islands"
+      ]
+    }
+  ]
+}

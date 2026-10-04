@@ -1,0 +1,112 @@
+{
+  "country": "SWE",
+  "events": [
+    {
+      "id": "SWE-danish-gotland-1361",
+      "title": "Danish conquest of Gotland",
+      "startYear": 1361,
+      "endYear": 1645,
+      "exploiter": {
+        "label": "Denmark"
+      },
+      "type": "occupation",
+      "resources": [
+        "silver",
+        "trade_routes"
+      ],
+      "hints": [
+        "A king defeated farmers outside the walled trading city of Visby in the summer of 1361.",
+        "A great Baltic trading island stayed under foreign rule on and off until 1645."
+      ],
+      "summary": "In July 1361 King Valdemar IV of Denmark defeated the Gotlandic army outside Visby and took the wealthy Hanseatic trading town. Gotland was under Danish control, with interruptions, until the Treaty of Bromsebro in 1645.",
+      "wikipediaTitle": "Battle of Visby",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Battle_of_Visby"
+      ]
+    },
+    {
+      "id": "SWE-kalmar-union",
+      "title": "Kalmar Union",
+      "startYear": 1397,
+      "endYear": 1523,
+      "exploiter": {
+        "label": "Denmark"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "Three Nordic crowns were united under one monarch in 1397, but one partner dominated.",
+        "A revolt led by a nobleman in the 1520s ended the union."
+      ],
+      "summary": "The Kalmar Union joined Denmark, Norway and Sweden under one monarch from 1397. Danish kings repeatedly clashed with Swedish nobles over taxes and appointments, and the union ended when Gustav Vasa was elected king in 1523.",
+      "quip": "A union of three kingdoms, with one partner always sure it was the senior one.",
+      "wikipediaTitle": "Kalmar Union",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kalmar_Union"
+      ]
+    },
+    {
+      "id": "SWE-stockholm-bloodbath",
+      "title": "Stockholm Bloodbath",
+      "startYear": 1520,
+      "endYear": 1520,
+      "exploiter": {
+        "label": "Denmark"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A coronation feast in November 1520 ended with executions in the main square.",
+        "Roughly eighty nobles and clergy were put to death after a trial for heresy."
+      ],
+      "summary": "After capturing Stockholm, the Danish king Christian II had about 80 nobles, clergymen and townspeople executed in the Stortorget square on 8 to 9 November 1520. The killings provoked the rebellion led by Gustav Vasa.",
+      "sensitive": true,
+      "wikipediaTitle": "Stockholm Bloodbath",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Stockholm_Bloodbath"
+      ]
+    },
+    {
+      "id": "SWE-scanian-war",
+      "title": "Danish occupation during the Scanian War",
+      "startYear": 1676,
+      "endYear": 1679,
+      "exploiter": {
+        "label": "Denmark"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A fleet landed troops in the south in 1676 to recover provinces lost in 1658.",
+        "Local irregulars known as snaphanar fought the occupiers."
+      ],
+      "summary": "During the Scanian War Denmark invaded the southern provinces in 1676, hoping to win back land lost in 1658. Danish forces held parts of Scania for about three years until the peace of 1679 restored the border.",
+      "wikipediaTitle": "Scanian War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scanian_War"
+      ]
+    },
+    {
+      "id": "SWE-russian-coastal-raids",
+      "title": "Russian coastal raids",
+      "startYear": 1719,
+      "endYear": 1721,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A galley fleet burned settlements along the coast in the final years of a long war.",
+        "Factories in an industrial town were burned in the summer of 1719."
+      ],
+      "summary": "In the last years of the Great Northern War, Russian galley fleets raided the Swedish coast from 1719 to 1721, burning towns and manufacturing sites including Norrkoping and Harnosand. The war ended with the Treaty of Nystad in 1721.",
+      "wikipediaTitle": "Great Northern War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Great_Northern_War"
+      ]
+    }
+  ]
+}

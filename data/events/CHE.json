@@ -1,0 +1,118 @@
+{
+  "country": "CHE",
+  "events": [
+    {
+      "id": "CHE-roman-helvetii",
+      "title": "Roman conquest of the Helvetii",
+      "startYear": -58,
+      "endYear": 15,
+      "exploiter": {
+        "label": "the Roman Republic"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "hints": [
+        "A tribe's planned migration was halted at Bibracte in 58 BCE.",
+        "A conquest of the Alps completed the subjugation by 15 BCE."
+      ],
+      "summary": "Julius Caesar defeated the migrating Helvetii at the Battle of Bibracte in 58 BCE and forced them back to their homeland. The Alpine region was fully subdued in 15 BCE and became part of the Roman provinces.",
+      "wikipediaTitle": "Helvetii",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Helvetii"
+      ]
+    },
+    {
+      "id": "CHE-french-invasion-1798",
+      "title": "French invasion and the Helvetic Republic",
+      "startYear": 1798,
+      "endYear": 1803,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "puppet_regime",
+      "resources": [
+        "gold",
+        "silver"
+      ],
+      "territoryNames": [
+        "the Helvetic Republic"
+      ],
+      "hints": [
+        "Troops marched into a city in March 1798 and seized the state treasury.",
+        "A sister republic with a new constitution was imposed until Napoleon's mediation in 1803."
+      ],
+      "summary": "French troops invaded in 1798 and took the Bernese treasury, then created the centralised Helvetic Republic as a client state. French occupation and requisitioning continued until Napoleon's Act of Mediation of 1803.",
+      "wikipediaTitle": "French invasion of Switzerland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_invasion_of_Switzerland"
+      ]
+    },
+    {
+      "id": "CHE-geneva-annexation-1798",
+      "title": "French annexation of Geneva",
+      "startYear": 1798,
+      "endYear": 1813,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A republic on a lake was swallowed by a larger neighbour in April 1798.",
+        "It became the capital of a French department until 1813."
+      ],
+      "summary": "France annexed the Republic of Geneva in April 1798 and made it the capital of the Léman department, which lasted until the French withdrawal in December 1813. Geneva joined the Swiss Confederation in 1815.",
+      "wikipediaTitle": "Republic of Geneva",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Republic_of_Geneva"
+      ]
+    },
+    {
+      "id": "CHE-suvorov-campaign-1799",
+      "title": "Foreign armies fighting in the Alps",
+      "startYear": 1799,
+      "endYear": 1799,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A Russian field marshal marched an army across the Alps in the autumn of 1799.",
+        "The battles of Zurich saw three great powers fight on the country's soil."
+      ],
+      "summary": "In 1799 French, Austrian and Russian armies fought across the country during the War of the Second Coalition, culminating in the Second Battle of Zurich and Suvorov's crossing of the Alps. The conflict devastated much of central Switzerland.",
+      "wikipediaTitle": "Suvorov's Swiss campaign",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Suvorov's_Swiss_campaign"
+      ]
+    },
+    {
+      "id": "CHE-valais-annexation-1810",
+      "title": "French annexation of Valais",
+      "startYear": 1810,
+      "endYear": 1813,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "annexation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "Napoleon built a road over an Alpine pass and then annexed the canton it crossed.",
+        "An independent republic lasted only eight years before becoming a department."
+      ],
+      "summary": "After the Republic of Valais was set up as a French client in 1802 to secure the Simplon road, Napoleon annexed it in 1810 as the Simplon department. It was liberated in 1813 and joined the Swiss Confederation in 1815.",
+      "wikipediaTitle": "Republic of Valais",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Republic_of_Valais"
+      ]
+    }
+  ]
+}

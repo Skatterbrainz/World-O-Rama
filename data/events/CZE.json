@@ -1,0 +1,125 @@
+{
+  "country": "CZE",
+  "events": [
+    {
+      "id": "CZE-white-mountain",
+      "title": "Habsburg conquest after White Mountain",
+      "startYear": 1620,
+      "endYear": 1627,
+      "exploiter": {
+        "label": "the Habsburg Monarchy"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A rebel king's army was routed in about two hours outside Prague in 1620.",
+        "Noble estates were confiscated and Protestants forced out."
+      ],
+      "summary": "After the Battle of White Mountain in November 1620, the Habsburgs executed rebel leaders in 1621, confiscated the estates of Protestant nobles and imposed a new constitution in 1627. Many Protestants were forced to convert or emigrate.",
+      "wikipediaTitle": "Battle of White Mountain",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Battle_of_White_Mountain"
+      ]
+    },
+    {
+      "id": "CZE-munich-agreement",
+      "title": "Munich Agreement and annexation of the Sudetenland",
+      "startYear": 1938,
+      "endYear": 1938,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "annexation",
+      "resources": [
+        "coal",
+        "land"
+      ],
+      "territoryNames": [
+        "the Sudetenland"
+      ],
+      "hints": [
+        "A conference of four powers in September 1938 decided a country's fate without it.",
+        "Border fortifications and industrial regions were ceded."
+      ],
+      "summary": "At the Munich Conference of 29–30 September 1938 France, Britain and Italy agreed to Germany's annexation of the Sudeten borderlands. The country was not invited, and the loss included fortifications and industrial areas.",
+      "quip": "A famous example of settling a dispute by giving someone else's land to the person making the most noise.",
+      "wikipediaTitle": "Munich Agreement",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Munich_Agreement"
+      ]
+    },
+    {
+      "id": "CZE-protectorate-bohemia-moravia",
+      "title": "Protectorate of Bohemia and Moravia",
+      "startYear": 1939,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "labour",
+        "coal"
+      ],
+      "territoryNames": [
+        "the Protectorate of Bohemia and Moravia"
+      ],
+      "hints": [
+        "Troops marched into Prague in March 1939, and a protectorate was declared.",
+        "The village of Lidice was destroyed in 1942 as reprisal for an assassination."
+      ],
+      "summary": "German troops occupied the remainder of the Czech lands in March 1939 and set up a protectorate. Czech industry and workers were put at the service of the German war economy, universities were closed in 1939 and reprisals such as Lidice followed the assassination of Reinhard Heydrich.",
+      "sensitive": true,
+      "wikipediaTitle": "Protectorate of Bohemia and Moravia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Protectorate_of_Bohemia_and_Moravia"
+      ]
+    },
+    {
+      "id": "CZE-soviet-satellite",
+      "title": "Communist coup and Soviet satellite",
+      "startYear": 1948,
+      "endYear": 1989,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "puppet_regime",
+      "resources": [
+        "uranium",
+        "labour"
+      ],
+      "hints": [
+        "A February 1948 coup placed a one-party regime under Moscow's wing.",
+        "Uranium from the Jáchymov mines was sent east."
+      ],
+      "summary": "After the communist coup of February 1948 the country became a close Soviet satellite. Uranium from Jáchymov was supplied to the Soviet Union, with prisoners used as forced labour in the mines.",
+      "sensitive": true,
+      "wikipediaTitle": "Czechoslovak Socialist Republic",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Czechoslovak_Socialist_Republic"
+      ]
+    },
+    {
+      "id": "CZE-invasion-1968",
+      "title": "Warsaw Pact invasion and occupation",
+      "startYear": 1968,
+      "endYear": 1991,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "Tanks entered Prague on the night of 20 to 21 August 1968.",
+        "A reform movement known as a 'spring' was crushed and troops stayed until 1991."
+      ],
+      "summary": "On 20–21 August 1968 Warsaw Pact forces led by the Soviet Union invaded to end the Prague Spring reforms. Soviet troops were stationed in the country until 1991.",
+      "wikipediaTitle": "Warsaw Pact invasion of Czechoslovakia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia"
+      ]
+    }
+  ]
+}

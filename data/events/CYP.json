@@ -1,0 +1,145 @@
+{
+  "country": "CYP",
+  "events": [
+    {
+      "id": "CYP-ptolemaic-cyprus",
+      "title": "Ptolemaic rule of Cyprus",
+      "startYear": -294,
+      "endYear": -58,
+      "exploiter": {
+        "label": "the Ptolemaic Kingdom"
+      },
+      "type": "colonization",
+      "resources": [
+        "copper",
+        "timber"
+      ],
+      "hints": [
+        "A Hellenistic dynasty based in Alexandria held the island for over two centuries.",
+        "Its copper mines and forests fed the dynasty's fleet."
+      ],
+      "summary": "Ptolemy I took control of Cyprus and his successors ruled it until Rome annexed it in 58 BCE. The island provided copper and timber for the Ptolemaic navy and was governed by a strategos from Alexandria.",
+      "wikipediaTitle": "Ptolemaic Kingdom",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ptolemaic_Kingdom"
+      ]
+    },
+    {
+      "id": "CYP-genoese-famagusta",
+      "title": "Genoese occupation of Famagusta",
+      "startYear": 1373,
+      "endYear": 1464,
+      "exploiter": {
+        "label": "Genoa"
+      },
+      "type": "occupation",
+      "resources": [
+        "trade_routes",
+        "tribute"
+      ],
+      "hints": [
+        "A rival maritime republic seized the main port after a coronation riot.",
+        "The kingdom had to pay an annual tribute until the king retook the city in 1464."
+      ],
+      "summary": "After a clash in 1373 Genoa captured Famagusta and forced the Lusignan kingdom to pay tribute while it controlled the island's main trading port. King James II recovered the city in 1464.",
+      "wikipediaTitle": "Famagusta",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Famagusta"
+      ]
+    },
+    {
+      "id": "CYP-venetian-cyprus",
+      "title": "Venetian rule",
+      "startYear": 1489,
+      "endYear": 1571,
+      "exploiter": {
+        "label": "Venice"
+      },
+      "type": "colonization",
+      "resources": [
+        "sugar",
+        "salt",
+        "cotton"
+      ],
+      "hints": [
+        "The last Lusignan queen was pressured to abdicate in 1489.",
+        "Fortified walls at Famagusta and Nicosia were meant to hold off a looming Ottoman invasion."
+      ],
+      "summary": "Venice took control in 1489 when Queen Catherine Cornaro was made to abdicate, then governed the island as a fortified colony. Sugar, cotton and salt were exported, and the Ottomans conquered it in 1570–71.",
+      "wikipediaTitle": "Venetian Cyprus",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Venetian_Cyprus"
+      ]
+    },
+    {
+      "id": "CYP-ottoman-conquest",
+      "title": "Ottoman conquest and rule",
+      "startYear": 1570,
+      "endYear": 1878,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "land",
+        "tribute"
+      ],
+      "hints": [
+        "The conquest in 1570 and 1571 ended with the brutal fall of Famagusta.",
+        "The sultan handed administration to Britain in 1878 under a secret convention."
+      ],
+      "summary": "The Ottomans invaded in 1570 and took Famagusta in August 1571 after a long siege. The island remained under Ottoman control, with taxes and land redistribution, until it was handed to Britain to administer in 1878.",
+      "wikipediaTitle": "Ottoman Cyprus",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ottoman_Cyprus"
+      ]
+    },
+    {
+      "id": "CYP-british-rule",
+      "title": "British administration and tribute",
+      "startYear": 1878,
+      "endYear": 1960,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "strategic_location",
+        "tribute"
+      ],
+      "hints": [
+        "An 1878 agreement let Britain administer the island while the sultan remained sovereign.",
+        "A yearly payment drawn from local revenues was used to service Ottoman debts."
+      ],
+      "summary": "Britain took over the island's administration in 1878 and annexed it in 1914, making it a crown colony in 1925. For decades part of the island's revenues was paid as tribute towards Ottoman debts, and an armed struggle for union with Greece began in 1955.",
+      "quip": "A colony that paid for its own landlord's debts.",
+      "wikipediaTitle": "Cyprus Convention",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cyprus_Convention"
+      ]
+    },
+    {
+      "id": "CYP-turkish-invasion-1974",
+      "title": "Turkish invasion and division",
+      "startYear": 1974,
+      "endYear": 1974,
+      "exploiter": {
+        "label": "Turkey"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A coup backed by a military junta abroad triggered a landing in July 1974.",
+        "A UN-patrolled buffer zone has cut the island in two ever since."
+      ],
+      "summary": "In July 1974, after a coup backed by Greece's junta, Turkish forces invaded and took control of the northern third of the island. Tens of thousands of people were displaced, and UN resolutions call for withdrawal; Turkey describes its action as a peace operation.",
+      "sensitive": true,
+      "wikipediaTitle": "Turkish invasion of Cyprus",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Turkish_invasion_of_Cyprus"
+      ]
+    }
+  ]
+}

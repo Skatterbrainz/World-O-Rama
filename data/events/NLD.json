@@ -1,0 +1,147 @@
+{
+  "country": "NLD",
+  "events": [
+    {
+      "id": "NLD-roman-germania-inferior",
+      "title": "Roman conquest of the Low Countries",
+      "startYear": -12,
+      "endYear": 406,
+      "exploiter": {
+        "label": "the Roman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "hints": [
+        "A frontier along the lower Rhine was held for centuries.",
+        "A tribal uprising led by a Batavian officer shook the north in AD 69."
+      ],
+      "summary": "From the campaigns of Drusus around 12 BCE the southern Netherlands became part of the province of Germania Inferior, with the Rhine as the frontier. Roman authority collapsed in the early 5th century.",
+      "wikipediaTitle": "Germania Inferior",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Germania_Inferior"
+      ]
+    },
+    {
+      "id": "NLD-viking-dorestad",
+      "title": "Viking raids on Dorestad",
+      "startYear": 834,
+      "endYear": 863,
+      "exploiter": {
+        "label": "the Vikings"
+      },
+      "type": "other",
+      "resources": [
+        "silver",
+        "tribute"
+      ],
+      "hints": [
+        "A great trading port on the Rhine was raided annually in the 830s.",
+        "A Danish chief held it as a vassal of the Frankish emperor."
+      ],
+      "summary": "Between 834 and 863 Viking fleets repeatedly attacked the major trading centre of Dorestad, and Frankish rulers sometimes granted Viking leaders control of Frisian lands in return for protection. The raids contributed to the town's decline.",
+      "wikipediaTitle": "Dorestad",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dorestad"
+      ]
+    },
+    {
+      "id": "NLD-spanish-rule-dutch-revolt",
+      "title": "Spanish rule and the Dutch Revolt",
+      "startYear": 1556,
+      "endYear": 1581,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "hints": [
+        "A king inherited the provinces in 1555 and sent in a duke who levied a new tax.",
+        "Religious persecution and the Tenth Penny provoked a rebellion in 1568."
+      ],
+      "summary": "Philip II of Spain governed the Netherlands from 1556 through regents and the Duke of Alba, whose heavy taxation and religious persecution provoked the Dutch Revolt in 1568. The northern provinces renounced Philip in the Act of Abjuration of 1581.",
+      "wikipediaTitle": "Dutch Revolt",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dutch_Revolt"
+      ]
+    },
+    {
+      "id": "NLD-rampjaar",
+      "title": "Rampjaar: French invasion",
+      "startYear": 1672,
+      "endYear": 1673,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute"
+      ],
+      "hints": [
+        "In the 'year of disaster' invaders reached the heart of the republic and levied contributions.",
+        "The dykes were opened to flood the country and save the core province."
+      ],
+      "summary": "In 1672 France invaded the Dutch Republic during the Franco-Dutch War and occupied Utrecht, demanding contributions. The country was saved partly by opening the dykes of the Hollandic Water Line and by William III's rise to power.",
+      "wikipediaTitle": "Rampjaar",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rampjaar"
+      ]
+    },
+    {
+      "id": "NLD-french-domination",
+      "title": "French domination",
+      "startYear": 1795,
+      "endYear": 1813,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "puppet_regime",
+      "resources": [
+        "labour",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Batavian Republic",
+        "the Kingdom of Holland"
+      ],
+      "hints": [
+        "A revolutionary army crossed frozen rivers in January 1795 and set up a sister republic.",
+        "A trade embargo ruined merchants before annexation in 1810."
+      ],
+      "summary": "French troops took the Dutch Republic in 1795 and created the Batavian Republic as a client state, followed by the Kingdom of Holland under Louis Bonaparte in 1806. Napoleon annexed it in 1810, and the Continental System devastated trade until 1813.",
+      "wikipediaTitle": "Batavian Republic",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Batavian_Republic"
+      ]
+    },
+    {
+      "id": "NLD-german-occupation-ww2",
+      "title": "German occupation",
+      "startYear": 1940,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "labour",
+        "grain"
+      ],
+      "hints": [
+        "Bombs fell on a port city in May 1940 days after the invasion began.",
+        "A famine winter killed thousands in 1944 and 1945."
+      ],
+      "summary": "Germany invaded in May 1940 and ruled through a civil administration under Arthur Seyss-Inquart. Most of the Jewish population was deported and murdered, many workers were sent to Germany, and the Hunger Winter of 1944–45 caused an estimated 20,000 deaths.",
+      "sensitive": true,
+      "wikipediaTitle": "German occupation of the Netherlands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/German_occupation_of_the_Netherlands"
+      ]
+    }
+  ]
+}

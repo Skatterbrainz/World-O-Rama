@@ -1,0 +1,119 @@
+{
+  "country": "ALB",
+  "events": [
+    {
+      "id": "ALB-roman-illyrian-wars",
+      "title": "Roman conquest of the Illyrian coast",
+      "startYear": -229,
+      "endYear": -168,
+      "exploiter": {
+        "label": "the Roman Republic"
+      },
+      "type": "annexation",
+      "resources": [
+        "strategic_location",
+        "trade_routes"
+      ],
+      "hints": [
+        "Pirate raids on Adriatic shipping gave a distant republic its pretext.",
+        "Rome fought three wars against a kingdom ruled from Scodra and ended it in 168 BCE."
+      ],
+      "summary": "Beginning with the First Illyrian War in 229 BCE, Rome campaigned against the Ardiaean kingdom, ostensibly to suppress piracy, and gained a foothold on the eastern Adriatic coast. The kingdom was ended after the Third Illyrian War in 168 BCE.",
+      "wikipediaTitle": "Illyrian Wars",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Illyrian_Wars"
+      ]
+    },
+    {
+      "id": "ALB-venetian-albania",
+      "title": "Venetian Albania",
+      "startYear": 1392,
+      "endYear": 1797,
+      "exploiter": {
+        "label": "Venice"
+      },
+      "type": "colonization",
+      "resources": [
+        "trade_routes",
+        "salt"
+      ],
+      "territoryNames": [
+        "Venetian Albania"
+      ],
+      "hints": [
+        "A lagoon republic bought and seized ports on the opposite shore of the Adriatic.",
+        "Durres was acquired in 1392 and Shkoder held until 1479; Butrint stayed Venetian until 1797."
+      ],
+      "summary": "From 1392 Venice acquired Adriatic ports including Durres and later Shkoder, using them as trading stations and naval bases. Most were lost to the Ottomans between 1479 and 1501, while Butrint remained a Venetian outpost until the republic fell in 1797.",
+      "wikipediaTitle": "Venetian Albania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Venetian_Albania"
+      ]
+    },
+    {
+      "id": "ALB-ottoman-rule",
+      "title": "Ottoman conquest and rule",
+      "startYear": 1479,
+      "endYear": 1912,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "hints": [
+        "A national hero's long rebellion ended in the 1460s, but the fortress towns fell soon after.",
+        "Independence was declared at Vlore in November 1912, ending more than four centuries of rule from Constantinople."
+      ],
+      "summary": "After decades of resistance led by Skanderbeg, the Ottomans took Kruje in 1478 and Shkoder in 1479. The land was administered as provinces of the empire, with taxes and levies, until independence was declared in 1912 during the First Balkan War.",
+      "wikipediaTitle": "Ottoman Albania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ottoman_Albania"
+      ]
+    },
+    {
+      "id": "ALB-italian-occupation-1939",
+      "title": "Italian invasion and protectorate",
+      "startYear": 1939,
+      "endYear": 1943,
+      "exploiter": {
+        "label": "Fascist Italy"
+      },
+      "type": "puppet_regime",
+      "resources": [
+        "oil"
+      ],
+      "hints": [
+        "A king fled after an invasion launched on Good Friday 1939.",
+        "Italy's crown had already dominated the economy through loans and oil concessions in the 1920s and 1930s."
+      ],
+      "summary": "Italy invaded in April 1939 and merged the crown with its own, ruling through a puppet government. Italian economic penetration, including oil concessions and loans, had grown since the 1920s. Italian rule collapsed with the armistice of September 1943.",
+      "wikipediaTitle": "Italian invasion of Albania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Italian_invasion_of_Albania"
+      ]
+    },
+    {
+      "id": "ALB-german-occupation-1943",
+      "title": "German occupation",
+      "startYear": 1943,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "Troops moved in within days of a major armistice in September 1943."
+      ],
+      "summary": "After Italy's capitulation in September 1943, German forces occupied the country and installed a collaborationist regime. The occupation lasted until the withdrawal in November 1944; many local families sheltered Jews, who largely survived.",
+      "sensitive": true,
+      "wikipediaTitle": "Albania in World War II",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Albania_in_World_War_II"
+      ]
+    }
+  ]
+}

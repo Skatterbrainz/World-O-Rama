@@ -1,0 +1,97 @@
+{
+  "country": "JEY",
+  "events": [
+    {
+      "id": "JEY-annexation-normandy-933",
+      "title": "Annexation to Normandy",
+      "startYear": 933,
+      "endYear": 933,
+      "exploiter": {
+        "label": "the Normans"
+      },
+      "type": "annexation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A Norse-descended duke took the islands in 933.",
+        "They remained attached to a continental duchy until 1204."
+      ],
+      "summary": "In 933 the Channel Islands were annexed to the Duchy of Normandy by William Longsword. After Normandy fell to the French crown in 1204, the islands stayed with the English crown.",
+      "wikipediaTitle": "Channel Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Channel_Islands"
+      ]
+    },
+    {
+      "id": "JEY-french-occupation-1461",
+      "title": "French occupation of Mont Orgueil",
+      "startYear": 1461,
+      "endYear": 1468,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A queen in exile traded an island for military help.",
+        "A governor recaptured the fortress in 1468 after a long siege."
+      ],
+      "summary": "In 1461 Queen Margaret of Anjou granted the island to Pierre de Breze in exchange for help in the Wars of the Roses, and French forces held Mont Orgueil Castle. It was retaken by English forces in 1468.",
+      "wikipediaTitle": "Jersey",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jersey"
+      ]
+    },
+    {
+      "id": "JEY-battle-of-jersey-1781",
+      "title": "Battle of Jersey",
+      "startYear": 1781,
+      "endYear": 1781,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A baron led an invasion in the dead of night in January 1781.",
+        "The commander died in the main square and the attack failed."
+      ],
+      "summary": "On 6 January 1781 a French force under the Baron de Rullecourt landed and seized the island's lieutenant-governor, but was defeated in the Battle of Jersey. It was the last French invasion attempt.",
+      "wikipediaTitle": "Battle of Jersey",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Battle_of_Jersey"
+      ]
+    },
+    {
+      "id": "JEY-german-occupation",
+      "title": "German occupation of the Channel Islands",
+      "startYear": 1940,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "labour"
+      ],
+      "territoryNames": [
+        "the Channel Islands"
+      ],
+      "hints": [
+        "The only part of the British Isles occupied in the Second World War.",
+        "Heavy fortification used foreign labourers brought by the Todt organisation."
+      ],
+      "summary": "German forces occupied the Channel Islands in July 1940 after Britain demilitarised them, and held them until May 1945. The islands were heavily fortified using thousands of forced and slave workers brought from across Europe, and some residents were deported.",
+      "sensitive": true,
+      "wikipediaTitle": "German occupation of the Channel Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/German_occupation_of_the_Channel_Islands"
+      ]
+    }
+  ]
+}

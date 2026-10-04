@@ -1,0 +1,72 @@
+{
+  "country": "IMN",
+  "events": [
+    {
+      "id": "IMN-norse-kingdom-of-mann",
+      "title": "Norse Kingdom of Mann and the Isles",
+      "startYear": 800,
+      "endYear": 1266,
+      "exploiter": {
+        "label": "the Vikings"
+      },
+      "type": "colonization",
+      "resources": [
+        "trade_routes",
+        "silver"
+      ],
+      "hints": [
+        "Longships settled an island in the Irish Sea around the 9th century.",
+        "A ruling dynasty held an island kingdom until 1266."
+      ],
+      "summary": "From the 9th century Norse settlers took over the island, which became the heart of the Kingdom of Mann and the Isles. The kingdom was ceded by Norway to Scotland under the Treaty of Perth in 1266.",
+      "wikipediaTitle": "Kingdom of the Isles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kingdom_of_the_Isles"
+      ]
+    },
+    {
+      "id": "IMN-scottish-english-contest",
+      "title": "Scottish and English control",
+      "startYear": 1266,
+      "endYear": 1405,
+      "exploiter": {
+        "label": "Scotland"
+      },
+      "type": "annexation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A treaty in 1266 moved an island from one crown to another.",
+        "Both neighbouring kingdoms fought over it for over a century."
+      ],
+      "summary": "After the Treaty of Perth in 1266, Scotland claimed the island, but England and Scotland fought over it for more than a century. In 1405 the English crown granted it to the Stanley family.",
+      "wikipediaTitle": "History of the Isle of Man",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_the_Isle_of_Man"
+      ]
+    },
+    {
+      "id": "IMN-revestment-act-1765",
+      "title": "Revestment Act",
+      "startYear": 1765,
+      "endYear": 1765,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "annexation",
+      "resources": [
+        "tea"
+      ],
+      "hints": [
+        "The British government bought out the island's lords because smugglers were costing it revenue.",
+        "Duty-free goods flowed from the island into the larger neighbouring ones."
+      ],
+      "summary": "By the 18th century the island was a base for smuggling goods into Britain. The Revestment Act of 1765 allowed the British crown to buy out the Duke of Atholl's sovereign rights for £70,000, cutting off this trade and Manx revenue.",
+      "wikipediaTitle": "Isle of Man Purchase Act 1765",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Isle_of_Man_Purchase_Act_1765"
+      ]
+    }
+  ]
+}

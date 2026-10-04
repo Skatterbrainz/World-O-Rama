@@ -2,47 +2,187 @@
   "country": "POL",
   "events": [
     {
+      "id": "POL-mongol-invasion-1241",
+      "title": "Mongol invasion",
+      "startYear": 1241,
+      "endYear": 1241,
+      "exploiter": {
+        "label": "the Mongol Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A great steppe army swept across the southern half of the country in early 1241.",
+        "A Silesian duke was killed in a battle near Legnica in April."
+      ],
+      "summary": "A Mongol army raided Lesser Poland and Silesia in 1241, sacked Krakow and defeated a combined Polish and German force at the Battle of Legnica on 9 April, where Duke Henry II the Pious was killed. The Mongols then moved on to Hungary.",
+      "sensitive": true,
+      "wikipediaTitle": "Mongol invasion of Poland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mongol_invasion_of_Poland"
+      ]
+    },
+    {
+      "id": "POL-teutonic-pomerelia",
+      "title": "Teutonic takeover of Pomerelia",
+      "startYear": 1308,
+      "endYear": 1466,
+      "exploiter": {
+        "label": "the Teutonic Order"
+      },
+      "type": "occupation",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "hints": [
+        "Knights were called in against a rival and then took a port city in 1308.",
+        "A war lasting thirteen years ended with a peace at Torun in 1466."
+      ],
+      "summary": "In 1308 the Teutonic Order, called in to help against Brandenburg, took Gdansk and the rest of Pomerelia, killing many inhabitants in the town. The Order held the region until the Thirteen Years' War, ended by the Second Peace of Torun in 1466.",
+      "sensitive": true,
+      "wikipediaTitle": "Pomerelia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pomerelia"
+      ]
+    },
+    {
+      "id": "POL-swedish-deluge",
+      "title": "The Deluge",
+      "startYear": 1655,
+      "endYear": 1660,
+      "exploiter": {
+        "label": "Sweden"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A northern army overran a large commonwealth within months in 1655.",
+        "A monastery at Czestochowa became a symbol of the successful defence."
+      ],
+      "summary": "Sweden invaded the Polish-Lithuanian Commonwealth in 1655 and occupied most of it within months, in what is known as the Deluge. Plunder, battles and epidemics devastated the country, and the war ended with the Treaty of Oliva in 1660.",
+      "sensitive": true,
+      "wikipediaTitle": "The Deluge (history)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Deluge_(history)"
+      ]
+    },
+    {
       "id": "POL-partitions-russia",
       "title": "Partitions of Poland (Russian share)",
       "startYear": 1772,
       "endYear": 1915,
-      "exploiter": { "label": "the Russian Empire" },
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
       "type": "annexation",
-      "resources": ["land"],
-      "territoryNames": ["the Polish–Lithuanian Commonwealth"],
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "the Polish–Lithuanian Commonwealth"
+      ],
       "hints": [
         "A once-vast union of crowns was erased from the map by three neighbours.",
         "It vanished completely in 1795 and did not reappear as a state for 123 years."
       ],
       "summary": "Between 1772 and 1795 Russia, Prussia and Austria partitioned the Polish-Lithuanian Commonwealth until it ceased to exist. Russia took the largest share and ruled it, suppressing uprisings in 1830 and 1863, until German forces displaced it in 1915 and an independent state re-emerged in 1918.",
       "wikipediaTitle": "Partitions of Poland",
-      "sources": ["https://en.wikipedia.org/wiki/Partitions_of_Poland"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Partitions_of_Poland"
+      ]
     },
     {
       "id": "POL-partitions-prussia",
       "title": "Prussian partition and Germanisation",
       "startYear": 1772,
       "endYear": 1918,
-      "exploiter": { "label": "Prussia" },
+      "exploiter": {
+        "label": "Prussia"
+      },
       "type": "annexation",
-      "resources": ["land"],
+      "resources": [
+        "land"
+      ],
       "hints": [
         "Western lands were annexed by a rising German kingdom.",
         "Schools and settlement policy pushed the language of the ruler."
       ],
       "summary": "Prussia took western and northern territory in the partitions and later pursued Germanisation, including the Prussian Settlement Commission, which bought land for German settlers, and restrictions on Polish in schools.",
       "wikipediaTitle": "Partitions of Poland",
-      "sources": ["https://en.wikipedia.org/wiki/Partitions_of_Poland"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Partitions_of_Poland"
+      ]
+    },
+    {
+      "id": "POL-partitions-austria",
+      "title": "Austrian partition",
+      "startYear": 1772,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "the Habsburg Monarchy"
+      },
+      "type": "annexation",
+      "resources": [
+        "salt",
+        "land"
+      ],
+      "territoryNames": [
+        "the Kingdom of Galicia and Lodomeria"
+      ],
+      "hints": [
+        "The south of the country was absorbed into a crown land named after two medieval principalities.",
+        "A famous underground salt mine fell under a state monopoly."
+      ],
+      "summary": "In the partitions of 1772 and 1795 the Habsburg Monarchy took southern Poland, including Krakow, and organised it as Galicia. The Wieliczka salt mine came under Austrian state control, and the province was one of the poorest in the empire.",
+      "wikipediaTitle": "Kingdom of Galicia and Lodomeria",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kingdom_of_Galicia_and_Lodomeria"
+      ]
+    },
+    {
+      "id": "POL-duchy-of-warsaw",
+      "title": "Duchy of Warsaw",
+      "startYear": 1807,
+      "endYear": 1815,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "puppet_regime",
+      "resources": [
+        "labour",
+        "grain"
+      ],
+      "hints": [
+        "A treaty at Tilsit in 1807 created a client state from lands taken from Prussia.",
+        "Its army marched on Moscow with a foreign emperor in 1812."
+      ],
+      "summary": "After the Treaties of Tilsit, Napoleon created the Duchy of Warsaw from Prussia's Polish territories in 1807 as a French client state. It supplied soldiers, taxes and food for the French armies, and ended with the Congress of Vienna.",
+      "wikipediaTitle": "Duchy of Warsaw",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Duchy_of_Warsaw"
+      ]
     },
     {
       "id": "POL-nazi-occupation",
       "title": "Nazi German occupation",
       "startYear": 1939,
       "endYear": 1945,
-      "exploiter": { "label": "Nazi Germany" },
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
       "type": "occupation",
-      "resources": ["labour", "land", "grain", "coal"],
-      "territoryNames": ["the General Government"],
+      "resources": [
+        "labour",
+        "land",
+        "grain",
+        "coal"
+      ],
+      "territoryNames": [
+        "the General Government"
+      ],
       "hints": [
         "Invaded on 1 September 1939, triggering a world war.",
         "A rump administration called the General Government was ruled from Kraków."
@@ -50,23 +190,54 @@
       "summary": "Germany invaded on 1 September 1939 and occupied the country until 1945, annexing the west and running the rest as the General Government. Land, industry and labour were seized, and the occupation brought mass killing, including the Holocaust.",
       "sensitive": true,
       "wikipediaTitle": "Occupation of Poland (1939–1945)",
-      "sources": ["https://en.wikipedia.org/wiki/Occupation_of_Poland_(1939%E2%80%931945)"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occupation_of_Poland_(1939%E2%80%931945)"
+      ]
+    },
+    {
+      "id": "POL-soviet-invasion-1939",
+      "title": "Soviet invasion and occupation of the east",
+      "startYear": 1939,
+      "endYear": 1941,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "On 17 September 1939 an army crossed the eastern border a fortnight after an attack from the west.",
+        "In spring 1940 thousands of officers were shot in forests near Smolensk."
+      ],
+      "summary": "The Soviet Union invaded eastern Poland on 17 September 1939 under the secret protocol of the Molotov–Ribbentrop Pact. Hundreds of thousands were deported, and about 22,000 prisoners, mostly officers, were killed in the Katyn massacres of 1940.",
+      "sensitive": true,
+      "wikipediaTitle": "Soviet invasion of Poland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland"
+      ]
     },
     {
       "id": "POL-soviet-domination",
       "title": "Soviet domination of the Polish People's Republic",
       "startYear": 1945,
       "endYear": 1989,
-      "exploiter": { "label": "the Soviet Union" },
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
       "type": "puppet_regime",
-      "resources": ["coal"],
+      "resources": [
+        "coal"
+      ],
       "hints": [
         "A 1945 deal sold its coal to a neighbour at a fraction of the market price.",
         "Nominally independent, its government answered to Moscow's priorities for the whole Cold War."
       ],
       "summary": "After 1945 the country came under Soviet influence, with a Communist government installed and Soviet-aligned security forces. An early agreement supplied Polish coal to the Soviet Union at far below market prices, and the system lasted until 1989.",
       "wikipediaTitle": "Polish People's Republic",
-      "sources": ["https://en.wikipedia.org/wiki/Polish_People%27s_Republic"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Polish_People%27s_Republic"
+      ]
     }
   ]
 }

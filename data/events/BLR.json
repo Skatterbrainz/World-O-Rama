@@ -1,0 +1,185 @@
+{
+  "country": "BLR",
+  "events": [
+    {
+      "id": "BLR-russo-polish-war-1654",
+      "title": "Russian occupation during the Thirteen Years' War",
+      "startYear": 1654,
+      "endYear": 1667,
+      "exploiter": {
+        "label": "Tsardom of Russia"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A tsar's armies seized Smolensk and Vitebsk in the mid-17th century.",
+        "The long war left the country's towns and countryside heavily devastated."
+      ],
+      "summary": "During the Russo-Polish War of 1654–67, Muscovite forces occupied large parts of the Grand Duchy of Lithuania, including Smolensk, Vitebsk and Minsk. The war and accompanying epidemics devastated the territory; estimates of population loss vary widely.",
+      "sensitive": true,
+      "wikipediaTitle": "Russo-Polish War (1654–1667)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Russo-Polish_War_(1654%E2%80%931667)"
+      ]
+    },
+    {
+      "id": "BLR-russian-partitions",
+      "title": "Russian annexation in the Partitions",
+      "startYear": 1772,
+      "endYear": 1795,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "Three carve-ups of a neighbouring commonwealth moved the eastern borderlands under the tsars.",
+        "The last gains in 1795 completed the absorption."
+      ],
+      "summary": "In the Partitions of Poland, Russia annexed eastern Belarus in 1772, much of the centre in 1793 and the west in 1795. The lands became governorates of the Russian Empire, with serfdom and the Orthodox church favoured by the state.",
+      "wikipediaTitle": "Partitions of Poland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Partitions_of_Poland"
+      ]
+    },
+    {
+      "id": "BLR-russification-northwest",
+      "title": "Russification and abolition of the Uniate Church",
+      "startYear": 1839,
+      "endYear": 1905,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A church synod in 1839 absorbed a Greek Catholic church into the state Orthodox one.",
+        "After an 1863 uprising the use of the national language in schools and print was suppressed."
+      ],
+      "summary": "In 1839 the Synod of Polotsk dissolved the Uniate Church in the region and incorporated it into the Russian Orthodox Church. After the 1863 uprising, Russification policies in the Northwestern Krai restricted the use of local languages in education and print.",
+      "wikipediaTitle": "Northwestern Krai",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Northwestern_Krai"
+      ]
+    },
+    {
+      "id": "BLR-ober-ost",
+      "title": "German occupation under Ober Ost",
+      "startYear": 1915,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "timber",
+        "grain",
+        "labour"
+      ],
+      "hints": [
+        "A military state in the east was run by the army from 1915.",
+        "The ancient forest of Bialowieza was heavily logged for the war effort."
+      ],
+      "summary": "From 1915 German forces occupied western Belarus, which was administered by the military authority Ober Ost. The occupiers requisitioned grain, logged the forests including Bialowieza and conscripted labourers until the Treaty of Brest-Litovsk and the armistice.",
+      "wikipediaTitle": "Ober Ost",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ober_Ost"
+      ]
+    },
+    {
+      "id": "BLR-polish-rule-west",
+      "title": "Polish rule over western Belarus",
+      "startYear": 1921,
+      "endYear": 1939,
+      "exploiter": {
+        "label": "Poland"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A treaty signed at Riga in 1921 divided the territory between two neighbours.",
+        "Schools teaching in the local language were gradually closed during the 1920s and 1930s."
+      ],
+      "summary": "The Peace of Riga in March 1921 divided the area between Poland and Soviet Russia, and Poland ruled the western part until 1939. Polish settlement, land policy and school policy limited local cultural life, and the area was known as the Kresy.",
+      "wikipediaTitle": "Peace of Riga",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Peace_of_Riga"
+      ]
+    },
+    {
+      "id": "BLR-kurapaty-executions",
+      "title": "Kurapaty executions",
+      "startYear": 1937,
+      "endYear": 1941,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A forest on the edge of the capital became a burial site for victims of the secret police.",
+        "Mass graves were discovered in 1988."
+      ],
+      "summary": "In the Great Purge and after, the Soviet secret police shot large numbers of people and buried them at Kurapaty near Minsk. Estimates of the number of victims start at around 30,000 and remain disputed, and the graves were publicised in 1988.",
+      "sensitive": true,
+      "wikipediaTitle": "Kurapaty",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kurapaty"
+      ]
+    },
+    {
+      "id": "BLR-soviet-invasion-1939",
+      "title": "Soviet invasion and annexation of the west",
+      "startYear": 1939,
+      "endYear": 1941,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "On 17 September 1939 an army crossed the eastern border of a neighbour already under attack from the west.",
+        "A staged election in October 1939 led to annexation."
+      ],
+      "summary": "Following the Molotov–Ribbentrop Pact, the Red Army invaded eastern Poland on 17 September 1939 and took western Belarus. After staged elections the region was annexed to the Belarusian SSR, and tens of thousands were deported in 1940–41.",
+      "sensitive": true,
+      "wikipediaTitle": "Soviet invasion of Poland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland"
+      ]
+    },
+    {
+      "id": "BLR-nazi-occupation",
+      "title": "Nazi German occupation",
+      "startYear": 1941,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "timber",
+        "grain",
+        "labour"
+      ],
+      "hints": [
+        "A war of annihilation from 1941 destroyed hundreds of villages and killed about a quarter of the population.",
+        "A memorial at Khatyn recalls villagers burned alive in a barn."
+      ],
+      "summary": "Germany occupied the territory from June 1941 until the Red Army's Operation Bagration in 1944. About a quarter of the population died, including most of the Jewish community, and hundreds of villages were destroyed in anti-partisan operations.",
+      "sensitive": true,
+      "wikipediaTitle": "Occupation of Belarus by Nazi Germany",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occupation_of_Belarus_by_Nazi_Germany"
+      ]
+    }
+  ]
+}

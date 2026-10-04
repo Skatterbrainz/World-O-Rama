@@ -6,57 +6,171 @@
       "title": "Viking raids and the Dublin slave market",
       "startYear": 795,
       "endYear": 1014,
-      "exploiter": { "label": "the Vikings" },
+      "exploiter": {
+        "label": "the Vikings"
+      },
       "type": "slave_trade",
-      "resources": ["slaves", "silver"],
+      "resources": [
+        "slaves",
+        "silver"
+      ],
       "hints": [
         "Longships raided monasteries, taking treasure and captives.",
         "A fortified longphort on a river grew into a major slave market."
       ],
       "summary": "From 795 Norse raiders attacked monasteries and settlements, and their fortified bases such as Dublin became hubs of a slave trade that shipped captives across the Norse world. Viking power in the region declined after the Battle of Clontarf in 1014.",
       "wikipediaTitle": "Vikings in Ireland",
-      "sources": ["https://en.wikipedia.org/wiki/Vikings_in_Ireland"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vikings_in_Ireland"
+      ]
+    },
+    {
+      "id": "IRL-norman-invasion",
+      "title": "Norman invasion",
+      "startYear": 1169,
+      "endYear": 1171,
+      "exploiter": {
+        "label": "the Normans"
+      },
+      "type": "colonization",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "An exiled king asked adventurers from across the sea for help, and they landed near Wexford in 1169.",
+        "A monarch landed in October 1171 to assert his own authority over the barons."
+      ],
+      "summary": "In 1169 Cambro-Norman knights, invited by the deposed king of Leinster Diarmait Mac Murchada, landed in Wexford and conquered Waterford and Dublin. Henry II of England came in October 1171 to secure the submission of the Norman lords and Irish kings.",
+      "wikipediaTitle": "Norman invasion of Ireland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Norman_invasion_of_Ireland"
+      ]
     },
     {
       "id": "IRL-plantations",
       "title": "Plantations of Ireland",
       "startYear": 1556,
       "endYear": 1650,
-      "exploiter": { "label": "England" },
+      "exploiter": {
+        "label": "England"
+      },
       "type": "colonization",
-      "resources": ["land", "timber"],
+      "resources": [
+        "land",
+        "timber"
+      ],
       "hints": [
         "Land was confiscated and given to settlers from a neighbouring island.",
         "The largest scheme settled the northern province from 1609."
       ],
       "summary": "Beginning with Laois and Offaly in the 1550s and culminating in the Plantation of Ulster from 1609, the English crown confiscated land and settled it with English and Scottish colonists, reshaping ownership of the island.",
       "wikipediaTitle": "Plantations of Ireland",
-      "sources": ["https://en.wikipedia.org/wiki/Plantations_of_Ireland"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Plantations_of_Ireland"
+      ]
+    },
+    {
+      "id": "IRL-cromwellian-conquest",
+      "title": "Cromwellian conquest",
+      "startYear": 1649,
+      "endYear": 1653,
+      "exploiter": {
+        "label": "England"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A New Model Army landed in Dublin in August 1649 and stormed a town on the east coast within weeks.",
+        "Land was confiscated under an act that offered a province in the west as a place for dispossessed owners."
+      ],
+      "summary": "Oliver Cromwell landed in 1649 and the English parliamentary army conquered the island by 1653, with massacres at Drogheda and Wexford. The 1652 Act of Settlement confiscated much Catholic land and set aside Connacht for dispossessed landowners.",
+      "sensitive": true,
+      "wikipediaTitle": "Cromwellian conquest of Ireland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cromwellian_conquest_of_Ireland"
+      ]
     },
     {
       "id": "IRL-trade-restrictions",
       "title": "Cattle Acts and the Wool Act",
       "startYear": 1663,
       "endYear": 1699,
-      "exploiter": { "label": "England" },
+      "exploiter": {
+        "label": "England"
+      },
       "type": "other",
-      "resources": ["wool", "livestock"],
+      "resources": [
+        "wool",
+        "livestock"
+      ],
       "hints": [
         "Laws forbade selling the island's cattle, and later its woollen cloth, to its biggest market."
       ],
       "summary": "To protect English farmers and clothiers, Parliament banned the export of Irish cattle to England in the 1660s and restricted Irish woollen exports in 1699, damaging key industries.",
       "quip": "Free trade, as long as the trade stayed in the right direction.",
       "wikipediaTitle": "Navigation Acts",
-      "sources": ["https://en.wikipedia.org/wiki/Navigation_Acts"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Navigation_Acts"
+      ]
+    },
+    {
+      "id": "IRL-penal-laws",
+      "title": "Penal Laws",
+      "startYear": 1695,
+      "endYear": 1829,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "Laws barred the majority from owning land, voting or holding office because of their church.",
+        "Emancipation in 1829 ended the last of the major restrictions."
+      ],
+      "summary": "From 1695 the Penal Laws restricted Catholics' rights to own land, hold office, bear arms and run schools, and by the late 18th century Catholics held only a small share of the land. The last major restrictions were lifted by Catholic emancipation in 1829.",
+      "wikipediaTitle": "Penal Laws (Ireland)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Penal_Laws_(Ireland)"
+      ]
+    },
+    {
+      "id": "IRL-act-of-union-1800",
+      "title": "Acts of Union 1800",
+      "startYear": 1800,
+      "endYear": 1801,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "annexation",
+      "resources": [],
+      "hints": [
+        "After a rebellion in 1798, a parliament was persuaded to vote itself out of existence.",
+        "Titles and payments eased the passage of the bill."
+      ],
+      "summary": "After the 1798 rebellion, the Acts of Union 1800 abolished the separate Irish Parliament and merged the kingdoms into the United Kingdom from 1 January 1801. Peerages, offices and other inducements were used to secure the vote in the Irish Parliament.",
+      "quip": "A parliament voted itself out of existence after some very persuasive offers.",
+      "wikipediaTitle": "Acts of Union 1800",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Acts_of_Union_1800"
+      ]
     },
     {
       "id": "IRL-great-famine",
       "title": "Great Famine and continued food exports",
       "startYear": 1845,
       "endYear": 1852,
-      "exploiter": { "label": "the British Empire" },
+      "exploiter": {
+        "label": "the British Empire"
+      },
       "type": "other",
-      "resources": ["grain", "livestock"],
+      "resources": [
+        "grain",
+        "livestock"
+      ],
       "hints": [
         "A blight destroyed the staple crop for several years.",
         "Food continued to leave the island by ship while people starved."
@@ -64,7 +178,9 @@
       "summary": "During the famine of 1845 to 1852 about a million people died and another million emigrated. Large quantities of grain and livestock were still exported, and the government's relief policy is widely regarded as inadequate.",
       "sensitive": true,
       "wikipediaTitle": "Great Famine (Ireland)",
-      "sources": ["https://en.wikipedia.org/wiki/Great_Famine_(Ireland)"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Great_Famine_(Ireland)"
+      ]
     }
   ]
 }
