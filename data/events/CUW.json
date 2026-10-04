@@ -57,6 +57,30 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Dutch_slave_trade"
       ]
+    },
+    {
+      "id": "CUW-british-occupation",
+      "title": "British occupation",
+      "startYear": 1807,
+      "endYear": 1816,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "trade_routes",
+        "strategic_location"
+      ],
+      "hints": [
+        "In December 1807 a British frigate squadron seized the island's harbour in a surprise attack.",
+        "It served as a base for British trade with the Spanish Main.",
+        "It was returned to the Netherlands in 1816."
+      ],
+      "summary": "British naval forces captured the island in December 1807 during the Napoleonic Wars. They used its harbour as a trading and naval base and returned it to the Netherlands in 1816 after the Anglo-Dutch Treaty of 1814.",
+      "wikipediaTitle": "Curaçao",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cura%C3%A7ao"
+      ]
     }
   ]
 }

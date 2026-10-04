@@ -1,0 +1,59 @@
+{
+  "country": "MSR",
+  "events": [
+    {
+      "id": "MSR-irish-settlement-sugar",
+      "title": "Irish settlement and British plantation colony",
+      "startYear": 1632,
+      "endYear": 1834,
+      "exploiter": {
+        "label": "England"
+      },
+      "type": "colonization",
+      "resources": [
+        "sugar",
+        "cotton",
+        "slaves",
+        "land"
+      ],
+      "territoryNames": [
+        "British Montserrat"
+      ],
+      "hints": [
+        "A small Leeward volcanic island was settled from a neighbouring colony in 1632 by Catholic colonists from Ireland.",
+        "Plantations grew sugar and cotton using indentured servants and, increasingly, enslaved Africans.",
+        "A planned uprising on 17 March 1768, the feast of the island's patron saint, was discovered and suppressed."
+      ],
+      "summary": "Thomas Warner sent Irish Catholic settlers from Saint Kitts to the island in 1632. English and Irish planters developed sugar and cotton estates worked by indentured servants and then enslaved Africans. Slavery was abolished in 1834.",
+      "sensitive": true,
+      "wikipediaTitle": "Montserrat",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Montserrat"
+      ]
+    },
+    {
+      "id": "MSR-french-capture-1782",
+      "title": "French capture",
+      "startYear": 1782,
+      "endYear": 1783,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [
+        "sugar",
+        "strategic_location"
+      ],
+      "hints": [
+        "In February 1782 a French force landed during a war that had begun as a colonial revolt on the mainland.",
+        "The garrison surrendered after a brief resistance.",
+        "It was returned to Britain by treaty in 1783."
+      ],
+      "summary": "During the American Revolutionary War France captured the island in February 1782 and held it until the Treaty of Paris of 1783 returned it to Britain.",
+      "wikipediaTitle": "Anglo-French War (1778–1783)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anglo-French_War_(1778%E2%80%931783)"
+      ]
+    }
+  ]
+}

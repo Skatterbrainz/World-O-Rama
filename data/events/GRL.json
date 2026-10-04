@@ -73,6 +73,28 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Thule_Air_Base"
       ]
+    },
+    {
+      "id": "GRL-little-danes",
+      "title": "Little Danes experiment",
+      "startYear": 1951,
+      "endYear": 1953,
+      "exploiter": {
+        "label": "Denmark"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "In 1951 a Nordic government took a group of young children from their families to be educated abroad.",
+        "The aim was to raise a cultural elite that would be fluent in the colonial power's language.",
+        "Many were later placed in a children's home, and an official apology came in 2022."
+      ],
+      "summary": "In 1951 Denmark sent 22 Greenlandic children to Denmark to be educated as a Danish-speaking elite. Many were placed in a children's home, and many lost contact with their families. Denmark's prime minister apologised to the surviving participants in 2022.",
+      "sensitive": true,
+      "wikipediaTitle": "Little Danes experiment",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Little_Danes_experiment"
+      ]
     }
   ]
 }
