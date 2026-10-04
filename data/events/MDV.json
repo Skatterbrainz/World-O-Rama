@@ -1,0 +1,54 @@
+{
+  "country": "MDV",
+  "events": [
+    {
+      "id": "MDV-portuguese-occupation",
+      "title": "Portuguese occupation",
+      "startYear": 1558,
+      "endYear": 1573,
+      "exploiter": { "label": "Portugal" },
+      "type": "occupation",
+      "resources": ["trade_routes", "strategic_location"],
+      "hints": [
+        "A garrison from Goa held the capital island for a decade and a half.",
+        "An uprising led by Muhammad Thakurufaanu ended it."
+      ],
+      "summary": "In 1558 the Portuguese, based in Goa, seized Malé and garrisoned the capital, seeking to control Indian Ocean trade. After 15 years of rule, a rebellion led by Muhammad Thakurufaanu and his brothers expelled them in 1573, an event still celebrated.",
+      "wikipediaTitle": "History of the Maldives",
+      "sources": ["https://en.wikipedia.org/wiki/History_of_the_Maldives"]
+    },
+    {
+      "id": "MDV-british-protectorate",
+      "title": "British protectorate",
+      "startYear": 1887,
+      "endYear": 1965,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["strategic_location", "trade_routes"],
+      "hints": [
+        "An atoll sultanate gave up its foreign policy in the late nineteenth century.",
+        "The 1887 agreement made it a protected state paying tribute."
+      ],
+      "summary": "In 1887 the Sultan accepted British protection under an agreement that left domestic affairs to local rulers while Britain controlled external relations and defence. The Maldives remained a protectorate, linked to Ceylon, until independence in July 1965.",
+      "wikipediaTitle": "History of the Maldives",
+      "sources": ["https://en.wikipedia.org/wiki/History_of_the_Maldives"]
+    },
+    {
+      "id": "MDV-raf-gan",
+      "title": "RAF Gan on Addu Atoll",
+      "startYear": 1957,
+      "endYear": 1976,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["strategic_location"],
+      "hints": [
+        "The southernmost atoll hosted a staging post between the Middle East and the Far East.",
+        "A secessionist republic arose among the southern atolls in 1959.",
+        "The airbase was handed back in April 1976."
+      ],
+      "summary": "Britain turned Gan, in the southernmost atoll, into an RAF staging post in 1957 as other Indian Ocean bases were given up. The British presence, including its labour force, was a source of tension in the southern atolls. Britain handed the airfield to the Maldives on 1 April 1976.",
+      "wikipediaTitle": "RAF Gan",
+      "sources": ["https://en.wikipedia.org/wiki/RAF_Gan"]
+    }
+  ]
+}

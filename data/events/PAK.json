@@ -1,0 +1,76 @@
+{
+  "country": "PAK",
+  "events": [
+    {
+      "id": "PAK-arab-conquest-sindh",
+      "title": "Umayyad conquest of Sindh",
+      "startYear": 711,
+      "endYear": 713,
+      "exploiter": { "label": "the Umayyad Caliphate" },
+      "type": "annexation",
+      "resources": ["tribute", "trade_routes"],
+      "territoryNames": ["the Umayyad province of Sindh"],
+      "hints": [
+        "A teenaged commander led an army along the Makran coast in the early eighth century.",
+        "The ruler Dahir was defeated and killed at a battle near Rohri in 712.",
+        "The Indus delta became a distant province of a caliphate based in Damascus."
+      ],
+      "summary": "Led by Muhammad bin Qasim, an Umayyad army conquered the lower Indus region in 711 to 713, defeating Raja Dahir. Sindh became a province of the Caliphate, which collected taxes from it and gained a foothold on Indian Ocean trade routes.",
+      "wikipediaTitle": "Arab conquest of Sindh",
+      "sources": ["https://en.wikipedia.org/wiki/Arab_conquest_of_Sindh"]
+    },
+    {
+      "id": "PAK-conquest-of-sindh",
+      "title": "East India Company conquest of Sindh",
+      "startYear": 1843,
+      "endYear": 1843,
+      "exploiter": { "label": "the East India Company" },
+      "type": "annexation",
+      "resources": ["land", "strategic_location"],
+      "hints": [
+        "A general overthrew the ruling Talpur emirs after a pair of battles.",
+        "The decisive fight in February 1843 was at Miani.",
+        "A famous one-word Latin pun about the conquest was invented by a humour magazine."
+      ],
+      "summary": "Under Sir Charles Napier, East India Company forces defeated the Talpur Mirs at Miani and Dubba in 1843 and annexed Sindh. The campaign followed a revised treaty the Mirs had signed under pressure, and gave the Company control of the lower Indus.",
+      "quip": "The famous 'Peccavi' dispatch ('I have Sind') was a magazine joke. The annexation, regrettably, was not.",
+      "wikipediaTitle": "British conquest of Sindh",
+      "sources": ["https://en.wikipedia.org/wiki/British_conquest_of_Sindh"]
+    },
+    {
+      "id": "PAK-annexation-of-punjab",
+      "title": "Annexation of the Punjab and the Koh-i-Noor",
+      "startYear": 1845,
+      "endYear": 1849,
+      "exploiter": { "label": "the East India Company" },
+      "type": "annexation",
+      "resources": ["diamonds", "land"],
+      "territoryNames": ["the Sikh Empire"],
+      "hints": [
+        "A one-eyed maharaja's empire outlived him by only a decade.",
+        "Two wars with a trading company ended with a boy ruler being deposed in 1849.",
+        "A famous diamond was surrendered to a distant queen as part of the settlement."
+      ],
+      "summary": "After two Anglo-Sikh wars, the East India Company annexed the Sikh Empire in 1849. Under the Treaty of Lahore, the Koh-i-Noor diamond was surrendered to Queen Victoria and the young Maharaja Duleep Singh was deposed.",
+      "wikipediaTitle": "Second Anglo-Sikh War",
+      "sources": ["https://en.wikipedia.org/wiki/Second_Anglo-Sikh_War"]
+    },
+    {
+      "id": "PAK-durand-line",
+      "title": "The Durand Line and the North-West Frontier",
+      "startYear": 1893,
+      "endYear": 1947,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["land", "strategic_location"],
+      "territoryNames": ["the North-West Frontier Province"],
+      "hints": [
+        "A frontier line was drawn through mountain communities with no vote from them.",
+        "The resulting border province was ruled under special regulations aimed at tribal areas."
+      ],
+      "summary": "The 1893 Durand Line placed the Pashtun tribal belt on the British side of a new frontier. It was governed as a distinct frontier province from 1901, with special regulations such as the Frontier Crimes Regulation, a buffer in the Great Game with Russia.",
+      "wikipediaTitle": "Durand Line",
+      "sources": ["https://en.wikipedia.org/wiki/Durand_Line"]
+    }
+  ]
+}

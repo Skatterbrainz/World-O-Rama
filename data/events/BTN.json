@@ -1,0 +1,41 @@
+{
+  "country": "BTN",
+  "events": [
+    {
+      "id": "BTN-duar-war",
+      "title": "Duar War and the Treaty of Sinchula",
+      "startYear": 1864,
+      "endYear": 1865,
+      "exploiter": { "label": "the British Empire" },
+      "type": "unequal_treaty",
+      "resources": ["land", "tea"],
+      "territoryNames": ["the Bengal Duars"],
+      "hints": [
+        "A diplomatic insult to an envoy led to a short war in the mountains.",
+        "Fertile foothill passes called duars were lost.",
+        "A treaty signed in 1865 swapped territory for an annual allowance."
+      ],
+      "summary": "After a British mission was mistreated in 1864, Britain went to war and Bhutan lost the Bengal Duars and other territory in the Treaty of Sinchula (1865), roughly a fifth of its land. In return it received an annual payment, and the Duars later became a tea-growing region.",
+      "quip": "A fifth of the country traded for an annual allowance: history's least generous subscription plan.",
+      "wikipediaTitle": "Duar War",
+      "sources": ["https://en.wikipedia.org/wiki/Duar_War"]
+    },
+    {
+      "id": "BTN-treaty-of-punakha",
+      "title": "Treaty of Punakha",
+      "startYear": 1910,
+      "endYear": 1947,
+      "exploiter": { "label": "the British Empire" },
+      "type": "unequal_treaty",
+      "resources": ["strategic_location"],
+      "hints": [
+        "A king agreed to be guided by a distant empire in foreign policy.",
+        "It was signed at a mountain fortress in January 1910.",
+        "A larger annual subsidy was part of the bargain."
+      ],
+      "summary": "In the 1910 Treaty of Punakha, Bhutan accepted British guidance in its external relations in exchange for a larger subsidy and a promise of non-interference in its internal affairs. The arrangement made the Himalayan kingdom a buffer between British India and Tibet.",
+      "wikipediaTitle": "Treaty of Punakha",
+      "sources": ["https://en.wikipedia.org/wiki/Treaty_of_Punakha"]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "country": "AFG",
+  "events": [
+    {
+      "id": "AFG-first-anglo-afghan-war",
+      "title": "First Anglo-Afghan War",
+      "startYear": 1839,
+      "endYear": 1842,
+      "exploiter": { "label": "the British Empire" },
+      "type": "occupation",
+      "resources": ["strategic_location"],
+      "hints": [
+        "A rivalry over the approaches to a subcontinent was nicknamed a game.",
+        "An exiled ruler was restored to his throne on foreign bayonets.",
+        "In January 1842 a retreating column from Kabul was almost wiped out."
+      ],
+      "summary": "To block Russian influence, a British-led army marched through the Bolan Pass in 1839, occupied Kabul and installed Shah Shuja in place of Dost Mohammad. An uprising in 1841 forced a withdrawal, and most of the retreating column was killed in the winter of 1842.",
+      "sensitive": true,
+      "wikipediaTitle": "First Anglo-Afghan War",
+      "sources": ["https://en.wikipedia.org/wiki/First_Anglo-Afghan_War"]
+    },
+    {
+      "id": "AFG-gandamak-and-second-war",
+      "title": "Second Anglo-Afghan War and the Treaty of Gandamak",
+      "startYear": 1878,
+      "endYear": 1880,
+      "exploiter": { "label": "the British Empire" },
+      "type": "unequal_treaty",
+      "resources": ["strategic_location"],
+      "hints": [
+        "A British envoy was installed in the capital, and was killed within months.",
+        "A treaty signed at a village near the Khyber route handed control of foreign policy to London.",
+        "Border districts such as Pishin and Kurram passed to British administration."
+      ],
+      "summary": "After a British invasion in 1878, the Treaty of Gandamak (1879) gave Britain control of the country's foreign relations and a resident envoy at Kabul, and ceded border districts. The envoy was killed in 1879 and war resumed; in 1880 Abdur Rahman was recognised as Amir under British oversight of foreign policy.",
+      "wikipediaTitle": "Second Anglo-Afghan War",
+      "sources": ["https://en.wikipedia.org/wiki/Second_Anglo-Afghan_War"]
+    },
+    {
+      "id": "AFG-durand-line",
+      "title": "The Durand Line agreement",
+      "startYear": 1893,
+      "endYear": 1893,
+      "exploiter": { "label": "the British Empire" },
+      "type": "unequal_treaty",
+      "resources": ["land", "strategic_location"],
+      "territoryNames": ["the Durand Line frontier"],
+      "hints": [
+        "A border drawn by a colonial foreign secretary cut across a single people's homeland.",
+        "It was signed in Kabul in November 1893 by the ruler, who relied on a British subsidy.",
+        "It still bears the name of the civil servant who negotiated it."
+      ],
+      "summary": "In 1893 Sir Mortimer Durand and Amir Abdur Rahman Khan agreed a frontier between the Amir's realm and British India. It split Pashtun and Baloch communities between the two sides, and remains disputed today. The Amir's foreign policy was then under British control.",
+      "wikipediaTitle": "Durand Line",
+      "sources": ["https://en.wikipedia.org/wiki/Durand_Line"]
+    },
+    {
+      "id": "AFG-soviet-occupation",
+      "title": "Soviet occupation",
+      "startYear": 1979,
+      "endYear": 1989,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "occupation",
+      "resources": ["strategic_location"],
+      "hints": [
+        "A superpower intervened to prop up a friendly government in the last year of a decade.",
+        "The intervention began at Christmas 1979 with an airlift into Kabul.",
+        "It ended with a withdrawal across the Amu Darya bridge in February 1989."
+      ],
+      "summary": "In December 1979 Soviet forces entered to support the communist government in Kabul and stayed for nearly ten years. The war killed an estimated hundreds of thousands to over a million people and drove millions into exile as refugees, before the last troops left in February 1989.",
+      "sensitive": true,
+      "wikipediaTitle": "Soviet–Afghan War",
+      "sources": ["https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War"]
+    },
+    {
+      "id": "AFG-us-led-war",
+      "title": "US-led intervention and occupation",
+      "startYear": 2001,
+      "endYear": 2021,
+      "exploiter": { "label": "the United States" },
+      "type": "occupation",
+      "resources": ["strategic_location"],
+      "hints": [
+        "A response to attacks on another continent became the longest war in its sponsor's history.",
+        "It began with air strikes in October 2001.",
+        "The final withdrawal in August 2021 coincided with the fall of the capital."
+      ],
+      "summary": "After the September 2001 attacks, a US-led coalition invaded in October 2001 and removed the Taliban government. Foreign forces remained for twenty years amid a continuing insurgency, withdrawing in August 2021 as the Taliban retook Kabul. Tens of thousands of civilians died in the war.",
+      "sensitive": true,
+      "wikipediaTitle": "War in Afghanistan (2001–2021)",
+      "sources": ["https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"]
+    },
+    {
+      "id": "AFG-mongol-invasion",
+      "title": "Mongol invasion of the Khwarazmian lands",
+      "startYear": 1219,
+      "endYear": 1222,
+      "exploiter": { "label": "the Mongol Empire" },
+      "type": "other",
+      "resources": ["tribute"],
+      "hints": [
+        "A conquering horde swept through the cities along the Silk Road.",
+        "Balkh, Herat and Ghazni were among the cities devastated.",
+        "Genghis Khan's armies besieged the Bamiyan valley in 1221."
+      ],
+      "summary": "During Genghis Khan's campaign against the Khwarazmian Empire, Mongol armies destroyed or sacked cities across the region now in the Hindu Kush and Khorasan, including Balkh, Bamiyan and Herat. Chroniclers reported massive loss of life, though their figures are treated with caution.",
+      "sensitive": true,
+      "wikipediaTitle": "Mongol invasion of the Khwarazmian Empire",
+      "sources": ["https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire"]
+    }
+  ]
+}
