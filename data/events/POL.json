@@ -143,6 +143,29 @@
       ]
     },
     {
+      "id": "POL-russian-invasion-1792",
+      "title": "Russian invasion in the War of 1792",
+      "startYear": 1792,
+      "endYear": 1792,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A modern written charter adopted in May 1791 alarmed a neighbouring empress.",
+        "Conservative magnates formed a confederation in St Petersburg and invited foreign troops in.",
+        "The war ended in defeat and was followed by the Second Partition in 1793."
+      ],
+      "summary": "In May 1792 Russian troops entered the Polish-Lithuanian Commonwealth in support of the Targowica Confederation, which opposed the Constitution of 3 May 1791. Polish forces retreated in the north and fought several battles in the south, including Zieleńce. The king joined the confederation in July, and the Second Partition followed in 1793.",
+      "quip": "The confederation was drawn up in St Petersburg, an unusual birthplace for a grassroots movement.",
+      "wikipediaTitle": "Polish–Russian War of 1792",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Polish%E2%80%93Russian_War_of_1792",
+        "https://en.wikipedia.org/wiki/Targowica_Confederation"
+      ]
+    },
+    {
       "id": "POL-duchy-of-warsaw",
       "title": "Duchy of Warsaw",
       "startYear": 1807,
@@ -202,7 +225,7 @@
       "exploiter": {
         "label": "the Soviet Union"
       },
-      "type": "occupation",
+      "type": "invasion",
       "resources": [
         "land"
       ],

@@ -77,6 +77,29 @@
       ]
     },
     {
+      "id": "LVA-soviet-invasion-1918",
+      "title": "Soviet invasion and the War of Independence",
+      "startYear": 1918,
+      "endYear": 1920,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A republic proclaimed in November 1918 faced an invasion from the east within weeks.",
+        "The capital fell in early January 1919 and a rival Soviet government was installed.",
+        "Peace was signed in Riga in August 1920."
+      ],
+      "summary": "Soviet Russia invaded on 5 December 1918, weeks after the Republic of Latvia was proclaimed, and the Red Army took Riga in January 1919, installing the Latvian Socialist Soviet Republic. The war of independence ended with the Latvian-Soviet Riga Peace Treaty of 11 August 1920.",
+      "sensitive": true,
+      "wikipediaTitle": "Latvian War of Independence",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Latvian_War_of_Independence",
+        "https://en.wikipedia.org/wiki/Soviet_westward_offensive_of_1918%E2%80%931919"
+      ]
+    },
+    {
       "id": "LVA-soviet-annexation-1940",
       "title": "Soviet occupation and annexation",
       "startYear": 1940,

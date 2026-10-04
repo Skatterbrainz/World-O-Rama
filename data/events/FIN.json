@@ -92,6 +92,28 @@
       ]
     },
     {
+      "id": "FIN-finnish-war-1808",
+      "title": "Russian invasion in the Finnish War",
+      "startYear": 1808,
+      "endYear": 1809,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A surprise attack in February 1808 followed a peace agreement signed at Tilsit.",
+        "A kingdom lost its eastern third.",
+        "The Treaty of Fredrikshamn was signed in September 1809."
+      ],
+      "summary": "Russia attacked Swedish Finland on 21 February 1808 as part of the Napoleonic Wars. The war ended on 17 September 1809 with the Treaty of Fredrikshamn, in which Sweden ceded the territory, which became the autonomous Grand Duchy of Finland under the Russian emperor.",
+      "wikipediaTitle": "Finnish War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Finnish_War",
+        "https://en.wikipedia.org/wiki/Treaty_of_Fredrikshamn"
+      ]
+    },
+    {
       "id": "FIN-russification",
       "title": "Russification of Finland",
       "startYear": 1899,
@@ -120,7 +142,7 @@
       "exploiter": {
         "label": "the Soviet Union"
       },
-      "type": "annexation",
+      "type": "invasion",
       "resources": [
         "land",
         "timber"

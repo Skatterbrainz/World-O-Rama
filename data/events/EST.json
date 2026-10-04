@@ -96,6 +96,29 @@
       ]
     },
     {
+      "id": "EST-soviet-invasion-1918",
+      "title": "Soviet invasion and the War of Independence",
+      "startYear": 1918,
+      "endYear": 1920,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A revolutionary army moved in just as German garrisons left at the end of the First World War.",
+        "A communist 'workers' commune' was proclaimed in the border city of Narva on 29 November 1918.",
+        "The war ended with a peace treaty signed at Tartu in February 1920."
+      ],
+      "summary": "On 28 November 1918 Soviet Russian forces attacked Narva as German troops withdrew, and a communist Estonian Workers' Commune was proclaimed there. The Soviet advance reached deep into the country before an Estonian counteroffensive from January 1919 drove it back. The Treaty of Tartu of February 1920 ended the war with Soviet recognition of independence.",
+      "sensitive": true,
+      "wikipediaTitle": "Estonian War of Independence",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Estonian_War_of_Independence",
+        "https://en.wikipedia.org/wiki/Soviet_westward_offensive_of_1918%E2%80%931919"
+      ]
+    },
+    {
       "id": "EST-soviet-annexation-1940",
       "title": "Soviet occupation and annexation of 1940",
       "startYear": 1940,

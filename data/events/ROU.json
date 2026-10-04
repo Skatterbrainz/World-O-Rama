@@ -99,6 +99,49 @@
       ]
     },
     {
+      "id": "ROU-russian-invasion-1828",
+      "title": "Russian invasion of the Danubian Principalities",
+      "startYear": 1828,
+      "endYear": 1829,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A war that grew out of a Mediterranean independence struggle sent a tsar's army across a river border in spring 1828.",
+        "Two vassal principalities north of the Danube were occupied.",
+        "A treaty signed at Adrianople in September 1829 ended the war."
+      ],
+      "summary": "In the Russo-Turkish War of 1828-1829 Russian armies crossed the Prut in 1828 and occupied the Danubian Principalities of Wallachia and Moldavia, then Ottoman vassals, before advancing south of the Danube. The Treaty of Adrianople of September 1829 ended the war, and Russian troops remained in the principalities until 1834.",
+      "wikipediaTitle": "Russo-Turkish War (1828–1829)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Russo-Turkish_War_%281828%E2%80%931829%29"
+      ]
+    },
+    {
+      "id": "ROU-kiselyov-occupation",
+      "title": "Russian occupation and the Kiselyov regime",
+      "startYear": 1829,
+      "endYear": 1834,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "A reforming general was made de facto governor of two vassal principalities.",
+        "His administration drafted the first constitution-like charters, issued in 1831 and 1832.",
+        "Russian troops left in 1834."
+      ],
+      "summary": "After the Treaty of Adrianople Russia kept troops in Wallachia and Moldavia, which were governed by Count Pavel Kiselyov until 1834. His administration drafted the Organic Regulations of 1831 and 1832, which modernised institutions but kept the principalities under Russian oversight.",
+      "wikipediaTitle": "Pavel Kiselyov",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pavel_Kiselyov",
+        "https://en.wikipedia.org/wiki/Russo-Turkish_War_%281828%E2%80%931829%29"
+      ]
+    },
+    {
       "id": "ROU-german-occupation-ww1",
       "title": "German occupation and oil concessions in the First World War",
       "startYear": 1916,

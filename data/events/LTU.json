@@ -67,6 +67,29 @@
       ]
     },
     {
+      "id": "LTU-soviet-invasion-1918",
+      "title": "Soviet invasion in the Lithuanian–Soviet War",
+      "startYear": 1918,
+      "endYear": 1920,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A communist offensive at the end of 1918 met little resistance.",
+        "Within a month about two thirds of the territory had been taken.",
+        "The advance was stopped in February 1919 before it could capture the temporary capital."
+      ],
+      "summary": "By the end of December 1918 Soviet Russian forces reached the border, and largely unopposed they controlled about two thirds of the territory by the end of January 1919. In February 1919 Lithuanian and German volunteers stopped the advance short of Kaunas. A peace treaty followed in 1920.",
+      "sensitive": true,
+      "wikipediaTitle": "Lithuanian–Soviet War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuanian%E2%80%93Soviet_War",
+        "https://en.wikipedia.org/wiki/Soviet_westward_offensive_of_1918%E2%80%931919"
+      ]
+    },
+    {
       "id": "LTU-zeligowski-vilnius",
       "title": "Seizure of Vilnius",
       "startYear": 1920,

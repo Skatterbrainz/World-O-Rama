@@ -116,6 +116,28 @@
       ]
     },
     {
+      "id": "UKR-soviet-invasion-1917",
+      "title": "Soviet invasion in the Ukrainian–Soviet War",
+      "startYear": 1917,
+      "endYear": 1921,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A new government in Petrograd sent an expeditionary force south within weeks of seizing power.",
+        "A republic with its capital at Kyiv was overrun several times between 1917 and 1920.",
+        "Soviet rule was secured in 1921 after years of war with several rival armies."
+      ],
+      "summary": "After the October Revolution the Bolsheviks sent forces under Vladimir Antonov-Ovseyenko into Ukraine in December 1917 and took Kyiv in January 1918. Fighting with the Ukrainian People's Republic and other armies continued until 1921. Modern Ukrainian historians regard it as a failed war of independence.",
+      "sensitive": true,
+      "wikipediaTitle": "Ukrainian–Soviet War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ukrainian%E2%80%93Soviet_War"
+      ]
+    },
+    {
       "id": "UKR-german-occupation-1918",
       "title": "Occupation by the Central Powers",
       "startYear": 1918,
@@ -158,6 +180,29 @@
       "wikipediaTitle": "Holodomor",
       "sources": [
         "https://en.wikipedia.org/wiki/Holodomor"
+      ]
+    },
+    {
+      "id": "UKR-soviet-invasion-1939",
+      "title": "Soviet invasion of eastern Poland and annexation of the west",
+      "startYear": 1939,
+      "endYear": 1939,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "An army crossed a border on 17 September 1939 under a secret deal with another dictator.",
+        "Lviv was occupied within days.",
+        "Staged elections led to annexation into a Soviet republic in November 1939."
+      ],
+      "summary": "On 17 September 1939 the Red Army invaded eastern Poland under the Molotov–Ribbentrop Pact and took Eastern Galicia and Volhynia, including Lviv. After staged elections the territory was incorporated into the Ukrainian SSR in November 1939.",
+      "sensitive": true,
+      "wikipediaTitle": "Soviet annexation of Eastern Galicia and Volhynia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Soviet_annexation_of_Eastern_Galicia_and_Volhynia",
+        "https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland"
       ]
     },
     {
@@ -208,6 +253,29 @@
       ]
     },
     {
+      "id": "UKR-donbas-war-2014",
+      "title": "War in Donbas and Russian military involvement",
+      "startYear": 2014,
+      "endYear": 2022,
+      "exploiter": {
+        "label": "the Russian Federation"
+      },
+      "type": "proxy_war",
+      "resources": [],
+      "hints": [
+        "Armed groups seized government buildings in the east in April 2014.",
+        "A passenger airliner was shot down over the region in July 2014.",
+        "The war lasted until it was absorbed into a full-scale invasion in February 2022."
+      ],
+      "summary": "From April 2014 Russian-backed armed groups seized territory in the Donbas and declared the Donetsk and Luhansk 'people's republics'. Russia denied sending troops, but its military was covertly and directly involved and the separatist entities were largely under Russian control. The war ended when it was absorbed by the 2022 invasion.",
+      "sensitive": true,
+      "wikipediaTitle": "War in Donbas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/War_in_Donbas",
+        "https://en.wikipedia.org/wiki/Russo-Ukrainian_war"
+      ]
+    },
+    {
       "id": "UKR-russian-invasion-2022",
       "title": "Full-scale Russian invasion",
       "startYear": 2022,
@@ -215,7 +283,7 @@
       "exploiter": {
         "label": "the Russian Federation"
       },
-      "type": "occupation",
+      "type": "invasion",
       "resources": [
         "land"
       ],
