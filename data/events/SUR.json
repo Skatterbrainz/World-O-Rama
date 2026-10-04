@@ -1,0 +1,90 @@
+{
+  "country": "SUR",
+  "events": [
+    {
+      "id": "SUR-willoughbyland",
+      "title": "English colony of Willoughbyland",
+      "startYear": 1650,
+      "endYear": 1667,
+      "exploiter": {
+        "label": "England"
+      },
+      "type": "colonization",
+      "resources": [
+        "sugar",
+        "slaves",
+        "land"
+      ],
+      "territoryNames": [
+        "Willoughbyland"
+      ],
+      "hints": [
+        "A governor of Barbados sent settlers to a river colony on the northern coast of South America in 1650.",
+        "Sugar plantations were set up using enslaved Africans.",
+        "A Dutch fleet captured it in 1667, and it was swapped for a North American colony."
+      ],
+      "summary": "Lord Willoughby of Parham founded a plantation colony on the Surinam River in 1650. Sugar planters used enslaved Africans, and the colony was captured by a Dutch fleet in 1667. In the Treaty of Breda that year, England recognised Dutch control in exchange for New Amsterdam.",
+      "sensitive": true,
+      "wikipediaTitle": "Willoughbyland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Willoughbyland"
+      ]
+    },
+    {
+      "id": "SUR-dutch-plantations",
+      "title": "Dutch plantation colony",
+      "startYear": 1667,
+      "endYear": 1863,
+      "exploiter": {
+        "label": "the Netherlands"
+      },
+      "type": "colonization",
+      "resources": [
+        "sugar",
+        "coffee",
+        "cocoa",
+        "slaves"
+      ],
+      "territoryNames": [
+        "Dutch Guiana"
+      ],
+      "hints": [
+        "The Treaty of Breda in 1667 gave a Dutch company a plantation colony in exchange for a trading post that became New York.",
+        "Sugar, coffee and cocoa plantations were run on enslaved labour and escapees formed Maroon communities in the forest.",
+        "Slavery was abolished in 1863, followed by a ten-year compulsory labour period."
+      ],
+      "summary": "The Dutch gained the colony in 1667 and developed sugar, coffee and cocoa plantations using enslaved Africans. Escaped captives formed Maroon societies in the interior, and the Dutch signed peace treaties with several groups in the 1760s. Slavery was abolished in 1863, followed by ten years of state supervision.",
+      "sensitive": true,
+      "wikipediaTitle": "Dutch Guiana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dutch_Guiana"
+      ]
+    },
+    {
+      "id": "SUR-contract-labour",
+      "title": "Contract labour from India and Java",
+      "startYear": 1873,
+      "endYear": 1939,
+      "exploiter": {
+        "label": "the Netherlands"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "labour",
+        "sugar",
+        "rice"
+      ],
+      "hints": [
+        "After state supervision of former slaves ended in 1873, planters recruited labourers under contract from British India.",
+        "From 1890 workers also came from the Dutch East Indies.",
+        "Thousands of contract labourers worked on plantations under penal sanctions until the system ended in the 1910s and 1930s."
+      ],
+      "summary": "After emancipation, the colony recruited contract workers, first from British India from 1873 and then from Java from 1890. Contracts carried penal sanctions, and thousands settled permanently, forming the country's Hindustani and Javanese communities. Recruitment from India ended in 1916 and from Java in 1939.",
+      "sensitive": true,
+      "wikipediaTitle": "Indian indenture system",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Indian_indenture_system"
+      ]
+    }
+  ]
+}

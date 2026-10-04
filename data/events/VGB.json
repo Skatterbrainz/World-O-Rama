@@ -1,0 +1,55 @@
+{
+  "country": "VGB",
+  "events": [
+    {
+      "id": "VGB-dutch-tortola",
+      "title": "Dutch settlement of Tortola",
+      "startYear": 1648,
+      "endYear": 1672,
+      "exploiter": {
+        "label": "the Netherlands"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "hints": [
+        "A Dutch settlement was founded on the largest island in the mid-17th century.",
+        "Its fort served as a base for Dutch trade and privateering in the Leeward Islands.",
+        "English forces annexed it in 1672."
+      ],
+      "summary": "Dutch settlers established themselves on Tortola in the 1640s, building a fort and using it as a trading base. In 1672 an English force annexed the island, starting a long period of British rule.",
+      "wikipediaTitle": "History of the British Virgin Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_the_British_Virgin_Islands"
+      ]
+    },
+    {
+      "id": "VGB-english-plantations",
+      "title": "English annexation and sugar plantations",
+      "startYear": 1672,
+      "endYear": 1834,
+      "exploiter": {
+        "label": "England"
+      },
+      "type": "colonization",
+      "resources": [
+        "sugar",
+        "cotton",
+        "slaves"
+      ],
+      "hints": [
+        "English forces annexed the islands in 1672 and sold land to planters.",
+        "Sugar, cotton and rum were produced by enslaved Africans on small estates.",
+        "A planter-dominated assembly governed until slavery was abolished in 1834."
+      ],
+      "summary": "England annexed the islands in 1672 and planters established sugar and cotton estates worked by enslaved Africans. The islands were smaller and less profitable than neighbouring colonies, and slavery was abolished in 1834.",
+      "sensitive": true,
+      "wikipediaTitle": "History of the British Virgin Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_the_British_Virgin_Islands"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "country": "MAF",
+  "events": [
+    {
+      "id": "MAF-french-colony",
+      "title": "French settlement and the partition",
+      "startYear": 1648,
+      "endYear": 1848,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "salt",
+        "sugar",
+        "cotton",
+        "slaves"
+      ],
+      "territoryNames": [
+        "French Saint-Martin"
+      ],
+      "hints": [
+        "French and Dutch survivors of a Spanish occupation agreed to share a small island in 1648.",
+        "Plantations and salt pans used enslaved labour for two centuries.",
+        "Slavery on this side ended in 1848."
+      ],
+      "summary": "France and the Dutch Republic divided the island in 1648 under the Treaty of Concordia. The French side developed plantations and salt-working based on enslaved labour. Slavery was abolished by France in 1848.",
+      "sensitive": true,
+      "wikipediaTitle": "Collectivity of Saint Martin",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Collectivity_of_Saint_Martin"
+      ]
+    }
+  ]
+}

@@ -6,10 +6,18 @@
       "title": "Spanish conquest and the Viceroyalty",
       "startYear": 1532,
       "endYear": 1821,
-      "exploiter": { "label": "Spain" },
+      "exploiter": {
+        "label": "Spain"
+      },
       "type": "colonization",
-      "resources": ["silver", "gold", "labour"],
-      "territoryNames": ["the Viceroyalty of Peru"],
+      "resources": [
+        "silver",
+        "gold",
+        "labour"
+      ],
+      "territoryNames": [
+        "the Viceroyalty of Peru"
+      ],
       "hints": [
         "An emperor was captured in 1532 and ransomed with a room filled with gold.",
         "Its capital became the seat of Spain's South American empire."
@@ -17,39 +25,129 @@
       "summary": "Francisco Pizarro captured the Inca ruler Atahualpa in 1532 and, after the ransom, had him executed. Spain ruled the territory as a viceroyalty for nearly three centuries, extracting silver and gold and drafting indigenous labour.",
       "sensitive": true,
       "wikipediaTitle": "Spanish conquest of Peru",
-      "sources": ["https://en.wikipedia.org/wiki/Spanish_conquest_of_Peru"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spanish_conquest_of_Peru"
+      ]
     },
     {
       "id": "PER-chincha-islands-war",
       "title": "Spanish seizure of the Chincha Islands",
       "startYear": 1864,
       "endYear": 1866,
-      "exploiter": { "label": "Spain" },
+      "exploiter": {
+        "label": "Spain"
+      },
       "type": "other",
-      "resources": ["guano"],
+      "resources": [
+        "guano"
+      ],
       "hints": [
         "A European power seized offshore islands rich in bird droppings in 1864."
       ],
       "summary": "In April 1864 a Spanish naval squadron occupied the Chincha Islands, the source of most of the country's guano income. The episode led to the Chincha Islands War against Spain, which ended without recovery of Spanish control.",
       "quip": "Few wars have been fought quite so directly over fertilizer.",
       "wikipediaTitle": "Chincha Islands War",
-      "sources": ["https://en.wikipedia.org/wiki/Chincha_Islands_War"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chincha_Islands_War"
+      ]
     },
     {
       "id": "PER-chilean-occupation",
       "title": "Chilean occupation and loss of Tarapacá",
       "startYear": 1879,
       "endYear": 1884,
-      "exploiter": { "label": "Chile" },
+      "exploiter": {
+        "label": "Chile"
+      },
       "type": "occupation",
-      "resources": ["nitrates", "guano", "land"],
+      "resources": [
+        "nitrates",
+        "guano",
+        "land"
+      ],
       "hints": [
         "Its southern provinces were lost together with their nitrate wealth.",
         "Its capital was occupied from 1881 to 1883."
       ],
       "summary": "In the War of the Pacific, Chile defeated the Peruvian and Bolivian forces, occupied Lima from 1881 to 1883 and, under the 1883 Treaty of Ancón, annexed the nitrate-rich province of Tarapacá.",
       "wikipediaTitle": "War of the Pacific",
-      "sources": ["https://en.wikipedia.org/wiki/War_of_the_Pacific"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/War_of_the_Pacific"
+      ]
+    },
+    {
+      "id": "PER-guano-gibbs",
+      "title": "Guano consignment trade",
+      "startYear": 1840,
+      "endYear": 1879,
+      "exploiter": {
+        "label": "Antony Gibbs & Sons"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "guano",
+        "labour"
+      ],
+      "hints": [
+        "Seabird droppings on coastal islands were dug and shipped to farms across Europe and North America as fertiliser.",
+        "A London merchant house held the main consignment contract, and indentured Chinese workers laboured on the islands in dreadful conditions.",
+        "Revenue from the boom was squandered, and it collapsed into debt and war in 1879."
+      ],
+      "summary": "From 1840 the state granted consignments to sell guano abroad. Antony Gibbs & Sons of London held the main British contract, and the trade employed thousands of Chinese contract labourers in brutal conditions on the Chincha Islands. The boom ended in the 1870s with heavy foreign debt.",
+      "sensitive": true,
+      "wikipediaTitle": "Guano",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guano",
+        "https://en.wikipedia.org/wiki/Chincha_Islands"
+      ]
+    },
+    {
+      "id": "PER-putumayo-rubber",
+      "title": "Putumayo rubber atrocities",
+      "startYear": 1900,
+      "endYear": 1912,
+      "exploiter": {
+        "label": "the Peruvian Amazon Company"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "rubber",
+        "labour"
+      ],
+      "hints": [
+        "A British-registered rubber company ran a remote rainforest region in the early 1900s.",
+        "Indigenous people, including Huitoto communities, were forced to collect rubber under threat of whipping and killing.",
+        "A 1912 report by Roger Casement exposed the abuses to the world."
+      ],
+      "summary": "The Peruvian Amazon Company, run by Julio César Arana and registered in London, forced Indigenous people in the Putumayo region to collect rubber, with widespread flogging, torture and killings. Roger Casement's 1912 report brought international attention, but few perpetrators were punished.",
+      "sensitive": true,
+      "wikipediaTitle": "Putumayo genocide",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Putumayo_genocide"
+      ]
+    },
+    {
+      "id": "PER-ipc-oil",
+      "title": "International Petroleum Company and La Brea y Pariñas",
+      "startYear": 1913,
+      "endYear": 1968,
+      "exploiter": {
+        "label": "the International Petroleum Company"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "oil"
+      ],
+      "hints": [
+        "A subsidiary of a US oil giant held the big northern oil fields through a disputed colonial-era title.",
+        "A fight over unpaid taxes dragged on for decades as the company exported most of the crude.",
+        "A reforming military government seized the fields and refinery in October 1968."
+      ],
+      "summary": "The International Petroleum Company, a Standard Oil of New Jersey subsidiary, acquired the La Brea y Pariñas oil fields in 1913 and exported most of the crude. A long dispute over its title and taxes ended when President Juan Velasco's military government expropriated the company on 9 October 1968.",
+      "wikipediaTitle": "International Petroleum Company",
+      "sources": [
+        "https://en.wikipedia.org/wiki/International_Petroleum_Company"
+      ]
     }
   ]
 }

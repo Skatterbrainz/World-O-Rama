@@ -1,0 +1,134 @@
+{
+  "country": "VEN",
+  "events": [
+    {
+      "id": "VEN-welser-klein-venedig",
+      "title": "Welser colony of Klein-Venedig",
+      "startYear": 1528,
+      "endYear": 1546,
+      "exploiter": {
+        "label": "the Welser banking house"
+      },
+      "type": "colonization",
+      "resources": [
+        "gold",
+        "slaves",
+        "land"
+      ],
+      "territoryNames": [
+        "Klein-Venedig",
+        "Little Venice"
+      ],
+      "hints": [
+        "A German banking family received a charter in 1528 from the Spanish crown in settlement of debts.",
+        "Expeditions searched for El Dorado and enslaved Indigenous people.",
+        "The charter was revoked in 1546 after mismanagement and violence."
+      ],
+      "summary": "Charles V granted the Augsburg banking house of Welser a concession on the coast of Venezuela in 1528, called Klein-Venedig. Welser agents and expeditions seized Indigenous people as slaves and searched for gold and El Dorado. The Crown revoked the charter in 1546.",
+      "sensitive": true,
+      "wikipediaTitle": "Klein-Venedig",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Klein-Venedig"
+      ]
+    },
+    {
+      "id": "VEN-cubagua-pearls",
+      "title": "Pearl fisheries of Cubagua",
+      "startYear": 1500,
+      "endYear": 1540,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "pearls",
+        "slaves"
+      ],
+      "hints": [
+        "A small dry island off the north coast supplied pearls to Europe in the early 16th century.",
+        "Enslaved Indigenous divers were worked to death in the beds.",
+        "The oysters were exhausted and the town was destroyed by an earthquake and tsunami in 1541."
+      ],
+      "summary": "The pearl beds off Cubagua were among Spain's earliest sources of American wealth. Enslaved Indigenous people and later Africans dived for pearls under harsh conditions. The beds were exhausted by the 1530s and the town of Nueva Cádiz was destroyed by a storm or earthquake in 1541.",
+      "sensitive": true,
+      "wikipediaTitle": "Cubagua",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cubagua"
+      ]
+    },
+    {
+      "id": "VEN-caracas-company",
+      "title": "Guipuzcoan Company of Caracas",
+      "startYear": 1728,
+      "endYear": 1785,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "cocoa",
+        "tobacco",
+        "slaves"
+      ],
+      "hints": [
+        "A Basque trading company received a monopoly over the colony's exports in 1728.",
+        "It fixed cocoa prices, drew complaints from planters and sparked a revolt in 1749.",
+        "Its privileges were ended in 1785."
+      ],
+      "summary": "In 1728 a royal charter gave the Royal Guipuzcoan Company of Caracas a monopoly on trade with the colony. It grew rich on cocoa exports and the import of enslaved Africans, but low prices angered planters and led to a revolt led by Juan Francisco de León in 1749. Privileges ended in 1785.",
+      "sensitive": true,
+      "wikipediaTitle": "Guipuzcoan Company of Caracas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guipuzcoan_Company_of_Caracas"
+      ]
+    },
+    {
+      "id": "VEN-blockade-1902",
+      "title": "Naval blockade over debts",
+      "startYear": 1902,
+      "endYear": 1903,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "other",
+      "resources": [
+        "trade_routes",
+        "tribute"
+      ],
+      "hints": [
+        "In December 1902 warships from three European powers seized the navy and blockaded the coast over unpaid debts.",
+        "Ports were bombarded, and a US president saw it as a test of his regional doctrine.",
+        "A tribunal in The Hague gave preferential treatment to the blockading nations' claims."
+      ],
+      "summary": "Germany, Britain and Italy blockaded Venezuelan ports from December 1902 to demand payment of debts and compensation. The crisis ended in February 1903 with an agreement to submit the claims to arbitration, and The Hague tribunal later ruled that the blockading powers should receive preferential treatment. It influenced the Roosevelt Corollary.",
+      "quip": "Gunboat diplomacy: unpaid bills, now with a bombardment.",
+      "wikipediaTitle": "Venezuelan crisis of 1902–1903",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Venezuelan_crisis_of_1902%E2%80%931903"
+      ]
+    },
+    {
+      "id": "VEN-oil-concessions",
+      "title": "Foreign oil concessions",
+      "startYear": 1914,
+      "endYear": 1976,
+      "exploiter": {
+        "label": "Shell and Standard Oil"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "oil"
+      ],
+      "hints": [
+        "After a 1914 gusher near a western lake, huge concessions went to foreign firms under a dictator.",
+        "By the 1920s the country was one of the world's top exporters, with most profits going abroad.",
+        "The industry was nationalised on 1 January 1976."
+      ],
+      "summary": "From 1914, Royal Dutch Shell, Standard Oil and Gulf operated oil concessions that made the country a leading exporter by the 1920s. Rules gave foreign companies large shares of revenue until reforms in the 1940s, and the industry was nationalised in 1976.",
+      "wikipediaTitle": "History of the petroleum industry in Venezuela",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_the_petroleum_industry_in_Venezuela"
+      ]
+    }
+  ]
+}

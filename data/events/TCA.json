@@ -1,0 +1,61 @@
+{
+  "country": "TCA",
+  "events": [
+    {
+      "id": "TCA-bermudian-salt-rakers",
+      "title": "Salt raking and Bermudian control",
+      "startYear": 1678,
+      "endYear": 1964,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "salt",
+        "slaves",
+        "labour"
+      ],
+      "territoryNames": [
+        "the Turks Islands"
+      ],
+      "hints": [
+        "From the 1670s sailors from a mid-Atlantic colony came to rake salt from natural ponds.",
+        "Enslaved and later free workers harvested salt for export to North America.",
+        "The salt industry persisted into the 1960s."
+      ],
+      "summary": "From 1678 Bermudian salt rakers came seasonally to harvest salt from the southern ponds, later settling permanently. Enslaved and later free Black workers did the raking, and the salt was exported to North America. The industry ended in 1964.",
+      "sensitive": true,
+      "wikipediaTitle": "Turks and Caicos Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Turks_and_Caicos_Islands",
+        "https://en.wikipedia.org/wiki/Salt_Cay"
+      ]
+    },
+    {
+      "id": "TCA-loyalist-cotton",
+      "title": "Loyalist cotton plantations",
+      "startYear": 1783,
+      "endYear": 1840,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "cotton",
+        "slaves",
+        "land"
+      ],
+      "hints": [
+        "After 1783, settlers loyal to the crown arrived from the former mainland colonies with enslaved workers.",
+        "They established cotton estates on the larger islands that failed within decades.",
+        "Freed Africans and formerly enslaved people stayed on, working salt and subsistence farming."
+      ],
+      "summary": "After the American Revolution, Loyalists brought enslaved workers to the islands and established cotton estates. The thin soils, pests and storms ruined the plantations by the early 19th century, and former slaves and descendants worked salt and small plots.",
+      "sensitive": true,
+      "wikipediaTitle": "Turks and Caicos Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Turks_and_Caicos_Islands"
+      ]
+    }
+  ]
+}

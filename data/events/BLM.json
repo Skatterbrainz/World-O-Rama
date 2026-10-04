@@ -1,0 +1,59 @@
+{
+  "country": "BLM",
+  "events": [
+    {
+      "id": "BLM-french-settlement",
+      "title": "French settlement from Saint-Christophe",
+      "startYear": 1648,
+      "endYear": 1784,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "slaves",
+        "trade_routes"
+      ],
+      "hints": [
+        "A small, dry island was settled from a neighbouring French colony in 1648.",
+        "Early settlers were attacked by the Kalinago, and the poor soil limited plantations.",
+        "France traded it away in 1784."
+      ],
+      "summary": "French settlers from Saint-Christophe landed in 1648, and the island was later administered from Guadeloupe. The dry, hilly terrain limited plantation farming. France ceded it to Sweden in 1784 in return for trading rights at Gothenburg.",
+      "wikipediaTitle": "Saint Barthélemy",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saint_Barth%C3%A9lemy"
+      ]
+    },
+    {
+      "id": "BLM-swedish-colony",
+      "title": "Swedish colony and free port",
+      "startYear": 1784,
+      "endYear": 1878,
+      "exploiter": {
+        "label": "Sweden"
+      },
+      "type": "colonization",
+      "resources": [
+        "slaves",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Swedish West Indies",
+        "Swedish Saint-Barthélemy"
+      ],
+      "hints": [
+        "A European kingdom with no other Caribbean territory acquired the island in a trade for harbour rights.",
+        "It became a free port and a depot for the slave trade and for smuggling.",
+        "A plebiscite in 1877 favoured return to the former ruler, which took effect in 1878."
+      ],
+      "summary": "Sweden acquired the island from France in 1784 and made Gustavia a free port, which served as a trading depot, including trade in enslaved Africans, until the Swedish abolition of slavery in 1847. Residents voted in 1877 to return to France, and the transfer took effect in 1878.",
+      "sensitive": true,
+      "wikipediaTitle": "Swedish colonization of the Americas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Swedish_colonization_of_the_Americas"
+      ]
+    }
+  ]
+}

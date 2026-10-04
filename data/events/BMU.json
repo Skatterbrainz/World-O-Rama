@@ -1,0 +1,83 @@
+{
+  "country": "BMU",
+  "events": [
+    {
+      "id": "BMU-somers-isles-company",
+      "title": "Virginia and Somers Isles Company settlement",
+      "startYear": 1609,
+      "endYear": 1684,
+      "exploiter": {
+        "label": "England"
+      },
+      "type": "colonization",
+      "resources": [
+        "tobacco",
+        "slaves",
+        "land"
+      ],
+      "territoryNames": [
+        "the Somers Isles"
+      ],
+      "hints": [
+        "A flagship bound for a colony on the American mainland was wrecked on the reefs in 1609.",
+        "A chartered company settled the island from 1612 and sold land to investors.",
+        "Tobacco and a small number of enslaved Africans and Indigenous captives formed the early labour force."
+      ],
+      "summary": "The Sea Venture was wrecked here in 1609, and the Virginia Company settled the islands from 1612 before a separate Somers Isles Company took over in 1615. Tobacco was the first crop, and enslaved Africans and others were brought to labour from the 1610s. The Crown took control in 1684.",
+      "sensitive": true,
+      "wikipediaTitle": "Somers Isles Company",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Somers_Isles_Company"
+      ]
+    },
+    {
+      "id": "BMU-convict-dockyard",
+      "title": "Convict labour at the Royal Naval Dockyard",
+      "startYear": 1823,
+      "endYear": 1863,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "labour",
+        "strategic_location"
+      ],
+      "hints": [
+        "A fortified naval base was built on the western end of the island after the loss of American ports.",
+        "Thousands of convicts were shipped from Britain and housed in prison hulks.",
+        "The hulks were used until the 1860s, and many convicts died of disease."
+      ],
+      "summary": "After the American Revolution, Britain built a dockyard at Ireland Island as its main Atlantic naval base. From 1823 to 1863, thousands of convicts transported from Britain were housed in prison hulks and made to quarry stone and build the dockyard. Many died of disease.",
+      "sensitive": true,
+      "wikipediaTitle": "Royal Naval Dockyard",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Royal_Naval_Dockyard"
+      ]
+    },
+    {
+      "id": "BMU-us-bases",
+      "title": "US bases under Destroyers for Bases",
+      "startYear": 1941,
+      "endYear": 1995,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "strategic_location"
+      ],
+      "hints": [
+        "A 1940 deal swapped old destroyers for 99-year leases on bases across Britain's Atlantic territories.",
+        "Land was reclaimed from the sea for an airfield that later became the civilian airport.",
+        "The last American naval presence left in 1995."
+      ],
+      "summary": "Under the 1940 Destroyers for Bases Agreement, the United States leased sites in Bermuda, including the airfield later known as Kindley Field, and built naval facilities. The US Navy withdrew in 1995.",
+      "wikipediaTitle": "Destroyers for Bases Agreement",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Destroyers_for_Bases_Agreement"
+      ]
+    }
+  ]
+}
