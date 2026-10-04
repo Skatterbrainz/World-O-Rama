@@ -1,0 +1,80 @@
+{
+  "country": "BFA",
+  "events": [
+    {
+      "id": "BFA-french-upper-volta",
+      "title": "French rule in Upper Volta",
+      "startYear": 1896,
+      "endYear": 1960,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "cotton",
+        "labour"
+      ],
+      "territoryNames": [
+        "Upper Volta",
+        "French Upper Volta"
+      ],
+      "hints": [
+        "A landlocked colony named after a river system whose branches are known by colours.",
+        "It was created in 1919, abolished in 1932 and restored in 1947.",
+        "France took the Mossi capital in 1896 and ran the territory as a labour reservoir for richer colonies on the coast."
+      ],
+      "summary": "France took control of the Mossi kingdoms in the 1890s and created the colony of Upper Volta in 1919. It was dissolved in 1932 and restored in 1947, and gained independence in 1960 under the same name.",
+      "wikipediaTitle": "French Upper Volta",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Upper_Volta"
+      ]
+    },
+    {
+      "id": "BFA-upper-volta-forced-labour",
+      "title": "Forced labour and the partition of Upper Volta",
+      "startYear": 1919,
+      "endYear": 1946,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "labour",
+        "cotton"
+      ],
+      "hints": [
+        "Men from a poor inland colony were conscripted to build railways and work plantations far from home.",
+        "When the colony was broken up in 1932, its pieces were handed to its coastal and Sahelian neighbours.",
+        "Forced labour in French West Africa ended with a 1946 law."
+      ],
+      "summary": "Under the indigénat, men from Upper Volta were conscripted for public works and for plantations and railways in neighbouring colonies, especially the Ivory Coast. The colony was dissolved in 1932, partly to ease labour supply, and forced labour in French West Africa was abolished in 1946.",
+      "sensitive": true,
+      "wikipediaTitle": "French Upper Volta",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Upper_Volta"
+      ]
+    },
+    {
+      "id": "BFA-volta-bani-war",
+      "title": "Volta-Bani War against French conscription",
+      "startYear": 1915,
+      "endYear": 1917,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A large rebellion against European colonial recruiters flared in the middle of a world war.",
+        "Around a thousand villages joined a coalition fighting the colonial troops.",
+        "It was crushed by 1917, and village after village was burned."
+      ],
+      "summary": "In 1915 a coalition of villages between the Bani and Volta rivers rose against French colonial rule and the recruitment of soldiers for the First World War. French forces crushed the rebellion by 1917 at heavy cost to the population.",
+      "sensitive": true,
+      "wikipediaTitle": "Volta-Bani War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Volta-Bani_War"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "country": "GMB",
+  "events": [
+    {
+      "id": "GMB-courland-gambia",
+      "title": "Courland's colony on the Gambia River",
+      "startYear": 1651,
+      "endYear": 1661,
+      "exploiter": {
+        "label": "the Duchy of Courland"
+      },
+      "type": "colonization",
+      "resources": [
+        "slaves",
+        "gold",
+        "ivory"
+      ],
+      "territoryNames": [
+        "St Andrew's Island"
+      ],
+      "hints": [
+        "A small Baltic duchy briefly held a fort on a West African river.",
+        "It traded in ivory, gold and enslaved people from a river island.",
+        "The English took the fort in 1661."
+      ],
+      "summary": "The Duchy of Courland, a small Baltic state, set up a trading fort on St Andrew's Island in the Gambia River in 1651. English forces took it in 1661 and renamed it James Island.",
+      "sensitive": true,
+      "wikipediaTitle": "Couronian colonization",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Couronian_colonization"
+      ]
+    },
+    {
+      "id": "GMB-fort-james-royal-african-company",
+      "title": "Fort James and the Royal African Company",
+      "startYear": 1684,
+      "endYear": 1750,
+      "exploiter": {
+        "label": "the Royal African Company"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "gold",
+        "ivory"
+      ],
+      "territoryNames": [
+        "James Island"
+      ],
+      "hints": [
+        "An island fort on a river was run from 1684 by a London-based chartered company that traded in captives.",
+        "Today it is a UNESCO World Heritage Site, renamed after a figure from a famous novel.",
+        "The company's monopoly ended in 1750 and its forts passed to a successor body."
+      ],
+      "summary": "England captured the fort from the Dutch in 1661, and in 1684 the Royal African Company took over the administration of the Gambia, running Fort James on James Island, now Kunta Kinteh Island, as a base for trading enslaved people, gold and ivory. In 1750 a successor body took over its forts.",
+      "sensitive": true,
+      "wikipediaTitle": "Kunta Kinteh Island",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kunta_Kinteh_Island"
+      ]
+    },
+    {
+      "id": "GMB-british-gambia",
+      "title": "British Gambia colony and protectorate",
+      "startYear": 1816,
+      "endYear": 1965,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "labour",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Gambia Colony and Protectorate"
+      ],
+      "hints": [
+        "A ribbon of territory on both banks of a river was carved out between two European empires.",
+        "The 1889 Anglo-French agreement fixed its borders on either side of the waterway.",
+        "A British base was founded at Bathurst in 1816 to suppress the slave trade, and the area was run as a colony and protectorate until 1965."
+      ],
+      "summary": "Britain founded a post at Bathurst in 1816 and from 1821 ruled a colony and later a protectorate along the river, whose odd ribbon shape was fixed by an 1889 agreement with France. It gained independence in 1965.",
+      "quip": "Britain and France drew a country around a river and called it a day, the cartographic equivalent of a coffee ring.",
+      "wikipediaTitle": "Gambia Colony and Protectorate",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gambia_Colony_and_Protectorate"
+      ]
+    }
+  ]
+}

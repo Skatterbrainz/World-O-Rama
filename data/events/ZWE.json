@@ -1,0 +1,144 @@
+{
+  "country": "ZWE",
+  "events": [
+    {
+      "id": "ZWE-rudd-concession",
+      "title": "Rudd Concession",
+      "startYear": 1888,
+      "endYear": 1890,
+      "exploiter": {
+        "label": "the British South Africa Company"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "gold",
+        "land"
+      ],
+      "territoryNames": [
+        "Matabeleland",
+        "Mashonaland"
+      ],
+      "hints": [
+        "In 1888 a king granted three Europeans exclusive mining rights in return for guns and a monthly payment.",
+        "He later repudiated the document, saying he had been misled about what it said.",
+        "Cecil Rhodes used it to get a royal charter for his company."
+      ],
+      "summary": "In October 1888 King Lobengula of the Ndebele signed the Rudd Concession, granting exclusive mining rights in return for rifles and a monthly sum. He later disputed what it meant, but Cecil Rhodes used it to obtain a royal charter for the British South Africa Company in 1889.",
+      "wikipediaTitle": "Rudd Concession",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rudd_Concession"
+      ]
+    },
+    {
+      "id": "ZWE-bsac-conquest",
+      "title": "Pioneer Column and the Matabele wars",
+      "startYear": 1890,
+      "endYear": 1897,
+      "exploiter": {
+        "label": "the British South Africa Company"
+      },
+      "type": "colonization",
+      "resources": [
+        "gold",
+        "land",
+        "livestock"
+      ],
+      "territoryNames": [
+        "Mashonaland",
+        "Matabeleland",
+        "Southern Rhodesia"
+      ],
+      "hints": [
+        "A column of settlers escorted by armed police crossed into Mashonaland in 1890.",
+        "Maxim guns defeated Ndebele forces in 1893 and again in 1896.",
+        "Rebellions by the Ndebele and Shona in 1896-97 were crushed and cattle and land were seized."
+      ],
+      "summary": "In 1890 the Pioneer Column occupied Mashonaland on behalf of Cecil Rhodes's British South Africa Company. The company defeated the Ndebele in 1893, and the Ndebele and Shona risings of 1896-1897 were crushed, with cattle and land confiscated.",
+      "sensitive": true,
+      "wikipediaTitle": "Second Matabele War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Second_Matabele_War"
+      ]
+    },
+    {
+      "id": "ZWE-land-apportionment",
+      "title": "Land Apportionment Act",
+      "startYear": 1930,
+      "endYear": 1969,
+      "exploiter": {
+        "label": "Rhodesia"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "tobacco"
+      ],
+      "hints": [
+        "A 1930 law divided the land into areas for European and African ownership.",
+        "Europeans, a small fraction of the population, received the larger and better share.",
+        "Tobacco farming on the reserved land became the backbone of the economy."
+      ],
+      "summary": "The 1930 Land Apportionment Act divided Southern Rhodesia into European and African areas, reserving the best land for the white minority. It forced many Africans into overcrowded reserves and underpinned a tobacco-based settler economy until it was replaced by the Land Tenure Act in 1969.",
+      "wikipediaTitle": "Land Apportionment Act",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Land_Apportionment_Act"
+      ]
+    },
+    {
+      "id": "ZWE-udi-rhodesia",
+      "title": "Unilateral Declaration of Independence and the Bush War",
+      "startYear": 1965,
+      "endYear": 1979,
+      "exploiter": {
+        "label": "Rhodesia"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "tobacco",
+        "gold"
+      ],
+      "territoryNames": [
+        "Rhodesia"
+      ],
+      "hints": [
+        "In November 1965 a white-minority government declared independence from Britain.",
+        "United Nations sanctions followed, but some partners kept trading with the regime.",
+        "A guerrilla war ended with the Lancaster House talks in 1979."
+      ],
+      "summary": "In November 1965 Ian Smith's Rhodesian Front declared independence to preserve white-minority rule. UN sanctions followed, and a guerrilla war against the regime lasted until the 1979 Lancaster House Agreement led to majority rule.",
+      "sensitive": true,
+      "wikipediaTitle": "Rhodesia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rhodesia"
+      ]
+    },
+    {
+      "id": "ZWE-federation-rhodesia-nyasaland",
+      "title": "Federation of Rhodesia and Nyasaland",
+      "startYear": 1953,
+      "endYear": 1963,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "copper",
+        "labour"
+      ],
+      "territoryNames": [
+        "the Federation of Rhodesia and Nyasaland"
+      ],
+      "hints": [
+        "Britain linked three territories under a federal government in 1953.",
+        "The settler-dominated south held the capital and most of the benefits.",
+        "African nationalists opposed it, and it broke up in 1963."
+      ],
+      "summary": "The Central African Federation, created in 1953 by Britain, tied together Southern Rhodesia, Northern Rhodesia and Nyasaland. The settler-dominated south held the capital and gained most of the benefits, and African nationalists opposed it until it dissolved in 1963.",
+      "wikipediaTitle": "Federation of Rhodesia and Nyasaland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "country": "GAB",
+  "events": [
+    {
+      "id": "GAB-gabon-estuary-treaties",
+      "title": "French treaty with the Mpongwe ruler on the Gabon Estuary",
+      "startYear": 1839,
+      "endYear": 1849,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "trade_routes",
+        "land"
+      ],
+      "hints": [
+        "A French admiral signed a trade and protection treaty with a local ruler known to the French as King Denis in 1839.",
+        "A settlement founded in 1849 for freed captives from a slave ship became the capital.",
+        "Its name means 'free town'."
+      ],
+      "summary": "In 1839 Admiral Bouët-Willaumez negotiated a trade and protection treaty with the Mpongwe ruler Antchouwe Kowe Rapontchombo, known to the French as King Denis, giving France a foothold on the Gabon Estuary. In 1849 France founded Libreville there as a settlement for Africans freed from a captured slave ship.",
+      "wikipediaTitle": "Libreville",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Libreville"
+      ]
+    },
+    {
+      "id": "GAB-gabon-concessions-okoume",
+      "title": "Concession companies and timber in French Gabon",
+      "startYear": 1899,
+      "endYear": 1930,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "timber",
+        "rubber",
+        "ivory",
+        "labour"
+      ],
+      "hints": [
+        "In 1899 France granted huge tracts to private companies with monopoly rights.",
+        "Okoumé logging camps relied on conscripted labour.",
+        "The abuses of the concession system were publicly exposed in the 1920s."
+      ],
+      "summary": "After 1899 France granted large areas of its Gabon territory to concession companies that exploited rubber, ivory and, later, okoumé timber. Forced labour and violent recruitment were common, and the system drew criticism in the 1920s.",
+      "sensitive": true,
+      "wikipediaTitle": "French Equatorial Africa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Equatorial_Africa"
+      ]
+    },
+    {
+      "id": "GAB-mounana-uranium",
+      "title": "Mounana uranium mine",
+      "startYear": 1958,
+      "endYear": 1999,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "uranium"
+      ],
+      "hints": [
+        "A mine in the interior supplied fuel for another country's nuclear weapons and power programmes.",
+        "The mining town of Mounana grew around a French-run company.",
+        "The mine closed in 1999."
+      ],
+      "summary": "From 1958 the French-controlled Compagnie des Mines d'Uranium de Franceville mined uranium at Mounana, supplying France's nuclear programme. The mine closed in 1999, leaving questions about radioactive waste and worker health.",
+      "wikipediaTitle": "Mounana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mounana"
+      ]
+    },
+    {
+      "id": "GAB-coup-1964-french-intervention",
+      "title": "French intervention to restore Léon M'ba",
+      "startYear": 1964,
+      "endYear": 1964,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "In February 1964 officers seized the president and the radio station.",
+        "French paratroopers flew in within a day and restored him to power.",
+        "France then kept a military presence in the country."
+      ],
+      "summary": "In February 1964 Gabonese officers staged a coup against President Léon M'ba. Within two days French paratroops, flown in on M'ba's request under a defence agreement, reversed the coup and restored him, and a French military presence remained.",
+      "quip": "A president was reinstated in two days, a turnaround time rarely seen in the colonial office's own paperwork.",
+      "wikipediaTitle": "1964 Gabonese coup d'état",
+      "sources": [
+        "https://en.wikipedia.org/wiki/1964_Gabonese_coup_d'%C3%A9tat"
+      ]
+    }
+  ]
+}

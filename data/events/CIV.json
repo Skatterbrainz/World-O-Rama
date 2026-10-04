@@ -1,0 +1,84 @@
+{
+  "country": "CIV",
+  "events": [
+    {
+      "id": "CIV-bouet-willaumez-treaties",
+      "title": "Protectorate treaties on the Ivorian coast",
+      "startYear": 1843,
+      "endYear": 1844,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "trade_routes"
+      ],
+      "hints": [
+        "Naval officers signed protectorate treaties with local kings at two coastal trading posts.",
+        "France built forts at Grand-Bassam and Assinie to secure trade.",
+        "The treaties gave France a first foothold on a coast named for the commodity traders came to buy."
+      ],
+      "summary": "In 1843-1844 Admiral Bouët-Willaumez signed treaties with the rulers of Grand-Bassam and Assinie that placed the coast under French protection and allowed forts and trading posts, the first step towards a colony.",
+      "wikipediaTitle": "Ivory Coast",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ivory_Coast"
+      ]
+    },
+    {
+      "id": "CIV-french-ivory-coast",
+      "title": "French Ivory Coast colony",
+      "startYear": 1893,
+      "endYear": 1960,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "cocoa",
+        "coffee",
+        "timber",
+        "labour"
+      ],
+      "territoryNames": [
+        "the Ivory Coast Colony"
+      ],
+      "hints": [
+        "Settler-owned and African-owned plantations drove a cash-crop economy in this French colony.",
+        "Cocoa, coffee and tropical timber were its main exports.",
+        "A colony formally created in 1893, it became independent in 1960 under a leader who had campaigned against forced labour."
+      ],
+      "summary": "France made the territory a colony in 1893. Cocoa, coffee and timber became the main exports, grown on plantations that relied heavily on conscripted and migrant labour. Independence came in 1960.",
+      "wikipediaTitle": "History of Ivory Coast",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Ivory_Coast"
+      ]
+    },
+    {
+      "id": "CIV-ivory-coast-forced-labour",
+      "title": "Forced labour on colonial plantations",
+      "startYear": 1900,
+      "endYear": 1946,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "labour",
+        "cocoa",
+        "coffee",
+        "timber"
+      ],
+      "hints": [
+        "Under a colonial legal code, villagers could be conscripted for roads, railways and European plantations.",
+        "Workers were brought south from a poorer inland colony to staff plantations.",
+        "A 1946 law pushed through by a local planter-politician abolished forced labour across French Africa."
+      ],
+      "summary": "Under the indigénat, Africans in the colony were conscripted for public works and for work on European-owned plantations and logging camps, with many workers moved south from Upper Volta. Forced labour ended after a 1946 law championed by Félix Houphouët-Boigny.",
+      "sensitive": true,
+      "wikipediaTitle": "Félix Houphouët-Boigny",
+      "sources": [
+        "https://en.wikipedia.org/wiki/F%C3%A9lix_Houphou%C3%ABt-Boigny"
+      ]
+    }
+  ]
+}

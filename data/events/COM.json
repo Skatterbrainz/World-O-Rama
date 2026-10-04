@@ -1,0 +1,96 @@
+{
+  "country": "COM",
+  "events": [
+    {
+      "id": "COM-mayotte-cession",
+      "title": "France acquires Mayotte",
+      "startYear": 1841,
+      "endYear": 1841,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "sugar",
+        "land"
+      ],
+      "hints": [
+        "In 1841 a deposed ruler from a larger island agreed to hand over an island he had seized.",
+        "He received an annual pension and the right to French protection.",
+        "France then used it as a base for sugar plantations."
+      ],
+      "summary": "In April 1841 Andriantsoly, a deposed Sakalava ruler who had taken control of Mayotte, ceded the island to France in return for protection and an annual payment. France built a sugar-plantation economy on the island.",
+      "wikipediaTitle": "Mayotte",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mayotte"
+      ]
+    },
+    {
+      "id": "COM-french-colony-plantations",
+      "title": "French protectorate and plantation companies",
+      "startYear": 1886,
+      "endYear": 1975,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "spices",
+        "land",
+        "labour"
+      ],
+      "hints": [
+        "The sultans of the islands accepted French protection from 1886 and later lost their power altogether.",
+        "Vast tracts of land went to plantation companies growing perfume plants, vanilla and cloves.",
+        "A French planter founded a company that ran farms and processing plants on the biggest island."
+      ],
+      "summary": "From 1886 France made the sultans of the islands protectorate subjects, and from 1912 the territory was formally a colony. Plantation companies, such as the one founded by Léon Humblot, acquired large landholdings to grow vanilla, cloves and perfume plants, with local people reduced to labourers.",
+      "wikipediaTitle": "Léon Humblot",
+      "sources": [
+        "https://en.wikipedia.org/wiki/L%C3%A9on_Humblot"
+      ]
+    },
+    {
+      "id": "COM-denard-mercenaries",
+      "title": "Bob Denard's mercenary rule",
+      "startYear": 1975,
+      "endYear": 1989,
+      "exploiter": {
+        "label": "Bob Denard"
+      },
+      "type": "puppet_regime",
+      "resources": [],
+      "hints": [
+        "A French mercenary took part in coups here in 1975 and 1978.",
+        "From 1978 he led the presidential guard and ran the country in all but name.",
+        "He was reportedly backed by apartheid South Africa, which used the islands as a base."
+      ],
+      "summary": "French mercenary Bob Denard helped stage coups in 1975 and 1978, and from 1978 to 1989 commanded the presidential guard, the real power behind President Ahmed Abdallah. He was supported by South Africa until Abdallah was killed in 1989.",
+      "wikipediaTitle": "Bob Denard",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bob_Denard"
+      ]
+    },
+    {
+      "id": "COM-mayotte-referendums",
+      "title": "France retains Mayotte after independence votes",
+      "startYear": 1974,
+      "endYear": 1976,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "annexation",
+      "resources": [],
+      "hints": [
+        "In December 1974 voters on three of four islands backed independence overwhelmingly.",
+        "France counted the votes island by island and kept the fourth.",
+        "The UN General Assembly has repeatedly said that the island belongs to the new state."
+      ],
+      "summary": "In the December 1974 referendum, three islands voted for independence while Mayotte voted to stay French. France insisted on an island-by-island count and held a second vote on Mayotte in 1976. The UN General Assembly has repeatedly affirmed that the island is part of the Comoros.",
+      "wikipediaTitle": "1974 Comorian independence referendum",
+      "sources": [
+        "https://en.wikipedia.org/wiki/1974_Comorian_independence_referendum"
+      ]
+    }
+  ]
+}

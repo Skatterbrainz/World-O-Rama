@@ -1,0 +1,107 @@
+{
+  "country": "TCD",
+  "events": [
+    {
+      "id": "TCD-rabih-empire",
+      "title": "Rabih az-Zubayr's slave-raiding empire",
+      "startYear": 1893,
+      "endYear": 1900,
+      "exploiter": {
+        "label": "Rabih az-Zubayr"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "ivory"
+      ],
+      "hints": [
+        "A Sudanese warlord and slave trader carved out a large state around a great inland lake in the 1890s.",
+        "He conquered the sultanates of Bagirmi and Bornu.",
+        "French forces killed him at the Battle of Kousséri in 1900."
+      ],
+      "summary": "The warlord Rabih az-Zubayr, a former slave trader from the Nile, conquered Bagirmi and Bornu in the 1890s and built an empire based on raiding and slave trading. France defeated and killed him at Kousséri in April 1900.",
+      "sensitive": true,
+      "wikipediaTitle": "Rabih az-Zubayr",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rabih_az-Zubayr"
+      ]
+    },
+    {
+      "id": "TCD-french-conquest-chad",
+      "title": "French conquest of Chad",
+      "startYear": 1900,
+      "endYear": 1920,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "French Equatorial Africa"
+      ],
+      "hints": [
+        "After defeating a warlord at Kousséri in 1900, a European power set about taking the rest of the basin.",
+        "The sultanate of Wadai held out until 1909-1912.",
+        "The territory became part of an equatorial federation governed from Brazzaville."
+      ],
+      "summary": "France defeated Rabih in 1900 and went on to conquer the Chad basin, taking Wadai between 1909 and 1912 and pushing into the northern desert. The territory became part of French Equatorial Africa in 1910.",
+      "wikipediaTitle": "History of Chad",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Chad"
+      ]
+    },
+    {
+      "id": "TCD-colonial-cotton",
+      "title": "Compulsory cotton cultivation in French Chad",
+      "startYear": 1928,
+      "endYear": 1960,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "cotton",
+        "labour"
+      ],
+      "hints": [
+        "In the late 1920s farmers in the south were required to grow a cash crop for export.",
+        "The crop supplied textile mills in the colonial power and helped pay for the colony's costs.",
+        "Cotton remains an important export today."
+      ],
+      "summary": "From the late 1920s French authorities compelled farmers in southern Chad to grow cotton, buying it at fixed low prices for export. The scheme brought hardship to southern farmers and shaped the colonial economy until independence.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Chad",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Chad"
+      ]
+    },
+    {
+      "id": "TCD-aouzou-strip",
+      "title": "Libyan occupation of the Aouzou Strip",
+      "startYear": 1973,
+      "endYear": 1994,
+      "exploiter": {
+        "label": "Libya"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "the Aouzou Strip"
+      ],
+      "hints": [
+        "A desert strip along the northern border was seized in 1973 on the basis of a never-ratified colonial treaty.",
+        "The dispute became a Cold War battleground, with French and US support for one side and Libya's for the other.",
+        "The International Court of Justice ruled against the occupier in 1994."
+      ],
+      "summary": "Libya occupied the Aouzou Strip in 1973, citing an unratified 1935 Franco-Italian agreement. The occupation led to the Toyota War in 1987, and in 1994 the International Court of Justice ruled that the strip belonged to Chad and Libyan forces withdrew.",
+      "wikipediaTitle": "Aouzou Strip",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aouzou_Strip"
+      ]
+    }
+  ]
+}

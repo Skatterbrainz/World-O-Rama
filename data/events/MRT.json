@@ -1,0 +1,105 @@
+{
+  "country": "MRT",
+  "events": [
+    {
+      "id": "MRT-arguin-portuguese",
+      "title": "Portuguese trading fort on Arguin",
+      "startYear": 1445,
+      "endYear": 1633,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "slaves",
+        "trade_routes"
+      ],
+      "hints": [
+        "A reef-ringed island off a desert coast hosted one of Europe's earliest trading posts in tropical Africa.",
+        "It bought gum and captives from the desert coast and shipped them to Portugal.",
+        "The Dutch took it in 1633."
+      ],
+      "summary": "Prince Henry the Navigator set up a trading post on Arguin in 1445, buying gum arabic and enslaved people for Portugal. The Dutch captured the island in 1633.",
+      "sensitive": true,
+      "wikipediaTitle": "Arguin",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arguin"
+      ]
+    },
+    {
+      "id": "MRT-arguin-brandenburg",
+      "title": "Brandenburg-Prussian fort on Arguin",
+      "startYear": 1685,
+      "endYear": 1721,
+      "exploiter": {
+        "label": "Prussia"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "slaves",
+        "trade_routes"
+      ],
+      "hints": [
+        "A German state tried its hand at colonial trade from a desert island.",
+        "It sold enslaved people and traded gum from a small fort.",
+        "The post was abandoned in the early 18th century."
+      ],
+      "summary": "Brandenburg-Prussia took over a fort on Arguin in the 1680s and used it for trade, including trade in enslaved people, until the post was abandoned in 1721.",
+      "sensitive": true,
+      "wikipediaTitle": "Arguin",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arguin"
+      ]
+    },
+    {
+      "id": "MRT-french-conquest",
+      "title": "French conquest of the Moorish lands",
+      "startYear": 1902,
+      "endYear": 1934,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "livestock"
+      ],
+      "territoryNames": [
+        "French Mauritania"
+      ],
+      "hints": [
+        "A French official called Coppolani led a so-called peaceful penetration of a desert emirate region from 1902.",
+        "He was killed in 1905, and military conquest followed.",
+        "Resistance in the Adrar region ended only in the 1930s."
+      ],
+      "summary": "From 1902 Xavier Coppolani led a French drive to take control of the Moorish emirates south of Morocco. After his assassination in 1905 France used armed force, completing the conquest in the 1930s.",
+      "wikipediaTitle": "Xavier Coppolani",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Xavier_Coppolani"
+      ]
+    },
+    {
+      "id": "MRT-miferma-iron-ore",
+      "title": "MIFERMA iron ore mines",
+      "startYear": 1952,
+      "endYear": 1974,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "iron_ore"
+      ],
+      "hints": [
+        "A consortium led by a European state's companies dug a huge desert iron mine near Zouérat.",
+        "A railway across the desert carried ore to the Atlantic coast.",
+        "It was nationalised in 1974."
+      ],
+      "summary": "The French-led company MIFERMA, founded in 1952, mined iron ore near Zouérat and exported it by a purpose-built railway to the coast. The Mauritanian government nationalised it in 1974.",
+      "wikipediaTitle": "Zouérat",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zou%C3%A9rat"
+      ]
+    }
+  ]
+}

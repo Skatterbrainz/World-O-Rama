@@ -1,0 +1,161 @@
+{
+  "country": "NGA",
+  "events": [
+    {
+      "id": "NGA-bight-of-biafra-slave-trade",
+      "title": "British slave trade from the Bight of Biafra",
+      "startYear": 1700,
+      "endYear": 1807,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "palm_oil"
+      ],
+      "hints": [
+        "Ports in a delta supplied one of the Atlantic's largest streams of captives.",
+        "Merchants from Liverpool and Bristol traded at Bonny and Old Calabar.",
+        "British participation in the trade was outlawed in 1807."
+      ],
+      "summary": "The Bight of Biafra was one of the largest slave-trading regions of the Atlantic. British merchants dominated the trade from ports such as Bonny and Old Calabar in the 18th century until Britain outlawed its slave trade in 1807.",
+      "sensitive": true,
+      "wikipediaTitle": "Bight of Biafra",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bight_of_Biafra"
+      ]
+    },
+    {
+      "id": "NGA-lagos-annexation",
+      "title": "Bombardment and annexation of Lagos",
+      "startYear": 1851,
+      "endYear": 1861,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "annexation",
+      "resources": [
+        "trade_routes",
+        "palm_oil"
+      ],
+      "territoryNames": [
+        "the Colony of Lagos"
+      ],
+      "hints": [
+        "A Royal Navy attack on a lagoon city in 1851 installed a pliable ruler.",
+        "A decade later its king was pressed to cede his territory under threat of another bombardment.",
+        "The 1861 Treaty of Cession made the port a British colony."
+      ],
+      "summary": "In 1851 the Royal Navy bombarded Lagos to depose King Kosoko and install Akitoye. In 1861, facing the threat of force, King Dosunmu signed the Treaty of Cession handing Lagos to Britain.",
+      "wikipediaTitle": "Colony of Lagos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Colony_of_Lagos"
+      ]
+    },
+    {
+      "id": "NGA-royal-niger-company",
+      "title": "Royal Niger Company",
+      "startYear": 1886,
+      "endYear": 1900,
+      "exploiter": {
+        "label": "the Royal Niger Company"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "palm_oil"
+      ],
+      "territoryNames": [
+        "the Niger Districts"
+      ],
+      "hints": [
+        "A chartered company governed vast territory along a great river and held a trading monopoly.",
+        "Palm oil was its chief trade, and it imposed heavy duties on rivals.",
+        "Its charter was revoked in 1900 and the territories passed to the Crown."
+      ],
+      "summary": "The Royal Niger Company received a British charter in 1886 and ran a trading monopoly along the lower Niger, with palm oil as its main product. It used force against rivals and local rulers, and its charter was revoked in 1900.",
+      "wikipediaTitle": "Royal Niger Company",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Royal_Niger_Company"
+      ]
+    },
+    {
+      "id": "NGA-benin-expedition-1897",
+      "title": "British sack of Benin City",
+      "startYear": 1897,
+      "endYear": 1897,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "ivory"
+      ],
+      "territoryNames": [
+        "the Kingdom of Benin"
+      ],
+      "hints": [
+        "A punitive expedition was launched after a British trade mission was ambushed.",
+        "The royal palace was burned and thousands of brass and ivory works were taken to Europe.",
+        "Today museums debate returning the Benin Bronzes."
+      ],
+      "summary": "After a British party led by James Phillips was ambushed in January 1897, a punitive expedition captured and burned Benin City. Thousands of brass, bronze and ivory artworks were looted and later sold or displayed in Europe.",
+      "sensitive": true,
+      "wikipediaTitle": "Benin Expedition of 1897",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Benin_Expedition_of_1897"
+      ]
+    },
+    {
+      "id": "NGA-colonial-tin-and-palm",
+      "title": "British colonial economy: tin, palm oil and cocoa",
+      "startYear": 1900,
+      "endYear": 1960,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "tin",
+        "palm_oil",
+        "cocoa",
+        "cotton",
+        "labour"
+      ],
+      "hints": [
+        "Tin from the Jos Plateau was exported by British-owned mining companies.",
+        "Palm products, cocoa and cotton were the main cash crops.",
+        "The northern and southern protectorates were merged in 1914."
+      ],
+      "summary": "Britain consolidated the Niger territories into one colony in 1914. Tin mined on the Jos Plateau by British firms, together with palm products, cocoa and cotton, formed the export economy until independence in 1960.",
+      "wikipediaTitle": "Colonial Nigeria",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Colonial_Nigeria"
+      ]
+    },
+    {
+      "id": "NGA-ogoniland-oil",
+      "title": "Oil extraction in Ogoniland",
+      "startYear": 1958,
+      "endYear": 1993,
+      "exploiter": {
+        "label": "Royal Dutch Shell"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "oil"
+      ],
+      "hints": [
+        "An Anglo-Dutch oil giant pumped crude from the wetlands of a river delta for decades.",
+        "Spills and gas flaring devastated farmland and fisheries.",
+        "A playwright-activist who led the protests was hanged in 1995."
+      ],
+      "summary": "Shell began producing oil in Ogoniland in 1958. Spills and gas flaring damaged land and water, prompting the Ogoni movement led by Ken Saro-Wiwa. Shell ceased operations there in 1993, and Saro-Wiwa was executed in 1995.",
+      "sensitive": true,
+      "wikipediaTitle": "Ogoni people",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ogoni_people"
+      ]
+    }
+  ]
+}

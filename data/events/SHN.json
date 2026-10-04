@@ -1,0 +1,98 @@
+{
+  "country": "SHN",
+  "events": [
+    {
+      "id": "SHN-east-india-company",
+      "title": "East India Company rule on St Helena",
+      "startYear": 1659,
+      "endYear": 1834,
+      "exploiter": {
+        "label": "the East India Company"
+      },
+      "type": "colonization",
+      "resources": [
+        "slaves",
+        "strategic_location"
+      ],
+      "hints": [
+        "A remote Atlantic island was fortified as a refreshment stop on the long route home from Asia.",
+        "Enslaved people from Africa and Madagascar were brought to work for the settlers.",
+        "The company handed it to the Crown in 1834."
+      ],
+      "summary": "The English East India Company settled the island in 1659 as a refreshment station for ships returning from Asia. Enslaved people from Africa and Madagascar were brought to work there, and the island passed to the Crown in 1834.",
+      "sensitive": true,
+      "wikipediaTitle": "Saint Helena",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saint_Helena"
+      ]
+    },
+    {
+      "id": "SHN-napoleon-exile",
+      "title": "Exile of Napoleon",
+      "startYear": 1815,
+      "endYear": 1821,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A defeated emperor was sent to the most remote island Britain could find.",
+        "He lived at Longwood House under guard and died there in 1821.",
+        "Thousands of British troops and ships were used to guard him."
+      ],
+      "summary": "After Waterloo, Britain exiled Napoleon Bonaparte to the island in 1815, guarded by a large garrison and naval squadron. He died at Longwood House in 1821.",
+      "quip": "Britain posted a garrison, a squadron and a governor to babysit one man on a rock.",
+      "wikipediaTitle": "Longwood House",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Longwood_House"
+      ]
+    },
+    {
+      "id": "SHN-liberated-africans",
+      "title": "Landing of liberated Africans",
+      "startYear": 1840,
+      "endYear": 1872,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "Royal Navy anti-slavery patrols brought thousands of rescued captives to this island.",
+        "Many arrived sick and died in a depot at Rupert's Valley.",
+        "They were then put to work as apprentices and labourers on the island."
+      ],
+      "summary": "From 1840 to 1872 the Royal Navy landed thousands of Africans taken from slave ships on the island. Many died in the depot at Rupert's Valley, and survivors were apprenticed or put to work as labourers.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Saint Helena",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Saint_Helena"
+      ]
+    },
+    {
+      "id": "SHN-dinuzulu-exile",
+      "title": "Exile of Zulu king Dinuzulu",
+      "startYear": 1890,
+      "endYear": 1897,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A king from another continent was held on this island for seven years.",
+        "He was convicted after a succession struggle in the Zulu kingdom.",
+        "He was allowed to return to Africa in 1897."
+      ],
+      "summary": "Britain exiled the Zulu king Dinuzulu kaCetshwayo to the island in 1890 after the Anglo-Zulu succession wars. He was allowed to return to southern Africa in 1897.",
+      "sensitive": true,
+      "wikipediaTitle": "Dinuzulu kaCetshwayo",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dinuzulu_kaCetshwayo"
+      ]
+    }
+  ]
+}

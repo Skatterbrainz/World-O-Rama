@@ -1,0 +1,120 @@
+{
+  "country": "CMR",
+  "events": [
+    {
+      "id": "CMR-german-kamerun",
+      "title": "German Kamerun",
+      "startYear": 1884,
+      "endYear": 1916,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "colonization",
+      "resources": [
+        "rubber",
+        "palm_oil",
+        "cocoa",
+        "bananas",
+        "timber",
+        "labour"
+      ],
+      "territoryNames": [
+        "Kamerun",
+        "German Kamerun"
+      ],
+      "hints": [
+        "Coastal chiefs signed treaties with a German explorer in July 1884.",
+        "Large plantations at the foot of a volcano grew cocoa, rubber and bananas using conscripted labour.",
+        "British and French forces pushed the Germans out in 1916."
+      ],
+      "summary": "Gustav Nachtigal signed treaties with Duala chiefs in July 1884, making the territory a German protectorate. Germans set up large plantations of cocoa, rubber and bananas that relied on forced labour. Allied forces expelled Germany in 1916.",
+      "wikipediaTitle": "Kamerun",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kamerun"
+      ]
+    },
+    {
+      "id": "CMR-british-cameroons",
+      "title": "British Cameroons",
+      "startYear": 1916,
+      "endYear": 1961,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "cocoa",
+        "bananas",
+        "palm_oil",
+        "labour"
+      ],
+      "territoryNames": [
+        "the British Cameroons",
+        "the Southern Cameroons"
+      ],
+      "hints": [
+        "After 1916 a former German colony was divided, and a slice along the border went to Britain.",
+        "Britain administered it as part of its much larger neighbour.",
+        "A 1961 plebiscite split the territory, with one half joining each neighbour."
+      ],
+      "summary": "After the First World War, Britain administered a western strip of the former German colony under League of Nations and UN mandates, run as part of neighbouring Nigeria. In 1961 the northern part voted to join Nigeria and the southern part voted to join the former French Cameroun.",
+      "wikipediaTitle": "British Cameroons",
+      "sources": [
+        "https://en.wikipedia.org/wiki/British_Cameroons"
+      ]
+    },
+    {
+      "id": "CMR-french-cameroun",
+      "title": "French Cameroun",
+      "startYear": 1916,
+      "endYear": 1960,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "cocoa",
+        "coffee",
+        "timber",
+        "labour"
+      ],
+      "territoryNames": [
+        "French Cameroun"
+      ],
+      "hints": [
+        "The larger, eastern share of a former German colony was governed from Paris under a League of Nations and UN mandate.",
+        "Forced labour was used to build roads and the Douala-Yaoundé railway.",
+        "Independence came on 1 January 1960."
+      ],
+      "summary": "France administered about four-fifths of the former German colony after 1916, first under a League of Nations mandate and then a UN trusteeship. Forced labour built infrastructure, and cocoa, coffee and timber were the main exports until independence on 1 January 1960.",
+      "wikipediaTitle": "French Cameroons",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Cameroons"
+      ]
+    },
+    {
+      "id": "CMR-cameroon-war",
+      "title": "French repression of the UPC insurgency",
+      "startYear": 1955,
+      "endYear": 1964,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A nationalist party was banned in 1955 and took up arms.",
+        "French forces fought a counter-insurgency in the Bamileke highlands and Sanaga-Maritime that continued after independence.",
+        "The conflict is sometimes called the hidden war."
+      ],
+      "summary": "After France banned the Union of the Peoples of Cameroon in 1955, the party launched an armed struggle. French forces and the new government fought a brutal counter-insurgency until 1964, and the number of dead remains disputed.",
+      "sensitive": true,
+      "wikipediaTitle": "Bamileke War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bamileke_War"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "country": "NER",
+  "events": [
+    {
+      "id": "NER-voulet-chanoine-mission",
+      "title": "Voulet–Chanoine Mission",
+      "startYear": 1898,
+      "endYear": 1899,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A colonial expedition crossing the Sahel in the 1890s descended into mass violence against villages.",
+        "Its leaders murdered a fellow officer sent to replace them.",
+        "They were killed by their own troops in 1899."
+      ],
+      "summary": "In 1898 two French officers led a military mission across the Sahel. They sacked villages and killed civilians, and in 1899 killed the officer sent to relieve them. Their own troops then killed them.",
+      "sensitive": true,
+      "wikipediaTitle": "Voulet–Chanoine Mission",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Voulet%E2%80%93Chanoine_Mission"
+      ]
+    },
+    {
+      "id": "NER-kaocen-revolt",
+      "title": "Kaocen revolt and French reprisals",
+      "startYear": 1916,
+      "endYear": 1917,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A Tuareg uprising laid siege to a French fort in the Aïr mountains during the First World War.",
+        "Its leader Kaocen fled north after defeat and was hanged.",
+        "French reprisals ravaged the region and many died."
+      ],
+      "summary": "Tuareg forces under Kaocen rose against French rule in the Aïr region in 1916-1917 and besieged the fort at Agadez. French columns crushed the revolt, and reprisals and famine caused many deaths.",
+      "sensitive": true,
+      "wikipediaTitle": "Kaocen",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kaocen"
+      ]
+    },
+    {
+      "id": "NER-arlit-uranium",
+      "title": "French uranium mining at Arlit",
+      "startYear": 1971,
+      "endYear": 2021,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "uranium"
+      ],
+      "hints": [
+        "Desert mines supplied the fuel for another country's nuclear power plants.",
+        "The mining towns of Arlit and Akokan grew up around the pits.",
+        "Health and environmental problems around the sites drew criticism."
+      ],
+      "summary": "French-controlled companies, later Orano, mined uranium at Arlit from 1971, supplying France's nuclear industry. The Cominak mine closed in 2021, and the legacy of radioactive waste and health concerns remains contested.",
+      "wikipediaTitle": "Arlit",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arlit"
+      ]
+    }
+  ]
+}

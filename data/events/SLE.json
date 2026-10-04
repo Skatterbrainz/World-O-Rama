@@ -1,0 +1,103 @@
+{
+  "country": "SLE",
+  "events": [
+    {
+      "id": "SLE-bunce-island",
+      "title": "Bunce Island slave fort",
+      "startYear": 1670,
+      "endYear": 1807,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "gold",
+        "ivory"
+      ],
+      "hints": [
+        "A castle on a river island was one of the largest slave-trading posts on its coast.",
+        "Tens of thousands of captives were sent from here to the Carolinas and Georgia.",
+        "The Royal African Company built it in about 1670."
+      ],
+      "summary": "The Royal African Company built a fort on Bunce Island in about 1670, and British merchants later ran it as one of the main slave-trading posts of the coast. Tens of thousands of captives were shipped to the Americas, especially South Carolina and Georgia.",
+      "sensitive": true,
+      "wikipediaTitle": "Bunce Island",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bunce_Island"
+      ]
+    },
+    {
+      "id": "SLE-hut-tax-war",
+      "title": "Hut Tax War",
+      "startYear": 1898,
+      "endYear": 1898,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [],
+      "territoryNames": [
+        "the Sierra Leone Protectorate"
+      ],
+      "hints": [
+        "A tax on every dwelling provoked a rising against a newly declared protectorate.",
+        "Twenty-four chiefs had signed a petition against it before it was imposed.",
+        "Rebel leaders such as Bai Bureh were hunted down and exiled."
+      ],
+      "summary": "After Britain declared a protectorate in 1896, Governor Frederic Cardew imposed a hut tax in 1898. Resistance, notably in the north under Bai Bureh and in Mende country, was crushed by British troops, and many people died.",
+      "sensitive": true,
+      "wikipediaTitle": "Hut Tax War of 1898",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hut_Tax_War_of_1898"
+      ]
+    },
+    {
+      "id": "SLE-slst-diamonds",
+      "title": "Sierra Leone Selection Trust diamond monopoly",
+      "startYear": 1934,
+      "endYear": 1955,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "diamonds"
+      ],
+      "hints": [
+        "A colonial agreement gave one company exclusive rights to all the diamonds in the country.",
+        "The firm was linked to a British-American mining finance group.",
+        "Illicit digging flourished and the monopoly was curtailed in the 1950s."
+      ],
+      "summary": "In 1934 the colonial government granted the Sierra Leone Selection Trust exclusive diamond mining rights across the territory. Illicit digging and smuggling grew, and the monopoly was curtailed in 1955.",
+      "wikipediaTitle": "Sierra Leone Selection Trust",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sierra_Leone_Selection_Trust"
+      ]
+    },
+    {
+      "id": "SLE-taylor-ruf-diamonds",
+      "title": "Blood diamonds and Charles Taylor's backing of the RUF",
+      "startYear": 1991,
+      "endYear": 2002,
+      "exploiter": {
+        "label": "Liberia"
+      },
+      "type": "proxy_war",
+      "resources": [
+        "diamonds"
+      ],
+      "hints": [
+        "A rebel army was armed from a neighbouring state in return for gems.",
+        "A civil war was fuelled by diamonds from the east.",
+        "A former president of the neighbouring state was convicted in The Hague of aiding and abetting war crimes."
+      ],
+      "summary": "During the civil war Liberian president Charles Taylor armed and supported the Revolutionary United Front, receiving diamonds in return. The Special Court for Sierra Leone convicted Taylor in 2012 of aiding and abetting war crimes and crimes against humanity.",
+      "sensitive": true,
+      "wikipediaTitle": "Charles Taylor (Liberian politician)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Charles_Taylor_(Liberian_politician)"
+      ]
+    }
+  ]
+}

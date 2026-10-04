@@ -1,0 +1,124 @@
+{
+  "country": "SYC",
+  "events": [
+    {
+      "id": "SYC-french-seychelles",
+      "title": "French Séchelles",
+      "startYear": 1756,
+      "endYear": 1814,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "slaves",
+        "spices"
+      ],
+      "hints": [
+        "A stone marker placed in 1756 claimed uninhabited islands for a European crown.",
+        "They were named after a French finance minister.",
+        "Settlers from the Mascarenes arrived in 1770 with enslaved workers."
+      ],
+      "summary": "France claimed the uninhabited islands in 1756 with a stone of possession, naming them after finance minister Moreau de Séchelles. A settlement began on Sainte Anne in 1770, with enslaved workers from Africa. France ceded the islands to Britain in 1814.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Seychelles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Seychelles"
+      ]
+    },
+    {
+      "id": "SYC-british-seychelles",
+      "title": "British Seychelles",
+      "startYear": 1814,
+      "endYear": 1976,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "spices",
+        "strategic_location"
+      ],
+      "hints": [
+        "The islands passed to Britain in 1814 after wars with another European power.",
+        "Plantations of coconut, cinnamon and vanilla used labour first of slaves, then of liberated Africans.",
+        "Independence came in 1976."
+      ],
+      "summary": "Britain took the islands in 1814 and ruled them as a dependency of Mauritius until 1903. Plantations of coconut and spices used labour first of enslaved people and then of Africans freed from slave ships. Independence came in 1976.",
+      "wikipediaTitle": "History of Seychelles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Seychelles"
+      ]
+    },
+    {
+      "id": "SYC-biot-detachment-syc",
+      "title": "Detachment of Aldabra, Farquhar and Desroches",
+      "startYear": 1965,
+      "endYear": 1976,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "annexation",
+      "resources": [
+        "strategic_location"
+      ],
+      "territoryNames": [
+        "the British Indian Ocean Territory"
+      ],
+      "hints": [
+        "In 1965 Britain cut three outlying island groups from its colony to form a new territory.",
+        "The new territory was created to host military facilities.",
+        "The islands were given back at independence in 1976."
+      ],
+      "summary": "In 1965 Britain detached Aldabra, Farquhar and Desroches from the colony to form the British Indian Ocean Territory, intended for defence use. The islands were returned to Seychelles when it became independent in 1976.",
+      "quip": "Britain created a territory in the Indian Ocean mostly by cutting pieces off other colonies.",
+      "wikipediaTitle": "British Indian Ocean Territory",
+      "sources": [
+        "https://en.wikipedia.org/wiki/British_Indian_Ocean_Territory"
+      ]
+    },
+    {
+      "id": "SYC-exile-destination",
+      "title": "A British place of exile",
+      "startYear": 1877,
+      "endYear": 1957,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "Britain banished rulers and leaders from several continents to these remote islands.",
+        "An Ashanti king was held here for over two decades.",
+        "A Cypriot archbishop was sent here in 1956."
+      ],
+      "summary": "Britain used the islands as a place of exile for rulers and leaders it wished to remove, including the Ashanti king Prempeh I, Kabalega of Bunyoro and Archbishop Makarios III of Cyprus, who was held here in 1956-1957.",
+      "quip": "Britain found that the cheapest way to quieten a king was a few thousand kilometres of ocean.",
+      "wikipediaTitle": "History of Seychelles",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Seychelles"
+      ]
+    },
+    {
+      "id": "SYC-coup-attempt-1981",
+      "title": "1981 mercenary coup attempt",
+      "startYear": 1981,
+      "endYear": 1981,
+      "exploiter": {
+        "label": "South Africa"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "In November 1981 mercenaries disguised as holidaying rugby players landed at the airport.",
+        "They were led by Mike Hoare, a veteran of Congo operations.",
+        "Apartheid South Africa's intelligence service was behind the plot."
+      ],
+      "summary": "In November 1981 about 50 mercenaries led by Mike Hoare, posing as tourists, tried to seize the islands. A firefight at the airport foiled the plot, and the mercenaries hijacked a plane to South Africa. Investigations showed South African intelligence support.",
+      "wikipediaTitle": "1981 Seychelles coup d'état attempt",
+      "sources": [
+        "https://en.wikipedia.org/wiki/1981_Seychelles_coup_d'%C3%A9tat_attempt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "country": "ETH",
+  "events": [
+    {
+      "id": "ETH-wuchale-treaty",
+      "title": "Treaty of Wuchale",
+      "startYear": 1889,
+      "endYear": 1896,
+      "exploiter": {
+        "label": "Italy"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "hints": [
+        "A treaty signed in 1889 had two language versions that differed on a key clause.",
+        "The Italian text claimed to make the country a protectorate, which the emperor rejected.",
+        "The dispute led to a war that ended at Adwa in 1896."
+      ],
+      "summary": "In 1889 Emperor Menelik II signed the Treaty of Wuchale with Italy. The Italian text of Article 17 made the country an Italian protectorate while the Amharic text did not. Menelik denounced the treaty in 1893, and Italy was defeated at the Battle of Adwa in 1896.",
+      "quip": "A single clause in two languages said opposite things, and it took a war to proofread it.",
+      "wikipediaTitle": "Treaty of Wuchale",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaty_of_Wuchale"
+      ]
+    },
+    {
+      "id": "ETH-magdala-1868",
+      "title": "British expedition to Magdala",
+      "startYear": 1867,
+      "endYear": 1868,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "gold"
+      ],
+      "hints": [
+        "A British army marched hundreds of kilometres from the coast to rescue a handful of captives.",
+        "The emperor killed himself as the fortress fell.",
+        "The troops carried off crowns, manuscripts and sacred altar tablets, some of which are still in British museums."
+      ],
+      "summary": "In 1868 a British expedition under Robert Napier marched inland to free European captives held by Emperor Tewodros II. It stormed Magdala, Tewodros killed himself, and the army looted crowns, manuscripts and religious objects, many of which remain in British collections.",
+      "quip": "A rescue mission for a few hostages came with enough baggage to carry off a small museum.",
+      "wikipediaTitle": "Expedition to Abyssinia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Expedition_to_Abyssinia"
+      ]
+    },
+    {
+      "id": "ETH-egyptian-harar",
+      "title": "Egyptian occupation of Harar",
+      "startYear": 1875,
+      "endYear": 1885,
+      "exploiter": {
+        "label": "Egypt"
+      },
+      "type": "occupation",
+      "resources": [
+        "trade_routes"
+      ],
+      "hints": [
+        "An ancient walled city in the east was seized by a Nile-based khedive's troops in 1875.",
+        "It was occupied for a decade before a highland emperor's army took it.",
+        "The occupiers withdrew in 1885 as the Mahdist revolt overwhelmed Egypt's rule in Sudan."
+      ],
+      "summary": "In 1875 forces of the Khedive of Egypt occupied the walled city of Harar and its emirate. Egypt withdrew in 1885, and the emirate was invaded and absorbed by Menelik II of Shewa in 1887.",
+      "wikipediaTitle": "Emirate of Harar",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Emirate_of_Harar"
+      ]
+    },
+    {
+      "id": "ETH-italian-invasion-1935",
+      "title": "Italian invasion and occupation",
+      "startYear": 1935,
+      "endYear": 1941,
+      "exploiter": {
+        "label": "Italy"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "Italian East Africa"
+      ],
+      "hints": [
+        "A European dictator's army invaded in October 1935, ignoring League of Nations protests.",
+        "Mustard gas was used against troops and civilians.",
+        "The emperor's appeal at Geneva in 1936 is remembered as a failure of collective security."
+      ],
+      "summary": "Fascist Italy invaded in October 1935 and occupied the country in 1936, merging it with Eritrea and Italian Somaliland as Italian East Africa. Italy used chemical weapons, and occupation forces committed massacres until British and Ethiopian forces liberated the country in 1941.",
+      "sensitive": true,
+      "wikipediaTitle": "Second Italo-Ethiopian War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War"
+      ]
+    },
+    {
+      "id": "ETH-ogaden-war",
+      "title": "Ogaden War and Cold War realignment",
+      "startYear": 1977,
+      "endYear": 1978,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "proxy_war",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "In 1977 a neighbour attacked the east of the country, and the superpowers switched sides.",
+        "The Soviet Union abandoned its former ally and airlifted arms to the regime in the capital.",
+        "Thousands of Cuban troops fought alongside the defenders."
+      ],
+      "summary": "In July 1977 neighbouring forces invaded the Ogaden region. The Soviet Union, which had armed the attacker, switched sides and supplied the Derg government with arms and advisers, helping it win with Cuban troops. The war became a key Cold War episode in the Horn of Africa.",
+      "sensitive": true,
+      "wikipediaTitle": "Ogaden War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ogaden_War"
+      ]
+    }
+  ]
+}

@@ -6,10 +6,17 @@
       "title": "Congo Free State",
       "startYear": 1885,
       "endYear": 1908,
-      "exploiter": { "label": "King Leopold II" },
+      "exploiter": {
+        "label": "King Leopold II"
+      },
       "type": "colonization",
-      "resources": ["rubber", "ivory"],
-      "territoryNames": ["the Congo Free State"],
+      "resources": [
+        "rubber",
+        "ivory"
+      ],
+      "territoryNames": [
+        "the Congo Free State"
+      ],
       "hints": [
         "A private colony run by a European king as a personal business venture.",
         "Villages faced harsh rubber quotas enforced by violence.",
@@ -18,17 +25,29 @@
       "summary": "King Leopold II of Belgium ruled the territory as a personal possession from 1885, extracting ivory and wild rubber through forced labour and violence. Estimates of the death toll run into the millions. International protest forced him to cede it to the Belgian state in 1908.",
       "sensitive": true,
       "wikipediaTitle": "Congo Free State",
-      "sources": ["https://en.wikipedia.org/wiki/Congo_Free_State"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Congo_Free_State"
+      ]
     },
     {
       "id": "COD-belgian-congo",
       "title": "Belgian Congo",
       "startYear": 1908,
       "endYear": 1960,
-      "exploiter": { "label": "Belgium" },
+      "exploiter": {
+        "label": "Belgium"
+      },
       "type": "colonization",
-      "resources": ["copper", "diamonds", "uranium", "gold", "tin"],
-      "territoryNames": ["the Belgian Congo"],
+      "resources": [
+        "copper",
+        "diamonds",
+        "uranium",
+        "gold",
+        "tin"
+      ],
+      "territoryNames": [
+        "the Belgian Congo"
+      ],
       "hints": [
         "A colony run by a small European monarchy whose mines supplied two world wars.",
         "Its Shinkolobwe mine supplied uranium for the first atomic bombs.",
@@ -37,24 +56,194 @@
       "summary": "After taking over from Leopold II in 1908, Belgium administered the colony through the state, the Church and large companies such as Union Minière. Copper, diamonds, gold, tin and uranium flowed out. Independence came in June 1960.",
       "quip": "A country smaller than several of its colony's provinces ran the place with remarkable administrative confidence.",
       "wikipediaTitle": "Belgian Congo",
-      "sources": ["https://en.wikipedia.org/wiki/Belgian_Congo"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Belgian_Congo"
+      ]
     },
     {
       "id": "COD-katanga-secession",
       "title": "Katanga secession backed by Belgian interests",
       "startYear": 1960,
       "endYear": 1963,
-      "exploiter": { "label": "Belgium" },
+      "exploiter": {
+        "label": "Belgium"
+      },
       "type": "other",
-      "resources": ["copper", "cobalt"],
-      "territoryNames": ["the State of Katanga"],
+      "resources": [
+        "copper",
+        "cobalt"
+      ],
+      "territoryNames": [
+        "the State of Katanga"
+      ],
       "hints": [
         "A mineral-rich province declared itself independent just days after the country did.",
         "Foreign mining interests and some troops from the former colonial power backed the breakaway."
       ],
       "summary": "In July 1960 the copper-rich province of Katanga seceded under Moïse Tshombe. Belgian troops and mining interests, notably Union Minière, supported the breakaway state until UN forces ended it in January 1963.",
       "wikipediaTitle": "State of Katanga",
-      "sources": ["https://en.wikipedia.org/wiki/State_of_Katanga"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/State_of_Katanga"
+      ]
+    },
+    {
+      "id": "COD-portuguese-kongo-slave-trade",
+      "title": "Portuguese slave trade in the Kingdom of Kongo",
+      "startYear": 1483,
+      "endYear": 1665,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "ivory"
+      ],
+      "territoryNames": [
+        "the Kingdom of Kongo"
+      ],
+      "hints": [
+        "Portuguese ships first reached this kingdom's coast in 1483.",
+        "Its Christian king Afonso I wrote to the king of Portugal in the 1520s to complain about the slave trade.",
+        "The kingdom's power was shattered at the Battle of Mbwila in 1665."
+      ],
+      "summary": "Portugal made contact with the Kingdom of Kongo in 1483, and the slave trade grew to dominate relations. King Afonso I complained to Lisbon about it in the 1520s, and Portuguese-backed forces broke the kingdom's strength at Mbwila in 1665.",
+      "sensitive": true,
+      "wikipediaTitle": "Kingdom of Kongo",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
+      ]
+    },
+    {
+      "id": "COD-zanzibari-slavers-eastern-congo",
+      "title": "Swahili-Arab slave and ivory traders in eastern Congo",
+      "startYear": 1860,
+      "endYear": 1894,
+      "exploiter": {
+        "label": "the Sultanate of Zanzibar"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "ivory"
+      ],
+      "hints": [
+        "Traders from the Indian Ocean coast pushed deep into the interior for ivory and captives.",
+        "The most famous of them, Tippu Tip, worked for the sultans of an Indian Ocean island state.",
+        "A colonial war in 1892-1894 broke their power."
+      ],
+      "summary": "From the 1860s Swahili-Arab traders connected to the Sultanate of Zanzibar, notably Tippu Tip, built a trading and raiding empire in eastern Congo to collect ivory and enslaved people. The Congo Free State defeated them in the Congo Arab war of 1892-1894.",
+      "sensitive": true,
+      "wikipediaTitle": "Tippu Tip",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tippu_Tip"
+      ]
+    },
+    {
+      "id": "COD-congo-crisis",
+      "title": "Cold War intervention in the Congo Crisis",
+      "startYear": 1960,
+      "endYear": 1965,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "proxy_war",
+      "resources": [
+        "copper",
+        "cobalt",
+        "uranium"
+      ],
+      "hints": [
+        "Within days of independence, the country fell into a crisis that drew in both superpowers.",
+        "Its first prime minister was overthrown and killed in January 1961.",
+        "A CIA-backed general took power for good in 1965."
+      ],
+      "summary": "After independence in 1960 the Congo became a Cold War battleground. The CIA plotted against Prime Minister Patrice Lumumba, who was killed in January 1961 with Belgian involvement, and the United States backed Joseph-Désiré Mobutu's takeover in 1965.",
+      "sensitive": true,
+      "wikipediaTitle": "Congo Crisis",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Congo_Crisis"
+      ]
+    },
+    {
+      "id": "COD-mobutu-us-patronage",
+      "title": "US patronage of Mobutu",
+      "startYear": 1965,
+      "endYear": 1990,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "other",
+      "resources": [
+        "copper",
+        "cobalt",
+        "diamonds"
+      ],
+      "hints": [
+        "A dictator who renamed his country and himself ruled for over three decades.",
+        "Washington backed him as an anti-communist ally and for access to strategic minerals.",
+        "Aid dried up after the Cold War ended."
+      ],
+      "summary": "The United States supported Mobutu Sese Seko as a Cold War ally from his 1965 takeover, providing aid and arms despite widespread corruption and repression. Support faded once the Cold War ended around 1990.",
+      "sensitive": true,
+      "wikipediaTitle": "Mobutu Sese Seko",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mobutu_Sese_Seko"
+      ]
+    },
+    {
+      "id": "COD-rwandan-occupation-1998",
+      "title": "Rwandan occupation of eastern Congo",
+      "startYear": 1998,
+      "endYear": 2003,
+      "exploiter": {
+        "label": "Rwanda"
+      },
+      "type": "occupation",
+      "resources": [
+        "gold",
+        "diamonds",
+        "tin",
+        "timber"
+      ],
+      "hints": [
+        "In 1998 a former ally's army turned on the capital's government and occupied the east.",
+        "UN investigators later documented the plunder of minerals and timber.",
+        "Gold, diamonds and tin cassiterite were all part of the trade."
+      ],
+      "summary": "During the Second Congo War Rwandan forces and allied rebels occupied large areas of eastern Congo from 1998. A UN Panel of Experts reported that Rwanda, with Uganda and others, systematically exploited minerals, timber and other resources there.",
+      "sensitive": true,
+      "wikipediaTitle": "Second Congo War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Second_Congo_War"
+      ]
+    },
+    {
+      "id": "COD-ugandan-occupation-1998",
+      "title": "Ugandan occupation of northeastern Congo",
+      "startYear": 1998,
+      "endYear": 2003,
+      "exploiter": {
+        "label": "Uganda"
+      },
+      "type": "occupation",
+      "resources": [
+        "gold",
+        "diamonds",
+        "timber",
+        "coffee"
+      ],
+      "hints": [
+        "Troops from the east occupied the northeast from 1998.",
+        "UN investigators found that gold, diamonds, coffee and timber were taken.",
+        "The International Court of Justice later ordered reparations."
+      ],
+      "summary": "Ugandan troops occupied much of northeastern Congo from 1998. The UN Panel of Experts reported the illegal exploitation of gold, diamonds, timber and coffee, and in 2005 the International Court of Justice found Uganda responsible for violations of international law.",
+      "sensitive": true,
+      "wikipediaTitle": "Second Congo War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Second_Congo_War"
+      ]
     }
   ]
 }

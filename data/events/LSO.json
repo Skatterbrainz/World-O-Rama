@@ -1,0 +1,105 @@
+{
+  "country": "LSO",
+  "events": [
+    {
+      "id": "LSO-free-state-basotho-wars",
+      "title": "Orange Free State seizure of Basotho land",
+      "startYear": 1858,
+      "endYear": 1869,
+      "exploiter": {
+        "label": "the Orange Free State"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "grain",
+        "livestock"
+      ],
+      "territoryNames": [
+        "the Conquered Territory"
+      ],
+      "hints": [
+        "A neighbouring Boer republic fought a series of wars against the founder of this mountain kingdom.",
+        "In 1868 the king appealed to Britain for protection to save his people from defeat.",
+        "A treaty in 1869 gave away the fertile lowlands west of the mountains."
+      ],
+      "summary": "The Orange Free State fought wars against King Moshoeshoe I of the Basotho in 1858 and 1865-1868. Britain took the kingdom under protection in 1868, but the 1869 Treaty of Aliwal North ceded the fertile western lands, known as the Conquered Territory, to the Free State.",
+      "wikipediaTitle": "Free State–Basotho Wars",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Free_State%E2%80%93Basotho_Wars"
+      ]
+    },
+    {
+      "id": "LSO-gun-war",
+      "title": "Gun War",
+      "startYear": 1880,
+      "endYear": 1881,
+      "exploiter": {
+        "label": "the Cape Colony"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A colonial government tried to disarm a mountain people who had bought guns with wages earned in distant mines.",
+        "The people refused and fought for months.",
+        "The colony eventually backed down and the territory was transferred to the Crown."
+      ],
+      "summary": "In 1880 the Cape Colony tried to enforce a Peace Preservation Act disarming the Basuto. The Basuto refused and the Gun War ended in a stalemate in April 1881, after which the Cape gave up the territory and Britain took direct control in 1884.",
+      "quip": "The Cape tried to disarm a people who had just bought modern rifles, an optimistic piece of policy.",
+      "wikipediaTitle": "Gun War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gun_War"
+      ]
+    },
+    {
+      "id": "LSO-basutoland-protectorate",
+      "title": "Basutoland",
+      "startYear": 1868,
+      "endYear": 1966,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "labour",
+        "wool",
+        "livestock"
+      ],
+      "territoryNames": [
+        "Basutoland"
+      ],
+      "hints": [
+        "A mountain kingdom became a British protectorate in 1868 to avoid being absorbed by neighbours.",
+        "Men worked in the mines of the neighbouring country, while the highlands produced wool and mohair.",
+        "It was completely surrounded by one larger neighbour from 1910."
+      ],
+      "summary": "Britain took Basutoland under protection in 1868 at Moshoeshoe I's request. Its economy came to depend on migrant labour in South African mines and on wool and mohair exports, and from 1910 it was entirely surrounded by the Union of South Africa. Independence came in 1966.",
+      "wikipediaTitle": "Basutoland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Basutoland"
+      ]
+    },
+    {
+      "id": "LSO-apartheid-raids-maseru",
+      "title": "South African raids and blockade",
+      "startYear": 1982,
+      "endYear": 1986,
+      "exploiter": {
+        "label": "South Africa"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "In December 1982 commandos attacked houses in the capital in the middle of the night.",
+        "The targets were exiled members of a liberation movement, and many civilians were also killed.",
+        "In 1986 a border blockade was followed by a military coup."
+      ],
+      "summary": "In December 1982 South African commandos raided Maseru, killing about 40 people, mostly members of the African National Congress and some Lesotho civilians. A second raid followed in 1985, and a border blockade in January 1986 preceded a coup that removed the government.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Lesotho",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Lesotho"
+      ]
+    }
+  ]
+}

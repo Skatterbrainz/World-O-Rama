@@ -1,0 +1,103 @@
+{
+  "country": "STP",
+  "events": [
+    {
+      "id": "STP-portuguese-sugar-slavery",
+      "title": "Portuguese sugar plantations and slavery",
+      "startYear": 1485,
+      "endYear": 1600,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "colonization",
+      "resources": [
+        "sugar",
+        "slaves"
+      ],
+      "hints": [
+        "A previously uninhabited island was settled by Portugal as an early experiment in plantation slavery.",
+        "In the 16th century it was one of the world's leading sugar producers.",
+        "A slave rebellion led by a man named Amador shook it in 1595."
+      ],
+      "summary": "Portugal settled the uninhabited islands from 1485, and São Tomé became an early model of the plantation economy, growing sugar with enslaved Africans brought from the mainland. Amador led a major slave revolt in 1595.",
+      "sensitive": true,
+      "wikipediaTitle": "São Tomé and Príncipe",
+      "sources": [
+        "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe"
+      ]
+    },
+    {
+      "id": "STP-dutch-occupation",
+      "title": "Dutch occupation of São Tomé",
+      "startYear": 1641,
+      "endYear": 1648,
+      "exploiter": {
+        "label": "the Netherlands"
+      },
+      "type": "occupation",
+      "resources": [
+        "sugar",
+        "slaves"
+      ],
+      "hints": [
+        "A Protestant trading power seized the island in the 1640s.",
+        "It was part of the same campaign that took a mainland port to the south.",
+        "Portugal regained it in 1648."
+      ],
+      "summary": "During the Dutch-Portuguese war the Dutch West India Company took São Tomé in 1641 and held it for about seven years as part of its push into the Gulf of Guinea. Portugal regained the island in 1648.",
+      "sensitive": true,
+      "wikipediaTitle": "São Tomé and Príncipe",
+      "sources": [
+        "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe"
+      ]
+    },
+    {
+      "id": "STP-cocoa-roca-forced-labour",
+      "title": "Forced contract labour on the cocoa roças",
+      "startYear": 1900,
+      "endYear": 1953,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "cocoa",
+        "labour",
+        "slaves"
+      ],
+      "hints": [
+        "Cocoa estates on these islands relied on workers recruited from the mainland under contracts they could not leave.",
+        "A British chocolate firm boycotted the islands' cocoa in 1909 after reports of conditions amounting to slavery.",
+        "Workers were brought from other Portuguese colonies, including Angola and Cape Verde."
+      ],
+      "summary": "In the early 20th century the cocoa roças depended on contract labourers brought from other Portuguese colonies, whose conditions resembled slavery. Reports by journalists led British chocolate makers, including Cadbury, to boycott the islands' cocoa from 1909, and contract labour persisted into the 1950s.",
+      "sensitive": true,
+      "wikipediaTitle": "Cadbury",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cadbury"
+      ]
+    },
+    {
+      "id": "STP-batepa-massacre",
+      "title": "Batepá massacre",
+      "startYear": 1953,
+      "endYear": 1953,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "In February 1953 the governor blamed communists for unrest among local people who feared being forced to work on plantations.",
+        "Troops and landowners attacked the descendants of early settlers.",
+        "The anniversary is a national day of mourning."
+      ],
+      "summary": "On 3 February 1953 the colonial administration and Portuguese landowners killed hundreds of forros, the native creole population, after rumours that they would be forced into contract labour. The event became a rallying point for independence.",
+      "sensitive": true,
+      "wikipediaTitle": "Batepá massacre",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Batep%C3%A1_massacre"
+      ]
+    }
+  ]
+}
