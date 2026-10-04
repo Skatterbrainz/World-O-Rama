@@ -56,6 +56,64 @@
       "sources": ["https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia"]
     },
     {
+      "id": "UZB-siege-of-tashkent-1865",
+      "title": "Russian siege and capture of Tashkent",
+      "startYear": 1865,
+      "endYear": 1865,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A great Silk Road city fell to a small army after a siege from May to June 1865.",
+        "The regent of the khanate that held it was killed in the fighting.",
+        "General Mikhail Chernyayev took the city, which became the seat of the governor-general of Russian Turkestan."
+      ],
+      "summary": "Between May and June 1865 a Russian force under Mikhail Chernyayev besieged and stormed Tashkent, then part of the Khanate of Kokand, and its de facto leader Alimqul was killed. Russia annexed the city, which in 1867 became the seat of the Governor-Generalship of Turkestan.",
+      "wikipediaTitle": "Siege of Tashkent",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siege_of_Tashkent",
+        "https://en.wikipedia.org/wiki/Mikhail_Chernyayev"
+      ]
+    },
+    {
+      "id": "UZB-khiva-campaign-1873",
+      "title": "Russian conquest of the Khanate of Khiva",
+      "startYear": 1873,
+      "endYear": 1873,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "Two earlier expeditions into the desert, in 1717 and 1839, had ended in disaster.",
+        "Columns converged on an oasis city from several directions in the spring of 1873.",
+        "The khanate became a Russian protectorate after its capital was occupied in June 1873."
+      ],
+      "summary": "After failed expeditions in 1717 and 1839, Russia launched a campaign against the Khanate of Khiva in 1873 under Konstantin von Kaufmann, with columns converging on the oasis from several directions. Khiva was occupied in June 1873 and became a Russian protectorate.",
+      "sensitive": true,
+      "wikipediaTitle": "Khivan campaign of 1873",
+      "sources": ["https://en.wikipedia.org/wiki/Khivan_campaign_of_1873"]
+    },
+    {
+      "id": "UZB-red-army-bukhara-khiva-1920",
+      "title": "Red Army conquest of Khiva and Bukhara",
+      "startYear": 1920,
+      "endYear": 1920,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "Two Silk Road states that had survived as Russian protectorates fell within months of each other in 1920.",
+        "Red Army troops helped defeat Junaid Khan in February 1920, and the khan abdicated.",
+        "In late summer 1920 forces under Mikhail Frunze helped overthrow the emir of a holy city, who fled."
+      ],
+      "summary": "In early 1920 Red Army troops sent to support a communist-led uprising defeated Junaid Khan, the Khan of Khiva abdicated, and the Khorezm People's Soviet Republic followed in April. In late August and early September 1920 Red Army forces under Mikhail Frunze, with local revolutionaries, overthrew the Emir of Bukhara, who fled.",
+      "wikipediaTitle": "Bukharan Revolution",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bukharan_Revolution",
+        "https://en.wikipedia.org/wiki/Khivan_Revolution"
+      ]
+    },
+    {
       "id": "UZB-soviet-cotton",
       "title": "Soviet cotton monoculture and the Aral Sea",
       "startYear": 1924,

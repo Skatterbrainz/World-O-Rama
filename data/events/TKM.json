@@ -26,7 +26,7 @@
       "startYear": 1879,
       "endYear": 1881,
       "exploiter": { "label": "the Russian Empire" },
-      "type": "annexation",
+      "type": "invasion",
       "resources": ["land", "strategic_location"],
       "hints": [
         "A mud fortress held out against a Russian army in 1879 and fell two years later.",

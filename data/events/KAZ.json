@@ -39,6 +39,23 @@
       "sources": ["https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia"]
     },
     {
+      "id": "KAZ-ak-mechet-1853",
+      "title": "Russian capture of Ak-Mechet",
+      "startYear": 1853,
+      "endYear": 1853,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A frontier fort on a great Central Asian river was stormed in the summer of 1853, after a failed attempt the year before.",
+        "It had been an outpost of a khanate used to collect tax from nomads and to control trade.",
+        "It was renamed after the general who took it and anchored a new line of Russian forts."
+      ],
+      "summary": "In July 1853 Russian forces under Vasily Perovsky besieged and captured Ak-Mechet, a fortress of the Khanate of Kokand on the Syr Darya, after a failed attempt in 1852. It became Fort Perovsky and the base for a Russian fortress line along the river.",
+      "wikipediaTitle": "Siege of Ak-Mechet",
+      "sources": ["https://en.wikipedia.org/wiki/Siege_of_Ak-Mechet"]
+    },
+    {
       "id": "KAZ-famine-1930",
       "title": "Famine of 1930 to 1933",
       "startYear": 1930,

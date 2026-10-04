@@ -79,7 +79,7 @@
       "startYear": 1921,
       "endYear": 1921,
       "exploiter": { "label": "the Soviet Union" },
-      "type": "annexation",
+      "type": "invasion",
       "resources": [],
       "territoryNames": ["the Transcaucasian SFSR"],
       "hints": [
@@ -108,6 +108,27 @@
       "sensitive": true,
       "wikipediaTitle": "Russo-Georgian War",
       "sources": ["https://en.wikipedia.org/wiki/Russo-Georgian_War"]
+    },
+    {
+      "id": "GEO-russian-invasion-2008",
+      "title": "Russian invasion in the 2008 war",
+      "startYear": 2008,
+      "endYear": 2008,
+      "exploiter": { "label": "the Russian Federation" },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A five-day war in August 2008 was called the first European war of the 21st century.",
+        "Forces advanced beyond the disputed breakaway regions towards Gori and the port of Poti.",
+        "A 2009 EU-commissioned report found the fighting began with shelling of Tskhinvali but that the response went beyond reasonable limits."
+      ],
+      "summary": "In August 2008 fighting over South Ossetia escalated into a five-day war in which Russian forces entered Georgia proper, advancing towards Gori and attacking the port of Poti, alongside Abkhaz and South Ossetian forces. A 2009 EU-commissioned report found the war began with Georgian shelling of Tskhinvali but that Russia's response went well beyond reasonable limits of defence.",
+      "sensitive": true,
+      "wikipediaTitle": "Russo-Georgian War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Russo-Georgian_War",
+        "https://www.mpil.de/files/pdf4/IIFFMCG_Volume_I2.pdf"
+      ]
     }
   ]
 }
