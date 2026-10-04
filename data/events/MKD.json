@@ -1,0 +1,100 @@
+{
+  "country": "MKD",
+  "events": [
+    {
+      "id": "MKD-persian-conquest-paeonia",
+      "title": "Achaemenid conquest of Paeonia",
+      "startYear": -512,
+      "endYear": -479,
+      "exploiter": {
+        "label": "the Achaemenid Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "Paeonia"
+      ],
+      "hints": [
+        "A king's general crossed the Hellespont and began a conquest after a failed Scythian campaign.",
+        "Some inhabitants were reportedly deported to Asia."
+      ],
+      "summary": "After Darius I's Scythian campaign, his general Megabazus conquered Thrace and Paeonia around 512 BCE, and some Paeonians were deported to Asia according to Herodotus. Persian control ended after the Greek victories of 479 BCE.",
+      "wikipediaTitle": "Paeonia (kingdom)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Paeonia_(kingdom)"
+      ]
+    },
+    {
+      "id": "MKD-roman-macedonia",
+      "title": "Roman conquest of Macedon",
+      "startYear": -168,
+      "endYear": 395,
+      "exploiter": {
+        "label": "the Roman Republic"
+      },
+      "type": "colonization",
+      "resources": [
+        "gold",
+        "silver",
+        "tribute"
+      ],
+      "hints": [
+        "A republic defeated a famous kingdom at Pydna in 168 BCE.",
+        "A province created in 146 BCE taxed the territory."
+      ],
+      "summary": "Rome defeated the Macedonian king Perseus at the Battle of Pydna in 168 BCE and divided the kingdom, then formed a province in 146 BCE. The Romans imposed taxes and exploited mines and trade along the Via Egnatia.",
+      "wikipediaTitle": "Macedonia (Roman province)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Macedonia_(Roman_province)"
+      ]
+    },
+    {
+      "id": "MKD-ottoman-rule",
+      "title": "Ottoman conquest and rule",
+      "startYear": 1395,
+      "endYear": 1912,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "hints": [
+        "Skopje had been seized in 1392, and local lords became vassals before direct rule.",
+        "The area passed to rival neighbours after the First Balkan War in 1912."
+      ],
+      "summary": "From the late 14th century the Ottomans took Skopje and the surrounding lands, which remained part of the empire until the First Balkan War in 1912. The territory was then partitioned among its neighbours.",
+      "wikipediaTitle": "Ottoman Macedonia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ottoman_Macedonia"
+      ]
+    },
+    {
+      "id": "MKD-bulgarian-occupation-ww2",
+      "title": "Bulgarian occupation",
+      "startYear": 1941,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Bulgaria"
+      },
+      "type": "occupation",
+      "resources": [
+        "tobacco"
+      ],
+      "hints": [
+        "An Axis ally annexed the territory in April 1941 and imposed its language and officials.",
+        "In March 1943 thousands of Jews from the region's cities were deported to Treblinka."
+      ],
+      "summary": "After the Axis invasion of Yugoslavia, Bulgaria occupied and annexed much of Vardar Macedonia, imposing its administration and suppressing local identity. In March 1943 over 7,000 Jews were deported from the region to Treblinka.",
+      "sensitive": true,
+      "wikipediaTitle": "Bulgarian occupation of Yugoslav Macedonia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bulgarian_occupation_of_Yugoslav_Macedonia"
+      ]
+    }
+  ]
+}

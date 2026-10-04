@@ -1,0 +1,97 @@
+{
+  "country": "MLT",
+  "events": [
+    {
+      "id": "MLT-gozo-raid-1551",
+      "title": "Ottoman raid on Gozo",
+      "startYear": 1551,
+      "endYear": 1551,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves"
+      ],
+      "hints": [
+        "A corsair admiral and a fleet commander sacked a small sister island.",
+        "Nearly the entire population is said to have been carried off to North Africa."
+      ],
+      "summary": "In July 1551 an Ottoman fleet under Sinan Pasha and the corsair Dragut attacked Gozo and carried off most of its inhabitants into slavery, an estimated five to six thousand people. The island was resettled gradually afterwards.",
+      "sensitive": true,
+      "wikipediaTitle": "Siege of Malta (1551)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siege_of_Malta_(1551)"
+      ]
+    },
+    {
+      "id": "MLT-french-occupation-1798",
+      "title": "French occupation",
+      "startYear": 1798,
+      "endYear": 1800,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [
+        "gold",
+        "silver"
+      ],
+      "hints": [
+        "A fleet bound for Egypt seized an island fortress in a few days.",
+        "Church silver was confiscated until a local uprising and a British blockade ended the occupation."
+      ],
+      "summary": "In June 1798 Napoleon's fleet took the island from the Knights of St John with little resistance. The French confiscated gold and silver from the Knights and the Church, and a Maltese uprising followed by a British-assisted blockade ended the occupation in 1800.",
+      "wikipediaTitle": "French occupation of Malta",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_occupation_of_Malta"
+      ]
+    },
+    {
+      "id": "MLT-british-rule",
+      "title": "British rule",
+      "startYear": 1800,
+      "endYear": 1964,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "strategic_location",
+        "trade_routes"
+      ],
+      "hints": [
+        "Islanders invited a rival power to oust the French, and it stayed for over 160 years.",
+        "It became the 'nurse of the Mediterranean' and a major naval base."
+      ],
+      "summary": "After the French were expelled in 1800, Britain gradually took control, formalised in the Treaty of Paris of 1814. The island became a key naval fortress and fleet base in the Mediterranean until independence in 1964.",
+      "wikipediaTitle": "Malta under British rule",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Malta_under_British_rule"
+      ]
+    },
+    {
+      "id": "MLT-siege-ww2",
+      "title": "Axis air siege",
+      "startYear": 1940,
+      "endYear": 1942,
+      "exploiter": {
+        "label": "Fascist Italy"
+      },
+      "type": "other",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "Among the most heavily bombed places of the war in 1941 and 1942.",
+        "A whole population was awarded a collective medal in 1942."
+      ],
+      "summary": "From June 1940 Italian and later German aircraft bombed the island almost continuously to neutralise it as a British base. The siege killed thousands of civilians and ended after convoys relieved the island in late 1942.",
+      "sensitive": true,
+      "wikipediaTitle": "Siege of Malta (World War II)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siege_of_Malta_(World_War_II)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "country": "XKX",
+  "events": [
+    {
+      "id": "XKX-ottoman-rule",
+      "title": "Ottoman conquest and rule",
+      "startYear": 1455,
+      "endYear": 1912,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "silver",
+        "tribute"
+      ],
+      "hints": [
+        "A famous battlefield in 1389 foreshadowed the later conquest of the whole plateau.",
+        "Its silver mines at Novo Brdo were taken in 1455."
+      ],
+      "summary": "The Ottomans took the mining town of Novo Brdo in 1455 after the 1389 battle on the plain, and held the region until 1912. Taxes and the mining economy supplied the empire's revenue.",
+      "wikipediaTitle": "Kosovo Vilayet",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kosovo_Vilayet"
+      ]
+    },
+    {
+      "id": "XKX-serbian-annexation-1912",
+      "title": "Annexation by the Kingdom of Serbia",
+      "startYear": 1912,
+      "endYear": 1915,
+      "exploiter": {
+        "label": "Serbia"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A Balkan alliance drove out the previous rulers in the autumn of 1912.",
+        "Reports of killings and expulsions prompted an international commission in 1913."
+      ],
+      "summary": "During the First Balkan War, Serbian forces took the region in autumn 1912, and it was annexed to the kingdom. A Carnegie Endowment commission documented reprisals against local Albanian civilians.",
+      "sensitive": true,
+      "wikipediaTitle": "First Balkan War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/First_Balkan_War"
+      ]
+    },
+    {
+      "id": "XKX-axis-occupation",
+      "title": "Axis occupation",
+      "startYear": 1941,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Fascist Italy"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "The region was split among three Axis powers after April 1941.",
+        "An Italian-run neighbour annexed the bulk of it."
+      ],
+      "summary": "After the Axis invasion of Yugoslavia in 1941, most of Kosovo was joined to Italian-controlled Albania, while northern parts fell to Germany and eastern parts to Bulgaria. It was reconquered in 1944.",
+      "wikipediaTitle": "Kosovo in World War II",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kosovo_in_World_War_II"
+      ]
+    },
+    {
+      "id": "XKX-milosevic-era-repression",
+      "title": "Repression and war",
+      "startYear": 1989,
+      "endYear": 1999,
+      "exploiter": {
+        "label": "the Federal Republic of Yugoslavia"
+      },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "Self-government was revoked in 1989 under a rising strongman.",
+        "A 1998-99 counter-insurgency led to mass displacement and a NATO air campaign."
+      ],
+      "summary": "Kosovo's autonomy was curtailed in 1989, and Albanians were dismissed from state jobs and institutions. In 1998 and 1999 counter-insurgency operations displaced hundreds of thousands before a NATO air campaign ended them.",
+      "sensitive": true,
+      "wikipediaTitle": "Kosovo War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kosovo_War"
+      ]
+    }
+  ]
+}

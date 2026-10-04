@@ -1,0 +1,92 @@
+{
+  "country": "MCO",
+  "events": [
+    {
+      "id": "MCO-french-annexation",
+      "title": "French annexation",
+      "startYear": 1793,
+      "endYear": 1814,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A revolutionary convention annexed a princely rock in 1793.",
+        "The princes' property was confiscated."
+      ],
+      "summary": "The French revolutionary government annexed Monaco in 1793 and the ruling family's property was seized. The Grimaldi family returned in 1814.",
+      "wikipediaTitle": "History of Monaco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Monaco"
+      ]
+    },
+    {
+      "id": "MCO-sardinian-protectorate",
+      "title": "Sardinian protectorate",
+      "startYear": 1815,
+      "endYear": 1861,
+      "exploiter": {
+        "label": "the Kingdom of Sardinia"
+      },
+      "type": "other",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A Treaty of Stockholm in 1816 handed protection to a mainland Kingdom.",
+        "Two towns revolted over taxes and declared themselves free cities in 1848."
+      ],
+      "summary": "After the Congress of Vienna, Monaco was placed under the protection of the Kingdom of Sardinia by the Treaty of Stockholm of 1816. Heavy taxation led Menton and Roquebrune to secede in 1848, and Monaco gave up its claims to France in 1861.",
+      "wikipediaTitle": "History of Monaco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Monaco"
+      ]
+    },
+    {
+      "id": "MCO-menton-roquebrune-sale",
+      "title": "Loss of Menton and Roquebrune",
+      "startYear": 1861,
+      "endYear": 1861,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A treaty with Napoleon III cost the principality about 95 per cent of its territory.",
+        "Four million francs changed hands."
+      ],
+      "summary": "Under the Franco-Monegasque Treaty of 1861, Monaco recognised French sovereignty over Menton and Roquebrune, about 95 per cent of its territory, for four million francs. France in return recognised Monaco's independence.",
+      "wikipediaTitle": "Franco-Monegasque Treaty of 1861",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Franco-Monegasque_Treaty_of_1861"
+      ]
+    },
+    {
+      "id": "MCO-axis-occupation",
+      "title": "Italian then German occupation",
+      "startYear": 1942,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Fascist Italy"
+      },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "Troops entered in November 1942 and then in September 1943 a different army took over.",
+        "The principality was liberated in September 1944."
+      ],
+      "summary": "Italian forces occupied the principality in November 1942 and German troops took over in September 1943 after the Italian armistice. Jewish residents were deported and the occupation ended in September 1944.",
+      "sensitive": true,
+      "wikipediaTitle": "Monaco in World War II",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Monaco_in_World_War_II"
+      ]
+    }
+  ]
+}

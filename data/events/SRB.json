@@ -1,0 +1,123 @@
+{
+  "country": "SRB",
+  "events": [
+    {
+      "id": "SRB-ottoman-rule",
+      "title": "Ottoman rule",
+      "startYear": 1459,
+      "endYear": 1815,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "territoryNames": [
+        "the Sanjak of Smederevo"
+      ],
+      "hints": [
+        "The despotate's capital on the Danube fell in 1459.",
+        "Uprisings beginning in 1804 and 1815 eventually won autonomy."
+      ],
+      "summary": "The fortress of Smederevo fell to the Ottomans in 1459, ending the medieval Serbian despotate. The territory was governed as a sanjak and later a pashalik until the uprisings of 1804 and 1815 led to autonomy.",
+      "wikipediaTitle": "Sanjak of Smederevo",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sanjak_of_Smederevo"
+      ]
+    },
+    {
+      "id": "SRB-habsburg-kingdom-of-serbia",
+      "title": "Habsburg Kingdom of Serbia",
+      "startYear": 1718,
+      "endYear": 1739,
+      "exploiter": {
+        "label": "the Habsburg Monarchy"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A peace treaty in 1718 transferred the Danube region and its capital to Vienna.",
+        "Vienna lost the area again in 1739 at Belgrade."
+      ],
+      "summary": "After the Treaty of Passarowitz in 1718, the Habsburg Monarchy held northern lands and Belgrade as the Kingdom of Serbia, with attempts at administrative reform and German colonisation. The Ottomans regained the area under the Treaty of Belgrade in 1739.",
+      "wikipediaTitle": "Kingdom of Serbia (1718–1739)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kingdom_of_Serbia_(1718%E2%80%931739)"
+      ]
+    },
+    {
+      "id": "SRB-pig-war",
+      "title": "Austro-Hungarian Pig War",
+      "startYear": 1906,
+      "endYear": 1908,
+      "exploiter": {
+        "label": "Austria-Hungary"
+      },
+      "type": "other",
+      "resources": [
+        "livestock"
+      ],
+      "hints": [
+        "A powerful neighbour closed its borders to a small kingdom's main export.",
+        "Pork exports collapsed in a tariff dispute that forced the kingdom to find new markets."
+      ],
+      "summary": "In 1906 Austria-Hungary shut its borders to Serbian livestock and pork, then the kingdom's main export, as a tariff and political dispute. Exports were redirected to other markets and the episode deepened tensions before the 1908 annexation crisis.",
+      "quip": "Great Power diplomacy, now with extra bacon.",
+      "wikipediaTitle": "Pig War (1906–1908)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pig_War_(1906%E2%80%931908)"
+      ]
+    },
+    {
+      "id": "SRB-ww1-occupation",
+      "title": "Occupation by the Central Powers",
+      "startYear": 1915,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "Austria-Hungary"
+      },
+      "type": "occupation",
+      "resources": [
+        "land",
+        "grain"
+      ],
+      "hints": [
+        "An army retreated through the Albanian mountains in the winter of 1915.",
+        "Occupation zones were shared among three allied powers."
+      ],
+      "summary": "In late 1915 Austria-Hungary, Germany and Bulgaria overran the kingdom, and Serbia was divided into occupation zones. The occupation brought requisitioning, internments and civilian reprisals until the Allied breakthrough of September 1918.",
+      "sensitive": true,
+      "wikipediaTitle": "Serbian campaign (World War I)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Serbian_campaign_(World_War_I)"
+      ]
+    },
+    {
+      "id": "SRB-german-occupation-ww2",
+      "title": "German military administration",
+      "startYear": 1941,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "copper"
+      ],
+      "hints": [
+        "Ruled by a military commander rather than a puppet government after April 1941.",
+        "Mass reprisals and the first death camp in the region marked the occupation."
+      ],
+      "summary": "After the April 1941 invasion, Germany ruled the core territory through a military commander alongside a collaborationist government, exploiting resources such as copper. Mass reprisals against civilians, the persecution of Jews and the Sajmiste camp marked the period.",
+      "sensitive": true,
+      "wikipediaTitle": "Territory of the Military Commander in Serbia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Territory_of_the_Military_Commander_in_Serbia"
+      ]
+    }
+  ]
+}

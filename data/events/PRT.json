@@ -1,0 +1,129 @@
+{
+  "country": "PRT",
+  "events": [
+    {
+      "id": "PRT-roman-lusitania",
+      "title": "Roman conquest of Lusitania",
+      "startYear": -218,
+      "endYear": -19,
+      "exploiter": {
+        "label": "the Roman Republic"
+      },
+      "type": "colonization",
+      "resources": [
+        "gold",
+        "tin"
+      ],
+      "territoryNames": [
+        "Lusitania"
+      ],
+      "hints": [
+        "A shepherd turned warlord defeated several Roman armies.",
+        "The final submission came with the Cantabrian Wars under Augustus."
+      ],
+      "summary": "Roman armies fought the Lusitanian tribes for generations, most famously against the leader Viriathus, who was murdered in 139 BCE. The area became the province of Lusitania, known for its gold and tin.",
+      "wikipediaTitle": "Lusitania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lusitania"
+      ]
+    },
+    {
+      "id": "PRT-umayyad-conquest",
+      "title": "Umayyad conquest",
+      "startYear": 711,
+      "endYear": 1249,
+      "exploiter": {
+        "label": "the Umayyad Caliphate"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "tribute"
+      ],
+      "territoryNames": [
+        "Al-Andalus"
+      ],
+      "hints": [
+        "A general crossed from North Africa in 711, and a western province of a caliphate was created.",
+        "The last Muslim stronghold in the west fell in 1249."
+      ],
+      "summary": "After 711 the western Iberian lands were absorbed into Al-Andalus, a province of the Umayyad caliphate and later successor states. Muslim rule was gradually ended during the Reconquista, with the Algarve captured by 1249.",
+      "wikipediaTitle": "Umayyad conquest of Hispania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Umayyad_conquest_of_Hispania"
+      ]
+    },
+    {
+      "id": "PRT-iberian-union",
+      "title": "Iberian Union",
+      "startYear": 1580,
+      "endYear": 1640,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "tribute"
+      ],
+      "territoryNames": [
+        "the Iberian Union"
+      ],
+      "hints": [
+        "A king died in North Africa without an heir in 1578, leaving a succession crisis.",
+        "A revolt on 1 December 1640 ended sixty years of rule by a foreign dynasty."
+      ],
+      "summary": "After the death of King Sebastian in 1578 and his successor Henry in 1580, Philip II of Spain claimed the Portuguese throne and was acclaimed in 1581. The union lasted until the Restoration in 1640, as Portugal's overseas empire was drawn into Spain's wars.",
+      "wikipediaTitle": "Iberian Union",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Iberian_Union"
+      ]
+    },
+    {
+      "id": "PRT-methuen-treaty",
+      "title": "Methuen Treaty",
+      "startYear": 1703,
+      "endYear": 1703,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "wool",
+        "gold"
+      ],
+      "hints": [
+        "A commercial agreement traded cloth for wine and tied a small kingdom to a naval giant.",
+        "Brazilian gold flowed north as payment for the trade deficit."
+      ],
+      "summary": "The 1703 Methuen Treaty allowed English woollens into the market in return for lower duties on Portuguese wine, and is often argued to have created a long-term dependency. Gold from Brazil largely flowed to Britain to cover Portugal's trade deficit.",
+      "quip": "Free trade between a workshop and its customer.",
+      "wikipediaTitle": "Methuen Treaty",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Methuen_Treaty"
+      ]
+    },
+    {
+      "id": "PRT-napoleonic-invasion",
+      "title": "French invasions",
+      "startYear": 1807,
+      "endYear": 1811,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute"
+      ],
+      "hints": [
+        "A court fled to its largest colony in 1807 as invaders approached.",
+        "Three campaigns were beaten back by a general who later became a duke."
+      ],
+      "summary": "In November 1807 Napoleon's army under General Junot invaded and the royal court fled to Brazil. Further French invasions in 1809 and 1810 were repelled by Anglo-Portuguese forces, ending with Massena's retreat in 1811.",
+      "wikipediaTitle": "Peninsular War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Peninsular_War"
+      ]
+    }
+  ]
+}

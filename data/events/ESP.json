@@ -1,0 +1,126 @@
+{
+  "country": "ESP",
+  "events": [
+    {
+      "id": "ESP-roman-hispania",
+      "title": "Roman conquest of Hispania",
+      "startYear": -218,
+      "endYear": -19,
+      "exploiter": {
+        "label": "the Roman Republic"
+      },
+      "type": "colonization",
+      "resources": [
+        "silver",
+        "gold",
+        "tin"
+      ],
+      "territoryNames": [
+        "Roman Hispania"
+      ],
+      "hints": [
+        "A war with a North African city dragged a republic onto the peninsula in 218 BCE.",
+        "Mines such as Las Medulas produced vast quantities of gold."
+      ],
+      "summary": "Rome landed in 218 BCE during the Second Punic War and took over decades to subdue the whole peninsula, finishing with the Cantabrian Wars in 19 BCE. Provinces were organised and silver and gold mines were worked for the empire.",
+      "wikipediaTitle": "Hispania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hispania"
+      ]
+    },
+    {
+      "id": "ESP-umayyad-conquest",
+      "title": "Umayyad conquest",
+      "startYear": 711,
+      "endYear": 756,
+      "exploiter": {
+        "label": "the Umayyad Caliphate"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "tribute"
+      ],
+      "territoryNames": [
+        "Al-Andalus"
+      ],
+      "hints": [
+        "A general landed at a rock named after him in 711.",
+        "The Visigothic kingdom collapsed within a few years."
+      ],
+      "summary": "In 711 Umayyad forces under Tariq ibn Ziyad crossed from North Africa and overthrew the Visigothic kingdom in a few years, extending control to most of the peninsula. Al-Andalus was initially a province of the caliphate.",
+      "wikipediaTitle": "Umayyad conquest of Hispania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Umayyad_conquest_of_Hispania"
+      ]
+    },
+    {
+      "id": "ESP-peninsular-war",
+      "title": "French occupation and the Peninsular War",
+      "startYear": 1808,
+      "endYear": 1814,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute"
+      ],
+      "hints": [
+        "An ally's troops were allowed to cross the border, then seized key fortresses in 1808.",
+        "The brutal war gave the world the word guerrilla."
+      ],
+      "summary": "In 1808 Napoleon's troops took control of Spain, put his brother Joseph on the throne and provoked the Dos de Mayo uprising. The war lasted until 1814 and combined guerrilla resistance, requisitions and widespread civilian suffering.",
+      "sensitive": true,
+      "wikipediaTitle": "Peninsular War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Peninsular_War"
+      ]
+    },
+    {
+      "id": "ESP-rio-tinto-mines",
+      "title": "British-owned Rio Tinto mines",
+      "startYear": 1873,
+      "endYear": 1954,
+      "exploiter": {
+        "label": "the Rio Tinto Company"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "copper"
+      ],
+      "hints": [
+        "A government sold off mines in the south-west to foreign investors in 1873.",
+        "Open-air smelting caused an environmental disaster and a bloody protest in 1888."
+      ],
+      "summary": "In 1873 the Spanish state sold the Riotinto mines to a British-led consortium, which operated them for 80 years and became the Rio Tinto Company. The mines produced vast quantities of copper, and in 1888 troops killed protesters demonstrating against sulphur smelting smoke.",
+      "wikipediaTitle": "Riotinto mines",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Riotinto_mines"
+      ]
+    },
+    {
+      "id": "ESP-civil-war-intervention",
+      "title": "Foreign intervention in the Civil War",
+      "startYear": 1936,
+      "endYear": 1939,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "proxy_war",
+      "resources": [
+        "iron_ore"
+      ],
+      "hints": [
+        "Aircraft from abroad airlifted the rebel army across the Strait of Gibraltar.",
+        "Raw materials such as iron ore and pyrites were exported to pay for weapons."
+      ],
+      "summary": "German transport aircraft carried Franco's army across the Strait of Gibraltar in July 1936, and the Condor Legion later fought in the war. Spanish minerals were shipped to Germany as payment, while the Soviet Union and Italy also intervened.",
+      "sensitive": true,
+      "wikipediaTitle": "Spanish Civil War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spanish_Civil_War"
+      ]
+    }
+  ]
+}

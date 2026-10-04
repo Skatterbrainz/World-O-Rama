@@ -1,0 +1,151 @@
+{
+  "country": "HRV",
+  "events": [
+    {
+      "id": "HRV-venetian-dalmatia",
+      "title": "Venetian Dalmatia",
+      "startYear": 1409,
+      "endYear": 1797,
+      "exploiter": {
+        "label": "Venice"
+      },
+      "type": "colonization",
+      "resources": [
+        "timber",
+        "salt",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "Venetian Dalmatia"
+      ],
+      "hints": [
+        "A lagoon republic bought a coastline from a claimant for 100,000 ducats in 1409.",
+        "Its fleet drew oak from the forests behind the coast and its monopoly shaped salt trade."
+      ],
+      "summary": "Venice acquired Zadar and other Dalmatian cities in 1409 and controlled most of the coast until 1797, using the ports for its fleet and trade. Timber and salt were shipped to the lagoon, and the republic's monopolies limited local commerce.",
+      "wikipediaTitle": "Dalmatia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dalmatia"
+      ]
+    },
+    {
+      "id": "HRV-ottoman-wars",
+      "title": "Ottoman conquest of inner territories",
+      "startYear": 1493,
+      "endYear": 1699,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A crushing defeat at Krbava Field in 1493 opened the interior to raiders.",
+        "Large areas were lost until the Treaty of Karlowitz in 1699 reversed the tide."
+      ],
+      "summary": "After the Battle of Krbava Field in 1493, Ottoman forces conquered large areas of the interior, especially Slavonia and the Lika region. Reconquest by the Habsburgs began after 1683 and the Treaty of Karlowitz in 1699 returned most lands.",
+      "wikipediaTitle": "Battle of Krbava Field",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Battle_of_Krbava_Field"
+      ]
+    },
+    {
+      "id": "HRV-military-frontier",
+      "title": "Habsburg Military Frontier",
+      "startYear": 1553,
+      "endYear": 1881,
+      "exploiter": {
+        "label": "the Habsburg Monarchy"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "labour"
+      ],
+      "territoryNames": [
+        "the Military Frontier"
+      ],
+      "hints": [
+        "A buffer zone was run directly from Vienna rather than by local nobles.",
+        "Peasant families received land in return for hereditary military service against a neighbouring empire."
+      ],
+      "summary": "To defend against Ottoman raids, the Habsburgs created a Military Frontier governed by the army, where peasant soldiers held land in exchange for lifelong service. It survived until 1881 and sat outside normal Croatian civil administration.",
+      "quip": "A defence plan where the peasants supplied the borders and the generals supplied the paperwork.",
+      "wikipediaTitle": "Military Frontier",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Military_Frontier"
+      ]
+    },
+    {
+      "id": "HRV-illyrian-provinces",
+      "title": "Illyrian Provinces",
+      "startYear": 1809,
+      "endYear": 1813,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "annexation",
+      "resources": [
+        "timber",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Illyrian Provinces"
+      ],
+      "hints": [
+        "Napoleon cut a swathe of Adriatic land out of a defeated empire after 1809.",
+        "The experiment ran from Ljubljana to Ragusa and ended after four years."
+      ],
+      "summary": "Following his victory over Austria in 1809, Napoleon annexed Dalmatia, Istria and other Adriatic lands as the Illyrian Provinces, directly under French rule. They were reconquered by Austria in 1813.",
+      "wikipediaTitle": "Illyrian Provinces",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Illyrian_Provinces"
+      ]
+    },
+    {
+      "id": "HRV-italian-annexation-dalmatia",
+      "title": "Italian occupation and annexation of Dalmatia",
+      "startYear": 1941,
+      "endYear": 1943,
+      "exploiter": {
+        "label": "Fascist Italy"
+      },
+      "type": "annexation",
+      "resources": [],
+      "territoryNames": [
+        "the Governorate of Dalmatia"
+      ],
+      "hints": [
+        "Rome carved a governorate out of the coast after the invasion of a Balkan kingdom.",
+        "Italian zones occupied the coast and islands until the armistice of September 1943."
+      ],
+      "summary": "After the April 1941 Axis invasion of Yugoslavia, Italy annexed much of the Dalmatian coast as the Governorate of Dalmatia and occupied further zones. Italian control ended with the armistice of September 1943.",
+      "wikipediaTitle": "Governorate of Dalmatia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Governorate_of_Dalmatia"
+      ]
+    },
+    {
+      "id": "HRV-independent-state-of-croatia",
+      "title": "Axis puppet state",
+      "startYear": 1941,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "puppet_regime",
+      "resources": [],
+      "hints": [
+        "A fascist puppet state was proclaimed in Zagreb in April 1941 under German and Italian protection.",
+        "A notorious camp complex at Jasenovac was operated by the regime."
+      ],
+      "summary": "The Independent State of Croatia was established in April 1941 under the Ustase, dependent on German and Italian support. It persecuted Serbs, Jews and Roma, and operated concentration camps including Jasenovac.",
+      "sensitive": true,
+      "wikipediaTitle": "Independent State of Croatia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Independent_State_of_Croatia"
+      ]
+    }
+  ]
+}

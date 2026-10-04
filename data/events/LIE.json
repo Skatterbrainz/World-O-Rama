@@ -1,0 +1,31 @@
+{
+  "country": "LIE",
+  "events": [
+    {
+      "id": "LIE-roman-raetia",
+      "title": "Roman conquest of Raetia",
+      "startYear": -15,
+      "endYear": 476,
+      "exploiter": {
+        "label": "the Roman Empire"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "Raetia"
+      ],
+      "hints": [
+        "An Alpine campaign by two stepsons of Augustus in 15 BCE subdued the mountain tribes.",
+        "A Roman road across the Rhine valley served the province."
+      ],
+      "summary": "In 15 BCE Tiberius and Drusus conquered the Alpine tribes and created the province of Raetia, which included today's Liechtenstein. Roman roads and forts controlled trade routes across the Alps until the fifth century.",
+      "wikipediaTitle": "Raetia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Raetia"
+      ]
+    }
+  ]
+}

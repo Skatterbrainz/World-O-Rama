@@ -1,0 +1,105 @@
+{
+  "country": "SVN",
+  "events": [
+    {
+      "id": "SVN-carniola-habsburg",
+      "title": "Habsburg rule of Carniola",
+      "startYear": 1335,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "the Habsburg Monarchy"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "tribute"
+      ],
+      "territoryNames": [
+        "the Duchy of Carniola"
+      ],
+      "hints": [
+        "A dynasty acquired the Alpine duchy in the Middle Ages and kept it for almost six centuries.",
+        "German-speaking nobles and officials dominated the Slovene-speaking peasantry."
+      ],
+      "summary": "The Habsburgs acquired Carniola in 1335 and held it as a duchy until the dissolution of Austria-Hungary in 1918. Slovene speakers were largely peasants under German-speaking nobility and an increasingly centralised administration.",
+      "wikipediaTitle": "Duchy of Carniola",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Duchy_of_Carniola"
+      ]
+    },
+    {
+      "id": "SVN-illyrian-provinces",
+      "title": "Illyrian Provinces",
+      "startYear": 1809,
+      "endYear": 1813,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "annexation",
+      "resources": [
+        "timber",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Illyrian Provinces"
+      ],
+      "hints": [
+        "Napoleon founded a province with a capital at Ljubljana.",
+        "French was the official language, and a short reform period began."
+      ],
+      "summary": "After the Treaty of Schönbrunn in 1809, Napoleon annexed Carniola and other lands to form the Illyrian Provinces with Ljubljana as capital. The French introduced administrative and legal reforms and extracted taxes and conscripts until 1813.",
+      "wikipediaTitle": "Illyrian Provinces",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Illyrian_Provinces"
+      ]
+    },
+    {
+      "id": "SVN-rapallo-italian-annexation",
+      "title": "Italian annexation of the Littoral",
+      "startYear": 1920,
+      "endYear": 1943,
+      "exploiter": {
+        "label": "Fascist Italy"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "the Julian March"
+      ],
+      "hints": [
+        "A postwar treaty gave a large share of the Slovene lands to Rome in 1920.",
+        "Schools and organisations were banned and surnames were Italianised under the fascist regime."
+      ],
+      "summary": "The Treaty of Rapallo in 1920 gave Italy the Slovene Littoral and parts of Carniola. Under fascism, Slovene schools, newspapers and organisations were banned and a policy of forced Italianisation was pursued until 1943.",
+      "wikipediaTitle": "Treaty of Rapallo (1920)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaty_of_Rapallo_(1920)"
+      ]
+    },
+    {
+      "id": "SVN-axis-partition",
+      "title": "Axis partition and occupation",
+      "startYear": 1941,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "Three neighbours divided the country in April 1941.",
+        "Germany annexed the north and expelled tens of thousands to Serbia and Croatia."
+      ],
+      "summary": "After the invasion of Yugoslavia in April 1941, Germany annexed Lower Styria and Upper Carniola, Italy annexed Ljubljana and the south, and Hungary took Prekmurje. Germans deported tens of thousands of Slovenes and the occupation lasted until 1945.",
+      "sensitive": true,
+      "wikipediaTitle": "Axis occupation of Yugoslavia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Axis_occupation_of_Yugoslavia"
+      ]
+    }
+  ]
+}
