@@ -1,0 +1,41 @@
+{
+  "country": "LCA",
+  "events": [
+    {
+      "id": "LCA-french-colony",
+      "title": "French settlement and sugar estates",
+      "startYear": 1660,
+      "endYear": 1814,
+      "exploiter": { "label": "France" },
+      "type": "colonization",
+      "resources": ["sugar", "slaves", "timber"],
+      "hints": [
+        "The first lasting European settlement came from France in 1660 after earlier English attempts failed.",
+        "An island of Windward volcanic peaks changed hands between two powers so often that it was nicknamed for a Greek beauty.",
+        "France finally gave it up in 1814."
+      ],
+      "summary": "France made the first lasting European settlement in 1660, and sugar estates worked by enslaved Africans grew. The island changed hands between France and Britain around fourteen times before the 1814 Treaty of Paris gave it to Britain.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Saint Lucia",
+      "sources": ["https://en.wikipedia.org/wiki/History_of_Saint_Lucia"]
+    },
+    {
+      "id": "LCA-british-colony",
+      "title": "British rule and the coaling station",
+      "startYear": 1814,
+      "endYear": 1979,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["sugar", "bananas", "labour"],
+      "territoryNames": ["British Saint Lucia"],
+      "hints": [
+        "From 1814 it was British, and its main harbour became a coaling station for steamships.",
+        "Indentured workers from India arrived in the 1850s after slavery ended.",
+        "Sugar later gave way to bananas as the main export, until independence in 1979."
+      ],
+      "summary": "Britain held the island from 1814 to independence in 1979. After emancipation, estates relied on indentured workers from India, the harbour at Castries became a major coaling station, and bananas replaced sugar as the leading export in the 20th century.",
+      "wikipediaTitle": "History of Saint Lucia",
+      "sources": ["https://en.wikipedia.org/wiki/History_of_Saint_Lucia"]
+    }
+  ]
+}

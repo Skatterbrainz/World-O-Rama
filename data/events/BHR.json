@@ -1,0 +1,79 @@
+{
+  "country": "BHR",
+  "events": [
+    {
+      "id": "BHR-portuguese-bahrain",
+      "title": "Portuguese occupation",
+      "startYear": 1521,
+      "endYear": 1602,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "occupation",
+      "resources": [
+        "pearls",
+        "trade_routes"
+      ],
+      "hints": [
+        "A fleet from Hormuz seized an island group famed for pearls in 1521.",
+        "The Portuguese built a fort and ran the pearl trade through puppet governors.",
+        "A revolt in 1602 and Persian forces ended their rule."
+      ],
+      "summary": "Portugal took the islands in 1521 from the Jabrid emirate of al-Hasa, strengthening the Bahrain Fort and taxing the pearl trade. Local resentment and Safavid pressure ended Portuguese control in 1602.",
+      "wikipediaTitle": "History of Bahrain",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Bahrain"
+      ]
+    },
+    {
+      "id": "BHR-safavid-rule",
+      "title": "Persian rule",
+      "startYear": 1602,
+      "endYear": 1783,
+      "exploiter": {
+        "label": "Persia"
+      },
+      "type": "colonization",
+      "resources": [
+        "pearls",
+        "tribute"
+      ],
+      "hints": [
+        "A Persian shah's forces took the islands in 1602.",
+        "Local governors ruled for the Safavids, with a brief Omani occupation in the 1700s.",
+        "The Al Khalifa family from the mainland took the islands in 1783."
+      ],
+      "summary": "Safavid Persia took the islands in 1602 and ruled them through governors, with interruptions including an Omani occupation in 1717-1736 and Nader Shah's reconquest in 1736. The Al Khalifa family expelled the last Persian-appointed governor in 1783.",
+      "wikipediaTitle": "History of Bahrain",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Bahrain"
+      ]
+    },
+    {
+      "id": "BHR-british-protection",
+      "title": "British protection and the Exclusive Agreement",
+      "startYear": 1820,
+      "endYear": 1971,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "pearls",
+        "oil",
+        "strategic_location"
+      ],
+      "hints": [
+        "In 1820 the ruler signed a treaty of peace with a naval power that patrolled the Gulf.",
+        "An 1892 Exclusive Agreement bound the ruler not to deal with other powers without consent.",
+        "The first Gulf oil well came in 1932 and independence in 1971."
+      ],
+      "summary": "Bahrain signed the 1820 General Maritime Treaty with Britain, and the 1861 and 1892 agreements placed its foreign affairs under British control. A British political agent dominated administration. Oil was found in 1932, and Britain withdrew in 1971.",
+      "quip": "A protectorate where the ruler was free to do anything except decide anything.",
+      "wikipediaTitle": "History of Bahrain",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Bahrain"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "country": "LBN",
+  "events": [
+    {
+      "id": "LBN-county-of-tripoli",
+      "title": "County of Tripoli",
+      "startYear": 1109,
+      "endYear": 1289,
+      "exploiter": {
+        "label": "the Crusader states"
+      },
+      "type": "occupation",
+      "resources": [
+        "trade_routes",
+        "land"
+      ],
+      "territoryNames": [
+        "the County of Tripoli"
+      ],
+      "hints": [
+        "A count from southern France besieged a coastal city for years before it fell in 1109.",
+        "The county was one of four crusader states in the Levant.",
+        "Mamluk forces took the city in 1289."
+      ],
+      "summary": "Raymond de Saint-Gilles began the siege of Tripoli in 1102 and his successors took it in 1109, establishing the County of Tripoli. The county lasted until the Mamluk sultan Qalawun captured the city in 1289.",
+      "wikipediaTitle": "County of Tripoli",
+      "sources": [
+        "https://en.wikipedia.org/wiki/County_of_Tripoli"
+      ]
+    },
+    {
+      "id": "LBN-ottoman-mount-lebanon",
+      "title": "Ottoman rule",
+      "startYear": 1516,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Mount Lebanon Mutasarrifate"
+      ],
+      "hints": [
+        "The sultan took the region in 1516 and governed it through local emirs and tax-farmers.",
+        "A 1860 civil war and a French intervention led to a special autonomous district.",
+        "The coastal and mountain regions came under direct Ottoman military rule in 1915."
+      ],
+      "summary": "The Ottomans conquered the region in 1516-1517 and ruled it through local emirs. After the 1860 civil war and French intervention, Mount Lebanon became an autonomous mutasarrifate in 1861. Direct Ottoman control returned in 1915.",
+      "wikipediaTitle": "Mount Lebanon Mutasarrifate",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mount_Lebanon_Mutasarrifate"
+      ]
+    },
+    {
+      "id": "LBN-great-famine",
+      "title": "Great Famine of Mount Lebanon",
+      "startYear": 1915,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "engineered_famine",
+      "resources": [
+        "grain",
+        "land"
+      ],
+      "hints": [
+        "A locust plague in 1915 was followed by a blockade and requisition of grain by the army.",
+        "Allied naval blockades and Ottoman controls on food movements cut off supplies.",
+        "An estimated 100,000 to 200,000 people died."
+      ],
+      "summary": "A famine struck Mount Lebanon from 1915 to 1918 after locust infestations, an Allied naval blockade, and Ottoman requisitions and restrictions on grain movement. An estimated 100,000 to 200,000 people died, up to a third of the local population.",
+      "sensitive": true,
+      "wikipediaTitle": "Great Famine of Mount Lebanon",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Great_Famine_of_Mount_Lebanon"
+      ]
+    },
+    {
+      "id": "LBN-french-mandate",
+      "title": "French Mandate",
+      "startYear": 1920,
+      "endYear": 1943,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "tobacco"
+      ],
+      "territoryNames": [
+        "Greater Lebanon"
+      ],
+      "hints": [
+        "After the war, a general proclaimed an enlarged state in September 1920 by adding coastal cities and valleys.",
+        "Under a League of Nations mandate, France controlled foreign policy and the army.",
+        "Independence was declared in 1943 amid a crisis that led to the arrest of the president."
+      ],
+      "summary": "France received a mandate for Syria and Lebanon at San Remo in 1920 and created the State of Greater Lebanon on 1 September 1920. French High Commissioners controlled foreign policy and defence, and the tobacco trade was run by a monopoly. In November 1943 French arrests of leaders sparked protests that led to independence.",
+      "wikipediaTitle": "French Mandate for Syria and the Lebanon",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Mandate_for_Syria_and_the_Lebanon"
+      ]
+    },
+    {
+      "id": "LBN-syrian-occupation",
+      "title": "Syrian occupation",
+      "startYear": 1976,
+      "endYear": 2005,
+      "exploiter": {
+        "label": "Syria"
+      },
+      "type": "occupation",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "hints": [
+        "Troops from the neighbouring state entered in 1976 during a civil war.",
+        "At its height, tens of thousands of soldiers were stationed, and its intelligence services shaped politics.",
+        "The withdrawal followed the 2005 assassination of a former prime minister."
+      ],
+      "summary": "Syrian forces entered Lebanon in 1976 during the civil war, initially as an Arab League peacekeeping force. They remained for 29 years and dominated Lebanese politics until the assassination of Rafik Hariri in 2005 led to mass protests and their withdrawal in April 2005.",
+      "wikipediaTitle": "Syrian occupation of Lebanon",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Syrian_occupation_of_Lebanon"
+      ]
+    },
+    {
+      "id": "LBN-israeli-occupation",
+      "title": "Israeli occupation of the south",
+      "startYear": 1982,
+      "endYear": 2000,
+      "exploiter": {
+        "label": "Israel"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "In June 1982 an army crossed the southern border and reached the capital within weeks.",
+        "Allied militias carried out the Sabra and Shatila massacres in September 1982.",
+        "Forces held a southern strip until withdrawing in May 2000."
+      ],
+      "summary": "Israel invaded in June 1982, reached Beirut, and withdrew in stages. It held a security zone in the south through the South Lebanon Army until 24 May 2000. Allied Lebanese militias killed hundreds of civilians at Sabra and Shatila in September 1982.",
+      "sensitive": true,
+      "wikipediaTitle": "South Lebanon conflict (1985–2000)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/South_Lebanon_conflict_(1985%E2%80%932000)"
+      ]
+    }
+  ]
+}

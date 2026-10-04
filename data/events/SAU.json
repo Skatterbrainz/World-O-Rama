@@ -1,0 +1,103 @@
+{
+  "country": "SAU",
+  "events": [
+    {
+      "id": "SAU-ottoman-hejaz",
+      "title": "Ottoman rule over the Hijaz",
+      "startYear": 1517,
+      "endYear": 1916,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "trade_routes",
+        "tribute"
+      ],
+      "territoryNames": [
+        "the Hejaz Vilayet"
+      ],
+      "hints": [
+        "The sultan took the title of Custodian of the holy cities after conquering a neighbouring empire in 1517.",
+        "Local sharifs ruled under Ottoman suzerainty, and pilgrim caravans brought revenue.",
+        "The Arab Revolt began here in June 1916."
+      ],
+      "summary": "After defeating the Mamluks in 1517, the Ottoman sultan became protector of Mecca and Medina. Local sharifs ruled under Ottoman authority, and a railway from Damascus to Medina was built in the early 1900s. The Arab Revolt began in 1916.",
+      "wikipediaTitle": "Hejaz Vilayet",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hejaz_Vilayet"
+      ]
+    },
+    {
+      "id": "SAU-ottoman-saudi-war",
+      "title": "Ottoman-Egyptian destruction of the first Saudi state",
+      "startYear": 1811,
+      "endYear": 1818,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "land",
+        "tribute"
+      ],
+      "hints": [
+        "The sultan ordered his governor in Cairo to crush a rival state that had taken the holy cities.",
+        "Egyptian forces led by the governor's son besieged and razed the capital, Diriyah, in 1818.",
+        "The ruler was taken to Istanbul and executed."
+      ],
+      "summary": "After the first Saudi state captured Mecca and Medina, Sultan Mahmud II ordered Muhammad Ali of Egypt to recover them. His son Ibrahim Pasha besieged and destroyed Diriyah in 1818, and the ruler, Abdullah bin Saud, was executed in Istanbul.",
+      "wikipediaTitle": "Ottoman–Saudi War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Saudi_War"
+      ]
+    },
+    {
+      "id": "SAU-treaty-of-darin",
+      "title": "Treaty of Darin",
+      "startYear": 1915,
+      "endYear": 1927,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "strategic_location",
+        "oil"
+      ],
+      "hints": [
+        "In December 1915 a British officer signed an agreement with the ruler of Najd.",
+        "It provided arms and a monthly subsidy in return for a pledge to follow British guidance on foreign relations.",
+        "A later treaty of 1927 recognised full independence."
+      ],
+      "summary": "In the 1915 Treaty of Darin, Britain recognised Abdulaziz Ibn Saud as ruler of Najd and Hasa, offered a subsidy and weapons, and in return he accepted British control of his relations with other states. The 1927 Treaty of Jeddah recognised his full independence.",
+      "wikipediaTitle": "Treaty of Darin",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaty_of_Darin"
+      ]
+    },
+    {
+      "id": "SAU-aramco-concession",
+      "title": "Aramco concession",
+      "startYear": 1933,
+      "endYear": 1980,
+      "exploiter": {
+        "label": "Standard Oil of California"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "oil"
+      ],
+      "hints": [
+        "In 1933 a US company obtained a 60-year concession, paying £50,000 in gold.",
+        "Oil was discovered at Dammam in 1938.",
+        "The kingdom bought out the company in stages, completing control in 1980."
+      ],
+      "summary": "In 1933 King Abdulaziz granted Standard Oil of California a 60-year concession to explore for oil. Oil was found in commercial quantities in 1938, and the company became Aramco. The government purchased full ownership in stages between 1973 and 1980.",
+      "wikipediaTitle": "Saudi Aramco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saudi_Aramco"
+      ]
+    }
+  ]
+}

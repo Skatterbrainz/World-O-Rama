@@ -1,0 +1,116 @@
+{
+  "country": "GUY",
+  "events": [
+    {
+      "id": "GUY-dutch-colonies",
+      "title": "Dutch Essequibo, Berbice and Demerara",
+      "startYear": 1616,
+      "endYear": 1814,
+      "exploiter": {
+        "label": "the Netherlands"
+      },
+      "type": "colonization",
+      "resources": [
+        "sugar",
+        "slaves",
+        "cotton",
+        "coffee"
+      ],
+      "territoryNames": [
+        "Essequibo",
+        "Berbice",
+        "Demerara"
+      ],
+      "hints": [
+        "Dutch traders built a fort on a river in 1616, and three separate river colonies grew from it.",
+        "Plantations were worked by enslaved Africans, and a great slave rebellion in 1763 led by Cuffy took control of one colony for months.",
+        "The colonies were taken by Britain in the Napoleonic wars and ceded in 1814."
+      ],
+      "summary": "The Dutch West India Company established Essequibo in the early 17th century, followed by Berbice and Demerara. Sugar, coffee and cotton plantations were worked by enslaved Africans, and the 1763 Berbice slave uprising nearly overthrew the colony. Britain took the colonies by 1814.",
+      "sensitive": true,
+      "wikipediaTitle": "Dutch colonization of the Guianas",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dutch_colonization_of_the_Guianas"
+      ]
+    },
+    {
+      "id": "GUY-british-guiana",
+      "title": "British Guiana",
+      "startYear": 1814,
+      "endYear": 1966,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "sugar",
+        "slaves",
+        "bauxite",
+        "rice"
+      ],
+      "territoryNames": [
+        "British Guiana"
+      ],
+      "hints": [
+        "The three river colonies were united under one flag in 1831.",
+        "Sugar planters dominated politics, and enslaved workers were replaced by indentured labourers after 1838.",
+        "Bauxite mining became important in the 20th century, and independence came in 1966."
+      ],
+      "summary": "Britain formally acquired the colonies in 1814 and united them as British Guiana in 1831. Sugar planters dominated the economy and politics, and after emancipation in 1834-1838 indentured labour from India was imported. Bauxite mining grew in the 20th century, and independence came in 1966.",
+      "sensitive": true,
+      "wikipediaTitle": "British Guiana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/British_Guiana"
+      ]
+    },
+    {
+      "id": "GUY-indian-indenture",
+      "title": "Indian indentured labour",
+      "startYear": 1838,
+      "endYear": 1917,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "labour",
+        "sugar"
+      ],
+      "hints": [
+        "The first ships arrived in 1838 carrying workers recruited under five-year contracts.",
+        "Planters wanted a replacement for formerly enslaved workers who had left the estates.",
+        "Over 200,000 workers came from South Asia before the system ended in 1917."
+      ],
+      "summary": "The first indentured workers from India arrived on the ships Whitby and Hesperus in 1838. More than 200,000 came to the colony before the system ended in 1917. Harsh conditions, low wages and strict penalties for absence led to protests and official inquiries.",
+      "sensitive": true,
+      "wikipediaTitle": "Indian indenture system",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Indian_indenture_system"
+      ]
+    },
+    {
+      "id": "GUY-1953-constitution",
+      "title": "Suspension of the constitution",
+      "startYear": 1953,
+      "endYear": 1964,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "puppet_regime",
+      "resources": [
+        "bauxite",
+        "sugar"
+      ],
+      "hints": [
+        "A newly elected government with a socialist programme took office in April 1953.",
+        "Within six months British troops landed and suspended the constitution, claiming a communist plot.",
+        "Washington backed the exclusion of the leader, and elections were redesigned in 1964."
+      ],
+      "summary": "After the People's Progressive Party won the 1953 election, Britain suspended the constitution in October and sent troops, citing communist influence. In the following decade Britain and the United States helped defeat Cheddi Jagan by changing the electoral system in 1964.",
+      "wikipediaTitle": "Cheddi Jagan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cheddi_Jagan"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "country": "JAM",
+  "events": [
+    {
+      "id": "JAM-spanish-jamaica",
+      "title": "Spanish Jamaica",
+      "startYear": 1509,
+      "endYear": 1655,
+      "exploiter": { "label": "Spain" },
+      "type": "colonization",
+      "resources": ["livestock", "slaves", "land"],
+      "territoryNames": ["Spanish Jamaica"],
+      "hints": [
+        "Spanish settlers arrived in 1509 on an island whose Taíno population soon collapsed.",
+        "Cattle ranching and a small number of enslaved Africans supplied passing fleets.",
+        "An English fleet seized the island in 1655."
+      ],
+      "summary": "Spain settled the island from 1509 and used it mainly as a provisioning base, with cattle ranching and small plantations. The Taíno population declined rapidly, and enslaved Africans were brought in. An English expedition captured it in 1655.",
+      "sensitive": true,
+      "wikipediaTitle": "Spanish Jamaica",
+      "sources": ["https://en.wikipedia.org/wiki/Spanish_Jamaica"]
+    },
+    {
+      "id": "JAM-british-sugar-colony",
+      "title": "British sugar colony",
+      "startYear": 1655,
+      "endYear": 1962,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["sugar", "slaves", "coffee"],
+      "territoryNames": ["British Jamaica"],
+      "hints": [
+        "Seized from a rival crown in 1655, it became Britain's most valuable sugar island.",
+        "Hundreds of thousands of enslaved Africans were landed at its ports, and Maroon communities resisted from the hills.",
+        "Slavery ended in the 1830s, and independence came in August 1962."
+      ],
+      "summary": "England captured the island in 1655 and it became Britain's most valuable sugar colony, worked by several hundred thousand enslaved Africans. Maroon communities resisted from the mountains. Slavery ended in the 1830s, and independence came in 1962.",
+      "sensitive": true,
+      "wikipediaTitle": "British Jamaica",
+      "sources": ["https://en.wikipedia.org/wiki/British_Jamaica"]
+    },
+    {
+      "id": "JAM-morant-bay-repression",
+      "title": "Suppression of the Morant Bay rebellion",
+      "startYear": 1865,
+      "endYear": 1865,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["land"],
+      "hints": [
+        "A protest over land, wages and justice in a parish in October 1865 turned into a rebellion.",
+        "Martial law followed, with hundreds killed and one rebel leader, George William Gordon, court-martialled and hanged.",
+        "The governor, Edward Eyre, was recalled, and the colony's assembly was abolished in favour of Crown rule."
+      ],
+      "summary": "A protest at Morant Bay in 1865 escalated into a rebellion in which some officials were killed. Governor Edward Eyre declared martial law, and British forces killed hundreds of people. The episode ended the elected assembly and brought direct Crown rule.",
+      "sensitive": true,
+      "wikipediaTitle": "Morant Bay rebellion",
+      "sources": ["https://en.wikipedia.org/wiki/Morant_Bay_rebellion"]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "country": "SYR",
+  "events": [
+    {
+      "id": "SYR-principality-of-antioch",
+      "title": "Principality of Antioch",
+      "startYear": 1098,
+      "endYear": 1268,
+      "exploiter": {
+        "label": "the Crusader states"
+      },
+      "type": "occupation",
+      "resources": [
+        "trade_routes",
+        "land"
+      ],
+      "territoryNames": [
+        "the Principality of Antioch"
+      ],
+      "hints": [
+        "A European army took a great city on the Orontes after a long siege in 1098.",
+        "A Norman prince ruled a crusader state with a capital that rivalled Jerusalem.",
+        "The Mamluk sultan Baybars destroyed the city in 1268."
+      ],
+      "summary": "Bohemond of Taranto took Antioch in 1098 during the First Crusade and made himself prince. The Principality of Antioch was one of the four crusader states until the Mamluk sultan Baybars captured the city in 1268.",
+      "wikipediaTitle": "Principality of Antioch",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Principality_of_Antioch"
+      ]
+    },
+    {
+      "id": "SYR-ottoman-rule",
+      "title": "Ottoman rule",
+      "startYear": 1516,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "trade_routes",
+        "grain"
+      ],
+      "territoryNames": [
+        "Ottoman Syria"
+      ],
+      "hints": [
+        "A sultan's victory at Marj Dabiq in 1516 gave the empire a new province in the Levant.",
+        "Damascus and Aleppo became centres of the pilgrimage and the trade route.",
+        "A wartime governor executed nationalists in 1916."
+      ],
+      "summary": "The Ottomans defeated the Mamluks at Marj Dabiq in 1516 and made the Levant part of their empire. Damascus was the starting point of the Hajj caravan, and Aleppo was a major commercial centre. In 1916 the governor Cemal Pasha had Arab nationalists hanged in Damascus and Beirut.",
+      "wikipediaTitle": "Ottoman Syria",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ottoman_Syria"
+      ]
+    },
+    {
+      "id": "SYR-french-mandate",
+      "title": "French Mandate",
+      "startYear": 1920,
+      "endYear": 1946,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "cotton"
+      ],
+      "territoryNames": [
+        "the State of Aleppo",
+        "the Alawite State",
+        "the State of Damascus"
+      ],
+      "hints": [
+        "A French army defeated the short-lived Arab kingdom at Maysalun in July 1920.",
+        "The territory was divided into several states, including ones for Aleppo and the Alawites.",
+        "French forces bombarded the capital in October 1925 during a large revolt."
+      ],
+      "summary": "French forces defeated King Faisal's army at Maysalun in July 1920. France divided its mandate into several states, including the State of Aleppo and the Alawite State, and bombed Damascus during the 1925-1927 Great Syrian Revolt. The last French troops left in April 1946.",
+      "wikipediaTitle": "French Mandate for Syria and the Lebanon",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Mandate_for_Syria_and_the_Lebanon"
+      ]
+    },
+    {
+      "id": "SYR-great-revolt",
+      "title": "Great Syrian Revolt",
+      "startYear": 1925,
+      "endYear": 1927,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A rebellion that started in the Druze mountains in July 1925 spread to the capital.",
+        "French artillery and air raids shelled districts of Damascus in October 1925 and again in 1926.",
+        "Thousands of people died before the revolt was crushed in 1927."
+      ],
+      "summary": "The Great Syrian Revolt began in the Jabal al-Druze in July 1925 and spread to Damascus and Hama. French forces bombarded Damascus and used heavy force, killing thousands, before suppressing the revolt in 1927.",
+      "sensitive": true,
+      "wikipediaTitle": "Great Syrian Revolt",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Great_Syrian_Revolt"
+      ]
+    },
+    {
+      "id": "SYR-hatay-cession",
+      "title": "Cession of the Sanjak of Alexandretta",
+      "startYear": 1936,
+      "endYear": 1939,
+      "exploiter": {
+        "label": "Turkey"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "strategic_location"
+      ],
+      "territoryNames": [
+        "the Sanjak of Alexandretta",
+        "the Hatay State"
+      ],
+      "hints": [
+        "In 1936 a neighbouring country began demanding a Mediterranean coastal region with a mixed population.",
+        "France agreed to hold an election under pressure as war loomed in Europe.",
+        "The region was annexed in July 1939, and the vote has been disputed."
+      ],
+      "summary": "In the late 1930s Turkey claimed the Sanjak of Alexandretta, then part of the French mandate. France yielded as war approached, and after a disputed 1938 election the territory became the Hatay State and then, in July 1939, a province of Turkey. Syria has long disputed the transfer.",
+      "wikipediaTitle": "Sanjak of Alexandretta",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sanjak_of_Alexandretta"
+      ]
+    }
+  ]
+}

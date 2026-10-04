@@ -1,0 +1,33 @@
+{
+  "country": "CYM",
+  "events": [
+    {
+      "id": "CYM-british-colony",
+      "title": "British colony and the Jamaica dependency",
+      "startYear": 1670,
+      "endYear": 1962,
+      "exploiter": {
+        "label": "England"
+      },
+      "type": "colonization",
+      "resources": [
+        "slaves",
+        "land"
+      ],
+      "territoryNames": [
+        "the Dependency of Jamaica"
+      ],
+      "hints": [
+        "A 1670 treaty between two European crowns gave one of them the three small islands.",
+        "English settlers and enslaved Africans lived by turtling, fishing and seafaring.",
+        "From 1863 the islands were administered as a dependency of a larger colony until 1962."
+      ],
+      "summary": "England gained the islands by the 1670 Treaty of Madrid. They were never developed into plantation colonies, but settlers used enslaved Africans for labour. They were a dependency of Jamaica from 1863 until Jamaica became independent in 1962.",
+      "sensitive": true,
+      "wikipediaTitle": "History of the Cayman Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_the_Cayman_Islands"
+      ]
+    }
+  ]
+}

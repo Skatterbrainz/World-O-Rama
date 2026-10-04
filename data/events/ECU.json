@@ -1,0 +1,107 @@
+{
+  "country": "ECU",
+  "events": [
+    {
+      "id": "ECU-inca-conquest",
+      "title": "Inca conquest of the northern highlands",
+      "startYear": 1470,
+      "endYear": 1532,
+      "exploiter": {
+        "label": "the Inca Empire"
+      },
+      "type": "annexation",
+      "resources": [
+        "tribute",
+        "labour",
+        "land"
+      ],
+      "hints": [
+        "Imperial armies from the south pressed north into the Quito region in the late 15th century.",
+        "The Cañari and other highland peoples resisted for years against Túpac Yupanqui and Huayna Capac.",
+        "A succession war between two sons of Huayna Capac erupted just before the Spanish arrived."
+      ],
+      "summary": "The Inca emperors Túpac Yupanqui and Huayna Capac conquered the Cañari and other northern highland peoples after prolonged resistance. The region became the northern end of the empire. A civil war between Huáscar and Atahualpa began around 1529.",
+      "wikipediaTitle": "Inca Empire",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Inca_Empire"
+      ]
+    },
+    {
+      "id": "ECU-real-audiencia-obrajes",
+      "title": "Spanish rule and the textile workshops",
+      "startYear": 1534,
+      "endYear": 1822,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "wool",
+        "labour",
+        "land"
+      ],
+      "territoryNames": [
+        "the Royal Audience of Quito"
+      ],
+      "hints": [
+        "After conquest in 1534, the highlands became a major supplier of woollen cloth to mining districts in the south.",
+        "Indigenous workers were assigned to workshops called obrajes under a labour levy.",
+        "Conditions in the workshops were so harsh that the crown tried repeatedly to reform them."
+      ],
+      "summary": "Spain created the Real Audiencia of Quito in 1563. Highland Indigenous communities were assigned by the mita levy to textile workshops called obrajes, which supplied the mining districts of Peru and Upper Peru. Abuses, debt peonage and high mortality were documented throughout.",
+      "sensitive": true,
+      "wikipediaTitle": "Real Audiencia of Quito",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Real_Audiencia_of_Quito"
+      ]
+    },
+    {
+      "id": "ECU-peruvian-invasion-1941",
+      "title": "Peruvian invasion and the Rio Protocol",
+      "startYear": 1941,
+      "endYear": 1942,
+      "exploiter": {
+        "label": "Peru"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "oil"
+      ],
+      "hints": [
+        "A border dispute over eastern rainforest and highland territories erupted into war in July 1941.",
+        "A neighbouring army occupied the southern coast province and advanced into the Amazon region.",
+        "The 1942 Rio Protocol, signed under pressure from the Americas and the United States, confirmed the loss of large territory."
+      ],
+      "summary": "In July 1941 Peru invaded, occupying El Oro Province and areas in the Amazon region. The January 1942 Rio Protocol, brokered by the United States, Brazil, Argentina and Chile, left Ecuador with about 200,000 square kilometres less than it had claimed. Ecuador repudiated the protocol in 1960.",
+      "wikipediaTitle": "Ecuadorian–Peruvian War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ecuadorian%E2%80%93Peruvian_War"
+      ]
+    },
+    {
+      "id": "ECU-texaco-amazon",
+      "title": "Texaco in the Amazon",
+      "startYear": 1964,
+      "endYear": 1992,
+      "exploiter": {
+        "label": "Texaco"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "oil",
+        "land"
+      ],
+      "hints": [
+        "A US oil company began drilling in the north-east rainforest in the 1960s.",
+        "Waste pits and spilled crude polluted rivers used by Indigenous and settler communities.",
+        "Decades of litigation followed over the contamination."
+      ],
+      "summary": "Texaco began oil production in the Ecuadorian Amazon in 1964 and operated the main consortium until 1992. Waste pits and spills left widespread contamination, leading to decades of litigation, including a 2011 judgment that was later disputed internationally.",
+      "wikipediaTitle": "Lago Agrio oil field",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lago_Agrio_oil_field"
+      ]
+    }
+  ]
+}

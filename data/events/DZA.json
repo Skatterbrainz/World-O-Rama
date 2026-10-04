@@ -1,0 +1,183 @@
+{
+  "country": "DZA",
+  "events": [
+    {
+      "id": "DZA-ottoman-regency",
+      "title": "Ottoman Regency of Algiers",
+      "startYear": 1516,
+      "endYear": 1830,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "trade_routes",
+        "grain"
+      ],
+      "territoryNames": [
+        "the Regency of Algiers"
+      ],
+      "hints": [
+        "Corsair brothers took the port in 1516 and placed it under the sultan's protection.",
+        "The coastal state ran a navy that raided Mediterranean shipping and took captives.",
+        "The janissary-led regency lasted until the French landed in 1830."
+      ],
+      "summary": "Barbarossa brothers took Algiers in 1516 and Ottoman suzerainty followed. The Regency of Algiers taxed the interior, exported grain and raided Mediterranean shipping, taking thousands of captives. It ended with the French invasion of 1830.",
+      "wikipediaTitle": "Regency of Algiers",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Regency_of_Algiers"
+      ]
+    },
+    {
+      "id": "DZA-french-conquest",
+      "title": "French conquest",
+      "startYear": 1830,
+      "endYear": 1847,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "grain"
+      ],
+      "hints": [
+        "A diplomatic insult over a fly whisk was the pretext for an 1830 landing.",
+        "The army used scorched-earth tactics, including smoking out villagers sheltering in caves.",
+        "Emir Abdelkader surrendered in 1847 after 15 years of resistance."
+      ],
+      "summary": "France invaded in 1830 and fought the emir Abdelkader for 15 years. Marshal Bugeaud's campaigns used scorched-earth methods, destroying crops and villages, and in the enfumades of 1844-1845 villagers sheltering in caves were suffocated. Abdelkader surrendered in 1847.",
+      "sensitive": true,
+      "wikipediaTitle": "French conquest of Algeria",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_conquest_of_Algeria"
+      ]
+    },
+    {
+      "id": "DZA-french-algeria",
+      "title": "French Algeria and the settler colony",
+      "startYear": 1848,
+      "endYear": 1962,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "grain",
+        "oil"
+      ],
+      "territoryNames": [
+        "French Algeria"
+      ],
+      "hints": [
+        "In 1848 the territory was declared an integral part of the metropolitan state, divided into departments.",
+        "Millions of hectares of the best farmland passed to European settlers, while Muslims lived under a discriminatory legal code.",
+        "Oil was discovered in the Sahara in 1956, shortly before independence."
+      ],
+      "summary": "From 1848 France treated the conquered territory as departments of the republic. European settlers took vast areas of fertile land, and the majority Muslim population lived under the discriminatory indigénat code until 1944. Oil and gas discoveries in the Sahara came in the 1950s.",
+      "sensitive": true,
+      "wikipediaTitle": "French Algeria",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Algeria"
+      ]
+    },
+    {
+      "id": "DZA-setif-massacre",
+      "title": "Sétif and Guelma massacres",
+      "startYear": 1945,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "On the day Germany surrendered in 1945, a nationalist march met police gunfire in a market town.",
+        "Riots killed about a hundred settlers, and retaliation by the army and militias followed.",
+        "Estimates of deaths among the local population run from 6,000 to 45,000."
+      ],
+      "summary": "On 8 May 1945 nationalist demonstrations in Sétif turned violent, and about 100 Europeans were killed in the riots. French forces and settler militias then killed thousands in reprisals. Estimates of Algerian deaths range from about 6,000 to 45,000.",
+      "sensitive": true,
+      "wikipediaTitle": "Sétif and Guelma massacre",
+      "sources": [
+        "https://en.wikipedia.org/wiki/S%C3%A9tif_and_Guelma_massacre"
+      ]
+    },
+    {
+      "id": "DZA-war-of-independence",
+      "title": "War of independence",
+      "startYear": 1954,
+      "endYear": 1962,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "oil"
+      ],
+      "hints": [
+        "An uprising began in November 1954, and the state responded with massive troop deployments.",
+        "The army used torture, collective punishment and relocation camps.",
+        "A 1962 referendum led to independence, and estimates of the death toll vary from about 300,000 to over a million."
+      ],
+      "summary": "A National Liberation Front uprising in November 1954 became a war of independence. France deployed about 400,000 troops, used systematic torture and resettled over two million villagers. The war ended with the 1962 Évian Accords, and estimates of the death toll vary widely.",
+      "sensitive": true,
+      "wikipediaTitle": "Algerian War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Algerian_War"
+      ]
+    },
+    {
+      "id": "DZA-sahara-nuclear-tests",
+      "title": "French nuclear tests in the Sahara",
+      "startYear": 1960,
+      "endYear": 1966,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "In February 1960 a bomb four times more powerful than Hiroshima was detonated in a desert region.",
+        "Tests continued after the country's independence under a secret clause of the 1962 accords.",
+        "Underground tests until 1966 left contamination, and its effects are still disputed."
+      ],
+      "summary": "France exploded its first nuclear bomb at Reggane in February 1960, and carried out a series of atmospheric and underground tests in the Sahara. Tests at In Ekker continued until 1966 under clauses of the Évian Accords. Radioactive contamination and health effects remain disputed.",
+      "wikipediaTitle": "Gerboise Bleue (nuclear test)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gerboise_Bleue_(nuclear_test)"
+      ]
+    },
+    {
+      "id": "DZA-spanish-oran",
+      "title": "Spanish Oran",
+      "startYear": 1509,
+      "endYear": 1792,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "occupation",
+      "resources": [
+        "trade_routes",
+        "strategic_location"
+      ],
+      "hints": [
+        "A fleet led by a cardinal took the port in 1509 as part of a campaign on the North African coast.",
+        "The fortress city served as a Spanish military outpost for almost three centuries, with brief interruptions.",
+        "Spain left in 1792 after an earthquake and years of siege."
+      ],
+      "summary": "Spain captured Oran in 1509 under Cardinal Cisneros and used it and nearby Mers el-Kébir as military bases. Except for 1708-1732 under the Ottomans, it remained Spanish until a 1790 earthquake and pressure led to a withdrawal in 1792.",
+      "wikipediaTitle": "Oran",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Oran"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "country": "SPM",
+  "events": [
+    {
+      "id": "SPM-british-deportations",
+      "title": "British capture and deportation of the inhabitants",
+      "startYear": 1778,
+      "endYear": 1814,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "fish",
+        "land"
+      ],
+      "hints": [
+        "A small French fishing outpost off the coast of Newfoundland was captured twice during wars.",
+        "In 1778 the whole population was deported to France, and the settlement was burned.",
+        "A second deportation in 1793 sent more than a thousand people overseas."
+      ],
+      "summary": "Britain captured the islands in 1778 during the American Revolutionary War, deported the inhabitants to France and destroyed the settlements. Returned in 1783, they were seized again in 1793, the population was deported again, and the islands changed hands until 1814.",
+      "sensitive": true,
+      "wikipediaTitle": "Saint Pierre and Miquelon",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon"
+      ]
+    }
+  ]
+}

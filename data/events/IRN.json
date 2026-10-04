@@ -1,0 +1,203 @@
+{
+  "country": "IRN",
+  "events": [
+    {
+      "id": "IRN-alexander",
+      "title": "Alexander's conquest of the Achaemenid Empire",
+      "startYear": -334,
+      "endYear": -330,
+      "exploiter": {
+        "label": "Macedon"
+      },
+      "type": "occupation",
+      "resources": [
+        "gold",
+        "silver",
+        "tribute"
+      ],
+      "territoryNames": [
+        "the Achaemenid Empire"
+      ],
+      "hints": [
+        "A Macedonian king crossed into Asia in 334 BCE and defeated the Great King's armies in three major battles.",
+        "The ceremonial capital was burned in 330 BCE after its treasuries were emptied.",
+        "The last Achaemenid ruler was murdered by his own satrap that year."
+      ],
+      "summary": "Alexander the Great defeated Darius III at Issus and Gaugamela and entered the Persian heartland in 330 BCE. He seized the treasuries of Susa and Persepolis, which held vast quantities of gold and silver, and burned the palace at Persepolis. Darius was killed by his own satrap that summer.",
+      "sensitive": true,
+      "wikipediaTitle": "Alexander the Great",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alexander_the_Great"
+      ]
+    },
+    {
+      "id": "IRN-arab-conquest",
+      "title": "Muslim conquest of Persia",
+      "startYear": 633,
+      "endYear": 654,
+      "exploiter": {
+        "label": "the Rashidun Caliphate"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "hints": [
+        "An exhausted Sasanian empire faced armies from Arabia after 633.",
+        "Victories at al-Qadisiyyah and Nahavand opened the plateau.",
+        "The last Sasanian king was killed in 651, and the conquered paid a poll tax."
+      ],
+      "summary": "Arab Muslim armies attacked the Sasanian Empire from 633. After victories at al-Qadisiyyah around 636 and Nahavand in 642, they conquered the plateau, and the last king, Yazdegerd III, was killed in 651. Non-Muslims paid the jizya tax.",
+      "wikipediaTitle": "Muslim conquest of Persia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia"
+      ]
+    },
+    {
+      "id": "IRN-mongol-conquest",
+      "title": "Mongol conquest",
+      "startYear": 1219,
+      "endYear": 1258,
+      "exploiter": {
+        "label": "the Mongol Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "hints": [
+        "The killing of Mongol merchants and envoys provoked Genghis Khan's invasion in 1219.",
+        "Cities such as Nishapur and Merv were destroyed, and their populations massacred.",
+        "A grandson, Hulagu, completed the conquest in the 1250s and founded the Ilkhanate."
+      ],
+      "summary": "Genghis Khan's army invaded in 1219 after the killing of Mongol envoys and merchants. Cities of the north-east, including Merv and Nishapur, were destroyed with great loss of life, and Hulagu Khan's campaign in the 1250s completed the conquest and founded the Ilkhanate.",
+      "sensitive": true,
+      "wikipediaTitle": "Mongol invasion of the Khwarazmian Empire",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire"
+      ]
+    },
+    {
+      "id": "IRN-turkmenchay",
+      "title": "Treaties of Gulistan and Turkmenchay",
+      "startYear": 1813,
+      "endYear": 1828,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "tribute",
+        "land",
+        "trade_routes"
+      ],
+      "hints": [
+        "After two losing wars, a shah signed away the Caucasus provinces.",
+        "An 1828 treaty added a huge indemnity and extraterritorial rights for foreign subjects.",
+        "The Arax River became the northern frontier."
+      ],
+      "summary": "After defeats in the Russo-Persian wars, Qajar Persia ceded its Caucasian territories by the 1813 Treaty of Gulistan. The 1828 Treaty of Turkmenchay added the khanates of Erivan and Nakhichevan, a 20 million ruble indemnity and capitulatory rights for Russian subjects.",
+      "wikipediaTitle": "Treaty of Turkmenchay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaty_of_Turkmenchay"
+      ]
+    },
+    {
+      "id": "IRN-darcy-concession",
+      "title": "D'Arcy oil concession",
+      "startYear": 1901,
+      "endYear": 1933,
+      "exploiter": {
+        "label": "the Anglo-Persian Oil Company"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "oil"
+      ],
+      "hints": [
+        "In 1901 a British investor obtained exclusive rights to search for oil across most of the country for 60 years.",
+        "Oil was struck in 1908 at Masjed Soleyman.",
+        "A new agreement in 1933 replaced the concession after a dispute over royalties."
+      ],
+      "summary": "William Knox D'Arcy won a 60-year concession in 1901 for oil exploration across most of the country in return for £20,000 and a 16 percent share of profits. Oil was struck in May 1908, and the Anglo-Persian Oil Company was founded in 1909. A new concession replaced it in 1933.",
+      "wikipediaTitle": "Anglo-Persian Oil Company",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anglo-Persian_Oil_Company"
+      ]
+    },
+    {
+      "id": "IRN-anglo-russian-1907",
+      "title": "Anglo-Russian Convention and spheres of influence",
+      "startYear": 1907,
+      "endYear": 1917,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "oil",
+        "trade_routes",
+        "strategic_location"
+      ],
+      "hints": [
+        "In 1907 two empires divided a third country into northern and southern zones of influence without consulting it.",
+        "A neutral buffer zone lay in between.",
+        "Occupation by both powers during the First World War followed."
+      ],
+      "summary": "The 1907 Anglo-Russian Convention divided Persia into a Russian sphere in the north, a British sphere in the south-east and a neutral zone in between, without consulting Persian authorities. Troops of both powers later occupied large areas during the First World War.",
+      "wikipediaTitle": "Anglo-Russian Convention",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anglo-Russian_Convention"
+      ]
+    },
+    {
+      "id": "IRN-anglo-soviet-invasion",
+      "title": "Anglo-Soviet invasion and occupation",
+      "startYear": 1941,
+      "endYear": 1946,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "occupation",
+      "resources": [
+        "oil",
+        "strategic_location"
+      ],
+      "hints": [
+        "In August 1941 British and Soviet armies invaded to secure oil and a supply route.",
+        "The ruling shah was forced to abdicate in favour of his son.",
+        "Soviet forces stayed on in the north-west after the war until 1946."
+      ],
+      "summary": "In August 1941 Britain and the Soviet Union invaded to secure the oil fields and a supply corridor to the USSR. Reza Shah abdicated in favour of his son. Soviet troops stayed in Iranian Azerbaijan after the war, leaving in May 1946 under UN and US pressure.",
+      "wikipediaTitle": "Anglo-Soviet invasion of Iran",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anglo-Soviet_invasion_of_Iran"
+      ]
+    },
+    {
+      "id": "IRN-1953-coup",
+      "title": "1953 coup against Mosaddegh",
+      "startYear": 1953,
+      "endYear": 1953,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "puppet_regime",
+      "resources": [
+        "oil"
+      ],
+      "hints": [
+        "An elected prime minister nationalised a British-owned oil company in 1951.",
+        "Britain and the CIA planned a covert operation that August.",
+        "The shah was reinstated with expanded powers after a few days of street fighting."
+      ],
+      "summary": "After Prime Minister Mohammad Mosaddegh nationalised the Anglo-Iranian Oil Company in 1951, Britain and the United States organised a covert operation, called TPAJAX, in August 1953. Mosaddegh was removed and Shah Mohammad Reza Pahlavi was restored, with a new oil consortium following in 1954.",
+      "wikipediaTitle": "1953 Iranian coup d'état",
+      "sources": [
+        "https://en.wikipedia.org/wiki/1953_Iranian_coup_d'%C3%A9tat"
+      ]
+    }
+  ]
+}

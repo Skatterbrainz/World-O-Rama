@@ -1,0 +1,82 @@
+{
+  "country": "ARE",
+  "events": [
+    {
+      "id": "ARE-portuguese-gulf",
+      "title": "Portuguese raids on the Gulf coast",
+      "startYear": 1507,
+      "endYear": 1650,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "occupation",
+      "resources": [
+        "pearls",
+        "trade_routes"
+      ],
+      "hints": [
+        "In 1507 a fleet led by an admiral from the west sacked the ports of the southern Gulf coast.",
+        "Portugal built a fortress at the foot of the mountains on the east coast.",
+        "The Portuguese lost control of the region over the following decades."
+      ],
+      "summary": "Portugal first appeared in the Gulf in 1507 with Afonso de Albuquerque's expedition and controlled coastal trade from Hormuz. It built forts such as Khor Fakkan and took control of Julfar's trade before its influence declined by the mid-17th century.",
+      "wikipediaTitle": "History of the United Arab Emirates",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_the_United_Arab_Emirates"
+      ]
+    },
+    {
+      "id": "ARE-trucial-states",
+      "title": "Trucial States",
+      "startYear": 1820,
+      "endYear": 1971,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "pearls",
+        "oil",
+        "strategic_location"
+      ],
+      "territoryNames": [
+        "the Trucial States",
+        "the Pirate Coast"
+      ],
+      "hints": [
+        "In 1820 sheikhs along the Pirate Coast signed a general treaty with a naval power.",
+        "A Perpetual Maritime Truce in 1853 and an Exclusive Agreement in 1892 tied their foreign affairs to Britain.",
+        "A British withdrawal from east of Suez in 1971 led to the creation of a federation."
+      ],
+      "summary": "Britain signed the 1820 General Maritime Treaty with the sheikhdoms of the Pirate Coast, followed by the 1853 Perpetual Maritime Truce and the 1892 Exclusive Agreement. The sheikhdoms became known as the Trucial States and gained independence as a federation in December 1971.",
+      "wikipediaTitle": "Trucial States",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Trucial_States"
+      ]
+    },
+    {
+      "id": "ARE-tunb-seizure",
+      "title": "Iranian seizure of the Tunbs and Abu Musa",
+      "startYear": 1971,
+      "endYear": 2025,
+      "exploiter": {
+        "label": "Iran"
+      },
+      "type": "occupation",
+      "resources": [
+        "strategic_location",
+        "oil"
+      ],
+      "hints": [
+        "Two days before the federation formed in 1971, forces from across the Gulf landed on strategic islands.",
+        "The islands sit near the Strait of Hormuz, and ownership is still disputed.",
+        "Negotiations and arbitration offers have not resolved the dispute."
+      ],
+      "summary": "On 30 November 1971, two days before the federation of seven emirates was established, Iranian forces took Greater and Lesser Tunb and occupied part of Abu Musa. The United Arab Emirates claims the islands and calls for arbitration, while Iran rejects this.",
+      "wikipediaTitle": "Abu Musa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Abu_Musa"
+      ]
+    }
+  ]
+}

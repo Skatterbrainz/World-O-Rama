@@ -1,0 +1,82 @@
+{
+  "country": "PRY",
+  "events": [
+    {
+      "id": "PRY-spanish-paraguay",
+      "title": "Spanish Asunción and the encomienda",
+      "startYear": 1537,
+      "endYear": 1811,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "labour",
+        "land",
+        "livestock"
+      ],
+      "territoryNames": [
+        "the Governorate of Paraguay"
+      ],
+      "hints": [
+        "An expedition from the Río de la Plata founded a fortress city on the river in 1537.",
+        "Guaraní communities were distributed among settlers in a labour system, and many Guaraní women formed unions with Spaniards.",
+        "Jesuit missions later organised many Guaraní in planned towns."
+      ],
+      "summary": "Spaniards founded Asunción in 1537 as a fort on the Paraguay River. Settlers received Guaraní labour under the encomienda system, and Jesuit missions in the 17th and 18th centuries organised thousands more in planned towns. Independence was declared in 1811.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Paraguay",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Paraguay"
+      ]
+    },
+    {
+      "id": "PRY-triple-alliance",
+      "title": "War of the Triple Alliance and occupation",
+      "startYear": 1864,
+      "endYear": 1876,
+      "exploiter": {
+        "label": "Brazil"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "Three larger neighbours allied in 1865 against a small landlocked republic.",
+        "The fighting lasted until 1870, and the president was killed in the last battle.",
+        "A very large share of the population died, and allied troops stayed for years."
+      ],
+      "summary": "Brazil, Argentina and Uruguay fought the country from 1864 to 1870. The war devastated the population, with estimates of losses ranging widely, and Brazilian troops remained until 1876. The country lost about 40,000 square kilometres of territory to Brazil and Argentina.",
+      "sensitive": true,
+      "wikipediaTitle": "Paraguayan War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Paraguayan_War"
+      ]
+    },
+    {
+      "id": "PRY-stroessner-us-support",
+      "title": "US backing of the Stroessner dictatorship",
+      "startYear": 1954,
+      "endYear": 1989,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "other",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A general took power in a 1954 coup and ruled for 35 years.",
+        "Washington gave aid and training as a Cold War ally.",
+        "The regime took part in Operation Condor, a cross-border campaign of repression."
+      ],
+      "summary": "General Alfredo Stroessner ruled from 1954 to 1989. The United States provided aid and military training as part of its anti-communist policy, and the government took part in Operation Condor, the transnational campaign of repression among South American dictatorships.",
+      "sensitive": true,
+      "wikipediaTitle": "Alfredo Stroessner",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alfredo_Stroessner"
+      ]
+    }
+  ]
+}

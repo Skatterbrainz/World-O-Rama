@@ -6,49 +6,205 @@
       "title": "Ottoman rule",
       "startYear": 1517,
       "endYear": 1805,
-      "exploiter": { "label": "the Ottoman Empire" },
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
       "type": "colonization",
-      "resources": ["grain", "tribute"],
-      "territoryNames": ["Ottoman Egypt"],
+      "resources": [
+        "grain",
+        "tribute"
+      ],
+      "territoryNames": [
+        "Ottoman Egypt"
+      ],
       "hints": [
         "Conquered in 1517 after the defeat of the Mamluk sultanate.",
         "Grain from the Nile valley was shipped annually to feed holy cities and the imperial capital."
       ],
       "summary": "The Ottomans conquered the territory in 1517 and ruled it as a province, taking annual tribute and large grain shipments. Local Mamluk households kept considerable power until Muhammad Ali became governor in 1805.",
       "wikipediaTitle": "Ottoman Egypt",
-      "sources": ["https://en.wikipedia.org/wiki/Ottoman_Egypt"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ottoman_Egypt"
+      ]
     },
     {
       "id": "EGY-french-expedition",
       "title": "French campaign",
       "startYear": 1798,
       "endYear": 1801,
-      "exploiter": { "label": "France" },
+      "exploiter": {
+        "label": "France"
+      },
       "type": "occupation",
-      "resources": ["strategic_location", "grain"],
+      "resources": [
+        "strategic_location",
+        "grain"
+      ],
       "hints": [
         "An army arrived in 1798 together with a team of scholars.",
         "A stone found by soldiers in 1799 later helped decipher hieroglyphs."
       ],
       "summary": "Napoleon Bonaparte's army landed in 1798 to threaten British routes to the east. French forces were defeated and withdrew in 1801, but the expedition's scholars produced the Description de l'Égypte and the Rosetta Stone was discovered in 1799.",
       "wikipediaTitle": "French campaign in Egypt and Syria",
-      "sources": ["https://en.wikipedia.org/wiki/French_campaign_in_Egypt_and_Syria"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_campaign_in_Egypt_and_Syria"
+      ]
     },
     {
       "id": "EGY-british-occupation",
       "title": "British occupation of the Nile valley",
       "startYear": 1882,
       "endYear": 1956,
-      "exploiter": { "label": "the British Empire" },
+      "exploiter": {
+        "label": "the British Empire"
+      },
       "type": "occupation",
-      "resources": ["cotton", "trade_routes", "strategic_location"],
+      "resources": [
+        "cotton",
+        "trade_routes",
+        "strategic_location"
+      ],
       "hints": [
         "A debt crisis and a nationalist revolt in 1882 brought an invasion fleet.",
         "Cotton and a famous canal made it a prize."
       ],
       "summary": "After a financial crisis and the Urabi revolt, British forces seized control in 1882 to protect the Suez Canal and the cotton economy. Britain remained the effective power, through a protectorate from 1914 and troop presence, until the last troops left in 1956.",
       "wikipediaTitle": "British occupation of Egypt",
-      "sources": ["https://en.wikipedia.org/wiki/British_occupation_of_Egypt"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/British_occupation_of_Egypt"
+      ]
+    },
+    {
+      "id": "EGY-persian-conquest",
+      "title": "Persian conquest and rule",
+      "startYear": -525,
+      "endYear": -332,
+      "exploiter": {
+        "label": "the Achaemenid Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "grain"
+      ],
+      "territoryNames": [
+        "Achaemenid Egypt"
+      ],
+      "hints": [
+        "A Persian king defeated the pharaoh at Pelusium in 525 BCE.",
+        "The land became a satrapy that paid tribute in silver and grain.",
+        "Native dynasties briefly regained independence between 404 and 343 BCE before a second Persian conquest."
+      ],
+      "summary": "Cambyses II defeated Psamtik III at the Battle of Pelusium in 525 BCE and made the country a satrapy of the Achaemenid Empire. After a period of independence from 404 to 343 BCE, Persian rule resumed until Alexander the Great arrived in 332 BCE.",
+      "wikipediaTitle": "Achaemenid Egypt",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Achaemenid_Egypt"
+      ]
+    },
+    {
+      "id": "EGY-roman-granary",
+      "title": "Roman province and the empire's granary",
+      "startYear": -30,
+      "endYear": 641,
+      "exploiter": {
+        "label": "the Roman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "grain",
+        "tribute",
+        "slaves"
+      ],
+      "territoryNames": [
+        "Roman Egypt",
+        "Aegyptus"
+      ],
+      "hints": [
+        "After the defeat of Antony and Cleopatra in 30 BCE, the last Hellenistic kingdom became the emperor's personal domain.",
+        "Millions of bushels of grain were shipped annually to feed the capital.",
+        "Senators were forbidden to enter without the emperor's permission."
+      ],
+      "summary": "Octavian annexed the country after Cleopatra's death in 30 BCE and ruled it as a personal possession of the emperor. Grain shipments from the Nile valley fed the city of Rome, and the province remained under Rome and then Byzantium until the Arab conquest of 641.",
+      "wikipediaTitle": "Roman Egypt",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Roman_Egypt"
+      ]
+    },
+    {
+      "id": "EGY-suez-canal-corvee",
+      "title": "Suez Canal construction labour",
+      "startYear": 1859,
+      "endYear": 1869,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "labour",
+        "trade_routes"
+      ],
+      "hints": [
+        "A French diplomat obtained a concession in 1854 to dig a canal between two seas.",
+        "Tens of thousands of peasants were conscripted under the corvée to dig in the early years.",
+        "Mass forced labour ended after international pressure in 1863, and the canal opened in 1869."
+      ],
+      "summary": "The Suez Canal Company, led by Ferdinand de Lesseps, began digging in 1859 using peasants conscripted under the corvée, often tens of thousands at a time. International pressure and a ruling by Napoleon III in 1864 ended forced labour, and the canal opened in November 1869.",
+      "sensitive": true,
+      "wikipediaTitle": "Suez Canal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Suez_Canal"
+      ]
+    },
+    {
+      "id": "EGY-dual-control",
+      "title": "Anglo-French financial control",
+      "startYear": 1876,
+      "endYear": 1882,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "tribute",
+        "cotton",
+        "trade_routes"
+      ],
+      "hints": [
+        "After a bankruptcy in 1876, European creditors took over the national budget.",
+        "British and French controllers sat in the cabinet and ran the Caisse de la Dette.",
+        "The Khedive Ismail was deposed in 1879, and the control provoked the Urabi revolt."
+      ],
+      "summary": "After Khedive Ismail's bankruptcy in 1876, Britain and France imposed financial controllers on the government and a debt commission to pay creditors. The arrangement fuelled the 1881-1882 Urabi revolt that preceded the British invasion.",
+      "quip": "Creditors in the cabinet: the original austerity package.",
+      "wikipediaTitle": "Ismail Pasha",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ismail_Pasha"
+      ]
+    },
+    {
+      "id": "EGY-suez-crisis",
+      "title": "Suez Crisis",
+      "startYear": 1956,
+      "endYear": 1956,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "trade_routes",
+        "strategic_location"
+      ],
+      "hints": [
+        "After the canal company was nationalised in July 1956, a secret plan was made in a Paris suburb.",
+        "British, French and Israeli forces attacked in late October and took part of the canal zone.",
+        "US and Soviet pressure forced a withdrawal within weeks."
+      ],
+      "summary": "Gamal Abdel Nasser nationalised the Suez Canal Company in July 1956. Britain, France and Israel agreed secretly at Sèvres to attack, and invaded in late October and early November. UN, US and Soviet pressure forced them to withdraw, a humiliation for Britain and France.",
+      "quip": "The last gasp of old gunboat diplomacy ended when Washington refused to pay for the gunboats.",
+      "wikipediaTitle": "Suez Crisis",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Suez_Crisis"
+      ]
     }
   ]
 }

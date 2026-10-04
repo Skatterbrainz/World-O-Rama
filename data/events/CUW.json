@@ -1,0 +1,86 @@
+{
+  "country": "CUW",
+  "events": [
+    {
+      "id": "CUW-spanish-islas-inutiles",
+      "title": "Spanish deportation of the Caquetío",
+      "startYear": 1499,
+      "endYear": 1634,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "livestock"
+      ],
+      "territoryNames": [
+        "Spanish Curaçao"
+      ],
+      "hints": [
+        "A 1499 expedition labelled this island and two neighbours worthless for mining.",
+        "Many of its Caquetío residents were taken to Hispaniola as forced labour in 1515.",
+        "Spain lost the island to a Dutch fleet in 1634."
+      ],
+      "summary": "Spanish expeditions reached the island in 1499. Many Caquetío inhabitants were deported as forced labour to Hispaniola from 1515, and the island was used for ranching. A Dutch West India Company fleet captured it in 1634.",
+      "sensitive": true,
+      "wikipediaTitle": "Curaçao",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cura%C3%A7ao"
+      ]
+    },
+    {
+      "id": "CUW-slave-depot",
+      "title": "Dutch slave depot and salt pans",
+      "startYear": 1634,
+      "endYear": 1863,
+      "exploiter": {
+        "label": "the Netherlands"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "salt",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "Dutch Curaçao"
+      ],
+      "hints": [
+        "A trading company took the island in 1634 and made its deep harbour a hub.",
+        "It became a major depot where enslaved Africans were held and resold across the Caribbean and the Spanish Main.",
+        "Slavery in this Dutch colony was abolished in 1863."
+      ],
+      "summary": "The Dutch West India Company took Curaçao in 1634. Its harbour became a major centre for the trade in enslaved Africans, who were held there and resold to plantations around the Caribbean. Slavery was abolished in 1863.",
+      "sensitive": true,
+      "wikipediaTitle": "Dutch slave trade",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dutch_slave_trade"
+      ]
+    },
+    {
+      "id": "CUW-british-occupation",
+      "title": "British occupation",
+      "startYear": 1807,
+      "endYear": 1816,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "trade_routes",
+        "strategic_location"
+      ],
+      "hints": [
+        "In December 1807 a British frigate squadron seized the island's harbour in a surprise attack.",
+        "It served as a base for British trade with the Spanish Main.",
+        "It was returned to the Netherlands in 1816."
+      ],
+      "summary": "British naval forces captured the island in December 1807 during the Napoleonic Wars. They used its harbour as a trading and naval base and returned it to the Netherlands in 1816 after the Anglo-Dutch Treaty of 1814.",
+      "wikipediaTitle": "Curaçao",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cura%C3%A7ao"
+      ]
+    }
+  ]
+}

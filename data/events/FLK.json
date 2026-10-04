@@ -1,0 +1,107 @@
+{
+  "country": "FLK",
+  "events": [
+    {
+      "id": "FLK-spanish-soledad",
+      "title": "French and Spanish settlement of the islands",
+      "startYear": 1764,
+      "endYear": 1811,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "strategic_location"
+      ],
+      "territoryNames": [
+        "Spanish Malvinas"
+      ],
+      "hints": [
+        "A French navigator founded a settlement in 1764, and a British one followed on another island in 1765.",
+        "Spain bought the French claim in 1767 and forced out the British in 1770.",
+        "Spain withdrew its garrison in 1811 during the wars of independence."
+      ],
+      "summary": "Louis-Antoine de Bougainville settled East Falkland in 1764, and Britain founded Port Egmont in 1765. Spain acquired the French settlement in 1767 and expelled the British in 1770, a crisis that nearly led to war. Spain withdrew in 1811.",
+      "wikipediaTitle": "History of the Falkland Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_the_Falkland_Islands"
+      ]
+    },
+    {
+      "id": "FLK-british-reassertion-1833",
+      "title": "British reassertion of control",
+      "startYear": 1833,
+      "endYear": 1833,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "strategic_location",
+        "land"
+      ],
+      "hints": [
+        "In January 1833 a Royal Navy ship arrived and ordered a South American garrison to leave.",
+        "A rival claimant to the islands has never accepted the change.",
+        "The dispute over sovereignty continues."
+      ],
+      "summary": "In January 1833 HMS Clio arrived at Port Louis and told the small Argentine garrison to leave. Britain has administered the islands since, while Argentina regards the event as an illegal seizure and still claims sovereignty.",
+      "quip": "Britain: finders keepers. Argentina: that was never a finding.",
+      "wikipediaTitle": "Falkland Islands sovereignty dispute",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Falkland_Islands_sovereignty_dispute"
+      ]
+    },
+    {
+      "id": "FLK-island-company",
+      "title": "Falkland Islands Company and the wool economy",
+      "startYear": 1851,
+      "endYear": 1990,
+      "exploiter": {
+        "label": "the Falkland Islands Company"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "wool",
+        "land",
+        "labour"
+      ],
+      "hints": [
+        "A chartered London company took over the main settlement in 1851 and bought up huge sheep farms.",
+        "At one time it owned a very large share of the land and ran the main store.",
+        "Land reform from the 1980s broke up the large estates."
+      ],
+      "summary": "The Falkland Islands Company, founded in 1851, became the dominant landowner, employer and trader, running sheep farms for wool export. Farm workers often lived in tied settlements, and land reform and subdivision of farms from the 1980s reduced the company's hold.",
+      "wikipediaTitle": "Falkland Islands Company",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Falkland_Islands_Company"
+      ]
+    },
+    {
+      "id": "FLK-argentine-occupation",
+      "title": "Argentine invasion and occupation",
+      "startYear": 1982,
+      "endYear": 1982,
+      "exploiter": {
+        "label": "Argentina"
+      },
+      "type": "occupation",
+      "resources": [
+        "land",
+        "strategic_location"
+      ],
+      "hints": [
+        "On 2 April 1982 a South American military junta landed troops to claim the islands.",
+        "The occupation lasted about ten weeks and prompted a British task force.",
+        "It ended with surrender on 14 June 1982 after fighting that killed about 900 people."
+      ],
+      "summary": "On 2 April 1982 Argentina's military government invaded and occupied the islands. Britain sent a naval task force, and the Argentine garrison surrendered on 14 June. The war killed about 900 people and contributed to the junta's fall.",
+      "sensitive": true,
+      "wikipediaTitle": "Falklands War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Falklands_War"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "country": "LBY",
+  "events": [
+    {
+      "id": "LBY-ottoman-tripolitania",
+      "title": "Ottoman Tripolitania",
+      "startYear": 1551,
+      "endYear": 1911,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "trade_routes",
+        "slaves"
+      ],
+      "territoryNames": [
+        "Ottoman Tripolitania",
+        "the Vilayet of Tripolitania"
+      ],
+      "hints": [
+        "The Knights of Malta lost the port to an Ottoman fleet in 1551.",
+        "Local dynasties and corsairs ran the coast, and caravans carried captives and gold from the south.",
+        "Direct Ottoman rule was reimposed in 1835."
+      ],
+      "summary": "The Ottomans captured Tripoli from the Knights of St John in 1551. The Karamanli dynasty ruled semi-independently from 1711 until the Ottomans reimposed direct control in 1835. Ottoman rule lasted until Italy invaded in 1911.",
+      "wikipediaTitle": "Ottoman Tripolitania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ottoman_Tripolitania"
+      ]
+    },
+    {
+      "id": "LBY-italian-libya",
+      "title": "Italian invasion and colony",
+      "startYear": 1911,
+      "endYear": 1943,
+      "exploiter": {
+        "label": "Italy"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "oil",
+        "grain"
+      ],
+      "territoryNames": [
+        "Italian Libya",
+        "Italian Tripolitania",
+        "Italian Cyrenaica"
+      ],
+      "hints": [
+        "In September 1911 Italy declared war on the Ottomans and sent an expeditionary force to the coast.",
+        "Resistance in the east, led by Omar al-Mukhtar, lasted until 1931.",
+        "From 1938 tens of thousands of settlers were shipped to farm the coastal plain."
+      ],
+      "summary": "Italy invaded in 1911, and the Ottomans ceded the country in 1912. The colonial state combined Tripolitania and Cyrenaica as Italian Libya in 1934. Resistance was suppressed by brutal campaigns, and from 1938 tens of thousands of Italian settlers were brought in.",
+      "sensitive": true,
+      "wikipediaTitle": "Italian Libya",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Italian_Libya"
+      ]
+    },
+    {
+      "id": "LBY-cyrenaica-camps",
+      "title": "Italian concentration camps in Cyrenaica",
+      "startYear": 1929,
+      "endYear": 1934,
+      "exploiter": {
+        "label": "Italy"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "livestock"
+      ],
+      "hints": [
+        "To crush a guerrilla war, an army of occupation forced an entire eastern population into camps.",
+        "Disease, hunger and executions killed tens of thousands of people.",
+        "The resistance leader Omar al-Mukhtar was hanged in September 1931."
+      ],
+      "summary": "Between 1929 and 1934 Italian forces interned most of the rural population of Cyrenaica, around 100,000 people, in concentration camps to cut off the resistance. Disease, hunger and executions killed an estimated 40,000 or more. Omar al-Mukhtar was executed in 1931.",
+      "sensitive": true,
+      "wikipediaTitle": "Italian colonization of Libya",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Italian_colonization_of_Libya"
+      ]
+    },
+    {
+      "id": "LBY-wheelus",
+      "title": "Wheelus Air Base",
+      "startYear": 1954,
+      "endYear": 1970,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "strategic_location"
+      ],
+      "hints": [
+        "A large airfield near the capital, built by the Italians and expanded by the RAF, became a US strategic base.",
+        "The 1954 agreement gave Washington a long lease in exchange for aid.",
+        "A coup in 1969 led to its evacuation by June 1970."
+      ],
+      "summary": "The United States leased Wheelus Air Base near Tripoli under a 1954 agreement with the Libyan monarchy, using it for Strategic Air Command and training. After the 1969 coup, Colonel Gaddafi's government demanded evacuation, which was completed in June 1970.",
+      "wikipediaTitle": "Wheelus Air Base",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wheelus_Air_Base"
+      ]
+    }
+  ]
+}

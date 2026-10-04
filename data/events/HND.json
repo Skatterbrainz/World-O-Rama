@@ -1,0 +1,138 @@
+{
+  "country": "HND",
+  "events": [
+    {
+      "id": "HND-spanish-conquest",
+      "title": "Spanish conquest and the silver mines",
+      "startYear": 1524,
+      "endYear": 1821,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "silver",
+        "gold",
+        "slaves",
+        "land"
+      ],
+      "territoryNames": [
+        "Higueras",
+        "the Captaincy General of Guatemala"
+      ],
+      "hints": [
+        "Hernán Cortés's lieutenants arrived in the 1520s, and a Lenca leader named for a mountain led resistance in the 1530s.",
+        "Many Indigenous people were enslaved and shipped to Caribbean islands.",
+        "Silver mines near the later capital drew colonists in the 16th and 17th centuries."
+      ],
+      "summary": "Spanish expeditions entered in 1524, and the Lenca leader Lempira led a major revolt in the 1530s. Indigenous people were enslaved and exported, and later silver mining near Tegucigalpa became the main economic activity until independence in 1821.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Honduras",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Honduras"
+      ]
+    },
+    {
+      "id": "HND-british-mosquito-coast",
+      "title": "British Mosquito Coast protectorate and Bay Islands",
+      "startYear": 1740,
+      "endYear": 1860,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "timber",
+        "trade_routes",
+        "strategic_location"
+      ],
+      "territoryNames": [
+        "the Mosquito Coast",
+        "the Colony of the Bay Islands"
+      ],
+      "hints": [
+        "British traders allied with a coastal kingdom of Miskito people, giving them guns in return for trade and a base against Spain.",
+        "The Royal Navy used the Bay Islands as a base and a colony was declared there in 1852.",
+        "A treaty in 1859-1860 handed the islands back to the republic."
+      ],
+      "summary": "From 1740 Britain maintained a protectorate over the Miskito Kingdom on the Caribbean coast, mainly to harvest timber and challenge Spain. It declared a Colony of the Bay Islands in 1852 and ceded the islands and the coast by treaties in 1859 and 1860.",
+      "wikipediaTitle": "Mosquito Coast",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mosquito_Coast"
+      ]
+    },
+    {
+      "id": "HND-banana-republic",
+      "title": "Banana companies and the enclave economy",
+      "startYear": 1899,
+      "endYear": 1954,
+      "exploiter": {
+        "label": "the United Fruit Company"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "bananas",
+        "land",
+        "labour"
+      ],
+      "hints": [
+        "American fruit companies built railways and ports along the northern coast in exchange for huge land grants.",
+        "Writer O. Henry coined a famous term for such countries after visiting in 1904.",
+        "A general strike of banana workers paralysed the north coast in 1954."
+      ],
+      "summary": "From the 1890s US fruit companies, led by United Fruit, Standard Fruit and Cuyamel, acquired vast land concessions and built railways on the north coast. They dominated politics and the economy, and the 1954 banana strike was a landmark in labour history.",
+      "wikipediaTitle": "Banana republic",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Banana_republic"
+      ]
+    },
+    {
+      "id": "HND-fruit-interventions",
+      "title": "US landings to protect fruit interests",
+      "startYear": 1903,
+      "endYear": 1925,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "other",
+      "resources": [
+        "bananas",
+        "land"
+      ],
+      "hints": [
+        "American warships and marines landed repeatedly on the north coast in the early 20th century.",
+        "The interventions followed revolts and coups affecting fruit company property.",
+        "The Banana Wars is the name often given to this pattern across the region."
+      ],
+      "summary": "US forces landed in 1903, 1907, 1911, 1912, 1919, 1924 and 1925 during civil strife, to protect American lives and the property of fruit companies. The pattern is often grouped under the label Banana Wars.",
+      "wikipediaTitle": "Banana Wars",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Banana_Wars"
+      ]
+    },
+    {
+      "id": "HND-contra-base",
+      "title": "Base for the Contra war",
+      "startYear": 1981,
+      "endYear": 1990,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "proxy_war",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "In the 1980s a neighbouring country's government faced a US-backed insurgency operating from this territory.",
+        "Thousands of US troops carried out exercises and built airstrips and bases.",
+        "A CIA-trained army unit, Battalion 3-16, kidnapped and killed suspected dissidents."
+      ],
+      "summary": "During the 1980s the United States used the country as a base for the Contra war against Nicaragua's Sandinista government, building airstrips and holding large exercises. Battalion 3-16, trained by US advisers, was responsible for disappearances and killings.",
+      "sensitive": true,
+      "wikipediaTitle": "Contras",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Contras"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "country": "ARG",
+  "events": [
+    {
+      "id": "ARG-viceroyalty-rio-de-la-plata",
+      "title": "Viceroyalty of the Río de la Plata",
+      "startYear": 1516,
+      "endYear": 1810,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "silver",
+        "livestock",
+        "slaves",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Viceroyalty of the Río de la Plata"
+      ],
+      "hints": [
+        "A navigator reached the great estuary in 1516, and a new viceroyalty was created in 1776 to guard the southern frontier.",
+        "Silver from mountain mines in the north flowed out through the estuary port.",
+        "Hides and salted meat were exported, and enslaved Africans were landed at the main port."
+      ],
+      "summary": "Spain reached the Río de la Plata in 1516 and refounded Buenos Aires in 1580. The 1776 Viceroyalty of the Río de la Plata made the port the outlet for silver from Potosí, while hides and enslaved Africans passed through. The viceroyalty dissolved after the May Revolution of 1810.",
+      "sensitive": true,
+      "wikipediaTitle": "Viceroyalty of the Río de la Plata",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Viceroyalty_of_the_R%C3%ADo_de_la_Plata"
+      ]
+    },
+    {
+      "id": "ARG-british-invasions",
+      "title": "British invasions of the River Plate",
+      "startYear": 1806,
+      "endYear": 1807,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "trade_routes",
+        "silver"
+      ],
+      "hints": [
+        "A British naval force seized the capital of a Spanish viceroyalty in 1806, partly to capture a silver treasury.",
+        "Local militias drove it out, and a second larger invasion in 1807 also failed.",
+        "The victories helped build confidence for later independence."
+      ],
+      "summary": "In June 1806 a small British force under William Beresford captured Buenos Aires and seized the colonial treasury. Local militia expelled it within weeks, and a larger expedition in 1807 also failed. The episode encouraged local self-government.",
+      "quip": "Britain captured a viceroyalty with fewer than 2,000 men and failed to notice it would need to hold it.",
+      "wikipediaTitle": "British invasions of the River Plate",
+      "sources": [
+        "https://en.wikipedia.org/wiki/British_invasions_of_the_River_Plate"
+      ]
+    },
+    {
+      "id": "ARG-anglo-french-blockade",
+      "title": "Anglo-French blockade of the Río de la Plata",
+      "startYear": 1845,
+      "endYear": 1850,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [
+        "trade_routes"
+      ],
+      "hints": [
+        "In 1845 two European navies blockaded the river ports to force open inland rivers to their merchants.",
+        "The Battle of Vuelta de Obligado in November 1845 was fought against their warships.",
+        "They lifted the blockade in 1850 and recognised sovereignty over the rivers."
+      ],
+      "summary": "France and Britain blockaded Buenos Aires from 1845 to force the opening of the Paraná River to foreign shipping. The Battle of Vuelta de Obligado in November 1845 was a tactical success for the Anglo-French fleet, but the blockade failed commercially and ended in 1850 with recognition of national sovereignty over its rivers.",
+      "wikipediaTitle": "Anglo-French blockade of the Río de la Plata",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anglo-French_blockade_of_the_R%C3%ADo_de_la_Plata"
+      ]
+    },
+    {
+      "id": "ARG-conquest-of-the-desert",
+      "title": "Conquest of the Desert",
+      "startYear": 1878,
+      "endYear": 1885,
+      "exploiter": {
+        "label": "Argentina"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "livestock"
+      ],
+      "hints": [
+        "A military expansion in the late 1870s pushed the southern frontier to the Río Negro and beyond.",
+        "Mapuche, Tehuelche and other peoples were killed, displaced and in many cases forced into labour.",
+        "The conquered land was sold to a small group of estate owners for sheep and cattle."
+      ],
+      "summary": "Under General Julio Roca, the army campaigned from 1878 into Patagonia and the Pampas against Mapuche, Tehuelche and other Indigenous peoples. Thousands were killed or displaced, and captives were often separated and put to work. The land went mostly to a small number of large landowners.",
+      "sensitive": true,
+      "wikipediaTitle": "Conquest of the Desert",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Conquest_of_the_Desert"
+      ]
+    },
+    {
+      "id": "ARG-roca-runciman",
+      "title": "Roca-Runciman Treaty",
+      "startYear": 1933,
+      "endYear": 1936,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "livestock",
+        "trade_routes"
+      ],
+      "hints": [
+        "A 1933 trade treaty guaranteed a European buyer most of the country's chilled beef exports.",
+        "British-owned railways and meatpackers got favourable treatment in return.",
+        "Nationalists later called it a symbol of semi-colonial dependence."
+      ],
+      "summary": "The 1933 Roca-Runciman Treaty guaranteed Britain a fixed share of Argentine chilled beef exports and gave British companies favourable terms on railways and tariffs. Critics later cited it as a symbol of Argentina's dependence on Britain.",
+      "wikipediaTitle": "Roca–Runciman Treaty",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Roca%E2%80%93Runciman_Treaty"
+      ]
+    }
+  ]
+}

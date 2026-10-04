@@ -1,0 +1,85 @@
+{
+  "country": "DMA",
+  "events": [
+    {
+      "id": "DMA-french-settlement",
+      "title": "French settlement and coffee estates",
+      "startYear": 1690,
+      "endYear": 1763,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "coffee",
+        "land",
+        "slaves"
+      ],
+      "hints": [
+        "A mountainous Windward island was called a neutral Carib refuge by two rival European powers in 1748.",
+        "Woodcutters and planters from neighbouring Martinique moved in from the 1690s, clearing land for coffee.",
+        "It was handed to Britain at the end of the Seven Years' War in 1763."
+      ],
+      "summary": "French settlers from Martinique began cutting timber and planting coffee from the 1690s, pressing on the Kalinago people's lands. In 1748 France and Britain agreed to treat the island as neutral, but it passed to Britain in the 1763 Treaty of Paris.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Dominica",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Dominica"
+      ]
+    },
+    {
+      "id": "DMA-british-colony",
+      "title": "British colony and plantations",
+      "startYear": 1763,
+      "endYear": 1978,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "sugar",
+        "coffee",
+        "slaves"
+      ],
+      "territoryNames": [
+        "British Dominica"
+      ],
+      "hints": [
+        "Britain gained a mountainous Windward island in 1763 and sold off its land to planters.",
+        "Coffee and sugar estates relied on enslaved Africans until emancipation in the 1830s.",
+        "The Kalinago were left with a reserve on the east coast, and independence came in 1978."
+      ],
+      "summary": "Britain received the island in 1763 and sold land to planters who established sugar and coffee estates worked by enslaved Africans. The Kalinago were confined to a reserve on the east coast, and the colony became independent in 1978.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Dominica",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Dominica"
+      ]
+    },
+    {
+      "id": "DMA-french-capture-1778",
+      "title": "French capture and occupation",
+      "startYear": 1778,
+      "endYear": 1783,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [
+        "coffee",
+        "sugar",
+        "strategic_location"
+      ],
+      "hints": [
+        "In September 1778 a force from Martinique took the island in a surprise attack.",
+        "The occupiers kept it for five years and fortified its harbour.",
+        "It was returned to Britain by treaty in 1783."
+      ],
+      "summary": "During the American Revolutionary War, French forces from Martinique captured the island in September 1778 and held it until 1783, when the Treaty of Paris returned it to Britain.",
+      "wikipediaTitle": "Anglo-French War (1778–1783)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anglo-French_War_(1778%E2%80%931783)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "country": "AIA",
+  "events": [
+    {
+      "id": "AIA-english-colony",
+      "title": "English settlement and plantation colony",
+      "startYear": 1650,
+      "endYear": 1967,
+      "exploiter": {
+        "label": "England"
+      },
+      "type": "colonization",
+      "resources": [
+        "cotton",
+        "salt",
+        "slaves",
+        "land"
+      ],
+      "territoryNames": [
+        "Saint Christopher-Nevis-Anguilla"
+      ],
+      "hints": [
+        "English settlers arrived from a neighbouring island in 1650 and found it hard to grow sugar on its dry soil.",
+        "Cotton, salt and subsistence farming were worked by enslaved Africans.",
+        "It was lumped into a three-island association with larger neighbours in 1967."
+      ],
+      "summary": "English settlers arrived from Saint Kitts in 1650. The dry, flat island did not suit large sugar plantations, so cotton, salt and small farms were worked by enslaved Africans. In 1967 it was joined to Saint Kitts and Nevis in an association it resented.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Anguilla",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Anguilla"
+      ]
+    },
+    {
+      "id": "AIA-revolution-1969",
+      "title": "Anguillan Revolution and Operation Sheepskin",
+      "startYear": 1967,
+      "endYear": 1969,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "Islanders expelled the police of a larger partner state in 1967 and declared themselves a republic.",
+        "In March 1969 British paratroopers and police landed to restore order.",
+        "The islanders were allowed to return to direct British rule in 1971."
+      ],
+      "summary": "Anguillans rejected rule from Basseterre and expelled the Saint Kitts police in 1967. Britain landed about 300 paratroopers and London policemen in March 1969 in Operation Sheepskin. Direct British rule was restored in 1971, and Anguilla separated formally from Saint Kitts and Nevis in 1980.",
+      "quip": "Britain sent paratroopers and a police unit to an island of a few thousand and met a bemused press corps.",
+      "wikipediaTitle": "Operation Sheepskin",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Operation_Sheepskin"
+      ]
+    }
+  ]
+}
