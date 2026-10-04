@@ -1,0 +1,113 @@
+{
+  "country": "GEO",
+  "events": [
+    {
+      "id": "GEO-mongol-invasions",
+      "title": "Mongol invasions",
+      "startYear": 1220,
+      "endYear": 1243,
+      "exploiter": { "label": "the Mongol Empire" },
+      "type": "other",
+      "resources": ["tribute"],
+      "hints": [
+        "Scouting horsemen from the east defeated a kingdom's army in the 1220s.",
+        "The capital Tbilisi was taken in 1236.",
+        "The queen accepted vassalage and paid tribute."
+      ],
+      "summary": "Mongol raiders destroyed a Georgian army in 1221, and from 1236 a full invasion captured Tbilisi and much of the country. Queen Rusudan submitted in 1243, and the Georgian kingdoms paid tribute to the Mongol Empire and provided troops for decades.",
+      "sensitive": true,
+      "wikipediaTitle": "Mongol invasions of Georgia",
+      "sources": ["https://en.wikipedia.org/wiki/Mongol_invasions_of_Georgia"]
+    },
+    {
+      "id": "GEO-timurid-invasions",
+      "title": "Timurid invasions",
+      "startYear": 1386,
+      "endYear": 1403,
+      "exploiter": { "label": "Timur" },
+      "type": "other",
+      "resources": ["tribute"],
+      "hints": [
+        "A Central Asian conqueror launched several devastating campaigns in the Caucasus.",
+        "Tbilisi was captured in 1386 at the start of eight campaigns.",
+        "The kingdom was devastated and its king taken captive."
+      ],
+      "summary": "Between 1386 and 1403 Timur invaded the Caucasus eight times, capturing Tbilisi, taking King Bagrat V prisoner, plundering the countryside and deporting people. The kingdom was severely weakened and compelled to pay tribute.",
+      "sensitive": true,
+      "wikipediaTitle": "Timurid invasions of Georgia",
+      "sources": ["https://en.wikipedia.org/wiki/Timurid_invasions_of_Georgia"]
+    },
+    {
+      "id": "GEO-sack-of-tbilisi-1795",
+      "title": "Qajar sack of Tbilisi",
+      "startYear": 1795,
+      "endYear": 1795,
+      "exploiter": { "label": "Qajar Iran" },
+      "type": "other",
+      "resources": ["gold"],
+      "hints": [
+        "The new shah led an army to punish a king who had sworn allegiance to Russia.",
+        "The Battle of Krtsanisi was fought outside the capital in September 1795.",
+        "The city was burned and thousands were taken captive."
+      ],
+      "summary": "In September 1795 Agha Mohammad Khan Qajar defeated King Heraclius II at Krtsanisi and sacked Tbilisi, burning much of the city, killing thousands and taking many captives. Heraclius had placed his kingdom under Russian protection in 1783.",
+      "sensitive": true,
+      "wikipediaTitle": "Battle of Krtsanisi",
+      "sources": ["https://en.wikipedia.org/wiki/Battle_of_Krtsanisi"]
+    },
+    {
+      "id": "GEO-russian-annexation",
+      "title": "Russian annexation of Kartli-Kakheti",
+      "startYear": 1801,
+      "endYear": 1811,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "annexation",
+      "resources": ["land", "strategic_location"],
+      "territoryNames": ["the Kingdom of Kartli-Kakheti"],
+      "hints": [
+        "A protectorate agreement signed in 1783 became a full annexation in 1801.",
+        "The monarchy of the eastern kingdom was abolished by manifesto.",
+        "The ancient church lost its independence a decade later."
+      ],
+      "summary": "Russia, which had protected the Kingdom of Kartli-Kakheti under the Treaty of Georgievsk of 1783, abolished its monarchy and annexed it in 1801. The autocephaly of the Georgian church was abolished in 1811, and the western kingdoms were absorbed over the following decades.",
+      "wikipediaTitle": "Kingdom of Kartli-Kakheti",
+      "sources": ["https://en.wikipedia.org/wiki/Kingdom_of_Kartli-Kakheti"]
+    },
+    {
+      "id": "GEO-soviet-invasion-1921",
+      "title": "Soviet invasion",
+      "startYear": 1921,
+      "endYear": 1921,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "annexation",
+      "resources": [],
+      "territoryNames": ["the Transcaucasian SFSR"],
+      "hints": [
+        "The Red Army crossed the border in February 1921 to topple a social-democratic government.",
+        "The capital fell within a month.",
+        "A short-lived republic became part of a Transcaucasian federation."
+      ],
+      "summary": "In February 1921 the Red Army invaded the Democratic Republic of Georgia, then led by a social-democratic government, and captured Tbilisi on 25 February. The government went into exile, and the country was incorporated into the Soviet Union in 1922 as part of the Transcaucasian federation.",
+      "wikipediaTitle": "Soviet invasion of Georgia",
+      "sources": ["https://en.wikipedia.org/wiki/Soviet_invasion_of_Georgia"]
+    },
+    {
+      "id": "GEO-russo-georgian-war",
+      "title": "Russo-Georgian War and occupation of Abkhazia and South Ossetia",
+      "startYear": 2008,
+      "endYear": 2025,
+      "exploiter": { "label": "Russia" },
+      "type": "occupation",
+      "resources": ["strategic_location", "land"],
+      "hints": [
+        "A five-day war in August 2008 ended in the recognition of two breakaway regions.",
+        "Russian troops remain in Abkhazia and South Ossetia.",
+        "About a fifth of the country is outside the capital's control."
+      ],
+      "summary": "After a five-day war in August 2008, Russia recognised the independence of Abkhazia and South Ossetia, stationed troops and signed agreements for military bases. Most countries regard both regions, about a fifth of Georgian territory, as occupied by Russia.",
+      "sensitive": true,
+      "wikipediaTitle": "Russo-Georgian War",
+      "sources": ["https://en.wikipedia.org/wiki/Russo-Georgian_War"]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "country": "KAZ",
+  "events": [
+    {
+      "id": "KAZ-mongol-invasion",
+      "title": "Mongol invasion and the siege of Otrar",
+      "startYear": 1219,
+      "endYear": 1221,
+      "exploiter": { "label": "the Mongol Empire" },
+      "type": "other",
+      "resources": [],
+      "territoryNames": ["the Khwarazmian Empire"],
+      "hints": [
+        "The killing of a trading caravan on the Syr Darya triggered a world-changing war.",
+        "Its governor Inalchuq held out for months before the city fell and was razed.",
+        "Genghis Khan's armies went on to overrun the Khwarazmian lands."
+      ],
+      "summary": "In 1219 the governor of Otrar seized a Mongol trade caravan and executed its members, prompting Genghis Khan's invasion of the Khwarazmian Empire. Otrar was besieged for about five months before it fell and was destroyed in 1220.",
+      "sensitive": true,
+      "wikipediaTitle": "Mongol invasion of the Khwarazmian Empire",
+      "sources": ["https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire"]
+    },
+    {
+      "id": "KAZ-russian-conquest",
+      "title": "Russian conquest of the steppe",
+      "startYear": 1731,
+      "endYear": 1868,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "annexation",
+      "resources": ["land", "livestock"],
+      "territoryNames": ["Russian Turkestan", "the Steppe Governorate-General"],
+      "hints": [
+        "A khan swore allegiance to a tsarina in 1731 seeking protection from a rival power.",
+        "Fortress lines were pushed deeper into the steppe over a century.",
+        "The khanates were abolished and settlers arrived in large numbers."
+      ],
+      "summary": "From the oath of allegiance by Abu'l-Khayr of the Younger Zhuz in 1731, Russia extended fortress lines across the steppe, abolished the khans' authority in the 1820s to 1840s and in 1868 introduced provisional statutes that brought the region under direct rule, followed by waves of Slavic settlers on pasture land.",
+      "wikipediaTitle": "Russian conquest of Central Asia",
+      "sources": ["https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia"]
+    },
+    {
+      "id": "KAZ-famine-1930",
+      "title": "Famine of 1930 to 1933",
+      "startYear": 1930,
+      "endYear": 1933,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "engineered_famine",
+      "resources": ["livestock", "grain"],
+      "hints": [
+        "Forced settlement of nomads and seizure of herds caused a catastrophe.",
+        "An estimated third or more of the titular population perished.",
+        "Around one and a half million people died."
+      ],
+      "summary": "Soviet collectivisation, the forced settlement of nomadic herders and brutal grain and livestock requisitions caused a famine in the Kazakh SSR in 1930 to 1933. An estimated 1.5 million people died, roughly 38 percent of the Kazakh population, and many more fled.",
+      "sensitive": true,
+      "wikipediaTitle": "Kazakh famine of 1930–1933",
+      "sources": ["https://en.wikipedia.org/wiki/Kazakh_famine_of_1930%E2%80%931933"]
+    },
+    {
+      "id": "KAZ-karlag",
+      "title": "Karlag Gulag camp",
+      "startYear": 1930,
+      "endYear": 1959,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "forced_labour",
+      "resources": ["coal", "labour", "livestock"],
+      "hints": [
+        "One of the largest camps in the Gulag system sprawled across an enormous area of the steppe.",
+        "Prisoners farmed the steppe and worked the mines near Karaganda.",
+        "A section was reserved for wives of men condemned as traitors."
+      ],
+      "summary": "The Karaganda Corrective Labour Camp, or Karlag, was one of the largest Gulag camps, operating from 1930 to 1959. Hundreds of thousands of prisoners, including deported peoples and political prisoners, were forced to farm and to work in the coal mines and industry, and many died.",
+      "sensitive": true,
+      "wikipediaTitle": "Karlag",
+      "sources": ["https://en.wikipedia.org/wiki/Karlag"]
+    },
+    {
+      "id": "KAZ-virgin-lands",
+      "title": "Virgin Lands campaign",
+      "startYear": 1954,
+      "endYear": 1960,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "other",
+      "resources": ["grain", "land"],
+      "hints": [
+        "A leader ordered millions of hectares of pasture to be ploughed for wheat.",
+        "Hundreds of thousands of young volunteers were sent east.",
+        "Dust storms and soil exhaustion soon followed."
+      ],
+      "summary": "Nikita Khrushchev's Virgin Lands campaign opened tens of millions of hectares of northern steppe to grain between 1954 and 1960. Settlers poured in from other Soviet republics, the traditional pastures of herders shrank, and soil erosion followed, making ethnic Kazakhs a minority in their own republic.",
+      "quip": "A plan to plough the steppe worked brilliantly, until the soil blew away.",
+      "wikipediaTitle": "Virgin Lands campaign",
+      "sources": ["https://en.wikipedia.org/wiki/Virgin_Lands_campaign"]
+    },
+    {
+      "id": "KAZ-semipalatinsk",
+      "title": "Semipalatinsk nuclear tests",
+      "startYear": 1949,
+      "endYear": 1989,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "The first Soviet atomic bomb was exploded on an eastern steppe in 1949.",
+        "Over four hundred tests were conducted there across four decades.",
+        "Nearby villagers were never told of the dangers of fallout."
+      ],
+      "summary": "The Soviet Union carried out 456 nuclear tests at the Semipalatinsk Test Site between 1949 and 1989, including the first Soviet atomic bomb. Residents were not evacuated or warned, and the radiation has caused long-term health and environmental problems in the surrounding areas.",
+      "sensitive": true,
+      "wikipediaTitle": "Semipalatinsk Test Site",
+      "sources": ["https://en.wikipedia.org/wiki/Semipalatinsk_Test_Site"]
+    }
+  ]
+}

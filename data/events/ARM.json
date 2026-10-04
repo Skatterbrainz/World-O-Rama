@@ -1,0 +1,77 @@
+{
+  "country": "ARM",
+  "events": [
+    {
+      "id": "ARM-great-surgun",
+      "title": "The Great Surgun",
+      "startYear": 1604,
+      "endYear": 1605,
+      "exploiter": { "label": "Persia" },
+      "type": "other",
+      "resources": ["labour"],
+      "hints": [
+        "A shah ordered a scorched-earth retreat and a mass deportation during a war with the Ottomans.",
+        "Hundreds of thousands were forced to move to central Persia.",
+        "The merchants of Julfa were relocated to build a new suburb in Isfahan."
+      ],
+      "summary": "During the Ottoman-Safavid war of 1603 to 1618, Shah Abbas I ordered the forced deportation of the population of Eastern Armenia and neighbouring areas to central and northern Persia in 1604 and 1605, a scorched-earth tactic. Around 350,000 people, mostly Armenians, were moved.",
+      "sensitive": true,
+      "wikipediaTitle": "Great Surgun",
+      "sources": ["https://en.wikipedia.org/wiki/Great_Surgun"]
+    },
+    {
+      "id": "ARM-treaty-of-turkmenchay",
+      "title": "Treaty of Turkmenchay",
+      "startYear": 1826,
+      "endYear": 1828,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "annexation",
+      "resources": ["land"],
+      "territoryNames": ["the Erivan Khanate"],
+      "hints": [
+        "A war between two empires ended with the transfer of the khanates of Erivan and Nakhchivan in 1828.",
+        "Persia also had to pay a large indemnity.",
+        "Christians from Persia and the Ottoman lands were encouraged to resettle in the new territory."
+      ],
+      "summary": "After the Russo-Persian War of 1826 to 1828, the Treaty of Turkmenchay obliged Persia to cede the Erivan and Nakhchivan khanates to Russia and pay a large indemnity. The Russian government encouraged Armenians from Persia and the Ottoman Empire to resettle in the new territory.",
+      "wikipediaTitle": "Treaty of Turkmenchay",
+      "sources": ["https://en.wikipedia.org/wiki/Treaty_of_Turkmenchay"]
+    },
+    {
+      "id": "ARM-genocide",
+      "title": "Armenian genocide",
+      "startYear": 1915,
+      "endYear": 1923,
+      "exploiter": { "label": "the Ottoman Empire" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "Deportations and massacres began in April 1915 with the arrest of community leaders in the capital.",
+        "Forced marches into the Syrian desert killed vast numbers.",
+        "Around a million or more people died, and survivors fled to the Caucasus."
+      ],
+      "summary": "From 1915 the Ottoman government carried out mass deportations and killings of its Armenian population, with forced marches into the Syrian desert. An estimated one to one and a half million died, and many survivors fled to the Caucasus, including the territory of the modern republic.",
+      "sensitive": true,
+      "wikipediaTitle": "Armenian genocide",
+      "sources": ["https://en.wikipedia.org/wiki/Armenian_genocide"]
+    },
+    {
+      "id": "ARM-soviet-invasion-1920",
+      "title": "Soviet invasion and Sovietization",
+      "startYear": 1920,
+      "endYear": 1921,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "annexation",
+      "resources": ["land"],
+      "territoryNames": ["the Transcaucasian SFSR"],
+      "hints": [
+        "A short-lived republic collapsed after a war with a neighbour and an invasion from the north in late 1920.",
+        "The Red Army entered in December 1920.",
+        "A February 1921 rebellion against the new government was crushed."
+      ],
+      "summary": "After a defeat in a war with Turkish nationalists in autumn 1920, the Armenian republic faced the Red Army, which entered in December 1920 and installed a Soviet government. A rebellion in February 1921 was suppressed, and the republic joined the Transcaucasian federation.",
+      "wikipediaTitle": "Soviet invasion of Armenia",
+      "sources": ["https://en.wikipedia.org/wiki/Soviet_invasion_of_Armenia"]
+    }
+  ]
+}
