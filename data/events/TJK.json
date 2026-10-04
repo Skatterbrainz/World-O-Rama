@@ -1,0 +1,76 @@
+{
+  "country": "TJK",
+  "events": [
+    {
+      "id": "TJK-mongol-khujand",
+      "title": "Mongol siege of Khujand",
+      "startYear": 1220,
+      "endYear": 1220,
+      "exploiter": { "label": "the Mongol Empire" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A governor held out on a river island fortress against a huge army.",
+        "Temur Malik fled downstream in boats after his supplies ran out.",
+        "The city on the Syr Darya was destroyed in 1220."
+      ],
+      "summary": "During the Mongol invasion of the Khwarazmian Empire, the governor Temur Malik defended the fortress city of Khujand on the Syr Darya in 1220. The Mongols forced prisoners to build a causeway to his island fortress, and he escaped by boat before the city fell.",
+      "sensitive": true,
+      "wikipediaTitle": "Mongol invasion of the Khwarazmian Empire",
+      "sources": ["https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire"]
+    },
+    {
+      "id": "TJK-russian-conquest",
+      "title": "Russian conquest",
+      "startYear": 1866,
+      "endYear": 1868,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "colonization",
+      "resources": ["cotton", "land"],
+      "territoryNames": ["Russian Turkestan", "Eastern Bukhara"],
+      "hints": [
+        "Russian troops took the main northern town in 1866.",
+        "The mountain heartland came under a protectorate of the emirate in 1868.",
+        "A governor-general in Tashkent oversaw the region."
+      ],
+      "summary": "Russia captured Khujand in 1866, bringing northern Tajik lands directly into Russian Turkestan, and made the Emirate of Bukhara a protectorate in 1868, which placed the rest of the land under indirect Russian control. The area was exploited for cotton and as a frontier with British India.",
+      "wikipediaTitle": "Russian conquest of Central Asia",
+      "sources": ["https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia"]
+    },
+    {
+      "id": "TJK-pamir-great-game",
+      "title": "The Pamir border and the Great Game",
+      "startYear": 1891,
+      "endYear": 1895,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "annexation",
+      "resources": ["strategic_location", "land"],
+      "territoryNames": ["the Pamirs"],
+      "hints": [
+        "Two empires competed for the 'roof of the world' and agreed on a buffer in 1895.",
+        "A narrow corridor of land was left to keep their borders apart.",
+        "The Pamir Agreement drew the border along the Panj river."
+      ],
+      "summary": "In the 1890s Russia and Britain disputed the Pamir mountains during the Great Game. Russian troops expelled Afghan and British-aligned forces, and the 1895 agreement drew the border along the Panj river, with a narrow Afghan corridor, the Wakhan, left as a buffer, putting the northern Pamirs under Russian control.",
+      "wikipediaTitle": "Great Game",
+      "sources": ["https://en.wikipedia.org/wiki/Great_Game"]
+    },
+    {
+      "id": "TJK-soviet-cotton",
+      "title": "Soviet cotton and resettlement",
+      "startYear": 1929,
+      "endYear": 1991,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "resource_extraction",
+      "resources": ["cotton", "labour", "land"],
+      "hints": [
+        "A mountain republic was given the job of growing cotton in its lowlands.",
+        "Highland communities were resettled in the Vakhsh valley.",
+        "Water-hungry crops dominated the economy."
+      ],
+      "summary": "After the Tajik SSR was created in 1929, Soviet planners made cotton the main crop in the southern lowlands. Highland communities were resettled in the Vakhsh valley and other irrigated areas to supply labour, and the republic remained a poor cotton producer within the Soviet economy until 1991.",
+      "wikipediaTitle": "Tajik Soviet Socialist Republic",
+      "sources": ["https://en.wikipedia.org/wiki/Tajik_Soviet_Socialist_Republic"]
+    }
+  ]
+}

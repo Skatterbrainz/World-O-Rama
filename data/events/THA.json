@@ -1,0 +1,94 @@
+{
+  "country": "THA",
+  "events": [
+    {
+      "id": "THA-ayutthaya-sack",
+      "title": "Burmese sack of Ayutthaya",
+      "startYear": 1765,
+      "endYear": 1767,
+      "exploiter": { "label": "the Konbaung dynasty" },
+      "type": "other",
+      "resources": ["gold", "labour"],
+      "territoryNames": ["the Kingdom of Ayutthaya"],
+      "hints": [
+        "A royal capital that had flourished for four centuries was burned.",
+        "A siege ended in April 1767 when the city wall was breached.",
+        "Thousands of captives were marched west to a rival kingdom."
+      ],
+      "summary": "King Hsinbyushin's Konbaung armies invaded in 1765 and, after a siege, captured and sacked Ayutthaya in April 1767, burning much of the city and carrying off large numbers of captives. The kingdom was reunited soon afterwards under Taksin.",
+      "sensitive": true,
+      "wikipediaTitle": "Burmese–Siamese War (1765–1767)",
+      "sources": ["https://en.wikipedia.org/wiki/Burmese%E2%80%93Siamese_War_(1765%E2%80%931767)"]
+    },
+    {
+      "id": "THA-bowring-treaty",
+      "title": "Bowring Treaty and the unequal treaties",
+      "startYear": 1855,
+      "endYear": 1938,
+      "exploiter": { "label": "the British Empire" },
+      "type": "unequal_treaty",
+      "resources": ["rice", "timber", "trade_routes"],
+      "hints": [
+        "A governor of Hong Kong sailed up a river to open a kingdom's markets.",
+        "Import duties were capped at a low fixed rate in 1855.",
+        "British subjects were tried by their own consuls, a privilege that lasted into the 1930s."
+      ],
+      "summary": "Sir John Bowring negotiated a treaty in 1855 that opened the kingdom to British trade, fixed import duties at a low rate, ended royal trade monopolies and gave British subjects extraterritorial rights. Similar treaties followed with other powers, and the last privileges were abolished in the late 1930s.",
+      "quip": "Free trade, negotiated with a warship parked nearby.",
+      "wikipediaTitle": "Bowring Treaty",
+      "sources": ["https://en.wikipedia.org/wiki/Bowring_Treaty"]
+    },
+    {
+      "id": "THA-franco-siamese-crisis",
+      "title": "Franco-Siamese crisis of 1893",
+      "startYear": 1893,
+      "endYear": 1893,
+      "exploiter": { "label": "France" },
+      "type": "annexation",
+      "resources": ["land", "trade_routes"],
+      "hints": [
+        "Gunboats forced their way up the capital's river in July.",
+        "The Paknam incident was followed by a French ultimatum.",
+        "The left bank of the Mekong was surrendered and a port city was occupied for years."
+      ],
+      "summary": "In July 1893 French gunboats forced their way past the forts at Paknam and anchored in Bangkok. An ultimatum compelled the kingdom to cede its claims east of the Mekong, now Laos, and pay an indemnity, while France occupied the port of Chanthaburi until 1904.",
+      "wikipediaTitle": "1893 Franco-Siamese crisis",
+      "sources": ["https://en.wikipedia.org/wiki/1893_Franco-Siamese_crisis"]
+    },
+    {
+      "id": "THA-japanese-invasion",
+      "title": "Japanese invasion and alliance",
+      "startYear": 1941,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["strategic_location", "rice"],
+      "hints": [
+        "Soldiers landed at several southern ports on the same morning as the attack on Pearl Harbor.",
+        "Fighting lasted only hours before the government allowed passage.",
+        "The country became a launching pad for the invasions of Malaya and Burma."
+      ],
+      "summary": "On 8 December 1941 Japanese forces landed at several points on the Gulf of Siam and in the south. After a few hours of fighting the government agreed to let them pass and later allied itself with Japan. The country served as a staging ground for the Malayan and Burma campaigns.",
+      "wikipediaTitle": "Japanese invasion of Thailand",
+      "sources": ["https://en.wikipedia.org/wiki/Japanese_invasion_of_Thailand"]
+    },
+    {
+      "id": "THA-burma-railway",
+      "title": "Burma Railway and the Bridge on the River Kwai",
+      "startYear": 1942,
+      "endYear": 1943,
+      "exploiter": { "label": "Japan" },
+      "type": "forced_labour",
+      "resources": ["labour"],
+      "hints": [
+        "A famous wartime film was set around a bridge on a river in the west.",
+        "Prisoners of war and conscripted labourers built a railway through jungle in about a year.",
+        "The railway ran from Ban Pong to the border near the Three Pagodas Pass."
+      ],
+      "summary": "The Siam end of the Japanese Burma Railway ran from Ban Pong through Kanchanaburi to the Three Pagodas Pass. Allied prisoners and Asian labourers built it in 1942 and 1943 under brutal conditions, including at the bridge over the Khwae Noi river, and tens of thousands died.",
+      "sensitive": true,
+      "wikipediaTitle": "Burma Railway",
+      "sources": ["https://en.wikipedia.org/wiki/Burma_Railway"]
+    }
+  ]
+}

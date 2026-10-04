@@ -1,0 +1,113 @@
+{
+  "country": "KIR",
+  "events": [
+    {
+      "id": "KIR-banaba-ppc",
+      "title": "Pacific Phosphate Company on Banaba",
+      "startYear": 1900,
+      "endYear": 1919,
+      "exploiter": { "label": "the Pacific Phosphate Company" },
+      "type": "resource_extraction",
+      "resources": ["phosphates", "land"],
+      "territoryNames": ["Ocean Island"],
+      "hints": [
+        "A prospector found phosphate rock on a raised island in 1900.",
+        "Mining rights were bought from landowners for a token annual payment.",
+        "Landowners were given little say as the surface was stripped."
+      ],
+      "summary": "After rich phosphate was identified on Banaba, or Ocean Island, in 1900, the Pacific Phosphate Company obtained mining rights on terms that paid the landowners very little. Mining stripped the surface of the island and shipped phosphate to farmers in Australia and New Zealand.",
+      "quip": "Mining rights to a whole island for a token annual payment: truly an unmatched bargain, for the buyer.",
+      "wikipediaTitle": "Phosphate mining in Banaba and Nauru",
+      "sources": ["https://en.wikipedia.org/wiki/Phosphate_mining_in_Banaba_and_Nauru"]
+    },
+    {
+      "id": "KIR-banaba-bpc",
+      "title": "British Phosphate Commission on Banaba",
+      "startYear": 1920,
+      "endYear": 1979,
+      "exploiter": { "label": "the British Phosphate Commission" },
+      "type": "resource_extraction",
+      "resources": ["phosphates", "land"],
+      "hints": [
+        "A joint commission of three governments took over the mining in 1920.",
+        "After the war, the landowners were resettled on an island in another colony.",
+        "Mining ended in 1979 and little habitable land was left."
+      ],
+      "summary": "From 1920 the British Phosphate Commissioners, representing Britain, Australia and New Zealand, ran phosphate mining on Banaba until 1979. The Banabans were relocated to Rabi Island in Fiji after the Second World War. A court case brought by them in the 1970s resulted in a limited settlement.",
+      "wikipediaTitle": "British Phosphate Commission",
+      "sources": ["https://en.wikipedia.org/wiki/British_Phosphate_Commission"]
+    },
+    {
+      "id": "KIR-gilbert-and-ellice-colony",
+      "title": "Gilbert and Ellice Islands",
+      "startYear": 1892,
+      "endYear": 1979,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["phosphates", "labour"],
+      "territoryNames": ["the Gilbert and Ellice Islands"],
+      "hints": [
+        "A chain of coral atolls was declared a British protectorate in 1892.",
+        "It was administered jointly with another group that later separated.",
+        "Independence came in July 1979."
+      ],
+      "summary": "Britain declared a protectorate over the Gilbert and Ellice Islands in 1892 and made them a colony in 1916, later adding Banaba, the Line and the Phoenix Islands. The Ellice Islands separated in 1975, and the Gilbert Islands became independent in 1979.",
+      "wikipediaTitle": "Gilbert and Ellice Islands",
+      "sources": ["https://en.wikipedia.org/wiki/Gilbert_and_Ellice_Islands"]
+    },
+    {
+      "id": "KIR-operation-grapple",
+      "title": "British hydrogen bomb tests",
+      "startYear": 1957,
+      "endYear": 1958,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "Britain tested its first hydrogen bombs over remote Pacific atolls.",
+        "Nine detonations were carried out at Malden Island and Christmas Island.",
+        "Servicemen and islanders later sought compensation."
+      ],
+      "summary": "In Operation Grapple, Britain conducted nine nuclear explosions in 1957 and 1958 at Malden Island and Kiritimati, or Christmas Island, to develop its thermonuclear weapons. Veterans and local people later raised health concerns.",
+      "sensitive": true,
+      "wikipediaTitle": "Operation Grapple",
+      "sources": ["https://en.wikipedia.org/wiki/Operation_Grapple"]
+    },
+    {
+      "id": "KIR-operation-dominic",
+      "title": "US nuclear tests at Christmas Island",
+      "startYear": 1962,
+      "endYear": 1962,
+      "exploiter": { "label": "the United States" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "The United States borrowed an island from its ally to test weapons from aircraft in 1962.",
+        "It was part of a series that also included high-altitude shots from a different atoll.",
+        "Bombers dropped the devices over the sea near the island."
+      ],
+      "summary": "In 1962 the United States conducted Operation Dominic, a series of atmospheric nuclear tests, many of them air-dropped near Kiritimati, or Christmas Island, which was still a British possession. The tests were part of the Cold War arms race.",
+      "sensitive": true,
+      "wikipediaTitle": "Operation Dominic",
+      "sources": ["https://en.wikipedia.org/wiki/Operation_Dominic"]
+    },
+    {
+      "id": "KIR-japanese-occupation",
+      "title": "Japanese occupation",
+      "startYear": 1941,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["strategic_location"],
+      "hints": [
+        "Soldiers landed in the northern atolls in December 1941.",
+        "Tarawa became one of the bloodiest battles of the Pacific War in 1943.",
+        "On Banaba, civilians suffered atrocities in the final months."
+      ],
+      "summary": "Japan occupied the northern Gilbert Islands from December 1941 and fortified Betio on Tarawa Atoll, where US Marines fought a costly battle in November 1943. The occupation brought hardship and repression, including atrocities against Banabans.",
+      "sensitive": true,
+      "wikipediaTitle": "Japanese occupation of the Gilbert Islands",
+      "sources": ["https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Gilbert_Islands"]
+    }
+  ]
+}

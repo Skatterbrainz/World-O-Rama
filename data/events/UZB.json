@@ -1,0 +1,77 @@
+{
+  "country": "UZB",
+  "events": [
+    {
+      "id": "UZB-arab-conquest",
+      "title": "Umayyad conquest of Transoxiana",
+      "startYear": 705,
+      "endYear": 715,
+      "exploiter": { "label": "the Umayyad Caliphate" },
+      "type": "annexation",
+      "resources": ["tribute", "trade_routes"],
+      "territoryNames": ["Transoxiana"],
+      "hints": [
+        "An Arab general crossed the Amu Darya and took the great Silk Road oases in the early eighth century.",
+        "Qutayba ibn Muslim captured Bukhara and Samarkand.",
+        "The region was brought into a caliphate based at Damascus."
+      ],
+      "summary": "Between about 705 and 715 the Umayyad general Qutayba ibn Muslim conquered Bukhara, Samarkand and Khwarazm, bringing the region between the Amu Darya and Syr Darya, known as Transoxiana, into the Caliphate and gaining control of Silk Road trade.",
+      "wikipediaTitle": "Muslim conquest of Transoxiana",
+      "sources": ["https://en.wikipedia.org/wiki/Muslim_conquest_of_Transoxiana"]
+    },
+    {
+      "id": "UZB-mongol-sack",
+      "title": "Mongol sack of Bukhara and Samarkand",
+      "startYear": 1220,
+      "endYear": 1220,
+      "exploiter": { "label": "the Mongol Empire" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A great conqueror's army took two famed cities within months of each other.",
+        "Bukhara surrendered and was burned in February 1220.",
+        "Samarkand fell the following month."
+      ],
+      "summary": "In February 1220 Genghis Khan took and burned Bukhara, and in March his forces captured Samarkand, the Khwarazmian Empire's capital. The inhabitants were massacred or enslaved, and large parts of the cities were destroyed.",
+      "sensitive": true,
+      "wikipediaTitle": "Mongol invasion of the Khwarazmian Empire",
+      "sources": ["https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire"]
+    },
+    {
+      "id": "UZB-russian-conquest",
+      "title": "Russian conquest of Turkestan",
+      "startYear": 1865,
+      "endYear": 1876,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "colonization",
+      "resources": ["cotton", "land"],
+      "territoryNames": ["Russian Turkestan", "the Emirate of Bukhara", "the Khanate of Khiva"],
+      "hints": [
+        "General Chernyayev took a great Silk Road city with a small force in 1865.",
+        "Two khanates and an emirate were reduced to vassals or abolished.",
+        "Cotton production was expanded, especially during the American Civil War shortage."
+      ],
+      "summary": "Russian forces captured Tashkent in 1865, and made the Emirate of Bukhara a protectorate in 1868, the Khanate of Khiva one in 1873, and abolished Kokand in 1876. The Governor-Generalship of Turkestan was created in 1867, and Russia promoted cotton growing to supply its mills.",
+      "wikipediaTitle": "Russian conquest of Central Asia",
+      "sources": ["https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia"]
+    },
+    {
+      "id": "UZB-soviet-cotton",
+      "title": "Soviet cotton monoculture and the Aral Sea",
+      "startYear": 1924,
+      "endYear": 1991,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "resource_extraction",
+      "resources": ["cotton", "land"],
+      "hints": [
+        "A republic was turned into the Soviet Union's cotton field.",
+        "Irrigation canals took the water from two great rivers.",
+        "A once large inland sea shrank to a fraction of its former size."
+      ],
+      "summary": "Under Soviet central planning the republic became the Soviet Union's main source of cotton, the 'white gold', expanded through irrigation canals diverting the Amu Darya and Syr Darya. The diversion shrank the Aral Sea dramatically from the 1960s, causing one of the world's worst environmental disasters.",
+      "quip": "A planned economy decided that a sea was surplus to requirements.",
+      "wikipediaTitle": "Aral Sea",
+      "sources": ["https://en.wikipedia.org/wiki/Aral_Sea"]
+    }
+  ]
+}

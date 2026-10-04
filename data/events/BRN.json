@@ -1,0 +1,74 @@
+{
+  "country": "BRN",
+  "events": [
+    {
+      "id": "BRN-castilian-war",
+      "title": "Castilian War",
+      "startYear": 1578,
+      "endYear": 1578,
+      "exploiter": { "label": "Spain" },
+      "type": "other",
+      "resources": ["strategic_location"],
+      "hints": [
+        "A fleet sailed from Manila to depose a sultan in a succession dispute.",
+        "The capital was captured in April 1578.",
+        "An epidemic among the invaders forced a withdrawal within months."
+      ],
+      "summary": "In 1578 Spanish forces from Manila under Francisco de Sande attacked the capital of the sultanate, helped by a claimant to the throne, and captured it. Disease among the troops forced them to withdraw within a few months without securing the sultanate.",
+      "wikipediaTitle": "Castilian War",
+      "sources": ["https://en.wikipedia.org/wiki/Castilian_War"]
+    },
+    {
+      "id": "BRN-brooke-annexations",
+      "title": "Territory lost to the Brooke Rajahs",
+      "startYear": 1841,
+      "endYear": 1890,
+      "exploiter": { "label": "the Brooke family" },
+      "type": "annexation",
+      "resources": ["land", "timber"],
+      "territoryNames": ["Limbang"],
+      "hints": [
+        "A neighbouring English-run state took most of a sultanate's coastal lands.",
+        "Rivers such as the Baram and Trusan were annexed in the 1880s.",
+        "The loss of Limbang in 1890 split it into two parts."
+      ],
+      "summary": "From 1841 the White Rajahs of Sarawak expanded their territory at the expense of the Sultanate of Brunei, taking over rivers such as the Baram in 1882 and the Trusan in 1884 and the Limbang in 1890. Brunei was reduced to a small area split into two parts.",
+      "wikipediaTitle": "White Rajah",
+      "sources": ["https://en.wikipedia.org/wiki/White_Rajah"]
+    },
+    {
+      "id": "BRN-british-protectorate",
+      "title": "British protectorate and the Seria oil discovery",
+      "startYear": 1888,
+      "endYear": 1984,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["oil"],
+      "hints": [
+        "A reduced sultanate accepted British protection to avoid further losses.",
+        "A British Resident took control of most administration from 1906.",
+        "A huge oil field was found at Seria in 1929."
+      ],
+      "summary": "In 1888 the sultanate became a British protectorate, and from 1906 a British Resident was in charge of all matters except religion and custom. Oil was discovered at Seria in 1929, and the protectorate lasted until independence in 1984.",
+      "wikipediaTitle": "History of Brunei",
+      "sources": ["https://en.wikipedia.org/wiki/History_of_Brunei"]
+    },
+    {
+      "id": "BRN-japanese-occupation",
+      "title": "Japanese occupation",
+      "startYear": 1941,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["oil"],
+      "hints": [
+        "The oil fields were the prize that attracted invaders in December 1941.",
+        "Seria's wells were set alight by the retreating British.",
+        "Australian troops landed in June 1945 to liberate it."
+      ],
+      "summary": "Japan invaded in December 1941 mainly to secure the Seria oilfields, and ruled for three and a half years, using the production for its war effort. Australian forces landed in June 1945 as part of the Borneo campaign.",
+      "wikipediaTitle": "Japanese occupation of British Borneo",
+      "sources": ["https://en.wikipedia.org/wiki/Japanese_occupation_of_British_Borneo"]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "country": "LKA",
+  "events": [
+    {
+      "id": "LKA-chola-invasion",
+      "title": "Chola invasion and occupation",
+      "startYear": 993,
+      "endYear": 1070,
+      "exploiter": { "label": "the Chola Empire" },
+      "type": "occupation",
+      "resources": ["tribute", "trade_routes"],
+      "hints": [
+        "A south Indian maritime empire struck across the strait about a thousand years ago.",
+        "Its forces sacked the ancient capital of Anuradhapura around 993.",
+        "The island's north was ruled from Polonnaruwa until the 1070s."
+      ],
+      "summary": "Chola armies under Rajaraja I and his son Rajendra I conquered the north of the island from about 993, sacked the ancient capital Anuradhapura and ruled from Polonnaruwa until Vijayabahu I expelled them in the 1070s. The Cholas controlled strategic seaways and took tribute and treasure.",
+      "wikipediaTitle": "Chola invasion of Anuradhapura",
+      "sources": ["https://en.wikipedia.org/wiki/Chola_invasion_of_Anuradhapura"]
+    },
+    {
+      "id": "LKA-portuguese-ceylon",
+      "title": "Portuguese Ceylon",
+      "startYear": 1505,
+      "endYear": 1658,
+      "exploiter": { "label": "Portugal" },
+      "type": "colonization",
+      "resources": ["spices", "trade_routes"],
+      "territoryNames": ["Portuguese Ceylon"],
+      "hints": [
+        "Ships blown off course in 1505 found an island rich in a fragrant bark.",
+        "A fortress at Colombo was the base for control of the coast.",
+        "The Dutch took Colombo in 1656 and Jaffna in 1658."
+      ],
+      "summary": "Portuguese traders arrived in 1505, and Portugal soon dominated the coast and the lucrative cinnamon trade, building a fortress at Colombo and exercising influence over the Kotte kingdom. Its coastal possessions fell to the Dutch between 1656 and 1658.",
+      "wikipediaTitle": "Portuguese Ceylon",
+      "sources": ["https://en.wikipedia.org/wiki/Portuguese_Ceylon"]
+    },
+    {
+      "id": "LKA-dutch-ceylon",
+      "title": "Dutch Ceylon",
+      "startYear": 1640,
+      "endYear": 1796,
+      "exploiter": { "label": "the Dutch East India Company" },
+      "type": "colonization",
+      "resources": ["spices", "trade_routes"],
+      "territoryNames": ["Dutch Ceylon"],
+      "hints": [
+        "A trading company replaced one European power with another on the same coastline.",
+        "Galle fell in 1640 and the company ran a cinnamon monopoly.",
+        "British forces took its forts in 1796."
+      ],
+      "summary": "The Dutch East India Company seized Galle in 1640 and ousted the Portuguese by 1658, then ran the coastal areas as a monopoly on cinnamon and other goods until Britain took over the forts in 1796.",
+      "wikipediaTitle": "Dutch Ceylon",
+      "sources": ["https://en.wikipedia.org/wiki/Dutch_Ceylon"]
+    },
+    {
+      "id": "LKA-kandyan-conquest",
+      "title": "End of the Kandyan Kingdom",
+      "startYear": 1815,
+      "endYear": 1818,
+      "exploiter": { "label": "the British Empire" },
+      "type": "annexation",
+      "resources": ["land", "strategic_location"],
+      "territoryNames": ["the Kandyan Kingdom", "British Ceylon"],
+      "hints": [
+        "A hill kingdom outlasted three successive European powers on its coast.",
+        "In March 1815, chiefs signed a convention deposing their last king.",
+        "The deposed king was exiled to southern India."
+      ],
+      "summary": "In 1815 British forces and disaffected Kandyan chiefs deposed King Sri Vikrama Rajasinha, and the Kandyan Convention made the last independent kingdom a British dependency. The king died in exile in India, and the 1817 to 1818 Uva rebellion against British control was suppressed.",
+      "wikipediaTitle": "Kandyan Convention",
+      "sources": ["https://en.wikipedia.org/wiki/Kandyan_Convention"]
+    },
+    {
+      "id": "LKA-plantation-economy",
+      "title": "Coffee and tea plantations",
+      "startYear": 1830,
+      "endYear": 1948,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["coffee", "tea", "labour", "land"],
+      "hints": [
+        "Hill forests were cleared for export crops during the nineteenth century.",
+        "A leaf disease ruined the first plantation crop in the 1870s, and another replaced it.",
+        "Workers were recruited from across the strait to labour on the estates."
+      ],
+      "summary": "From the 1830s British planters cleared highland forests for coffee estates. When leaf rust ruined coffee in the 1870s, tea took over. Hundreds of thousands of workers were recruited from southern India for estate labour in harsh conditions, leaving a large stateless minority after independence.",
+      "wikipediaTitle": "Tea production in Sri Lanka",
+      "sources": ["https://en.wikipedia.org/wiki/Tea_production_in_Sri_Lanka"]
+    }
+  ]
+}

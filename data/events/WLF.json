@@ -1,0 +1,39 @@
+{
+  "country": "WLF",
+  "events": [
+    {
+      "id": "WLF-french-protectorate",
+      "title": "French protectorate",
+      "startYear": 1887,
+      "endYear": 1961,
+      "exploiter": { "label": "France" },
+      "type": "colonization",
+      "resources": ["land"],
+      "hints": [
+        "A queen signed a protection treaty with a naval officer in April 1887.",
+        "Two small island groups were ruled from afar by a Resident.",
+        "A referendum in 1959 led to overseas-territory status in 1961."
+      ],
+      "summary": "In April 1887 the queen of Uvea signed a treaty with France establishing a protectorate, and the chiefs of Futuna followed in 1888. After a 1959 referendum, the islands became a French overseas territory in 1961.",
+      "wikipediaTitle": "Wallis and Futuna",
+      "sources": ["https://en.wikipedia.org/wiki/Wallis_and_Futuna"]
+    },
+    {
+      "id": "WLF-us-base-ww2",
+      "title": "US military base",
+      "startYear": 1942,
+      "endYear": 1945,
+      "exploiter": { "label": "the United States" },
+      "type": "occupation",
+      "resources": ["strategic_location"],
+      "hints": [
+        "Marines landed in May 1942, soon after a Vichy government was overthrown.",
+        "Thousands of troops built an airfield and camps.",
+        "The garrison was about as large as the local population."
+      ],
+      "summary": "After a Free French ship deposed the Vichy-aligned administration, US Marines landed in May 1942. They built an airfield and camps on the island, with thousands of troops stationed there, roughly equal to the local population, until the war ended.",
+      "wikipediaTitle": "Wallis and Futuna",
+      "sources": ["https://en.wikipedia.org/wiki/Wallis_and_Futuna"]
+    }
+  ]
+}

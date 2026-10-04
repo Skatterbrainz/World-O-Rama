@@ -1,0 +1,76 @@
+{
+  "country": "NRU",
+  "events": [
+    {
+      "id": "NRU-german-annexation",
+      "title": "German annexation and the start of phosphate mining",
+      "startYear": 1888,
+      "endYear": 1914,
+      "exploiter": { "label": "Imperial Germany" },
+      "type": "colonization",
+      "resources": ["phosphates"],
+      "hints": [
+        "The islanders' civil war ended when a foreign power raised its flag in 1888.",
+        "A rock thought to be petrified wood was identified as phosphate in 1900.",
+        "Australian forces occupied the island in November 1914."
+      ],
+      "summary": "Germany annexed the island in 1888 after a local civil war. Phosphate was identified in 1900, and from 1906 the Pacific Phosphate Company mined it for export to fertiliser factories. Australian forces took over in 1914.",
+      "wikipediaTitle": "Nauru",
+      "sources": ["https://en.wikipedia.org/wiki/Nauru"]
+    },
+    {
+      "id": "NRU-british-phosphate-commission",
+      "title": "British Phosphate Commission",
+      "startYear": 1920,
+      "endYear": 1967,
+      "exploiter": { "label": "the British Phosphate Commission" },
+      "type": "resource_extraction",
+      "resources": ["phosphates", "labour"],
+      "hints": [
+        "A joint venture of three governments mined the island on a League mandate.",
+        "Cheap fertiliser was shipped to farmers overseas.",
+        "Islanders took over the industry soon after independence in 1968."
+      ],
+      "summary": "From 1920 the British Phosphate Commissioners, representing Britain, Australia and New Zealand, extracted phosphate under a League of Nations mandate and supplied cheap fertiliser to their countries' farmers. Royalties paid to the Nauruan landowners were small, and about 80 percent of the island was left mined out. Nauruans took over the industry soon after independence in 1968.",
+      "quip": "A three-government commission strip-mined an island to fertilise its farms. The island is not on the list of beneficiaries.",
+      "wikipediaTitle": "British Phosphate Commission",
+      "sources": ["https://en.wikipedia.org/wiki/British_Phosphate_Commission"]
+    },
+    {
+      "id": "NRU-japanese-occupation",
+      "title": "Japanese occupation and deportation",
+      "startYear": 1942,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["phosphates", "labour"],
+      "hints": [
+        "Japan took the island in August 1942 and built an airstrip.",
+        "Around 1,200 islanders were shipped away as labourers.",
+        "Nearly 500 of the deportees died before the war ended."
+      ],
+      "summary": "Japan occupied the island in August 1942. In 1943, about 1,200 Nauruans were deported to Chuuk (Truk) as labourers, and 463 of them died there. The surviving islanders were returned in 1946.",
+      "sensitive": true,
+      "wikipediaTitle": "Japanese occupation of Nauru",
+      "sources": ["https://en.wikipedia.org/wiki/Japanese_occupation_of_Nauru"]
+    },
+    {
+      "id": "NRU-nauru-v-australia",
+      "title": "Rehabilitation of the mined lands",
+      "startYear": 1989,
+      "endYear": 1993,
+      "exploiter": { "label": "Australia" },
+      "type": "resource_extraction",
+      "resources": ["phosphates", "land"],
+      "hints": [
+        "The small republic sued a large neighbour at the World Court over mining damage.",
+        "The ICJ case concerned who should pay to restore the quarried interior.",
+        "It was settled in 1993 for about 107 million dollars."
+      ],
+      "summary": "In 1989 Nauru took Australia to the International Court of Justice, claiming it had failed to rehabilitate phosphate lands mined before independence. After the court accepted jurisdiction, Australia agreed in 1993 to pay 107 million Australian dollars, with contributions from New Zealand and Britain.",
+      "quip": "Strip-mining a country is easy. Tidying up takes a lawsuit.",
+      "wikipediaTitle": "Nauru v Australia",
+      "sources": ["https://en.wikipedia.org/wiki/Nauru_v_Australia"]
+    }
+  ]
+}

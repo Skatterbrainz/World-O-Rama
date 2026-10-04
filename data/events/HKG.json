@@ -1,0 +1,58 @@
+{
+  "country": "HKG",
+  "events": [
+    {
+      "id": "HKG-cession-of-hong-kong",
+      "title": "Cession of Hong Kong Island and Kowloon",
+      "startYear": 1841,
+      "endYear": 1860,
+      "exploiter": { "label": "the British Empire" },
+      "type": "unequal_treaty",
+      "resources": ["opium", "trade_routes"],
+      "hints": [
+        "A British naval officer planted a flag on a sparsely populated island in January 1841.",
+        "The Treaty of Nanking in 1842 made the cession permanent.",
+        "The peninsula across the harbour was added in 1860."
+      ],
+      "summary": "British forces occupied the island in January 1841 during the First Opium War, and China ceded it in the Treaty of Nanking in 1842. The Kowloon peninsula was ceded under the Convention of Peking in 1860 after the Second Opium War. The colony became a hub for the opium and China trades.",
+      "wikipediaTitle": "Treaty of Nanking",
+      "sources": ["https://en.wikipedia.org/wiki/Treaty_of_Nanking"]
+    },
+    {
+      "id": "HKG-new-territories-lease",
+      "title": "New Territories lease",
+      "startYear": 1898,
+      "endYear": 1997,
+      "exploiter": { "label": "the British Empire" },
+      "type": "unequal_treaty",
+      "resources": ["land", "strategic_location"],
+      "hints": [
+        "A 99-year lease was imposed in 1898 as European powers scrambled for concessions.",
+        "The leased land was much larger than the colony it was meant to protect.",
+        "Its expiry in 1997 shaped the whole territory's future."
+      ],
+      "summary": "In 1898, as European powers extracted concessions, Britain obtained a 99-year lease on the mainland area north of Kowloon and over 200 islands, known as the New Territories, to defend the colony. Because the lease expired in 1997, the entire colony was returned to China that year.",
+      "quip": "The 99-year lease: a masterclass in not reading the last page.",
+      "wikipediaTitle": "Convention for the Extension of Hong Kong Territory",
+      "sources": ["https://en.wikipedia.org/wiki/Convention_for_the_Extension_of_Hong_Kong_Territory"]
+    },
+    {
+      "id": "HKG-japanese-occupation",
+      "title": "Japanese occupation",
+      "startYear": 1941,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["rice", "labour"],
+      "hints": [
+        "The colony fell on Christmas Day 1941 after eighteen days of fighting.",
+        "Food shortages and forced repatriation cut the population by more than half.",
+        "It is remembered as the 'three years and eight months'."
+      ],
+      "summary": "Japan attacked on 8 December 1941, and the colony surrendered on 25 December. During the occupation, rice shortages, harsh rule and forced evacuations reduced the population from about 1.6 million to around 600,000 by 1945.",
+      "sensitive": true,
+      "wikipediaTitle": "Japanese occupation of Hong Kong",
+      "sources": ["https://en.wikipedia.org/wiki/Japanese_occupation_of_Hong_Kong"]
+    }
+  ]
+}

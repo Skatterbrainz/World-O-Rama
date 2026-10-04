@@ -1,0 +1,131 @@
+{
+  "country": "VNM",
+  "events": [
+    {
+      "id": "VNM-chinese-domination",
+      "title": "Chinese domination",
+      "startYear": -111,
+      "endYear": 939,
+      "exploiter": { "label": "Imperial China" },
+      "type": "colonization",
+      "resources": ["tribute", "pearls", "ivory"],
+      "territoryNames": ["Jiaozhi", "Annam"],
+      "hints": [
+        "For about a thousand years, a northern empire ruled the Red River delta.",
+        "The Trung sisters led a famous revolt against it in the first century.",
+        "Ngo Quyen defeated a fleet on the Bach Dang River in 938 and ended it."
+      ],
+      "summary": "The Han dynasty conquered the Red River delta in 111 BCE and, with interruptions, successive Chinese dynasties ruled it until 939 CE. Local people paid tribute in goods such as pearls and ivory, and several uprisings, such as that of the Trung sisters, were suppressed.",
+      "wikipediaTitle": "Vietnam under Chinese rule",
+      "sources": ["https://en.wikipedia.org/wiki/Vietnam_under_Chinese_rule"]
+    },
+    {
+      "id": "VNM-mongol-invasions",
+      "title": "Mongol invasions",
+      "startYear": 1258,
+      "endYear": 1288,
+      "exploiter": { "label": "the Mongol Empire" },
+      "type": "other",
+      "resources": [],
+      "territoryNames": ["Dai Viet"],
+      "hints": [
+        "Three Mongol invasions tried to take the delta in the thirteenth century.",
+        "The capital was occupied in 1258 and 1285.",
+        "The Bach Dang River in 1288 saw a naval trap with iron-tipped stakes."
+      ],
+      "summary": "The Mongol Empire and its Yuan dynasty invaded in 1258, 1285 and 1287 to 1288. Though they briefly occupied the capital Thang Long, the Tran dynasty's forces wore them down, culminating in the naval victory at Bach Dang River in 1288.",
+      "wikipediaTitle": "Mongol invasions of Vietnam",
+      "sources": ["https://en.wikipedia.org/wiki/Mongol_invasions_of_Vietnam"]
+    },
+    {
+      "id": "VNM-ming-occupation",
+      "title": "Ming occupation",
+      "startYear": 1407,
+      "endYear": 1427,
+      "exploiter": { "label": "the Ming dynasty" },
+      "type": "occupation",
+      "resources": ["tribute", "labour"],
+      "territoryNames": ["Ming Jiaozhi"],
+      "hints": [
+        "A Chinese emperor's army deposed a new dynasty and reabsorbed the delta into his empire.",
+        "A nobleman named Le Loi began an uprising from the mountain area of Lam Son.",
+        "Peace was reached in 1427 after a decisive battle at Tot Dong."
+      ],
+      "summary": "In 1407 Ming armies overthrew the short-lived Ho dynasty and made the country a province again, imposing taxes and taking artisans and scholars to China. Le Loi's Lam Son uprising drove the Ming out by 1427 and founded the Le dynasty.",
+      "wikipediaTitle": "Fourth Era of Northern Domination",
+      "sources": ["https://en.wikipedia.org/wiki/Fourth_Era_of_Northern_Domination"]
+    },
+    {
+      "id": "VNM-french-indochina",
+      "title": "French conquest and Indochina",
+      "startYear": 1858,
+      "endYear": 1954,
+      "exploiter": { "label": "France" },
+      "type": "colonization",
+      "resources": ["rubber", "rice", "coal", "opium", "labour"],
+      "territoryNames": ["French Indochina", "Cochinchina", "Tonkin", "Annam"],
+      "hints": [
+        "A naval attack on Da Nang in 1858 began a conquest that took a quarter of a century.",
+        "It was divided into Tonkin, Annam and Cochinchina.",
+        "A decisive defeat at Dien Bien Phu in 1954 ended it."
+      ],
+      "summary": "France attacked Da Nang in 1858 and conquered the country by the 1880s, dividing it into Tonkin, Annam and Cochinchina within the Indochinese Union. Rubber plantations, rice exports, coal and state monopolies on opium, salt and alcohol funded the colony, often with forced or harsh labour. French rule ended after Dien Bien Phu in 1954.",
+      "wikipediaTitle": "French Indochina",
+      "sources": ["https://en.wikipedia.org/wiki/French_Indochina"]
+    },
+    {
+      "id": "VNM-famine-1945",
+      "title": "Famine of 1944 to 1945",
+      "startYear": 1944,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "other",
+      "resources": ["rice"],
+      "hints": [
+        "Hunger swept the north in the last year of the Pacific War.",
+        "Farmers were ordered to grow industrial crops instead of rice.",
+        "Estimates of deaths run from about four hundred thousand to two million."
+      ],
+      "summary": "A severe famine killed an estimated 400,000 to 2 million people in northern Vietnam in 1944 and 1945. Japanese occupiers and the French colonial administration requisitioned rice and ordered farmers to grow industrial crops, while floods and wartime transport disruption worsened the crisis.",
+      "sensitive": true,
+      "wikipediaTitle": "Vietnamese famine of 1944–1945",
+      "sources": ["https://en.wikipedia.org/wiki/Vietnamese_famine_of_1944%E2%80%931945"]
+    },
+    {
+      "id": "VNM-vietnam-war",
+      "title": "The Vietnam War",
+      "startYear": 1955,
+      "endYear": 1975,
+      "exploiter": { "label": "the United States" },
+      "type": "proxy_war",
+      "resources": [],
+      "hints": [
+        "A divided country became a Cold War battlefield for twenty years.",
+        "American troop numbers peaked at more than half a million in 1968.",
+        "Saigon fell in April 1975."
+      ],
+      "summary": "From 1955 to 1975 the United States supported South Vietnam against communist forces backed by the Soviet Union and China, committing large ground forces from 1965. An estimated millions of Vietnamese died, and bombing and chemical defoliation devastated the countryside.",
+      "sensitive": true,
+      "wikipediaTitle": "Vietnam War",
+      "sources": ["https://en.wikipedia.org/wiki/Vietnam_War"]
+    },
+    {
+      "id": "VNM-agent-orange",
+      "title": "Operation Ranch Hand and Agent Orange",
+      "startYear": 1961,
+      "endYear": 1971,
+      "exploiter": { "label": "the United States" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "Aircraft sprayed forests and fields with herbicides to strip cover from guerrillas.",
+        "Around twenty million gallons of herbicides were used.",
+        "The dioxin contaminant is still linked to birth defects decades later."
+      ],
+      "summary": "Between 1961 and 1971 the US military sprayed about 20 million US gallons of herbicides, including Agent Orange, over large parts of southern Vietnam to remove jungle cover and destroy crops. The dioxin contamination has been linked to long-term health problems and environmental damage.",
+      "sensitive": true,
+      "wikipediaTitle": "Operation Ranch Hand",
+      "sources": ["https://en.wikipedia.org/wiki/Operation_Ranch_Hand"]
+    }
+  ]
+}

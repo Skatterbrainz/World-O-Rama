@@ -1,0 +1,131 @@
+{
+  "country": "MYS",
+  "events": [
+    {
+      "id": "MYS-portuguese-malacca",
+      "title": "Portuguese Malacca",
+      "startYear": 1511,
+      "endYear": 1641,
+      "exploiter": { "label": "Portugal" },
+      "type": "colonization",
+      "resources": ["spices", "trade_routes"],
+      "territoryNames": ["Portuguese Malacca", "the Sultanate of Malacca"],
+      "hints": [
+        "A great trading sultanate on a narrow strait was captured by a fleet from Goa.",
+        "Afonso de Albuquerque stormed it in 1511 and built the fortress A Famosa.",
+        "The Dutch captured it in 1641 after a long siege."
+      ],
+      "summary": "In 1511 Afonso de Albuquerque captured Malacca, the main entrepot for the Southeast Asian spice trade, and built the A Famosa fortress. Portugal tried to control trade through the strait, but its hold weakened until the Dutch and the Sultan of Johor took the city in 1641.",
+      "wikipediaTitle": "Portuguese Malacca",
+      "sources": ["https://en.wikipedia.org/wiki/Portuguese_Malacca"]
+    },
+    {
+      "id": "MYS-dutch-malacca",
+      "title": "Dutch Malacca",
+      "startYear": 1641,
+      "endYear": 1825,
+      "exploiter": { "label": "the Dutch East India Company" },
+      "type": "colonization",
+      "resources": ["tin", "trade_routes"],
+      "territoryNames": ["Dutch Malacca"],
+      "hints": [
+        "A trading company replaced the Portuguese in the strait's main port.",
+        "It tried to monopolise tin from nearby sultanates.",
+        "It was handed to Britain in the Anglo-Dutch Treaty of 1824."
+      ],
+      "summary": "The Dutch East India Company captured Malacca in 1641 and ran it, in decline as Batavia took centre stage, as a station to control the strait and tin exports. Under the 1824 Anglo-Dutch Treaty it was transferred to Britain.",
+      "wikipediaTitle": "Dutch Malacca",
+      "sources": ["https://en.wikipedia.org/wiki/Dutch_Malacca"]
+    },
+    {
+      "id": "MYS-british-malaya",
+      "title": "British Malaya",
+      "startYear": 1874,
+      "endYear": 1957,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["tin", "rubber", "labour"],
+      "territoryNames": ["British Malaya", "the Federated Malay States", "the Straits Settlements"],
+      "hints": [
+        "A treaty on Pangkor Island in 1874 began the practice of installing British Residents at Malay courts.",
+        "Tin mines and rubber estates were worked by Chinese and Indian migrants.",
+        "A communist insurgency known as the Emergency began in 1948, nine years before independence."
+      ],
+      "summary": "From the Pangkor Treaty of 1874 Britain extended control over the Malay states, installing Residents who advised the sultans. The Straits Settlements, the Federated and the Unfederated Malay States produced much of the world's tin and rubber, using Chinese and Indian migrant labour. Independence came in 1957.",
+      "wikipediaTitle": "British Malaya",
+      "sources": ["https://en.wikipedia.org/wiki/British_Malaya"]
+    },
+    {
+      "id": "MYS-anglo-siamese-treaty-1909",
+      "title": "Anglo-Siamese Treaty of 1909",
+      "startYear": 1909,
+      "endYear": 1909,
+      "exploiter": { "label": "the British Empire" },
+      "type": "annexation",
+      "resources": ["land", "tin"],
+      "hints": [
+        "Four northern sultanates were transferred between two other powers without their say.",
+        "It fixed the border between a British protectorate and a southeast Asian kingdom.",
+        "Kedah, Kelantan, Perlis and Terengganu were handed to British protection."
+      ],
+      "summary": "In the Bangkok treaty of 1909, Siam gave up its claims over Kedah, Kelantan, Perlis and Terengganu, which came under British protection. The agreement also established the modern border with Thailand.",
+      "wikipediaTitle": "Anglo-Siamese Treaty of 1909",
+      "sources": ["https://en.wikipedia.org/wiki/Anglo-Siamese_Treaty_of_1909"]
+    },
+    {
+      "id": "MYS-white-rajahs",
+      "title": "The White Rajahs of Sarawak",
+      "startYear": 1841,
+      "endYear": 1946,
+      "exploiter": { "label": "the Brooke family" },
+      "type": "colonization",
+      "resources": ["oil", "timber", "land"],
+      "territoryNames": ["Raj Sarawak", "the Kingdom of Sarawak"],
+      "hints": [
+        "An English adventurer received a Borneo province from a sultan as a reward for suppressing a revolt.",
+        "Three generations of the same family ruled it as a personal kingdom.",
+        "It was ceded to the British Crown in 1946."
+      ],
+      "summary": "In 1841 James Brooke was proclaimed Rajah of Sarawak by the Sultan of Brunei after helping put down a rebellion. He and his nephew and grandnephew expanded the territory at Brunei's expense and ruled it as a personal state until the last Rajah ceded it to Britain in 1946.",
+      "quip": "A personal kingdom run as a family firm for 105 years.",
+      "wikipediaTitle": "White Rajah",
+      "sources": ["https://en.wikipedia.org/wiki/White_Rajah"]
+    },
+    {
+      "id": "MYS-north-borneo-company",
+      "title": "British North Borneo Company",
+      "startYear": 1881,
+      "endYear": 1946,
+      "exploiter": { "label": "the British North Borneo Company" },
+      "type": "colonization",
+      "resources": ["tobacco", "timber", "rubber", "land"],
+      "territoryNames": ["British North Borneo"],
+      "hints": [
+        "A chartered company administered a territory that was larger than several European countries.",
+        "It was granted a Royal Charter in 1881.",
+        "It was transferred to the Crown in 1946, after a wartime Japanese occupation."
+      ],
+      "summary": "Created through concessions from the Sultans of Brunei and Sulu, the British North Borneo Company received a Royal Charter in 1881 and governed the northern part of Borneo for decades, promoting tobacco, timber and rubber plantations with imported labour. It became a Crown colony in 1946.",
+      "wikipediaTitle": "North Borneo",
+      "sources": ["https://en.wikipedia.org/wiki/North_Borneo"]
+    },
+    {
+      "id": "MYS-japanese-occupation",
+      "title": "Japanese occupation of Malaya",
+      "startYear": 1941,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["tin", "rubber", "labour"],
+      "hints": [
+        "An invasion began at Kota Bharu on the same day as the Pearl Harbor attack.",
+        "Soldiers advanced down the peninsula by bicycle in seventy days.",
+        "The Sook Ching purge killed thousands of ethnic Chinese in 1942."
+      ],
+      "summary": "Japanese forces landed at Kota Bharu on 8 December 1941 and conquered Malaya by February 1942. The occupation brought food shortages and brutality, including massacres of ethnic Chinese, and workers were forced into projects such as the Burma Railway.",
+      "sensitive": true,
+      "wikipediaTitle": "Japanese occupation of Malaya",
+      "sources": ["https://en.wikipedia.org/wiki/Japanese_occupation_of_Malaya"]
+    }
+  ]
+}
