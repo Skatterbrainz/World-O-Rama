@@ -1,0 +1,128 @@
+{
+  "country": "SEN",
+  "events": [
+    {
+      "id": "SEN-dutch-goree",
+      "title": "Dutch trading post on Gorée",
+      "startYear": 1628,
+      "endYear": 1677,
+      "exploiter": {
+        "label": "the Netherlands"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "trade_routes"
+      ],
+      "hints": [
+        "A tiny island off a cape became a Dutch trading post with a fort, named after a Dutch island.",
+        "Dutch traders used it for the trade in enslaved people and goods.",
+        "France seized it in 1677."
+      ],
+      "summary": "The Dutch, who by tradition obtained Gorée in 1617 and are documented there with a fort by 1628, used it as a trading post that included the trade in enslaved Africans. France captured the island in 1677.",
+      "sensitive": true,
+      "wikipediaTitle": "Gorée",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gor%C3%A9e"
+      ]
+    },
+    {
+      "id": "SEN-saint-louis-goree-slave-trade",
+      "title": "French slave trade at Saint-Louis and Gorée",
+      "startYear": 1659,
+      "endYear": 1848,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "trade_routes"
+      ],
+      "hints": [
+        "Two French outposts on an island at the river mouth and another offshore were slave-trading bases.",
+        "Saint-Louis was founded in 1659.",
+        "France abolished slavery in its colonies in 1848."
+      ],
+      "summary": "France founded Saint-Louis in 1659 and held Gorée from 1677 as bases for trade in gum, gold and enslaved people. The French abolished slavery in their colonies in 1848.",
+      "sensitive": true,
+      "wikipediaTitle": "Saint-Louis, Senegal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saint-Louis,_Senegal"
+      ]
+    },
+    {
+      "id": "SEN-faidherbe-conquest",
+      "title": "Faidherbe's conquest of the Senegal River valley",
+      "startYear": 1854,
+      "endYear": 1865,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "trade_routes",
+        "land"
+      ],
+      "territoryNames": [
+        "the Four Communes"
+      ],
+      "hints": [
+        "A French governor expanded his colony's reach up a great river and defeated local kingdoms.",
+        "His name now adorns streets and bridges, and a famous statue stands in Lille.",
+        "He built forts, defeated El Hadj Umar's advance and founded a major port at Dakar."
+      ],
+      "summary": "As governor from 1854, Louis Faidherbe expanded French control along the Senegal River, defeating the Waalo kingdom and halting the advance of El Hadj Umar Tall. He raised local troops and in 1857 founded the Tirailleurs Sénégalais.",
+      "wikipediaTitle": "Louis Faidherbe",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Louis_Faidherbe"
+      ]
+    },
+    {
+      "id": "SEN-tirailleurs-senegalais",
+      "title": "Tirailleurs Sénégalais conscription",
+      "startYear": 1857,
+      "endYear": 1960,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [
+        "labour"
+      ],
+      "hints": [
+        "France recruited, and increasingly conscripted, African infantry across its west and central African colonies.",
+        "Despite the name, the soldiers came from many colonies.",
+        "They fought in both world wars, often as front-line troops."
+      ],
+      "summary": "France created the Tirailleurs Sénégalais in 1857 and recruited, later conscripting, African soldiers from across its colonies. They fought in both world wars and in colonial campaigns, and were often paid and treated worse than French soldiers.",
+      "sensitive": true,
+      "wikipediaTitle": "Tirailleurs Sénégalais",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tirailleurs_S%C3%A9n%C3%A9galais"
+      ]
+    },
+    {
+      "id": "SEN-thiaroye-massacre",
+      "title": "Thiaroye massacre",
+      "startYear": 1944,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "Soldiers who had been prisoners of war in Europe protested over unpaid wages after returning home.",
+        "French troops opened fire at a camp near the capital on 1 December 1944.",
+        "France officially recognised it as a massacre in 2024."
+      ],
+      "summary": "On 1 December 1944 French troops killed African soldiers of the Tirailleurs Sénégalais at Thiaroye near Dakar. The men, former prisoners of war, had protested over unpaid wages and poor conditions. Estimates of the number killed vary.",
+      "sensitive": true,
+      "wikipediaTitle": "Thiaroye massacre",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Thiaroye_massacre"
+      ]
+    }
+  ]
+}

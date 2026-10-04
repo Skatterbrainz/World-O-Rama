@@ -1,0 +1,87 @@
+{
+  "country": "BEN",
+  "events": [
+    {
+      "id": "BEN-ajuda-portuguese-fort",
+      "title": "Portuguese fort of São João Baptista de Ajudá",
+      "startYear": 1721,
+      "endYear": 1961,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "colonization",
+      "resources": [
+        "slaves",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "Portuguese Dahomey"
+      ],
+      "hints": [
+        "A European fortress built in 1721 beside a famous slave port on a coast named for its human cargo.",
+        "Although the legal slave trade ended in the 1800s, a tiny Portuguese enclave survived here long after the surrounding colony was French.",
+        "It was absorbed by newly independent Dahomey in 1961."
+      ],
+      "summary": "Portugal built the fort of São João Baptista de Ajudá at Ouidah in 1721 to tap the slave trade of the Slave Coast. It was permanently reoccupied in 1865 and survived as a Portuguese enclave inside French and then independent Dahomey until it was annexed in 1961.",
+      "sensitive": true,
+      "wikipediaTitle": "São João Baptista de Ajudá",
+      "sources": [
+        "https://en.wikipedia.org/wiki/S%C3%A3o_Jo%C3%A3o_Baptista_de_Ajud%C3%A1"
+      ]
+    },
+    {
+      "id": "BEN-franco-dahomean-wars",
+      "title": "French conquest of the Kingdom of Dahomey",
+      "startYear": 1890,
+      "endYear": 1894,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "palm_oil",
+        "land"
+      ],
+      "territoryNames": [
+        "the Kingdom of Dahomey"
+      ],
+      "hints": [
+        "A West African kingdom famed for a corps of women soldiers was defeated by a European army.",
+        "Its last independent king, Béhanzin, surrendered in 1894 and was exiled to Martinique and then Algeria.",
+        "After two wars with France, in 1890 and 1892-94, it was folded into French West Africa."
+      ],
+      "summary": "France fought two wars against the Kingdom of Dahomey, in 1890 and 1892-1894, under General Alfred-Amédée Dodds. King Béhanzin was defeated and exiled, and the kingdom's territory became part of French West Africa.",
+      "wikipediaTitle": "Second Franco-Dahomean War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Second_Franco-Dahomean_War"
+      ]
+    },
+    {
+      "id": "BEN-french-dahomey",
+      "title": "French Dahomey",
+      "startYear": 1894,
+      "endYear": 1960,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "palm_oil",
+        "labour"
+      ],
+      "territoryNames": [
+        "French Dahomey"
+      ],
+      "hints": [
+        "This colony earned a nickname comparing it to a famous student district of Paris.",
+        "Its educated clerks and teachers were posted across French West Africa, while the coast exported palm products.",
+        "Independence came in 1960 under the old kingdom's name, and the country changed its name in 1975."
+      ],
+      "summary": "After the conquest of the kingdom, France ruled the territory as the colony of Dahomey within French West Africa until independence in 1960. The economy centred on palm products, and the colony became known for supplying educated African clerks to the wider federation.",
+      "wikipediaTitle": "French Dahomey",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Dahomey"
+      ]
+    }
+  ]
+}

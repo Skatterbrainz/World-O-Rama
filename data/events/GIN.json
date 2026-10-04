@@ -1,0 +1,84 @@
+{
+  "country": "GIN",
+  "events": [
+    {
+      "id": "GIN-samori-wars",
+      "title": "French war against Samori Touré's empire",
+      "startYear": 1882,
+      "endYear": 1898,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "gold",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Wassoulou Empire"
+      ],
+      "hints": [
+        "A military leader built a large state in the savanna and resisted a European army for sixteen years.",
+        "His empire, centred on Wassoulou, spanned parts of several modern countries.",
+        "He was captured in 1898 and died in exile in Gabon."
+      ],
+      "summary": "From 1882 French forces fought Samori Touré, whose Wassoulou Empire stretched across parts of today's Guinea, Mali and the Ivory Coast. He was captured in 1898 and died in exile in 1900.",
+      "wikipediaTitle": "Samori Ture",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Samori_Ture"
+      ]
+    },
+    {
+      "id": "GIN-french-guinea",
+      "title": "French Guinea",
+      "startYear": 1891,
+      "endYear": 1958,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "rubber",
+        "bananas",
+        "bauxite",
+        "labour"
+      ],
+      "territoryNames": [
+        "French Guinea",
+        "the Rivières du Sud"
+      ],
+      "hints": [
+        "The coast was once called the Southern Rivers by the French.",
+        "Wild rubber, later bananas and bauxite, were its main exports.",
+        "In 1958 it was the only French West African colony to vote no to staying in the French Community."
+      ],
+      "summary": "France made the Rivières du Sud a separate colony in 1891. Wild rubber was an early export, later joined by bananas and bauxite. In the 1958 referendum, the territory voted overwhelmingly for independence and left the French Community.",
+      "wikipediaTitle": "French Guinea",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Guinea"
+      ]
+    },
+    {
+      "id": "GIN-operation-green-sea",
+      "title": "Portuguese raid on Conakry (Operation Green Sea)",
+      "startYear": 1970,
+      "endYear": 1970,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "Hundreds of soldiers landed from ships at night to attack a capital city in November 1970.",
+        "The goals included overthrowing a government that sheltered an anti-colonial movement and freeing prisoners of war.",
+        "The attackers came from a European dictatorship fighting wars in Africa."
+      ],
+      "summary": "In November 1970 Portuguese troops and Portuguese-led African fighters landed at Conakry in Operation Green Sea. They aimed to topple Sékou Touré's government, which hosted the PAIGC, and to free Portuguese prisoners. The operation failed.",
+      "sensitive": true,
+      "wikipediaTitle": "Operation Green Sea",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Operation_Green_Sea"
+      ]
+    }
+  ]
+}

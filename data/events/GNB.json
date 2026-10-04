@@ -1,0 +1,108 @@
+{
+  "country": "GNB",
+  "events": [
+    {
+      "id": "GNB-cacheu-slave-trade",
+      "title": "Portuguese slave trade from Cacheu",
+      "startYear": 1588,
+      "endYear": 1836,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "Portuguese Guinea"
+      ],
+      "hints": [
+        "A fortified trading post founded in 1588 shipped captives to the Cape Verde islands and the Americas.",
+        "A second port on the same coast later joined it as a slaving centre.",
+        "Portugal banned slave exports from its colonies in 1836, though smuggling continued."
+      ],
+      "summary": "Portugal founded the trading post of Cacheu in 1588, and with Bissau it became a centre of the slave trade, with captives sent to Cape Verde and the Americas. Portugal formally banned slave exports from its territories in 1836, though smuggling continued.",
+      "sensitive": true,
+      "wikipediaTitle": "Cacheu",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cacheu"
+      ]
+    },
+    {
+      "id": "GNB-bolama-dispute",
+      "title": "British attempt to settle Bolama",
+      "startYear": 1792,
+      "endYear": 1870,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "Bolama"
+      ],
+      "hints": [
+        "An island settlement scheme backed by London idealists lasted barely a year.",
+        "Britain and Portugal both claimed the island for decades.",
+        "In 1870 the United States president arbitrated the dispute."
+      ],
+      "summary": "British colonists founded a settlement on Bolama in 1792, but it failed within a year. Britain and Portugal then disputed ownership until 1870, when US President Ulysses S. Grant arbitrated in Portugal's favour.",
+      "quip": "Two European powers argued for decades over a mangrove island, then asked an American to settle it.",
+      "wikipediaTitle": "Bolama (town)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bolama_(town)"
+      ]
+    },
+    {
+      "id": "GNB-portuguese-guinea",
+      "title": "Portuguese Guinea",
+      "startYear": 1879,
+      "endYear": 1974,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "colonization",
+      "resources": [
+        "labour"
+      ],
+      "territoryNames": [
+        "Portuguese Guinea"
+      ],
+      "hints": [
+        "A small coastal colony was separated administratively from a neighbouring archipelago in 1879.",
+        "Portuguese forces fought campaigns of conquest against local peoples well into the 20th century.",
+        "It declared independence in 1973, a year before Lisbon accepted it."
+      ],
+      "summary": "Portugal made Portuguese Guinea a separate colony in 1879. Military campaigns of 'pacification' continued into the 1930s, and the territory was run under an indigenous labour regime until the war of independence. Independence was declared in 1973 and recognised in 1974.",
+      "wikipediaTitle": "Portuguese Guinea",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Portuguese_Guinea"
+      ]
+    },
+    {
+      "id": "GNB-colonial-war",
+      "title": "Guinea-Bissau War of Independence",
+      "startYear": 1963,
+      "endYear": 1974,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A guerrilla movement led by an agronomist-turned-revolutionary fought a European colonial army for more than a decade.",
+        "Its founder was assassinated in 1973, months before independence was declared.",
+        "Some Portuguese officers compared this war to a Vietnam they could not win."
+      ],
+      "summary": "From 1963 the PAIGC led by Amílcar Cabral fought Portuguese forces in a guerrilla war that tied down a large part of Portugal's army. Cabral was assassinated in 1973, independence was declared that year, and the war ended after the 1974 Carnation Revolution.",
+      "sensitive": true,
+      "wikipediaTitle": "Guinea-Bissau War of Independence",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guinea-Bissau_War_of_Independence"
+      ]
+    }
+  ]
+}

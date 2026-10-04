@@ -1,0 +1,65 @@
+{
+  "country": "TGO",
+  "events": [
+    {
+      "id": "TGO-german-togoland",
+      "title": "German Togoland",
+      "startYear": 1884,
+      "endYear": 1914,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "colonization",
+      "resources": [
+        "cocoa",
+        "cotton",
+        "palm_oil",
+        "coffee",
+        "labour"
+      ],
+      "territoryNames": [
+        "Togoland",
+        "German Togoland"
+      ],
+      "hints": [
+        "Germany's explorer-consul Gustav Nachtigal signed a protectorate treaty here in 1884.",
+        "Officials called it a model colony, with railways and cash crops built using conscripted labour.",
+        "British and French troops seized it within weeks of the First World War's outbreak."
+      ],
+      "summary": "Germany declared a protectorate in 1884 after treaties signed by Gustav Nachtigal. It built railways and promoted cash crops such as cocoa and cotton, using forced labour. British and French forces occupied it in August 1914.",
+      "wikipediaTitle": "German Togoland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/German_Togoland"
+      ]
+    },
+    {
+      "id": "TGO-french-togoland",
+      "title": "French Togoland",
+      "startYear": 1916,
+      "endYear": 1960,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "cocoa",
+        "coffee",
+        "cotton",
+        "labour"
+      ],
+      "territoryNames": [
+        "French Togoland"
+      ],
+      "hints": [
+        "After a war, the former German colony was split between two victors.",
+        "The larger eastern part was run by France under a League of Nations and later UN mandate.",
+        "It gained independence on 27 April 1960."
+      ],
+      "summary": "After 1914 Togoland was divided between Britain and France, and in 1922 the League of Nations confirmed the French mandate over the eastern part. France ran it until independence in 1960, with forced labour used until 1946.",
+      "wikipediaTitle": "French Togoland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Togoland"
+      ]
+    }
+  ]
+}

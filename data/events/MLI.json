@@ -1,0 +1,88 @@
+{
+  "country": "MLI",
+  "events": [
+    {
+      "id": "MLI-moroccan-conquest-songhai",
+      "title": "Moroccan conquest of the Songhai Empire",
+      "startYear": 1591,
+      "endYear": 1618,
+      "exploiter": {
+        "label": "Morocco"
+      },
+      "type": "colonization",
+      "resources": [
+        "gold",
+        "salt",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Songhai Empire",
+        "the Pashalik of Timbuktu"
+      ],
+      "hints": [
+        "An army armed with gunpowder crossed the Sahara to seize the gold and salt trades.",
+        "The decisive battle was fought at Tondibi.",
+        "Timbuktu, Gao and Djenné came under a Moroccan-appointed pasha."
+      ],
+      "summary": "In 1591 a Moroccan army sent by Sultan Ahmad al-Mansur, equipped with firearms, defeated the Songhai Empire at Tondibi. Morocco took Timbuktu, Gao and Djenné, aiming at the gold trade, and appointed pashas until it lost effective control in the early 17th century.",
+      "wikipediaTitle": "Pashalik of Timbuktu",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pashalik_of_Timbuktu"
+      ]
+    },
+    {
+      "id": "MLI-french-sudan",
+      "title": "French conquest and rule of the Sudan",
+      "startYear": 1880,
+      "endYear": 1960,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "cotton",
+        "gold",
+        "labour"
+      ],
+      "territoryNames": [
+        "French Sudan"
+      ],
+      "hints": [
+        "A European army pushed east from the Senegal River in the 1880s and took the Niger bend.",
+        "Timbuktu fell to French forces in 1894.",
+        "The colony, known by a name meaning land of the blacks, became independent in 1960 after a brief federation."
+      ],
+      "summary": "France advanced inland from Senegal from the 1880s, took Timbuktu in 1894 and organised the territory as French Sudan. It was part of French West Africa until 1960, when it briefly joined a federation with Senegal before becoming independent.",
+      "wikipediaTitle": "French Sudan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Sudan"
+      ]
+    },
+    {
+      "id": "MLI-office-du-niger",
+      "title": "Office du Niger irrigation scheme",
+      "startYear": 1932,
+      "endYear": 1960,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "cotton",
+        "rice",
+        "labour"
+      ],
+      "hints": [
+        "A colonial irrigation scheme in the inland delta of a great river aimed to grow cotton for French textile mills.",
+        "Settlers were moved there, often against their will, and the work was punishing.",
+        "Cotton largely disappointed, and rice later became the main crop."
+      ],
+      "summary": "In 1932 France created the Office du Niger to irrigate the Niger inland delta for cotton. Colonists were relocated, in many cases forcibly, and worked under harsh conditions. Cotton results fell short, and rice later became the main crop.",
+      "sensitive": true,
+      "wikipediaTitle": "Office du Niger",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Office_du_Niger"
+      ]
+    }
+  ]
+}
