@@ -2,6 +2,7 @@ import { countryByIso } from "../data/countries";
 import { REGION_ADJECTIVES, RESOURCES, SUBREGION_PHRASES, TYPE_LABELS, TYPE_NOUNS, TYPE_VERBS } from "../data/vocab";
 import type { Constraints, EraBucket, GameEvent, Question, Region } from "../types";
 import { eraBucket, eventEras, fmtYear, midYear, overlaps } from "./era";
+import { MAX_HINTS } from "./scoring";
 
 export const DEFAULT_MAX_ANSWERS = 4;
 
@@ -60,19 +61,37 @@ function joinList(items: string[]): string {
   return `${items.slice(0, -1).join(", ")} and ${items[items.length - 1]}`;
 }
 
+const REGION_NAMES: Record<string, string> = {
+  Africa: "Africa",
+  Asia: "Asia",
+  Europe: "Europe",
+  "North America": "North America",
+  "South America": "South America",
+  Oceania: "Oceania",
+};
+
+/** Geography hint about the country itself (island, landlocked), or null when none applies. */
+export function geographyHint(country: { island: "whole" | "shared" | null; landlocked: boolean }): string | null {
+  if (country.island === "whole") return "Hint: it is an island or an archipelago.";
+  if (country.island === "shared") return "Hint: it shares its island with another country.";
+  if (country.landlocked) return "Hint: it is landlocked.";
+  return null;
+}
+
 /**
- * Hint ladder, cheapest first: where in the world, the authored clues (vague to specific),
- * then what was taken, what kind of episode it was, who did it and when.
+ * Hint ladder, cheapest first: the continent, island or landlocked status, the sub-region, the authored
+ * clues (vague to specific), then what was taken, what kind of episode it was, who did it and when.
  */
 function autoHints(ev: GameEvent, c: Constraints, authored: string[]): string[] {
   const country = countryByIso(ev.country);
   const hints: string[] = [];
-  if (country && c.eventId === undefined) {
+  if (country) {
+    if (!c.region && !c.subregion) hints.push(`Hint: it is in ${REGION_NAMES[country.region]}.`);
+    const geo = geographyHint(country);
+    if (geo) hints.push(geo);
     if (!c.subregion && country.subregion) {
       const phrase = SUBREGION_PHRASES[country.subregion] ?? `${country.subregion} nation`;
       hints.push(`Hint: it is ${aOrAn(phrase).toLowerCase()}.`);
-    } else if (!c.region && !c.subregion) {
-      hints.push(`Hint: it is ${aOrAn(`${REGION_ADJECTIVES[country.region]} nation`).toLowerCase()}.`);
     }
   }
   hints.push(...authored);
@@ -89,7 +108,7 @@ function autoHints(ev: GameEvent, c: Constraints, authored: string[]): string[] 
         : `Hint: this ran from ${fmtYear(ev.startYear)} to ${fmtYear(ev.endYear)}.`,
     );
   }
-  return hints.slice(0, 3);
+  return hints.slice(0, MAX_HINTS);
 }
 
 function* candidatesFor(ev: GameEvent): Generator<Candidate> {

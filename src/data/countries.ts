@@ -250,6 +250,21 @@ Guam|GUM|Guam|OC|Micronesia
 Norfolk Island|NFK|Norfolk Island|OC|
 `;
 
+const LANDLOCKED = new Set(
+  "AFG AND ARM AUT AZE BLR BTN BOL BWA BFA BDI CAF TCD CZE SWZ ETH HUN KAZ XKX KGZ LAO LSO LIE LUX MWI MLI MDA MNG NPL MKD NER PRY RWA SMR SRB SVK SSD TJK TKM UGA UZB VAT ZMB ZWE".split(" "),
+);
+
+/** Countries and territories that are an island or an archipelago in their entirety. */
+const ISLAND_WHOLE = new Set(
+  (
+    "ATG BHS BHR BRB CPV COM CUB CYP DMA FJI ISL JAM JPN KIR MDG MDV MLT MHL MUS FSM NRU NZL PLW PHL WSM STP SYC SGP SLB LKA KNA LCA VCT TWN TON TTO VUT GBR IDN GRD " +
+    "AIA ABW ASM BMU VGB CYM COK CUW FLK FRO PYF GRL GUM GGY IMN JEY MSR NCL NIU NFK MNP PRI SHN BLM TCA VIR WLF ALA SPM PCN"
+  ).split(" "),
+);
+
+/** Countries that share their island with another country. */
+const ISLAND_SHARED = new Set("IRL HTI DOM PNG TLS BRN SXM MAF".split(" "));
+
 const byIso = new Map<string, Country>();
 const byAtlasName = new Map<string, Country>();
 
@@ -257,7 +272,15 @@ for (const line of TABLE.trim().split("\n")) {
   const [atlasName, iso3, name, reg, sub] = line.split("|");
   let c = byIso.get(iso3);
   if (!c) {
-    c = { iso3, name, region: R[reg], subregion: sub ? sub : null, atlasNames: [] };
+    c = {
+      iso3,
+      name,
+      region: R[reg],
+      subregion: sub ? sub : null,
+      landlocked: LANDLOCKED.has(iso3),
+      island: ISLAND_WHOLE.has(iso3) ? "whole" : ISLAND_SHARED.has(iso3) ? "shared" : null,
+      atlasNames: [],
+    };
     byIso.set(iso3, c);
   }
   c.atlasNames.push(atlasName);

@@ -1,7 +1,7 @@
 export const BASE_POINTS = 100;
 export const DIFFICULTY_MULTIPLIER: Record<1 | 2 | 3, number> = { 1: 1, 2: 1.5, 3: 2 };
 export const HINT_PENALTY = 0.25;
-export const MAX_HINTS = 3;
+export const MAX_HINTS = 4;
 export const STREAK_BONUS_PER = 10;
 export const STREAK_BONUS_CAP = 10;
 

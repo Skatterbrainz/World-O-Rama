@@ -2,8 +2,9 @@ import { describe, expect, it } from "vitest";
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { flattenCountryFiles } from "../src/data/load";
+import { countryByIso } from "../src/data/countries";
 import { centuryEra, decadeEra, eraBucket, eventEras, fmtYear, ordinal } from "../src/game/era";
-import { aOrAn, buildQuestionBank, constraintsKey, isCorrect, matches, normName, pickQuestion, NO_FILTERS } from "../src/game/questions";
+import { aOrAn, geographyHint, buildQuestionBank, constraintsKey, isCorrect, matches, normName, pickQuestion, NO_FILTERS } from "../src/game/questions";
 import { scoreAnswer } from "../src/game/scoring";
 import { breakdown, emptyStats, parseStats, recordAnswer, rollingAccuracy, saveStats, loadStats, startSession, weakSpots, type AnswerRecord, type KeyValueStore } from "../src/game/stats";
 import { quipFor } from "../src/game/humor";
@@ -110,7 +111,7 @@ describe("question engine", () => {
     const bank = buildQuestionBank(events);
     const q = bank.questions.find((x) => x.text === "An African nation that was exploited by Belgium for rubber in the 1900s")!;
     expect(q.hints.length).toBeGreaterThan(0);
-    expect(q.hints.length).toBeLessThanOrEqual(3);
+    expect(q.hints.length).toBeLessThanOrEqual(4);
     expect(q.hints.some((h) => h.includes("exploiter was"))).toBe(false);
     expect(q.hints.some((h) => h.includes("involved rubber"))).toBe(false);
     const withSub = bank.questions.find((x) => x.template === "subregion-exploiter-era" && x.constraints.exploiter === "belgium");
@@ -131,6 +132,34 @@ describe("question engine", () => {
     expect(texts).toContain("A European nation that was invaded by the Soviet Union");
     const q = bank.questions.find((x) => x.text === "An Eastern European nation that was invaded by the Soviet Union in the 1950s")!;
     expect(q.answers).toEqual(["HUN"]);
+  });
+
+  it("hints at the continent and at island or landlocked status", () => {
+    const hints = [
+      ev({ id: "MDG-x", country: "MDG", exploiter: { label: "France" }, resources: ["spices"] }),
+      ev({ id: "BDI-x", country: "BDI", exploiter: { label: "Belgium" }, resources: ["coffee"] }),
+    ];
+    const bank = buildQuestionBank(hints);
+    // A question that does not mention the continent gets it as the first hint.
+    const noRegion = bank.questions.find((q) => q.template === "exploiter-resource" && q.sourceCountry === "MDG")!;
+    expect(noRegion.hints[0]).toBe("Hint: it is in Africa.");
+    expect(noRegion.hints[1]).toBe("Hint: it is an island or an archipelago.");
+    const landlocked = bank.questions.find((q) => q.template === "exploiter-resource" && q.sourceCountry === "BDI")!;
+    expect(landlocked.hints).toContain("Hint: it is landlocked.");
+    // A question that already names the region skips the continent and starts with the geography.
+    const withRegion = bank.questions.find((q) => q.template === "region-exploiter-resource" && q.sourceCountry === "MDG")!;
+    expect(withRegion.hints.some((h) => h.includes("is in Africa"))).toBe(false);
+    expect(withRegion.hints[0]).toBe("Hint: it is an island or an archipelago.");
+  });
+
+  it("flags islands and landlocked countries correctly", () => {
+    expect(countryByIso("ISL")).toMatchObject({ island: "whole", landlocked: false });
+    expect(countryByIso("IRL")).toMatchObject({ island: "shared" });
+    expect(countryByIso("HTI")).toMatchObject({ island: "shared" });
+    expect(countryByIso("BOL")).toMatchObject({ landlocked: true, island: null });
+    expect(countryByIso("ETH")).toMatchObject({ landlocked: true });
+    expect(countryByIso("FRA")).toMatchObject({ landlocked: false, island: null });
+    expect(geographyHint(countryByIso("FRA")!)).toBeNull();
   });
 
   it("deduplicates identical constraints", () => {

@@ -5,6 +5,10 @@ export interface Country {
   name: string;
   region: Region;
   subregion: string | null;
+  /** True when the country has no sea coast. */
+  landlocked: boolean;
+  /** "whole": the country is an island or archipelago. "shared": it shares its island with another country. */
+  island: "whole" | "shared" | null;
   /** Names used by the world-atlas TopoJSON for this country (some countries have several features). */
   atlasNames: string[];
 }
