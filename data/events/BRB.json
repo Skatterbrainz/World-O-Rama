@@ -1,0 +1,58 @@
+{
+  "country": "BRB",
+  "events": [
+    {
+      "id": "BRB-sugar-revolution",
+      "title": "English settlement and the sugar revolution",
+      "startYear": 1627,
+      "endYear": 1966,
+      "exploiter": { "label": "England" },
+      "type": "colonization",
+      "resources": ["sugar", "slaves", "tobacco"],
+      "territoryNames": ["British Barbados"],
+      "hints": [
+        "An uninhabited easternmost Caribbean island was claimed for an English crown in 1625 and settled in 1627.",
+        "In the 1640s a switch from tobacco to sugar transformed it into one of the richest colonies in the world.",
+        "It stayed British without interruption until independence in 1966."
+      ],
+      "summary": "English settlers landed in 1627 on an island with no permanent population. From the 1640s sugar plantations worked first by bonded servants and then increasingly by enslaved Africans made it a major source of wealth. Britain held it continuously until independence in 1966.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Barbados",
+      "sources": ["https://en.wikipedia.org/wiki/History_of_Barbados"]
+    },
+    {
+      "id": "BRB-slave-code-1661",
+      "title": "Barbados Slave Code",
+      "startYear": 1661,
+      "endYear": 1834,
+      "exploiter": { "label": "the British Empire" },
+      "type": "slave_trade",
+      "resources": ["slaves", "sugar"],
+      "hints": [
+        "A legal code adopted by a colonial assembly in 1661 defined enslaved people as property.",
+        "It became a model for slave laws in Jamaica, South Carolina and elsewhere."
+      ],
+      "summary": "In 1661 the island's assembly passed a slave code that treated enslaved Africans as chattel and imposed harsh punishments. It served as a template for slave laws in other English colonies, and slavery was abolished in 1834 with a period of apprenticeship.",
+      "sensitive": true,
+      "wikipediaTitle": "Barbados Slave Code",
+      "sources": ["https://en.wikipedia.org/wiki/Barbados_Slave_Code"]
+    },
+    {
+      "id": "BRB-barbadosed-prisoners",
+      "title": "Transportation of prisoners to be bonded labourers",
+      "startYear": 1650,
+      "endYear": 1655,
+      "exploiter": { "label": "England" },
+      "type": "forced_labour",
+      "resources": ["labour", "sugar"],
+      "hints": [
+        "During a war of conquest abroad, captured soldiers and civilians were shipped to a distant colony.",
+        "A verb coined from the name of the destination island described being sent to work on its sugar estates."
+      ],
+      "summary": "During and after the Cromwellian conquest of Ireland and the Third English Civil War in the 1650s, thousands of Irish and Scottish prisoners were transported to the West Indies and sold as bonded labourers on sugar plantations. The practice gave rise to the term 'Barbadosed'.",
+      "sensitive": true,
+      "wikipediaTitle": "Barbadosed",
+      "sources": ["https://en.wikipedia.org/wiki/Barbadosed"]
+    }
+  ]
+}

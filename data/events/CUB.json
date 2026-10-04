@@ -6,10 +6,18 @@
       "title": "Spanish colonial sugar economy",
       "startYear": 1511,
       "endYear": 1898,
-      "exploiter": { "label": "Spain" },
+      "exploiter": {
+        "label": "Spain"
+      },
       "type": "colonization",
-      "resources": ["sugar", "tobacco", "slaves"],
-      "territoryNames": ["Spanish Cuba"],
+      "resources": [
+        "sugar",
+        "tobacco",
+        "slaves"
+      ],
+      "territoryNames": [
+        "Spanish Cuba"
+      ],
       "hints": [
         "A Caribbean island held by a European crown for almost four centuries.",
         "By the 19th century plantations of sugar and enslaved labour dominated its economy."
@@ -17,16 +25,24 @@
       "summary": "Spain colonised the island from 1511 and ruled it until 1898. In the 19th century sugar plantations worked by hundreds of thousands of enslaved Africans made it one of the world's largest sugar producers. Spanish rule ended after the Spanish-American War.",
       "sensitive": true,
       "wikipediaTitle": "Captaincy General of Cuba",
-      "sources": ["https://en.wikipedia.org/wiki/Captaincy_General_of_Cuba"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Captaincy_General_of_Cuba"
+      ]
     },
     {
       "id": "CUB-platt-amendment",
       "title": "Platt Amendment and the Guantánamo lease",
       "startYear": 1901,
       "endYear": 1934,
-      "exploiter": { "label": "the United States" },
+      "exploiter": {
+        "label": "the United States"
+      },
       "type": "unequal_treaty",
-      "resources": ["sugar", "land", "strategic_location"],
+      "resources": [
+        "sugar",
+        "land",
+        "strategic_location"
+      ],
       "hints": [
         "An amendment attached to a new constitution gave a foreign power the right to intervene whenever it saw fit.",
         "A naval base leased under this arrangement is still held today."
@@ -34,7 +50,85 @@
       "summary": "As a condition for ending its military occupation in 1902, the United States made the Platt Amendment part of the Cuban constitution. It gave Washington a right to intervene and led to the 1903 lease of Guantánamo Bay, and was repealed in 1934.",
       "quip": "Independence, with a footnote the size of a naval base.",
       "wikipediaTitle": "Platt Amendment",
-      "sources": ["https://en.wikipedia.org/wiki/Platt_Amendment"]
+      "sources": [
+        "https://en.wikipedia.org/wiki/Platt_Amendment"
+      ]
+    },
+    {
+      "id": "CUB-british-havana",
+      "title": "British capture of Havana",
+      "startYear": 1762,
+      "endYear": 1763,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "sugar",
+        "slaves",
+        "tobacco",
+        "trade_routes"
+      ],
+      "hints": [
+        "A large expeditionary fleet besieged the Caribbean's main Spanish naval base in 1762.",
+        "During the occupation of about eleven months, thousands of enslaved Africans were imported to the island.",
+        "Britain handed the city back to Spain in 1763 in exchange for Florida."
+      ],
+      "summary": "Britain besieged and captured Havana in 1762 during the Seven Years' War. In about eleven months of occupation, trade opened and thousands of enslaved Africans were imported, boosting sugar. Britain returned the city under the 1763 Treaty of Paris in exchange for Florida.",
+      "sensitive": true,
+      "wikipediaTitle": "Siege of Havana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siege_of_Havana"
+      ]
+    },
+    {
+      "id": "CUB-us-military-government",
+      "title": "US military government",
+      "startYear": 1898,
+      "endYear": 1902,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "occupation",
+      "resources": [
+        "sugar",
+        "land",
+        "strategic_location"
+      ],
+      "hints": [
+        "After a 1898 war with a European power, American troops governed the island for years.",
+        "The island's own independence fighters were not invited to the peace talks in Paris.",
+        "The occupation ended in May 1902 after the Platt Amendment had been written into the constitution."
+      ],
+      "summary": "After the Spanish-American War, the United States ruled the island through a military government from 1898 until May 1902. Cubans were excluded from the Treaty of Paris negotiations, and the occupiers pressed the convention writing the constitution to accept the Platt Amendment.",
+      "wikipediaTitle": "Spanish–American War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War"
+      ]
+    },
+    {
+      "id": "CUB-bay-of-pigs",
+      "title": "Bay of Pigs invasion",
+      "startYear": 1961,
+      "endYear": 1961,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "proxy_war",
+      "resources": [
+        "sugar"
+      ],
+      "hints": [
+        "In April 1961 about 1,400 exiles landed on the south coast with CIA training and support.",
+        "The operation was meant to topple a government that had nationalised US-owned property.",
+        "It collapsed within three days and strengthened the island's alliance with Moscow."
+      ],
+      "summary": "In April 1961 a CIA-organised force of about 1,400 Cuban exiles landed at the Bay of Pigs to overthrow Fidel Castro's government. The invasion was defeated within three days and pushed the government closer to the Soviet Union.",
+      "quip": "A coup plan so secret that the target read about it in advance.",
+      "wikipediaTitle": "Bay of Pigs Invasion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion"
+      ]
     }
   ]
 }

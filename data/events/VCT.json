@@ -1,0 +1,42 @@
+{
+  "country": "VCT",
+  "events": [
+    {
+      "id": "VCT-carib-wars",
+      "title": "Carib Wars and the Garifuna deportation",
+      "startYear": 1719,
+      "endYear": 1797,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["land", "sugar"],
+      "hints": [
+        "Black Carib or Garifuna communities fought European settlers over land on a volcanic island.",
+        "In 1795 French-backed uprising against British rule was crushed.",
+        "In 1797 thousands of the defeated were shipped to an island off Central America."
+      ],
+      "summary": "The island's Indigenous Kalinago and Garifuna resisted British land seizures in a series of wars. After a 1795 uprising failed, the British deported thousands of Garifuna in 1797, first to Baliceaux and then to Roatán off Honduras.",
+      "sensitive": true,
+      "wikipediaTitle": "Second Carib War",
+      "sources": ["https://en.wikipedia.org/wiki/Second_Carib_War"]
+    },
+    {
+      "id": "VCT-british-plantation-colony",
+      "title": "British plantation colony",
+      "startYear": 1763,
+      "endYear": 1979,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["sugar", "slaves", "land"],
+      "territoryNames": ["British Saint Vincent"],
+      "hints": [
+        "A Windward island was formally ceded to Britain in 1763 after a Seven Years' War settlement.",
+        "Land was sold to planters who ran sugar estates with enslaved labour.",
+        "Independence came in 1979, the same year as a major volcanic eruption."
+      ],
+      "summary": "France ceded the island to Britain in 1763. Land previously used by Kalinago and Garifuna was sold to planters, who ran sugar estates with enslaved Africans. British rule lasted until independence in 1979.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Saint Vincent and the Grenadines",
+      "sources": ["https://en.wikipedia.org/wiki/History_of_Saint_Vincent_and_the_Grenadines"]
+    }
+  ]
+}

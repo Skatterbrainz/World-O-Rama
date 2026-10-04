@@ -1,0 +1,59 @@
+{
+  "country": "GRD",
+  "events": [
+    {
+      "id": "GRD-french-colony",
+      "title": "French colonisation",
+      "startYear": 1649,
+      "endYear": 1763,
+      "exploiter": { "label": "France" },
+      "type": "colonization",
+      "resources": ["sugar", "indigo", "slaves"],
+      "hints": [
+        "A Windward island was bought from its Kalinago inhabitants by a governor of Martinique in 1649, then taken by force.",
+        "A cliff on the north coast is named for the Indigenous defenders who, by tradition, chose death over surrender in 1651.",
+        "France developed sugar and indigo estates before ceding the island at the 1763 Treaty of Paris."
+      ],
+      "summary": "France settled the island from Martinique in 1649 and drove out the Kalinago in a short war. Sugar and indigo estates worked by enslaved Africans developed under French rule, which ended with the 1763 Treaty of Paris.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Grenada",
+      "sources": ["https://en.wikipedia.org/wiki/History_of_Grenada"]
+    },
+    {
+      "id": "GRD-british-spice-colony",
+      "title": "British rule and the spice estates",
+      "startYear": 1763,
+      "endYear": 1974,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["sugar", "spices", "cocoa", "slaves"],
+      "territoryNames": ["British Grenada"],
+      "hints": [
+        "Britain took over in 1763, and a 1795 uprising led by Julien Fédon briefly seized most of the island.",
+        "After emancipation, estates turned to cocoa and to nutmeg, giving the island a famous nickname.",
+        "Independence arrived in February 1974."
+      ],
+      "summary": "Britain governed the island from 1763 until independence in 1974. Plantations worked by enslaved Africans grew sugar, and after emancipation cocoa and nutmeg became the key export crops, earning the island its 'Spice Isle' nickname.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Grenada",
+      "sources": ["https://en.wikipedia.org/wiki/History_of_Grenada"]
+    },
+    {
+      "id": "GRD-us-invasion-1983",
+      "title": "United States invasion",
+      "startYear": 1983,
+      "endYear": 1983,
+      "exploiter": { "label": "the United States" },
+      "type": "occupation",
+      "resources": ["strategic_location"],
+      "hints": [
+        "A Marxist coup and the killing of a prime minister in October 1983 triggered an armed intervention.",
+        "Operation Urgent Fury landed thousands of US troops, with token Caribbean contingents.",
+        "A new airport being built with Cuban help was a stated concern of the invaders."
+      ],
+      "summary": "After Prime Minister Maurice Bishop was killed in a 1983 power struggle, the United States led an invasion in October, citing the safety of US medical students and a request from regional states. The UN General Assembly condemned it, and elections were held in 1984.",
+      "wikipediaTitle": "United States invasion of Grenada",
+      "sources": ["https://en.wikipedia.org/wiki/United_States_invasion_of_Grenada"]
+    }
+  ]
+}
