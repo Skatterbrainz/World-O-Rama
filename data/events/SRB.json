@@ -14,9 +14,6 @@
         "tribute",
         "land"
       ],
-      "territoryNames": [
-        "the Sanjak of Smederevo"
-      ],
       "hints": [
         "The despotate's capital on the Danube fell in 1459.",
         "Uprisings beginning in 1804 and 1815 eventually won autonomy."
@@ -91,9 +88,9 @@
       ],
       "summary": "In late 1915 Austria-Hungary, Germany and Bulgaria overran the kingdom, and Serbia was divided into occupation zones. The occupation brought requisitioning, internments and civilian reprisals until the Allied breakthrough of September 1918.",
       "sensitive": true,
-      "wikipediaTitle": "Serbian campaign (World War I)",
+      "wikipediaTitle": "Serbian campaign (1915)",
       "sources": [
-        "https://en.wikipedia.org/wiki/Serbian_campaign_(World_War_I)"
+        "https://en.wikipedia.org/wiki/Serbian_campaign_(1915)"
       ]
     },
     {
@@ -110,7 +107,7 @@
       ],
       "hints": [
         "Ruled by a military commander rather than a puppet government after April 1941.",
-        "Mass reprisals and the first death camp in the region marked the occupation."
+        "Mass reprisals against civilians and a camp at Sajmiste marked the occupation."
       ],
       "summary": "After the April 1941 invasion, Germany ruled the core territory through a military commander alongside a collaborationist government, exploiting resources such as copper. Mass reprisals against civilians, the persecution of Jews and the Sajmiste camp marked the period.",
       "sensitive": true,

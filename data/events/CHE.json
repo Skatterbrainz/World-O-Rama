@@ -51,6 +51,28 @@
       ]
     },
     {
+      "id": "CHE-geneva-annexation-1798",
+      "title": "French annexation of Geneva",
+      "startYear": 1798,
+      "endYear": 1813,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A republic on a lake was swallowed by a larger neighbour in April 1798.",
+        "It became the capital of a French department until 1813."
+      ],
+      "summary": "France annexed the Republic of Geneva in April 1798 and made it the capital of the Léman department, which lasted until the French withdrawal in December 1813. Geneva joined the Swiss Confederation in 1815.",
+      "wikipediaTitle": "Republic of Geneva",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Republic_of_Geneva"
+      ]
+    },
+    {
       "id": "CHE-suvorov-campaign-1799",
       "title": "Foreign armies fighting in the Alps",
       "startYear": 1799,
@@ -68,6 +90,28 @@
       "wikipediaTitle": "Suvorov's Swiss campaign",
       "sources": [
         "https://en.wikipedia.org/wiki/Suvorov's_Swiss_campaign"
+      ]
+    },
+    {
+      "id": "CHE-valais-annexation-1810",
+      "title": "French annexation of Valais",
+      "startYear": 1810,
+      "endYear": 1813,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "annexation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "Napoleon built a road over an Alpine pass and then annexed the canton it crossed.",
+        "An independent republic lasted only eight years before becoming a department."
+      ],
+      "summary": "After the Republic of Valais was set up as a French client in 1802 to secure the Simplon road, Napoleon annexed it in 1810 as the Simplon department. It was liberated in 1813 and joined the Swiss Confederation in 1815.",
+      "wikipediaTitle": "Republic of Valais",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Republic_of_Valais"
       ]
     }
   ]

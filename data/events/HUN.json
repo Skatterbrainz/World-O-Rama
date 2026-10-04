@@ -14,9 +14,6 @@
         "land",
         "trade_routes"
       ],
-      "territoryNames": [
-        "Pannonia"
-      ],
       "hints": [
         "A brutal revolt was suppressed between AD 6 and 9, after which a province was organised.",
         "The Danube frontier was held by legions for centuries."
@@ -62,9 +59,6 @@
       "resources": [
         "tribute",
         "land"
-      ],
-      "territoryNames": [
-        "the Budin Eyalet"
       ],
       "hints": [
         "The capital's castle was seized in 1541 and the kingdom was split in three.",

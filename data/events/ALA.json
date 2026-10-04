@@ -44,6 +44,28 @@
       "sources": [
         "https://en.wikipedia.org/wiki/%C3%85land_War"
       ]
+    },
+    {
+      "id": "ALA-german-intervention-1918",
+      "title": "German intervention in the Finnish Civil War",
+      "startYear": 1918,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "After a Swedish expedition in February 1918, a second foreign force landed in the spring.",
+        "Troops of an empire at war occupied the archipelago until the end of the year."
+      ],
+      "summary": "In 1918, during the Finnish Civil War, Swedish troops landed on the Aland Islands in February and German forces arrived in March, occupying the archipelago until the end of the year. The islands' status was later settled by the League of Nations in 1921.",
+      "wikipediaTitle": "Åland Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/%C3%85land_Islands"
+      ]
     }
   ]
 }

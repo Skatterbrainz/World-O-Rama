@@ -2,6 +2,28 @@
   "country": "JEY",
   "events": [
     {
+      "id": "JEY-annexation-normandy-933",
+      "title": "Annexation to Normandy",
+      "startYear": 933,
+      "endYear": 933,
+      "exploiter": {
+        "label": "the Normans"
+      },
+      "type": "annexation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A Norse-descended duke took the islands in 933.",
+        "They remained attached to a continental duchy until 1204."
+      ],
+      "summary": "In 933 the Channel Islands were annexed to the Duchy of Normandy by William Longsword. After Normandy fell to the French crown in 1204, the islands stayed with the English crown.",
+      "wikipediaTitle": "Channel Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Channel_Islands"
+      ]
+    },
+    {
       "id": "JEY-french-occupation-1461",
       "title": "French occupation of Mont Orgueil",
       "startYear": 1461,

@@ -14,11 +14,8 @@
         "gold",
         "land"
       ],
-      "territoryNames": [
-        "Roman Thrace"
-      ],
       "hints": [
-        "A client kingdom was turned into a province after its king was killed in AD 46.",
+        "A client kingdom was turned into a province after its last king died in AD 46.",
         "Mines and fertile plains made the Thracian lands valuable to the empire."
       ],
       "summary": "After the death of King Rhoemetalces III in 46 AD, the Roman emperor Claudius annexed the Thracian kingdom as a province. Roman cities, roads and military camps spread across the territory until it passed to the eastern empire.",
@@ -92,6 +89,29 @@
       "wikipediaTitle": "April Uprising",
       "sources": [
         "https://en.wikipedia.org/wiki/April_Uprising"
+      ]
+    },
+    {
+      "id": "BGR-treaty-of-neuilly",
+      "title": "Treaty of Neuilly",
+      "startYear": 1919,
+      "endYear": 1919,
+      "exploiter": {
+        "label": "the Allied Powers"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "land",
+        "tribute"
+      ],
+      "hints": [
+        "A Paris suburb gave its name to a 1919 treaty that cost the loser its Aegean coast.",
+        "The army was capped at 20,000 men and reparations of 2.25 billion gold francs were imposed."
+      ],
+      "summary": "Under the Treaty of Neuilly of November 1919, Bulgaria ceded Western Thrace, which cut it off from the Aegean, along with border areas to Yugoslavia. It also had to pay reparations of 2.25 billion gold francs and limit its army to 20,000 men.",
+      "wikipediaTitle": "Treaty of Neuilly-sur-Seine",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaty_of_Neuilly-sur-Seine"
       ]
     },
     {

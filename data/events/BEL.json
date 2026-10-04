@@ -14,9 +14,6 @@
         "land",
         "slaves"
       ],
-      "territoryNames": [
-        "Gallia Belgica"
-      ],
       "hints": [
         "A proconsul called the Belgae the bravest of the Gauls.",
         "A neighbouring tribe was nearly wiped out in 54–53 BCE."
@@ -41,9 +38,6 @@
         "tribute",
         "land"
       ],
-      "territoryNames": [
-        "the Spanish Netherlands"
-      ],
       "hints": [
         "A Catholic monarch kept the southern provinces after the northern ones broke away.",
         "A mutinous army sacked Antwerp in 1576 in the 'Spanish Fury'."
@@ -66,9 +60,6 @@
       "resources": [
         "tribute",
         "land"
-      ],
-      "territoryNames": [
-        "the Austrian Netherlands"
       ],
       "hints": [
         "The Treaty of Utrecht handed a prosperous region to Vienna.",

@@ -14,7 +14,7 @@
         "strategic_location"
       ],
       "hints": [
-        "A king's engineer besieged a fortress for a month in 1684.",
+        "A king's army besieged a fortress for about six weeks in the spring of 1684.",
         "The fortifications were rebuilt by Vauban before a treaty returned the city in 1697."
       ],
       "summary": "Louis XIV's army captured the fortress of Luxembourg in June 1684 after a siege and held it for 13 years. Vauban rebuilt the defences until the Treaty of Ryswick returned it to Spain in 1697.",
@@ -36,17 +36,14 @@
         "land",
         "labour"
       ],
-      "territoryNames": [
-        "the Département des Forêts"
-      ],
       "hints": [
         "A revolutionary army took the fortress after a siege lasting seven months.",
         "Peasants rose against conscription in 1798 in the 'Peasants' War'."
       ],
       "summary": "Revolutionary France annexed Luxembourg in 1795 after the siege of its fortress, organising it as the Département des Forêts. A peasant revolt against conscription in 1798 was crushed, and the territory was lost in 1814.",
-      "wikipediaTitle": "Peasants' War (Luxembourg)",
+      "wikipediaTitle": "Peasants' War (1798)",
       "sources": [
-        "https://en.wikipedia.org/wiki/Peasants'_War_(Luxembourg)"
+        "https://en.wikipedia.org/wiki/Peasants'_War_(1798)"
       ]
     },
     {

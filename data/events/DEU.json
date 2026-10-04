@@ -14,10 +14,6 @@
         "land",
         "trade_routes"
       ],
-      "territoryNames": [
-        "Germania Inferior",
-        "Germania Superior"
-      ],
       "hints": [
         "Fortresses and colonies grew up on the west bank of the great river.",
         "A frontier wall known as the limes marked the edge of the empire."
@@ -40,9 +36,6 @@
       "resources": [
         "land",
         "trade_routes"
-      ],
-      "territoryNames": [
-        "Swedish Pomerania"
       ],
       "hints": [
         "Peace in 1648 gave a northern kingdom a foothold on the southern Baltic coast.",
@@ -75,9 +68,9 @@
         "A treaty in 1801 formalised the loss, and the area was split into French departments."
       ],
       "summary": "French armies occupied the left bank of the Rhine in 1794 and annexed it by the Treaty of Lunéville in 1801, dividing it into departments. French law, taxes and conscription applied until the territory was lost in 1814.",
-      "wikipediaTitle": "Cisrhenane Republic",
+      "wikipediaTitle": "Cisrhenian Republic",
       "sources": [
-        "https://en.wikipedia.org/wiki/Cisrhenane_Republic"
+        "https://en.wikipedia.org/wiki/Cisrhenian_Republic"
       ]
     },
     {
@@ -155,7 +148,7 @@
     {
       "id": "DEU-wismut-uranium",
       "title": "Soviet uranium mining at Wismut",
-      "startYear": 1946,
+      "startYear": 1947,
       "endYear": 1990,
       "exploiter": {
         "label": "the Soviet Union"
@@ -169,7 +162,7 @@
         "A Soviet-run company dug in the Ore Mountains to feed an atomic programme.",
         "It became one of the world's largest uranium producers under an eastern bloc state."
       ],
-      "summary": "From 1946 the Soviet-controlled Wismut company mined uranium in Saxony and Thuringia, supplying the Soviet nuclear programme. It employed several hundred thousand workers over its history and left a legacy of environmental and health damage.",
+      "summary": "From 1947 the Soviet-controlled Wismut company mined uranium in Saxony and Thuringia, supplying the Soviet nuclear programme. It employed several hundred thousand workers over its history and left a legacy of environmental and health damage.",
       "wikipediaTitle": "Wismut (company)",
       "sources": [
         "https://en.wikipedia.org/wiki/Wismut_(company)"

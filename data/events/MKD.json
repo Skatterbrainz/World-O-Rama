@@ -13,9 +13,6 @@
       "resources": [
         "land"
       ],
-      "territoryNames": [
-        "Paeonia"
-      ],
       "hints": [
         "A king's general crossed the Hellespont and began a conquest after a failed Scythian campaign.",
         "Some inhabitants were reportedly deported to Asia."
@@ -91,9 +88,9 @@
       ],
       "summary": "After the Axis invasion of Yugoslavia, Bulgaria occupied and annexed much of Vardar Macedonia, imposing its administration and suppressing local identity. In March 1943 over 7,000 Jews were deported from the region to Treblinka.",
       "sensitive": true,
-      "wikipediaTitle": "Bulgarian occupation of Yugoslav Macedonia",
+      "wikipediaTitle": "Bulgarian rule of Macedonia, Morava Valley and Western Thrace (1941–1944)",
       "sources": [
-        "https://en.wikipedia.org/wiki/Bulgarian_occupation_of_Yugoslav_Macedonia"
+        "https://en.wikipedia.org/wiki/Bulgarian_rule_of_Macedonia,_Morava_Valley_and_Western_Thrace_(1941%E2%80%931944)"
       ]
     }
   ]

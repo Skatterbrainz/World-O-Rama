@@ -14,9 +14,6 @@
         "land",
         "tribute"
       ],
-      "territoryNames": [
-        "the Duchy of Carniola"
-      ],
       "hints": [
         "A dynasty acquired the Alpine duchy in the Middle Ages and kept it for almost six centuries.",
         "German-speaking nobles and officials dominated the Slovene-speaking peasantry."
@@ -40,9 +37,6 @@
         "timber",
         "trade_routes"
       ],
-      "territoryNames": [
-        "the Illyrian Provinces"
-      ],
       "hints": [
         "Napoleon founded a province with a capital at Ljubljana.",
         "French was the official language, and a short reform period began."
@@ -64,9 +58,6 @@
       "type": "annexation",
       "resources": [
         "land"
-      ],
-      "territoryNames": [
-        "the Julian March"
       ],
       "hints": [
         "A postwar treaty gave a large share of the Slovene lands to Rome in 1920.",

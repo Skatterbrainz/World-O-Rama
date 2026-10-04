@@ -37,9 +37,6 @@
       },
       "type": "other",
       "resources": [],
-      "territoryNames": [
-        "Upper Hungary"
-      ],
       "hints": [
         "After 1867 the language of administration and schooling was imposed from Budapest.",
         "Cultural institutions were closed in 1875 and a shooting in 1907 at Cernova became a symbol."
@@ -84,9 +81,6 @@
       "type": "puppet_regime",
       "resources": [
         "labour"
-      ],
-      "territoryNames": [
-        "the Slovak Republic (1939–1945)"
       ],
       "hints": [
         "A republic declared in March 1939 under German 'protection'.",

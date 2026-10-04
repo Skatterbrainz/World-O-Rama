@@ -24,6 +24,29 @@
       ]
     },
     {
+      "id": "ITA-vandal-sack-of-rome-455",
+      "title": "Vandal sack of Rome",
+      "startYear": 455,
+      "endYear": 455,
+      "exploiter": {
+        "label": "the Vandals"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "gold",
+        "silver"
+      ],
+      "hints": [
+        "A fleet from North Africa landed at the mouth of the Tiber in June 455.",
+        "The city was plundered systematically for about two weeks."
+      ],
+      "summary": "In June 455 the Vandal king Genseric landed with an army and plundered Rome for about two weeks, carrying off treasure, including items taken from the imperial palace, and many prominent captives to Carthage. The sack gave rise to the word vandalism.",
+      "wikipediaTitle": "Sack of Rome (455)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sack_of_Rome_(455)"
+      ]
+    },
+    {
       "id": "ITA-spanish-italy",
       "title": "Spanish rule of Naples, Sicily and Milan",
       "startYear": 1504,
@@ -37,8 +60,7 @@
         "grain"
       ],
       "territoryNames": [
-        "Spanish Naples",
-        "the Duchy of Milan"
+        "the Kingdom of Naples"
       ],
       "hints": [
         "A Crown held the south and Milan for two centuries after beating the French.",
@@ -48,6 +70,30 @@
       "wikipediaTitle": "Spanish Italy",
       "sources": [
         "https://en.wikipedia.org/wiki/Spanish_Italy"
+      ]
+    },
+    {
+      "id": "ITA-sack-of-rome-1527",
+      "title": "Sack of Rome",
+      "startYear": 1527,
+      "endYear": 1527,
+      "exploiter": {
+        "label": "the Holy Roman Empire"
+      },
+      "type": "other",
+      "resources": [
+        "gold",
+        "silver"
+      ],
+      "hints": [
+        "An unpaid imperial army stormed the walls on 6 May 1527.",
+        "The Swiss Guard fought a last stand while the pope fled to a castle."
+      ],
+      "summary": "On 6 May 1527 the unpaid troops of Emperor Charles V, many of them German and Spanish mercenaries, stormed Rome and plundered the city for months. Thousands of civilians were killed, and Pope Clement VII was besieged in the Castel Sant'Angelo.",
+      "sensitive": true,
+      "wikipediaTitle": "Sack of Rome (1527)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sack_of_Rome_(1527)"
       ]
     },
     {
@@ -64,8 +110,7 @@
         "tribute"
       ],
       "territoryNames": [
-        "the Cisalpine Republic",
-        "the Napoleonic Kingdom of Italy"
+        "the Cisalpine Republic"
       ],
       "hints": [
         "A young general crossed the Alps in 1796 and demanded contributions from city after city.",

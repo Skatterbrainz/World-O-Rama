@@ -14,9 +14,6 @@
         "land",
         "trade_routes"
       ],
-      "territoryNames": [
-        "Germania Inferior"
-      ],
       "hints": [
         "A frontier along the lower Rhine was held for centuries.",
         "A tribal uprising led by a Batavian officer shook the north in AD 69."
@@ -62,9 +59,6 @@
       "resources": [
         "tribute",
         "land"
-      ],
-      "territoryNames": [
-        "the Habsburg Netherlands"
       ],
       "hints": [
         "A king inherited the provinces in 1555 and sent in a duke who levied a new tax.",

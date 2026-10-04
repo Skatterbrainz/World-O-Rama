@@ -15,9 +15,6 @@
         "salt",
         "trade_routes"
       ],
-      "territoryNames": [
-        "Venetian Dalmatia"
-      ],
       "hints": [
         "A lagoon republic bought a coastline from a claimant for 100,000 ducats in 1409.",
         "Its fleet drew oak from the forests behind the coast and its monopoly shaped salt trade."
@@ -63,9 +60,6 @@
         "land",
         "labour"
       ],
-      "territoryNames": [
-        "the Military Frontier"
-      ],
       "hints": [
         "A buffer zone was run directly from Vienna rather than by local nobles.",
         "Peasant families received land in return for hereditary military service against a neighbouring empire."
@@ -90,9 +84,6 @@
         "timber",
         "trade_routes"
       ],
-      "territoryNames": [
-        "the Illyrian Provinces"
-      ],
       "hints": [
         "Napoleon cut a swathe of Adriatic land out of a defeated empire after 1809.",
         "The experiment ran from Ljubljana to Ragusa and ended after four years."
@@ -113,9 +104,6 @@
       },
       "type": "annexation",
       "resources": [],
-      "territoryNames": [
-        "the Governorate of Dalmatia"
-      ],
       "hints": [
         "Rome carved a governorate out of the coast after the invasion of a Balkan kingdom.",
         "Italian zones occupied the coast and islands until the armistice of September 1943."

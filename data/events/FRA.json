@@ -15,9 +15,6 @@
         "gold",
         "land"
       ],
-      "territoryNames": [
-        "Roman Gaul"
-      ],
       "hints": [
         "A proconsul wrote a famous account of his own campaigns, divided into three parts.",
         "The last great rebel chieftain surrendered at Alesia in 52 BCE."
@@ -98,6 +95,27 @@
       "wikipediaTitle": "Treaty of Paris (1815)",
       "sources": [
         "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1815)"
+      ]
+    },
+    {
+      "id": "FRA-siege-of-paris-1870",
+      "title": "Siege of Paris",
+      "startYear": 1870,
+      "endYear": 1871,
+      "exploiter": {
+        "label": "Prussia"
+      },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "A capital was encircled for four months in the winter of 1870 to 1871.",
+        "Zoo animals appeared on restaurant menus as supplies ran out."
+      ],
+      "summary": "During the Franco-Prussian War, German forces led by Prussia besieged Paris from September 1870 until the armistice of January 1871. The city suffered severe hunger and a bombardment, and the German Empire was proclaimed at Versailles during the siege.",
+      "sensitive": true,
+      "wikipediaTitle": "Siege of Paris (1870–1871)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siege_of_Paris_(1870%E2%80%931871)"
       ]
     },
     {

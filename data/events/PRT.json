@@ -14,9 +14,6 @@
         "gold",
         "tin"
       ],
-      "territoryNames": [
-        "Lusitania"
-      ],
       "hints": [
         "A shepherd turned warlord defeated several Roman armies.",
         "The final submission came with the Cantabrian Wars under Augustus."
@@ -65,9 +62,6 @@
       "resources": [
         "land",
         "tribute"
-      ],
-      "territoryNames": [
-        "the Iberian Union"
       ],
       "hints": [
         "A king died in North Africa without an heir in 1578, leaving a succession crisis.",
