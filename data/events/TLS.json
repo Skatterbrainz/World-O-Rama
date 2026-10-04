@@ -1,0 +1,94 @@
+{
+  "country": "TLS",
+  "events": [
+    {
+      "id": "TLS-portuguese-timor",
+      "title": "Portuguese Timor",
+      "startYear": 1702,
+      "endYear": 1975,
+      "exploiter": { "label": "Portugal" },
+      "type": "colonization",
+      "resources": ["timber", "coffee", "labour"],
+      "territoryNames": ["Portuguese Timor"],
+      "hints": [
+        "A fragrant wood first drew traders to the island.",
+        "A governor was appointed in 1702 after Lifau was chosen as the capital.",
+        "A decolonisation process ended with a neighbour's invasion in 1975."
+      ],
+      "summary": "Portugal appointed its first governor in 1702 and ruled the eastern half of the island for more than 270 years. Its exports centred on sandalwood and later coffee, with forced labour and taxes burdening the population, which rose in rebellion several times, such as in 1912.",
+      "wikipediaTitle": "Portuguese Timor",
+      "sources": ["https://en.wikipedia.org/wiki/Portuguese_Timor"]
+    },
+    {
+      "id": "TLS-treaty-of-lisbon-1859",
+      "title": "Treaty of Lisbon dividing the island",
+      "startYear": 1859,
+      "endYear": 1859,
+      "exploiter": { "label": "Portugal" },
+      "type": "other",
+      "resources": ["land"],
+      "hints": [
+        "Two European powers divided an island between them without consulting its peoples.",
+        "The Dutch and Portuguese signed in Lisbon in 1859.",
+        "Portugal kept the east and an enclave in the west."
+      ],
+      "summary": "In 1859 Portugal and the Netherlands signed a treaty in Lisbon dividing the island of Timor and nearby islands between them, leaving Portugal the eastern half and an enclave in the west. The border was finalised in later years and still exists.",
+      "wikipediaTitle": "Treaty of Lisbon (1859)",
+      "sources": ["https://en.wikipedia.org/wiki/Treaty_of_Lisbon_(1859)"]
+    },
+    {
+      "id": "TLS-japanese-occupation",
+      "title": "Japanese occupation",
+      "startYear": 1942,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["labour"],
+      "hints": [
+        "A small Australian force fought alongside local people against an invasion in February 1942.",
+        "Locals who aided the Allies were punished.",
+        "An estimated forty to seventy thousand died by the war's end."
+      ],
+      "summary": "Japan invaded in February 1942, fighting Australian and Dutch forces and their local helpers. During the occupation, villagers suffered forced labour, food requisitioning and reprisals, with an estimated 40,000 to 70,000 Timorese dying.",
+      "sensitive": true,
+      "wikipediaTitle": "Battle of Timor",
+      "sources": ["https://en.wikipedia.org/wiki/Battle_of_Timor"]
+    },
+    {
+      "id": "TLS-indonesian-occupation",
+      "title": "Indonesian occupation",
+      "startYear": 1975,
+      "endYear": 1999,
+      "exploiter": { "label": "Indonesia" },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "An invasion began just days after the territory declared independence.",
+        "A truth commission counted over a hundred thousand conflict-related deaths.",
+        "A 1999 referendum on independence was followed by militia violence."
+      ],
+      "summary": "Indonesia invaded in December 1975, days after a declaration of independence, and annexed the territory in 1976, a move not recognised by the United Nations. A UN-backed truth commission counted at least 100,000 conflict-related deaths, and militia violence followed the 1999 independence vote.",
+      "sensitive": true,
+      "wikipediaTitle": "Indonesian occupation of East Timor",
+      "sources": ["https://en.wikipedia.org/wiki/Indonesian_occupation_of_East_Timor"]
+    },
+    {
+      "id": "TLS-timor-gap",
+      "title": "Timor Gap and the oil and gas dispute",
+      "startYear": 1989,
+      "endYear": 2018,
+      "exploiter": { "label": "Australia" },
+      "type": "resource_extraction",
+      "resources": ["oil", "natural_gas"],
+      "hints": [
+        "A seabed boundary dispute with a large neighbour concerned undersea fields.",
+        "In 1989, treaty with a different neighbour carved up a shared zone.",
+        "Revelations of spying on negotiators emerged after 2004."
+      ],
+      "summary": "In 1989 Australia and Indonesia signed the Timor Gap Treaty to share seabed oil and gas, before the territory's independence. After independence, disputes over revenue and the boundary followed, and it emerged that Australian intelligence had bugged the cabinet room in 2004. A 2018 treaty fixed maritime boundaries.",
+      "quip": "Bugging a neighbour's cabinet room to win a gas deal: a unique definition of 'mates'.",
+      "wikipediaTitle": "Timor Gap",
+      "sources": ["https://en.wikipedia.org/wiki/Timor_Gap"]
+    }
+  ]
+}

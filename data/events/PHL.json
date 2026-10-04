@@ -52,6 +52,59 @@
       "sensitive": true,
       "wikipediaTitle": "Japanese occupation of the Philippines",
       "sources": ["https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Philippines"]
+    },
+    {
+      "id": "PHL-british-manila",
+      "title": "British occupation of Manila",
+      "startYear": 1762,
+      "endYear": 1764,
+      "exploiter": { "label": "the British Empire" },
+      "type": "occupation",
+      "resources": ["silver", "tribute"],
+      "hints": [
+        "A Seven Years' War expedition from India captured the colonial capital.",
+        "A promise of a four-million-dollar ransom was never honoured in full.",
+        "The islands were returned to the previous colonial rulers in 1764."
+      ],
+      "summary": "In October 1762 a British force sent from India captured Manila during the Seven Years' War and held it for about twenty months. The occupiers demanded a ransom of four million dollars, which was never paid in full, and handed the city back to Spain after the 1763 Treaty of Paris.",
+      "quip": "Britain held Manila for twenty months, collected a fraction of its ransom and returned it by treaty. Not its best invoice.",
+      "wikipediaTitle": "British occupation of Manila",
+      "sources": ["https://en.wikipedia.org/wiki/British_occupation_of_Manila"]
+    },
+    {
+      "id": "PHL-bell-trade-act",
+      "title": "Bell Trade Act and parity rights",
+      "startYear": 1946,
+      "endYear": 1974,
+      "exploiter": { "label": "the United States" },
+      "type": "unequal_treaty",
+      "resources": ["sugar", "land"],
+      "hints": [
+        "Postwar reconstruction money was tied to preferential trade terms and a constitutional change.",
+        "Americans were guaranteed equal rights to exploit natural resources.",
+        "It was revised by the Laurel-Langley Agreement in 1955."
+      ],
+      "summary": "The 1946 Bell Trade Act, passed just before independence, gave American goods preferential tariffs and fixed the peso to the dollar, and required a constitutional amendment granting Americans parity rights in natural resources. Reconstruction aid was conditional on it. The Laurel-Langley Agreement of 1955 revised it, and it expired in 1974.",
+      "quip": "Independence granted on 4 July 1946, with terms and conditions.",
+      "wikipediaTitle": "Bell Trade Act",
+      "sources": ["https://en.wikipedia.org/wiki/Bell_Trade_Act"]
+    },
+    {
+      "id": "PHL-us-bases",
+      "title": "US military bases",
+      "startYear": 1947,
+      "endYear": 1992,
+      "exploiter": { "label": "the United States" },
+      "type": "other",
+      "resources": ["strategic_location", "land"],
+      "hints": [
+        "Two giant overseas bases operated under 99-year leases agreed just after independence.",
+        "Subic Bay and Clark were among the largest American installations abroad.",
+        "The senate refused to extend the agreement in 1991."
+      ],
+      "summary": "Under the 1947 Military Bases Agreement the United States leased large areas, including Clark Air Base and Subic Bay Naval Base, for 99 years. The terms were revised in 1966. In 1991 the Philippine Senate rejected a new treaty, and US forces left Subic in 1992.",
+      "wikipediaTitle": "United States bases in the Philippines",
+      "sources": ["https://en.wikipedia.org/wiki/United_States_bases_in_the_Philippines"]
     }
   ]
 }

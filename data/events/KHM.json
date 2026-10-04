@@ -1,0 +1,94 @@
+{
+  "country": "KHM",
+  "events": [
+    {
+      "id": "KHM-vietnamese-annexation",
+      "title": "Vietnamese annexation and the Siamese-Vietnamese war",
+      "startYear": 1834,
+      "endYear": 1845,
+      "exploiter": { "label": "Vietnam" },
+      "type": "annexation",
+      "resources": ["land", "labour"],
+      "hints": [
+        "Two powerful neighbours treated a weakened kingdom as a battlefield.",
+        "A Nguyen emperor reorganised it as a province in the 1830s and tried to assimilate its people.",
+        "A 1845 settlement made it a vassal of both neighbours."
+      ],
+      "summary": "In the 1830s the Vietnamese emperor Minh Mang took control of the Khmer lands and attempted to assimilate them under a provincial administration. A revolt and a Siamese-Vietnamese war followed, ending in 1845 with a settlement that left the king as a vassal of both.",
+      "sensitive": true,
+      "wikipediaTitle": "Siamese–Vietnamese War (1840–1845)",
+      "sources": ["https://en.wikipedia.org/wiki/Siamese%E2%80%93Vietnamese_War_(1840%E2%80%931845)"]
+    },
+    {
+      "id": "KHM-siamese-battambang",
+      "title": "Siamese control of Battambang and Siem Reap",
+      "startYear": 1795,
+      "endYear": 1907,
+      "exploiter": { "label": "Siam" },
+      "type": "annexation",
+      "resources": ["land", "rice"],
+      "territoryNames": ["Siamese-ruled Battambang"],
+      "hints": [
+        "The provinces holding a famed medieval temple complex were run from a western neighbour's capital.",
+        "They were taken in the 1790s and returned to a colonial power only in 1907.",
+        "A 1907 treaty with France returned them in exchange for other border concessions."
+      ],
+      "summary": "Siam took control of Battambang and Siem Reap, including the Angkor temples, in the late 1790s. In the Franco-Siamese Treaty of 1907, Siam returned the provinces to French-ruled Cambodia in exchange for French concessions elsewhere.",
+      "wikipediaTitle": "Franco-Siamese Treaty of 1907",
+      "sources": ["https://en.wikipedia.org/wiki/Franco-Siamese_Treaty_of_1907"]
+    },
+    {
+      "id": "KHM-french-protectorate",
+      "title": "French protectorate",
+      "startYear": 1863,
+      "endYear": 1953,
+      "exploiter": { "label": "France" },
+      "type": "colonization",
+      "resources": ["rice", "rubber", "labour"],
+      "territoryNames": ["French Cambodia", "French Indochina"],
+      "hints": [
+        "A king signed a protection treaty in 1863 hoping to counter two neighbours.",
+        "Rubber estates at Chup and Kampong Cham were developed using migrant labour.",
+        "A king rallied his people for a 'royal crusade for independence' in 1953."
+      ],
+      "summary": "King Norodom accepted a French protectorate in 1863. France gradually took over the administration, imposed taxes, and developed rice exports and rubber plantations, while investing little in the country's population. Independence came in 1953 under Norodom Sihanouk.",
+      "wikipediaTitle": "French protectorate of Cambodia",
+      "sources": ["https://en.wikipedia.org/wiki/French_protectorate_of_Cambodia"]
+    },
+    {
+      "id": "KHM-japanese-occupation",
+      "title": "Japanese occupation",
+      "startYear": 1941,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["rice"],
+      "hints": [
+        "Soldiers were stationed under an agreement with the colonial authorities.",
+        "The colonial regime was swept aside in a coup in March 1945.",
+        "A short-lived declaration of independence followed."
+      ],
+      "summary": "Japanese forces entered in 1941 under an arrangement with Vichy French authorities, who continued to administer the colony. In March 1945 Japan ended French rule and encouraged a declaration of independence, which lasted until the war's end.",
+      "wikipediaTitle": "Japanese occupation of Cambodia",
+      "sources": ["https://en.wikipedia.org/wiki/Japanese_occupation_of_Cambodia"]
+    },
+    {
+      "id": "KHM-us-bombing",
+      "title": "US bombing campaign",
+      "startYear": 1969,
+      "endYear": 1973,
+      "exploiter": { "label": "the United States" },
+      "type": "proxy_war",
+      "resources": [],
+      "hints": [
+        "B-52s attacked eastern border areas in secret from 1969.",
+        "The campaign began as Operation Menu and was extended deep into the countryside.",
+        "An estimated two and a half million tons of bombs were dropped."
+      ],
+      "summary": "From March 1969 to August 1973 the United States bombed Cambodia, first secretly in Operation Menu and later in wider campaigns, targeting Vietnamese communist forces and later the Khmer Rouge. An estimated more than two million tons of ordnance fell, killing many civilians and displacing many more.",
+      "sensitive": true,
+      "wikipediaTitle": "Operation Menu",
+      "sources": ["https://en.wikipedia.org/wiki/Operation_Menu"]
+    }
+  ]
+}

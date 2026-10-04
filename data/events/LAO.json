@@ -1,0 +1,60 @@
+{
+  "country": "LAO",
+  "events": [
+    {
+      "id": "LAO-siamese-domination",
+      "title": "Siamese domination of the Lao kingdoms",
+      "startYear": 1779,
+      "endYear": 1893,
+      "exploiter": { "label": "Siam" },
+      "type": "other",
+      "resources": ["tribute", "labour"],
+      "territoryNames": ["the Kingdom of Vientiane", "the Kingdom of Luang Prabang"],
+      "hints": [
+        "The old kingdoms of the Mekong valley were forced to become vassals of a neighbour to the west.",
+        "Siamese armies took Vientiane in 1778 and 1779.",
+        "A rebellion in the late 1820s led to the destruction of Vientiane."
+      ],
+      "summary": "Siamese forces conquered Vientiane, Luang Prabang and Champasak in 1778 and 1779, and the three Lao kingdoms owed tribute and service to Bangkok until French pressure in 1893. After Anouvong's rebellion of 1826 to 1828, Vientiane was destroyed and many Lao were resettled on the Siamese side of the Mekong.",
+      "sensitive": true,
+      "wikipediaTitle": "Lao rebellion (1826–1828)",
+      "sources": ["https://en.wikipedia.org/wiki/Lao_rebellion_(1826%E2%80%931828)"]
+    },
+    {
+      "id": "LAO-french-protectorate",
+      "title": "French protectorate",
+      "startYear": 1893,
+      "endYear": 1953,
+      "exploiter": { "label": "France" },
+      "type": "colonization",
+      "resources": ["tin", "timber", "labour"],
+      "territoryNames": ["French Indochina"],
+      "hints": [
+        "It was added to a colonial union of five territories in Southeast Asia.",
+        "France claimed the territory after the 1893 gunboat crisis with a neighbour.",
+        "Roads were built with conscripted labour and little investment was made."
+      ],
+      "summary": "After the 1893 treaty with Siam, France made the country a protectorate within French Indochina. It was governed cheaply as a backwater, with taxes and corvée labour for roads, and some tin mining. Independence was recognised in 1953.",
+      "wikipediaTitle": "French protectorate of Laos",
+      "sources": ["https://en.wikipedia.org/wiki/French_protectorate_of_Laos"]
+    },
+    {
+      "id": "LAO-secret-war",
+      "title": "The Secret War and the US bombing",
+      "startYear": 1964,
+      "endYear": 1973,
+      "exploiter": { "label": "the United States" },
+      "type": "proxy_war",
+      "resources": [],
+      "hints": [
+        "It was the most heavily bombed country per person in history.",
+        "A covert CIA-backed army fought alongside air strikes from 1964.",
+        "Millions of unexploded cluster bomblets still contaminate its fields."
+      ],
+      "summary": "From 1964 to 1973 the United States conducted a covert air campaign and supported a CIA-backed army in a civil war between royalist and communist forces, dropping more than two million tons of ordnance. Unexploded munitions continue to kill and injure civilians and limit farmland.",
+      "sensitive": true,
+      "wikipediaTitle": "Laotian Civil War",
+      "sources": ["https://en.wikipedia.org/wiki/Laotian_Civil_War"]
+    }
+  ]
+}

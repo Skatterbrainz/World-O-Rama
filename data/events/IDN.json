@@ -53,6 +53,98 @@
       "sensitive": true,
       "wikipediaTitle": "Japanese occupation of the Dutch East Indies",
       "sources": ["https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Dutch_East_Indies"]
+    },
+    {
+      "id": "IDN-mongol-invasion-java",
+      "title": "Mongol invasion of Java",
+      "startYear": 1292,
+      "endYear": 1293,
+      "exploiter": { "label": "the Mongol Empire" },
+      "type": "other",
+      "resources": [],
+      "territoryNames": ["Singhasari"],
+      "hints": [
+        "A great khan sent a thousand ships to punish a king who had insulted his envoy.",
+        "The Mongols allied with a local claimant who then turned on them.",
+        "The empire of Majapahit was founded in the aftermath."
+      ],
+      "summary": "In 1292 Kublai Khan sent a large fleet to punish King Kertanegara of Singhasari. By the time it arrived Kertanegara was dead, and the Mongols allied with Raden Wijaya against a rival before Wijaya turned on them in 1293, expelling them and founding Majapahit.",
+      "wikipediaTitle": "Mongol invasion of Java",
+      "sources": ["https://en.wikipedia.org/wiki/Mongol_invasion_of_Java"]
+    },
+    {
+      "id": "IDN-banda-islands",
+      "title": "Conquest of the Banda Islands",
+      "startYear": 1609,
+      "endYear": 1621,
+      "exploiter": { "label": "the Dutch East India Company" },
+      "type": "resource_extraction",
+      "resources": ["spices", "slaves"],
+      "territoryNames": ["the Banda Islands"],
+      "hints": [
+        "The only source in the world of a prized aromatic seed was a handful of tiny islands.",
+        "Jan Pieterszoon Coen's 1621 campaign destroyed the local society.",
+        "Plantations worked by enslaved people replaced the islanders."
+      ],
+      "summary": "To secure a monopoly on nutmeg and mace, the Dutch East India Company conquered the Banda Islands in 1621 under Jan Pieterszoon Coen. Much of the local population was killed, enslaved or driven out, and nutmeg plantations were established using enslaved labour.",
+      "sensitive": true,
+      "wikipediaTitle": "Banda Islands",
+      "sources": ["https://en.wikipedia.org/wiki/Banda_Islands"]
+    },
+    {
+      "id": "IDN-aceh-war",
+      "title": "Aceh War",
+      "startYear": 1873,
+      "endYear": 1904,
+      "exploiter": { "label": "the Netherlands" },
+      "type": "other",
+      "resources": ["spices"],
+      "hints": [
+        "A sultanate at the northern tip of an island fought a colonial power for three decades.",
+        "The Dutch declared war in 1873 to control a strategic strait.",
+        "Guerrilla resistance continued long after the sultan's capital fell."
+      ],
+      "summary": "The Netherlands declared war on the Sultanate of Aceh in 1873 and fought a long and costly colonial war, with guerrilla resistance lasting until 1904 or later. Estimates of Acehnese deaths run from tens of thousands to well over 100,000.",
+      "sensitive": true,
+      "wikipediaTitle": "Aceh War",
+      "sources": ["https://en.wikipedia.org/wiki/Aceh_War"]
+    },
+    {
+      "id": "IDN-romusha",
+      "title": "Romusha forced labour",
+      "startYear": 1942,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "forced_labour",
+      "resources": ["labour", "rice"],
+      "hints": [
+        "Millions of villagers were conscripted as manual labourers for a foreign army.",
+        "They built roads, railways and airfields, often far from home.",
+        "Many were shipped to work sites in other occupied territories."
+      ],
+      "summary": "Under Japanese occupation, millions of Javanese and other villagers were recruited, often by coercion, as romusha (manual labourers) to build railways, roads and defences. Many were sent to other parts of Southeast Asia, and large numbers died from overwork, disease and starvation.",
+      "sensitive": true,
+      "wikipediaTitle": "Rōmusha",
+      "sources": ["https://en.wikipedia.org/wiki/R%C5%8Dmusha"]
+    },
+    {
+      "id": "IDN-national-revolution",
+      "title": "Indonesian National Revolution and the Dutch military actions",
+      "startYear": 1945,
+      "endYear": 1949,
+      "exploiter": { "label": "the Netherlands" },
+      "type": "other",
+      "resources": ["sugar", "oil"],
+      "territoryNames": ["the Dutch East Indies"],
+      "hints": [
+        "A colonial power tried to restore its rule after the war.",
+        "Two big offensives were called 'police actions' by the side that launched them.",
+        "Sovereignty was transferred in December 1949 after international pressure."
+      ],
+      "summary": "After Indonesia declared independence in 1945, the Netherlands tried to restore control, launching major military offensives in 1947 and 1948 that it called police actions. International pressure and Indonesian resistance led to a transfer of sovereignty in December 1949.",
+      "sensitive": true,
+      "wikipediaTitle": "Indonesian National Revolution",
+      "sources": ["https://en.wikipedia.org/wiki/Indonesian_National_Revolution"]
     }
   ]
 }
