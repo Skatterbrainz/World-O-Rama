@@ -1,0 +1,99 @@
+{
+  "country": "LUX",
+  "events": [
+    {
+      "id": "LUX-french-occupation-1684",
+      "title": "French siege and occupation",
+      "startYear": 1684,
+      "endYear": 1697,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A king's engineer besieged a fortress for a month in 1684.",
+        "The fortifications were rebuilt by Vauban before a treaty returned the city in 1697."
+      ],
+      "summary": "Louis XIV's army captured the fortress of Luxembourg in June 1684 after a siege and held it for 13 years. Vauban rebuilt the defences until the Treaty of Ryswick returned it to Spain in 1697.",
+      "wikipediaTitle": "Siege of Luxembourg (1684)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siege_of_Luxembourg_(1684)"
+      ]
+    },
+    {
+      "id": "LUX-napoleonic-annexation",
+      "title": "French annexation",
+      "startYear": 1795,
+      "endYear": 1814,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "labour"
+      ],
+      "territoryNames": [
+        "the Département des Forêts"
+      ],
+      "hints": [
+        "A revolutionary army took the fortress after a siege lasting seven months.",
+        "Peasants rose against conscription in 1798 in the 'Peasants' War'."
+      ],
+      "summary": "Revolutionary France annexed Luxembourg in 1795 after the siege of its fortress, organising it as the Département des Forêts. A peasant revolt against conscription in 1798 was crushed, and the territory was lost in 1814.",
+      "wikipediaTitle": "Peasants' War (Luxembourg)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Peasants'_War_(Luxembourg)"
+      ]
+    },
+    {
+      "id": "LUX-german-occupation-ww1",
+      "title": "German occupation in the First World War",
+      "startYear": 1914,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "iron_ore"
+      ],
+      "hints": [
+        "Troops crossed the border on the first days of August 1914 despite a neutrality treaty.",
+        "The steel industry kept running to supply the occupier."
+      ],
+      "summary": "German troops occupied the neutral country on 2 August 1914, in breach of the 1867 Treaty of London, and stayed until the armistice. The country's steel and iron industry continued to supply Germany.",
+      "wikipediaTitle": "Luxembourg in World War I",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Luxembourg_in_World_War_I"
+      ]
+    },
+    {
+      "id": "LUX-german-annexation-ww2",
+      "title": "German occupation and annexation",
+      "startYear": 1940,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "annexation",
+      "resources": [
+        "iron_ore",
+        "labour"
+      ],
+      "hints": [
+        "Declared part of a neighbouring Gau after the May 1940 invasion.",
+        "Compulsory military service for locals in 1942 triggered a general strike."
+      ],
+      "summary": "Germany occupied Luxembourg in May 1940 and annexed it as part of Gau Moselland, banning French and imposing German citizenship. Compulsory military service for young men from 1942 provoked a general strike that was brutally repressed.",
+      "sensitive": true,
+      "wikipediaTitle": "German occupation of Luxembourg",
+      "sources": [
+        "https://en.wikipedia.org/wiki/German_occupation_of_Luxembourg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "country": "GBR",
+  "events": [
+    {
+      "id": "GBR-roman-britain",
+      "title": "Roman conquest of Britain",
+      "startYear": 43,
+      "endYear": 410,
+      "exploiter": {
+        "label": "the Roman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tin",
+        "silver",
+        "gold",
+        "grain"
+      ],
+      "territoryNames": [
+        "Roman Britain",
+        "Britannia"
+      ],
+      "hints": [
+        "An emperor landed with elephants in AD 43.",
+        "A great rebel queen of the Iceni burned the settlements of Colchester and London in AD 60."
+      ],
+      "summary": "The Romans invaded in AD 43 under Claudius and held the southern two-thirds of the island until about 410. Mines produced silver, tin and gold, and the province exported grain to the continent.",
+      "wikipediaTitle": "Roman Britain",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Roman_Britain"
+      ]
+    },
+    {
+      "id": "GBR-danelaw",
+      "title": "Viking conquest and the Danelaw",
+      "startYear": 865,
+      "endYear": 954,
+      "exploiter": {
+        "label": "the Vikings"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "silver"
+      ],
+      "territoryNames": [
+        "the Danelaw"
+      ],
+      "hints": [
+        "A Great Heathen Army landed in East Anglia in 865.",
+        "Under a treaty, a large region was ruled by Scandinavian law."
+      ],
+      "summary": "In 865 a large Danish army landed in East Anglia and over the following decades conquered Northumbria, East Anglia and parts of Mercia. The areas under Scandinavian law became known as the Danelaw until the last Viking king of York fell in 954.",
+      "wikipediaTitle": "Danelaw",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Danelaw"
+      ]
+    },
+    {
+      "id": "GBR-danish-north-sea-empire",
+      "title": "Danish conquest and the North Sea Empire",
+      "startYear": 1013,
+      "endYear": 1042,
+      "exploiter": {
+        "label": "Denmark"
+      },
+      "type": "annexation",
+      "resources": [
+        "silver",
+        "tribute"
+      ],
+      "territoryNames": [
+        "the North Sea Empire"
+      ],
+      "hints": [
+        "A Danish king drove the English monarch into exile in 1013.",
+        "An enormous silver payment, the heregeld, taxed the population in 1018."
+      ],
+      "summary": "After years of raids and tribute payments, Sweyn Forkbeard conquered England in 1013 and his son Cnut ruled it from 1016 as part of a North Sea empire. A tax of 82,500 pounds of silver was levied in 1018 to pay off Cnut's fleet.",
+      "wikipediaTitle": "North Sea Empire",
+      "sources": [
+        "https://en.wikipedia.org/wiki/North_Sea_Empire"
+      ]
+    },
+    {
+      "id": "GBR-norman-conquest",
+      "title": "Norman Conquest",
+      "startYear": 1066,
+      "endYear": 1071,
+      "exploiter": {
+        "label": "the Normans"
+      },
+      "type": "colonization",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A duke crossed the Channel in 1066 and won a battle near Hastings.",
+        "Land was redistributed and recorded in a great survey twenty years later."
+      ],
+      "summary": "After winning the Battle of Hastings in October 1066, William of Normandy was crowned king of England. Over the following years the Anglo-Saxon aristocracy was largely replaced by Norman lords, and land ownership was recorded in the Domesday Book of 1086.",
+      "wikipediaTitle": "Norman Conquest",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Norman_Conquest"
+      ]
+    },
+    {
+      "id": "GBR-harrying-of-the-north",
+      "title": "Harrying of the North",
+      "startYear": 1069,
+      "endYear": 1070,
+      "exploiter": {
+        "label": "the Normans"
+      },
+      "type": "engineered_famine",
+      "resources": [
+        "livestock",
+        "grain"
+      ],
+      "hints": [
+        "A king's army laid waste to a swathe of northern country after rebellions.",
+        "Crops, livestock and villages were destroyed in the winter of 1069."
+      ],
+      "summary": "After rebellions in the north, William the Conqueror's forces devastated Yorkshire and the surrounding areas in the winter of 1069–70, destroying food stocks and villages. Contemporary writers describe a severe famine; modern estimates of deaths are uncertain.",
+      "sensitive": true,
+      "wikipediaTitle": "Harrying of the North",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Harrying_of_the_North"
+      ]
+    },
+    {
+      "id": "GBR-conquest-of-wales",
+      "title": "English conquest of Wales",
+      "startYear": 1277,
+      "endYear": 1283,
+      "exploiter": {
+        "label": "England"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "the Principality of Wales"
+      ],
+      "hints": [
+        "A king built a ring of massive castles around a mountain stronghold.",
+        "The last native prince was killed near Builth in December 1282."
+      ],
+      "summary": "Edward I of England launched two campaigns in 1277 and 1282–83, ending with the death of Llywelyn ap Gruffudd and the annexation of the principality. The Statute of Rhuddlan in 1284 organised English-style administration, and a chain of castles was built.",
+      "wikipediaTitle": "Edwardian conquest of Wales",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Edwardian_conquest_of_Wales"
+      ]
+    },
+    {
+      "id": "GBR-english-occupation-scotland",
+      "title": "English occupation of Scotland",
+      "startYear": 1296,
+      "endYear": 1328,
+      "exploiter": {
+        "label": "England"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A king seized a ceremonial stone and carried it south in 1296.",
+        "A war of independence ended with a treaty in 1328."
+      ],
+      "summary": "Edward I invaded in 1296, sacking Berwick, and took the Stone of Scone to Westminster. Resistance under William Wallace and Robert Bruce led to the Wars of Scottish Independence, and the Treaty of Edinburgh–Northampton recognised independence in 1328.",
+      "wikipediaTitle": "First War of Scottish Independence",
+      "sources": [
+        "https://en.wikipedia.org/wiki/First_War_of_Scottish_Independence"
+      ]
+    }
+  ]
+}

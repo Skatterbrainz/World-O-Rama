@@ -1,0 +1,49 @@
+{
+  "country": "ALA",
+  "events": [
+    {
+      "id": "ALA-russian-conquest-1809",
+      "title": "Russian conquest",
+      "startYear": 1808,
+      "endYear": 1809,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "annexation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A winter invasion crossed the frozen sea in March 1809.",
+        "A peace treaty at Fredrikshamn moved the islands east."
+      ],
+      "summary": "During the Finnish War of 1808–09 Russian troops crossed the ice to Aland and forced Sweden to cede the islands. The Treaty of Fredrikshamn in September 1809 transferred them to Russia along with Finland.",
+      "wikipediaTitle": "Finnish War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Finnish_War"
+      ]
+    },
+    {
+      "id": "ALA-bomarsund",
+      "title": "Anglo-French attack on Bomarsund",
+      "startYear": 1854,
+      "endYear": 1854,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A Russian fortress under construction was bombarded by two navies in the Baltic.",
+        "Afterwards the demilitarisation of the islands was negotiated."
+      ],
+      "summary": "During the Crimean War an Anglo-French fleet and troops captured and destroyed the Russian fortress of Bomarsund in August 1854. The 1856 Aland Convention then demilitarised the islands.",
+      "wikipediaTitle": "Åland War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/%C3%85land_War"
+      ]
+    }
+  ]
+}

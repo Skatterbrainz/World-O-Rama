@@ -1,0 +1,179 @@
+{
+  "country": "DEU",
+  "events": [
+    {
+      "id": "DEU-roman-rhineland",
+      "title": "Roman rule of the Rhineland",
+      "startYear": 85,
+      "endYear": 406,
+      "exploiter": {
+        "label": "the Roman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "Germania Inferior",
+        "Germania Superior"
+      ],
+      "hints": [
+        "Fortresses and colonies grew up on the west bank of the great river.",
+        "A frontier wall known as the limes marked the edge of the empire."
+      ],
+      "summary": "The Romans organised the provinces of Germania Inferior and Germania Superior along the Rhine in the 1st century AD, founding towns such as Cologne and Trier. The frontier collapsed in the early 5th century.",
+      "wikipediaTitle": "Germania Superior",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Germania_Superior"
+      ]
+    },
+    {
+      "id": "DEU-swedish-pomerania",
+      "title": "Swedish Pomerania",
+      "startYear": 1648,
+      "endYear": 1815,
+      "exploiter": {
+        "label": "Sweden"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "Swedish Pomerania"
+      ],
+      "hints": [
+        "Peace in 1648 gave a northern kingdom a foothold on the southern Baltic coast.",
+        "It was traded away to Prussia and Denmark during the Napoleonic settlement."
+      ],
+      "summary": "After the Thirty Years' War, the Peace of Westphalia gave Sweden Western Pomerania, Wismar and the bishoprics of Bremen and Verden. Swedish rule lasted until Pomerania was given to Prussia in 1815.",
+      "wikipediaTitle": "Swedish Pomerania",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Swedish_Pomerania"
+      ]
+    },
+    {
+      "id": "DEU-french-rhine-annexation",
+      "title": "French annexation of the left bank of the Rhine",
+      "startYear": 1794,
+      "endYear": 1814,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "tribute"
+      ],
+      "territoryNames": [
+        "the Cisrhenane Republic"
+      ],
+      "hints": [
+        "Revolutionary armies seized a swathe of land west of a great river in 1794.",
+        "A treaty in 1801 formalised the loss, and the area was split into French departments."
+      ],
+      "summary": "French armies occupied the left bank of the Rhine in 1794 and annexed it by the Treaty of Lunéville in 1801, dividing it into departments. French law, taxes and conscription applied until the territory was lost in 1814.",
+      "wikipediaTitle": "Cisrhenane Republic",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cisrhenane_Republic"
+      ]
+    },
+    {
+      "id": "DEU-tilsit-prussia",
+      "title": "French occupation and indemnity after Jena",
+      "startYear": 1806,
+      "endYear": 1808,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute"
+      ],
+      "hints": [
+        "A rout in October 1806 left a kingdom's capital in enemy hands.",
+        "A 1807 treaty halved its territory and a huge indemnity followed."
+      ],
+      "summary": "After the defeat at Jena–Auerstedt in 1806, French troops occupied Berlin, and the Treaties of Tilsit in 1807 halved Prussian territory. A heavy indemnity was demanded, and French troops stayed until payment arrangements were agreed.",
+      "wikipediaTitle": "Treaties of Tilsit",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaties_of_Tilsit"
+      ]
+    },
+    {
+      "id": "DEU-ruhr-occupation",
+      "title": "Occupation of the Ruhr",
+      "startYear": 1923,
+      "endYear": 1925,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [
+        "coal",
+        "iron_ore"
+      ],
+      "hints": [
+        "Troops marched into an industrial heartland in January 1923 over late reparations deliveries.",
+        "Passive resistance and hyperinflation followed."
+      ],
+      "summary": "France and Belgium occupied the Ruhr in January 1923, claiming default on reparations deliveries of coal and timber. The occupation led to passive resistance, hyperinflation and the Dawes Plan of 1924, and ended by 1925.",
+      "quip": "Collecting the debt by occupying the factories that were meant to earn it.",
+      "wikipediaTitle": "Occupation of the Ruhr",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occupation_of_the_Ruhr"
+      ]
+    },
+    {
+      "id": "DEU-east-germany-soviet",
+      "title": "Soviet zone and East German satellite state",
+      "startYear": 1945,
+      "endYear": 1990,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "puppet_regime",
+      "resources": [
+        "labour",
+        "land"
+      ],
+      "territoryNames": [
+        "the Soviet Occupation Zone"
+      ],
+      "hints": [
+        "Factories were dismantled and shipped east as reparations after 1945.",
+        "A wall built in 1961 stopped citizens leaving a client state."
+      ],
+      "summary": "After 1945 the Soviet Union dismantled industrial plants and railways in its zone as reparations, and in 1949 helped found the East German state. The regime was dependent on Moscow and its troops until reunification in 1990.",
+      "wikipediaTitle": "East Germany",
+      "sources": [
+        "https://en.wikipedia.org/wiki/East_Germany"
+      ]
+    },
+    {
+      "id": "DEU-wismut-uranium",
+      "title": "Soviet uranium mining at Wismut",
+      "startYear": 1946,
+      "endYear": 1990,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "uranium",
+        "labour"
+      ],
+      "hints": [
+        "A Soviet-run company dug in the Ore Mountains to feed an atomic programme.",
+        "It became one of the world's largest uranium producers under an eastern bloc state."
+      ],
+      "summary": "From 1946 the Soviet-controlled Wismut company mined uranium in Saxony and Thuringia, supplying the Soviet nuclear programme. It employed several hundred thousand workers over its history and left a legacy of environmental and health damage.",
+      "wikipediaTitle": "Wismut (company)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wismut_(company)"
+      ]
+    }
+  ]
+}
