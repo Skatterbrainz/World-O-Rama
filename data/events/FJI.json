@@ -54,6 +54,29 @@
       "sensitive": true,
       "wikipediaTitle": "Blackbirding",
       "sources": ["https://en.wikipedia.org/wiki/Blackbirding"]
+    },
+    {
+      "id": "FJI-tongan-hegemony",
+      "title": "Tongan hegemony over the former domains of the Tui Fiti",
+      "startYear": 1201,
+      "endYear": 1500,
+      "exploiter": {
+        "label": "the Tuʻi Tonga Empire"
+      },
+      "type": "other",
+      "resources": [
+        "tribute"
+      ],
+      "hints": [
+        "Tongan voyaging kings extended their reach westward across the Pacific from about 950 and peaked between 1200 and 1500.",
+        "The empire grew to include much of the former domains of a rival paramount chief.",
+        "Linguistic and archaeological evidence shows Tongan influence on the island group of Rotuma and elsewhere in this archipelago."
+      ],
+      "summary": "At its height, from about 1200 to 1500, the Tuʻi Tonga Empire extended over much of the former domains of the Tui Fiti, and tribute was due to the Tuʻi Tonga. Modern archaeology, anthropology and linguistics confirm widespread Tongan influence in Fiji, including on Rotuma. Scholars debate whether to call this an empire or a maritime chiefdom, and the dates are approximate.",
+      "wikipediaTitle": "Tuʻi Tonga Empire",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tu%CA%BBi_Tonga_Empire"
+      ]
     }
   ]
 }

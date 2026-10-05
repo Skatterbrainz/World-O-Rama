@@ -95,6 +95,32 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Little_Danes_experiment"
       ]
+    },
+    {
+      "id": "GRL-norse-settlements",
+      "title": "Norse settlements",
+      "startYear": 986,
+      "endYear": 1450,
+      "exploiter": {
+        "label": "the Vikings"
+      },
+      "type": "colonization",
+      "resources": [
+        "ivory",
+        "furs"
+      ],
+      "hints": [
+        "An Icelandic outlaw exiled for killing a man explored an ice-covered land in 982 and gave it a deliberately cheerful name.",
+        "About 700 settlers in a fleet of ships followed in 986 and founded farming colonies in the south-west.",
+        "The last written record of the colonies is a wedding in 1408, and they were gone by the mid-15th century."
+      ],
+      "summary": "After Erik the Red explored the coast in 982, settlers from Iceland founded the Eastern and Western Settlements from 986, and the colonies exported goods such as walrus ivory and furs to Europe. The Thule people, ancestors of modern Inuit, arrived from about 1200 and were dominant by 1300. The last written record of the Norse is a wedding in 1408, and the Eastern Settlement had disappeared by the mid-15th century.",
+      "quip": "Erik the Red's marketing deserves credit: nothing about the place was especially green.",
+      "wikipediaTitle": "Norse settlements in Greenland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Norse_settlements_in_Greenland",
+        "https://en.wikipedia.org/wiki/Erik_the_Red"
+      ]
     }
   ]
 }
