@@ -281,16 +281,18 @@ body {
   cursor: not-allowed;
 }
 
+/* Click targets for tiny countries. Styled like land so they do not look like hints. */
 .marker {
-  fill: rgba(244, 185, 66, 0.35);
-  stroke: var(--accent);
+  fill: var(--land);
+  stroke: #5b6b86;
   stroke-width: 0.8;
   vector-effect: non-scaling-stroke;
   cursor: pointer;
 }
 
 .marker:hover {
-  fill: rgba(244, 185, 66, 0.7);
+  fill: var(--land-hover);
+  stroke: #8a9bb8;
 }
 
 .country.is-correct,
