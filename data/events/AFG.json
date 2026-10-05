@@ -107,6 +107,47 @@
       "sensitive": true,
       "wikipediaTitle": "Mongol invasion of the Khwarazmian Empire",
       "sources": ["https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire"]
+    },
+    {
+      "id": "AFG-soviet-incursion-1929",
+      "title": "Soviet incursion of 1929",
+      "startYear": 1929,
+      "endYear": 1929,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A small cavalry force crossed the Amu Darya from Termez in April 1929, officially to restore an ousted king.",
+        "Its commander travelled under the cover identity of a Turkish officer.",
+        "It took Mazar-i-Sharif and was withdrawn after the king went into exile in May."
+      ],
+      "summary": "In April 1929 a Red Army force of roughly 700 to 1,000 men under Vitaly Primakov crossed from Termez to support the ousted King Amanullah Khan and attacked Basmachi bases, taking Mazar-i-Sharif and Tashqurghan. The operation was halted when Amanullah went into exile in May, and the last Soviet unit left in June. A smaller raid followed in 1930.",
+      "wikipediaTitle": "Basmachi movement",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Basmachi_movement",
+        "https://en.wikipedia.org/wiki/Vitaly_Primakov"
+      ]
+    },
+    {
+      "id": "AFG-soviet-invasion-1979",
+      "title": "Soviet invasion and Operation Storm-333",
+      "startYear": 1979,
+      "endYear": 1979,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "Soviet transport aircraft began landing troops at the capital's airfield in late December 1979.",
+        "On 27 December special forces stormed the Tajbeg Palace.",
+        "The country's leader Hafizullah Amin was killed and replaced by the Soviet-backed Babrak Karmal."
+      ],
+      "summary": "In late December 1979 Soviet forces entered by air and across the Amu Darya. On 27 December special forces and airborne troops stormed the Tajbeg Palace in Kabul in Operation Storm-333 and killed the leader Hafizullah Amin, installing the Parcham faction's Babrak Karmal. It was the start of the Soviet-Afghan War.",
+      "sensitive": true,
+      "wikipediaTitle": "Operation Storm-333",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Operation_Storm-333",
+        "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan"
+      ]
     }
   ]
 }

@@ -2,6 +2,27 @@
   "country": "AZE",
   "events": [
     {
+      "id": "AZE-persian-expedition-1796",
+      "title": "Russian Persian expedition of 1796",
+      "startYear": 1796,
+      "endYear": 1796,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "An empress sent an army south in the last year of her reign to punish a shah who had burned a neighbouring capital.",
+        "A great fortress at the Caspian gate was stormed in May 1796, and the troops overran most of the region within weeks.",
+        "The army was withdrawn in November after the empress died."
+      ],
+      "summary": "In 1796 Catherine the Great sent an expedition under Valerian Zubov against Qajar Iran after the 1795 sack of Tbilisi. After storming Derbent in May, Russian troops overran most of the territory of present-day Azerbaijan, including Baku, Shamakhi and Ganja, without resistance. Catherine's death in November led her successor Paul I to order a withdrawal, and the expedition had no lasting territorial result.",
+      "quip": "The conquest was cancelled when the empress died, which is about as abrupt as foreign policy gets.",
+      "wikipediaTitle": "Persian expedition of 1796",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Persian_expedition_of_1796",
+        "https://en.wikipedia.org/wiki/Valerian_Zubov"
+      ]
+    },
+    {
       "id": "AZE-treaty-of-gulistan",
       "title": "Treaty of Gulistan",
       "startYear": 1804,
@@ -18,6 +39,28 @@
       "summary": "After the Russo-Persian War of 1804 to 1813, Persia ceded to Russia most of the Caucasian khanates it had held, including Baku, Ganja, Karabakh, Shaki, Shirvan and Quba, in the Treaty of Gulistan. Persia was also forced to renounce its claim to Georgian lands.",
       "wikipediaTitle": "Treaty of Gulistan",
       "sources": ["https://en.wikipedia.org/wiki/Treaty_of_Gulistan"]
+    },
+    {
+      "id": "AZE-siege-of-ganja-1804",
+      "title": "Russian storming of Ganja",
+      "startYear": 1804,
+      "endYear": 1804,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "invasion",
+      "resources": [],
+      "territoryNames": ["the Ganja Khanate"],
+      "hints": [
+        "A Russian general demanded surrender repeatedly during a month-long siege.",
+        "The khan replied that he would be found dead on the fortress wall.",
+        "The city, stormed on 15 January 1804, was later renamed Elisavetpol."
+      ],
+      "summary": "In early 1804 Russian troops under Pavel Tsitsianov besieged Ganja, a khanate under Qajar Iranian suzerainty, and stormed it on 15 January. Its ruler Javad Khan, who had refused repeated demands to surrender, was killed in the defence. The assault helped trigger the Russo-Persian War of 1804-1813.",
+      "sensitive": true,
+      "wikipediaTitle": "Siege of Ganja (1804)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siege_of_Ganja_%281804%29",
+        "https://en.wikipedia.org/wiki/Russo-Persian_War_%281804%E2%80%931813%29"
+      ]
     },
     {
       "id": "AZE-baku-oil",
@@ -43,7 +86,7 @@
       "startYear": 1920,
       "endYear": 1920,
       "exploiter": { "label": "the Soviet Union" },
-      "type": "annexation",
+      "type": "invasion",
       "resources": ["oil"],
       "territoryNames": ["the Transcaucasian SFSR"],
       "hints": [

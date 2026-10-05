@@ -2,6 +2,28 @@
   "country": "MDA",
   "events": [
     {
+      "id": "MDA-russian-invasion-1806",
+      "title": "Russian invasion in the Russo-Turkish War of 1806 to 1812",
+      "startYear": 1806,
+      "endYear": 1812,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A tsar's army crossed a border river in late 1806, as Napoleon dominated the continent.",
+        "A war with the Sublime Porte dragged on for six years.",
+        "A treaty signed in Bucharest in May 1812 ceded the land between two rivers."
+      ],
+      "summary": "In late 1806 Russian forces crossed the Dniester at the start of the Russo-Turkish War of 1806-1812 and occupied the Danubian Principalities. The Treaty of Bucharest of May 1812 ended the war and ceded the territory between the Prut and Dniester, Bessarabia, to Russia.",
+      "wikipediaTitle": "Russo-Turkish War (1806–1812)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Russo-Turkish_War_%281806%E2%80%931812%29",
+        "https://en.wikipedia.org/wiki/Treaty_of_Bucharest_%281812%29"
+      ]
+    },
+    {
       "id": "MDA-russian-annexation-bessarabia-1812",
       "title": "Russian annexation of Bessarabia",
       "startYear": 1812,

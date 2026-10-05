@@ -91,6 +91,29 @@
       ]
     },
     {
+      "id": "BLR-soviet-offensive-1918",
+      "title": "Soviet offensive and conquest of the Belarusian People's Republic",
+      "startYear": 1918,
+      "endYear": 1919,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "As German garrisons withdrew in late 1918, another army moved into the vacuum from the east.",
+        "A republic proclaimed in March 1918 never won international recognition and was driven from its capital.",
+        "A Soviet republic was proclaimed in early January 1919."
+      ],
+      "summary": "As Ober Ost garrisons withdrew after the First World War, Soviet Russia advanced west in the 1918-1919 westward offensive. The Red Army took Minsk in December 1918, conquering the Belarusian People's Republic proclaimed in March 1918, and a Soviet republic was proclaimed in January 1919.",
+      "sensitive": true,
+      "wikipediaTitle": "Soviet westward offensive of 1918–1919",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Soviet_westward_offensive_of_1918%E2%80%931919",
+        "https://en.wikipedia.org/wiki/Belarusian_People's_Republic"
+      ]
+    },
+    {
       "id": "BLR-polish-rule-west",
       "title": "Polish rule over western Belarus",
       "startYear": 1921,
@@ -141,7 +164,7 @@
       "exploiter": {
         "label": "the Soviet Union"
       },
-      "type": "annexation",
+      "type": "invasion",
       "resources": [
         "land"
       ],

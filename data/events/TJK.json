@@ -56,6 +56,27 @@
       "sources": ["https://en.wikipedia.org/wiki/Great_Game"]
     },
     {
+      "id": "TJK-red-army-eastern-bukhara-1921",
+      "title": "Red Army conquest of Eastern Bukhara",
+      "startYear": 1921,
+      "endYear": 1923,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "The last ruler of an ancient emirate took refuge in a mountain town in 1920 and fled across the border in March 1921.",
+        "An exiled Ottoman war minister died leading cavalry against the Red Army in August 1922.",
+        "A major offensive in 1923 cleared rebels from the mountain district of Garm."
+      ],
+      "summary": "After the Emir of Bukhara was overthrown in 1920 he withdrew to Dushanbe. The Red Army conquered Eastern Bukhara in early 1921 and the emir fled to Afghanistan on 4 March. Basmachi forces under Enver Pasha took Dushanbe in February 1922 but the Red Army retook it in July, and Enver was killed on 4 August. A large offensive cleared the rebels from Garm in 1923, and an estimated 200,000 people fled.",
+      "sensitive": true,
+      "wikipediaTitle": "Basmachi movement",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Basmachi_movement",
+        "https://en.wikipedia.org/wiki/Dushanbe"
+      ]
+    },
+    {
       "id": "TJK-soviet-cotton",
       "title": "Soviet cotton and resettlement",
       "startYear": 1929,

@@ -95,7 +95,30 @@
     },
     {
       "id": "SVK-invasion-1968",
-      "title": "Warsaw Pact invasion and occupation",
+      "title": "Warsaw Pact invasion",
+      "startYear": 1968,
+      "endYear": 1968,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A reform movement named after a season promised 'socialism with a human face'.",
+        "Tanks rolled in during the night of 20 to 21 August 1968 to halt it.",
+        "Four Warsaw Pact armies took part, while one member refused."
+      ],
+      "summary": "On 20-21 August 1968 an estimated 250,000 Warsaw Pact troops, led by the Soviet Union and joined by forces from Poland, Bulgaria and Hungary, invaded Czechoslovakia, including its Slovak lands, to end the Prague Spring reforms. Civilians were killed during the occupation.",
+      "sensitive": true,
+      "wikipediaTitle": "Warsaw Pact invasion of Czechoslovakia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia",
+        "https://en.wikipedia.org/wiki/Prague_Spring"
+      ]
+    },
+    {
+      "id": "SVK-soviet-troops-1968",
+      "title": "Stationing of Soviet troops",
       "startYear": 1968,
       "endYear": 1991,
       "exploiter": {
@@ -104,13 +127,16 @@
       "type": "occupation",
       "resources": [],
       "hints": [
-        "Soviet tanks rolled in during August 1968 to halt reforms.",
-        "Troops remained for more than two decades."
+        "A treaty signed in October 1968 described a foreign army's presence as temporary.",
+        "The garrison, known as the Central Group of Forces, remained after the Prague Spring was crushed.",
+        "The last units went home in June 1991."
       ],
-      "summary": "Warsaw Pact forces led by the Soviet Union invaded in August 1968 to end the reforms of the Prague Spring. Soviet forces remained in the country until 1991.",
-      "wikipediaTitle": "Warsaw Pact invasion of Czechoslovakia",
+      "summary": "A treaty of October 1968 provided for the 'temporary stationing' of Soviet troops after the invasion. The Central Group of Forces remained in Czechoslovakia until the last units left in June 1991.",
+      "quip": "'Temporary' turned out to mean twenty-three years.",
+      "wikipediaTitle": "Central Group of Forces",
       "sources": [
-        "https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia"
+        "https://en.wikipedia.org/wiki/Central_Group_of_Forces",
+        "https://en.wikipedia.org/wiki/Prague_Spring"
       ]
     }
   ]
