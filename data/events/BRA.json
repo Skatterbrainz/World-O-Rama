@@ -121,7 +121,7 @@
       "exploiter": {
         "label": "the United States"
       },
-      "type": "other",
+      "type": "coup",
       "resources": [
         "strategic_location"
       ],
@@ -135,6 +135,30 @@
       "wikipediaTitle": "1964 Brazilian coup d'état",
       "sources": [
         "https://en.wikipedia.org/wiki/1964_Brazilian_coup_d'%C3%A9tat"
+      ]
+    },
+    {
+      "id": "BRA-1962-cia-opposition-funding",
+      "title": "CIA funding of Goulart's opponents",
+      "startYear": 1962,
+      "endYear": 1964,
+      "exploiter": {
+        "label": "the CIA"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A left-leaning president faced a hostile US administration from the early 1960s.",
+        "Covert money flowed to opposition candidates and anti-government groups before the 1962 elections, and the agency also worked in the labour movement.",
+        "The covert funding of the 1962 elections in South America's largest country came two years before a 1964 military coup."
+      ],
+      "summary": "From 1962 the CIA covertly funded candidates and groups opposed to President João Goulart, spending an estimated several million dollars in the 1962 congressional and state elections, according to declassified records and later testimony. In 1963 the CIA's Richard Helms told a presidential advisory board that the agency was also running covert action in the labour movement. Goulart was overthrown in 1964.",
+      "quip": "Millions went into the 1962 elections, and Goulart still won his 1963 plebiscite in a landslide.",
+      "wikipediaTitle": "Brazil–United States relations during the João Goulart government",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Brazil%E2%80%93United_States_relations_during_the_Jo%C3%A3o_Goulart_government",
+        "https://nsarchive.gwu.edu/briefing-book/foia-intelligence/2025-04-07/jfk-files-revelations-covert-operations-high-command",
+        "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB465/"
       ]
     }
   ]

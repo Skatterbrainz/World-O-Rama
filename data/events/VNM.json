@@ -126,6 +126,42 @@
       "sensitive": true,
       "wikipediaTitle": "Operation Ranch Hand",
       "sources": ["https://en.wikipedia.org/wiki/Operation_Ranch_Hand"]
+    },
+    {
+      "id": "VNM-1963-diem-coup",
+      "title": "1963 coup against Diem",
+      "startYear": 1963,
+      "endYear": 1963,
+      "exploiter": { "label": "the CIA" },
+      "type": "coup",
+      "resources": [],
+      "hints": [
+        "A Buddhist crisis in 1963 turned a Cold War ally into a liability for Washington.",
+        "A US cable in August said Washington would not stand in the way of a coup, and a CIA officer acted as liaison to the plotting generals.",
+        "Generals seized power on 1 November 1963, and the president and his brother were killed the next day."
+      ],
+      "summary": "After the Buddhist crisis the Kennedy administration concluded it could not continue with President Ngô Đình Diệm. Cable 243 of 24 August 1963 told the embassy to explore a change of leadership, and CIA officer Lucien Conein acted as liaison to the plotting generals, told them the US would not stop a coup and provided about $42,000 to reward units that joined. Diệm and his brother Ngô Đình Nhu were captured and killed on 2 November.",
+      "sensitive": true,
+      "wikipediaTitle": "1963 South Vietnamese coup d'état",
+      "sources": ["https://en.wikipedia.org/wiki/1963_South_Vietnamese_coup_d%27%C3%A9tat"]
+    },
+    {
+      "id": "VNM-phoenix-program",
+      "title": "Phoenix Program",
+      "startYear": 1967,
+      "endYear": 1972,
+      "exploiter": { "label": "the CIA" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A pacification effort aimed at the secret political networks of an insurgency.",
+        "It was created on a CIA initiative in 1967 and later run through a joint civil-military office.",
+        "US officials reported more than 26,000 suspected Viet Cong cadres killed, and critics documented torture and wrongful killings."
+      ],
+      "summary": "Launched in 1967 on a CIA initiative and later managed through the US pacification office CORDS, the Phoenix Program aimed to identify and neutralise the Viet Cong infrastructure through capture, defection or killing. US officials reported that more than 26,000 suspects were killed by 1972. It was criticised in the US Congress and the press over torture and the wrongful targeting of civilians.",
+      "sensitive": true,
+      "wikipediaTitle": "Phoenix Program",
+      "sources": ["https://en.wikipedia.org/wiki/Phoenix_Program"]
     }
   ]
 }

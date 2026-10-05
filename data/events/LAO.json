@@ -55,6 +55,42 @@
       "sensitive": true,
       "wikipediaTitle": "Laotian Civil War",
       "sources": ["https://en.wikipedia.org/wiki/Laotian_Civil_War"]
+    },
+    {
+      "id": "LAO-1960-phoumi-counter-coup",
+      "title": "CIA support for Phoumi Nosavan's 1960 counter-coup",
+      "startYear": 1960,
+      "endYear": 1960,
+      "exploiter": { "label": "the CIA" },
+      "type": "coup",
+      "resources": [],
+      "hints": [
+        "A neutralist captain overthrew the government in a nearly bloodless coup in August 1960.",
+        "The CIA flew Thai police commando teams in to advise a rightist general's counter-coup columns.",
+        "In December 1960 his troops retook the capital in a battle that killed about 600 civilians."
+      ],
+      "summary": "After Captain Kong Le's neutralist coup of 9 August 1960, the CIA backed rightist General Phoumi Nosavan's counter-coup, flying in five teams of Thai police commandos (PARU) to advise his columns. Phoumi's forces retook Vientiane in the battle of 13 to 16 December 1960, in which about 600 civilians were killed.",
+      "sensitive": true,
+      "wikipediaTitle": "Battle of Vientiane",
+      "sources": ["https://en.wikipedia.org/wiki/Battle_of_Vientiane", "https://www.cia.gov/resources/csi/books-monographs/an-excellent-idea-leading-surrogate-warfare-in-southeast-asia-1951-1970-a-personal-account/"]
+    },
+    {
+      "id": "LAO-cia-hmong-army",
+      "title": "The CIA's Hmong army",
+      "startYear": 1961,
+      "endYear": 1973,
+      "exploiter": { "label": "the CIA" },
+      "type": "proxy_war",
+      "resources": [],
+      "hints": [
+        "From 1961 a covert paramilitary programme recruited highland minority fighters in a neutral kingdom.",
+        "A CIA officer and Thai commandos trained a force under a Hmong general near the Plain of Jars.",
+        "It grew into a clandestine army of tens of thousands in what has been called the largest paramilitary operation the CIA ever undertook."
+      ],
+      "summary": "From January 1961 the CIA, building on Thai police commando trainers, armed and funded Hmong irregulars under General Vang Pao in northern Laos, a clandestine army that grew to an estimated 30,000 men and was supported by CIA-run air transport. It fought communist forces until the 1973 ceasefire at a heavy cost in lives and displacement for the Hmong.",
+      "sensitive": true,
+      "wikipediaTitle": "Operation Momentum",
+      "sources": ["https://en.wikipedia.org/wiki/Operation_Momentum", "https://www.cia.gov/resources/csi/books-monographs/an-excellent-idea-leading-surrogate-warfare-in-southeast-asia-1951-1970-a-personal-account/"]
     }
   ]
 }

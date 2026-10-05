@@ -89,6 +89,24 @@
       "sensitive": true,
       "wikipediaTitle": "Burma Railway",
       "sources": ["https://en.wikipedia.org/wiki/Burma_Railway"]
+    },
+    {
+      "id": "THA-cia-sea-supply-paru",
+      "title": "CIA-built police paramilitaries and Sea Supply",
+      "startYear": 1951,
+      "endYear": 1957,
+      "exploiter": { "label": "the CIA" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "In the early 1950s Washington feared an invasion from the north and looked for a force it could train.",
+        "A front company called SEA Supply trained police paramilitaries at a former Japanese camp.",
+        "The elite unit that emerged, known as PARU, was later used by the CIA in the secret war next door."
+      ],
+      "summary": "From 1951 the CIA, using the front company Southeast Asia Supply Co. (SEA Supply), trained and equipped Thai police paramilitaries that grew into the Border Patrol Police and the elite Police Aerial Reinforcement Unit (PARU). The programme built up Police General Phao Siyanon, who was accused of corruption and of profiting from the opium trade, as a rival to the army. The army coup of 1957 sent him into exile, but the CIA-backed units survived and were later used in Laos.",
+      "quip": "Its front company, SEA Supply, was exactly as informative as it sounds.",
+      "wikipediaTitle": "Border Patrol Police",
+      "sources": ["https://www.cia.gov/resources/csi/books-monographs/an-excellent-idea-leading-surrogate-warfare-in-southeast-asia-1951-1970-a-personal-account/", "https://en.wikipedia.org/wiki/Phao_Siyanon"]
     }
   ]
 }

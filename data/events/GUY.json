@@ -111,6 +111,30 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Cheddi_Jagan"
       ]
+    },
+    {
+      "id": "GUY-cia-campaign-against-jagan",
+      "title": "CIA campaign against Cheddi Jagan",
+      "startYear": 1962,
+      "endYear": 1964,
+      "exploiter": {
+        "label": "the CIA"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A dentist-turned-premier of a British colony was seen in Washington as a possible second Castro.",
+        "The CIA, working with MI6, helped fund a long general strike in 1963, with money routed through a US labour federation.",
+        "Covert funding for his rivals and a new electoral system ended his rule in December 1964."
+      ],
+      "summary": "President Kennedy decided that Cheddi Jagan should not lead an independent British Guiana. Declassified records show the CIA, with MI6, helped sustain the 1963 general strike, with about $435,000 routed through the AFL-CIO according to CIA deputy director Richard Helms, and funded rivals Forbes Burnham and Peter D'Aguiar. Britain imposed proportional representation, and Jagan lost the December 1964 election.",
+      "quip": "Kennedy's CIA spent two years and a six-figure strike fund to unseat a dentist.",
+      "wikipediaTitle": "Cheddi Jagan",
+      "sources": [
+        "https://nsarchive.gwu.edu/briefing-book/intelligence/2020-04-06/cia-covert-operations-overthrow-cheddi-jagan-british-guiana-1964",
+        "https://2001-2009.state.gov/r/pa/ho/frus/johnsonlb/xxxii/44659.htm",
+        "https://nsarchive.gwu.edu/briefing-book/foia-intelligence/2025-04-07/jfk-files-revelations-covert-operations-high-command"
+      ]
     }
   ]
 }

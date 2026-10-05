@@ -105,6 +105,24 @@
       "summary": "Under the 1947 Military Bases Agreement the United States leased large areas, including Clark Air Base and Subic Bay Naval Base, for 99 years. The terms were revised in 1966. In 1991 the Philippine Senate rejected a new treaty, and US forces left Subic in 1992.",
       "wikipediaTitle": "United States bases in the Philippines",
       "sources": ["https://en.wikipedia.org/wiki/United_States_bases_in_the_Philippines"]
+    },
+    {
+      "id": "PHL-1953-magsaysay-cia",
+      "title": "CIA backing of Ramon Magsaysay",
+      "startYear": 1950,
+      "endYear": 1953,
+      "exploiter": { "label": "the CIA" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "In the early 1950s a US officer working under CIA auspices became the adviser and friend of a defence secretary.",
+        "The agency reportedly helped with his campaign slogan, songs and speeches, and with funds.",
+        "He defeated the incumbent president in the November 1953 election."
+      ],
+      "summary": "From 1950 Air Force Colonel Edward Lansdale, working under CIA auspices, advised Defence Secretary Ramon Magsaysay against the Huk rebellion and then helped run his 1953 presidential campaign. Reports say the CIA provided funds and public relations help, and Lansdale helped write the campaign slogan, songs and speeches. Magsaysay defeated President Elpidio Quirino in November 1953.",
+      "quip": "The CIA reportedly helped write the slogan, the campaign song and a good share of the speeches.",
+      "wikipediaTitle": "Edward Lansdale",
+      "sources": ["https://en.wikipedia.org/wiki/Edward_Lansdale", "https://archium.ateneo.edu/cgi/viewcontent.cgi?article=2632&context=phstudies"]
     }
   ]
 }
