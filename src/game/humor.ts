@@ -33,6 +33,12 @@ export const HINT_LINES = [
   "Consulting the archives. They are, as usual, disorganised.",
 ];
 
+export const CANDIDATE_LINES = [
+  "Five countries lit up. One of them is your answer.",
+  "A shortlist of five. The answer is hiding among them.",
+  "Five suspects on the map. One of them is the answer.",
+];
+
 export const LOADING_LINES = [
   "Unrolling the map...",
   "Dusting off the atlas...",

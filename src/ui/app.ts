@@ -2,6 +2,7 @@ import { COUNTRIES, REGIONS, countryByIso } from "../data/countries";
 import { EVENTS } from "../data/events";
 import { ERA_BUCKET_LABELS, eraBucket, fmtYear } from "../game/era";
 import {
+  CANDIDATE_LINES,
   CORRECT_LINES,
   EMPTY_LINES,
   HINT_LINES,
@@ -13,7 +14,7 @@ import {
   pick,
   quipFor,
 } from "../game/humor";
-import { TOPICS, buildQuestionBank, isCorrect, matches, normName, pickQuestion, type Filters, type QuestionBank, type Topic } from "../game/questions";
+import { TOPICS, buildQuestionBank, isCorrect, matches, normName, pickQuestion, type Filters, type QuestionBank, type Topic, pickCandidates } from "../game/questions";
 import { MAX_HINTS, scoreAnswer, HINT_PENALTY } from "../game/scoring";
 import {
   countryRecords,
@@ -30,6 +31,7 @@ import {
   type Mode,
   type SessionRecord,
   type Settings,
+  type Theme,
   type StatsData,
 } from "../game/stats";
 import type { EraBucket, GameEvent, Question, Region } from "../types";
@@ -115,6 +117,13 @@ export function startApp(root: HTMLElement): void {
   const btnNew = el("button", { class: "btn primary", type: "button" }, "New game");
   const btnTrend = el("button", { class: "btn", type: "button" }, "Trend");
   const btnSettings = el("button", { class: "btn", type: "button" }, "Settings");
+  const themeSel = el("select", { class: "theme-select", "aria-label": "Display theme" });
+  for (const [v, l] of [["dark", "Dark"], ["light", "Light"]] as const) {
+    const o = el("option", { value: v }, l);
+    if (settings.theme === v) o.selected = true;
+    themeSel.append(o);
+  }
+  const themePicker = el("label", { class: "theme-picker" }, "Theme ", themeSel);
 
   const header = el(
     "header",
@@ -127,7 +136,7 @@ export function startApp(root: HTMLElement): void {
       el("div", { class: "chip" }, "Streak ", streakChip),
       el("div", { class: "chip" }, "Round ", roundChip),
     ),
-    el("div", { class: "actions" }, btnNew, btnTrend, btnSettings),
+    el("div", { class: "actions" }, themePicker, btnNew, btnTrend, btnSettings),
   );
 
   const clueLabel = el("div", { class: "clue-label" }, "Click on:");
@@ -169,6 +178,15 @@ export function startApp(root: HTMLElement): void {
 
   const map: MapHandle = createMap(mapHost);
   map.setNamesVisible(settings.showNames);
+  const applyTheme = (t: Theme): void => {
+    document.documentElement.dataset.theme = t;
+  };
+  applyTheme(settings.theme);
+  themeSel.onchange = () => {
+    settings = { ...settings, theme: themeSel.value as Theme };
+    applyTheme(settings.theme);
+    saveSettings(store, settings);
+  };
 
   // ---- State --------------------------------------------------------------
   let game: GameState | null = null;
@@ -244,21 +262,31 @@ export function startApp(root: HTMLElement): void {
     updateChips();
   }
 
+  /** The first hint highlights five candidate countries; the rest are the written clues. */
+  function hintTotal(q: Question): number {
+    return 1 + Math.min(q.hints.length, MAX_HINTS);
+  }
+
   function updateHintBtn(): void {
     if (!game?.current) return;
-    const left = Math.min(game.current.hints.length, MAX_HINTS) - game.hintsUsed;
+    const left = hintTotal(game.current) - game.hintsUsed;
     hintBtn.disabled = game.answered || left <= 0;
-    const total = Math.min(game.current.hints.length, MAX_HINTS);
-    hintBtn.textContent = left > 0 ? `Hint (-${Math.round(HINT_PENALTY * 100)}%)` : total === 0 ? "No hints for this one" : "No more hints";
+    hintBtn.textContent = left > 0 ? `Hint (-${Math.round(HINT_PENALTY * 100)}%)` : "No more hints";
   }
 
   function revealHint(): void {
     if (!game?.current || game.answered) return;
-    const h = game.current.hints[game.hintsUsed];
-    if (!h) return;
+    const q = game.current;
+    if (game.hintsUsed >= hintTotal(q)) return;
+    if (game.hintsUsed === 0) {
+      map.setCandidates(pickCandidates(q));
+      hintList.appendChild(el("li", {}, "Hint: one of the 5 highlighted countries is correct."));
+      showToast(pick(CANDIDATE_LINES));
+    } else {
+      hintList.appendChild(el("li", {}, q.hints[game.hintsUsed - 1]));
+      showToast(pick(HINT_LINES));
+    }
     game.hintsUsed += 1;
-    hintList.appendChild(el("li", {}, h));
-    showToast(pick(HINT_LINES));
     updateHintBtn();
   }
 
@@ -533,6 +561,7 @@ export function startApp(root: HTMLElement): void {
         eras: eraG.read(),
         difficulties: diffG.read() as (1 | 2 | 3)[] | null,
         topic: (topicSel.value || null) as Topic | null,
+        theme: settings.theme,
       };
       saveSettings(store, settings);
       map.setNamesVisible(settings.showNames);

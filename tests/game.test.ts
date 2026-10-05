@@ -4,9 +4,9 @@ import { join } from "node:path";
 import { flattenCountryFiles } from "../src/data/load";
 import { countryByIso } from "../src/data/countries";
 import { centuryEra, decadeEra, eraBucket, eventEras, fmtYear, ordinal } from "../src/game/era";
-import { TOPICS, passesFilters, allegedly, aOrAn, geographyHint, buildQuestionBank, constraintsKey, isCorrect, matches, normName, pickQuestion, NO_FILTERS } from "../src/game/questions";
+import { pickCandidates, TOPICS, passesFilters, allegedly, aOrAn, geographyHint, buildQuestionBank, constraintsKey, isCorrect, matches, normName, pickQuestion, NO_FILTERS } from "../src/game/questions";
 import { scoreAnswer } from "../src/game/scoring";
-import { breakdown, emptyStats, parseStats, recordAnswer, rollingAccuracy, saveStats, loadStats, startSession, weakSpots, type AnswerRecord, type KeyValueStore } from "../src/game/stats";
+import { loadSettings, breakdown, emptyStats, parseStats, recordAnswer, rollingAccuracy, saveStats, loadStats, startSession, weakSpots, type AnswerRecord, type KeyValueStore } from "../src/game/stats";
 import { quipFor } from "../src/game/humor";
 import type { CountryFile, GameEvent } from "../src/types";
 
@@ -156,6 +156,48 @@ describe("question engine", () => {
     // Hints hedge too.
     const q = bank.questions.find((x) => x.sourceCountry === "CHL" && x.template === "region-type-era")!;
     expect(q.hints.some((h) => h.includes("allegedly the CIA"))).toBe(true);
+  });
+
+  it("hint highlights five countries with exactly one correct answer", () => {
+    const evs = [
+      ev({ id: "COD-a", country: "COD", exploiter: { label: "Belgium" } }),
+      ev({ id: "RWA-a", country: "RWA", exploiter: { label: "Belgium" }, startYear: 1916, endYear: 1962 }),
+    ];
+    const bank = buildQuestionBank(evs);
+    let seed = 1;
+    const rng = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
+    // Several accepted answers: still only one of them is highlighted.
+    const multi = bank.questions.find((q) => q.answers.length === 2)!;
+    for (let i = 0; i < 25; i++) {
+      const c = pickCandidates(multi, rng);
+      expect(c).toHaveLength(5);
+      expect(new Set(c).size).toBe(5);
+      expect(c.filter((iso) => multi.answers.includes(iso))).toHaveLength(1);
+    }
+    // A clue that names a region keeps the other four in that region.
+    const africa = bank.questions.find((q) => q.constraints.region === "Africa" && q.answers.length === 1)!;
+    for (let i = 0; i < 25; i++) {
+      const c = pickCandidates(africa, rng);
+      expect(c).toContain(africa.answers[0]);
+      expect(c.every((iso) => countryByIso(iso)!.region === "Africa")).toBe(true);
+    }
+    // A sub-region with too few countries falls back to the region.
+    const sub = bank.questions.find((q) => q.constraints.subregion === "Central Africa" && q.answers.length === 1);
+    if (sub) expect(pickCandidates(sub, rng, 5).every((iso) => countryByIso(iso)!.region === "Africa")).toBe(true);
+    // Deterministic for a given rng.
+    const fixed = () => 0.42;
+    expect(pickCandidates(africa, fixed)).toEqual(pickCandidates(africa, fixed));
+  });
+
+  it("defaults to the dark theme and ignores bad stored values", () => {
+    const store = fakeStore();
+    expect(loadSettings(store).theme).toBe("dark");
+    store.setItem("world-o-rama:settings:v1", JSON.stringify({ theme: "light" }));
+    expect(loadSettings(store).theme).toBe("light");
+    store.setItem("world-o-rama:settings:v1", JSON.stringify({ theme: "neon" }));
+    expect(loadSettings(store).theme).toBe("dark");
+    store.setItem("world-o-rama:settings:v1", "not json");
+    expect(loadSettings(store).theme).toBe("dark");
   });
 
   it("filters questions by topic", () => {

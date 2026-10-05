@@ -1,4 +1,4 @@
-import { countryByIso } from "../data/countries";
+import { COUNTRIES, countryByIso } from "../data/countries";
 import { REGION_ADJECTIVES, RESOURCES, SUBREGION_PHRASES, TYPE_LABELS, TYPE_NOUNS, TYPE_VERBS } from "../data/vocab";
 import type { Constraints, EraBucket, GameEvent, Question, Region } from "../types";
 import { eraBucket, eventEras, fmtYear, midYear, overlaps } from "./era";
@@ -455,4 +455,35 @@ export function coverage(bank: QuestionBank): Map<string, number> {
   const out = new Map<string, number>();
   for (const [iso, list] of bank.byCountry) out.set(iso, list.length);
   return out;
+}
+
+// ---- "One of these" hint ----------------------------------------------------
+
+function shuffled<T>(items: T[], rng: () => number): T[] {
+  const a = [...items];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/**
+ * Countries to highlight for the hint: exactly one correct answer plus random others. When the clue names a
+ * sub-region or region, the others come from there so the choices stay plausible.
+ */
+export function pickCandidates(q: Question, rng: () => number = Math.random, count = 5): string[] {
+  const answer = q.answers[Math.floor(rng() * q.answers.length)];
+  const others = COUNTRIES.filter((c) => !q.answers.includes(c.iso3));
+  const { region, subregion } = q.constraints;
+  const need = count - 1;
+  const scopes = [
+    subregion ? others.filter((c) => c.subregion === subregion) : null,
+    region ? others.filter((c) => c.region === region) : null,
+  ];
+  const pool = scopes.find((sc) => sc && sc.length >= need) ?? others;
+  const picked = shuffled(pool, rng)
+    .slice(0, need)
+    .map((c) => c.iso3);
+  return shuffled([answer, ...picked], rng);
 }

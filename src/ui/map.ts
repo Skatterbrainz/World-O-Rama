@@ -31,6 +31,8 @@ export interface MapHandle {
   onGuess(cb: (iso3: string | null, atlasName: string) => void): void;
   showResult(correct: string[], guessed: string | null): void;
   clearResult(): void;
+  /** Highlight countries as hint candidates ("one of these"). */
+  setCandidates(isos: string[]): void;
   zoomTo(isos: string[], insets?: Insets): void;
   resetView(): void;
   zoomBy(factor: number): void;
@@ -211,7 +213,12 @@ export function createMap(container: HTMLElement): MapHandle {
       if (guessed && !correct.includes(guessed)) mark(guessed, "is-wrong");
       for (const iso of correct) mark(iso, "is-correct");
     },
+    setCandidates(isos) {
+      g.selectAll(".is-candidate").classed("is-candidate", false);
+      for (const iso of isos) g.selectAll(`[data-iso="${iso}"]`).classed("is-candidate", true);
+    },
     clearResult() {
+      g.selectAll(".is-candidate").classed("is-candidate", false);
       clearClasses(countryPaths as never);
       clearClasses(markers as never);
     },

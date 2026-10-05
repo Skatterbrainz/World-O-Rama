@@ -1,3 +1,4 @@
+/* Dark theme (default) */
 :root {
   --bg: #0e1420;
   --panel: #151d2c;
@@ -6,14 +7,93 @@
   --text: #e6ebf5;
   --muted: #93a0b8;
   --accent: #f4b942;
+  --accent-hover: #ffc95c;
+  --on-accent: #1b1405;
   --ok: #2ecc71;
   --bad: #e74c3c;
   --land: #2b3649;
   --land-hover: #3d4d69;
-  --sea: #0b111b;
+  --land-stroke: #0e1420;
+  --unplayable: #232c3c;
+  --sea: #0a1018;
+  --ocean: #10243d;
+  --ocean-stroke: #1f3c5e;
+  --marker-stroke: #5b6b86;
+  --marker-stroke-hover: #8a9bb8;
+  --correct-stroke: #b8f5d0;
+  --wrong-stroke: #ffc4bd;
+  --candidate-fill: rgba(244, 185, 66, 0.6);
+  --candidate-stroke: #ffd98a;
+  --tooltip-bg: rgba(10, 15, 25, 0.95);
+  --overlay-bg: rgba(21, 29, 44, 0.97);
+  --shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 34px rgba(0, 0, 0, 0.5);
+  --backdrop: rgba(0, 0, 0, 0.6);
+  --btn-hover-bg: #25324b;
+  --btn-hover-border: #3b4b6b;
+  --danger-border: #6b2b2b;
+  --danger-text: #ff9d9d;
+  --d1-text: #7be0a4;
+  --d1-border: #2c6a4a;
+  --d2-text: #f4cf7a;
+  --d2-border: #6f5a22;
+  --d3-text: #ff9d9d;
+  --d3-border: #703030;
+  --text-soft: #c9d3e6;
+  --text-soft-2: #b9c4d9;
+  --link: #8cc4ff;
+  --streak: #7be0a4;
   --radius: 10px;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   color-scheme: dark;
+}
+
+/* Light theme: pale land on a light-blue ocean */
+:root[data-theme="light"] {
+  --bg: #eef3f8;
+  --panel: #ffffff;
+  --panel-2: #eef2f7;
+  --border: #cdd7e3;
+  --text: #1b2433;
+  --muted: #5a6a82;
+  --accent: #f0b232;
+  --accent-hover: #f7c451;
+  --on-accent: #1b1405;
+  --ok: #1f9d55;
+  --bad: #d64541;
+  --land: #f1ead8;
+  --land-hover: #e2d7bb;
+  --land-stroke: #a89f86;
+  --unplayable: #dcd6c6;
+  --sea: #dcebf6;
+  --ocean: #b9ddf4;
+  --ocean-stroke: #8dbad8;
+  --marker-stroke: #8c8267;
+  --marker-stroke-hover: #5e5640;
+  --correct-stroke: #14663a;
+  --wrong-stroke: #8f1d1a;
+  --candidate-fill: rgba(240, 178, 50, 0.8);
+  --candidate-stroke: #a56a00;
+  --tooltip-bg: rgba(255, 255, 255, 0.97);
+  --overlay-bg: rgba(255, 255, 255, 0.97);
+  --shadow-sm: 0 4px 14px rgba(20, 40, 70, 0.18);
+  --shadow-lg: 0 10px 34px rgba(20, 40, 70, 0.25);
+  --backdrop: rgba(20, 30, 45, 0.45);
+  --btn-hover-bg: #e3eaf3;
+  --btn-hover-border: #b7c4d6;
+  --danger-border: #e2a5a3;
+  --danger-text: #b32d2a;
+  --d1-text: #1c7a45;
+  --d1-border: #8cd1a8;
+  --d2-text: #946a00;
+  --d2-border: #e2c36f;
+  --d3-text: #b32d2a;
+  --d3-border: #e8a5a3;
+  --text-soft: #334055;
+  --text-soft-2: #445169;
+  --link: #1565c0;
+  --streak: #1c7a45;
+  color-scheme: light;
 }
 
 * {
@@ -102,8 +182,8 @@ body {
 }
 
 .btn:hover:not(:disabled) {
-  background: #25324b;
-  border-color: #3b4b6b;
+  background: var(--btn-hover-bg);
+  border-color: var(--btn-hover-border);
 }
 
 .btn:disabled {
@@ -114,12 +194,12 @@ body {
 .btn.primary {
   background: var(--accent);
   border-color: var(--accent);
-  color: #1b1405;
+  color: var(--on-accent);
   font-weight: 600;
 }
 
 .btn.primary:hover:not(:disabled) {
-  background: #ffc95c;
+  background: var(--accent-hover);
 }
 
 .btn.small {
@@ -132,8 +212,8 @@ body {
 }
 
 .btn.danger {
-  border-color: #6b2b2b;
-  color: #ff9d9d;
+  border-color: var(--danger-border);
+  color: var(--danger-text);
 }
 
 .btn.icon {
@@ -200,24 +280,24 @@ body {
 }
 
 .badge.d1 {
-  color: #7be0a4;
-  border-color: #2c6a4a;
+  color: var(--d1-text);
+  border-color: var(--d1-border);
 }
 
 .badge.d2 {
-  color: #f4cf7a;
-  border-color: #6f5a22;
+  color: var(--d2-text);
+  border-color: var(--d2-border);
 }
 
 .badge.d3 {
-  color: #ff9d9d;
-  border-color: #703030;
+  color: var(--d3-text);
+  border-color: var(--d3-border);
 }
 
 .hint-list {
   margin: 8px 0 0;
   padding-left: 18px;
-  color: #c9d3e6;
+  color: var(--text-soft);
   font-size: 0.9rem;
 }
 
@@ -258,14 +338,14 @@ body {
 }
 
 .sphere {
-  fill: #0d1522;
-  stroke: #1c2940;
+  fill: var(--ocean);
+  stroke: var(--ocean-stroke);
   stroke-width: 1;
 }
 
 .country {
   fill: var(--land);
-  stroke: #0e1420;
+  stroke: var(--land-stroke);
   stroke-width: 0.6;
   vector-effect: non-scaling-stroke;
   cursor: pointer;
@@ -277,14 +357,14 @@ body {
 }
 
 .country.unplayable {
-  fill: #232c3c;
+  fill: var(--unplayable);
   cursor: not-allowed;
 }
 
 /* Click targets for tiny countries. Styled like land so they do not look like hints. */
 .marker {
   fill: var(--land);
-  stroke: #5b6b86;
+  stroke: var(--marker-stroke);
   stroke-width: 0.8;
   vector-effect: non-scaling-stroke;
   cursor: pointer;
@@ -292,7 +372,15 @@ body {
 
 .marker:hover {
   fill: var(--land-hover);
-  stroke: #8a9bb8;
+  stroke: var(--marker-stroke-hover);
+}
+
+/* Hint: five countries, one of them correct */
+.country.is-candidate,
+.marker.is-candidate {
+  fill: var(--candidate-fill);
+  stroke: var(--candidate-stroke);
+  stroke-width: 1.4;
 }
 
 .country.is-correct,
@@ -306,11 +394,11 @@ body {
 }
 
 .marker.is-correct {
-  stroke: #b8f5d0;
+  stroke: var(--correct-stroke);
 }
 
 .marker.is-wrong {
-  stroke: #ffc4bd;
+  stroke: var(--wrong-stroke);
 }
 
 .map-tooltip {
@@ -319,13 +407,13 @@ body {
   top: 0;
   z-index: 5;
   pointer-events: none;
-  background: rgba(10, 15, 25, 0.95);
+  background: var(--tooltip-bg);
   border: 1px solid var(--border);
   border-radius: 6px;
   padding: 3px 9px;
   font-size: 0.82rem;
   white-space: nowrap;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+  box-shadow: var(--shadow-sm);
 }
 
 .map-controls {
@@ -343,7 +431,7 @@ body {
   left: 50%;
   bottom: 18px;
   transform: translateX(-50%);
-  background: rgba(21, 29, 44, 0.97);
+  background: var(--overlay-bg);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 8px 14px;
@@ -362,10 +450,10 @@ body {
   bottom: 12px;
   width: 380px;
   max-width: 46%;
-  background: rgba(21, 29, 44, 0.97);
+  background: var(--overlay-bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--shadow-lg);
   padding: 16px;
   overflow-y: auto;
   z-index: 7;
@@ -401,7 +489,7 @@ body {
 }
 
 .streak {
-  color: #7be0a4;
+  color: var(--streak);
 }
 
 .meta,
@@ -421,11 +509,11 @@ body {
 
 .wiki .extract {
   font-size: 0.85rem;
-  color: #b9c4d9;
+  color: var(--text-soft-2);
 }
 
 .links a {
-  color: #8cc4ff;
+  color: var(--link);
 }
 
 .reveal-actions {
@@ -456,7 +544,7 @@ body {
 }
 
 .dlg::backdrop {
-  background: rgba(0, 0, 0, 0.6);
+  background: var(--backdrop);
 }
 
 .dlg h2 {
@@ -482,12 +570,21 @@ body {
   padding: 0 6px;
 }
 
-.dlg select {
+.dlg select,
+.theme-select {
   background: var(--panel-2);
   color: var(--text);
   border: 1px solid var(--border);
   border-radius: 6px;
   padding: 4px 8px;
+}
+
+.theme-picker {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.85rem;
 }
 
 .check {
@@ -530,7 +627,7 @@ body {
 }
 
 .chart .grid {
-  stroke: #2a3750;
+  stroke: var(--border);
   stroke-width: 0.6;
 }
 

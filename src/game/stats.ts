@@ -195,7 +195,10 @@ export interface Settings {
   difficulties: (1 | 2 | 3)[] | null;
   /** Restrict questions to a theme such as coups or invasions. */
   topic: Topic | null;
+  theme: Theme;
 }
+
+export type Theme = "dark" | "light";
 
 export const DEFAULT_SETTINGS: Settings = {
   quips: true,
@@ -205,13 +208,16 @@ export const DEFAULT_SETTINGS: Settings = {
   eras: null,
   difficulties: null,
   topic: null,
+  theme: "dark",
 };
 
 export function loadSettings(store: KeyValueStore): Settings {
   try {
     const raw = store.getItem(SETTINGS_KEY);
     if (!raw) return { ...DEFAULT_SETTINGS };
-    return { ...DEFAULT_SETTINGS, ...(JSON.parse(raw) as Partial<Settings>) };
+    const merged = { ...DEFAULT_SETTINGS, ...(JSON.parse(raw) as Partial<Settings>) };
+    if (merged.theme !== "dark" && merged.theme !== "light") merged.theme = "dark";
+    return merged;
   } catch {
     return { ...DEFAULT_SETTINGS };
   }
