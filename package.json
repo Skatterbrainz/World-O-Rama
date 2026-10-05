@@ -1,6 +1,6 @@
 {
   "name": "world-o-rama",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "description": "A map quiz about who exploited whom throughout history. Dry humor included.",
@@ -13,7 +13,10 @@
     "preview": "vite preview",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
-    "validate": "tsx scripts/validate.ts"
+    "validate": "tsx scripts/validate.ts",
+    "electron": "vite build && electron .",
+    "package:linux": "node scripts/package.mjs linux",
+    "icon": "node scripts/make-icon.mjs"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",
@@ -32,9 +35,43 @@
     "@types/node": "^18.19.130",
     "@types/topojson-client": "^3.1.5",
     "@types/topojson-specification": "^1.0.5",
+    "electron": "^44.5.1",
+    "electron-builder": "^26.15.3",
     "tsx": "^4.23.15",
     "typescript": "^5.9.3",
     "vite": "^5.4.21",
     "vitest": "^2.1.9"
-  }
+  },
+  "main": "electron/main.cjs",
+  "author": "Skatterbrainz",
+  "license": "GPL-2.0-only",
+  "homepage": "https://github.com/Skatterbrainz/World-O-Rama",
+  "build": {
+    "appId": "com.skatterbrainz.worldorama",
+    "productName": "World-O-Rama",
+    "directories": {
+      "output": "release",
+      "buildResources": "build"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "build/icon.png",
+      "package.json",
+      "!**/node_modules/**"
+    ],
+    "asar": true,
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Game",
+      "icon": "build/icon.png",
+      "executableName": "world-o-rama",
+      "artifactName": "World-O-Rama-${version}-${arch}.AppImage",
+      "synopsis": "A map quiz about who exploited whom throughout history",
+      "syncDesktopName": true
+    }
+  },
+  "desktopName": "world-o-rama.desktop"
 }

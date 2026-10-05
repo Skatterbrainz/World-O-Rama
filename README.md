@@ -17,6 +17,22 @@ npm run dev        # http://localhost:5173
 
 For a static build: `npm run build && npm run preview`.
 
+## Desktop app (Linux AppImage)
+
+The game can also be packaged as a single-file desktop app with Electron.
+
+```
+npm run package:linux          # builds release/World-O-Rama-<version>-x86_64.AppImage
+chmod +x release/World-O-Rama-*.AppImage
+./release/World-O-Rama-*.AppImage
+```
+
+- Packaging needs Node 22.12 or newer (an Electron requirement). If you run it on an older Node, the script re-runs itself under a temporary Node 22 fetched by `npx`, so nothing is installed system-wide. The first run downloads Electron (about 100 MB).
+- Running an AppImage needs FUSE 2. On Ubuntu and Linux Mint 22 install it with `sudo apt install libfuse2t64`. Without it, run `./World-O-Rama-*.AppImage --appimage-extract-and-run`.
+- The app loads the same static build in a sandboxed window with a strict Content-Security-Policy. The only network access is Wikipedia, for the optional extract on the reveal card. Links open in your browser.
+- Stats and settings are stored per user by the desktop app, separately from the browser version.
+- To try the desktop wrapper without packaging: `npm run electron`. To redraw the icon: `npm run icon`, then the `convert` command in `scripts/make-icon.mjs`.
+
 ## How to play
 
 - **Modes:** Quick Round (10 questions) or Endless.
@@ -47,6 +63,7 @@ See [docs/DATA_GUIDE.md](docs/DATA_GUIDE.md) for the schema, labels, tone rules 
 - `npm run build` typechecks and builds. `npm run preview` serves the build.
 - `npm test` runs the unit tests (Vitest).
 - `npm run typecheck` runs TypeScript.
+- `npm run package:linux` builds the AppImage into `release/` (git-ignored). `npm run electron` runs the desktop wrapper from a fresh build.
 - `npm run validate` checks the dataset (schema, vocabulary, years, duplicate ids, answer-set ambiguity, per-country question coverage). Add `-- --strict` to fail on low coverage and `-- --online` to also check that every Wikipedia title exists. The online check retries when Wikipedia rate-limits it.
 
 ## Project layout
@@ -54,7 +71,9 @@ See [docs/DATA_GUIDE.md](docs/DATA_GUIDE.md) for the schema, labels, tone rules 
 ```
 data/events/      one JSON file per country (the dataset)
 docs/             data authoring guide
-scripts/          dataset validator
+electron/         desktop wrapper (Electron main process)
+build/            app icon
+scripts/          dataset validator, icon generator, packaging script
 src/data/         country lookup, vocabularies, event loading
 src/game/         question engine, scoring, stats, humor copy, era helpers
 src/ui/           map, game UI, trend charts, Wikipedia enrichment

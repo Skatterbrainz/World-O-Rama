@@ -1,0 +1,1 @@
+1.0.0 - 10/04/2026 - Initial release
