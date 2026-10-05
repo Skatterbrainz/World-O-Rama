@@ -5,6 +5,7 @@ import {
   CORRECT_LINES,
   EMPTY_LINES,
   HINT_LINES,
+  LOADING_LINES,
   STREAK_LINES,
   UNPLAYABLE_LINES,
   WRONG_LINES,
@@ -12,7 +13,7 @@ import {
   pick,
   quipFor,
 } from "../game/humor";
-import { buildQuestionBank, isCorrect, matches, normName, pickQuestion, type Filters } from "../game/questions";
+import { buildQuestionBank, isCorrect, matches, normName, pickQuestion, type Filters, type QuestionBank } from "../game/questions";
 import { MAX_HINTS, scoreAnswer, HINT_PENALTY } from "../game/scoring";
 import {
   countryRecords,
@@ -103,7 +104,8 @@ export function startApp(root: HTMLElement): void {
   const store = getStore();
   let stats: StatsData = loadStats(store);
   let settings: Settings = loadSettings(store);
-  const bank = buildQuestionBank(EVENTS);
+  // Built after the first paint (about a second for the full dataset); empty until then.
+  let bank: QuestionBank = { questions: [], byCountry: new Map(), bySourceCountry: new Map(), tooAmbiguous: [] };
   const eventsById = new Map<string, GameEvent>(EVENTS.map((e) => [e.id, e]));
 
   // ---- DOM skeleton -------------------------------------------------------
@@ -567,6 +569,11 @@ export function startApp(root: HTMLElement): void {
     }
   });
 
-  clueText.textContent = pick(["Unrolling the map...", "Dusting off the atlas..."]);
-  startGame(settings.mode);
+  clueText.textContent = pick(LOADING_LINES);
+  hintBtn.disabled = true;
+  map.setInteractive(false);
+  window.setTimeout(() => {
+    bank = buildQuestionBank(EVENTS);
+    startGame(settings.mode);
+  }, 30);
 }
