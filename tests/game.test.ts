@@ -4,7 +4,7 @@ import { join } from "node:path";
 import { flattenCountryFiles } from "../src/data/load";
 import { countryByIso } from "../src/data/countries";
 import { centuryEra, decadeEra, eraBucket, eventEras, fmtYear, ordinal } from "../src/game/era";
-import { allegedly, aOrAn, geographyHint, buildQuestionBank, constraintsKey, isCorrect, matches, normName, pickQuestion, NO_FILTERS } from "../src/game/questions";
+import { TOPICS, passesFilters, allegedly, aOrAn, geographyHint, buildQuestionBank, constraintsKey, isCorrect, matches, normName, pickQuestion, NO_FILTERS } from "../src/game/questions";
 import { scoreAnswer } from "../src/game/scoring";
 import { breakdown, emptyStats, parseStats, recordAnswer, rollingAccuracy, saveStats, loadStats, startSession, weakSpots, type AnswerRecord, type KeyValueStore } from "../src/game/stats";
 import { quipFor } from "../src/game/humor";
@@ -156,6 +156,22 @@ describe("question engine", () => {
     // Hints hedge too.
     const q = bank.questions.find((x) => x.sourceCountry === "CHL" && x.template === "region-type-era")!;
     expect(q.hints.some((h) => h.includes("allegedly the CIA"))).toBe(true);
+  });
+
+  it("filters questions by topic", () => {
+    const evs = [
+      ev({ id: "CHL-coup", country: "CHL", type: "coup", exploiter: { label: "the CIA" }, startYear: 1973, endYear: 1973, resources: [] }),
+      ev({ id: "HUN-inv", country: "HUN", type: "invasion", exploiter: { label: "the Soviet Union" }, startYear: 1956, endYear: 1956, resources: [] }),
+      ev({ id: "COD-col", country: "COD", type: "colonization", exploiter: { label: "Belgium" } }),
+    ];
+    const bank = buildQuestionBank(evs);
+    const by = (topic: keyof typeof TOPICS) => new Set(bank.questions.filter((q) => passesFilters(q, { ...NO_FILTERS, topic })).map((q) => q.sourceCountry));
+    expect([...by("coups")]).toEqual(["CHL"]);
+    expect([...by("invasions")]).toEqual(["HUN"]);
+    expect([...by("colonialism")]).toEqual(["COD"]);
+    expect(bank.questions.every((q) => passesFilters(q, NO_FILTERS))).toBe(true);
+    const picked = pickQuestion(bank, { filters: { ...NO_FILTERS, topic: "invasions" }, askedKeys: new Set(), recentCountries: [], countryStats: new Map(), rng: () => 0.3 });
+    expect(picked?.sourceCountry).toBe("HUN");
   });
 
   it("hints at the continent and at island or landlocked status", () => {

@@ -13,7 +13,7 @@ import {
   pick,
   quipFor,
 } from "../game/humor";
-import { buildQuestionBank, isCorrect, matches, normName, pickQuestion, type Filters, type QuestionBank } from "../game/questions";
+import { TOPICS, buildQuestionBank, isCorrect, matches, normName, pickQuestion, type Filters, type QuestionBank, type Topic } from "../game/questions";
 import { MAX_HINTS, scoreAnswer, HINT_PENALTY } from "../game/scoring";
 import {
   countryRecords,
@@ -182,7 +182,7 @@ export function startApp(root: HTMLElement): void {
   }
 
   function filters(): Filters {
-    return { regions: settings.regions, eras: settings.eras, difficulties: settings.difficulties };
+    return { regions: settings.regions, eras: settings.eras, difficulties: settings.difficulties, topic: settings.topic };
   }
 
   function updateChips(): void {
@@ -475,6 +475,13 @@ export function startApp(root: HTMLElement): void {
       if (settings.mode === v) o.selected = true;
       modeSel.append(o);
     }
+    const topicSel = el("select", {});
+    topicSel.append(el("option", { value: "" }, "Everything"));
+    for (const [k, t] of Object.entries(TOPICS)) {
+      const o = el("option", { value: k }, t.label);
+      if (settings.topic === k) o.selected = true;
+      topicSel.append(o);
+    }
     const regionG = checkboxGroup<Region>("Regions", REGIONS.map((r) => [r, r]), settings.regions);
     const eraG = checkboxGroup<EraBucket>(
       "Eras",
@@ -525,6 +532,7 @@ export function startApp(root: HTMLElement): void {
         regions: regionG.read(),
         eras: eraG.read(),
         difficulties: diffG.read() as (1 | 2 | 3)[] | null,
+        topic: (topicSel.value || null) as Topic | null,
       };
       saveSettings(store, settings);
       map.setNamesVisible(settings.showNames);
@@ -537,6 +545,7 @@ export function startApp(root: HTMLElement): void {
     settingsDlg.replaceChildren(
       el("h2", {}, "Settings"),
       el("label", { class: "row" }, "Mode ", modeSel),
+      el("label", { class: "row" }, "Topic ", topicSel),
       regionG.node,
       eraG.node,
       diffG.node,

@@ -1,5 +1,5 @@
 import type { EraBucket, Region } from "../types";
-import type { CountryRecord } from "./questions";
+import type { CountryRecord, Topic } from "./questions";
 
 export const STATS_KEY = "world-o-rama:stats:v1";
 export const MAX_ANSWERS_STORED = 3000;
@@ -193,6 +193,8 @@ export interface Settings {
   regions: Region[] | null;
   eras: EraBucket[] | null;
   difficulties: (1 | 2 | 3)[] | null;
+  /** Restrict questions to a theme such as coups or invasions. */
+  topic: Topic | null;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -202,6 +204,7 @@ export const DEFAULT_SETTINGS: Settings = {
   regions: null,
   eras: null,
   difficulties: null,
+  topic: null,
 };
 
 export function loadSettings(store: KeyValueStore): Settings {

@@ -103,6 +103,9 @@ export interface Question {
   sourceEventId: string;
   /** Country of the generating event (the "main" answer). */
   sourceCountry: string;
+  /** Type and normalised exploiter of the generating event, used by the topic filter. */
+  sourceType: EventType;
+  sourceExploiter: string;
   /** Progressive hints, cheapest to most revealing. */
   hints: string[];
   /** Mid-year of the generating event, used for era filtering. */

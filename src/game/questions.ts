@@ -329,6 +329,8 @@ export function buildQuestionBank(events: GameEvent[], maxAnswers = DEFAULT_MAX_
         answers: [...answers].sort(),
         sourceEventId: ev.id,
         sourceCountry: ev.country,
+        sourceType: ev.type,
+        sourceExploiter: normName(ev.exploiter.label),
         hints: autoHints(ev, cand.constraints, cand.template === "authored-clue" ? (cand.hintsTail ?? []) : (ev.hints ?? [])),
         year: midYear(ev.startYear, ev.endYear),
       };
@@ -359,13 +361,24 @@ export function buildQuestionBank(events: GameEvent[], maxAnswers = DEFAULT_MAX_
 
 // ---- Selection -------------------------------------------------------------
 
+export type Topic = "coups" | "invasions" | "colonialism" | "occupation";
+
+/** Quick themes for the Settings dialog. Each matches on the event behind the question. */
+export const TOPICS: Record<Topic, { label: string; test: (q: Question) => boolean }> = {
+  coups: { label: "Coups and CIA operations", test: (q) => q.sourceType === "coup" || q.sourceExploiter === "cia" },
+  invasions: { label: "Invasions", test: (q) => q.sourceType === "invasion" },
+  colonialism: { label: "Colonialism", test: (q) => q.sourceType === "colonization" },
+  occupation: { label: "Occupations and annexations", test: (q) => q.sourceType === "occupation" || q.sourceType === "annexation" },
+};
+
 export interface Filters {
   regions: Region[] | null;
   eras: EraBucket[] | null;
   difficulties: (1 | 2 | 3)[] | null;
+  topic?: Topic | null;
 }
 
-export const NO_FILTERS: Filters = { regions: null, eras: null, difficulties: null };
+export const NO_FILTERS: Filters = { regions: null, eras: null, difficulties: null, topic: null };
 
 export interface CountryRecord {
   asked: number;
@@ -382,6 +395,7 @@ export interface PickContext {
 
 export function passesFilters(q: Question, f: Filters): boolean {
   if (f.difficulties && !f.difficulties.includes(q.difficulty)) return false;
+  if (f.topic && !TOPICS[f.topic].test(q)) return false;
   if (f.eras && !f.eras.includes(eraBucket(q.year))) return false;
   if (f.regions) {
     const ok = q.answers.some((a) => {
