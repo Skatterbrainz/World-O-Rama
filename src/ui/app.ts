@@ -279,7 +279,7 @@ export function startApp(root: HTMLElement): void {
     const q = game.current;
     if (game.hintsUsed >= hintTotal(q)) return;
     if (game.hintsUsed === 0) {
-      map.setCandidates(pickCandidates(q));
+      map.setCandidates(pickCandidates(q, Math.random, 5, settings.regions));
       hintList.appendChild(el("li", {}, "Hint: one of the 5 highlighted countries is correct."));
       showToast(pick(CANDIDATE_LINES));
     } else {

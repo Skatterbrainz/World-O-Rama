@@ -72,6 +72,15 @@ export function eraBucket(year: number): EraBucket {
   return "20th-century+";
 }
 
+/** Inclusive year range of each bucket. */
+export const ERA_BUCKET_RANGES: Record<EraBucket, [number, number]> = {
+  ancient: [-100000, 499],
+  medieval: [500, 1499],
+  "early-modern": [1500, 1799],
+  "19th-century": [1800, 1899],
+  "20th-century+": [1900, 100000],
+};
+
 export const ERA_BUCKET_LABELS: Record<EraBucket, string> = {
   ancient: "Ancient (before 500)",
   medieval: "Medieval (500-1499)",

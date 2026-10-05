@@ -108,6 +108,9 @@ export interface Question {
   sourceExploiter: string;
   /** Progressive hints, cheapest to most revealing. */
   hints: string[];
-  /** Mid-year of the generating event, used for era filtering. */
+  /** Mid-year of the era the question states (or of the event when it states none), used for era filtering. */
   year: number;
+  /** Span of the generating event, used by the era filter for questions that state no era. */
+  spanStart: number;
+  spanEnd: number;
 }

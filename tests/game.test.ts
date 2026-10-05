@@ -200,6 +200,50 @@ describe("question engine", () => {
     expect(loadSettings(store).theme).toBe("dark");
   });
 
+  it("region filter never lets an off-region country be an accepted answer", () => {
+    const evs = [
+      ev({ id: "AGO-oil", country: "AGO", exploiter: { label: "the Soviet Union" }, resources: ["oil"], startYear: 1975, endYear: 1990 }),
+      ev({ id: "EST-oil", country: "EST", exploiter: { label: "the Soviet Union" }, resources: ["oil"], startYear: 1944, endYear: 1991 }),
+      ev({ id: "ROU-oil", country: "ROU", exploiter: { label: "the Soviet Union" }, resources: ["oil"], startYear: 1944, endYear: 1958 }),
+    ];
+    const bank = buildQuestionBank(evs);
+    const europe = bank.questions.filter((q) => passesFilters(q, { ...NO_FILTERS, regions: ["Europe"] }));
+    expect(europe.length).toBeGreaterThan(0);
+    for (const q of europe) expect(q.answers.every((a) => countryByIso(a)!.region === "Europe")).toBe(true);
+    expect(europe.some((q) => q.answers.includes("AGO"))).toBe(false);
+    // The mixed-region question exists, but only passes when every region it touches is selected.
+    const mixed = bank.questions.find((q) => q.text === "A nation that was exploited by the Soviet Union for oil in the 1970s")!;
+    expect(passesFilters(mixed, { ...NO_FILTERS, regions: ["Europe"] })).toBe(false);
+    expect(passesFilters(mixed, { ...NO_FILTERS, regions: ["Europe", "Africa"] })).toBe(true);
+  });
+
+  it("era filter uses the era the question states, not the midpoint of the event", () => {
+    // 1880 to 1960: midpoint 1920 (20th century), but the generated questions also say "in the 19th century".
+    const bank = buildQuestionBank([ev({ id: "KEN-long", country: "KEN", exploiter: { label: "the British Empire" }, resources: ["tea"], startYear: 1880, endYear: 1960 })]);
+    const only = (b: "19th-century" | "20th-century+") => bank.questions.filter((q) => passesFilters(q, { ...NO_FILTERS, eras: [b] }));
+    expect(only("20th-century+").some((q) => /in the 19th century/.test(q.text))).toBe(false);
+    expect(only("20th-century+").some((q) => /in the (20th century|19[6-9]0s|19[0-9]0s)/.test(q.text))).toBe(true);
+    expect(only("19th-century").every((q) => !/in the 20th century|in the 19[0-9]0s/.test(q.text) || /188|189|18/.test(q.text))).toBe(true);
+    expect(only("19th-century").some((q) => /in the 19th century/.test(q.text))).toBe(true);
+    // Questions that state no era pass when the event overlaps the chosen era at all.
+    const noEra = bank.questions.find((q) => q.constraints.eraStart === undefined && q.template === "exploiter-resource")!;
+    expect(passesFilters(noEra, { ...NO_FILTERS, eras: ["19th-century"] })).toBe(true);
+    expect(passesFilters(noEra, { ...NO_FILTERS, eras: ["20th-century+"] })).toBe(true);
+    expect(passesFilters(noEra, { ...NO_FILTERS, eras: ["medieval"] })).toBe(false);
+  });
+
+  it("hint decoys respect the region filter", () => {
+    const bank = buildQuestionBank([ev({ id: "ROU-x", country: "ROU", exploiter: { label: "the Soviet Union" }, resources: ["oil"] })]);
+    const q = bank.questions.find((x) => x.template === "exploiter-resource")!;
+    let seed = 7;
+    const rng = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
+    for (let i = 0; i < 20; i++) {
+      const c = pickCandidates(q, rng, 5, ["Europe"]);
+      expect(c).toHaveLength(5);
+      expect(c.every((iso) => countryByIso(iso)!.region === "Europe")).toBe(true);
+    }
+  });
+
   it("filters questions by topic", () => {
     const evs = [
       ev({ id: "CHL-coup", country: "CHL", type: "coup", exploiter: { label: "the CIA" }, startYear: 1973, endYear: 1973, resources: [] }),
@@ -264,7 +308,7 @@ describe("question engine", () => {
     const rng = () => 0.1;
     const q = pickQuestion(bank, { filters: { ...NO_FILTERS, regions: ["Europe"] }, askedKeys: new Set(), recentCountries: [], countryStats: new Map(), rng });
     expect(q).not.toBeNull();
-    expect(q!.answers.some((a) => a === "ROU")).toBe(true);
+    expect(q!.answers).toEqual(["ROU"]);
     const none = pickQuestion(bank, { filters: { ...NO_FILTERS, regions: ["Oceania"] }, askedKeys: new Set(), recentCountries: [], countryStats: new Map(), rng });
     expect(none).toBeNull();
   });

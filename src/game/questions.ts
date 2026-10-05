@@ -1,7 +1,7 @@
 import { COUNTRIES, countryByIso } from "../data/countries";
 import { REGION_ADJECTIVES, RESOURCES, SUBREGION_PHRASES, TYPE_LABELS, TYPE_NOUNS, TYPE_VERBS } from "../data/vocab";
 import type { Constraints, EraBucket, GameEvent, Question, Region } from "../types";
-import { eraBucket, eventEras, fmtYear, midYear, overlaps } from "./era";
+import { ERA_BUCKET_RANGES, eraBucket, eventEras, fmtYear, midYear, overlaps } from "./era";
 import { MAX_HINTS } from "./scoring";
 
 export const DEFAULT_MAX_ANSWERS = 4;
@@ -332,7 +332,12 @@ export function buildQuestionBank(events: GameEvent[], maxAnswers = DEFAULT_MAX_
         sourceType: ev.type,
         sourceExploiter: normName(ev.exploiter.label),
         hints: autoHints(ev, cand.constraints, cand.template === "authored-clue" ? (cand.hintsTail ?? []) : (ev.hints ?? [])),
-        year: midYear(ev.startYear, ev.endYear),
+        year:
+          cand.constraints.eraStart !== undefined && cand.constraints.eraEnd !== undefined
+            ? midYear(cand.constraints.eraStart, cand.constraints.eraEnd)
+            : midYear(ev.startYear, ev.endYear),
+        spanStart: ev.startYear,
+        spanEnd: ev.endYear,
       };
       if (q.answers.length > maxAnswers) {
         ambiguousKeys.add(key);
@@ -396,9 +401,18 @@ export interface PickContext {
 export function passesFilters(q: Question, f: Filters): boolean {
   if (f.difficulties && !f.difficulties.includes(q.difficulty)) return false;
   if (f.topic && !TOPICS[f.topic].test(q)) return false;
-  if (f.eras && !f.eras.includes(eraBucket(q.year))) return false;
+  if (f.eras) {
+    // Use the era the question actually states; for questions that state none, any overlap with the event's span.
+    const ok =
+      q.constraints.eraStart !== undefined
+        ? f.eras.includes(eraBucket(q.year))
+        : f.eras.some((b) => overlaps(q.spanStart, q.spanEnd, ...ERA_BUCKET_RANGES[b]));
+    if (!ok) return false;
+  }
   if (f.regions) {
-    const ok = q.answers.some((a) => {
+    // Every accepted answer must be in the chosen regions, so no off-region country can be the answer,
+    // the source of the hints or the reveal card.
+    const ok = q.answers.every((a) => {
       const c = countryByIso(a);
       return c ? f.regions!.includes(c.region) : false;
     });
@@ -472,9 +486,17 @@ function shuffled<T>(items: T[], rng: () => number): T[] {
  * Countries to highlight for the hint: exactly one correct answer plus random others. When the clue names a
  * sub-region or region, the others come from there so the choices stay plausible.
  */
-export function pickCandidates(q: Question, rng: () => number = Math.random, count = 5): string[] {
+export function pickCandidates(
+  q: Question,
+  rng: () => number = Math.random,
+  count = 5,
+  allowedRegions: Region[] | null = null,
+): string[] {
   const answer = q.answers[Math.floor(rng() * q.answers.length)];
-  const others = COUNTRIES.filter((c) => !q.answers.includes(c.iso3));
+  const allOthers = COUNTRIES.filter((c) => !q.answers.includes(c.iso3));
+  // Respect the player's region filter when there are enough countries left to choose from.
+  const inRegions = allowedRegions ? allOthers.filter((c) => allowedRegions.includes(c.region)) : allOthers;
+  const others = inRegions.length >= count - 1 ? inRegions : allOthers;
   const { region, subregion } = q.constraints;
   const need = count - 1;
   const scopes = [
