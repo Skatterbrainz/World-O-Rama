@@ -1,0 +1,107 @@
+{
+  "country": "UGA",
+  "events": [
+    {
+      "id": "UGA-egyptian-equatoria-north-uganda",
+      "title": "Egyptian expansion into the upper Nile",
+      "startYear": 1872,
+      "endYear": 1889,
+      "exploiter": {
+        "label": "Egypt"
+      },
+      "type": "annexation",
+      "resources": [
+        "ivory",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "Equatoria"
+      ],
+      "hints": [
+        "In 1872 an Egyptian khedive's forces proclaimed annexation of a kingdom near the great lake.",
+        "Officers like Samuel Baker and Emin Pasha ran the garrisons.",
+        "The Mahdist revolt cut the province off in the 1880s."
+      ],
+      "summary": "From 1872 Egyptian forces under Samuel Baker and later Charles Gordon and Emin Pasha extended Egypt's Equatoria Province into what is now northern Uganda, setting up garrisons along the Nile. The Mahdist revolt ended the expansion by 1889.",
+      "wikipediaTitle": "Equatoria",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Equatoria"
+      ]
+    },
+    {
+      "id": "UGA-ibeac-buganda",
+      "title": "IBEA Company and Lugard in Buganda",
+      "startYear": 1890,
+      "endYear": 1894,
+      "exploiter": {
+        "label": "the Imperial British East Africa Company"
+      },
+      "type": "colonization",
+      "resources": [
+        "ivory"
+      ],
+      "hints": [
+        "A chartered company sent a captain to a powerful kingdom in 1890 to secure it against rivals.",
+        "Maxim guns were used in religious civil war between Catholic and Protestant factions.",
+        "The company withdrew in 1893 and Britain declared a protectorate."
+      ],
+      "summary": "In 1890 Captain Frederick Lugard led the Imperial British East Africa Company's expedition to Buganda, securing a treaty and intervening in factional wars with Maxim guns. The company withdrew in 1893 and Britain declared a protectorate in 1894.",
+      "wikipediaTitle": "Imperial British East Africa Company",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Imperial_British_East_Africa_Company"
+      ]
+    },
+    {
+      "id": "UGA-uganda-protectorate",
+      "title": "Uganda Protectorate",
+      "startYear": 1894,
+      "endYear": 1962,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "cotton",
+        "coffee",
+        "labour"
+      ],
+      "territoryNames": [
+        "the Uganda Protectorate"
+      ],
+      "hints": [
+        "A British protectorate was declared in 1894, and a kingdom's agreement of 1900 allotted land to its chiefs.",
+        "Cotton and coffee were grown by smallholders for export.",
+        "Indian workers built the railway, and Asian traders dominated commerce."
+      ],
+      "summary": "Britain declared a protectorate in 1894, and the 1900 Buganda Agreement allotted land to the kingdom's chiefs. Cotton and coffee grown by smallholders became the main exports, and the territory became independent in 1962.",
+      "wikipediaTitle": "Uganda Protectorate",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Uganda_Protectorate"
+      ]
+    },
+    {
+      "id": "UGA-bunyoro-conquest",
+      "title": "British conquest of Bunyoro",
+      "startYear": 1893,
+      "endYear": 1899,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A kingdom north of its rival fought a long war against British-led forces.",
+        "Its king used guerrilla tactics for years.",
+        "He was captured in 1899 and exiled to a distant island."
+      ],
+      "summary": "Between 1893 and 1899 British forces, with allies from Buganda, fought the kingdom of Bunyoro under Omukama Kabalega. He was captured in 1899 and exiled to the Seychelles, and Bunyoro lost territory to Buganda.",
+      "sensitive": true,
+      "wikipediaTitle": "Kabalega of Bunyoro",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kabalega_of_Bunyoro"
+      ]
+    }
+  ]
+}

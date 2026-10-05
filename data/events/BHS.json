@@ -1,0 +1,43 @@
+{
+  "country": "BHS",
+  "events": [
+    {
+      "id": "BHS-lucayan-enslavement",
+      "title": "Spanish enslavement of the Lucayans",
+      "startYear": 1492,
+      "endYear": 1520,
+      "exploiter": { "label": "Spain" },
+      "type": "slave_trade",
+      "resources": ["slaves", "pearls", "gold"],
+      "territoryNames": ["the Lucayan Archipelago"],
+      "hints": [
+        "The first land in the Americas sighted by a famous 1492 voyage lay in this archipelago.",
+        "The Taíno-speaking inhabitants were shipped off to mines and pearl fisheries on other islands.",
+        "Within about three decades the islands had been largely emptied of their original population."
+      ],
+      "summary": "After the 1492 landfall, Spanish slavers took the Lucayan inhabitants of the islands to Hispaniola and elsewhere to work in mines and pearl fisheries. By around 1520 the islands had been largely depopulated.",
+      "sensitive": true,
+      "wikipediaTitle": "Lucayan people",
+      "sources": ["https://en.wikipedia.org/wiki/Lucayan_people"]
+    },
+    {
+      "id": "BHS-british-colony-loyalists",
+      "title": "British colony and the Loyalist plantations",
+      "startYear": 1718,
+      "endYear": 1973,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["slaves", "cotton", "salt"],
+      "territoryNames": ["the Bahama Islands colony"],
+      "hints": [
+        "A Crown governor arrived in 1718 with orders to suppress piracy.",
+        "After 1783, refugees from the newly independent United States brought enslaved people and tried cotton planting.",
+        "Salt raking on the southern islands and the end of slavery in 1834 shaped the 19th-century economy."
+      ],
+      "summary": "Britain made the islands a Crown colony in 1718 under Governor Woodes Rogers. After 1783 American Loyalists arrived with thousands of enslaved people and established cotton plantations, and the islands became independent in 1973.",
+      "sensitive": true,
+      "wikipediaTitle": "History of the Bahamas",
+      "sources": ["https://en.wikipedia.org/wiki/History_of_the_Bahamas"]
+    }
+  ]
+}

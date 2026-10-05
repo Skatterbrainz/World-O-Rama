@@ -1,0 +1,142 @@
+{
+  "country": "GHA",
+  "events": [
+    {
+      "id": "GHA-elmina-portuguese",
+      "title": "Elmina and the Portuguese gold trade",
+      "startYear": 1482,
+      "endYear": 1637,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "gold",
+        "slaves"
+      ],
+      "territoryNames": [
+        "the Gold Coast"
+      ],
+      "hints": [
+        "Europe's first major trading fort in tropical Africa was built here in 1482.",
+        "The coast was named after the commodity Europeans first came to buy."
+      ],
+      "summary": "Portugal built Elmina Castle in 1482 to control the gold trade of the region, later also trading enslaved people. The Dutch captured the castle in 1637, and several European powers then competed for forts along the coast.",
+      "sensitive": true,
+      "wikipediaTitle": "Elmina Castle",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Elmina_Castle"
+      ]
+    },
+    {
+      "id": "GHA-british-gold-coast",
+      "title": "British Gold Coast colony",
+      "startYear": 1874,
+      "endYear": 1957,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "gold",
+        "cocoa",
+        "timber"
+      ],
+      "territoryNames": [
+        "the Gold Coast"
+      ],
+      "hints": [
+        "Cocoa farmers fed a chocolate industry far away.",
+        "In 1957 it became the first sub-Saharan colony to gain independence."
+      ],
+      "summary": "Britain formalised the Gold Coast Colony in 1874 and later extended control inland to Ashanti and the Northern Territories. Cocoa, gold and timber were the main exports until independence in 1957, the first for a sub-Saharan African colony.",
+      "wikipediaTitle": "Gold Coast (British colony)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gold_Coast_(British_colony)"
+      ]
+    },
+    {
+      "id": "GHA-dutch-gold-coast",
+      "title": "Dutch Gold Coast",
+      "startYear": 1612,
+      "endYear": 1872,
+      "exploiter": {
+        "label": "the Netherlands"
+      },
+      "type": "colonization",
+      "resources": [
+        "gold",
+        "slaves"
+      ],
+      "territoryNames": [
+        "the Dutch Gold Coast"
+      ],
+      "hints": [
+        "A European trading power captured the major Portuguese fort on this coast in 1637.",
+        "Elmina became its main West African base for gold and the Atlantic slave trade.",
+        "The Dutch handed over their forts to Britain in 1872."
+      ],
+      "summary": "From 1612 the Dutch West India Company gradually colonised parts of the coast. It captured Elmina from the Portuguese in 1637 and used it as its main West African base for gold and enslaved people. The Dutch sold their forts to Britain in 1872.",
+      "sensitive": true,
+      "wikipediaTitle": "Dutch Gold Coast",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dutch_Gold_Coast"
+      ]
+    },
+    {
+      "id": "GHA-danish-gold-coast",
+      "title": "Danish Gold Coast",
+      "startYear": 1658,
+      "endYear": 1850,
+      "exploiter": {
+        "label": "Denmark"
+      },
+      "type": "colonization",
+      "resources": [
+        "slaves",
+        "gold"
+      ],
+      "territoryNames": [
+        "the Danish Gold Coast"
+      ],
+      "hints": [
+        "Forts built by a Scandinavian kingdom traded in humans across the Atlantic.",
+        "Christiansborg Castle served as its headquarters.",
+        "Its forts were sold to Britain in 1850."
+      ],
+      "summary": "Denmark-Norway controlled forts on the coast from the 17th century, including Christiansborg Castle, taking part in the Atlantic slave trade. The five Danish forts were sold to Britain in 1850.",
+      "sensitive": true,
+      "wikipediaTitle": "Danish Gold Coast",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Danish_Gold_Coast"
+      ]
+    },
+    {
+      "id": "GHA-anglo-ashanti-wars",
+      "title": "Anglo-Ashanti wars",
+      "startYear": 1824,
+      "endYear": 1900,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "gold"
+      ],
+      "territoryNames": [
+        "the Ashanti Empire"
+      ],
+      "hints": [
+        "A series of five conflicts pitted a powerful inland kingdom against a European colonial power.",
+        "In 1874 the kingdom's capital Kumasi was captured and burned.",
+        "A governor's demand in 1900 to sit on the kingdom's sacred Golden Stool triggered the last war."
+      ],
+      "summary": "Between 1824 and 1900 Britain fought five wars against the Ashanti Empire. Britain captured Kumasi in 1874, and after the War of the Golden Stool in 1900 it annexed Ashanti and exiled the king, Prempeh I.",
+      "quip": "Demanding to sit on a nation's sacred throne was not Britain's finest diplomatic move.",
+      "wikipediaTitle": "Anglo-Ashanti wars",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anglo-Ashanti_wars"
+      ]
+    }
+  ]
+}

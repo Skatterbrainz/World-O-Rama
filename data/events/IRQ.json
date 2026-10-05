@@ -1,0 +1,157 @@
+{
+  "country": "IRQ",
+  "events": [
+    {
+      "id": "IRQ-ottoman-iraq",
+      "title": "Ottoman Iraq",
+      "startYear": 1534,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "trade_routes",
+        "grain"
+      ],
+      "territoryNames": [
+        "Ottoman Iraq",
+        "Mesopotamia"
+      ],
+      "hints": [
+        "A sultan captured the old caliphal capital from Persia in 1534.",
+        "Provinces were run from the empire's capital and then by locally recruited slave-soldier governors.",
+        "British troops took the region in the First World War."
+      ],
+      "summary": "Suleiman the Magnificent took Baghdad from Safavid Persia in 1534. The region was divided into provinces governed by Ottoman officials and later by Georgian Mamluk pashas, with reforms under Midhat Pasha in the 1860s. British forces occupied it from 1914 to 1918.",
+      "wikipediaTitle": "Ottoman Iraq",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ottoman_Iraq"
+      ]
+    },
+    {
+      "id": "IRQ-mongol-baghdad",
+      "title": "Mongol sack of Baghdad",
+      "startYear": 1258,
+      "endYear": 1258,
+      "exploiter": {
+        "label": "the Mongol Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute"
+      ],
+      "hints": [
+        "A siege by a grandson of Genghis Khan in early 1258 ended with the city's fall after twelve days.",
+        "The last caliph of a dynasty that had ruled for 500 years was executed.",
+        "Estimates of the dead run from tens of thousands to hundreds of thousands."
+      ],
+      "summary": "Hulagu Khan's army besieged Baghdad in January 1258 and the city fell on 10 February. Caliph al-Musta'sim was executed, and the city's libraries and public works were devastated. Estimates of deaths vary widely, from tens of thousands to several hundred thousand.",
+      "sensitive": true,
+      "wikipediaTitle": "Siege of Baghdad (1258)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1258)"
+      ]
+    },
+    {
+      "id": "IRQ-british-mandate",
+      "title": "British Mandate for Mesopotamia",
+      "startYear": 1920,
+      "endYear": 1932,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "oil",
+        "strategic_location"
+      ],
+      "territoryNames": [
+        "Mandatory Iraq",
+        "Mesopotamia"
+      ],
+      "hints": [
+        "A League of Nations mandate was assigned in 1920 at San Remo.",
+        "A mass uprising in 1920 was put down, partly through aerial bombing.",
+        "A king was installed in 1921, and nominal independence arrived in 1932."
+      ],
+      "summary": "At the 1920 San Remo conference, Britain received a mandate over Mesopotamia. The 1920 revolt was suppressed with heavy casualties, and Britain installed Faisal I as king in 1921. A 1925 oil concession followed, and the mandate formally ended in 1932.",
+      "wikipediaTitle": "British Mandate of Mesopotamia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/British_Mandate_of_Mesopotamia"
+      ]
+    },
+    {
+      "id": "IRQ-petroleum-company",
+      "title": "Iraq Petroleum Company",
+      "startYear": 1925,
+      "endYear": 1972,
+      "exploiter": {
+        "label": "the Iraq Petroleum Company"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "oil"
+      ],
+      "hints": [
+        "In 1925 a consortium of Western oil firms obtained a 75-year concession over the whole country.",
+        "Giant fields near Kirkuk gushed in 1927.",
+        "The company was nationalised in 1972 after years of dispute."
+      ],
+      "summary": "The Turkish Petroleum Company, renamed the Iraq Petroleum Company, received a 75-year concession in 1925 from the mandate government. Oil gushed at Baba Gurgur near Kirkuk in 1927. The concession was reduced in 1961 under Law 80 and the company was nationalised in 1972.",
+      "wikipediaTitle": "Iraq Petroleum Company",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Iraq_Petroleum_Company"
+      ]
+    },
+    {
+      "id": "IRQ-anglo-iraqi-war",
+      "title": "Anglo-Iraqi War and occupation",
+      "startYear": 1941,
+      "endYear": 1947,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "oil",
+        "strategic_location"
+      ],
+      "hints": [
+        "In May 1941 a nationalist government resisted British troop movements, and a short war followed.",
+        "British forces reoccupied the country and reinstated the regent.",
+        "They remained until 1947."
+      ],
+      "summary": "After a pro-Axis coup in April 1941, Britain invaded in May to secure its oil supplies and routes to India. The government of Rashid Ali was ousted within a month, and British forces remained until 1947.",
+      "wikipediaTitle": "Anglo-Iraqi War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anglo-Iraqi_War"
+      ]
+    },
+    {
+      "id": "IRQ-2003-invasion",
+      "title": "US-led invasion and occupation",
+      "startYear": 2003,
+      "endYear": 2011,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "occupation",
+      "resources": [
+        "oil"
+      ],
+      "hints": [
+        "A coalition invaded in March 2003 on claims of hidden weapons that were never found.",
+        "A civil administration run by a US envoy ruled for 14 months.",
+        "The last American combat troops left at the end of 2011."
+      ],
+      "summary": "The United States and allies invaded in March 2003, overthrowing Saddam Hussein. The Coalition Provisional Authority governed until June 2004, an insurgency and sectarian conflict followed, and US forces withdrew in December 2011. Estimates of civilian deaths vary widely.",
+      "sensitive": true,
+      "wikipediaTitle": "Iraq War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Iraq_War"
+      ]
+    }
+  ]
+}

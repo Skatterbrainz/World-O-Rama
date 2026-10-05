@@ -1,0 +1,183 @@
+{
+  "country": "HUN",
+  "events": [
+    {
+      "id": "HUN-roman-pannonia",
+      "title": "Roman conquest of Pannonia",
+      "startYear": -12,
+      "endYear": 433,
+      "exploiter": {
+        "label": "the Roman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "hints": [
+        "A brutal revolt was suppressed between AD 6 and 9, after which a province was organised.",
+        "The Danube frontier was held by legions for centuries."
+      ],
+      "summary": "Rome subdued the tribes west of the Danube in the late 1st century BCE and AD 6–9, organising the province of Pannonia, which was later split in two. Roman cities and legion camps lined the Danube until the Huns took control in 433.",
+      "wikipediaTitle": "Pannonia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pannonia"
+      ]
+    },
+    {
+      "id": "HUN-mongol-invasion-1241",
+      "title": "Mongol invasion",
+      "startYear": 1241,
+      "endYear": 1242,
+      "exploiter": {
+        "label": "the Mongol Empire"
+      },
+      "type": "other",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A great army crossed the Carpathians in March 1241 and routed a king at Mohi.",
+        "A sudden withdrawal in 1242 followed the death of the Great Khan."
+      ],
+      "summary": "Mongol armies under Batu Khan and Subutai invaded in 1241, defeated King Bela IV at the Battle of Mohi and devastated large parts of the kingdom. They withdrew in 1242; estimates of the population loss are uncertain but substantial.",
+      "sensitive": true,
+      "wikipediaTitle": "Mongol invasion of Europe",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mongol_invasion_of_Europe"
+      ]
+    },
+    {
+      "id": "HUN-ottoman-hungary",
+      "title": "Ottoman Hungary",
+      "startYear": 1541,
+      "endYear": 1699,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "hints": [
+        "The capital's castle was seized in 1541 and the kingdom was split in three.",
+        "A reconquest after 1683 ended the occupation in 1699."
+      ],
+      "summary": "After the Battle of Mohacs in 1526 and the capture of Buda in 1541, the Ottomans ruled central Hungary directly as the Budin Eyalet. The Habsburg reconquest after 1686 ended Ottoman rule, confirmed by the Treaty of Karlowitz in 1699.",
+      "wikipediaTitle": "Ottoman Hungary",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ottoman_Hungary"
+      ]
+    },
+    {
+      "id": "HUN-russian-intervention-1849",
+      "title": "Russian intervention and Habsburg reprisals",
+      "startYear": 1849,
+      "endYear": 1849,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A tsar sent 200,000 troops to crush a revolution at the request of his neighbouring emperor.",
+        "Thirteen generals were executed at Arad in October 1849."
+      ],
+      "summary": "In 1849 Tsar Nicholas I sent a large army to help Austria suppress the Hungarian Revolution of 1848. After the surrender at Vilagos, the Habsburgs executed thirteen generals and imposed absolutist rule.",
+      "sensitive": true,
+      "wikipediaTitle": "Hungarian Revolution of 1848",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1848"
+      ]
+    },
+    {
+      "id": "HUN-trianon",
+      "title": "Treaty of Trianon",
+      "startYear": 1920,
+      "endYear": 1920,
+      "exploiter": {
+        "label": "the Allied Powers"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A Paris peace settlement in 1920 cut a kingdom's territory by roughly two thirds.",
+        "Millions of its speakers ended up in neighbouring states."
+      ],
+      "summary": "The 1920 Treaty of Trianon reduced the Kingdom of Hungary to roughly 28 per cent of its prewar area, and millions of ethnic Hungarians found themselves outside the new borders. It remains a central issue in national memory.",
+      "wikipediaTitle": "Treaty of Trianon",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaty_of_Trianon"
+      ]
+    },
+    {
+      "id": "HUN-german-occupation-1944",
+      "title": "German occupation",
+      "startYear": 1944,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "labour"
+      ],
+      "hints": [
+        "Operation Margarethe sent troops into an ally's capital in March 1944.",
+        "More than 400,000 Jews were deported within about two months."
+      ],
+      "summary": "Germany occupied its ally in March 1944 and, with the cooperation of Hungarian authorities, deported about 437,000 Jews, mostly to Auschwitz, in a matter of weeks. Soviet forces completed the capture of Budapest in February 1945.",
+      "sensitive": true,
+      "wikipediaTitle": "German occupation of Hungary",
+      "sources": [
+        "https://en.wikipedia.org/wiki/German_occupation_of_Hungary"
+      ]
+    },
+    {
+      "id": "HUN-soviet-satellite",
+      "title": "Soviet occupation and satellite regime",
+      "startYear": 1945,
+      "endYear": 1989,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "puppet_regime",
+      "resources": [
+        "labour"
+      ],
+      "hints": [
+        "The Red Army remained after 1945 and helped a minority party take power by 1949.",
+        "Tanks crushed a national uprising in November 1956."
+      ],
+      "summary": "After 1945 the country was occupied by the Red Army and became a communist single-party state aligned with Moscow. Soviet troops remained until 1991 and crushed the 1956 uprising.",
+      "wikipediaTitle": "Hungarian People's Republic",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hungarian_People's_Republic"
+      ]
+    },
+    {
+      "id": "HUN-revolution-1956",
+      "title": "Soviet suppression of the 1956 revolution",
+      "startYear": 1956,
+      "endYear": 1956,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A student march in October 1956 grew into a national uprising.",
+        "Soviet tanks entered the capital on 4 November 1956."
+      ],
+      "summary": "A national uprising began on 23 October 1956 and the Soviet army intervened on 4 November. About 2,500 Hungarians were killed in the fighting and around 200,000 fled the country.",
+      "sensitive": true,
+      "wikipediaTitle": "Hungarian Revolution of 1956",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956"
+      ]
+    }
+  ]
+}

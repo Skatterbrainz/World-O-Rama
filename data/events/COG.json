@@ -1,0 +1,84 @@
+{
+  "country": "COG",
+  "events": [
+    {
+      "id": "COG-makoko-treaty",
+      "title": "Brazza's treaty with the Makoko",
+      "startYear": 1880,
+      "endYear": 1882,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "hints": [
+        "An explorer born in Rome obtained a treaty from a king on a river plateau in 1880.",
+        "The treaty placed the king's lands under French protection, and Paris ratified it in 1882.",
+        "A city on the river is named after the explorer."
+      ],
+      "summary": "In 1880 Pierre Savorgnan de Brazza signed a treaty with the Teke king Makoko Iloo I that placed his lands under French protection. France ratified it in 1882, and it became the basis for the colony of French Congo.",
+      "wikipediaTitle": "Pierre Savorgnan de Brazza",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pierre_Savorgnan_de_Brazza"
+      ]
+    },
+    {
+      "id": "COG-french-congo-concessions",
+      "title": "Concession companies in French Congo",
+      "startYear": 1899,
+      "endYear": 1930,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "rubber",
+        "ivory",
+        "timber",
+        "labour"
+      ],
+      "territoryNames": [
+        "French Congo",
+        "Middle Congo"
+      ],
+      "hints": [
+        "In 1899 France granted much of its colony to private companies with monopoly rights.",
+        "Rubber and ivory quotas were enforced with violence.",
+        "A 1927 travel book by a French Nobel laureate helped expose the abuses."
+      ],
+      "summary": "In 1899 France handed about 40 large tracts of its Congo colony to private concession companies. Companies enforced rubber and ivory quotas with violence, and André Gide's 1927 Voyage au Congo helped bring the abuses to public attention in France.",
+      "sensitive": true,
+      "wikipediaTitle": "French Congo",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Congo"
+      ]
+    },
+    {
+      "id": "COG-congo-ocean-railway",
+      "title": "Building the Congo-Ocean Railway",
+      "startYear": 1921,
+      "endYear": 1934,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "labour"
+      ],
+      "hints": [
+        "A railway from a river port to the Atlantic was built by hand through jungle and mountains.",
+        "Labourers were recruited by force across French Equatorial Africa.",
+        "Thousands died building the line, which opened in 1934."
+      ],
+      "summary": "France built the Congo-Ocean Railway between 1921 and 1934, connecting Brazzaville with the port of Pointe-Noire. It used forced labour on a vast scale and thousands of workers died, with total deaths estimated at more than 17,000.",
+      "sensitive": true,
+      "wikipediaTitle": "Congo–Ocean Railway",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Congo%E2%80%93Ocean_Railway"
+      ]
+    }
+  ]
+}

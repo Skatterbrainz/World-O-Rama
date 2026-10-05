@@ -1,0 +1,113 @@
+{
+  "country": "TTO",
+  "events": [
+    {
+      "id": "TTO-spanish-trinidad",
+      "title": "Spanish Trinidad",
+      "startYear": 1498,
+      "endYear": 1797,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "slaves",
+        "cocoa",
+        "land"
+      ],
+      "territoryNames": [
+        "Spanish Trinidad"
+      ],
+      "hints": [
+        "The larger island was claimed in 1498 on a voyage that sighted three hills.",
+        "Spanish slave raiding and the encomienda drastically reduced its Indigenous population.",
+        "A 1783 decree opened it to Catholic settlers with slaves, many from French Caribbean islands, who planted cocoa and sugar."
+      ],
+      "summary": "Spain claimed the larger island in 1498 and held it as a backwater for nearly three centuries. Slave raids and forced labour reduced the Indigenous population. The 1783 Cédula de Población attracted French planters and their enslaved workers before Britain captured the island in 1797.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Trinidad and Tobago",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Trinidad_and_Tobago"
+      ]
+    },
+    {
+      "id": "TTO-courland-tobago",
+      "title": "Courlander colonisation of Tobago",
+      "startYear": 1654,
+      "endYear": 1689,
+      "exploiter": {
+        "label": "the Duchy of Courland"
+      },
+      "type": "colonization",
+      "resources": [
+        "tobacco",
+        "sugar"
+      ],
+      "territoryNames": [
+        "New Courland"
+      ],
+      "hints": [
+        "A tiny Baltic duchy tried to build an overseas empire in the 1650s.",
+        "It planted settlers on a Caribbean island and named a fort after its duke.",
+        "The island was fought over by the Dutch, English and French before becoming British."
+      ],
+      "summary": "The Duchy of Courland, under Duke Jacob Kettler, established colonies on the island of Tobago from 1654, interrupted by Dutch and English conquests. Its claim ended effectively in 1689 amid wars between larger powers over the island.",
+      "quip": "A Baltic duchy bought an island in the Caribbean; the big powers declined to respect the receipt.",
+      "wikipediaTitle": "Couronian colonization",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Couronian_colonization"
+      ]
+    },
+    {
+      "id": "TTO-indian-indenture",
+      "title": "Indian indentured labour",
+      "startYear": 1845,
+      "endYear": 1917,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "labour",
+        "sugar",
+        "cocoa"
+      ],
+      "hints": [
+        "After emancipation, planters recruited workers under multi-year contracts from South Asia.",
+        "The first ship, the Fatel Razack, arrived in 1845.",
+        "Roughly 140,000 people arrived before the system was ended in 1917."
+      ],
+      "summary": "To replace formerly enslaved workers on sugar estates, colonial authorities brought roughly 140,000 indentured labourers from British India between 1845 and 1917. Harsh conditions, low pay and legal restrictions on movement made the system widely criticised.",
+      "sensitive": true,
+      "wikipediaTitle": "Indian indenture system",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Indian_indenture_system"
+      ]
+    },
+    {
+      "id": "TTO-chaguaramas-base",
+      "title": "US naval base at Chaguaramas",
+      "startYear": 1941,
+      "endYear": 1963,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "strategic_location"
+      ],
+      "hints": [
+        "A 99-year lease agreed between two other governments in 1940 gave American forces a Caribbean peninsula.",
+        "Local nationalists made the base a flashpoint in the independence and West Indies Federation debates.",
+        "The area was handed back to the government in 1963."
+      ],
+      "summary": "Under the 1940 Destroyers for Bases Agreement the United States acquired a naval base on the Chaguaramas peninsula. The base was scaled back from 1956 after nationalist campaigns, and the area was returned to Trinidad and Tobago control in 1963.",
+      "quip": "A 99-year lease that lasted about 22 once the landlords found their voice.",
+      "wikipediaTitle": "Chaguaramas, Trinidad and Tobago",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chaguaramas,_Trinidad_and_Tobago"
+      ]
+    }
+  ]
+}

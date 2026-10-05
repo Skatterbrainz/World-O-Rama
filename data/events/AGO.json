@@ -1,0 +1,188 @@
+{
+  "country": "AGO",
+  "events": [
+    {
+      "id": "AGO-luanda-slave-trade",
+      "title": "Portuguese slave trade from Luanda and Benguela",
+      "startYear": 1576,
+      "endYear": 1836,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "Portuguese West Africa"
+      ],
+      "hints": [
+        "A port city founded in 1576 by a Portuguese captain-general became the main launch point of the Atlantic slave trade.",
+        "West Central Africa supplied more captives to the Americas than any other region, and many sailed from Luanda and Benguela.",
+        "Portugal banned slave exports from its colonies in 1836, though smuggling went on."
+      ],
+      "summary": "Portugal founded Luanda in 1576 and, with Benguela, it became one of the largest embarkation ports of the Atlantic slave trade, supplying Brazil above all. Portugal banned slave exports from its territories in 1836, though illegal shipments continued.",
+      "sensitive": true,
+      "wikipediaTitle": "Portuguese Angola",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Portuguese_Angola"
+      ]
+    },
+    {
+      "id": "AGO-dutch-luanda",
+      "title": "Dutch occupation of Luanda",
+      "startYear": 1641,
+      "endYear": 1648,
+      "exploiter": {
+        "label": "the Netherlands"
+      },
+      "type": "occupation",
+      "resources": [
+        "slaves",
+        "sugar",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "Loango-Angola"
+      ],
+      "hints": [
+        "A Protestant trading power seized a Portuguese slaving port in 1641 to control the supply of captives for its sugar colonies.",
+        "A fleet from Brazil under Salvador de Sá retook it in 1648."
+      ],
+      "summary": "The Dutch West India Company captured Luanda in 1641 to secure a supply of enslaved Africans for Brazilian sugar plantations it then controlled. A Portuguese fleet from Rio de Janeiro retook the city in 1648.",
+      "sensitive": true,
+      "wikipediaTitle": "Dutch Angola",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dutch_Angola"
+      ]
+    },
+    {
+      "id": "AGO-forced-labour-colonial-angola",
+      "title": "Forced labour in Portuguese Angola",
+      "startYear": 1900,
+      "endYear": 1961,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "coffee",
+        "cotton",
+        "diamonds",
+        "labour"
+      ],
+      "hints": [
+        "Under a colonial status system, most Africans were classed as 'indigenous' and could be compelled to work.",
+        "Coffee and cotton growers and diamond mines relied on conscripted labour.",
+        "The legal distinction was abolished in 1961, the year an armed uprising began."
+      ],
+      "summary": "Throughout the early 20th century Portugal compelled African men to work on plantations, roads and mines, a regime later formalised in the indigenato system. The status was abolished in 1961, the year the war of independence began.",
+      "sensitive": true,
+      "wikipediaTitle": "Portuguese Angola",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Portuguese_Angola"
+      ]
+    },
+    {
+      "id": "AGO-south-african-intervention",
+      "title": "South African invasions and occupation in the Angolan Civil War",
+      "startYear": 1975,
+      "endYear": 1988,
+      "exploiter": {
+        "label": "South Africa"
+      },
+      "type": "occupation",
+      "resources": [
+        "oil",
+        "diamonds"
+      ],
+      "hints": [
+        "Armoured columns crossed from the south in 1975 as the colonial power left, in an operation named after a grassland.",
+        "South African troops occupied parts of the south for years while backing a rebel movement.",
+        "The Battle of Cuito Cuanavale in 1987-88 pushed them to negotiate withdrawal."
+      ],
+      "summary": "From 1975 South African forces repeatedly invaded southern Angola, starting with Operation Savannah, to support UNITA and strike at SWAPO bases. They occupied parts of the south until the stalemate at Cuito Cuanavale and the 1988 accords led to withdrawal.",
+      "sensitive": true,
+      "wikipediaTitle": "South African Border War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/South_African_Border_War"
+      ]
+    },
+    {
+      "id": "AGO-cuban-intervention",
+      "title": "Cuban military intervention in Angola",
+      "startYear": 1975,
+      "endYear": 1991,
+      "exploiter": {
+        "label": "Cuba"
+      },
+      "type": "proxy_war",
+      "resources": [
+        "oil",
+        "diamonds"
+      ],
+      "hints": [
+        "A Caribbean island sent tens of thousands of troops across the Atlantic in 1975 in an operation named after a rebel heroine.",
+        "Its soldiers helped a Marxist government fight US- and South African-backed rivals.",
+        "The last of them left in 1991."
+      ],
+      "summary": "Cuba sent troops to Angola from November 1975 in Operation Carlota to support the MPLA government against UNITA and South African forces. Cuban forces stayed until 1991, at the height of the Cold War's proxy conflicts in Africa.",
+      "sensitive": true,
+      "wikipediaTitle": "Cuban intervention in Angola",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cuban_intervention_in_Angola"
+      ]
+    },
+    {
+      "id": "AGO-soviet-support-mpla",
+      "title": "Soviet backing of the MPLA",
+      "startYear": 1975,
+      "endYear": 1991,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "proxy_war",
+      "resources": [
+        "oil",
+        "diamonds"
+      ],
+      "hints": [
+        "Moscow armed one side in a civil war that began the day independence arrived.",
+        "Soviet weapons and advisers supported a Marxist-Leninist government.",
+        "Oil revenues helped pay for the arms."
+      ],
+      "summary": "The Soviet Union supplied arms, advisers and funds to the MPLA government from 1975 and backed Cuban troops, turning the civil war into one of the Cold War's main African proxy conflicts. Oil exports financed much of the government's side.",
+      "sensitive": true,
+      "wikipediaTitle": "Angolan Civil War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Angolan_Civil_War"
+      ]
+    },
+    {
+      "id": "AGO-us-support-unita",
+      "title": "US backing of UNITA",
+      "startYear": 1975,
+      "endYear": 1991,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "proxy_war",
+      "resources": [
+        "oil",
+        "diamonds"
+      ],
+      "hints": [
+        "Washington covertly armed a rebel movement in the Cold War, working alongside a white-minority regime next door.",
+        "Congress cut off aid in 1976 with the Clark Amendment, then restored it in the 1980s.",
+        "The rebel leader Jonas Savimbi was received in Washington in 1986."
+      ],
+      "summary": "The United States covertly aided UNITA from 1975, was barred from doing so by the Clark Amendment from 1976 to 1985, and then sent open aid, including Stinger missiles, from 1986. UNITA financed itself partly with diamonds.",
+      "sensitive": true,
+      "wikipediaTitle": "Angolan Civil War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Angolan_Civil_War"
+      ]
+    }
+  ]
+}

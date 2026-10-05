@@ -1,0 +1,111 @@
+{
+  "country": "COL",
+  "events": [
+    {
+      "id": "COL-spanish-new-granada",
+      "title": "Spanish conquest and New Granada",
+      "startYear": 1525,
+      "endYear": 1810,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "gold",
+        "silver",
+        "slaves",
+        "land"
+      ],
+      "territoryNames": [
+        "the Viceroyalty of New Granada",
+        "the New Kingdom of Granada"
+      ],
+      "hints": [
+        "Spaniards searched for a gilded king and a lost city of gold in the 1530s.",
+        "The Muisca highlands were conquered in 1537-1539, and a viceroyalty was created in 1717.",
+        "Enslaved Africans worked gold mines in the west and in Cartagena's slave port."
+      ],
+      "summary": "Santa Marta was founded in 1525, and Gonzalo Jiménez de Quesada conquered the Muisca in 1537-1539. Spain governed the region as the New Kingdom of Granada and, from 1717, a viceroyalty. Gold mines depended on enslaved Africans, and Cartagena was a major slave port.",
+      "sensitive": true,
+      "wikipediaTitle": "Viceroyalty of New Granada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Viceroyalty_of_New_Granada"
+      ]
+    },
+    {
+      "id": "COL-spanish-reconquest",
+      "title": "Spanish reconquest and the Reign of Terror",
+      "startYear": 1815,
+      "endYear": 1819,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "After a 1810 declaration, a large expeditionary army under Pablo Morillo arrived to restore the crown.",
+        "Cartagena was starved in a long siege, and many revolutionaries were executed.",
+        "Simón Bolívar's victory at Boyacá in August 1819 ended the occupation."
+      ],
+      "summary": "In 1815 Spain sent about 10,000 troops under Pablo Morillo to restore royal rule. After a long siege of Cartagena and executions of revolutionary leaders in 1816, the occupation ended with Simón Bolívar's victory at Boyacá in 1819.",
+      "sensitive": true,
+      "wikipediaTitle": "Spanish reconquest of New Granada",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spanish_reconquest_of_New_Granada"
+      ]
+    },
+    {
+      "id": "COL-panama-separation",
+      "title": "US-backed separation of Panama",
+      "startYear": 1903,
+      "endYear": 1903,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "other",
+      "resources": [
+        "trade_routes",
+        "strategic_location",
+        "land"
+      ],
+      "hints": [
+        "After the national senate rejected a canal treaty in 1903, a northern power backed a secessionist movement in the isthmus.",
+        "US warships blocked troop landings, and recognition came within days.",
+        "Roosevelt later said, \"I took the Isthmus.\""
+      ],
+      "summary": "When the senate rejected the Hay-Herrán Treaty in 1903, the United States supported Panamanian separatists, sent warships to prevent Colombian troop landings and recognised the new republic within days. Colombia received a 25 million dollar indemnity under the 1921 Thomson-Urrutia Treaty.",
+      "quip": "Theodore Roosevelt's own summary: \"I took the Isthmus.\"",
+      "wikipediaTitle": "Separation of Panama from Colombia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Separation_of_Panama_from_Colombia"
+      ]
+    },
+    {
+      "id": "COL-banana-massacre",
+      "title": "Banana massacre",
+      "startYear": 1928,
+      "endYear": 1928,
+      "exploiter": {
+        "label": "the United Fruit Company"
+      },
+      "type": "other",
+      "resources": [
+        "bananas",
+        "labour"
+      ],
+      "hints": [
+        "Workers on fruit plantations near the Caribbean coast struck in late 1928 for written contracts and safer conditions.",
+        "Troops were sent after the company lobbied the government.",
+        "Soldiers fired on strikers and families in a railway-town plaza in December."
+      ],
+      "summary": "In late 1928 about 25,000 workers struck against the United Fruit Company at Ciénaga, seeking written contracts and better conditions. On 6 December soldiers fired into a crowd in the plaza at Ciénaga. The number of dead is disputed, with estimates from dozens to over a thousand.",
+      "sensitive": true,
+      "wikipediaTitle": "Banana massacre",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Banana_massacre"
+      ]
+    }
+  ]
+}

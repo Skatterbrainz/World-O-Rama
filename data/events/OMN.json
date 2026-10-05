@@ -1,0 +1,84 @@
+{
+  "country": "OMN",
+  "events": [
+    {
+      "id": "OMN-portuguese-oman",
+      "title": "Portuguese Oman",
+      "startYear": 1507,
+      "endYear": 1650,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "occupation",
+      "resources": [
+        "trade_routes",
+        "spices"
+      ],
+      "territoryNames": [
+        "Portuguese Oman"
+      ],
+      "hints": [
+        "In 1507 a fleet under Afonso de Albuquerque sacked the capital's coastal towns.",
+        "Great fortresses were built overlooking the harbour, and they controlled the entrance to the Gulf.",
+        "An imam of the Ya'ariba dynasty expelled the last Portuguese in 1650."
+      ],
+      "summary": "Portugal captured the coastal towns in 1507 and held the port of Muscat, building forts such as Al Jalali and Al Mirani. Sultan bin Saif al-Ya'ruba took Muscat in 1650, ending the Portuguese presence.",
+      "wikipediaTitle": "Portuguese Oman",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Portuguese_Oman"
+      ]
+    },
+    {
+      "id": "OMN-british-treaties",
+      "title": "British influence over Muscat",
+      "startYear": 1798,
+      "endYear": 1970,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "strategic_location",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "Muscat and Oman"
+      ],
+      "hints": [
+        "A treaty in 1798 aimed to keep a French rival out of the Gulf and the Indian Ocean.",
+        "British officers advised the ruler, and the interior was treated as a separate territory.",
+        "A palace coup in 1970 replaced a ruler seen as isolationist, and Britain backed the change."
+      ],
+      "summary": "From the 1798 treaty with the East India Company, Britain became the dominant outside power on the Omani coast, with advisers, loans and a military presence. In 1970, with British support, Sultan Qaboos overthrew his father, Said bin Taimur.",
+      "wikipediaTitle": "Muscat and Oman",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Muscat_and_Oman"
+      ]
+    },
+    {
+      "id": "OMN-dhofar",
+      "title": "Dhofar rebellion and foreign backing",
+      "startYear": 1962,
+      "endYear": 1976,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "proxy_war",
+      "resources": [
+        "oil",
+        "strategic_location"
+      ],
+      "hints": [
+        "A rebellion in the southern province began in 1962 against an isolationist ruler.",
+        "Britain and Iran sent forces and advisers, while the rebels received Soviet-bloc and South Yemeni support.",
+        "The rebels were defeated in 1976."
+      ],
+      "summary": "A rebellion began in Dhofar in 1962 and grew into a Marxist-led insurgency backed by South Yemen and Soviet-bloc states. Britain provided officers, air support and SAS teams, and Iran sent troops, until the Sultan declared victory in December 1975, with fighting ending in 1976.",
+      "sensitive": true,
+      "wikipediaTitle": "Dhofar Rebellion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dhofar_Rebellion"
+      ]
+    }
+  ]
+}

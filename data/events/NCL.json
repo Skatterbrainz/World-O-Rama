@@ -1,0 +1,77 @@
+{
+  "country": "NCL",
+  "events": [
+    {
+      "id": "NCL-annexation-1853",
+      "title": "French annexation",
+      "startYear": 1853,
+      "endYear": 1946,
+      "exploiter": { "label": "France" },
+      "type": "annexation",
+      "resources": ["land"],
+      "hints": [
+        "An admiral took possession of the main island in September 1853.",
+        "Land was reserved for settlers and local people were pushed onto reserves.",
+        "It became an overseas territory in 1946."
+      ],
+      "summary": "France took possession of the main island in September 1853 and later declared it a colony. The colonial government granted large tracts to settlers and confined the Kanak people to reserves, a policy that fuelled revolts and long-lasting grievances.",
+      "sensitive": true,
+      "wikipediaTitle": "New Caledonia",
+      "sources": ["https://en.wikipedia.org/wiki/New_Caledonia"]
+    },
+    {
+      "id": "NCL-penal-colony",
+      "title": "Penal colony",
+      "startYear": 1864,
+      "endYear": 1897,
+      "exploiter": { "label": "France" },
+      "type": "forced_labour",
+      "resources": ["labour"],
+      "hints": [
+        "France shipped convicts and political exiles to the far side of the world.",
+        "Exiles from the 1871 Paris Commune were among them.",
+        "Transportation ended in 1897."
+      ],
+      "summary": "From 1864 to 1897 France transported around 20,000 convicts and political prisoners, including exiled participants in the Paris Commune, to a penal colony on the island. Convicts worked on public works, and after release many were given land.",
+      "sensitive": true,
+      "wikipediaTitle": "Penal colony of New Caledonia",
+      "sources": ["https://en.wikipedia.org/wiki/Penal_colony_of_New_Caledonia"]
+    },
+    {
+      "id": "NCL-kanak-revolt-1878",
+      "title": "1878 Kanak revolt",
+      "startYear": 1878,
+      "endYear": 1879,
+      "exploiter": { "label": "France" },
+      "type": "other",
+      "resources": ["land"],
+      "hints": [
+        "A chief named Ataï led an uprising against settler cattle and land seizures.",
+        "The revolt was crushed by colonial forces and rival clans.",
+        "Survivors lost still more land."
+      ],
+      "summary": "In 1878 the Kanak chief Ataï led a large uprising against land seizures and cattle that destroyed crops. French forces and allied Kanak groups suppressed it, many Kanak were killed and more land was taken, and clans were moved to reserves.",
+      "sensitive": true,
+      "wikipediaTitle": "1878 Kanak revolt",
+      "sources": ["https://en.wikipedia.org/wiki/1878_Kanak_revolt"]
+    },
+    {
+      "id": "NCL-indigenat",
+      "title": "Native code (indigenat)",
+      "startYear": 1887,
+      "endYear": 1946,
+      "exploiter": { "label": "France" },
+      "type": "forced_labour",
+      "resources": ["labour", "land"],
+      "hints": [
+        "A set of exceptional laws applied only to indigenous people.",
+        "It restricted movement, imposed collective punishments and required labour.",
+        "It was abolished in 1946."
+      ],
+      "summary": "From 1887 the colonial authority imposed the indigenat, a legal regime that applied only to the Kanak. It confined people to reserves, required permits for travel, allowed administrative punishments without trial and compelled labour for settlers. It was abolished in 1946.",
+      "sensitive": true,
+      "wikipediaTitle": "Native code (France)",
+      "sources": ["https://en.wikipedia.org/wiki/Native_code_(France)"]
+    }
+  ]
+}

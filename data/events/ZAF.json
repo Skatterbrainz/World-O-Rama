@@ -1,0 +1,144 @@
+{
+  "country": "ZAF",
+  "events": [
+    {
+      "id": "ZAF-dutch-cape-colony",
+      "title": "Dutch Cape Colony",
+      "startYear": 1652,
+      "endYear": 1795,
+      "exploiter": {
+        "label": "the Dutch East India Company"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "livestock",
+        "slaves"
+      ],
+      "territoryNames": [
+        "the Cape Colony",
+        "the Dutch Cape Colony"
+      ],
+      "hints": [
+        "A supply station for ships bound for Asia was established at the foot of a famous mountain in 1652.",
+        "Local herders lost their cattle and land, and slaves were brought from Asia and Africa.",
+        "It was run by a trading company, not a king."
+      ],
+      "summary": "The Dutch East India Company established a supply station at the Cape in 1652. It grew into a colony as settlers took land and cattle from the Khoikhoi, with labour supplied by enslaved people brought from Asia and Africa, until British forces took it in 1795.",
+      "sensitive": true,
+      "wikipediaTitle": "Dutch Cape Colony",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dutch_Cape_Colony"
+      ]
+    },
+    {
+      "id": "ZAF-griqualand-west-annexation",
+      "title": "Annexation of the Diamond Fields",
+      "startYear": 1871,
+      "endYear": 1871,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "annexation",
+      "resources": [
+        "diamonds",
+        "land"
+      ],
+      "territoryNames": [
+        "Griqualand West"
+      ],
+      "hints": [
+        "After the discovery of diamonds in the 1860s, several parties claimed the land.",
+        "In 1871 Britain annexed the area, ignoring the Boer republic's claim.",
+        "The 'Big Hole' at Kimberley followed."
+      ],
+      "summary": "After diamonds were found near the Vaal and Orange rivers in 1867, Britain annexed the diamond fields as Griqualand West in 1871, rejecting the claims of the Orange Free State and Transvaal. Kimberley became the centre of the world's diamond industry.",
+      "quip": "Britain found diamonds in a neighbour's disputed land and ruled in favour of Britain.",
+      "wikipediaTitle": "Griqualand West",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Griqualand_West"
+      ]
+    },
+    {
+      "id": "ZAF-anglo-zulu-war",
+      "title": "Anglo-Zulu War",
+      "startYear": 1879,
+      "endYear": 1879,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "the Zulu Kingdom"
+      ],
+      "hints": [
+        "Britain issued an ultimatum to a powerful kingdom in 1878 that it knew could not be accepted.",
+        "A British column was wiped out at Isandlwana and the defence of Rorke's Drift followed.",
+        "The kingdom was divided among chiefs after its defeat."
+      ],
+      "summary": "In January 1879 British forces invaded the Zulu Kingdom after an ultimatum that Cetshwayo could not accept. They suffered defeat at Isandlwana but won at Ulundi in July. The kingdom was then divided among thirteen chiefs and later annexed.",
+      "wikipediaTitle": "Anglo-Zulu War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anglo-Zulu_War"
+      ]
+    },
+    {
+      "id": "ZAF-second-boer-war",
+      "title": "Second Boer War",
+      "startYear": 1899,
+      "endYear": 1902,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "gold",
+        "land"
+      ],
+      "territoryNames": [
+        "the South African Republic"
+      ],
+      "hints": [
+        "A conflict over the gold fields of the Transvaal began in 1899.",
+        "British forces used scorched-earth tactics and held civilians in camps.",
+        "Large numbers of Boer women and children died, as did many Black Africans held in separate camps."
+      ],
+      "summary": "The Second Boer War, fought between the British Empire and the Boer republics, was triggered by the gold of the Witwatersrand. Britain destroyed farms and held civilians in concentration camps, where tens of thousands died, and the Boer republics were annexed in 1902.",
+      "sensitive": true,
+      "wikipediaTitle": "Second Boer War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Second_Boer_War"
+      ]
+    },
+    {
+      "id": "ZAF-apartheid",
+      "title": "Apartheid",
+      "startYear": 1948,
+      "endYear": 1994,
+      "exploiter": {
+        "label": "the National Party"
+      },
+      "type": "other",
+      "resources": [
+        "labour",
+        "land",
+        "gold",
+        "diamonds"
+      ],
+      "hints": [
+        "A governing party formalised racial segregation in 1948.",
+        "Millions were forcibly removed from their homes and made to carry passes.",
+        "The system rested on cheap Black labour for mines and farms."
+      ],
+      "summary": "After winning the 1948 election, the National Party formalised segregation as apartheid. Laws classified people by race, forced millions into reserves called bantustans and made Black workers carry passes, ensuring cheap labour for mines and farms until the system ended in 1994.",
+      "sensitive": true,
+      "wikipediaTitle": "Apartheid",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Apartheid"
+      ]
+    }
+  ]
+}

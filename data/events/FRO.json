@@ -1,0 +1,94 @@
+{
+  "country": "FRO",
+  "events": [
+    {
+      "id": "FRO-norse-settlement",
+      "title": "Norse settlement",
+      "startYear": 800,
+      "endYear": 1035,
+      "exploiter": {
+        "label": "the Vikings"
+      },
+      "type": "colonization",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "Seafarers from the east coast of the North Sea settled an island group after earlier hermits.",
+        "A saga tells how a Norwegian king's agent imposed his rule on the chieftains in the 11th century."
+      ],
+      "summary": "Norse settlers arrived in the Faroe Islands in the 9th century, displacing or absorbing earlier Irish monks. The islands remained under Norwegian control from the 11th century until the union with Denmark.",
+      "wikipediaTitle": "History of the Faroe Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_the_Faroe_Islands"
+      ]
+    },
+    {
+      "id": "FRO-danish-monopoly",
+      "title": "Danish trade monopoly",
+      "startYear": 1709,
+      "endYear": 1856,
+      "exploiter": {
+        "label": "Denmark"
+      },
+      "type": "other",
+      "resources": [
+        "fish",
+        "wool"
+      ],
+      "hints": [
+        "A royal monopoly controlled all imports and exports for almost a century and a half.",
+        "Wool and knitted goods were the main exports."
+      ],
+      "summary": "From 1709 the Danish crown leased the monopoly on Faroese trade to merchants, and the system lasted until 1856. Islanders had to sell wool and fish to the monopolist and buy imports from him at fixed prices.",
+      "quip": "A free market with exactly one stall.",
+      "wikipediaTitle": "History of the Faroe Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_the_Faroe_Islands"
+      ]
+    },
+    {
+      "id": "FRO-logting-abolished",
+      "title": "Abolition of the Løgting",
+      "startYear": 1816,
+      "endYear": 1852,
+      "exploiter": {
+        "label": "Denmark"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "An ancient assembly was dissolved by royal decree in 1816.",
+        "It was revived in 1852, but only as an advisory body."
+      ],
+      "summary": "After the Treaty of Kiel, Denmark abolished the Løgting, the Faroese parliament, in 1816 and made the islands an ordinary Danish county. The Løgting was restored in 1852 as an advisory body, and Danish was the language of church and schools.",
+      "wikipediaTitle": "Løgting",
+      "sources": [
+        "https://en.wikipedia.org/wiki/L%C3%B8gting"
+      ]
+    },
+    {
+      "id": "FRO-british-occupation-ww2",
+      "title": "British occupation",
+      "startYear": 1940,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "fish",
+        "strategic_location"
+      ],
+      "hints": [
+        "Troops landed on 12 April 1940, a few days after the homeland fell.",
+        "Catches were sold to the occupying power throughout the war."
+      ],
+      "summary": "Britain occupied the islands on 12 April 1940, days after Germany invaded Denmark, to forestall a German landing and to use them as a base. The islanders sold their fish catches to Britain, and troops left in 1945.",
+      "wikipediaTitle": "British occupation of the Faroe Islands",
+      "sources": [
+        "https://en.wikipedia.org/wiki/British_occupation_of_the_Faroe_Islands"
+      ]
+    }
+  ]
+}

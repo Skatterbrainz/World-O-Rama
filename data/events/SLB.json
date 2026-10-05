@@ -1,0 +1,76 @@
+{
+  "country": "SLB",
+  "events": [
+    {
+      "id": "SLB-blackbirding",
+      "title": "Blackbirding",
+      "startYear": 1871,
+      "endYear": 1911,
+      "exploiter": { "label": "the British Empire" },
+      "type": "slave_trade",
+      "resources": ["labour"],
+      "hints": [
+        "Islanders were taken by ship to work on distant sugar plantations.",
+        "Many were kidnapped or tricked into 'contracts'.",
+        "A large share of the labourers recruited to Queensland came from this archipelago."
+      ],
+      "summary": "From the 1870s to the early 1900s thousands of Solomon Islanders were recruited, often by deception or force, to work on sugar plantations in Queensland and Fiji. Death rates were high, and the practice contributed to retaliatory violence against labour ships.",
+      "sensitive": true,
+      "wikipediaTitle": "Blackbirding",
+      "sources": ["https://en.wikipedia.org/wiki/Blackbirding"]
+    },
+    {
+      "id": "SLB-british-protectorate",
+      "title": "British protectorate",
+      "startYear": 1893,
+      "endYear": 1978,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["land", "labour"],
+      "territoryNames": ["the British Solomon Islands Protectorate"],
+      "hints": [
+        "Britain declared a protectorate over the southern islands in 1893.",
+        "Gunboat punitive expeditions responded to attacks on traders.",
+        "Independence arrived in July 1978."
+      ],
+      "summary": "Britain declared the southern islands a protectorate in 1893, extending it over the rest of the archipelago by 1900. The administration was minimal and funded by taxes and plantation interests, relying on punitive expeditions in the early years. Independence came in 1978.",
+      "wikipediaTitle": "British Solomon Islands",
+      "sources": ["https://en.wikipedia.org/wiki/British_Solomon_Islands"]
+    },
+    {
+      "id": "SLB-levers-pacific-plantations",
+      "title": "Levers Pacific Plantations",
+      "startYear": 1902,
+      "endYear": 1914,
+      "exploiter": { "label": "Lever Brothers" },
+      "type": "resource_extraction",
+      "resources": ["land", "labour"],
+      "hints": [
+        "A soap manufacturer wanted its own coconut plantations.",
+        "By 1911 it had acquired or leased more than 200,000 acres.",
+        "Colonial regulation ended further alienation of land in 1914."
+      ],
+      "summary": "William Lever's Levers Pacific Plantations was incorporated in 1902 to secure copra for soap manufacture. By 1911 the company had purchased or leased about 218,820 acres in the western and central archipelago, until a 1914 regulation halted the alienation of land from islanders.",
+      "wikipediaTitle": "Levers Pacific Plantations",
+      "sources": ["https://en.wikipedia.org/wiki/Levers_Pacific_Plantations"]
+    },
+    {
+      "id": "SLB-guadalcanal",
+      "title": "Japanese occupation and the Guadalcanal campaign",
+      "startYear": 1942,
+      "endYear": 1943,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["strategic_location"],
+      "hints": [
+        "Japanese troops landed on Tulagi in May 1942.",
+        "An airfield under construction on the largest island triggered an American invasion.",
+        "Fighting lasted six months and left the island devastated."
+      ],
+      "summary": "Japan occupied Tulagi in May 1942 and began building an airfield on Guadalcanal, prompting an Allied landing in August. Six months of fighting followed, and local people were caught in the war, as scouts, labourers and victims.",
+      "sensitive": true,
+      "wikipediaTitle": "Guadalcanal campaign",
+      "sources": ["https://en.wikipedia.org/wiki/Guadalcanal_campaign"]
+    }
+  ]
+}

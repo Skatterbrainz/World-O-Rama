@@ -1,0 +1,26 @@
+{
+  "country": "AND",
+  "events": [
+    {
+      "id": "AND-french-occupation-1933",
+      "title": "French gendarme occupation",
+      "startYear": 1933,
+      "endYear": 1933,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "Troops from a co-prince's country marched in after riots over voting rights.",
+        "A self-declared king arrived the following year and was swiftly deported."
+      ],
+      "summary": "In 1933, after unrest linked to a campaign to widen the franchise, French gendarmes occupied the valleys at the request of the French co-prince's representative. They stayed for a short period and withdrew without annexation.",
+      "quip": "A tiny principality, a very large neighbour, and the quickest crisis of the century.",
+      "wikipediaTitle": "History of Andorra",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Andorra"
+      ]
+    }
+  ]
+}

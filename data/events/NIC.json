@@ -1,0 +1,161 @@
+{
+  "country": "NIC",
+  "events": [
+    {
+      "id": "NIC-spanish-conquest",
+      "title": "Spanish conquest and the Indigenous slave trade",
+      "startYear": 1524,
+      "endYear": 1542,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "land"
+      ],
+      "territoryNames": [
+        "Spanish Nicaragua"
+      ],
+      "hints": [
+        "Expeditions from Panama and Hispaniola reached the great lakes in the early 1520s.",
+        "Thousands of Indigenous people were enslaved and sent south to Panama and Peru.",
+        "The 1542 New Laws sought to curb the practice."
+      ],
+      "summary": "Spanish conquistadors reached the lake region in 1522-1524 and founded Granada and León. Thousands of Indigenous people were enslaved and shipped to Panama and Peru in the 16th century. The 1542 New Laws sought to limit the practice.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Nicaragua",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Nicaragua"
+      ]
+    },
+    {
+      "id": "NIC-mosquito-coast",
+      "title": "British Mosquito Coast protectorate",
+      "startYear": 1740,
+      "endYear": 1860,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "timber",
+        "trade_routes",
+        "strategic_location"
+      ],
+      "territoryNames": [
+        "the Mosquito Coast",
+        "the Mosquito Reserve"
+      ],
+      "hints": [
+        "The Caribbean coast was dominated by a client kingdom supplied with guns by British traders.",
+        "Port San Juan was seized in 1848 and renamed to challenge a planned canal route.",
+        "The 1860 Treaty of Managua recognised national sovereignty while granting local autonomy."
+      ],
+      "summary": "Britain exercised a protectorate over the Miskito Kingdom on the Caribbean coast from 1740, partly to control trade and a potential canal route. It seized San Juan del Norte in 1848 and gave up its claims under the 1860 Treaty of Managua.",
+      "wikipediaTitle": "Mosquito Coast",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mosquito_Coast"
+      ]
+    },
+    {
+      "id": "NIC-walker-regime",
+      "title": "William Walker's rule",
+      "startYear": 1855,
+      "endYear": 1857,
+      "exploiter": {
+        "label": "William Walker's filibusters"
+      },
+      "type": "occupation",
+      "resources": [
+        "land",
+        "trade_routes",
+        "slaves"
+      ],
+      "hints": [
+        "A US adventurer with a private army joined a civil war in 1855 and made himself president in 1856.",
+        "He declared English an official language and restored slavery, hoping for support from the US South.",
+        "A coalition of neighbouring states drove him out in 1857."
+      ],
+      "summary": "William Walker brought a private force into Nicaragua's civil war in 1855 and had himself declared president in 1856. He restored slavery, and a Central American coalition with British support defeated him in 1857. He was executed in Honduras in 1860.",
+      "quip": "An adventurer who invaded a country on a hunch and left it unified against him.",
+      "wikipediaTitle": "William Walker (filibuster)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/William_Walker_(filibuster)"
+      ]
+    },
+    {
+      "id": "NIC-us-occupation",
+      "title": "US occupation",
+      "startYear": 1912,
+      "endYear": 1933,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "occupation",
+      "resources": [
+        "strategic_location",
+        "land"
+      ],
+      "hints": [
+        "US Marines landed in 1912 to support a friendly government and stayed, with a pause, for twenty years.",
+        "A guerrilla leader named Sandino fought them from 1927.",
+        "The Marines handed security to a National Guard that Somoza later used to seize power."
+      ],
+      "summary": "US Marines occupied the country almost continuously from 1912 to 1933, with a break in 1925-1926. Augusto Sandino led a guerrilla war against them from 1927. The National Guard created under US supervision brought Anastasio Somoza to power.",
+      "wikipediaTitle": "United States occupation of Nicaragua",
+      "sources": [
+        "https://en.wikipedia.org/wiki/United_States_occupation_of_Nicaragua"
+      ]
+    },
+    {
+      "id": "NIC-bryan-chamorro",
+      "title": "Bryan-Chamorro Treaty",
+      "startYear": 1914,
+      "endYear": 1970,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "land",
+        "strategic_location",
+        "trade_routes"
+      ],
+      "hints": [
+        "A treaty signed in 1914 paid three million dollars for exclusive rights to dig a canal across the isthmus.",
+        "It also leased naval base sites in the Gulf of Fonseca and on offshore islands.",
+        "It was annulled in 1970 without a canal ever being built."
+      ],
+      "summary": "The 1914 Bryan-Chamorro Treaty, signed under US occupation, gave the United States exclusive canal rights across the country for 3 million dollars and leases for naval bases. It was annulled in 1970 and no canal was built.",
+      "wikipediaTitle": "Bryan–Chamorro Treaty",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bryan%E2%80%93Chamorro_Treaty"
+      ]
+    },
+    {
+      "id": "NIC-contra-war",
+      "title": "US-funded Contra war",
+      "startYear": 1981,
+      "endYear": 1990,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "proxy_war",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A revolution in 1979 overthrew the Somoza dynasty and was followed by a decade of armed conflict.",
+        "A superpower funded and organised the Contras, with mining of harbours and illegal arms sales.",
+        "The International Court of Justice ruled in 1986 that this support violated international law."
+      ],
+      "summary": "After the Sandinista revolution, the United States organised, armed and funded the Contra rebels from 1981. The International Court of Justice ruled in 1986 that the United States had violated international law, including by mining Nicaraguan harbours.",
+      "sensitive": true,
+      "wikipediaTitle": "Contras",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Contras"
+      ]
+    }
+  ]
+}

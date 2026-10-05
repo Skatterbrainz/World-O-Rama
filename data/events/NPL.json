@@ -1,0 +1,38 @@
+{
+  "country": "NPL",
+  "events": [
+    {
+      "id": "NPL-anglo-nepalese-war",
+      "title": "Anglo-Nepalese War and the Treaty of Sugauli",
+      "startYear": 1814,
+      "endYear": 1816,
+      "exploiter": { "label": "the East India Company" },
+      "type": "unequal_treaty",
+      "resources": ["land", "timber"],
+      "hints": [
+        "A kingdom in the Himalayas lost a large share of its territory after a frontier war.",
+        "Mountain forts such as Kalunga became famous for their defence.",
+        "The Treaty of Sugauli of 1816 set the modern borders and admitted a British envoy."
+      ],
+      "summary": "After a war with the East India Company in 1814 to 1816, the Treaty of Sugauli forced Nepal to cede large territories including Kumaon, Garhwal and parts of the Terai, as well as claims in Sikkim, and to accept a British resident in Kathmandu. It lost roughly a third of its land.",
+      "wikipediaTitle": "Anglo-Nepalese War",
+      "sources": ["https://en.wikipedia.org/wiki/Anglo-Nepalese_War"]
+    },
+    {
+      "id": "NPL-treaty-of-betrawati",
+      "title": "Treaty of Betrawati and tribute to the Qing",
+      "startYear": 1788,
+      "endYear": 1792,
+      "exploiter": { "label": "the Qing dynasty" },
+      "type": "unequal_treaty",
+      "resources": ["tribute"],
+      "hints": [
+        "A raid across the northern mountains brought a large imperial army in return.",
+        "The 1792 settlement obliged regular tribute missions to Beijing."
+      ],
+      "summary": "After Gurkha forces plundered Tibet in 1788 to 1791, the Qing sent an army that pushed them back to within reach of Kathmandu. The Treaty of Betrawati (1792) ended the war and bound Nepal to send regular tribute missions to Beijing.",
+      "wikipediaTitle": "Sino-Nepalese War",
+      "sources": ["https://en.wikipedia.org/wiki/Sino-Nepalese_War"]
+    }
+  ]
+}

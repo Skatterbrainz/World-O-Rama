@@ -1,0 +1,77 @@
+{
+  "country": "QAT",
+  "events": [
+    {
+      "id": "QAT-ottoman-qatar",
+      "title": "Ottoman presence",
+      "startYear": 1871,
+      "endYear": 1915,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "pearls",
+        "tribute"
+      ],
+      "hints": [
+        "Ottoman troops landed in 1871 at the invitation of a local sheikh and made the peninsula part of a province.",
+        "Tax demands and a garrison at Doha led to a clash in 1893.",
+        "The garrison withdrew in 1915 during the First World War."
+      ],
+      "summary": "Ottoman forces entered in 1871 and brought the peninsula into the empire's provincial administration. Sheikh Jassim bin Mohammed Al Thani defeated Ottoman forces at the Battle of Al Wajbah in 1893, and the Ottomans withdrew in 1915.",
+      "wikipediaTitle": "History of Qatar",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Qatar"
+      ]
+    },
+    {
+      "id": "QAT-british-protectorate",
+      "title": "British protectorate",
+      "startYear": 1916,
+      "endYear": 1971,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "oil",
+        "pearls",
+        "strategic_location"
+      ],
+      "hints": [
+        "A 1916 treaty placed foreign relations under a European power in exchange for protection from the sea.",
+        "The ruler promised not to grant concessions to anyone else without British approval.",
+        "Oil exports began after the Second World War, and independence came in September 1971."
+      ],
+      "summary": "The 1916 treaty with Britain, signed by Sheikh Abdullah bin Jassim Al Thani, gave Britain control of Qatar's foreign affairs and a veto over concessions. Oil was struck at Dukhan in 1939, and Qatar became independent on 3 September 1971.",
+      "wikipediaTitle": "Qatar",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Qatar"
+      ]
+    },
+    {
+      "id": "QAT-oil-concession",
+      "title": "Oil concession of 1935",
+      "startYear": 1935,
+      "endYear": 1977,
+      "exploiter": {
+        "label": "the Anglo-Persian Oil Company"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "oil"
+      ],
+      "hints": [
+        "A 75-year concession was signed in 1935 with a company controlled by a British firm.",
+        "Oil was found at Dukhan in 1939 but exports waited until 1949 because of the war.",
+        "The government took full ownership of the company in 1977."
+      ],
+      "summary": "In 1935 Sheikh Abdullah granted a 75-year concession to Petroleum Development (Qatar), an Iraq Petroleum Company affiliate backed by Anglo-Persian. Oil was discovered at Dukhan in 1939, and the state acquired full control of production in 1977.",
+      "wikipediaTitle": "Qatar Petroleum",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Qatar_Petroleum"
+      ]
+    }
+  ]
+}

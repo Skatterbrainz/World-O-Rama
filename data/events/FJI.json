@@ -1,0 +1,59 @@
+{
+  "country": "FJI",
+  "events": [
+    {
+      "id": "FJI-colony-of-fiji",
+      "title": "Colony of Fiji",
+      "startYear": 1874,
+      "endYear": 1970,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["sugar", "land"],
+      "territoryNames": ["the Colony of Fiji"],
+      "hints": [
+        "A paramount chief and his peers ceded sovereignty to Queen Victoria in 1874.",
+        "Settler debts and instability had preceded the cession.",
+        "Sugar plantations became the colony's backbone."
+      ],
+      "summary": "In October 1874 Cakobau and other chiefs signed the Deed of Cession, making Fiji a British Crown colony. The colonial government protected most land for indigenous owners but built an economy around sugar plantations, with indentured labour from India, until independence in 1970.",
+      "wikipediaTitle": "Colony of Fiji",
+      "sources": ["https://en.wikipedia.org/wiki/Colony_of_Fiji"]
+    },
+    {
+      "id": "FJI-indenture",
+      "title": "Indian indenture system",
+      "startYear": 1879,
+      "endYear": 1916,
+      "exploiter": { "label": "the British Empire" },
+      "type": "forced_labour",
+      "resources": ["sugar", "labour"],
+      "hints": [
+        "Ships called the Leonidas brought workers from South Asia from 1879.",
+        "About sixty thousand people were contracted for five years.",
+        "The system ended in 1916 after campaigns by reformers."
+      ],
+      "summary": "Between 1879 and 1916 about 61,000 Indian labourers, called girmitiyas after the word 'agreement', were shipped to work on sugar plantations under five-year contracts. Conditions were often harsh, with high suicide rates and abuses, and most chose to stay, creating a large Indo-Fijian community.",
+      "sensitive": true,
+      "wikipediaTitle": "Girmitiyas",
+      "sources": ["https://en.wikipedia.org/wiki/Girmitiyas"]
+    },
+    {
+      "id": "FJI-blackbirding",
+      "title": "Blackbirding and the Pacific labour trade",
+      "startYear": 1864,
+      "endYear": 1911,
+      "exploiter": { "label": "the British Empire" },
+      "type": "slave_trade",
+      "resources": ["labour", "cotton", "sugar"],
+      "hints": [
+        "Islanders from other groups were tricked or kidnapped onto ships to work on plantations.",
+        "A cotton boom in the 1860s created a demand for labour.",
+        "Recruitment of Pacific Islanders continued until 1911."
+      ],
+      "summary": "From 1864 to 1911 tens of thousands of Pacific Islanders, mainly from Melanesia, were recruited, often through deception or kidnapping, to work on plantations in the colony, first for cotton and later sugar and copra. Many died of disease and overwork.",
+      "sensitive": true,
+      "wikipediaTitle": "Blackbirding",
+      "sources": ["https://en.wikipedia.org/wiki/Blackbirding"]
+    }
+  ]
+}

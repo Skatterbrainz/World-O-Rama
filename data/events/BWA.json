@@ -1,0 +1,77 @@
+{
+  "country": "BWA",
+  "events": [
+    {
+      "id": "BWA-bechuanaland-protectorate",
+      "title": "Bechuanaland Protectorate",
+      "startYear": 1885,
+      "endYear": 1966,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "livestock",
+        "labour"
+      ],
+      "territoryNames": [
+        "Bechuanaland",
+        "the Bechuanaland Protectorate"
+      ],
+      "hints": [
+        "Local chiefs sought protection in 1885 as Boer and German expansion closed in.",
+        "Cecil Rhodes wanted to hand the territory to his company, and three chiefs travelled to London in 1895 to resist.",
+        "Cattle exports and migrant work in neighbouring mines were the main sources of income."
+      ],
+      "summary": "Britain declared a protectorate in 1885 after Tswana leaders sought protection from Boer and German expansion. Cecil Rhodes later tried to have it transferred to his company, which chiefs Khama III, Sebele and Bathoen resisted on a trip to London in 1895. Independence came in 1966.",
+      "wikipediaTitle": "Bechuanaland Protectorate",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bechuanaland_Protectorate"
+      ]
+    },
+    {
+      "id": "BWA-seretse-khama-exile",
+      "title": "Exile of Seretse Khama",
+      "startYear": 1950,
+      "endYear": 1956,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A king-in-waiting married a white Englishwoman in 1948, and two neighbouring white-ruled states objected.",
+        "The British government banned him from his homeland for five years.",
+        "He later led the country to independence and became its first president."
+      ],
+      "summary": "After Seretse Khama married Ruth Williams in 1948, Britain, under pressure from apartheid South Africa and Southern Rhodesia, barred him from returning to Bechuanaland in 1950 and exiled him until 1956. He later became the first president.",
+      "quip": "Britain exiled a future president to keep a neighbouring segregationist regime happy.",
+      "wikipediaTitle": "Seretse Khama",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Seretse_Khama"
+      ]
+    },
+    {
+      "id": "BWA-south-african-raids-gaborone",
+      "title": "South African raids on Gaborone",
+      "startYear": 1985,
+      "endYear": 1986,
+      "exploiter": {
+        "label": "South Africa"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "In June 1985 commandos crossed the border at night and attacked houses in the capital.",
+        "Targets were people accused of being members of an exiled liberation movement.",
+        "Another raid in 1986 hit several capitals in the region."
+      ],
+      "summary": "In June 1985 South African commandos raided houses in Gaborone, killing about a dozen people, which Pretoria said were linked to the African National Congress. In May 1986 South Africa struck targets in Botswana, Zambia and Zimbabwe on the same day.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Botswana",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Botswana"
+      ]
+    }
+  ]
+}

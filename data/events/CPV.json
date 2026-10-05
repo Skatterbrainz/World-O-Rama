@@ -1,0 +1,52 @@
+{
+  "country": "CPV",
+  "events": [
+    {
+      "id": "CPV-slave-trade-hub",
+      "title": "Cape Verde as a Portuguese slave-trading hub",
+      "startYear": 1462,
+      "endYear": 1836,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "trade_routes"
+      ],
+      "hints": [
+        "Uninhabited when Europeans arrived, these islands were settled by the 1460s as a stopover for ships on the Atlantic.",
+        "The town of Ribeira Grande became a major transshipment point for enslaved Africans.",
+        "Portugal banned slave exports from its colonies in 1836, and the decline of the trade brought economic crisis."
+      ],
+      "summary": "Portugal began settling the previously uninhabited archipelago in 1462. Ribeira Grande, now Cidade Velha, became a major transshipment point for enslaved Africans bound for the Americas. Portugal banned slave exports from its colonies in 1836, and the decline of the trade in the 19th century brought the islands into economic crisis.",
+      "sensitive": true,
+      "wikipediaTitle": "Cidade Velha",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cidade_Velha"
+      ]
+    },
+    {
+      "id": "CPV-tarrafal-camp",
+      "title": "Tarrafal prison camp",
+      "startYear": 1936,
+      "endYear": 1974,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A remote island prison was chosen because its unhealthy climate and isolation kept testimony from escaping.",
+        "Nicknamed the camp of slow death, it held opponents of a Lisbon dictatorship.",
+        "In the 1960s it was reopened for anti-colonial activists from Portugal's African colonies."
+      ],
+      "summary": "The Estado Novo built the Tarrafal camp on the island of Santiago in 1936 to hold political prisoners. It closed in 1954, reopened in 1961 for anti-colonial activists from Portugal's African territories, and was shut after the 1974 Carnation Revolution.",
+      "sensitive": true,
+      "wikipediaTitle": "Tarrafal camp",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tarrafal_camp"
+      ]
+    }
+  ]
+}

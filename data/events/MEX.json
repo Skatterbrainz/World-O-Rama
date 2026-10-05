@@ -1,0 +1,194 @@
+{
+  "country": "MEX",
+  "events": [
+    {
+      "id": "MEX-aztec-tribute-empire",
+      "title": "Aztec Triple Alliance tribute system",
+      "startYear": 1428,
+      "endYear": 1519,
+      "exploiter": {
+        "label": "the Aztec Empire"
+      },
+      "type": "other",
+      "resources": [
+        "tribute",
+        "cotton",
+        "cocoa",
+        "land"
+      ],
+      "territoryNames": [
+        "the Aztec Empire",
+        "the Triple Alliance"
+      ],
+      "hints": [
+        "A league of three lake-basin city-states built a domain stretching from coast to coast in the 15th century.",
+        "Conquered towns delivered cotton cloth, cacao, feathers and warriors on fixed schedules recorded in tribute lists.",
+        "Resentment of this system helped Hernán Cortés recruit Indigenous allies in 1519."
+      ],
+      "summary": "The Triple Alliance of Tenochtitlan, Texcoco and Tlacopan formed in 1428 and extended its domain over much of central and southern Mesoamerica. Subject towns paid tribute in goods and labour, recorded in documents such as the Codex Mendoza. Many subjects allied with Cortés against it.",
+      "wikipediaTitle": "Aztec Empire",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aztec_Empire"
+      ]
+    },
+    {
+      "id": "MEX-spanish-conquest",
+      "title": "Spanish conquest of the Aztec Empire",
+      "startYear": 1519,
+      "endYear": 1521,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "gold",
+        "tribute",
+        "land"
+      ],
+      "hints": [
+        "A small expedition landed on the Gulf coast in 1519 and allied with the empire's Indigenous enemies.",
+        "Smallpox devastated the island capital during a siege.",
+        "The capital fell in August 1521."
+      ],
+      "summary": "Hernán Cortés landed in 1519 and, with Indigenous allies such as the Tlaxcalans, besieged the Aztec capital Tenochtitlan. Smallpox weakened the city, which fell on 13 August 1521. The conquest created the Viceroyalty of New Spain.",
+      "sensitive": true,
+      "wikipediaTitle": "Spanish conquest of the Aztec Empire",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire"
+      ]
+    },
+    {
+      "id": "MEX-silver-new-spain",
+      "title": "Silver mining in New Spain",
+      "startYear": 1546,
+      "endYear": 1810,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "silver",
+        "labour",
+        "land"
+      ],
+      "territoryNames": [
+        "New Spain",
+        "the Viceroyalty of New Spain"
+      ],
+      "hints": [
+        "A rich silver strike in 1546 led to a boom in the north.",
+        "The mines of Zacatecas and Guanajuato supplied a large share of the world's silver for centuries.",
+        "Labour came through forced levies of Indigenous workers and by enslaved Africans."
+      ],
+      "summary": "After the 1546 strike at Zacatecas, mines there and at Guanajuato made New Spain a leading silver producer for centuries. Labour was drawn from Indigenous communities through the repartimiento and from enslaved Africans, and the silver financed Spain's empire and global trade.",
+      "sensitive": true,
+      "wikipediaTitle": "Viceroyalty of New Spain",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Viceroyalty_of_New_Spain"
+      ]
+    },
+    {
+      "id": "MEX-pastry-war",
+      "title": "Pastry War",
+      "startYear": 1838,
+      "endYear": 1839,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [
+        "trade_routes",
+        "tribute"
+      ],
+      "hints": [
+        "A French naval blockade in 1838 followed claims by a pastry cook over damage to his shop.",
+        "Other French nationals' debt claims were piled on top, and ports were bombarded.",
+        "British mediation produced a compensation payment of 600,000 pesos."
+      ],
+      "summary": "France blockaded Mexican ports from late 1838 and bombarded Veracruz in December, demanding payment for damage to French property, including a pastry shop, and for unpaid debts. Mexico declared war, and British mediation led to a 600,000-peso payment in March 1839.",
+      "quip": "A war that started with a pastry chef's damage claim.",
+      "wikipediaTitle": "Pastry War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pastry_War"
+      ]
+    },
+    {
+      "id": "MEX-mexican-cession",
+      "title": "Texas annexation and the Mexican Cession",
+      "startYear": 1845,
+      "endYear": 1848,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "gold",
+        "strategic_location"
+      ],
+      "hints": [
+        "In 1845 a neighbour annexed a breakaway republic that the country still claimed.",
+        "After a two-year war, a treaty in 1848 ceded about half the national territory.",
+        "Gold was found in the ceded territory in California days before the treaty was signed."
+      ],
+      "summary": "The United States annexed Texas in 1845, and a dispute over its border led to war in 1846. By the Treaty of Guadalupe Hidalgo in 1848, Mexico ceded roughly half its territory, including California and New Mexico, in return for $15 million. Gold was discovered in California in January 1848.",
+      "wikipediaTitle": "Mexican–American War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War"
+      ]
+    },
+    {
+      "id": "MEX-second-empire",
+      "title": "French intervention and the Second Mexican Empire",
+      "startYear": 1861,
+      "endYear": 1867,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "puppet_regime",
+      "resources": [
+        "land",
+        "silver"
+      ],
+      "territoryNames": [
+        "the Second Mexican Empire"
+      ],
+      "hints": [
+        "After the country suspended foreign debt payments in 1861, a European coalition landed troops.",
+        "Napoleon III used the pretext to install an Austrian archduke as emperor in 1864.",
+        "Maximilian was executed in 1867 after French troops withdrew under US pressure."
+      ],
+      "summary": "After a debt moratorium in 1861, France, Spain and Britain landed troops. Spain and Britain withdrew, but Napoleon III kept going and installed Maximilian of Habsburg as emperor in 1864. French troops left in 1866-1867 and Maximilian was executed in June 1867.",
+      "quip": "Napoleon III tried to collect a debt and ended up building an empire for an Austrian archduke.",
+      "wikipediaTitle": "Second French intervention in Mexico",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Second_French_intervention_in_Mexico"
+      ]
+    },
+    {
+      "id": "MEX-veracruz-occupation",
+      "title": "US occupation of Veracruz",
+      "startYear": 1914,
+      "endYear": 1914,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "occupation",
+      "resources": [
+        "oil",
+        "trade_routes",
+        "strategic_location"
+      ],
+      "hints": [
+        "A minor incident involving sailors at an oil port led to a naval landing in April 1914.",
+        "American forces occupied the main Gulf port for about seven months.",
+        "The pretext was a dispute over a salute to the flag, and the aim was to cut arms supplies to a rival regime."
+      ],
+      "summary": "After the Tampico Affair, US forces seized the port of Veracruz in April 1914 to block a German arms shipment to President Victoriano Huerta. The occupation lasted until November 1914.",
+      "wikipediaTitle": "United States occupation of Veracruz",
+      "sources": [
+        "https://en.wikipedia.org/wiki/United_States_occupation_of_Veracruz"
+      ]
+    }
+  ]
+}

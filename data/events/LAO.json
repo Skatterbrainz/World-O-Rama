@@ -1,0 +1,96 @@
+{
+  "country": "LAO",
+  "events": [
+    {
+      "id": "LAO-siamese-domination",
+      "title": "Siamese domination of the Lao kingdoms",
+      "startYear": 1779,
+      "endYear": 1893,
+      "exploiter": { "label": "Siam" },
+      "type": "other",
+      "resources": ["tribute", "labour"],
+      "territoryNames": ["the Kingdom of Vientiane", "the Kingdom of Luang Prabang"],
+      "hints": [
+        "The old kingdoms of the Mekong valley were forced to become vassals of a neighbour to the west.",
+        "Siamese armies took Vientiane in 1778 and 1779.",
+        "A rebellion in the late 1820s led to the destruction of Vientiane."
+      ],
+      "summary": "Siamese forces conquered Vientiane, Luang Prabang and Champasak in 1778 and 1779, and the three Lao kingdoms owed tribute and service to Bangkok until French pressure in 1893. After Anouvong's rebellion of 1826 to 1828, Vientiane was destroyed and many Lao were resettled on the Siamese side of the Mekong.",
+      "sensitive": true,
+      "wikipediaTitle": "Lao rebellion (1826–1828)",
+      "sources": ["https://en.wikipedia.org/wiki/Lao_rebellion_(1826%E2%80%931828)"]
+    },
+    {
+      "id": "LAO-french-protectorate",
+      "title": "French protectorate",
+      "startYear": 1893,
+      "endYear": 1953,
+      "exploiter": { "label": "France" },
+      "type": "colonization",
+      "resources": ["tin", "timber", "labour"],
+      "territoryNames": ["French Indochina"],
+      "hints": [
+        "It was added to a colonial union of five territories in Southeast Asia.",
+        "France claimed the territory after the 1893 gunboat crisis with a neighbour.",
+        "Roads were built with conscripted labour and little investment was made."
+      ],
+      "summary": "After the 1893 treaty with Siam, France made the country a protectorate within French Indochina. It was governed cheaply as a backwater, with taxes and corvée labour for roads, and some tin mining. Independence was recognised in 1953.",
+      "wikipediaTitle": "French protectorate of Laos",
+      "sources": ["https://en.wikipedia.org/wiki/French_protectorate_of_Laos"]
+    },
+    {
+      "id": "LAO-secret-war",
+      "title": "The Secret War and the US bombing",
+      "startYear": 1964,
+      "endYear": 1973,
+      "exploiter": { "label": "the United States" },
+      "type": "proxy_war",
+      "resources": [],
+      "hints": [
+        "It was the most heavily bombed country per person in history.",
+        "A covert CIA-backed army fought alongside air strikes from 1964.",
+        "Millions of unexploded cluster bomblets still contaminate its fields."
+      ],
+      "summary": "From 1964 to 1973 the United States conducted a covert air campaign and supported a CIA-backed army in a civil war between royalist and communist forces, dropping more than two million tons of ordnance. Unexploded munitions continue to kill and injure civilians and limit farmland.",
+      "sensitive": true,
+      "wikipediaTitle": "Laotian Civil War",
+      "sources": ["https://en.wikipedia.org/wiki/Laotian_Civil_War"]
+    },
+    {
+      "id": "LAO-1960-phoumi-counter-coup",
+      "title": "CIA support for Phoumi Nosavan's 1960 counter-coup",
+      "startYear": 1960,
+      "endYear": 1960,
+      "exploiter": { "label": "the CIA" },
+      "type": "coup",
+      "resources": [],
+      "hints": [
+        "A neutralist captain overthrew the government in a nearly bloodless coup in August 1960.",
+        "The CIA flew Thai police commando teams in to advise a rightist general's counter-coup columns.",
+        "In December 1960 his troops retook the capital in a battle that killed about 600 civilians."
+      ],
+      "summary": "After Captain Kong Le's neutralist coup of 9 August 1960, the CIA backed rightist General Phoumi Nosavan's counter-coup, flying in five teams of Thai police commandos (PARU) to advise his columns. Phoumi's forces retook Vientiane in the battle of 13 to 16 December 1960, in which about 600 civilians were killed.",
+      "sensitive": true,
+      "wikipediaTitle": "Battle of Vientiane",
+      "sources": ["https://en.wikipedia.org/wiki/Battle_of_Vientiane", "https://www.cia.gov/resources/csi/books-monographs/an-excellent-idea-leading-surrogate-warfare-in-southeast-asia-1951-1970-a-personal-account/"]
+    },
+    {
+      "id": "LAO-cia-hmong-army",
+      "title": "The CIA's Hmong army",
+      "startYear": 1961,
+      "endYear": 1973,
+      "exploiter": { "label": "the CIA" },
+      "type": "proxy_war",
+      "resources": [],
+      "hints": [
+        "From 1961 a covert paramilitary programme recruited highland minority fighters in a neutral kingdom.",
+        "A CIA officer and Thai commandos trained a force under a Hmong general near the Plain of Jars.",
+        "It grew into a clandestine army of tens of thousands in what has been called the largest paramilitary operation the CIA ever undertook."
+      ],
+      "summary": "From January 1961 the CIA, building on Thai police commando trainers, armed and funded Hmong irregulars under General Vang Pao in northern Laos, a clandestine army that grew to an estimated 30,000 men and was supported by CIA-run air transport. It fought communist forces until the 1973 ceasefire at a heavy cost in lives and displacement for the Hmong.",
+      "sensitive": true,
+      "wikipediaTitle": "Operation Momentum",
+      "sources": ["https://en.wikipedia.org/wiki/Operation_Momentum", "https://www.cia.gov/resources/csi/books-monographs/an-excellent-idea-leading-surrogate-warfare-in-southeast-asia-1951-1970-a-personal-account/"]
+    }
+  ]
+}

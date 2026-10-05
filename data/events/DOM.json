@@ -1,0 +1,112 @@
+{
+  "country": "DOM",
+  "events": [
+    {
+      "id": "DOM-spanish-santo-domingo",
+      "title": "Spanish Santo Domingo",
+      "startYear": 1493,
+      "endYear": 1795,
+      "exploiter": { "label": "Spain" },
+      "type": "colonization",
+      "resources": ["gold", "sugar", "slaves"],
+      "territoryNames": ["Santo Domingo"],
+      "hints": [
+        "The oldest permanent European settlement in the Americas was founded here in the 1490s.",
+        "The Taíno population collapsed under the encomienda system and disease, and gold gave way to sugar.",
+        "Spain ceded the colony to France under the 1795 Peace of Basel."
+      ],
+      "summary": "Spain founded the first permanent European colony in the Americas on Hispaniola and organised Taíno labour through the encomienda system. Gold mining gave way to sugar, with enslaved Africans replacing the declining Indigenous population. Spain ceded the colony to France in 1795.",
+      "sensitive": true,
+      "wikipediaTitle": "Captaincy General of Santo Domingo",
+      "sources": ["https://en.wikipedia.org/wiki/Captaincy_General_of_Santo_Domingo"]
+    },
+    {
+      "id": "DOM-haitian-unification",
+      "title": "Haitian rule over the eastern part of Hispaniola",
+      "startYear": 1822,
+      "endYear": 1844,
+      "exploiter": { "label": "Haiti" },
+      "type": "occupation",
+      "resources": ["land"],
+      "territoryNames": ["Spanish Haiti"],
+      "hints": [
+        "An independence declaration in 1821 lasted only a few months before troops arrived from the neighbouring state.",
+        "The occupiers abolished slavery but also seized church lands and imposed taxes and conscription.",
+        "A secret society called La Trinitaria led the 1844 revolt that ended this rule."
+      ],
+      "summary": "Haitian forces entered the eastern two-thirds of Hispaniola in 1822 and governed it until 1844. Slavery was abolished, but land confiscations and heavy taxation fed resentment, and the secret society La Trinitaria led the separation of 1844.",
+      "wikipediaTitle": "Unification of Hispaniola",
+      "sources": ["https://en.wikipedia.org/wiki/Unification_of_Hispaniola"]
+    },
+    {
+      "id": "DOM-spanish-reannexation",
+      "title": "Spanish re-annexation",
+      "startYear": 1861,
+      "endYear": 1865,
+      "exploiter": { "label": "Spain" },
+      "type": "annexation",
+      "resources": ["tobacco", "land"],
+      "hints": [
+        "A president fearing invasion from the neighbouring republic invited the former colonial power back in 1861.",
+        "The return of Spanish rule provoked a guerrilla war of restoration.",
+        "Spain withdrew in 1865 after heavy losses to war and disease."
+      ],
+      "summary": "In 1861 President Pedro Santana oversaw a return to Spanish rule, hoping for protection from neighbouring Haiti. Spanish officials and taxes were widely resented, a guerrilla war broke out in 1863, and Spain withdrew in 1865.",
+      "quip": "Spain rejoined its old colony and discovered the colony had not missed it.",
+      "wikipediaTitle": "Dominican Restoration War",
+      "sources": ["https://en.wikipedia.org/wiki/Dominican_Restoration_War"]
+    },
+    {
+      "id": "DOM-customs-receivership",
+      "title": "US customs receivership",
+      "startYear": 1905,
+      "endYear": 1941,
+      "exploiter": { "label": "the United States" },
+      "type": "unequal_treaty",
+      "resources": ["tribute", "sugar"],
+      "hints": [
+        "Facing default on European debts, the government agreed to let a foreign power run its customs houses.",
+        "The arrangement was justified by the Roosevelt Corollary to the Monroe Doctrine.",
+        "Washington collected import duties and paid creditors until 1941."
+      ],
+      "summary": "In 1905 the United States took over the collection of customs duties, using the proceeds to repay European creditors. The 1907 convention formalised the receivership, which survived military occupation and was ended in 1941.",
+      "quip": "Debt collection, but with a navy as the bailiff.",
+      "wikipediaTitle": "Roosevelt Corollary",
+      "sources": ["https://en.wikipedia.org/wiki/Roosevelt_Corollary"]
+    },
+    {
+      "id": "DOM-us-occupation-1916",
+      "title": "United States occupation",
+      "startYear": 1916,
+      "endYear": 1924,
+      "exploiter": { "label": "the United States" },
+      "type": "occupation",
+      "resources": ["sugar", "land"],
+      "hints": [
+        "US Marines landed in 1916 and set up a military government that dissolved the congress.",
+        "US-owned sugar companies expanded their landholdings under new land laws.",
+        "The occupation left behind a National Guard that Rafael Trujillo later used to seize power."
+      ],
+      "summary": "US Marines occupied the country from 1916 to 1924 and ran a military government. New land laws helped US sugar companies expand, and the constabulary the occupiers created became the power base of Rafael Trujillo.",
+      "wikipediaTitle": "United States occupation of the Dominican Republic (1916–1924)",
+      "sources": ["https://en.wikipedia.org/wiki/United_States_occupation_of_the_Dominican_Republic_(1916%E2%80%931924)"]
+    },
+    {
+      "id": "DOM-us-intervention-1965",
+      "title": "US intervention in the civil war",
+      "startYear": 1965,
+      "endYear": 1966,
+      "exploiter": { "label": "the United States" },
+      "type": "occupation",
+      "resources": ["strategic_location"],
+      "hints": [
+        "A coup against an elected president in 1963 was followed by a revolt demanding his return.",
+        "Tens of thousands of US troops landed in April 1965, citing fear of a second Cuba.",
+        "An Inter-American Peace Force kept order until elections in 1966."
+      ],
+      "summary": "A 1965 uprising sought to restore the elected president Juan Bosch. Fearing a communist takeover, the United States landed more than 20,000 troops, later folded into an Organization of American States force. Joaquín Balaguer won the 1966 election.",
+      "wikipediaTitle": "Dominican Civil War",
+      "sources": ["https://en.wikipedia.org/wiki/Dominican_Civil_War"]
+    }
+  ]
+}

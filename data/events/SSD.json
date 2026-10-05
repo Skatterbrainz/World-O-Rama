@@ -1,0 +1,134 @@
+{
+  "country": "SSD",
+  "events": [
+    {
+      "id": "SSD-egyptian-equatoria",
+      "title": "Egyptian Equatoria",
+      "startYear": 1869,
+      "endYear": 1889,
+      "exploiter": {
+        "label": "Egypt"
+      },
+      "type": "annexation",
+      "resources": [
+        "ivory",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "Equatoria"
+      ],
+      "hints": [
+        "A khedive commissioned European officers to annex the upper Nile and suppress slavery.",
+        "Samuel Baker and Charles Gordon governed the province for Cairo.",
+        "The last governor, Emin Pasha, was cut off by the Mahdist revolt and left in 1889."
+      ],
+      "summary": "In 1869 Khedive Ismail of Egypt commissioned Samuel Baker to annex the upper Nile, creating Equatoria Province. Charles Gordon and Emin Pasha later governed it. It collapsed after the Mahdist revolt, and Emin Pasha left in 1889.",
+      "wikipediaTitle": "Equatoria",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Equatoria"
+      ]
+    },
+    {
+      "id": "SSD-turkiyya-slave-raids",
+      "title": "Turco-Egyptian slave and ivory raids",
+      "startYear": 1821,
+      "endYear": 1885,
+      "exploiter": {
+        "label": "Egypt"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "ivory"
+      ],
+      "hints": [
+        "After 1821 armed traders from Khartoum pushed south for ivory and captives.",
+        "Slave-trading companies set up fortified stations in the Bahr el Ghazal region.",
+        "The colonial regime collapsed in 1885 with the Mahdists' capture of Khartoum."
+      ],
+      "summary": "After Egypt conquered northern Sudan in 1821, armed traders from Khartoum pushed south for ivory and captives, setting up fortified stations in the Bahr el Ghazal and Nile regions. The regime ended with the Mahdist conquest in 1885.",
+      "sensitive": true,
+      "wikipediaTitle": "Turkiyah",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Turkiyah"
+      ]
+    },
+    {
+      "id": "SSD-lado-enclave",
+      "title": "Lado Enclave",
+      "startYear": 1894,
+      "endYear": 1910,
+      "exploiter": {
+        "label": "King Leopold II"
+      },
+      "type": "colonization",
+      "resources": [
+        "ivory"
+      ],
+      "territoryNames": [
+        "the Lado Enclave"
+      ],
+      "hints": [
+        "A king leased a strip of the upper Nile for his own lifetime in 1894.",
+        "He wanted a route to the river and its ivory.",
+        "Its lands were divided between two other territories on the upper Nile in 1910."
+      ],
+      "summary": "In 1894 Britain leased the Lado Enclave on the west bank of the upper Nile to King Leopold II for his lifetime. After he died in 1909 the territory was divided between Sudan and Uganda in 1910.",
+      "quip": "The lease ran for the king's lifetime, and he honoured its terms.",
+      "wikipediaTitle": "Lado Enclave",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lado_Enclave"
+      ]
+    },
+    {
+      "id": "SSD-anglo-egyptian-southern-policy",
+      "title": "Anglo-Egyptian Sudan and the Southern Policy",
+      "startYear": 1898,
+      "endYear": 1956,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "labour"
+      ],
+      "territoryNames": [
+        "Anglo-Egyptian Sudan"
+      ],
+      "hints": [
+        "Britain ran a vast territory jointly with Egypt after defeating the Mahdists in 1898.",
+        "A policy from 1922 kept the south isolated from the north.",
+        "The southern provinces were merged with the north in 1946 and independence came in 1956."
+      ],
+      "summary": "After 1898 Britain governed Sudan jointly with Egypt as the Anglo-Egyptian Sudan. A policy from the 1920s kept the south separated from the north and left it economically neglected, but in 1946 the south was merged administratively with the north, sowing future conflict.",
+      "wikipediaTitle": "Anglo-Egyptian Sudan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anglo-Egyptian_Sudan"
+      ]
+    },
+    {
+      "id": "SSD-sudan-oil-displacement",
+      "title": "Oil fields and displacement in the Second Sudanese Civil War",
+      "startYear": 1998,
+      "endYear": 2003,
+      "exploiter": {
+        "label": "Sudan"
+      },
+      "type": "other",
+      "resources": [
+        "oil"
+      ],
+      "hints": [
+        "As production began in the 1990s, government forces and militias cleared people from areas around the oil fields.",
+        "Foreign companies from Asia, Europe and Canada worked in the concessions.",
+        "Human rights groups documented the destruction of villages."
+      ],
+      "summary": "As oil production grew from 1999, Sudanese government forces and allied militias cleared civilians from areas around the oil fields in the south. Rights groups documented village burnings and mass displacement during the Second Sudanese Civil War.",
+      "sensitive": true,
+      "wikipediaTitle": "Second Sudanese Civil War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Second_Sudanese_Civil_War"
+      ]
+    }
+  ]
+}

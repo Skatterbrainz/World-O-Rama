@@ -1,0 +1,109 @@
+{
+  "country": "CAF",
+  "events": [
+    {
+      "id": "CAF-concession-companies",
+      "title": "Concession companies in Ubangi-Shari",
+      "startYear": 1899,
+      "endYear": 1930,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "rubber",
+        "ivory",
+        "labour"
+      ],
+      "territoryNames": [
+        "Ubangi-Shari"
+      ],
+      "hints": [
+        "In 1899 a colonial government granted huge areas of land to private companies with monopoly rights.",
+        "Villagers faced rubber quotas, and hostage-taking was used to enforce them.",
+        "A rebellion in 1928 against recruitment and forced labour was crushed."
+      ],
+      "summary": "In 1899 France granted vast territories in the Ubangi-Shari region to private concession companies. The companies enforced rubber and ivory quotas with violence and hostage-taking. The Kongo-Wara rebellion of 1928-1931 was a response, and it was put down by force.",
+      "sensitive": true,
+      "wikipediaTitle": "Ubangi-Shari",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ubangi-Shari"
+      ]
+    },
+    {
+      "id": "CAF-congo-ocean-railway-recruitment",
+      "title": "Forced recruitment for the Congo-Ocean Railway",
+      "startYear": 1921,
+      "endYear": 1934,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "labour"
+      ],
+      "hints": [
+        "Men were marched hundreds of kilometres to build a railway from a river port to the sea.",
+        "Recruitment quotas fell hard on this colony and its neighbour to the north.",
+        "Thousands of workers died of disease, hunger and abuse before the line opened in 1934."
+      ],
+      "summary": "France built the Congo-Ocean Railway between 1921 and 1934, recruiting labourers by force from across French Equatorial Africa, including large numbers from Ubangi-Shari. Thousands of workers died from disease, malnutrition and mistreatment.",
+      "sensitive": true,
+      "wikipediaTitle": "Congo–Ocean Railway",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Congo%E2%80%93Ocean_Railway"
+      ]
+    },
+    {
+      "id": "CAF-bokassa-french-backing",
+      "title": "French backing of Bokassa",
+      "startYear": 1966,
+      "endYear": 1979,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [
+        "diamonds",
+        "uranium"
+      ],
+      "hints": [
+        "A colonel who had served in a European army took power in a coup on New Year's Eve 1965.",
+        "He later crowned himself emperor in a lavish ceremony modelled on Napoleon's.",
+        "That patron overthrew him in Operation Barracuda in 1979."
+      ],
+      "summary": "France supported Jean-Bédel Bokassa after his 1965-66 coup, supplying aid and military support. He crowned himself emperor in 1977, and France removed him in Operation Barracuda in September 1979 after reports of massacres embarrassed Paris.",
+      "sensitive": true,
+      "wikipediaTitle": "Jean-Bédel Bokassa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jean-B%C3%A9del_Bokassa"
+      ]
+    },
+    {
+      "id": "CAF-wagner-group",
+      "title": "Wagner Group in the Central African Republic",
+      "startYear": 2018,
+      "endYear": 2025,
+      "exploiter": {
+        "label": "the Wagner Group"
+      },
+      "type": "other",
+      "resources": [
+        "gold",
+        "diamonds",
+        "timber"
+      ],
+      "hints": [
+        "Russian private military contractors arrived in 2018 to train government soldiers.",
+        "They later fought alongside the army against rebels and were linked to abuses by UN investigators.",
+        "Reports tied the group to mining and timber interests."
+      ],
+      "summary": "Russian Wagner Group personnel arrived in 2018, initially as military instructors, and later fought alongside government forces. UN experts and journalists reported abuses and linked the group to gold, diamond and timber interests.",
+      "sensitive": true,
+      "wikipediaTitle": "Wagner Group",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wagner_Group"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "country": "ITA",
+  "events": [
+    {
+      "id": "ITA-hannibal-invasion",
+      "title": "Hannibal's occupation of southern Italy",
+      "startYear": -218,
+      "endYear": -203,
+      "exploiter": {
+        "label": "Carthage"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A general crossed the Alps with war elephants in 218 BCE.",
+        "He campaigned for fifteen years and won at Cannae."
+      ],
+      "summary": "During the Second Punic War, Hannibal crossed the Alps in 218 BCE and defeated Rome at Cannae in 216 BCE. Carthaginian forces occupied parts of southern Italy until they were withdrawn in 203 BCE.",
+      "wikipediaTitle": "Second Punic War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Second_Punic_War"
+      ]
+    },
+    {
+      "id": "ITA-vandal-sack-of-rome-455",
+      "title": "Vandal sack of Rome",
+      "startYear": 455,
+      "endYear": 455,
+      "exploiter": {
+        "label": "the Vandals"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "gold",
+        "silver"
+      ],
+      "hints": [
+        "A fleet from North Africa landed at the mouth of the Tiber in June 455.",
+        "The city was plundered systematically for about two weeks."
+      ],
+      "summary": "In June 455 the Vandal king Genseric landed with an army and plundered Rome for about two weeks, carrying off treasure, including items taken from the imperial palace, and many prominent captives to Carthage. The sack gave rise to the word vandalism.",
+      "wikipediaTitle": "Sack of Rome (455)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sack_of_Rome_(455)"
+      ]
+    },
+    {
+      "id": "ITA-spanish-italy",
+      "title": "Spanish rule of Naples, Sicily and Milan",
+      "startYear": 1504,
+      "endYear": 1713,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "grain"
+      ],
+      "territoryNames": [
+        "the Kingdom of Naples"
+      ],
+      "hints": [
+        "A Crown held the south and Milan for two centuries after beating the French.",
+        "Taxes and soldiers were drawn from kingdoms that were part of the Spanish Habsburgs' inheritance."
+      ],
+      "summary": "After defeating the French, Spain held the Kingdom of Naples from 1504 and the Duchy of Milan from 1535, ruling them with viceroys until the War of the Spanish Succession. They provided taxes, troops and grain for Spanish wars.",
+      "wikipediaTitle": "Spanish Italy",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spanish_Italy"
+      ]
+    },
+    {
+      "id": "ITA-sack-of-rome-1527",
+      "title": "Sack of Rome",
+      "startYear": 1527,
+      "endYear": 1527,
+      "exploiter": {
+        "label": "the Holy Roman Empire"
+      },
+      "type": "other",
+      "resources": [
+        "gold",
+        "silver"
+      ],
+      "hints": [
+        "An unpaid imperial army stormed the walls on 6 May 1527.",
+        "The Swiss Guard fought a last stand while the pope fled to a castle."
+      ],
+      "summary": "On 6 May 1527 the unpaid troops of Emperor Charles V, many of them German and Spanish mercenaries, stormed Rome and plundered the city for months. Thousands of civilians were killed, and Pope Clement VII was besieged in the Castel Sant'Angelo.",
+      "sensitive": true,
+      "wikipediaTitle": "Sack of Rome (1527)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sack_of_Rome_(1527)"
+      ]
+    },
+    {
+      "id": "ITA-napoleonic-italy",
+      "title": "Napoleonic annexations and Kingdom of Italy",
+      "startYear": 1796,
+      "endYear": 1814,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [
+        "silver",
+        "tribute"
+      ],
+      "territoryNames": [
+        "the Cisalpine Republic"
+      ],
+      "hints": [
+        "A young general crossed the Alps in 1796 and demanded contributions from city after city.",
+        "Artworks were shipped to the Louvre under the terms of armistices."
+      ],
+      "summary": "From 1796 French armies conquered the peninsula, imposing indemnities and removing art treasures such as the Laocoon. Napoleon annexed many regions and ran the rest through client states until 1814.",
+      "wikipediaTitle": "Italian campaigns of the French Revolutionary Wars",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Italian_campaigns_of_the_French_Revolutionary_Wars"
+      ]
+    },
+    {
+      "id": "ITA-lombardy-venetia",
+      "title": "Habsburg Lombardy-Venetia",
+      "startYear": 1815,
+      "endYear": 1866,
+      "exploiter": {
+        "label": "the Habsburg Monarchy"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "tribute"
+      ],
+      "territoryNames": [
+        "the Kingdom of Lombardy–Venetia"
+      ],
+      "hints": [
+        "The Congress of Vienna gave the north to Vienna in 1815.",
+        "Taxes, conscription and heavy policing fed repeated uprisings until 1859 and 1866."
+      ],
+      "summary": "The Congress of Vienna created the Kingdom of Lombardy–Venetia under the Habsburg crown. Austrian officials taxed and policed the region heavily, and it was lost in 1859 (Lombardy) and 1866 (Veneto).",
+      "wikipediaTitle": "Kingdom of Lombardy–Venetia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kingdom_of_Lombardy%E2%80%93Venetia"
+      ]
+    },
+    {
+      "id": "ITA-german-occupation-1943",
+      "title": "German occupation and the Italian Social Republic",
+      "startYear": 1943,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "labour"
+      ],
+      "territoryNames": [
+        "the Italian Social Republic"
+      ],
+      "hints": [
+        "German troops poured in after the 1943 armistice and rescued a deposed dictator.",
+        "A puppet state in the north was run from Salo."
+      ],
+      "summary": "After Italy's armistice in September 1943, German forces occupied the north and centre, and Mussolini headed a puppet Italian Social Republic. The period saw forced labour, deportations and reprisals such as the Ardeatine massacre.",
+      "sensitive": true,
+      "wikipediaTitle": "Italian Social Republic",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Italian_Social_Republic"
+      ]
+    }
+  ]
+}

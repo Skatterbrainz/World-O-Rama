@@ -1,0 +1,62 @@
+{
+  "country": "KNA",
+  "events": [
+    {
+      "id": "KNA-anglo-french-settlement",
+      "title": "English settlement and the Kalinago massacre",
+      "startYear": 1623,
+      "endYear": 1713,
+      "exploiter": { "label": "England" },
+      "type": "colonization",
+      "resources": ["tobacco", "sugar", "land"],
+      "territoryNames": ["Saint Christopher"],
+      "hints": [
+        "A volcanic island became the first English colony in the Leeward Caribbean in 1623.",
+        "In 1626 English and French settlers combined to attack the Kalinago at a place later called Bloody Point.",
+        "The island was shared with France until the 1713 Treaty of Utrecht gave Britain all of it."
+      ],
+      "summary": "Thomas Warner founded the first English colony in the Leeward Islands in 1623. In 1626 English and French settlers jointly attacked the island's Kalinago inhabitants. The two powers shared the island, with tobacco and then sugar planted, until Utrecht in 1713.",
+      "sensitive": true,
+      "wikipediaTitle": "Saint Kitts",
+      "sources": ["https://en.wikipedia.org/wiki/Saint_Kitts"]
+    },
+    {
+      "id": "KNA-french-saint-christophe",
+      "title": "French Saint-Christophe",
+      "startYear": 1625,
+      "endYear": 1713,
+      "exploiter": { "label": "France" },
+      "type": "colonization",
+      "resources": ["tobacco", "sugar", "slaves"],
+      "territoryNames": ["Saint-Christophe"],
+      "hints": [
+        "A French adventurer landed in 1625 and shared a small Caribbean island with English settlers.",
+        "It served as a stepping stone for French settlement of Martinique and Guadeloupe.",
+        "France lost its share in 1713 under the Treaty of Utrecht."
+      ],
+      "summary": "French settlers under Pierre Belain d'Esnambuc arrived in 1625 and held the two ends of the island, while the English held the middle. The French colony was a base for settling Martinique and Guadeloupe and was ceded in 1713.",
+      "sensitive": true,
+      "wikipediaTitle": "Saint Kitts",
+      "sources": ["https://en.wikipedia.org/wiki/Saint_Kitts"]
+    },
+    {
+      "id": "KNA-british-sugar-economy",
+      "title": "British sugar monoculture",
+      "startYear": 1713,
+      "endYear": 1983,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["sugar", "slaves", "labour"],
+      "territoryNames": ["Saint Christopher-Nevis-Anguilla"],
+      "hints": [
+        "From 1713 the island was entirely British and devoted to one crop.",
+        "A fortress on a hill, built with enslaved labour, was nicknamed the Gibraltar of the West Indies.",
+        "Independence in 1983 came after a long period of association with a neighbouring island."
+      ],
+      "summary": "After 1713 the whole island was British, and sugar estates worked by enslaved Africans dominated the economy. Brimstone Hill fortress was built with enslaved labour. After emancipation, sugar remained the mainstay until independence in 1983.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Saint Kitts and Nevis",
+      "sources": ["https://en.wikipedia.org/wiki/History_of_Saint_Kitts_and_Nevis"]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "country": "KGZ",
+  "events": [
+    {
+      "id": "KGZ-russian-conquest",
+      "title": "Russian conquest and the end of the Kokand Khanate",
+      "startYear": 1860,
+      "endYear": 1876,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "annexation",
+      "resources": ["land", "livestock"],
+      "territoryNames": ["Russian Turkestan"],
+      "hints": [
+        "In the 1860s fortresses were built in the Chu valley as an empire's frontier advanced.",
+        "A khanate in the Fergana valley was dissolved in 1876.",
+        "Settlers began to take over valley pastures."
+      ],
+      "summary": "Russian forces advanced into the northern valleys in the 1860s and, after the fall of the Khanate of Kokand, abolished it in 1876 and annexed the Fergana region. The territory became part of Russian Turkestan, and Slavic settlement of the best grazing lands began.",
+      "wikipediaTitle": "Russian conquest of Central Asia",
+      "sources": ["https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia"]
+    },
+    {
+      "id": "KGZ-urkun",
+      "title": "The Urkun",
+      "startYear": 1916,
+      "endYear": 1916,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "other",
+      "resources": ["labour"],
+      "hints": [
+        "A wartime decree to conscript men for labour at the front triggered a revolt.",
+        "Troops and settler militias suppressed it ruthlessly.",
+        "Tens of thousands fled over the mountains to China in what is remembered as the Urkun, or exodus."
+      ],
+      "summary": "In summer 1916 the Russian Empire's decree conscripting Central Asian men for labour behind the front lines provoked a widespread revolt. The suppression of the uprising killed many and caused a mass flight of Kyrgyz to China across the mountains; estimates of the dead run from over 100,000 to more.",
+      "sensitive": true,
+      "wikipediaTitle": "Central Asian revolt of 1916",
+      "sources": ["https://en.wikipedia.org/wiki/Central_Asian_revolt_of_1916"]
+    },
+    {
+      "id": "KGZ-mailuu-suu",
+      "title": "Uranium mining at Mailuu-Suu",
+      "startYear": 1946,
+      "endYear": 1968,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "resource_extraction",
+      "resources": ["uranium"],
+      "territoryNames": ["Mailbox 200"],
+      "hints": [
+        "A secret town supplied the raw material for early nuclear weapons.",
+        "It was officially known only as 'Mailbox 200'.",
+        "Radioactive waste dumps still threaten the valley."
+      ],
+      "summary": "From 1946 to 1968 the Zapadnyi Mining and Chemical Combine at Mailuu-Suu mined and processed more than 10,000 tons of uranium ore for the Soviet nuclear programme. The town was a secret city known as Mailbox 200, and leftover tailings continue to pose environmental risks.",
+      "wikipediaTitle": "Mailuu-Suu",
+      "sources": ["https://en.wikipedia.org/wiki/Mailuu-Suu"]
+    }
+  ]
+}

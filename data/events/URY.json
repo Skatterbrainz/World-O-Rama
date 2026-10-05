@@ -1,0 +1,88 @@
+{
+  "country": "URY",
+  "events": [
+    {
+      "id": "URY-colonia-do-sacramento",
+      "title": "Portuguese Colonia do Sacramento",
+      "startYear": 1680,
+      "endYear": 1777,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "colonization",
+      "resources": [
+        "trade_routes",
+        "livestock"
+      ],
+      "territoryNames": [
+        "the Banda Oriental"
+      ],
+      "hints": [
+        "A Portuguese governor founded a fortified outpost in 1680 directly across the estuary from the Spanish port.",
+        "It became a hub for smuggling goods and silver, and changed hands repeatedly in wars.",
+        "Its final loss to Spain came under a 1777 treaty."
+      ],
+      "summary": "Portugal founded Colonia do Sacramento in 1680, challenging Spain's hold on the estuary. It became a centre of smuggling, was seized and returned several times, and passed finally to Spain in 1777.",
+      "wikipediaTitle": "Colonia del Sacramento",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Colonia_del_Sacramento"
+      ]
+    },
+    {
+      "id": "URY-spanish-montevideo",
+      "title": "Spanish Montevideo and the hide trade",
+      "startYear": 1726,
+      "endYear": 1814,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "livestock",
+        "land",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Banda Oriental"
+      ],
+      "hints": [
+        "A fortress port was built in 1726 as a counterweight to Portugal's outpost across the estuary.",
+        "Wild cattle on the plains supplied hides for export, and enslaved Africans were landed at the port.",
+        "Spain lost the city to local forces in 1814."
+      ],
+      "summary": "Spain founded Montevideo in 1726 as a military stronghold. The Banda Oriental became a major source of hides from wild cattle, and the port was a slave-trading point. Royalist rule ended with the capture of Montevideo in 1814.",
+      "sensitive": true,
+      "wikipediaTitle": "Montevideo",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Montevideo"
+      ]
+    },
+    {
+      "id": "URY-cisplatina",
+      "title": "Portuguese and Brazilian annexation of Cisplatina",
+      "startYear": 1817,
+      "endYear": 1828,
+      "exploiter": {
+        "label": "Brazil"
+      },
+      "type": "annexation",
+      "resources": [
+        "land",
+        "livestock"
+      ],
+      "territoryNames": [
+        "Cisplatina"
+      ],
+      "hints": [
+        "In 1817 a Portuguese army invaded a province that had been fighting for independence.",
+        "It was annexed as a province of a New World empire in 1821.",
+        "A war that began in 1825 ended with British mediation and creation of a buffer state in 1828."
+      ],
+      "summary": "A Portuguese-Brazilian army invaded the Banda Oriental in 1817, and the territory was annexed as the Cisplatina Province in 1821. An uprising and war from 1825 ended with the 1828 Preliminary Peace Convention, mediated by Britain, which created the independent state.",
+      "wikipediaTitle": "Cisplatina",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cisplatina"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "country": "SXM",
+  "events": [
+    {
+      "id": "SXM-spanish-salt-occupation",
+      "title": "Spanish occupation over salt",
+      "startYear": 1633,
+      "endYear": 1648,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "occupation",
+      "resources": [
+        "salt",
+        "strategic_location"
+      ],
+      "hints": [
+        "In 1633, during a long war with the Dutch, a Spanish fleet seized a small island with valuable salt ponds.",
+        "The Dutch had come to rely on the salt for their fishing and trade.",
+        "Spain abandoned the island in 1648, opening the way to a Franco-Dutch partition."
+      ],
+      "summary": "During the Eighty Years' War, Spain seized the island in 1633 to deny the Dutch its salt ponds and built a fort. It withdrew in 1648, after which French and Dutch settlers divided the island under the Treaty of Concordia.",
+      "wikipediaTitle": "Sint Maarten",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sint_Maarten"
+      ]
+    },
+    {
+      "id": "SXM-dutch-salt-slavery",
+      "title": "Dutch salt and plantation colony",
+      "startYear": 1648,
+      "endYear": 1863,
+      "exploiter": {
+        "label": "the Netherlands"
+      },
+      "type": "colonization",
+      "resources": [
+        "salt",
+        "sugar",
+        "slaves"
+      ],
+      "hints": [
+        "Settlers from two rival powers agreed in 1648 to divide a small island between them.",
+        "Salt pans and sugar and cotton estates used enslaved Africans.",
+        "Slavery on the Dutch side ended in 1863, fifteen years after it ended on the French side."
+      ],
+      "summary": "After the 1648 Treaty of Concordia partitioned the island, the Dutch side developed salt pans and plantations worked by enslaved Africans. Slavery was abolished on the Dutch side in 1863, fifteen years after the French side.",
+      "sensitive": true,
+      "wikipediaTitle": "Sint Maarten",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sint_Maarten"
+      ]
+    }
+  ]
+}

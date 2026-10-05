@@ -1,0 +1,129 @@
+{
+  "country": "PHL",
+  "events": [
+    {
+      "id": "PHL-spanish-rule",
+      "title": "Spanish colonial rule",
+      "startYear": 1565,
+      "endYear": 1898,
+      "exploiter": { "label": "Spain" },
+      "type": "colonization",
+      "resources": ["tobacco", "tribute", "labour", "trade_routes"],
+      "territoryNames": ["the Spanish East Indies"],
+      "hints": [
+        "For much of its history this colony was governed through another colony across the ocean.",
+        "Annual galleons carried silk and silver across the Pacific.",
+        "A state tobacco monopoly funded the colonial treasury."
+      ],
+      "summary": "Spain colonised the archipelago from 1565, governing it largely from Mexico for more than two centuries. Tribute, forced labour (polo y servicios), the Manila galleon trade and the tobacco monopoly supported the colony until 1898.",
+      "wikipediaTitle": "Spanish East Indies",
+      "sources": ["https://en.wikipedia.org/wiki/Spanish_East_Indies"]
+    },
+    {
+      "id": "PHL-american-rule",
+      "title": "American colonial rule and the Philippine-American War",
+      "startYear": 1898,
+      "endYear": 1946,
+      "exploiter": { "label": "the United States" },
+      "type": "colonization",
+      "resources": ["sugar", "land"],
+      "hints": [
+        "Sold by one empire to another for twenty million dollars without asking the residents.",
+        "A war against the new rulers began in 1899 and lasted years."
+      ],
+      "summary": "Under the 1898 Treaty of Paris Spain ceded the archipelago to the United States for 20 million dollars. A war of resistance followed, and US colonial rule, with free-trade arrangements favouring American markets for sugar, lasted until independence in 1946.",
+      "sensitive": true,
+      "wikipediaTitle": "History of the Philippines (1898–1946)",
+      "sources": ["https://en.wikipedia.org/wiki/History_of_the_Philippines_(1898%E2%80%931946)"]
+    },
+    {
+      "id": "PHL-japanese-occupation",
+      "title": "Japanese occupation of the Philippines",
+      "startYear": 1942,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["rice", "sugar", "labour"],
+      "hints": [
+        "Invaded within hours of an attack on a Pacific naval base in 1941.",
+        "Prisoners were forced to march for days after the fall of Bataan."
+      ],
+      "summary": "Japan invaded in December 1941 and occupied the islands until 1945, requisitioning food and resources and imposing forced labour. The occupation ended with the Battle of Manila and the wider Allied campaign.",
+      "sensitive": true,
+      "wikipediaTitle": "Japanese occupation of the Philippines",
+      "sources": ["https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Philippines"]
+    },
+    {
+      "id": "PHL-british-manila",
+      "title": "British occupation of Manila",
+      "startYear": 1762,
+      "endYear": 1764,
+      "exploiter": { "label": "the British Empire" },
+      "type": "occupation",
+      "resources": ["silver", "tribute"],
+      "hints": [
+        "A Seven Years' War expedition from India captured the colonial capital.",
+        "A promise of a four-million-dollar ransom was never honoured in full.",
+        "The islands were returned to the previous colonial rulers in 1764."
+      ],
+      "summary": "In October 1762 a British force sent from India captured Manila during the Seven Years' War and held it for about twenty months. The occupiers demanded a ransom of four million dollars, which was never paid in full, and handed the city back to Spain after the 1763 Treaty of Paris.",
+      "quip": "Britain held Manila for twenty months, collected a fraction of its ransom and returned it by treaty. Not its best invoice.",
+      "wikipediaTitle": "British occupation of Manila",
+      "sources": ["https://en.wikipedia.org/wiki/British_occupation_of_Manila"]
+    },
+    {
+      "id": "PHL-bell-trade-act",
+      "title": "Bell Trade Act and parity rights",
+      "startYear": 1946,
+      "endYear": 1974,
+      "exploiter": { "label": "the United States" },
+      "type": "unequal_treaty",
+      "resources": ["sugar", "land"],
+      "hints": [
+        "Postwar reconstruction money was tied to preferential trade terms and a constitutional change.",
+        "Americans were guaranteed equal rights to exploit natural resources.",
+        "It was revised by the Laurel-Langley Agreement in 1955."
+      ],
+      "summary": "The 1946 Bell Trade Act, passed just before independence, gave American goods preferential tariffs and fixed the peso to the dollar, and required a constitutional amendment granting Americans parity rights in natural resources. Reconstruction aid was conditional on it. The Laurel-Langley Agreement of 1955 revised it, and it expired in 1974.",
+      "quip": "Independence granted on 4 July 1946, with terms and conditions.",
+      "wikipediaTitle": "Bell Trade Act",
+      "sources": ["https://en.wikipedia.org/wiki/Bell_Trade_Act"]
+    },
+    {
+      "id": "PHL-us-bases",
+      "title": "US military bases",
+      "startYear": 1947,
+      "endYear": 1992,
+      "exploiter": { "label": "the United States" },
+      "type": "other",
+      "resources": ["strategic_location", "land"],
+      "hints": [
+        "Two giant overseas bases operated under 99-year leases agreed just after independence.",
+        "Subic Bay and Clark were among the largest American installations abroad.",
+        "The senate refused to extend the agreement in 1991."
+      ],
+      "summary": "Under the 1947 Military Bases Agreement the United States leased large areas, including Clark Air Base and Subic Bay Naval Base, for 99 years. The terms were revised in 1966. In 1991 the Philippine Senate rejected a new treaty, and US forces left Subic in 1992.",
+      "wikipediaTitle": "United States bases in the Philippines",
+      "sources": ["https://en.wikipedia.org/wiki/United_States_bases_in_the_Philippines"]
+    },
+    {
+      "id": "PHL-1953-magsaysay-cia",
+      "title": "CIA backing of Ramon Magsaysay",
+      "startYear": 1950,
+      "endYear": 1953,
+      "exploiter": { "label": "the CIA" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "In the early 1950s a US officer working under CIA auspices became the adviser and friend of a defence secretary.",
+        "The agency reportedly helped with his campaign slogan, songs and speeches, and with funds.",
+        "He defeated the incumbent president in the November 1953 election."
+      ],
+      "summary": "From 1950 Air Force Colonel Edward Lansdale, working under CIA auspices, advised Defence Secretary Ramon Magsaysay against the Huk rebellion and then helped run his 1953 presidential campaign. The CIA allegedly provided funds and public relations help, and Lansdale helped write the campaign slogan, songs and speeches. Magsaysay defeated President Elpidio Quirino in November 1953.",
+      "quip": "The CIA reportedly helped write the slogan, the campaign song and a good share of the speeches.",
+      "alleged": true,
+      "wikipediaTitle": "Edward Lansdale",
+      "sources": ["https://en.wikipedia.org/wiki/Edward_Lansdale", "https://archium.ateneo.edu/cgi/viewcontent.cgi?article=2632&context=phstudies"]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "country": "TJK",
+  "events": [
+    {
+      "id": "TJK-mongol-khujand",
+      "title": "Mongol siege of Khujand",
+      "startYear": 1220,
+      "endYear": 1220,
+      "exploiter": { "label": "the Mongol Empire" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A governor held out on a river island fortress against a huge army.",
+        "Temur Malik fled downstream in boats after his supplies ran out.",
+        "The city on the Syr Darya was destroyed in 1220."
+      ],
+      "summary": "During the Mongol invasion of the Khwarazmian Empire, the governor Temur Malik defended the fortress city of Khujand on the Syr Darya in 1220. The Mongols forced prisoners to build a causeway to his island fortress, and he escaped by boat before the city fell.",
+      "sensitive": true,
+      "wikipediaTitle": "Mongol invasion of the Khwarazmian Empire",
+      "sources": ["https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire"]
+    },
+    {
+      "id": "TJK-russian-conquest",
+      "title": "Russian conquest",
+      "startYear": 1866,
+      "endYear": 1868,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "colonization",
+      "resources": ["cotton", "land"],
+      "territoryNames": ["Russian Turkestan", "Eastern Bukhara"],
+      "hints": [
+        "Russian troops took the main northern town in 1866.",
+        "The mountain heartland came under a protectorate of the emirate in 1868.",
+        "A governor-general in Tashkent oversaw the region."
+      ],
+      "summary": "Russia captured Khujand in 1866, bringing northern Tajik lands directly into Russian Turkestan, and made the Emirate of Bukhara a protectorate in 1868, which placed the rest of the land under indirect Russian control. The area was exploited for cotton and as a frontier with British India.",
+      "wikipediaTitle": "Russian conquest of Central Asia",
+      "sources": ["https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia"]
+    },
+    {
+      "id": "TJK-pamir-great-game",
+      "title": "The Pamir border and the Great Game",
+      "startYear": 1891,
+      "endYear": 1895,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "annexation",
+      "resources": ["strategic_location", "land"],
+      "territoryNames": ["the Pamirs"],
+      "hints": [
+        "Two empires competed for the 'roof of the world' and agreed on a buffer in 1895.",
+        "A narrow corridor of land was left to keep their borders apart.",
+        "The Pamir Agreement drew the border along the Panj river."
+      ],
+      "summary": "In the 1890s Russia and Britain disputed the Pamir mountains during the Great Game. Russian troops expelled Afghan and British-aligned forces, and the 1895 agreement drew the border along the Panj river, with a narrow Afghan corridor, the Wakhan, left as a buffer, putting the northern Pamirs under Russian control.",
+      "wikipediaTitle": "Great Game",
+      "sources": ["https://en.wikipedia.org/wiki/Great_Game"]
+    },
+    {
+      "id": "TJK-red-army-eastern-bukhara-1921",
+      "title": "Red Army conquest of Eastern Bukhara",
+      "startYear": 1921,
+      "endYear": 1923,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "The last ruler of an ancient emirate took refuge in a mountain town in 1920 and fled across the border in March 1921.",
+        "An exiled Ottoman war minister died leading cavalry against the Red Army in August 1922.",
+        "A major offensive in 1923 cleared rebels from the mountain district of Garm."
+      ],
+      "summary": "After the Emir of Bukhara was overthrown in 1920 he withdrew to Dushanbe. The Red Army conquered Eastern Bukhara in early 1921 and the emir fled to Afghanistan on 4 March. Basmachi forces under Enver Pasha took Dushanbe in February 1922 but the Red Army retook it in July, and Enver was killed on 4 August. A large offensive cleared the rebels from Garm in 1923, and an estimated 200,000 people fled.",
+      "sensitive": true,
+      "wikipediaTitle": "Basmachi movement",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Basmachi_movement",
+        "https://en.wikipedia.org/wiki/Dushanbe"
+      ]
+    },
+    {
+      "id": "TJK-soviet-cotton",
+      "title": "Soviet cotton and resettlement",
+      "startYear": 1929,
+      "endYear": 1991,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "resource_extraction",
+      "resources": ["cotton", "labour", "land"],
+      "hints": [
+        "A mountain republic was given the job of growing cotton in its lowlands.",
+        "Highland communities were resettled in the Vakhsh valley.",
+        "Water-hungry crops dominated the economy."
+      ],
+      "summary": "After the Tajik SSR was created in 1929, Soviet planners made cotton the main crop in the southern lowlands. Highland communities were resettled in the Vakhsh valley and other irrigated areas to supply labour, and the republic remained a poor cotton producer within the Soviet economy until 1991.",
+      "wikipediaTitle": "Tajik Soviet Socialist Republic",
+      "sources": ["https://en.wikipedia.org/wiki/Tajik_Soviet_Socialist_Republic"]
+    }
+  ]
+}

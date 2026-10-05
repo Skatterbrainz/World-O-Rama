@@ -1,0 +1,167 @@
+{
+  "country": "PAN",
+  "events": [
+    {
+      "id": "PAN-spanish-isthmus",
+      "title": "Spanish transit route for Andean silver",
+      "startYear": 1513,
+      "endYear": 1821,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "silver",
+        "gold",
+        "trade_routes",
+        "slaves"
+      ],
+      "territoryNames": [
+        "Castilla del Oro",
+        "Tierra Firme"
+      ],
+      "hints": [
+        "After Balboa crossed in 1513, the narrow land became the crossing point for treasure fleets.",
+        "Silver and gold from Peru were hauled across it by mule and river boat to the Caribbean coast.",
+        "Pirates and privateers such as Henry Morgan sacked the settlements on both coasts."
+      ],
+      "summary": "Vasco Núñez de Balboa crossed in 1513, and the narrow land became the main transit route for Peruvian silver and gold bound for Spain. Enslaved Africans and Indigenous labour maintained the Camino Real, and the settlements were repeatedly raided by privateers.",
+      "sensitive": true,
+      "wikipediaTitle": "Castilla del Oro",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Castilla_del_Oro"
+      ]
+    },
+    {
+      "id": "PAN-darien-scheme",
+      "title": "Scottish Darién scheme",
+      "startYear": 1698,
+      "endYear": 1700,
+      "exploiter": {
+        "label": "the Company of Scotland"
+      },
+      "type": "colonization",
+      "resources": [
+        "trade_routes",
+        "land"
+      ],
+      "territoryNames": [
+        "New Caledonia"
+      ],
+      "hints": [
+        "A Scottish company tried to plant a trading colony here in 1698, naming it New Caledonia.",
+        "It raised an estimated fifth to a quarter of Scotland's available capital.",
+        "Disease, hunger and Spanish pressure forced its abandonment in 1700, contributing to a parliamentary union with England."
+      ],
+      "summary": "The Company of Scotland sent settlers to the Darién coast in 1698 to found New Caledonia. Disease, supply failures and Spanish and English opposition ended the venture in 1700, leaving Scottish investors with heavy losses and helping prepare the way for the 1707 Acts of Union.",
+      "quip": "Scotland bet a large share of its national wealth on a swampy peninsula.",
+      "wikipediaTitle": "Darien scheme",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Darien_scheme"
+      ]
+    },
+    {
+      "id": "PAN-french-canal",
+      "title": "French canal attempt",
+      "startYear": 1881,
+      "endYear": 1889,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "other",
+      "resources": [
+        "labour",
+        "trade_routes"
+      ],
+      "hints": [
+        "A company led by the builder of the Suez Canal began digging in 1881.",
+        "Yellow fever, malaria and landslides killed more than 20,000 workers.",
+        "The company collapsed in 1889 in a financial scandal."
+      ],
+      "summary": "Ferdinand de Lesseps's company began digging a sea-level canal in 1881. Disease and accidents killed an estimated 22,000 workers, mostly from the West Indies, before the company went bankrupt in 1889, and the scandal shook French politics.",
+      "sensitive": true,
+      "wikipediaTitle": "Panama Canal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Panama_Canal",
+        "https://en.wikipedia.org/wiki/Panama_Canal_Company_(1894)"
+      ]
+    },
+    {
+      "id": "PAN-canal-zone",
+      "title": "Hay-Bunau-Varilla Treaty and the Canal Zone",
+      "startYear": 1903,
+      "endYear": 1979,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "land",
+        "strategic_location",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Panama Canal Zone"
+      ],
+      "hints": [
+        "A treaty signed in November 1903 was negotiated by a Frenchman who was not a citizen of the new republic.",
+        "It granted a strip of land across the isthmus to a foreign power in perpetuity.",
+        "The Torrijos-Carter Treaties of 1977 ended the zone in 1979 and arranged a handover of the canal by 1999."
+      ],
+      "summary": "After the 1903 separation from Colombia, which the United States had supported, the Hay-Bunau-Varilla Treaty gave the United States a zone across the isthmus in perpetuity. The Torrijos-Carter Treaties of 1977 dissolved the zone in 1979 and set the canal handover for 1999.",
+      "quip": "Signed on the new republic's behalf by a Frenchman, before its own delegates reached Washington.",
+      "wikipediaTitle": "Panama Canal Zone",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Panama_Canal_Zone"
+      ]
+    },
+    {
+      "id": "PAN-canal-labour",
+      "title": "Canal construction labour",
+      "startYear": 1904,
+      "endYear": 1914,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "other",
+      "resources": [
+        "labour"
+      ],
+      "hints": [
+        "Tens of thousands of workers from the Caribbean built the canal under a segregated pay system.",
+        "Skilled jobs were paid in gold and the rest in silver, mostly by race.",
+        "Thousands died in accidents and from disease during construction."
+      ],
+      "summary": "Tens of thousands of workers, many from Barbados and other West Indian islands, built the canal between 1904 and 1914 under a segregated \"gold roll\" and \"silver roll\" pay system. Thousands died in accidents and from disease.",
+      "sensitive": true,
+      "wikipediaTitle": "Panama Canal",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Panama_Canal"
+      ]
+    },
+    {
+      "id": "PAN-just-cause",
+      "title": "Invasion and occupation",
+      "startYear": 1989,
+      "endYear": 1990,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "occupation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "In December 1989 about 26,000 troops attacked in Operation Just Cause.",
+        "The target was a military ruler who had been indicted in Florida on drug charges.",
+        "He sought refuge in a diplomatic mission and surrendered in January 1990."
+      ],
+      "summary": "In December 1989 the United States invaded with about 26,000 troops to remove General Manuel Noriega. Noriega surrendered in January 1990. The UN General Assembly condemned the invasion, and estimates of civilian deaths vary widely.",
+      "sensitive": true,
+      "wikipediaTitle": "United States invasion of Panama",
+      "sources": [
+        "https://en.wikipedia.org/wiki/United_States_invasion_of_Panama"
+      ]
+    }
+  ]
+}

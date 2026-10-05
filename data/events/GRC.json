@@ -1,0 +1,192 @@
+{
+  "country": "GRC",
+  "events": [
+    {
+      "id": "GRC-persian-invasion",
+      "title": "Persian invasion and occupation of Athens",
+      "startYear": -480,
+      "endYear": -479,
+      "exploiter": {
+        "label": "the Achaemenid Empire"
+      },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "A king bridged the Hellespont with boats to march a vast army west.",
+        "Athens was evacuated and burned in 480 BCE before a naval defeat at Salamis."
+      ],
+      "summary": "In 480 BCE Xerxes I invaded with a large army and fleet, took much of the mainland and burned Athens. The Persian fleet was defeated at Salamis in 480 BCE and the land army at Plataea in 479 BCE.",
+      "quip": "A god-king's expedition that was undone by a narrow strait and an inconvenient navy.",
+      "wikipediaTitle": "Second Persian invasion of Greece",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Second_Persian_invasion_of_Greece"
+      ]
+    },
+    {
+      "id": "GRC-roman-greece",
+      "title": "Roman conquest and rule",
+      "startYear": -146,
+      "endYear": 395,
+      "exploiter": {
+        "label": "the Roman Republic"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "silver"
+      ],
+      "territoryNames": [
+        "the province of Achaea"
+      ],
+      "hints": [
+        "A city on the isthmus was destroyed in 146 BCE as an example.",
+        "A province named after a classical league taxed the peninsula."
+      ],
+      "summary": "After defeating the Achaean League at Corinth in 146 BCE, Rome destroyed the city and brought the mainland under its supervision, later organising the province of Achaea. Greek cities paid taxes and many works of art were carried off to Italy.",
+      "wikipediaTitle": "Roman Greece",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Roman_Greece"
+      ]
+    },
+    {
+      "id": "GRC-sulla-sack-athens",
+      "title": "Sulla's sack of Athens",
+      "startYear": -87,
+      "endYear": -86,
+      "exploiter": {
+        "label": "the Roman Republic"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "gold",
+        "silver"
+      ],
+      "hints": [
+        "A Roman general besieged a city that had sided with a pontic king.",
+        "Temple treasuries at several sanctuaries were seized to pay his troops."
+      ],
+      "summary": "During the First Mithridatic War, Sulla besieged Athens and Piraeus in 87–86 BCE, sacked the city and carried off treasures. He also took funds from sanctuaries such as Delphi, Olympia and Epidaurus to finance his army.",
+      "wikipediaTitle": "Siege of Athens and Piraeus (87–86 BC)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siege_of_Athens_and_Piraeus_(87%E2%80%9386_BC)"
+      ]
+    },
+    {
+      "id": "GRC-venetian-crete",
+      "title": "Venetian rule of Crete",
+      "startYear": 1211,
+      "endYear": 1669,
+      "exploiter": {
+        "label": "Venice"
+      },
+      "type": "colonization",
+      "resources": [
+        "grain",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Kingdom of Candia"
+      ],
+      "hints": [
+        "A lagoon republic bought an island after the Fourth Crusade and settled it with colonists.",
+        "The siege of its capital Candia lasted over two decades before it fell in 1669."
+      ],
+      "summary": "After the Fourth Crusade, Venice acquired Crete and ruled it as the Kingdom of Candia, settling colonists and drawing grain and revenue from the island. Several revolts occurred, and the Ottomans took the capital in 1669 after a siege of 21 years.",
+      "wikipediaTitle": "Kingdom of Candia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kingdom_of_Candia"
+      ]
+    },
+    {
+      "id": "GRC-ottoman-rule",
+      "title": "Ottoman rule",
+      "startYear": 1453,
+      "endYear": 1821,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "hints": [
+        "The mainland came under Constantinople's sultans over the course of the 15th century.",
+        "A revolt launched in March 1821 began a war that ended with independence."
+      ],
+      "summary": "From the mid-15th century most of the Greek lands were incorporated in the Ottoman Empire, which taxed the Christian population heavily. A revolt in 1821 began the Greek War of Independence and led to independence in 1830.",
+      "wikipediaTitle": "Ottoman Greece",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ottoman_Greece"
+      ]
+    },
+    {
+      "id": "GRC-don-pacifico-blockade",
+      "title": "Don Pacifico affair",
+      "startYear": 1850,
+      "endYear": 1850,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A fleet blockaded the main port over claims by a merchant born in Gibraltar.",
+        "Ships were seized and a debate in the home parliament followed on a 'Civis Romanus sum' speech."
+      ],
+      "summary": "In 1850 the Royal Navy blockaded Piraeus and seized Greek ships to press compensation claims on behalf of British subjects, notably Don Pacifico, after his house was attacked in Athens. The affair sparked a major parliamentary debate in London.",
+      "quip": "Gunboat diplomacy, sparked by a disputed inventory of household goods.",
+      "wikipediaTitle": "Don Pacifico affair",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Don_Pacifico_affair"
+      ]
+    },
+    {
+      "id": "GRC-axis-occupation",
+      "title": "Axis occupation",
+      "startYear": 1941,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "grain",
+        "tobacco"
+      ],
+      "hints": [
+        "The country was divided among German, Italian and Bulgarian zones after April 1941.",
+        "Requisitions and a blockade led to a severe famine in the first winter."
+      ],
+      "summary": "After the Axis invasion in April 1941, Germany, Italy and Bulgaria occupied the country. Requisitioning of food and a blockade contributed to a severe famine in 1941–42 that killed an estimated several hundred thousand, and the occupiers forced the central bank to cover occupation costs.",
+      "sensitive": true,
+      "wikipediaTitle": "Axis occupation of Greece",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Axis_occupation_of_Greece"
+      ]
+    },
+    {
+      "id": "GRC-bulgarian-occupation",
+      "title": "Bulgarian occupation of Thrace and eastern Macedonia",
+      "startYear": 1941,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Bulgaria"
+      },
+      "type": "annexation",
+      "resources": [
+        "tobacco"
+      ],
+      "hints": [
+        "An Axis ally annexed a northern border region after April 1941.",
+        "A revolt in autumn 1941 in Drama was crushed with heavy loss of life."
+      ],
+      "summary": "Bulgaria occupied and annexed Western Thrace and eastern Macedonia in 1941, encouraging Bulgarian settlers and suppressing the local population. The tobacco-growing areas were exploited, and the Drama uprising of 1941 was followed by mass reprisals.",
+      "sensitive": true,
+      "wikipediaTitle": "Bulgarian occupation of Greece",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bulgarian_occupation_of_Greece"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "country": "ABW",
+  "events": [
+    {
+      "id": "ABW-spanish-islas-inutiles",
+      "title": "Spanish rule and the islas inútiles",
+      "startYear": 1499,
+      "endYear": 1636,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "slaves",
+        "livestock",
+        "land"
+      ],
+      "territoryNames": [
+        "Spanish Aruba"
+      ],
+      "hints": [
+        "A Spanish expedition in 1499 dismissed three southern Caribbean islands as useless for mining.",
+        "Many Caquetío inhabitants were taken to work in mines on Hispaniola.",
+        "Spain used the island chiefly for ranching until losing it in 1636."
+      ],
+      "summary": "Alonso de Ojeda reached the island in 1499, and Spain regarded it and its neighbours as islas inútiles for lack of gold. Many Caquetío inhabitants were deported to work on Hispaniola, and the island was used mainly for ranching until the Dutch took it in 1636.",
+      "sensitive": true,
+      "wikipediaTitle": "Aruba",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aruba"
+      ]
+    },
+    {
+      "id": "ABW-dutch-west-india-company",
+      "title": "Dutch West India Company rule",
+      "startYear": 1636,
+      "endYear": 1791,
+      "exploiter": {
+        "label": "the Netherlands"
+      },
+      "type": "colonization",
+      "resources": [
+        "livestock",
+        "trade_routes",
+        "strategic_location"
+      ],
+      "hints": [
+        "In 1636 a trading company seized the island from Spain as a supply base for a larger colony nearby.",
+        "It was used as a ranch for horses and cattle and as a source of fresh meat.",
+        "Company rule ended when the chartered company was dissolved in 1791."
+      ],
+      "summary": "The Dutch West India Company took Aruba from Spain in 1636 and ran it as a ranching outpost supplying Curaçao. The company was dissolved in 1791 and the Dutch state took over administration.",
+      "wikipediaTitle": "Aruba",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aruba"
+      ]
+    }
+  ]
+}

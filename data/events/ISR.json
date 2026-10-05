@@ -1,0 +1,169 @@
+{
+  "country": "ISR",
+  "events": [
+    {
+      "id": "ISR-assyrian-conquest",
+      "title": "Assyrian conquest of the northern kingdom",
+      "startYear": -732,
+      "endYear": -720,
+      "exploiter": {
+        "label": "the Assyrian Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "hints": [
+        "An Assyrian king campaigned on the Mediterranean coast in the 730s BCE and demanded heavy tribute.",
+        "The capital Samaria fell after a three-year siege around 722 BCE.",
+        "Thousands of inhabitants were deported to Mesopotamia and Media."
+      ],
+      "summary": "Tiglath-Pileser III took territory and tribute from the northern kingdom from 732 BCE, and Shalmaneser V and Sargon II besieged and captured Samaria around 722-720 BCE. Many inhabitants were deported to Mesopotamia and Media, ending the kingdom.",
+      "sensitive": true,
+      "wikipediaTitle": "Kingdom of Israel (Samaria)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kingdom_of_Israel_(Samaria)"
+      ]
+    },
+    {
+      "id": "ISR-babylonian-conquest",
+      "title": "Babylonian conquest of Judah and the exile",
+      "startYear": -597,
+      "endYear": -539,
+      "exploiter": {
+        "label": "the Neo-Babylonian Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "territoryNames": [
+        "Judah"
+      ],
+      "hints": [
+        "A king of Babylon besieged Jerusalem in 597 BCE and carried off its elite.",
+        "The Temple was destroyed in 586 BCE.",
+        "The exiles were allowed to return after Cyrus conquered Babylon in 539 BCE."
+      ],
+      "summary": "Nebuchadnezzar II captured Jerusalem in 597 BCE and again in 586 BCE, when the First Temple was destroyed and much of the elite deported to Babylon. The exile ended when Cyrus the Great conquered Babylon in 539 BCE and permitted return.",
+      "sensitive": true,
+      "wikipediaTitle": "Babylonian captivity",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Babylonian_captivity"
+      ]
+    },
+    {
+      "id": "ISR-roman-judea",
+      "title": "Roman conquest of Judea and the revolts",
+      "startYear": -63,
+      "endYear": 135,
+      "exploiter": {
+        "label": "the Roman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "land",
+        "slaves"
+      ],
+      "territoryNames": [
+        "Roman Judea"
+      ],
+      "hints": [
+        "A general entered Jerusalem in 63 BCE and made the Hasmonean kingdom a client state.",
+        "A great revolt that began in 66 CE ended with the burning of the Temple in 70 CE.",
+        "A last revolt led by Bar Kokhba was crushed in 135 CE, followed by a renaming of the province."
+      ],
+      "summary": "Pompey captured Jerusalem in 63 BCE, and Judea became a client kingdom and then a Roman province. The First Jewish-Roman War ended with the destruction of the Second Temple in 70 CE, and the Bar Kokhba revolt was suppressed in 135 CE, after which Hadrian renamed the province Syria Palaestina.",
+      "sensitive": true,
+      "wikipediaTitle": "Iudaea Province",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Iudaea_Province"
+      ]
+    },
+    {
+      "id": "ISR-crusader-kingdom",
+      "title": "Kingdom of Jerusalem",
+      "startYear": 1099,
+      "endYear": 1291,
+      "exploiter": {
+        "label": "the Crusader states"
+      },
+      "type": "occupation",
+      "resources": [
+        "trade_routes",
+        "land"
+      ],
+      "territoryNames": [
+        "the Kingdom of Jerusalem"
+      ],
+      "hints": [
+        "A European army stormed the holy city in July 1099 after a siege of five weeks.",
+        "The conquerors set up a feudal kingdom along the coast and inland.",
+        "The last mainland stronghold, Acre, fell in 1291."
+      ],
+      "summary": "The First Crusade captured Jerusalem on 15 July 1099 and the Crusaders set up the Kingdom of Jerusalem. The kingdom lost Jerusalem to Saladin in 1187, and its remnants on the coast survived until the fall of Acre in 1291.",
+      "sensitive": true,
+      "wikipediaTitle": "Kingdom of Jerusalem",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kingdom_of_Jerusalem"
+      ]
+    },
+    {
+      "id": "ISR-ottoman-palestine",
+      "title": "Ottoman rule over the southern Levant",
+      "startYear": 1517,
+      "endYear": 1917,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "territoryNames": [
+        "Ottoman Palestine"
+      ],
+      "hints": [
+        "A sultan's army took the region from the Mamluks after the battle of Marj Dabiq in 1516.",
+        "Local governors, taxes and the millet system shaped life for four centuries.",
+        "British forces captured Jerusalem in December 1917."
+      ],
+      "summary": "The Ottomans defeated the Mamluks in 1516-1517 and ruled the region as districts of Damascus and Sidon. Tax farming, land tenure reforms and the millet system governed life until British forces took Jerusalem in December 1917.",
+      "wikipediaTitle": "Ottoman Syria",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ottoman_Syria"
+      ]
+    },
+    {
+      "id": "ISR-british-mandate",
+      "title": "British Mandate for Palestine",
+      "startYear": 1920,
+      "endYear": 1948,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "strategic_location"
+      ],
+      "territoryNames": [
+        "Mandatory Palestine"
+      ],
+      "hints": [
+        "At San Remo in 1920 a mandate was given over a territory promised to two peoples.",
+        "The 1917 Balfour Declaration supported a Jewish national home, and Arab leaders were promised independence in earlier wartime pledges.",
+        "Britain referred the problem to the UN and withdrew in May 1948."
+      ],
+      "summary": "Britain administered the territory under a League of Nations mandate from 1920 to 1948. Wartime promises to Arab leaders and the 1917 Balfour Declaration conflicted, and increasing Jewish immigration and Arab opposition produced revolt and violence. Britain referred the issue to the UN in 1947 and ended the mandate in May 1948.",
+      "wikipediaTitle": "Mandatory Palestine",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mandatory_Palestine"
+      ]
+    }
+  ]
+}

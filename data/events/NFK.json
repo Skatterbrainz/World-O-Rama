@@ -1,0 +1,41 @@
+{
+  "country": "NFK",
+  "events": [
+    {
+      "id": "NFK-first-penal-settlement",
+      "title": "First penal settlement",
+      "startYear": 1788,
+      "endYear": 1814,
+      "exploiter": { "label": "the British Empire" },
+      "type": "forced_labour",
+      "resources": ["labour", "timber"],
+      "hints": [
+        "A remote island was settled a few weeks after the First Fleet reached the mainland.",
+        "Convicts cleared land and cut pine and flax.",
+        "It was abandoned in 1814."
+      ],
+      "summary": "Within weeks of the First Fleet landing at Sydney in 1788, convicts and marines were sent to settle the island, intended as a supply station of timber and flax. The settlement proved difficult and was evacuated in 1814.",
+      "sensitive": true,
+      "wikipediaTitle": "Norfolk Island",
+      "sources": ["https://en.wikipedia.org/wiki/Norfolk_Island"]
+    },
+    {
+      "id": "NFK-second-penal-settlement",
+      "title": "Second penal settlement",
+      "startYear": 1825,
+      "endYear": 1855,
+      "exploiter": { "label": "the British Empire" },
+      "type": "forced_labour",
+      "resources": ["labour"],
+      "hints": [
+        "The island was reopened in 1825 as a place of punishment for repeat offenders.",
+        "Floggings and harsh discipline became infamous.",
+        "Mutinies in the 1840s led to mass executions."
+      ],
+      "summary": "Britain reopened the island in 1825 as a place of secondary punishment for convicts who had re-offended in the Australian colonies. It became notorious for harsh discipline, with floggings and chain gangs, and convict mutinies in the 1840s ended in executions. The settlement closed in 1855.",
+      "sensitive": true,
+      "wikipediaTitle": "Norfolk Island",
+      "sources": ["https://en.wikipedia.org/wiki/Norfolk_Island"]
+    }
+  ]
+}

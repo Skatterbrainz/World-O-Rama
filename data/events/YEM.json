@@ -1,0 +1,136 @@
+{
+  "country": "YEM",
+  "events": [
+    {
+      "id": "YEM-aksum",
+      "title": "Aksumite conquest of Himyar",
+      "startYear": 525,
+      "endYear": 570,
+      "exploiter": {
+        "label": "the Kingdom of Aksum"
+      },
+      "type": "occupation",
+      "resources": [
+        "trade_routes",
+        "tribute"
+      ],
+      "hints": [
+        "A Jewish-convert king of a southern Arabian state persecuted Christians in the early 6th century.",
+        "An African Christian kingdom across the Red Sea invaded around 525 and installed a client ruler.",
+        "A former general named Abraha later made himself ruler and led a famed expedition against Mecca."
+      ],
+      "summary": "After Himyarite king Dhu Nuwas persecuted Christians, the Kingdom of Aksum invaded around 525 and installed a client king. Abraha seized power, ruling until about 570, when Sasanian Persia intervened.",
+      "wikipediaTitle": "Kingdom of Aksum",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kingdom_of_Aksum"
+      ]
+    },
+    {
+      "id": "YEM-ottoman-first",
+      "title": "First Ottoman rule",
+      "startYear": 1538,
+      "endYear": 1635,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "coffee",
+        "trade_routes",
+        "tribute"
+      ],
+      "territoryNames": [
+        "Ottoman Yemen"
+      ],
+      "hints": [
+        "In 1538 Ottoman forces campaigning against the Portuguese took the southern port and then the highlands.",
+        "The Ottomans exported coffee through the Red Sea port of Mocha.",
+        "Zaydi imams drove them out in 1635."
+      ],
+      "summary": "The Ottomans took the port of Aden in 1538 and conquered the highlands during the 1540s, as part of their contest with Portugal. Zaydi imams led an uprising and expelled the Ottomans in 1635, by which time the coffee trade had become important.",
+      "wikipediaTitle": "Yemen vilayet",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yemen_vilayet"
+      ]
+    },
+    {
+      "id": "YEM-ottoman-second",
+      "title": "Second Ottoman rule",
+      "startYear": 1872,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "coffee",
+        "tribute"
+      ],
+      "territoryNames": [
+        "the Vilayet of Yemen"
+      ],
+      "hints": [
+        "After the opening of the Suez Canal in 1869, troops were sent back to the highlands.",
+        "The province was ruled from the capital but with constant revolts by Zaydi tribes.",
+        "A treaty in 1911 recognised the imam's local authority, and the Ottomans left in 1918."
+      ],
+      "summary": "After the Suez Canal opened, Ottoman troops reoccupied the highlands in 1872. Rebellion by Zaydi imams and tribes continued, and the 1911 Treaty of Da'an gave Imam Yahya autonomy. The Ottoman withdrawal in 1918 followed the empire's defeat in the First World War.",
+      "wikipediaTitle": "Yemen vilayet",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yemen_vilayet"
+      ]
+    },
+    {
+      "id": "YEM-british-aden",
+      "title": "British Aden and the Protectorate",
+      "startYear": 1839,
+      "endYear": 1967,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "trade_routes",
+        "strategic_location"
+      ],
+      "territoryNames": [
+        "the Colony of Aden",
+        "the Aden Protectorate"
+      ],
+      "hints": [
+        "A naval force took a Red Sea coaling port in January 1839 after a ship was plundered.",
+        "It became a key coaling station for steamships heading to British India.",
+        "A 1960s insurgency forced Britain out in November 1967."
+      ],
+      "summary": "Britain seized Aden in January 1839, making it a coaling station and later a crown colony in 1937. Treaties with local sultans created the Aden Protectorate. An insurgency by the NLF and FLOSY forced the British out on 30 November 1967.",
+      "wikipediaTitle": "Colony of Aden",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Colony_of_Aden"
+      ]
+    },
+    {
+      "id": "YEM-egyptian-intervention",
+      "title": "Egyptian intervention in the civil war",
+      "startYear": 1962,
+      "endYear": 1967,
+      "exploiter": {
+        "label": "Egypt"
+      },
+      "type": "proxy_war",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A coup in September 1962 overthrew an imam and set off a civil war.",
+        "Up to 70,000 troops from a republic across the Red Sea intervened, and Saudi Arabia backed the royalists.",
+        "Chemical weapons were used on villages, and the force withdrew after 1967."
+      ],
+      "summary": "After the September 1962 coup, Egypt sent up to 70,000 troops to support the republicans, while Saudi Arabia and Jordan supported the royalists. Egyptian forces used poison gas on villages in 1963-1967, and withdrew after the Six-Day War.",
+      "sensitive": true,
+      "wikipediaTitle": "North Yemen Civil War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/North_Yemen_Civil_War"
+      ]
+    }
+  ]
+}

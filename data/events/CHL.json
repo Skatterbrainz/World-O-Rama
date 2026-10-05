@@ -1,0 +1,178 @@
+{
+  "country": "CHL",
+  "events": [
+    {
+      "id": "CHL-spanish-conquest-arauco",
+      "title": "Spanish conquest and the Arauco War",
+      "startYear": 1541,
+      "endYear": 1818,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "gold",
+        "land",
+        "slaves"
+      ],
+      "territoryNames": [
+        "the Captaincy General of Chile"
+      ],
+      "hints": [
+        "Pedro de Valdivia founded the capital in 1541, and the Mapuche resisted for generations in the south.",
+        "A war of attrition on the frontier lasted for much of the colonial period, and captured Indigenous people were sometimes enslaved.",
+        "The Spanish crown's captaincy general lasted until independence in 1818."
+      ],
+      "summary": "Pedro de Valdivia founded Santiago in 1541 and the Spanish conquest met sustained Mapuche resistance in the Arauco War. Spanish settlers used encomienda labour and, between 1608 and 1683, legal enslavement of captured Mapuche. Spanish rule ended after 1818.",
+      "sensitive": true,
+      "wikipediaTitle": "Captaincy General of Chile",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Captaincy_General_of_Chile"
+      ]
+    },
+    {
+      "id": "CHL-occupation-araucania",
+      "title": "Occupation of the Araucanía",
+      "startYear": 1861,
+      "endYear": 1883,
+      "exploiter": {
+        "label": "Chile"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "livestock"
+      ],
+      "hints": [
+        "An army moved south in 1861 to occupy the last independent Indigenous territory.",
+        "Mapuche communities were defeated, confined to small reservations and lost most of their land.",
+        "Immigrants and large estates took the land, and the final campaign ended in 1883."
+      ],
+      "summary": "From 1861 the Chilean state sent troops into the Mapuche territory south of the Biobío River. After a Mapuche uprising in 1881 was crushed, the Mapuche were confined to small reservations and most of their land was sold to colonists and large estates.",
+      "sensitive": true,
+      "wikipediaTitle": "Occupation of Araucanía",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Occupation_of_Araucan%C3%ADa"
+      ]
+    },
+    {
+      "id": "CHL-chuquicamata-copper",
+      "title": "American copper companies",
+      "startYear": 1915,
+      "endYear": 1971,
+      "exploiter": {
+        "label": "Anaconda and Kennecott"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "copper",
+        "labour"
+      ],
+      "hints": [
+        "Two giant mining companies headquartered in the United States controlled the main copper deposits for most of the 20th century.",
+        "The desert mines were run as company enclaves with low taxes, and profits left the country.",
+        "The mines were nationalised in 1971 with a unanimous vote in congress."
+      ],
+      "summary": "From 1915 American firms, Guggenheim and Anaconda at Chuquicamata and Kennecott at El Teniente, controlled most of the copper industry. Profits largely left the country, and the mines were nationalised by a unanimous congressional vote in July 1971.",
+      "wikipediaTitle": "Chuquicamata",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chuquicamata"
+      ]
+    },
+    {
+      "id": "CHL-valparaiso-bombardment",
+      "title": "Spanish bombardment of Valparaíso",
+      "startYear": 1865,
+      "endYear": 1866,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "other",
+      "resources": [
+        "trade_routes",
+        "guano"
+      ],
+      "hints": [
+        "A European fleet tried to punish a South American republic for supporting a neighbour in 1865.",
+        "It bombarded an undefended port city on 31 March 1866.",
+        "The attack destroyed much of the merchant fleet's warehouses and failed to change policy."
+      ],
+      "summary": "During the Chincha Islands War, a Spanish squadron bombarded the undefended port of Valparaíso on 31 March 1866 after failing to force a settlement. It destroyed warehouses and ships and fuelled hostility to Spain across the continent.",
+      "quip": "Spain bombarded a port to win an argument and lost it anyway.",
+      "wikipediaTitle": "Chincha Islands War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chincha_Islands_War"
+      ]
+    },
+    {
+      "id": "CHL-1973-coup",
+      "title": "CIA covert action against Allende and the 1973 coup",
+      "startYear": 1970,
+      "endYear": 1973,
+      "exploiter": {
+        "label": "the CIA"
+      },
+      "type": "coup",
+      "resources": [],
+      "hints": [
+        "After a socialist won the 1970 election, Washington's president told the CIA to make the economy scream.",
+        "Covert funding went to opposition media and groups while credit was squeezed.",
+        "A military coup on 11 September 1973 was followed by a long dictatorship."
+      ],
+      "summary": "After Salvador Allende's 1970 election the CIA ran covert operations against his government, spending an estimated $8 million to fund opposition media and parties and keeping contacts in the military. The Church Committee found no direct CIA role in the 11 September 1973 coup itself, though the agency has been alleged to have backed it through its covert action and contacts with the military. It brought General Augusto Pinochet's dictatorship, during which thousands were killed or disappeared.",
+      "sensitive": true,
+      "alleged": true,
+      "wikipediaTitle": "1973 Chilean coup d'état",
+      "sources": [
+        "https://en.wikipedia.org/wiki/1973_Chilean_coup_d'%C3%A9tat"
+      ]
+    },
+    {
+      "id": "CHL-1964-election-cia",
+      "title": "CIA funding of the 1964 election",
+      "startYear": 1964,
+      "endYear": 1964,
+      "exploiter": {
+        "label": "the CIA"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "Washington feared that a Marxist candidate might win a presidential election in the early 1960s.",
+        "The CIA paid for polling, voter registration and propaganda in support of a centrist candidate.",
+        "More than half of the winner's campaign was covertly financed, and the Socialist candidate, Salvador Allende, lost in September 1964."
+      ],
+      "summary": "To stop Salvador Allende winning the 4 September 1964 presidential election, the CIA covertly funded the campaign of Christian Democrat Eduardo Frei Montalva and allied groups, an estimated $3 million in total according to the Church Committee, which was more than half of Frei's campaign costs. Frei won with 56 percent of the vote.",
+      "quip": "The CIA bankrolled more than half of the winning campaign, which is one way to run a free election.",
+      "wikipediaTitle": "1964 Chilean presidential election",
+      "sources": [
+        "https://en.wikipedia.org/wiki/1964_Chilean_presidential_election",
+        "https://www.intelligence.senate.gov/sites/default/files/94chile.pdf",
+        "https://nsarchive.gwu.edu/briefing-book/foia-intelligence/2025-04-07/jfk-files-revelations-covert-operations-high-command"
+      ]
+    },
+    {
+      "id": "CHL-1970-track-ii",
+      "title": "Tracks I and II to block Allende's inauguration",
+      "startYear": 1970,
+      "endYear": 1970,
+      "exploiter": {
+        "label": "the CIA"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A socialist won a plurality in the September 1970 presidential election.",
+        "The US president ordered the CIA to keep him from taking office, including by promoting a military coup.",
+        "A botched kidnapping of the army commander in October 1970, by officers in contact with the CIA, left him fatally wounded and the plot collapsed."
+      ],
+      "summary": "After Salvador Allende won a plurality on 4 September 1970, President Nixon ordered the CIA to prevent him taking office. Under Track II (Project FUBELT) the CIA encouraged coup plotting among Chilean officers and passed weapons to one group. A kidnapping attempt on 22 October left army commander General René Schneider fatally wounded, and Congress confirmed Allende on 24 October.",
+      "sensitive": true,
+      "wikipediaTitle": "Project FUBELT",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Project_FUBELT",
+        "https://www.intelligence.senate.gov/sites/default/files/94chile.pdf"
+      ]
+    }
+  ]
+}

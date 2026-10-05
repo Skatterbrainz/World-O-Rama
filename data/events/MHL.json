@@ -1,0 +1,75 @@
+{
+  "country": "MHL",
+  "events": [
+    {
+      "id": "MHL-german-protectorate",
+      "title": "German protectorate",
+      "startYear": 1885,
+      "endYear": 1914,
+      "exploiter": { "label": "Imperial Germany" },
+      "type": "colonization",
+      "resources": ["land"],
+      "hints": [
+        "A trading firm from Hamburg dominated the atolls' commerce.",
+        "The islands were declared a protectorate in 1885.",
+        "Japan took them in 1914."
+      ],
+      "summary": "Germany declared a protectorate in 1885, after trading firms had set up in the atolls. A company, the Jaluit Gesellschaft, held a monopoly on trade and administration from 1888, until Japan seized the islands in 1914.",
+      "wikipediaTitle": "Marshall Islands",
+      "sources": ["https://en.wikipedia.org/wiki/Marshall_Islands"]
+    },
+    {
+      "id": "MHL-japanese-mandate",
+      "title": "Japanese rule",
+      "startYear": 1914,
+      "endYear": 1944,
+      "exploiter": { "label": "Japan" },
+      "type": "colonization",
+      "resources": ["land", "labour"],
+      "territoryNames": ["the South Seas Mandate"],
+      "hints": [
+        "An East Asian power ruled the atolls from 1914 under a mandate.",
+        "Atolls were fortified before the Second World War.",
+        "US forces invaded Kwajalein and Enewetak in early 1944."
+      ],
+      "summary": "Japan took the islands from Germany in 1914 and administered them under the South Seas Mandate. In the late 1930s it fortified atolls such as Kwajalein, Wotje and Enewetak, and the US captured them in early 1944.",
+      "wikipediaTitle": "South Seas Mandate",
+      "sources": ["https://en.wikipedia.org/wiki/South_Seas_Mandate"]
+    },
+    {
+      "id": "MHL-nuclear-testing",
+      "title": "US nuclear testing",
+      "startYear": 1946,
+      "endYear": 1958,
+      "exploiter": { "label": "the United States" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "The people of one atoll were moved away in 1946 for a test of weapons against ships.",
+        "Sixty-seven nuclear tests were carried out in twelve years.",
+        "A 15-megaton shot in 1954 spread fallout across inhabited islands."
+      ],
+      "summary": "From 1946 to 1958 the United States conducted 67 nuclear tests at Bikini and Enewetak atolls, including the 15-megaton Castle Bravo shot in 1954 which contaminated inhabited islands such as Rongelap. Communities were displaced and later received compensation through a nuclear claims tribunal.",
+      "sensitive": true,
+      "wikipediaTitle": "Nuclear testing at Bikini Atoll",
+      "sources": ["https://en.wikipedia.org/wiki/Nuclear_testing_at_Bikini_Atoll"]
+    },
+    {
+      "id": "MHL-kwajalein",
+      "title": "Kwajalein missile range",
+      "startYear": 1944,
+      "endYear": 2025,
+      "exploiter": { "label": "the United States" },
+      "type": "other",
+      "resources": ["strategic_location", "land"],
+      "hints": [
+        "A giant lagoon became a missile-testing site for a foreign power.",
+        "Residents were moved to a crowded island nearby.",
+        "The lease is paid for by rent that landowners have disputed."
+      ],
+      "summary": "The US captured Kwajalein Atoll in 1944 and later developed it as a missile test range, now the Reagan Test Site. Landowners were relocated, and the island of Ebeye next door became extremely overcrowded. Land-use payments and rents have long been disputed.",
+      "wikipediaTitle": "Kwajalein Atoll",
+      "sources": ["https://en.wikipedia.org/wiki/Kwajalein_Atoll"]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "country": "VUT",
+  "events": [
+    {
+      "id": "VUT-blackbirding",
+      "title": "Blackbirding",
+      "startYear": 1863,
+      "endYear": 1906,
+      "exploiter": { "label": "the British Empire" },
+      "type": "slave_trade",
+      "resources": ["labour", "sugar"],
+      "territoryNames": ["the New Hebrides"],
+      "hints": [
+        "Ships from Queensland and Fiji took islanders away for plantation work.",
+        "Some of the largest recruitment came from this archipelago.",
+        "Many returned home sick or did not return at all."
+      ],
+      "summary": "From 1863 recruiting ships took many thousands of men and women from the New Hebrides, often by trickery or kidnapping, to work on sugar and cotton plantations in Queensland, Fiji and elsewhere. The trade drew missionary criticism and was gradually curtailed by 1906.",
+      "sensitive": true,
+      "wikipediaTitle": "Blackbirding",
+      "sources": ["https://en.wikipedia.org/wiki/Blackbirding"]
+    },
+    {
+      "id": "VUT-condominium",
+      "title": "Anglo-French Condominium",
+      "startYear": 1906,
+      "endYear": 1980,
+      "exploiter": { "label": "France" },
+      "type": "colonization",
+      "resources": ["land"],
+      "territoryNames": ["the Anglo-French Condominium of the New Hebrides"],
+      "hints": [
+        "Two colonial powers ruled together and neither would give way.",
+        "It had two police forces, two currencies and two legal systems.",
+        "Locals called the arrangement 'Pandemonium'."
+      ],
+      "summary": "In 1906 France and Britain established a joint administration over the New Hebrides, with separate legal systems, police forces and currencies for their nationals and no clear status for the islanders. The complicated system became known as 'Pandemonium' and lasted until independence in 1980.",
+      "quip": "Two governments, two police forces, two legal systems and one nickname: 'Pandemonium'.",
+      "wikipediaTitle": "New Hebrides",
+      "sources": ["https://en.wikipedia.org/wiki/New_Hebrides"]
+    },
+    {
+      "id": "VUT-land-alienation",
+      "title": "Settler land purchases",
+      "startYear": 1882,
+      "endYear": 1914,
+      "exploiter": { "label": "France" },
+      "type": "other",
+      "resources": ["land"],
+      "hints": [
+        "A company founded in 1882 bought up large areas from island chiefs.",
+        "European settlers claimed much of the best plantation land.",
+        "A joint court later decided claims."
+      ],
+      "summary": "From the 1880s European planters, mainly French and British, acquired large areas of the islands through purchases often poorly understood by customary owners. By the early twentieth century settlers claimed a large share of the best land, and a joint court was established to rule on the disputes.",
+      "wikipediaTitle": "New Hebrides",
+      "sources": ["https://en.wikipedia.org/wiki/New_Hebrides"]
+    }
+  ]
+}

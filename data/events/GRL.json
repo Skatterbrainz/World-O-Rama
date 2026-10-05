@@ -1,0 +1,100 @@
+{
+  "country": "GRL",
+  "events": [
+    {
+      "id": "GRL-danish-colonisation",
+      "title": "Danish colonisation and trade monopoly",
+      "startYear": 1721,
+      "endYear": 1953,
+      "exploiter": {
+        "label": "Denmark"
+      },
+      "type": "colonization",
+      "resources": [
+        "fish",
+        "furs",
+        "ivory"
+      ],
+      "territoryNames": [
+        "Danish Greenland"
+      ],
+      "hints": [
+        "A Lutheran missionary landed in 1721 and the Crown later declared a monopoly over trade.",
+        "A state trading department fixed prices and controlled access to the Arctic hunting society.",
+        "The colony was made an integral part of the realm in 1953."
+      ],
+      "summary": "The missionary Hans Egede founded a settlement in 1721, and Denmark-Norway later claimed the whole coast. A royal trading department held the monopoly on trade from 1776 into the 20th century. In 1953 the colonial status was ended and the island became an integral part of Denmark.",
+      "wikipediaTitle": "History of Greenland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Greenland"
+      ]
+    },
+    {
+      "id": "GRL-ivittuut-cryolite",
+      "title": "Ivittuut cryolite mine",
+      "startYear": 1859,
+      "endYear": 1987,
+      "exploiter": {
+        "label": "Denmark"
+      },
+      "type": "resource_extraction",
+      "resources": [],
+      "hints": [
+        "A mine on the southwest coast became the world's main source of a mineral used in aluminium smelting.",
+        "During the Second World War it supplied the Allies after Denmark was occupied.",
+        "It closed in 1987 after more than a century of operation."
+      ],
+      "summary": "The cryolite deposit at Ivittuut was the world's main source of the mineral, essential to aluminium smelting. Danish engineers began mining it in 1859 and a Danish company held a monopoly from 1864. The mine's strategic value drew a US military presence in the Second World War, and it closed in 1987.",
+      "wikipediaTitle": "Ivittuut",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ivittuut"
+      ]
+    },
+    {
+      "id": "GRL-thule-relocation",
+      "title": "Thule Air Base and the relocation of the Inughuit",
+      "startYear": 1951,
+      "endYear": 1953,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "strategic_location"
+      ],
+      "hints": [
+        "In the early Cold War a huge military base was built at the edge of the northernmost settlement.",
+        "About 100 Inughuit were given four days' notice to move in 1953.",
+        "The hunters were resettled far from their traditional grounds, and in 1999 a court awarded compensation."
+      ],
+      "summary": "The United States built Thule Air Base from 1951 under a defence agreement with Denmark. In 1953 the roughly 100 Inughuit living at Uummannaq were relocated about 100 km north. Danish courts later awarded them compensation, in 1999 and 2003.",
+      "wikipediaTitle": "Thule Air Base",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Thule_Air_Base"
+      ]
+    },
+    {
+      "id": "GRL-little-danes",
+      "title": "Little Danes experiment",
+      "startYear": 1951,
+      "endYear": 1953,
+      "exploiter": {
+        "label": "Denmark"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "In 1951 a Nordic government took a group of young children from their families to be educated abroad.",
+        "The aim was to raise a cultural elite that would be fluent in the colonial power's language.",
+        "Many were later placed in a children's home, and an official apology came in 2022."
+      ],
+      "summary": "In 1951 Denmark sent 22 Greenlandic children to Denmark to be educated as a Danish-speaking elite. Many were placed in a children's home, and many lost contact with their families. Denmark's prime minister apologised to the surviving participants in 2022.",
+      "sensitive": true,
+      "wikipediaTitle": "Little Danes experiment",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Little_Danes_experiment"
+      ]
+    }
+  ]
+}

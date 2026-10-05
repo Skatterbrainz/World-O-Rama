@@ -1,0 +1,22 @@
+{
+  "country": "TON",
+  "events": [
+    {
+      "id": "TON-british-protectorate",
+      "title": "Treaty of Friendship and British protection",
+      "startYear": 1900,
+      "endYear": 1970,
+      "exploiter": { "label": "the British Empire" },
+      "type": "unequal_treaty",
+      "resources": ["strategic_location"],
+      "hints": [
+        "A Pacific kingdom gave up control of its foreign relations in 1900.",
+        "A British consul had authority over foreigners.",
+        "Full sovereignty was regained in June 1970."
+      ],
+      "summary": "Tonga, which kept its monarchy throughout the colonial era, signed a Treaty of Friendship and Protection with Britain in 1900, giving Britain control over its foreign relations and a consul with authority over foreigners. The treaty was ended in 1970 when Tonga became fully independent.",
+      "wikipediaTitle": "Tonga",
+      "sources": ["https://en.wikipedia.org/wiki/Tonga"]
+    }
+  ]
+}

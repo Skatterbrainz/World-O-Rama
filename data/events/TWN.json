@@ -1,0 +1,93 @@
+{
+  "country": "TWN",
+  "events": [
+    {
+      "id": "TWN-dutch-formosa",
+      "title": "Dutch Formosa",
+      "startYear": 1624,
+      "endYear": 1662,
+      "exploiter": { "label": "the Dutch East India Company" },
+      "type": "colonization",
+      "resources": ["sugar", "rice", "labour"],
+      "territoryNames": ["Dutch Formosa", "Formosa"],
+      "hints": [
+        "A trading company built Fort Zeelandia on a sandbar in 1624.",
+        "It imported farm workers from the mainland and exported deerskins and sugar.",
+        "A Ming loyalist named Koxinga expelled it in 1662."
+      ],
+      "summary": "The Dutch East India Company built Fort Zeelandia in 1624 and ran a colony on the west coast, exporting deerskins and sugar and encouraging migrants from Fujian to farm rice and sugar cane. Koxinga's forces captured the fort in 1662.",
+      "wikipediaTitle": "Dutch Formosa",
+      "sources": ["https://en.wikipedia.org/wiki/Dutch_Formosa"]
+    },
+    {
+      "id": "TWN-spanish-formosa",
+      "title": "Spanish Formosa",
+      "startYear": 1626,
+      "endYear": 1642,
+      "exploiter": { "label": "Spain" },
+      "type": "colonization",
+      "resources": ["trade_routes", "strategic_location"],
+      "territoryNames": ["Spanish Formosa"],
+      "hints": [
+        "A fleet from Manila established forts in the north of the island.",
+        "Keelung and Tamsui were their bases.",
+        "The Dutch drove them out in 1642."
+      ],
+      "summary": "Seeking a base near the China trade and to protect Manila-based shipping, Spain established forts at Keelung (San Salvador) and Tamsui in 1626. Its colony in the north was ended in 1642 when the Dutch captured Keelung.",
+      "wikipediaTitle": "Spanish Formosa",
+      "sources": ["https://en.wikipedia.org/wiki/Spanish_Formosa"]
+    },
+    {
+      "id": "TWN-qing-rule",
+      "title": "Qing rule",
+      "startYear": 1683,
+      "endYear": 1895,
+      "exploiter": { "label": "the Qing dynasty" },
+      "type": "annexation",
+      "resources": ["sugar", "tea", "rice", "timber"],
+      "hints": [
+        "A dynasty from the mainland took the island after defeating the Zheng regime.",
+        "For two centuries it was a prefecture of Fujian before becoming a province in 1887.",
+        "Ceded to another empire after the 1895 treaty of Shimonoseki."
+      ],
+      "summary": "The Qing dynasty defeated the Zheng kingdom of Tungning in 1683 and administered the island as part of Fujian until making it a separate province in 1887. Exports of sugar, rice and later tea grew, as settlement spread into aboriginal lands, until it was ceded to Japan in 1895.",
+      "wikipediaTitle": "Taiwan under Qing rule",
+      "sources": ["https://en.wikipedia.org/wiki/Taiwan_under_Qing_rule"]
+    },
+    {
+      "id": "TWN-keelung-campaign",
+      "title": "French blockade and the Keelung campaign",
+      "startYear": 1884,
+      "endYear": 1885,
+      "exploiter": { "label": "France" },
+      "type": "occupation",
+      "resources": ["coal", "strategic_location"],
+      "hints": [
+        "A European fleet landed troops at the northern port in 1884 during a war with the mainland.",
+        "Coal seams were one of the objectives.",
+        "The island's fishing-port archipelago to the west was also occupied in March 1885."
+      ],
+      "summary": "During the Sino-French War, French forces captured Keelung in October 1884, seeking coal supplies and a bargaining chip, and blockaded the island. They occupied the Pescadores in March 1885 and left after the peace treaty.",
+      "wikipediaTitle": "Keelung campaign",
+      "sources": ["https://en.wikipedia.org/wiki/Keelung_campaign"]
+    },
+    {
+      "id": "TWN-japanese-rule",
+      "title": "Japanese rule",
+      "startYear": 1895,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "colonization",
+      "resources": ["sugar", "rice", "tea", "timber"],
+      "territoryNames": ["Formosa"],
+      "hints": [
+        "The island was ceded to a new imperial power after a war in 1895.",
+        "It became a supplier of rice and sugar for the colonial homeland.",
+        "Rule ended with the Second World War in 1945."
+      ],
+      "summary": "Taiwan was ceded to Japan by the Treaty of Shimonoseki in 1895 after the First Sino-Japanese War. Japan suppressed armed resistance, built infrastructure and developed sugar and rice production for the home market, ruling the island for fifty years until 1945.",
+      "wikipediaTitle": "Taiwan under Japanese rule",
+      "sources": ["https://en.wikipedia.org/wiki/Taiwan_under_Japanese_rule"]
+    }
+  ]
+}

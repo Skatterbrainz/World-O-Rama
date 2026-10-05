@@ -1,0 +1,235 @@
+{
+  "country": "RUS",
+  "events": [
+    {
+      "id": "RUS-mongol-invasion-rus",
+      "title": "Mongol invasion of Rus'",
+      "startYear": 1237,
+      "endYear": 1240,
+      "exploiter": {
+        "label": "the Mongol Empire"
+      },
+      "type": "other",
+      "resources": [
+        "tribute"
+      ],
+      "hints": [
+        "A winter campaign in December 1237 began with the burning of a city on the Oka.",
+        "The cities of the north-east fell in 1238, and the southern capital in 1240."
+      ],
+      "summary": "Batu Khan's army invaded the principalities of Rus' in 1237, sacking Ryazan, Vladimir and other cities in the winter of 1237–38, and took Kyiv in 1240. The conquered lands then became tributaries of the Mongol state; the scale of the casualties is debated.",
+      "sensitive": true,
+      "wikipediaTitle": "Mongol invasion of Rus'",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mongol_invasion_of_Rus'"
+      ]
+    },
+    {
+      "id": "RUS-golden-horde-suzerainty",
+      "title": "Golden Horde suzerainty",
+      "startYear": 1240,
+      "endYear": 1480,
+      "exploiter": {
+        "label": "the Golden Horde"
+      },
+      "type": "other",
+      "resources": [
+        "tribute",
+        "silver"
+      ],
+      "hints": [
+        "Princes travelled to a khan's capital on the Volga to receive a charter to rule.",
+        "A standoff on the Ugra River in 1480 is traditionally said to have ended the arrangement."
+      ],
+      "summary": "After the Mongol conquest, the princes of north-eastern Rus' were subject to the khans of the Golden Horde, paying tribute and travelling to Sarai to receive a yarlyk to rule. The standoff on the Ugra River in 1480 traditionally marks the end of the relationship.",
+      "wikipediaTitle": "Golden Horde",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Golden_Horde"
+      ]
+    },
+    {
+      "id": "RUS-crimean-sack-of-moscow",
+      "title": "Crimean sack of Moscow",
+      "startYear": 1571,
+      "endYear": 1571,
+      "exploiter": {
+        "label": "the Crimean Khanate"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves"
+      ],
+      "hints": [
+        "A khan's cavalry set the capital's suburbs on fire in the summer of 1571.",
+        "Thousands of captives were taken south to the slave markets of Kaffa."
+      ],
+      "summary": "In May 1571 the Crimean khan Devlet I Giray raided deep into Muscovy and burned much of Moscow outside the Kremlin. His army carried off a very large number of captives to be sold at the slave markets of the Crimea; estimates vary widely.",
+      "sensitive": true,
+      "wikipediaTitle": "Russo-Crimean War (1571)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Russo-Crimean_War_(1571)"
+      ]
+    },
+    {
+      "id": "RUS-polish-occupation-moscow",
+      "title": "Polish-Lithuanian occupation of Moscow",
+      "startYear": 1610,
+      "endYear": 1612,
+      "exploiter": {
+        "label": "the Polish-Lithuanian Commonwealth"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A foreign garrison held the Kremlin during the Time of Troubles.",
+        "A butcher and a prince raised a volunteer army that expelled it in 1612."
+      ],
+      "summary": "During the Time of Troubles, a Polish-Lithuanian army defeated Muscovite forces at Klushino in 1610 and occupied Moscow and its Kremlin until a volunteer army led by Minin and Pozharsky expelled it in October 1612.",
+      "wikipediaTitle": "Polish–Muscovite War (1605–1618)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Polish%E2%80%93Muscovite_War_(1605%E2%80%931618)"
+      ]
+    },
+    {
+      "id": "RUS-ingrian-war",
+      "title": "Swedish occupation of Novgorod",
+      "startYear": 1611,
+      "endYear": 1617,
+      "exploiter": {
+        "label": "Sweden"
+      },
+      "type": "occupation",
+      "resources": [
+        "land",
+        "trade_routes"
+      ],
+      "hints": [
+        "A northern power took a great trading city in 1611 and hoped to place its prince on the throne.",
+        "A peace in 1617 cut the country off from the Baltic."
+      ],
+      "summary": "During the Time of Troubles, Sweden occupied Novgorod in 1611 and held it for six years. The Treaty of Stolbovo in 1617 returned Novgorod but gave Sweden Ingria and Kexholm, cutting Muscovy off from the Baltic coast.",
+      "wikipediaTitle": "Ingrian War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ingrian_War"
+      ]
+    },
+    {
+      "id": "RUS-napoleon-invasion-1812",
+      "title": "French invasion",
+      "startYear": 1812,
+      "endYear": 1812,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "An army of several hundred thousand crossed the Neman in June 1812.",
+        "The old capital was occupied in September and largely burned during the occupation."
+      ],
+      "summary": "Napoleon's Grande Armee crossed the Neman in June 1812, fought the Battle of Borodino in September and entered Moscow, which was largely burned. Hunger, disease and the winter destroyed the army during the retreat, and military and civilian losses were very high.",
+      "sensitive": true,
+      "wikipediaTitle": "French invasion of Russia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+      ]
+    },
+    {
+      "id": "RUS-brest-litovsk",
+      "title": "Treaty of Brest-Litovsk",
+      "startYear": 1918,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "grain",
+        "coal",
+        "land"
+      ],
+      "hints": [
+        "A revolutionary government signed away vast western territories in March 1918 under threat of renewed attack.",
+        "Roughly a third of the population and much of the coal and industry were lost on paper."
+      ],
+      "summary": "After negotiations at Brest-Litovsk, Soviet Russia signed a treaty in March 1918 giving up Poland, the Baltic lands, Ukraine and other areas, around a third of its population and much of its coal and industry. The Central Powers' offensive had resumed in February to force the signing.",
+      "quip": "A peace treaty written by the army that was still marching.",
+      "wikipediaTitle": "Treaty of Brest-Litovsk",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaty_of_Brest-Litovsk"
+      ]
+    },
+    {
+      "id": "RUS-allied-intervention",
+      "title": "Allied intervention in the Civil War",
+      "startYear": 1918,
+      "endYear": 1920,
+      "exploiter": {
+        "label": "the Allied Powers"
+      },
+      "type": "occupation",
+      "resources": [
+        "strategic_location",
+        "timber"
+      ],
+      "hints": [
+        "Troops landed at Murmansk and Archangel in 1918 to guard stores of supplies.",
+        "A force of several nations also landed at Vladivostok in the far east."
+      ],
+      "summary": "From 1918 Britain, France, the United States, Japan and others sent troops to northern and far-eastern ports, initially to protect war supplies and later to support anti-Bolshevik forces. The expeditions were withdrawn by 1920, except for the Japanese in Siberia until 1922.",
+      "quip": "A multinational expedition with several incompatible goals and no plan.",
+      "wikipediaTitle": "Allied intervention in the Russian Civil War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Allied_intervention_in_the_Russian_Civil_War"
+      ]
+    },
+    {
+      "id": "RUS-barbarossa-occupation",
+      "title": "German invasion and occupation",
+      "startYear": 1941,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "grain",
+        "oil",
+        "labour"
+      ],
+      "hints": [
+        "A massive surprise attack on 22 June 1941 broke a non-aggression pact.",
+        "Forced workers from the occupied east were taken to factories and farms far away."
+      ],
+      "summary": "Germany invaded the Soviet Union on 22 June 1941 in Operation Barbarossa, occupying large parts of western Russia until 1943–44. The occupation involved mass killings, the seizure of food and the deportation of Ostarbeiter as forced labourers to Germany.",
+      "sensitive": true,
+      "wikipediaTitle": "Operation Barbarossa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Operation_Barbarossa"
+      ]
+    },
+    {
+      "id": "RUS-siege-of-leningrad",
+      "title": "Siege of Leningrad",
+      "startYear": 1941,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "engineered_famine",
+      "resources": [],
+      "hints": [
+        "A city was encircled in September 1941 for nearly 900 days.",
+        "Rations fell to a few slices of bread, and the 'Road of Life' crossed an icy lake."
+      ],
+      "summary": "German and Finnish forces besieged Leningrad from September 1941 until January 1944. German planners intended to starve the city, and an estimated 800,000 or more civilians died, mostly of hunger.",
+      "sensitive": true,
+      "wikipediaTitle": "Siege of Leningrad",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siege_of_Leningrad"
+      ]
+    }
+  ]
+}

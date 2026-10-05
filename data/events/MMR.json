@@ -1,0 +1,131 @@
+{
+  "country": "MMR",
+  "events": [
+    {
+      "id": "MMR-mongol-invasions",
+      "title": "Mongol invasions of Pagan",
+      "startYear": 1277,
+      "endYear": 1287,
+      "exploiter": { "label": "the Mongol Empire" },
+      "type": "other",
+      "resources": [],
+      "territoryNames": ["the Pagan Kingdom"],
+      "hints": [
+        "A Mongol-ruled dynasty in China sent armies south against a temple-building kingdom.",
+        "The first major clash, at Ngasaunggyan in 1277, pitted cavalry against war elephants.",
+        "The kingdom of Pagan collapsed after the final invasion of 1287."
+      ],
+      "summary": "Kublai Khan's Yuan armies invaded the Pagan Kingdom several times from 1277, defeating its forces at Ngasaunggyan and in 1287 advancing towards the capital. Pagan, already weakened, broke apart and its dynasty fell.",
+      "wikipediaTitle": "Mongol invasions of Burma",
+      "sources": ["https://en.wikipedia.org/wiki/Mongol_invasions_of_Burma"]
+    },
+    {
+      "id": "MMR-first-anglo-burmese-war",
+      "title": "First Anglo-Burmese War and the Treaty of Yandabo",
+      "startYear": 1824,
+      "endYear": 1826,
+      "exploiter": { "label": "the British Empire" },
+      "type": "unequal_treaty",
+      "resources": ["land", "tribute"],
+      "territoryNames": ["Arakan", "Tenasserim"],
+      "hints": [
+        "A border dispute over Assam and Arakan led to the longest and costliest war in British India's history.",
+        "The Treaty of Yandabo of February 1826 imposed a large indemnity.",
+        "Arakan and Tenasserim were ceded."
+      ],
+      "summary": "After a war that began over frontier disputes, the Treaty of Yandabo (1826) forced the Konbaung kingdom to cede Arakan, Tenasserim and claims in Assam and Manipur, and to pay an indemnity of one million pounds. It was the first step in British conquest of the country.",
+      "wikipediaTitle": "First Anglo-Burmese War",
+      "sources": ["https://en.wikipedia.org/wiki/First_Anglo-Burmese_War"]
+    },
+    {
+      "id": "MMR-british-burma",
+      "title": "British Burma",
+      "startYear": 1852,
+      "endYear": 1948,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["rice", "timber", "oil", "labour"],
+      "territoryNames": ["British Burma"],
+      "hints": [
+        "Three wars in the nineteenth century ended with a royal court being exiled to India.",
+        "The delta became one of the world's great rice exporters.",
+        "For decades the territory was administered as a province of a neighbouring colony."
+      ],
+      "summary": "Britain annexed Lower Burma in 1852 and the rest of the country after the third war in 1885, administering it as a province of British India until 1937. Rice from the Irrawaddy delta, teak and oil were exported, with Indian and Chinese labour and moneylenders playing large roles in the economy. Independence came in January 1948.",
+      "wikipediaTitle": "British rule in Burma",
+      "sources": ["https://en.wikipedia.org/wiki/British_rule_in_Burma"]
+    },
+    {
+      "id": "MMR-burmah-oil",
+      "title": "Burmah Oil and the Yenangyaung oilfields",
+      "startYear": 1886,
+      "endYear": 1948,
+      "exploiter": { "label": "Burmah Oil Company" },
+      "type": "resource_extraction",
+      "resources": ["oil"],
+      "hints": [
+        "A Glasgow company grew rich on wells along the Irrawaddy.",
+        "It expanded after Britain annexed the north of the country in 1885.",
+        "Its fields at Yenangyaung were destroyed in 1942 to deny them to an invader."
+      ],
+      "summary": "Founded in Glasgow in 1886, Burmah Oil expanded in the Yenangyaung oilfields after Britain's annexation of Upper Burma in 1885 and dominated the country's petroleum industry in the colonial period. In 1942 its installations were destroyed in a scorched-earth retreat before the Japanese advance.",
+      "wikipediaTitle": "Burmah Oil",
+      "sources": ["https://en.wikipedia.org/wiki/Burmah_Oil"]
+    },
+    {
+      "id": "MMR-japanese-occupation",
+      "title": "Japanese occupation",
+      "startYear": 1942,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["oil", "rice", "labour"],
+      "hints": [
+        "A fast-moving invasion expelled the colonial rulers in the spring of 1942.",
+        "A nominally independent government was set up under a collaborating leader in 1943.",
+        "Its army was driven out through the campaigns of 1944 and 1945."
+      ],
+      "summary": "Japan invaded in early 1942, driving out British forces, and ran the country until 1945, including a nominal independence under Ba Maw from 1943. Oilfields and rice were taken for the war effort, and tens of thousands of civilians were pressed into labour for projects such as the Burma Railway.",
+      "sensitive": true,
+      "wikipediaTitle": "Japanese occupation of Burma",
+      "sources": ["https://en.wikipedia.org/wiki/Japanese_occupation_of_Burma"]
+    },
+    {
+      "id": "MMR-burma-railway",
+      "title": "Burma Railway and its forced labour",
+      "startYear": 1942,
+      "endYear": 1943,
+      "exploiter": { "label": "Japan" },
+      "type": "forced_labour",
+      "resources": ["labour"],
+      "territoryNames": ["the Death Railway"],
+      "hints": [
+        "A railway was built through jungle in about a year to supply an army.",
+        "Allied prisoners of war and Asian civilian workers died building it.",
+        "It linked Ban Pong with Thanbyuzayat."
+      ],
+      "summary": "To supply its army in Burma, Japan built a 415 km railway between Siam and Burma in 1942 and 1943 using forced labour. An estimated 180,000 Asian civilian labourers and about 60,000 Allied prisoners of war worked on it, and tens of thousands died from disease, malnutrition and brutality.",
+      "sensitive": true,
+      "wikipediaTitle": "Burma Railway",
+      "sources": ["https://en.wikipedia.org/wiki/Burma_Railway"]
+    },
+    {
+      "id": "MMR-kmt-operation-paper",
+      "title": "CIA support for Kuomintang remnants",
+      "startYear": 1950,
+      "endYear": 1953,
+      "exploiter": { "label": "the CIA" },
+      "type": "proxy_war",
+      "resources": [],
+      "hints": [
+        "Defeated soldiers from a neighbouring civil war crossed the border in 1949 and 1950 and stayed.",
+        "A CIA-run programme called Operation Paper airlifted arms to them through a neighbouring kingdom's airfields.",
+        "The government appealed to the United Nations in 1953, and a four-nation commission negotiated an evacuation."
+      ],
+      "summary": "From 1950 Chinese Nationalist troops under General Li Mi, who had fled into the Shan States, were supplied under Operation Paper, a programme approved by President Truman and run by the CIA's Office of Policy Coordination through Thailand using cover companies and Civil Air Transport aircraft. Their failed incursions into Yunnan in 1951 and 1952 strained relations, and Burma appealed to the United Nations in 1953.",
+      "quip": "Operation Paper was covert enough to fool the State Department, though not the host government.",
+      "wikipediaTitle": "Kuomintang in Burma",
+      "sources": ["https://en.wikipedia.org/wiki/Kuomintang_in_Burma", "https://library.fes.de/libalt/journals/swetsfulltext/11448875.pdf"]
+    }
+  ]
+}

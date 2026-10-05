@@ -1,0 +1,133 @@
+{
+  "country": "SOM",
+  "events": [
+    {
+      "id": "SOM-italian-somaliland",
+      "title": "Italian Somaliland",
+      "startYear": 1889,
+      "endYear": 1941,
+      "exploiter": {
+        "label": "Italy"
+      },
+      "type": "colonization",
+      "resources": [
+        "bananas",
+        "cotton",
+        "labour"
+      ],
+      "territoryNames": [
+        "Italian Somaliland"
+      ],
+      "hints": [
+        "Italy established protectorates here from 1889 and expanded them by degrees.",
+        "Plantations along the rivers grew bananas for the home market.",
+        "British forces took the colony in 1941."
+      ],
+      "summary": "Italy began with protectorates in the 1880s and took direct control of the Benadir coast in 1905. Banana plantations along the Shebelle and Juba rivers exported mainly to Italy, and British forces occupied the colony in 1941.",
+      "wikipediaTitle": "Italian Somaliland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Italian_Somaliland"
+      ]
+    },
+    {
+      "id": "SOM-british-somaliland",
+      "title": "British Somaliland",
+      "startYear": 1884,
+      "endYear": 1960,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "livestock",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "British Somaliland"
+      ],
+      "hints": [
+        "Britain took the northern coast to guarantee food supplies for its garrison across the Gulf.",
+        "Sheep and cattle from the interior were shipped through Berbera.",
+        "Independence came on 26 June 1960, days before the southern territory's."
+      ],
+      "summary": "From 1884 Britain governed the northern coast as a protectorate, partly to secure meat supplies for its garrison at Aden. Livestock was shipped through Berbera. It became independent on 26 June 1960 and united with the former Italian territory five days later.",
+      "wikipediaTitle": "British Somaliland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/British_Somaliland"
+      ]
+    },
+    {
+      "id": "SOM-oltre-giuba",
+      "title": "Oltre Giuba",
+      "startYear": 1924,
+      "endYear": 1926,
+      "exploiter": {
+        "label": "Italy"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "Oltre Giuba",
+        "Jubaland"
+      ],
+      "hints": [
+        "A British-ruled territory was handed over to Italy in 1924 as compensation for wartime promises.",
+        "It lay across the Juba river on the southern frontier.",
+        "It was merged into a larger Italian colony in 1926."
+      ],
+      "summary": "Britain transferred Jubaland to Italy in 1924, honouring a promise made in the 1915 Treaty of London as compensation for Italy's role in the First World War. Italy governed it as Oltre Giuba until absorbing it into Italian Somaliland in 1926.",
+      "wikipediaTitle": "Oltre Giuba",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Oltre_Giuba"
+      ]
+    },
+    {
+      "id": "SOM-somaliland-campaign-1920",
+      "title": "British campaign against the Dervish state",
+      "startYear": 1920,
+      "endYear": 1920,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "After twenty years of guerrilla resistance, a British force struck the final stronghold in January 1920.",
+        "The Royal Air Force bombed the Dervish forts in a pioneering air campaign.",
+        "The movement's leader, nicknamed the Mad Mullah, fled and died within the year."
+      ],
+      "summary": "In January 1920 Britain launched a combined air and ground campaign against the Dervish state of Mohammed Abdullah Hassan. RAF bombers helped shatter his forts, and he died later in 1920, ending two decades of resistance.",
+      "sensitive": true,
+      "wikipediaTitle": "Somaliland campaign (1920)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Somaliland_campaign_(1920)"
+      ]
+    },
+    {
+      "id": "SOM-soviet-berbera",
+      "title": "Soviet naval facilities at Berbera",
+      "startYear": 1969,
+      "endYear": 1977,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "other",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "In 1969 a superpower finished a naval base and port on the Gulf of Aden coast.",
+        "It gave Moscow access to a key sea lane near Bab-el-Mandeb.",
+        "The Soviets were expelled in 1977 when the host switched sides in a regional war."
+      ],
+      "summary": "From 1962 the Soviet Union helped build port facilities and a military base at Berbera, completed in 1969, and a 1974 friendship treaty with Siad Barre's government deepened ties. Somalia expelled the Soviets in 1977 during the Ogaden War.",
+      "quip": "A superpower built a base and then switched to the neighbour a few months later. Customer loyalty was not a priority.",
+      "wikipediaTitle": "Berbera",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Berbera"
+      ]
+    }
+  ]
+}

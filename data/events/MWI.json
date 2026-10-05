@@ -1,0 +1,114 @@
+{
+  "country": "MWI",
+  "events": [
+    {
+      "id": "MWI-nkhotakota-slave-trade",
+      "title": "Swahili-Arab slave trade at Nkhotakota",
+      "startYear": 1840,
+      "endYear": 1895,
+      "exploiter": {
+        "label": "the Sultanate of Zanzibar"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "ivory"
+      ],
+      "hints": [
+        "A lakeshore town became the main collection point for captives heading to the Indian Ocean coast.",
+        "Its ruler, known as the Jumbe, was a Swahili-Arab trader linked to a sultan on an island off the coast.",
+        "David Livingstone visited and campaigned against the trade."
+      ],
+      "summary": "From the 1840s the lakeshore town of Nkhotakota, then Kota Kota, was a major collection point for enslaved people sent to the Indian Ocean coast, run by a Swahili-Arab ruler known as the Jumbe with links to Zanzibar. British forces ended the trade there in the 1890s.",
+      "sensitive": true,
+      "wikipediaTitle": "Nkhotakota",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nkhotakota"
+      ]
+    },
+    {
+      "id": "MWI-british-central-africa",
+      "title": "British Central Africa Protectorate and Nyasaland",
+      "startYear": 1891,
+      "endYear": 1964,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tobacco",
+        "tea",
+        "cotton",
+        "land",
+        "labour"
+      ],
+      "territoryNames": [
+        "British Central Africa",
+        "Nyasaland"
+      ],
+      "hints": [
+        "Britain declared a protectorate in 1891 after clashes with Portugal over the lake region.",
+        "European-owned estates took much of the best land in the south.",
+        "Tobacco, tea and cotton were the main exports."
+      ],
+      "summary": "Britain declared the British Central Africa Protectorate in 1891, renamed Nyasaland in 1907. European-owned estates took much of the best land in the south, and tobacco, tea and cotton were the main exports. Independence came in 1964.",
+      "wikipediaTitle": "Nyasaland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nyasaland"
+      ]
+    },
+    {
+      "id": "MWI-thangata-labour-tenancy",
+      "title": "Thangata labour tenancy",
+      "startYear": 1900,
+      "endYear": 1962,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "tobacco",
+        "labour"
+      ],
+      "hints": [
+        "On European estates, African tenants had to work for the landowner in return for the right to stay on land.",
+        "The word once meant neighbourly help but came to describe an exploitative labour-rent system.",
+        "Tenants who refused could be evicted, and the system was abolished in 1962."
+      ],
+      "summary": "Under the thangata system on European estates, Africans who lived on estate land had to work for the owner in lieu of rent. A traditional term for reciprocal help took on a coercive meaning, and the system was a source of grievances until its abolition in 1962.",
+      "sensitive": true,
+      "wikipediaTitle": "Thangata",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Thangata"
+      ]
+    },
+    {
+      "id": "MWI-central-african-federation",
+      "title": "Federation of Rhodesia and Nyasaland",
+      "startYear": 1953,
+      "endYear": 1963,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "labour",
+        "copper"
+      ],
+      "territoryNames": [
+        "the Federation of Rhodesia and Nyasaland"
+      ],
+      "hints": [
+        "Britain joined three territories into a federation in 1953 over the objections of most Africans.",
+        "Revenue from copper mines in the middle territory helped fund development in the south.",
+        "This territory supplied migrant workers to its richer partners."
+      ],
+      "summary": "In 1953 Britain created the Central African Federation from Southern Rhodesia, Northern Rhodesia and Nyasaland despite African opposition. Copper revenues from the north largely benefited the south, and Nyasaland served as a labour reserve. The federation collapsed in 1963.",
+      "quip": "A federation imposed over local objections lasted ten years, which was about nine years longer than it deserved.",
+      "wikipediaTitle": "Federation of Rhodesia and Nyasaland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland"
+      ]
+    }
+  ]
+}

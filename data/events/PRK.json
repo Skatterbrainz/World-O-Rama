@@ -1,0 +1,95 @@
+{
+  "country": "PRK",
+  "events": [
+    {
+      "id": "PRK-han-commanderies",
+      "title": "Han commanderies on the peninsula",
+      "startYear": -108,
+      "endYear": 313,
+      "exploiter": { "label": "the Han dynasty" },
+      "type": "colonization",
+      "resources": ["trade_routes", "tribute"],
+      "territoryNames": ["Lelang Commandery"],
+      "hints": [
+        "A Chinese emperor's army destroyed an ancient kingdom and set up four administrative districts.",
+        "One of them, Lelang, near the modern capital, lasted more than four centuries.",
+        "Goguryeo finally conquered it in 313."
+      ],
+      "summary": "In 108 BCE the Han dynasty of China conquered Gojoseon and established four commanderies on the peninsula. The Lelang commandery near present-day Pyongyang survived until it was conquered by Goguryeo in 313 CE, long enough to become a hub for trade and Chinese culture.",
+      "wikipediaTitle": "Four Commanderies of Han",
+      "sources": ["https://en.wikipedia.org/wiki/Four_Commanderies_of_Han"]
+    },
+    {
+      "id": "PRK-mongol-invasions",
+      "title": "Mongol invasions of Goryeo",
+      "startYear": 1231,
+      "endYear": 1259,
+      "exploiter": { "label": "the Mongol Empire" },
+      "type": "other",
+      "resources": ["tribute", "labour"],
+      "territoryNames": ["Goryeo"],
+      "hints": [
+        "A medieval kingdom was invaded six times by horsemen from the steppe.",
+        "Its court sheltered on an island while the mainland was devastated.",
+        "It became a vassal in 1259 and supplied tribute."
+      ],
+      "summary": "The Mongols invaded Goryeo repeatedly from 1231 to 1259, ravaging the north and the countryside. The peace of 1259 made the kingdom a vassal of the Mongols, and it later hosted a Mongol administration at Pyongyang.",
+      "sensitive": true,
+      "wikipediaTitle": "Mongol invasions of Korea",
+      "sources": ["https://en.wikipedia.org/wiki/Mongol_invasions_of_Korea"]
+    },
+    {
+      "id": "PRK-imjin-war",
+      "title": "Imjin War",
+      "startYear": 1592,
+      "endYear": 1598,
+      "exploiter": { "label": "Japan" },
+      "type": "other",
+      "resources": ["land"],
+      "hints": [
+        "An invasion from overseas reached the northern capital within weeks.",
+        "The king fled towards the Yalu River as invading armies captured the main cities.",
+        "Ming armies from across the river helped push the invaders back."
+      ],
+      "summary": "Toyotomi Hideyoshi's armies landed in 1592 and captured the capital Hanseong and Pyongyang within weeks, forcing the Joseon king to flee north. Ming intervention and Korean naval and guerrilla resistance pushed the Japanese back, and the war ended in 1598.",
+      "sensitive": true,
+      "wikipediaTitle": "Imjin War",
+      "sources": ["https://en.wikipedia.org/wiki/Imjin_War"]
+    },
+    {
+      "id": "PRK-japanese-rule",
+      "title": "Japanese colonial rule",
+      "startYear": 1910,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "colonization",
+      "resources": ["coal", "iron_ore", "gold", "labour"],
+      "territoryNames": ["Chosen"],
+      "hints": [
+        "The north's mines and hydroelectric plants were developed for the colonial power's war economy.",
+        "Hungnam became a major chemical industry centre.",
+        "Annexation in 1910 began thirty-five years of rule from Seoul."
+      ],
+      "summary": "Under Japanese colonial rule from 1910 to 1945 the northern half of the peninsula became a base for heavy industry, with coal and iron mines, gold, hydroelectric dams and chemical plants at places such as Hungnam, developed to serve the war economy, largely with Korean labour.",
+      "wikipediaTitle": "Korea under Japanese rule",
+      "sources": ["https://en.wikipedia.org/wiki/Korea_under_Japanese_rule"]
+    },
+    {
+      "id": "PRK-soviet-occupation",
+      "title": "Soviet occupation of the north",
+      "startYear": 1945,
+      "endYear": 1948,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "Red Army troops entered in August 1945 and stayed for three years north of a parallel.",
+        "A young guerrilla commander was promoted by the occupiers.",
+        "A separate state was proclaimed in September 1948."
+      ],
+      "summary": "Soviet forces entered the northern half of the peninsula in August 1945 and administered it through the Soviet Civil Administration until 1948. They promoted Kim Il Sung to lead a communist government, and a separate state was proclaimed in September 1948.",
+      "wikipediaTitle": "Soviet Civil Administration",
+      "sources": ["https://en.wikipedia.org/wiki/Soviet_Civil_Administration"]
+    }
+  ]
+}

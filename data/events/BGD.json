@@ -1,0 +1,94 @@
+{
+  "country": "BGD",
+  "events": [
+    {
+      "id": "BGD-company-bengal",
+      "title": "East India Company rule in Bengal",
+      "startYear": 1757,
+      "endYear": 1858,
+      "exploiter": { "label": "the East India Company" },
+      "type": "colonization",
+      "resources": ["cotton", "indigo", "land"],
+      "territoryNames": ["Bengal Subah", "the Bengal Presidency"],
+      "hints": [
+        "A battle in a mango grove changed who ruled a rich delta.",
+        "In 1765 a Mughal emperor granted a company the right to collect the revenue of the province.",
+        "The Permanent Settlement of 1793 fixed land taxes with local landlords."
+      ],
+      "summary": "After the victory at Plassey in 1757, the East India Company took over Bengal, receiving the diwani (revenue-collection rights) in 1765. High land taxes, the Permanent Settlement of 1793 and the export of textiles and indigo reshaped one of the richest regions of the subcontinent.",
+      "wikipediaTitle": "Company rule in India",
+      "sources": ["https://en.wikipedia.org/wiki/Company_rule_in_India"]
+    },
+    {
+      "id": "BGD-bengal-famine-1770",
+      "title": "Great Bengal famine of 1770",
+      "startYear": 1769,
+      "endYear": 1773,
+      "exploiter": { "label": "the East India Company" },
+      "type": "other",
+      "resources": ["rice", "land"],
+      "hints": [
+        "A failed monsoon in a delta was followed by a state that kept collecting taxes.",
+        "The company's revenue demands stayed high while grain prices soared.",
+        "Estimates of the dead run as high as a third of the population."
+      ],
+      "summary": "A severe drought and crop failure in 1769 and 1770 led to famine across Bengal. Estimates of the dead run into the millions, in some accounts around ten million. Historians point to the East India Company's high land-revenue demands and its handling of grain as aggravating factors.",
+      "sensitive": true,
+      "wikipediaTitle": "Great Bengal famine of 1770",
+      "sources": ["https://en.wikipedia.org/wiki/Great_Bengal_famine_of_1770"]
+    },
+    {
+      "id": "BGD-indigo-revolt",
+      "title": "Indigo revolt",
+      "startYear": 1859,
+      "endYear": 1860,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["indigo", "land", "labour"],
+      "hints": [
+        "Farmers in a delta refused to plant a blue dye crop for foreign planters.",
+        "Advances called dadan tied peasants to cultivating indigo at unfavourable prices.",
+        "A play titled Nil Darpan exposed the planters' abuses in 1860."
+      ],
+      "summary": "In 1859 and 1860, peasants (ryots) in Bengal refused to grow indigo for European planters who bound them with coercive cash advances and low prices. The strike, supported by newspapers and the play Nil Darpan, led the colonial government to appoint an Indigo Commission.",
+      "wikipediaTitle": "Indigo revolt",
+      "sources": ["https://en.wikipedia.org/wiki/Indigo_revolt"]
+    },
+    {
+      "id": "BGD-east-pakistan",
+      "title": "Rule as East Pakistan",
+      "startYear": 1947,
+      "endYear": 1971,
+      "exploiter": { "label": "Pakistan" },
+      "type": "other",
+      "resources": [],
+      "territoryNames": ["East Pakistan", "East Bengal"],
+      "hints": [
+        "A province lay more than a thousand kilometres from the capital of its own country, across a rival state.",
+        "Its largest-population region saw its language and revenues sidelined.",
+        "The 1952 language movement is remembered every February."
+      ],
+      "summary": "From 1947 to 1971 the eastern wing of Pakistan, home to a majority of its population, was governed from West Pakistan. Disputes over language, a share of political power and the distribution of export earnings fuelled the Bengali autonomy movement.",
+      "wikipediaTitle": "East Pakistan",
+      "sources": ["https://en.wikipedia.org/wiki/East_Pakistan"]
+    },
+    {
+      "id": "BGD-genocide-1971",
+      "title": "1971 genocide and Liberation War",
+      "startYear": 1971,
+      "endYear": 1971,
+      "exploiter": { "label": "Pakistan" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "An election winner was denied power, and a crackdown began in March.",
+        "The army launched Operation Searchlight in Dhaka on the night of 25 March.",
+        "Millions fled across the border in nine months."
+      ],
+      "summary": "After the 1970 election result was ignored, the Pakistani army launched a crackdown on 25 March 1971. During the nine-month war an estimated hundreds of thousands to three million people were killed, and millions fled as refugees. The war ended with Pakistani surrender in December.",
+      "sensitive": true,
+      "wikipediaTitle": "Bangladesh genocide",
+      "sources": ["https://en.wikipedia.org/wiki/Bangladesh_genocide"]
+    }
+  ]
+}

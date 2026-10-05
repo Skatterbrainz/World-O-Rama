@@ -1,0 +1,187 @@
+{
+  "country": "IDN",
+  "events": [
+    {
+      "id": "IDN-voc-spice-monopoly",
+      "title": "Dutch East India Company spice monopoly",
+      "startYear": 1602,
+      "endYear": 1799,
+      "exploiter": { "label": "the Dutch East India Company" },
+      "type": "colonization",
+      "resources": ["spices", "trade_routes"],
+      "territoryNames": ["the Dutch East Indies"],
+      "hints": [
+        "The world's first publicly traded company ran its own colonies and fleets.",
+        "Islands producing nutmeg and cloves were controlled, and in places depopulated, to protect a monopoly."
+      ],
+      "summary": "The Dutch East India Company (VOC) took control of the spice trade of the archipelago from the early 1600s, using force to secure monopolies on nutmeg, mace and cloves. The company was dissolved in 1799 and its possessions passed to the Dutch state.",
+      "sensitive": true,
+      "wikipediaTitle": "Dutch East India Company",
+      "sources": ["https://en.wikipedia.org/wiki/Dutch_East_India_Company"]
+    },
+    {
+      "id": "IDN-cultivation-system",
+      "title": "Cultivation System",
+      "startYear": 1830,
+      "endYear": 1870,
+      "exploiter": { "label": "the Netherlands" },
+      "type": "forced_labour",
+      "resources": ["sugar", "coffee", "indigo", "labour"],
+      "territoryNames": ["the Dutch East Indies"],
+      "hints": [
+        "A compulsory farming scheme turned a fifth of village land into export-crop plantations.",
+        "Its profits helped balance the budget of a European kingdom."
+      ],
+      "summary": "From 1830 the colonial government required villages to dedicate a portion of their land, or labour days, to export crops such as sugar, coffee and indigo. The scheme produced very large revenues for the Netherlands and was gradually wound down after 1870.",
+      "wikipediaTitle": "Cultivation System",
+      "sources": ["https://en.wikipedia.org/wiki/Cultivation_System"]
+    },
+    {
+      "id": "IDN-japanese-occupation",
+      "title": "Japanese occupation of the Dutch East Indies",
+      "startYear": 1942,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["oil", "rice", "labour"],
+      "territoryNames": ["the Dutch East Indies"],
+      "hints": [
+        "Oilfields were among the main reasons for the invasion.",
+        "Hundreds of thousands were put to forced labour, known by a Japanese name, on projects across the region."
+      ],
+      "summary": "Japan occupied the archipelago from March 1942 to 1945 to secure oil and other resources. Rice was requisitioned and large numbers of romusha forced labourers were mobilised, many dying from hardship. Independence was proclaimed days after Japan surrendered.",
+      "sensitive": true,
+      "wikipediaTitle": "Japanese occupation of the Dutch East Indies",
+      "sources": ["https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Dutch_East_Indies"]
+    },
+    {
+      "id": "IDN-mongol-invasion-java",
+      "title": "Mongol invasion of Java",
+      "startYear": 1292,
+      "endYear": 1293,
+      "exploiter": { "label": "the Mongol Empire" },
+      "type": "other",
+      "resources": [],
+      "territoryNames": ["Singhasari"],
+      "hints": [
+        "A great khan sent a thousand ships to punish a king who had insulted his envoy.",
+        "The Mongols allied with a local claimant who then turned on them.",
+        "The empire of Majapahit was founded in the aftermath."
+      ],
+      "summary": "In 1292 Kublai Khan sent a large fleet to punish King Kertanegara of Singhasari. By the time it arrived Kertanegara was dead, and the Mongols allied with Raden Wijaya against a rival before Wijaya turned on them in 1293, expelling them and founding Majapahit.",
+      "wikipediaTitle": "Mongol invasion of Java",
+      "sources": ["https://en.wikipedia.org/wiki/Mongol_invasion_of_Java"]
+    },
+    {
+      "id": "IDN-banda-islands",
+      "title": "Conquest of the Banda Islands",
+      "startYear": 1609,
+      "endYear": 1621,
+      "exploiter": { "label": "the Dutch East India Company" },
+      "type": "resource_extraction",
+      "resources": ["spices", "slaves"],
+      "territoryNames": ["the Banda Islands"],
+      "hints": [
+        "The only source in the world of a prized aromatic seed was a handful of tiny islands.",
+        "Jan Pieterszoon Coen's 1621 campaign destroyed the local society.",
+        "Plantations worked by enslaved people replaced the islanders."
+      ],
+      "summary": "To secure a monopoly on nutmeg and mace, the Dutch East India Company conquered the Banda Islands in 1621 under Jan Pieterszoon Coen. Much of the local population was killed, enslaved or driven out, and nutmeg plantations were established using enslaved labour.",
+      "sensitive": true,
+      "wikipediaTitle": "Banda Islands",
+      "sources": ["https://en.wikipedia.org/wiki/Banda_Islands"]
+    },
+    {
+      "id": "IDN-aceh-war",
+      "title": "Aceh War",
+      "startYear": 1873,
+      "endYear": 1904,
+      "exploiter": { "label": "the Netherlands" },
+      "type": "other",
+      "resources": ["spices"],
+      "hints": [
+        "A sultanate at the northern tip of an island fought a colonial power for three decades.",
+        "The Dutch declared war in 1873 to control a strategic strait.",
+        "Guerrilla resistance continued long after the sultan's capital fell."
+      ],
+      "summary": "The Netherlands declared war on the Sultanate of Aceh in 1873 and fought a long and costly colonial war, with guerrilla resistance lasting until 1904 or later. Estimates of Acehnese deaths run from tens of thousands to well over 100,000.",
+      "sensitive": true,
+      "wikipediaTitle": "Aceh War",
+      "sources": ["https://en.wikipedia.org/wiki/Aceh_War"]
+    },
+    {
+      "id": "IDN-romusha",
+      "title": "Romusha forced labour",
+      "startYear": 1942,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "forced_labour",
+      "resources": ["labour", "rice"],
+      "hints": [
+        "Millions of villagers were conscripted as manual labourers for a foreign army.",
+        "They built roads, railways and airfields, often far from home.",
+        "Many were shipped to work sites in other occupied territories."
+      ],
+      "summary": "Under Japanese occupation, millions of Javanese and other villagers were recruited, often by coercion, as romusha (manual labourers) to build railways, roads and defences. Many were sent to other parts of Southeast Asia, and large numbers died from overwork, disease and starvation.",
+      "sensitive": true,
+      "wikipediaTitle": "Rōmusha",
+      "sources": ["https://en.wikipedia.org/wiki/R%C5%8Dmusha"]
+    },
+    {
+      "id": "IDN-national-revolution",
+      "title": "Indonesian National Revolution and the Dutch military actions",
+      "startYear": 1945,
+      "endYear": 1949,
+      "exploiter": { "label": "the Netherlands" },
+      "type": "other",
+      "resources": ["sugar", "oil"],
+      "territoryNames": ["the Dutch East Indies"],
+      "hints": [
+        "A colonial power tried to restore its rule after the war.",
+        "Two big offensives were called 'police actions' by the side that launched them.",
+        "Sovereignty was transferred in December 1949 after international pressure."
+      ],
+      "summary": "After Indonesia declared independence in 1945, the Netherlands tried to restore control, launching major military offensives in 1947 and 1948 that it called police actions. International pressure and Indonesian resistance led to a transfer of sovereignty in December 1949.",
+      "sensitive": true,
+      "wikipediaTitle": "Indonesian National Revolution",
+      "sources": ["https://en.wikipedia.org/wiki/Indonesian_National_Revolution"]
+    },
+    {
+      "id": "IDN-prri-permesta-cia",
+      "title": "CIA support for the PRRI and Permesta rebels",
+      "startYear": 1957,
+      "endYear": 1958,
+      "exploiter": { "label": "the CIA" },
+      "type": "proxy_war",
+      "resources": [],
+      "hints": [
+        "Washington feared that an archipelago's president was drifting left in the late 1950s.",
+        "The CIA armed regional rebels in Sumatra and Sulawesi and flew bombers with contract pilots.",
+        "A US pilot shot down over Ambon in May 1958 was captured with his papers, and the operation was exposed."
+      ],
+      "summary": "In 1957 and 1958 the CIA covertly supplied weapons, money, training and air support to the PRRI and Permesta rebels, who opposed the government of President Sukarno. On 18 May 1958 American pilot Allen Pope was shot down and captured at Ambon, exposing the operation, after which Washington ended its support and the rebellions were defeated.",
+      "sensitive": true,
+      "wikipediaTitle": "Permesta rebellion",
+      "sources": ["https://en.wikipedia.org/wiki/Permesta_rebellion", "https://en.wikipedia.org/wiki/Allen_Lawrence_Pope", "https://www.insideindonesia.org/editions/edition-998/accomplices-in-atrocity"]
+    },
+    {
+      "id": "IDN-1965-cia-covert-aid",
+      "title": "US covert aid to the army during the 1965 to 1966 killings",
+      "startYear": 1965,
+      "endYear": 1966,
+      "exploiter": { "label": "the CIA" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "After a failed coup attempt in 1965, an army-led purge of leftists began.",
+        "Declassified cables show Washington covertly supplied radios and cash to the army and its civilian allies.",
+        "An estimated 500,000 or more suspected communists were killed in 1965 and 1966, and General Suharto came to power."
+      ],
+      "summary": "After the 30 September Movement of 1965 the Indonesian Army under Suharto destroyed the Communist Party, and an estimated 500,000 to over one million people were killed. Declassified US records show a covert programme, approved by the 303 Committee and involving the CIA, to supply communications equipment to army leaders, and an approved payment of 50 million rupiah to the Kap-Gestapu action front. US officials also passed army contacts lists of party officials. The CIA is alleged to have supported the army campaign; it denied active involvement in the killings.",
+      "sensitive": true,
+      "alleged": true,
+      "wikipediaTitle": "Indonesian mass killings of 1965–66",
+      "sources": ["https://history.state.gov/historicaldocuments/frus1964-68v26/d179", "https://history.state.gov/historicaldocuments/frus1964-68v26/d175", "https://en.wikipedia.org/wiki/Indonesian_mass_killings_of_1965%E2%80%9366"]
+    }
+  ]
+}

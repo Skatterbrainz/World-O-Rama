@@ -1,0 +1,210 @@
+{
+  "country": "LTU",
+  "events": [
+    {
+      "id": "LTU-teutonic-crusade",
+      "title": "Teutonic Order crusades",
+      "startYear": 1283,
+      "endYear": 1410,
+      "exploiter": {
+        "label": "the Teutonic Order"
+      },
+      "type": "other",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "Knights from Prussia raided the pagan grand duchy for more than a century.",
+        "A decisive defeat at Grunwald in 1410 broke the knights' power."
+      ],
+      "summary": "Between 1283 and 1410 the Teutonic Order mounted repeated campaigns against Lithuania and Samogitia, claiming to be crusades against pagans. The Order gained control of Samogitia briefly, and its power was broken at the Battle of Grunwald in 1410.",
+      "wikipediaTitle": "Lithuanian Crusade",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuanian_Crusade"
+      ]
+    },
+    {
+      "id": "LTU-russian-annexation-1795",
+      "title": "Russian annexation after the Third Partition",
+      "startYear": 1795,
+      "endYear": 1915,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A third carve-up of a large commonwealth in 1795 ended a statehood centuries old.",
+        "Uprisings in 1831 and 1863 were put down by imperial troops."
+      ],
+      "summary": "The Third Partition of Poland in 1795 gave most of the Grand Duchy of Lithuania to the Russian Empire. Uprisings in 1831 and 1863 were crushed, followed by repression, until German forces occupied the area in 1915.",
+      "wikipediaTitle": "Third Partition of Poland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Third_Partition_of_Poland"
+      ]
+    },
+    {
+      "id": "LTU-press-ban",
+      "title": "Lithuanian press ban",
+      "startYear": 1864,
+      "endYear": 1904,
+      "exploiter": {
+        "label": "the Russian Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "After an uprising, books in the national language were banned if printed in the Latin alphabet.",
+        "Smugglers carried banned books across the Prussian frontier."
+      ],
+      "summary": "After the 1863 uprising, the Russian authorities banned printing in Latin script in Lithuanian from 1864. Books were instead printed in East Prussia and smuggled in by book carriers until the ban was lifted in 1904.",
+      "quip": "The empire banned the alphabet; the books crossed the border in sacks anyway.",
+      "wikipediaTitle": "Lithuanian press ban",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuanian_press_ban"
+      ]
+    },
+    {
+      "id": "LTU-soviet-invasion-1918",
+      "title": "Soviet invasion in the Lithuanian–Soviet War",
+      "startYear": 1918,
+      "endYear": 1920,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A communist offensive at the end of 1918 met little resistance.",
+        "Within a month about two thirds of the territory had been taken.",
+        "The advance was stopped in February 1919 before it could capture the temporary capital."
+      ],
+      "summary": "By the end of December 1918 Soviet Russian forces reached the border, and largely unopposed they controlled about two thirds of the territory by the end of January 1919. In February 1919 Lithuanian and German volunteers stopped the advance short of Kaunas. A peace treaty followed in 1920.",
+      "sensitive": true,
+      "wikipediaTitle": "Lithuanian–Soviet War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuanian%E2%80%93Soviet_War",
+        "https://en.wikipedia.org/wiki/Soviet_westward_offensive_of_1918%E2%80%931919"
+      ]
+    },
+    {
+      "id": "LTU-zeligowski-vilnius",
+      "title": "Seizure of Vilnius",
+      "startYear": 1920,
+      "endYear": 1939,
+      "exploiter": {
+        "label": "Poland"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A general in October 1920 staged a 'mutiny' to seize the historic capital.",
+        "The city stayed under foreign rule until 1939, and relations remained frozen for years."
+      ],
+      "summary": "In October 1920 General Lucjan Zeligowski, acting on Polish orders, seized Vilnius and its surroundings, and the area was annexed to Poland in 1922. Lithuania regarded the city as its capital and refused diplomatic relations with Poland until 1938.",
+      "wikipediaTitle": "Żeligowski's Mutiny",
+      "sources": [
+        "https://en.wikipedia.org/wiki/%C5%BBeligowski's_Mutiny"
+      ]
+    },
+    {
+      "id": "LTU-klaipeda-1939",
+      "title": "German annexation of the Klaipeda Region",
+      "startYear": 1939,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "annexation",
+      "resources": [
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Memel Territory"
+      ],
+      "hints": [
+        "An ultimatum in March 1939 demanded the return of the only ice-free port.",
+        "The dictator arrived by warship the next day."
+      ],
+      "summary": "On 22 March 1939 Nazi Germany forced the country to cede the Klaipeda (Memel) Region by ultimatum. Hitler arrived on the cruiser Deutschland the following day, and the region remained German until Soviet forces captured it in January 1945.",
+      "wikipediaTitle": "Klaipėda Region",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Klaip%C4%97da_Region"
+      ]
+    },
+    {
+      "id": "LTU-soviet-annexation-1940",
+      "title": "Soviet occupation and annexation",
+      "startYear": 1940,
+      "endYear": 1941,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "An ultimatum in June 1940 demanded a new government and free passage for troops.",
+        "Deportations started in the early hours of 14 June 1941."
+      ],
+      "summary": "Soviet forces occupied the country in June 1940 under the Molotov–Ribbentrop Pact and annexed it after staged elections in August. On 14 June 1941 thousands of people were deported to Siberia.",
+      "sensitive": true,
+      "wikipediaTitle": "Soviet occupation of the Baltic states (1940)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Soviet_occupation_of_the_Baltic_states_(1940)"
+      ]
+    },
+    {
+      "id": "LTU-nazi-occupation",
+      "title": "Nazi German occupation",
+      "startYear": 1941,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "labour"
+      ],
+      "hints": [
+        "Occupation began within days of the June 1941 invasion of the Soviet Union.",
+        "The vast majority of the country's Jews were murdered, many in pits near Kaunas and Vilnius."
+      ],
+      "summary": "German forces occupied the country in June 1941 and made it part of the Reichskommissariat Ostland. The great majority of Lithuanian Jews, about 90 per cent, were murdered, and many people were conscripted or deported for forced labour.",
+      "sensitive": true,
+      "wikipediaTitle": "Reichskommissariat Ostland",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Reichskommissariat_Ostland"
+      ]
+    },
+    {
+      "id": "LTU-soviet-occupation-postwar",
+      "title": "Soviet occupation 1944 to 1991",
+      "startYear": 1944,
+      "endYear": 1991,
+      "exploiter": {
+        "label": "the Soviet Union"
+      },
+      "type": "occupation",
+      "resources": [
+        "labour",
+        "land"
+      ],
+      "hints": [
+        "A guerrilla struggle in the forests continued into the early 1950s.",
+        "A deportation operation in 1948 sent tens of thousands to Siberia."
+      ],
+      "summary": "The Red Army returned in 1944 and the country became part of the USSR. Armed resistance by the 'Forest Brothers' lasted until the early 1950s, mass deportations including Operation Spring in 1948 and forced collectivisation followed, and independence was restored in 1990–91.",
+      "sensitive": true,
+      "wikipediaTitle": "Lithuanian Soviet Socialist Republic",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lithuanian_Soviet_Socialist_Republic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "country": "NIU",
+  "events": [
+    {
+      "id": "NIU-new-zealand-annexation",
+      "title": "Annexation by New Zealand",
+      "startYear": 1900,
+      "endYear": 1974,
+      "exploiter": { "label": "New Zealand" },
+      "type": "annexation",
+      "resources": ["labour"],
+      "hints": [
+        "A British protectorate was declared in 1900, and the island was handed over a year later.",
+        "A dominion administered it through a Resident Commissioner.",
+        "Emigration drained the island's population."
+      ],
+      "summary": "Britain declared a protectorate over the island in 1900 and in 1901 it was annexed to New Zealand, which administered it through a Resident Commissioner until self-government in 1974. Limited economic opportunity encouraged large-scale emigration.",
+      "wikipediaTitle": "Niue",
+      "sources": ["https://en.wikipedia.org/wiki/Niue"]
+    }
+  ]
+}

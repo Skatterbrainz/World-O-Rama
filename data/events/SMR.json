@@ -1,0 +1,48 @@
+{
+  "country": "SMR",
+  "events": [
+    {
+      "id": "SMR-alberoni-occupation",
+      "title": "Occupation by the Papal States",
+      "startYear": 1739,
+      "endYear": 1740,
+      "exploiter": {
+        "label": "the Papal States"
+      },
+      "type": "occupation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A cardinal and papal legate marched in with troops and forced oaths of allegiance.",
+        "The pope himself annulled the occupation in 1740."
+      ],
+      "summary": "In October 1739 Cardinal Giulio Alberoni, papal legate in Ravenna, occupied the republic and forced its leaders to swear allegiance to the Holy See. Pope Clement XII annulled the occupation in February 1740 after local protests.",
+      "wikipediaTitle": "History of San Marino",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_San_Marino"
+      ]
+    },
+    {
+      "id": "SMR-battle-1944",
+      "title": "German occupation and battle",
+      "startYear": 1944,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "A neutral microstate was bombed in June 1944 and then occupied that autumn.",
+        "Allied and German troops fought on its slopes in September 1944."
+      ],
+      "summary": "Despite declared neutrality, the republic was bombed by Allied aircraft in June 1944 and occupied by German troops in September, before Allied forces drove them out as the Gothic Line collapsed.",
+      "sensitive": true,
+      "wikipediaTitle": "Battle of San Marino",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Battle_of_San_Marino"
+      ]
+    }
+  ]
+}

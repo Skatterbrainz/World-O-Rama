@@ -1,0 +1,57 @@
+{
+  "country": "LBR",
+  "events": [
+    {
+      "id": "LBR-cape-mesurado",
+      "title": "American Colonization Society's settlements",
+      "startYear": 1821,
+      "endYear": 1847,
+      "exploiter": {
+        "label": "the American Colonization Society"
+      },
+      "type": "colonization",
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "Maryland in Africa"
+      ],
+      "hints": [
+        "A private society founded to resettle freed Black Americans acquired land on this coast in 1821.",
+        "Local rulers were pressured into selling Cape Mesurado, reportedly under the threat of a pistol.",
+        "The settler colonies declared independence in 1847."
+      ],
+      "summary": "The American Colonization Society acquired land at Cape Mesurado in 1821 from local rulers, reportedly under duress, and founded settler colonies for freed Black Americans. Indigenous peoples were pushed aside, and the settler state declared independence in 1847.",
+      "wikipediaTitle": "American Colonization Society",
+      "sources": [
+        "https://en.wikipedia.org/wiki/American_Colonization_Society"
+      ]
+    },
+    {
+      "id": "LBR-firestone-concession",
+      "title": "Firestone rubber concession",
+      "startYear": 1926,
+      "endYear": 1990,
+      "exploiter": {
+        "label": "the Firestone Tire and Rubber Company"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "rubber",
+        "land",
+        "labour"
+      ],
+      "hints": [
+        "An American tyre maker leased a million acres in 1926 for a small annual fee per acre.",
+        "The deal was meant to break a British rubber monopoly.",
+        "The plantation at Harbel became one of the largest rubber operations in the world."
+      ],
+      "summary": "In 1926 the Firestone Tire and Rubber Company leased up to a million acres for 99 years at a token rent to grow rubber, as part of a loan arrangement. Its Harbel plantation was the largest of its kind in the world until the civil war of 1990.",
+      "quip": "A tyre company leased a million acres at pocket-change rates and called it a development partnership.",
+      "wikipediaTitle": "Firestone Tire and Rubber Company",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Firestone_Tire_and_Rubber_Company"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "country": "KWT",
+  "events": [
+    {
+      "id": "KWT-exclusive-agreement",
+      "title": "Exclusive Agreement of 1899",
+      "startYear": 1899,
+      "endYear": 1961,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "oil",
+        "strategic_location"
+      ],
+      "hints": [
+        "A sheikh who had killed his half-brothers sought protection from an Ottoman claim in 1899.",
+        "He bound himself not to cede territory or receive agents of other powers without British consent.",
+        "The agreement was replaced by a friendship treaty in 1961."
+      ],
+      "summary": "Sheikh Mubarak Al-Sabah signed an agreement with Britain in 1899 that placed Kuwait's foreign relations under British control in return for protection from Ottoman claims. It remained in force until independence in June 1961.",
+      "wikipediaTitle": "History of Kuwait",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Kuwait"
+      ]
+    },
+    {
+      "id": "KWT-uqair-borders",
+      "title": "Uqair boundary settlement",
+      "startYear": 1922,
+      "endYear": 1922,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "oil"
+      ],
+      "hints": [
+        "A British high commissioner met leaders from two neighbouring states in a port in 1922.",
+        "He drew new frontiers with a red pencil, reducing the territory claimed by one side.",
+        "He also created two neutral zones."
+      ],
+      "summary": "At the Uqair conference in 1922, British High Commissioner Percy Cox set the borders between Najd, Iraq and Kuwait without Kuwaiti representation, and created two neutral zones. Kuwait lost a large portion of the territory it had claimed.",
+      "wikipediaTitle": "Uqair Protocol of 1922",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Uqair_Protocol_of_1922"
+      ]
+    },
+    {
+      "id": "KWT-oil-concession",
+      "title": "Kuwait Oil Company concession",
+      "startYear": 1934,
+      "endYear": 1975,
+      "exploiter": {
+        "label": "the Anglo-Persian Oil Company"
+      },
+      "type": "resource_extraction",
+      "resources": [
+        "oil"
+      ],
+      "hints": [
+        "In 1934 a concession was given to a joint venture of a British and a US company.",
+        "The Burgan field proved to be one of the largest in the world.",
+        "The government took full ownership in 1975."
+      ],
+      "summary": "In 1934 Kuwait granted a 75-year concession to the Kuwait Oil Company, jointly owned by Anglo-Persian and Gulf Oil. The Burgan field was discovered in 1938, and the government fully nationalised the company in 1975.",
+      "wikipediaTitle": "Kuwait Oil Company",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kuwait_Oil_Company"
+      ]
+    },
+    {
+      "id": "KWT-iraqi-invasion",
+      "title": "Iraqi invasion and occupation",
+      "startYear": 1990,
+      "endYear": 1991,
+      "exploiter": {
+        "label": "Iraq"
+      },
+      "type": "occupation",
+      "resources": [
+        "oil",
+        "land"
+      ],
+      "hints": [
+        "In August 1990 tanks crossed the northern border and took the capital within days.",
+        "The neighbouring state declared the country its 19th province.",
+        "A UN-authorised coalition expelled the invaders in February 1991, after they set hundreds of oil wells ablaze."
+      ],
+      "summary": "Iraq invaded on 2 August 1990 and annexed Kuwait as its 19th province. A UN-authorised coalition launched Operation Desert Storm in January 1991 and liberated the country by 28 February. Retreating Iraqi forces set hundreds of oil wells alight.",
+      "sensitive": true,
+      "wikipediaTitle": "Iraqi invasion of Kuwait",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Iraqi_invasion_of_Kuwait"
+      ]
+    }
+  ]
+}

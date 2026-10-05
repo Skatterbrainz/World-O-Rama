@@ -1,0 +1,74 @@
+{
+  "country": "MNG",
+  "events": [
+    {
+      "id": "MNG-qing-rule",
+      "title": "Qing rule of Outer Mongolia",
+      "startYear": 1691,
+      "endYear": 1911,
+      "exploiter": { "label": "the Qing dynasty" },
+      "type": "colonization",
+      "resources": ["livestock", "tribute"],
+      "hints": [
+        "Northern princes submitted to a Manchu emperor in 1691 to escape a rival steppe power.",
+        "Debts to merchants from the south were a source of grievance.",
+        "The collapse of the dynasty in 1911 gave the princes a chance to declare independence."
+      ],
+      "summary": "After the Khalkha princes submitted to the Kangxi Emperor in 1691, Outer Mongolia was governed under the banner system by Qing officials. Heavy taxes and debts owed to Chinese merchants fuelled resentment, and the Qing collapse in 1911 allowed a declaration of independence.",
+      "wikipediaTitle": "Mongolia under Qing rule",
+      "sources": ["https://en.wikipedia.org/wiki/Mongolia_under_Qing_rule"]
+    },
+    {
+      "id": "MNG-chinese-occupation",
+      "title": "Chinese occupation of Urga",
+      "startYear": 1919,
+      "endYear": 1921,
+      "exploiter": { "label": "the Republic of China" },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "Soldiers sent from Beijing forced the Buddhist ruler to give up autonomy.",
+        "A warlord's troops took the capital in late 1919.",
+        "The occupiers were driven out by a Russian baron and then by a revolution."
+      ],
+      "summary": "In late 1919 troops of the Beiyang government under Xu Shuzheng occupied Urga and forced the Bogd Khan to abolish Mongolian autonomy. The occupation ended in early 1921 when the Russian baron Ungern-Sternberg captured the city, followed by the Soviet-backed revolution.",
+      "wikipediaTitle": "Occupation of Mongolia",
+      "sources": ["https://en.wikipedia.org/wiki/Occupation_of_Mongolia"]
+    },
+    {
+      "id": "MNG-soviet-satellite",
+      "title": "Soviet satellite state",
+      "startYear": 1921,
+      "endYear": 1990,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "puppet_regime",
+      "resources": ["livestock", "copper", "wool"],
+      "hints": [
+        "After a 1921 revolution, it became the world's second communist state.",
+        "Soviet troops were stationed there for decades, including a large garrison from 1966.",
+        "One-party rule and Soviet tutelage ended with democratic protests in 1990."
+      ],
+      "summary": "With Soviet assistance, a communist revolution in 1921 led to the Mongolian People's Republic in 1924, the second communist state in the world. For almost seven decades it was a close Soviet satellite, hosting Soviet troops, supplying livestock and raw materials, and following Moscow's lead, until the democratic revolution of 1990.",
+      "wikipediaTitle": "Mongolian People's Republic",
+      "sources": ["https://en.wikipedia.org/wiki/Mongolian_People's_Republic"]
+    },
+    {
+      "id": "MNG-purges-1937",
+      "title": "Stalinist purges",
+      "startYear": 1937,
+      "endYear": 1939,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "Tens of thousands were executed in a campaign directed from Moscow.",
+        "Buddhist monks were a main target, and most monasteries were destroyed.",
+        "Marshal Choibalsan carried out the purge alongside Soviet security officers."
+      ],
+      "summary": "Under Marshal Choibalsan and with Soviet security officers' direction, a campaign of repression in 1937 to 1939 killed an estimated tens of thousands of people, including a large share of the Buddhist clergy and many intellectuals, and destroyed nearly all monasteries.",
+      "sensitive": true,
+      "wikipediaTitle": "Stalinist repressions in Mongolia",
+      "sources": ["https://en.wikipedia.org/wiki/Stalinist_repressions_in_Mongolia"]
+    }
+  ]
+}

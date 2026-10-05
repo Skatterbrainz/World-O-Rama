@@ -1,0 +1,61 @@
+{
+  "country": "VIR",
+  "events": [
+    {
+      "id": "VIR-danish-west-indies",
+      "title": "Danish West Indies",
+      "startYear": 1672,
+      "endYear": 1917,
+      "exploiter": {
+        "label": "Denmark"
+      },
+      "type": "colonization",
+      "resources": [
+        "sugar",
+        "slaves",
+        "cotton"
+      ],
+      "territoryNames": [
+        "the Danish West Indies"
+      ],
+      "hints": [
+        "A Danish chartered company claimed a first island in 1672 and bought another from France in 1733.",
+        "Sugar plantations were worked by enslaved Africans, and an uprising on one island in 1733 was suppressed.",
+        "Slavery was ended in 1848 after a mass uprising on the largest island, and the colony was sold in 1917."
+      ],
+      "summary": "The Danish West India Company took possession of the first island in 1672 and bought Saint Croix from France in 1733. Sugar plantations used enslaved Africans, who rose in revolt on Saint John in 1733 and on Saint Croix in 1848, the year slavery ended. Denmark sold the colony in 1917.",
+      "sensitive": true,
+      "wikipediaTitle": "Danish West Indies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Danish_West_Indies"
+      ]
+    },
+    {
+      "id": "VIR-us-purchase",
+      "title": "US purchase and Navy rule",
+      "startYear": 1917,
+      "endYear": 1931,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "annexation",
+      "resources": [
+        "strategic_location",
+        "land"
+      ],
+      "territoryNames": [
+        "the Danish West Indies"
+      ],
+      "hints": [
+        "A 1917 treaty transferred three islands for $25 million in gold.",
+        "The purchase aimed to keep the islands out of German hands and protect the approaches to a canal.",
+        "The navy ran the territory until 1931, and residents did not become citizens until 1927."
+      ],
+      "summary": "Fearing German interest in the islands during the First World War, the United States bought the Danish West Indies for 25 million dollars in 1917. The US Navy governed the territory until 1931, and residents were granted citizenship in 1927.",
+      "wikipediaTitle": "Treaty of the Danish West Indies",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Treaty_of_the_Danish_West_Indies"
+      ]
+    }
+  ]
+}

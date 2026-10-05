@@ -1,0 +1,138 @@
+{
+  "country": "JOR",
+  "events": [
+    {
+      "id": "JOR-roman-arabia",
+      "title": "Roman annexation of the Nabataean kingdom",
+      "startYear": 106,
+      "endYear": 106,
+      "exploiter": {
+        "label": "the Roman Empire"
+      },
+      "type": "annexation",
+      "resources": [
+        "trade_routes",
+        "tribute"
+      ],
+      "territoryNames": [
+        "Arabia Petraea"
+      ],
+      "hints": [
+        "A rose-red caravan city controlled the incense route until its king died in 106 CE.",
+        "Trajan's governor annexed the kingdom without a major war.",
+        "It became a Roman province called Arabia Petraea."
+      ],
+      "summary": "When the last Nabataean king, Rabbel II, died in 106 CE, the Roman emperor Trajan annexed his kingdom as the province of Arabia Petraea. Rome took control of the caravan routes that carried incense and spices from Arabia.",
+      "wikipediaTitle": "Arabia Petraea",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arabia_Petraea"
+      ]
+    },
+    {
+      "id": "JOR-oultrejordain",
+      "title": "Crusader Lordship of Oultrejordain",
+      "startYear": 1115,
+      "endYear": 1189,
+      "exploiter": {
+        "label": "the Crusader states"
+      },
+      "type": "occupation",
+      "resources": [
+        "trade_routes",
+        "land"
+      ],
+      "territoryNames": [
+        "Oultrejordain"
+      ],
+      "hints": [
+        "A European king built a castle in 1115 on the road between Damascus and Mecca.",
+        "The lords of Kerak and Montreal taxed the caravans of pilgrims and traders.",
+        "Saladin took the last of the castles by 1189 after long sieges."
+      ],
+      "summary": "Baldwin I of Jerusalem built the castle of Montreal (Shaubak) in 1115, founding the Lordship of Oultrejordain. From Kerak and Montreal the lords controlled and taxed the overland routes between Syria and Arabia. Saladin captured the territory in 1187-1189.",
+      "wikipediaTitle": "Lordship of Oultrejordain",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lordship_of_Oultrejordain"
+      ]
+    },
+    {
+      "id": "JOR-ottoman-rule",
+      "title": "Ottoman rule",
+      "startYear": 1516,
+      "endYear": 1918,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "Ottoman Syria"
+      ],
+      "hints": [
+        "A sultan conquered the Levant after the battle of Marj Dabiq in 1516.",
+        "Pilgrim caravans were protected by forts along the road to Mecca.",
+        "A railway to the holy cities was built in the early 1900s."
+      ],
+      "summary": "The Ottomans took the region from the Mamluks in 1516-1517 and governed it as part of Damascus province. They maintained forts along the Hajj road and built the Hejaz Railway in 1900-1908. The Arab Revolt of 1916 ended Ottoman control by 1918.",
+      "wikipediaTitle": "History of Jordan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/History_of_Jordan"
+      ]
+    },
+    {
+      "id": "JOR-british-emirate",
+      "title": "British Emirate of Transjordan",
+      "startYear": 1921,
+      "endYear": 1946,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "strategic_location",
+        "land"
+      ],
+      "territoryNames": [
+        "the Emirate of Transjordan"
+      ],
+      "hints": [
+        "After the war, an emir from the Hejaz was installed in 1921 by a British minister.",
+        "A British subsidy funded the army, the Arab Legion, which was led by British officers.",
+        "The mandate ended in 1946."
+      ],
+      "summary": "Britain created the Emirate of Transjordan in 1921 under Abdullah I as part of the Palestine mandate. A British resident advised the emir, British subsidies funded the Arab Legion, and Britain recognised independence in 1946.",
+      "wikipediaTitle": "Emirate of Transjordan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Emirate_of_Transjordan"
+      ]
+    },
+    {
+      "id": "JOR-anglo-jordanian-treaty",
+      "title": "Anglo-Jordanian Treaty",
+      "startYear": 1948,
+      "endYear": 1957,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "strategic_location",
+        "land"
+      ],
+      "hints": [
+        "A 1948 treaty allowed British bases and troops on the territory of a nominally independent kingdom.",
+        "The Arab Legion was commanded by a British general, Glubb Pasha.",
+        "The king dismissed the general in 1956, and the treaty was terminated in 1957."
+      ],
+      "summary": "The 1948 Anglo-Jordanian Treaty granted Britain air bases and the right to station troops. The Arab Legion was commanded by General John Glubb until King Hussein dismissed him in March 1956. The treaty was terminated in 1957.",
+      "quip": "A sovereign kingdom, with a British general in command of its army.",
+      "wikipediaTitle": "John Bagot Glubb",
+      "sources": [
+        "https://en.wikipedia.org/wiki/John_Bagot_Glubb"
+      ]
+    }
+  ]
+}

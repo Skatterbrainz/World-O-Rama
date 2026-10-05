@@ -1,0 +1,74 @@
+{
+  "country": "NZL",
+  "events": [
+    {
+      "id": "NZL-new-zealand-company",
+      "title": "New Zealand Company land purchases",
+      "startYear": 1839,
+      "endYear": 1850,
+      "exploiter": { "label": "the New Zealand Company" },
+      "type": "colonization",
+      "resources": ["land"],
+      "hints": [
+        "A private colonisation company sent settler ships before the Crown had claimed sovereignty.",
+        "Edward Gibbon Wakefield led the scheme.",
+        "Some of its land deals were later found to be invalid."
+      ],
+      "summary": "Edward Gibbon Wakefield's New Zealand Company sent ships of settlers from 1839, buying vast areas of land from Maori in dubious transactions, before the Crown took control. Its land claims led to conflicts, such as the Wairau Affray in 1843, and several purchases were later investigated and found defective.",
+      "wikipediaTitle": "New Zealand Company",
+      "sources": ["https://en.wikipedia.org/wiki/New_Zealand_Company"]
+    },
+    {
+      "id": "NZL-treaty-of-waitangi",
+      "title": "Treaty of Waitangi",
+      "startYear": 1840,
+      "endYear": 1840,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["land"],
+      "hints": [
+        "Hundreds of chiefs signed a treaty with the Crown in February 1840.",
+        "The two language versions did not mean the same thing.",
+        "A tribunal set up in 1975 examines breaches of it."
+      ],
+      "summary": "The Treaty of Waitangi, signed in February 1840 by William Hobson and several hundred Maori chiefs, established British government. The English and Maori texts differ: the English ceded sovereignty, while the Maori text granted governance but guaranteed chiefly authority. Breaches of the treaty are investigated by the Waitangi Tribunal.",
+      "wikipediaTitle": "Treaty of Waitangi",
+      "sources": ["https://en.wikipedia.org/wiki/Treaty_of_Waitangi"]
+    },
+    {
+      "id": "NZL-new-zealand-wars",
+      "title": "New Zealand Wars and land confiscation",
+      "startYear": 1845,
+      "endYear": 1872,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["land"],
+      "hints": [
+        "Colonial forces fought a series of wars over land from the 1840s to the 1870s.",
+        "The Waikato was invaded in 1863.",
+        "More than a million hectares were confiscated afterwards."
+      ],
+      "summary": "From 1845 to 1872 British and colonial forces fought Maori groups in a series of wars over land and sovereignty. After the 1863 invasion of the Waikato, the government confiscated more than a million hectares of land under the New Zealand Settlements Act, much of it from tribes that had not fought.",
+      "sensitive": true,
+      "wikipediaTitle": "New Zealand Wars",
+      "sources": ["https://en.wikipedia.org/wiki/New_Zealand_Wars"]
+    },
+    {
+      "id": "NZL-parihaka",
+      "title": "Invasion of Parihaka",
+      "startYear": 1881,
+      "endYear": 1881,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["land"],
+      "hints": [
+        "A settlement known for passive resistance was occupied by an armed force on 5 November.",
+        "About 1,500 men marched on a village led by two prophets.",
+        "The leaders were jailed without trial."
+      ],
+      "summary": "On 5 November 1881 about 1,500 colonial troops and volunteers occupied the settlement of Parihaka in Taranaki, whose residents had peacefully resisted confiscation of their land. The prophets Te Whiti and Tohu were jailed without trial, and many residents were dispersed and buildings destroyed.",
+      "wikipediaTitle": "Parihaka",
+      "sources": ["https://en.wikipedia.org/wiki/Parihaka"]
+    }
+  ]
+}

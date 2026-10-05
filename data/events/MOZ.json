@@ -1,0 +1,172 @@
+{
+  "country": "MOZ",
+  "events": [
+    {
+      "id": "MOZ-sofala-gold-trade",
+      "title": "Portuguese gold and ivory trade at Sofala and Mozambique Island",
+      "startYear": 1505,
+      "endYear": 1600,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "colonization",
+      "resources": [
+        "gold",
+        "ivory",
+        "trade_routes"
+      ],
+      "hints": [
+        "In 1505 a European fleet seized a coastal port that exported gold from the inland plateau.",
+        "A fortress on a small island became the main base for Portuguese trade and for ships bound to India.",
+        "The target was the gold of the Mwene Mutapa kingdom."
+      ],
+      "summary": "Portugal took Sofala in 1505 and built a fort on Mozambique Island, using them to control the Swahili coast's trade in gold and ivory and to supply its fleet to India. It sought the gold of the Mwene Mutapa kingdom in the interior.",
+      "wikipediaTitle": "Portuguese Mozambique",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Portuguese_Mozambique"
+      ]
+    },
+    {
+      "id": "MOZ-zambezi-prazos",
+      "title": "Zambezi prazo system",
+      "startYear": 1677,
+      "endYear": 1930,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "slaves",
+        "ivory"
+      ],
+      "hints": [
+        "Crown estates along a great river were leased to settlers and traders.",
+        "The holders became semi-feudal lords commanding private armies.",
+        "Many turned to the slave trade and ivory trade."
+      ],
+      "summary": "From the 17th century, and especially after a system adopted in 1677, the Portuguese crown leased large estates called prazos in the Zambezi valley to settlers and traders. Prazo holders acted like local lords, often with private armies, and many became involved in the trade in ivory and enslaved people. The system faded by the early 20th century.",
+      "sensitive": true,
+      "wikipediaTitle": "Prazo",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Prazo"
+      ]
+    },
+    {
+      "id": "MOZ-chartered-companies",
+      "title": "Chartered companies in Portuguese Mozambique",
+      "startYear": 1891,
+      "endYear": 1942,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "labour",
+        "land"
+      ],
+      "hints": [
+        "Portugal handed large areas to chartered companies in 1891, many financed by foreign capital.",
+        "The companies could tax people and recruit labour.",
+        "The largest of them ran the central provinces until 1942."
+      ],
+      "summary": "In 1891 Portugal granted the Mozambique Company and the Niassa Company sweeping rights over large territories, including taxation and labour recruitment, often with foreign capital. The Mozambique Company's charter ended in 1942, and Niassa's ended in 1929.",
+      "sensitive": true,
+      "wikipediaTitle": "Mozambique Company",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mozambique_Company"
+      ]
+    },
+    {
+      "id": "MOZ-chibalo-forced-labour",
+      "title": "Chibalo forced labour and compulsory cotton",
+      "startYear": 1899,
+      "endYear": 1961,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "cotton",
+        "labour"
+      ],
+      "hints": [
+        "A system of conscripted work obliged men to labour for the state and for private companies.",
+        "Farmers were also required to grow cotton on fixed plots for low fixed prices.",
+        "It was officially abolished in 1961."
+      ],
+      "summary": "Under chibalo, the Portuguese administration conscripted African men to work on roads, plantations and railways and obliged farmers to grow cotton for low fixed prices. The system was formally abolished in 1961.",
+      "sensitive": true,
+      "wikipediaTitle": "Chibalo",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chibalo"
+      ]
+    },
+    {
+      "id": "MOZ-colonial-war-moz",
+      "title": "Mozambican War of Independence",
+      "startYear": 1964,
+      "endYear": 1974,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A liberation front launched an armed struggle in September 1964 against a European dictatorship's colony.",
+        "Reports of a 1972 massacre at a village called Wiriyamu shocked the world.",
+        "The war ended after a revolution in Lisbon in April 1974."
+      ],
+      "summary": "FRELIMO launched an armed struggle on 25 September 1964. Portugal fought a long counterinsurgency, including the 1972 Wiriyamu massacre, and the war ended after the Carnation Revolution of April 1974 and the signing of the Lusaka Accord.",
+      "sensitive": true,
+      "wikipediaTitle": "Mozambican War of Independence",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mozambican_War_of_Independence"
+      ]
+    },
+    {
+      "id": "MOZ-rhodesian-raids-moz",
+      "title": "Rhodesian raids and the creation of RENAMO",
+      "startYear": 1976,
+      "endYear": 1980,
+      "exploiter": {
+        "label": "Rhodesia"
+      },
+      "type": "proxy_war",
+      "resources": [],
+      "hints": [
+        "A neighbouring white-minority state attacked guerrilla camps across the border, including a massive raid at Chimoio in 1977.",
+        "Its intelligence service set up an anti-government rebel force.",
+        "That force became a long-running insurgency after the neighbour changed its name."
+      ],
+      "summary": "From 1976 Rhodesia raided camps of Zimbabwean guerrillas in Mozambique, including Operation Dingo at Chimoio in 1977, and its intelligence service created the RENAMO rebel movement. After Zimbabwe's independence in 1980 South Africa took over backing it.",
+      "sensitive": true,
+      "wikipediaTitle": "Operation Dingo",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Operation_Dingo"
+      ]
+    },
+    {
+      "id": "MOZ-apartheid-renamo",
+      "title": "Apartheid South Africa's support for RENAMO",
+      "startYear": 1980,
+      "endYear": 1992,
+      "exploiter": {
+        "label": "South Africa"
+      },
+      "type": "proxy_war",
+      "resources": [],
+      "hints": [
+        "After 1980 a white-minority regime to the south armed rebels to destabilise a Marxist neighbour.",
+        "Rebels targeted rail lines, schools and clinics.",
+        "A 1984 nonaggression accord was widely violated."
+      ],
+      "summary": "From 1980 apartheid South Africa supplied RENAMO as part of a policy of destabilising neighbouring states. The Mozambican Civil War killed a very large number of people, and fighting ended with the 1992 General Peace Accords.",
+      "sensitive": true,
+      "wikipediaTitle": "Mozambican Civil War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mozambican_Civil_War"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "country": "ERI",
+  "events": [
+    {
+      "id": "ERI-ottoman-massawa",
+      "title": "Ottoman Massawa",
+      "startYear": 1557,
+      "endYear": 1865,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "occupation",
+      "resources": [
+        "trade_routes",
+        "strategic_location"
+      ],
+      "territoryNames": [
+        "Habesh Eyalet"
+      ],
+      "hints": [
+        "An island port on the Red Sea was seized by a great Mediterranean empire in the 16th century.",
+        "It became part of an Ottoman province named after the highlands behind it.",
+        "The empire handed the port to its Egyptian vassal in 1865."
+      ],
+      "summary": "The Ottoman Empire took Massawa in 1557 and made it a base within the Habesh Eyalet, controlling the Red Sea trade of the Ethiopian highlands. In 1865 the Ottomans ceded it to the Khedive of Egypt.",
+      "wikipediaTitle": "Habesh Eyalet",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Habesh_Eyalet"
+      ]
+    },
+    {
+      "id": "ERI-egyptian-massawa",
+      "title": "Egyptian occupation of Massawa and the coast",
+      "startYear": 1865,
+      "endYear": 1885,
+      "exploiter": {
+        "label": "Egypt"
+      },
+      "type": "occupation",
+      "resources": [
+        "trade_routes",
+        "strategic_location"
+      ],
+      "hints": [
+        "After 1865 the Red Sea port and its hinterland were governed from Cairo.",
+        "Egypt pushed inland and was defeated by Ethiopian forces in 1875-1876.",
+        "In 1885 Egypt withdrew and a European kingdom took its place."
+      ],
+      "summary": "From 1865 Egypt administered Massawa and the surrounding coast. Its attempt to expand into the highlands failed after defeats in 1875-1876, and in 1885 it withdrew, allowing Italy to occupy Massawa.",
+      "wikipediaTitle": "Massawa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Massawa"
+      ]
+    },
+    {
+      "id": "ERI-italian-eritrea",
+      "title": "Italian Eritrea",
+      "startYear": 1890,
+      "endYear": 1941,
+      "exploiter": {
+        "label": "Italy"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "labour"
+      ],
+      "territoryNames": [
+        "Italian Eritrea"
+      ],
+      "hints": [
+        "A new European kingdom's first colony was founded on this coast in 1890.",
+        "It supplied thousands of colonial soldiers, called askari, for Italian campaigns.",
+        "British forces ended Italian rule in 1941."
+      ],
+      "summary": "Italy acquired Assab in 1869 and occupied Massawa in 1885, and in 1890 formally created the colony of Eritrea. It built roads, railways and settlements, recruited askari troops for its wars, and ruled until British forces took the colony in 1941.",
+      "wikipediaTitle": "Italian Eritrea",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Italian_Eritrea"
+      ]
+    },
+    {
+      "id": "ERI-british-dismantling",
+      "title": "British Military Administration",
+      "startYear": 1941,
+      "endYear": 1952,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "labour"
+      ],
+      "hints": [
+        "After Italy's defeat, the territory was run by a military government while the great powers argued about its future.",
+        "Factories and infrastructure were dismantled and removed.",
+        "In 1952 it was federated with a neighbouring empire under a UN plan."
+      ],
+      "summary": "Britain administered the former Italian colony from 1941 until 1952. Much industrial equipment and infrastructure was dismantled and removed during the period, while the UN debated the future of the territory before federating it with Ethiopia in 1952.",
+      "wikipediaTitle": "British Military Administration (Eritrea)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/British_Military_Administration_(Eritrea)"
+      ]
+    },
+    {
+      "id": "ERI-ethiopian-annexation",
+      "title": "Ethiopian annexation and occupation",
+      "startYear": 1962,
+      "endYear": 1991,
+      "exploiter": {
+        "label": "Ethiopia"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A federation that guaranteed autonomy was dissolved by the emperor in 1962.",
+        "A guerrilla war for independence followed, lasting three decades.",
+        "It ended with the fall of a Marxist regime in 1991."
+      ],
+      "summary": "In 1962 Emperor Haile Selassie dissolved the federation and annexed the territory. A war of independence began in 1961 and continued against the Derg regime until 1991, causing great suffering and displacement.",
+      "sensitive": true,
+      "wikipediaTitle": "Eritrean War of Independence",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Eritrean_War_of_Independence"
+      ]
+    }
+  ]
+}

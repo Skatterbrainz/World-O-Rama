@@ -1,0 +1,139 @@
+{
+  "country": "TUN",
+  "events": [
+    {
+      "id": "TUN-roman-africa",
+      "title": "Roman destruction of Carthage and the province of Africa",
+      "startYear": -146,
+      "endYear": 429,
+      "exploiter": {
+        "label": "the Roman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "grain",
+        "tribute",
+        "slaves"
+      ],
+      "territoryNames": [
+        "Africa Proconsularis"
+      ],
+      "hints": [
+        "After a three-year siege, a great Phoenician-founded city was razed in 146 BCE.",
+        "Survivors were sold into slavery, and the land became a province.",
+        "The province supplied much of the grain consumed in the capital."
+      ],
+      "summary": "Rome destroyed Carthage in 146 BCE after the Third Punic War, enslaving the survivors and creating the province of Africa. The fertile coastal plain became one of Rome's main grain suppliers until the Vandal conquest of 429.",
+      "sensitive": true,
+      "wikipediaTitle": "Africa (Roman province)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Africa_(Roman_province)"
+      ]
+    },
+    {
+      "id": "TUN-spanish-tunis",
+      "title": "Spanish conquest of Tunis",
+      "startYear": 1535,
+      "endYear": 1574,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "occupation",
+      "resources": [
+        "strategic_location",
+        "trade_routes"
+      ],
+      "hints": [
+        "An emperor led a huge fleet against a corsair state in 1535.",
+        "The city was sacked and a puppet ruler was installed under Spanish protection.",
+        "The Ottomans reconquered the area in 1574."
+      ],
+      "summary": "Emperor Charles V captured Tunis in 1535 from Barbarossa, who was aligned with the Ottomans, and installed a vassal ruler. Spain held the coastal fortress of La Goulette until the Ottomans retook the city in 1574.",
+      "wikipediaTitle": "Conquest of Tunis (1535)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Conquest_of_Tunis_(1535)"
+      ]
+    },
+    {
+      "id": "TUN-ottoman-tunis",
+      "title": "Ottoman Tunis",
+      "startYear": 1574,
+      "endYear": 1881,
+      "exploiter": {
+        "label": "the Ottoman Empire"
+      },
+      "type": "colonization",
+      "resources": [
+        "tribute",
+        "trade_routes",
+        "grain"
+      ],
+      "territoryNames": [
+        "Ottoman Tunisia",
+        "the Beylik of Tunis"
+      ],
+      "hints": [
+        "An Ottoman fleet recaptured the city in 1574, ending Spanish control.",
+        "Local beys ruled as semi-autonomous governors from the early 18th century.",
+        "Heavy foreign debts in the 19th century opened the door to European control."
+      ],
+      "summary": "The Ottomans took control in 1574 and the Husainid beys ran the state semi-autonomously from 1705. In the 19th century heavy foreign borrowing led to an international financial commission in 1869 and French control in 1881.",
+      "wikipediaTitle": "Ottoman Tunisia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ottoman_Tunisia"
+      ]
+    },
+    {
+      "id": "TUN-french-protectorate",
+      "title": "French protectorate",
+      "startYear": 1881,
+      "endYear": 1956,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "phosphates",
+        "land",
+        "grain"
+      ],
+      "territoryNames": [
+        "French Tunisia"
+      ],
+      "hints": [
+        "A military expedition in 1881 forced the ruler to sign the Treaty of Bardo.",
+        "Settlers acquired vast estates, and phosphate mining began near Gafsa.",
+        "Independence was negotiated in 1956 after years of nationalist agitation."
+      ],
+      "summary": "In 1881 French troops crossed the border and the bey signed the Treaty of Bardo, making the country a protectorate, confirmed by the 1883 La Marsa convention. Settlers acquired large estates, phosphate mining began in the 1890s, and independence was achieved in 1956.",
+      "wikipediaTitle": "French protectorate of Tunisia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_protectorate_of_Tunisia"
+      ]
+    },
+    {
+      "id": "TUN-bizerte-crisis",
+      "title": "Bizerte crisis",
+      "startYear": 1956,
+      "endYear": 1963,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "occupation",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "After independence, the former colonial power kept a large naval base on the northern coast.",
+        "In July 1961 a blockade attempt by the government led to several days of fighting.",
+        "Hundreds of people were killed, and the base was handed back in October 1963."
+      ],
+      "summary": "After independence France kept its Bizerte naval base. In July 1961 President Bourguiba ordered a blockade, and French forces responded, killing an estimated 630 or more Tunisians. The UN General Assembly called for withdrawal, and France evacuated the base in October 1963.",
+      "sensitive": true,
+      "wikipediaTitle": "Bizerte crisis",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bizerte_crisis"
+      ]
+    }
+  ]
+}

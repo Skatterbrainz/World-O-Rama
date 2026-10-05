@@ -1,0 +1,60 @@
+{
+  "country": "SGP",
+  "events": [
+    {
+      "id": "SGP-east-india-company-founding",
+      "title": "East India Company founds a trading post",
+      "startYear": 1819,
+      "endYear": 1824,
+      "exploiter": { "label": "the East India Company" },
+      "type": "colonization",
+      "resources": ["trade_routes", "strategic_location"],
+      "hints": [
+        "A sparsely populated island was chosen as a free port in 1819.",
+        "Stamford Raffles signed a treaty with a local ruler and a rival claimant.",
+        "A treaty in 1824 ceded the whole island to the Company."
+      ],
+      "summary": "In 1819 Sir Stamford Raffles of the East India Company signed a treaty establishing a trading post on the island, backed by Sultan Hussein and the Temenggong. The 1824 treaty ceded it fully to the Company, which developed it as a free port at the southern end of the Strait of Malacca.",
+      "quip": "Rarely has so much been acquired for so few signatures and so little scrutiny.",
+      "wikipediaTitle": "1819 Singapore Treaty",
+      "sources": ["https://en.wikipedia.org/wiki/1819_Singapore_Treaty"]
+    },
+    {
+      "id": "SGP-straits-settlements",
+      "title": "Straits Settlements",
+      "startYear": 1826,
+      "endYear": 1946,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["tin", "rubber", "opium", "trade_routes"],
+      "territoryNames": ["the Straits Settlements"],
+      "hints": [
+        "Three ports on a strait were united as one colony in 1826.",
+        "Its customs revenue depended partly on licensed opium farms.",
+        "It became a Crown colony in 1867 and was dissolved after the Second World War."
+      ],
+      "summary": "The Straits Settlements united Penang, Malacca and Singapore from 1826 and became a Crown colony in 1867. The colony was a hub for exporting tin and rubber and for the entrepot trade, with a large share of public revenue in the early decades coming from licensed opium farms.",
+      "wikipediaTitle": "Straits Settlements",
+      "sources": ["https://en.wikipedia.org/wiki/Straits_Settlements"]
+    },
+    {
+      "id": "SGP-japanese-occupation",
+      "title": "Syonan-to and the Sook Ching",
+      "startYear": 1942,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["labour"],
+      "territoryNames": ["Syonan-to"],
+      "hints": [
+        "The 'impregnable fortress' fell after a week-long battle in February 1942.",
+        "The island was renamed 'Light of the South' by its new rulers.",
+        "A purge of ethnic Chinese men, the Sook Ching, killed thousands in the opening weeks."
+      ],
+      "summary": "After the British surrender in February 1942 Japan occupied the island and renamed it Syonan-to. In the Sook Ching purge, thousands of ethnic Chinese men were killed, and the three-and-a-half-year occupation brought food shortages and repression.",
+      "sensitive": true,
+      "wikipediaTitle": "Japanese occupation of Singapore",
+      "sources": ["https://en.wikipedia.org/wiki/Japanese_occupation_of_Singapore"]
+    }
+  ]
+}

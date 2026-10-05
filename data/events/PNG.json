@@ -1,0 +1,96 @@
+{
+  "country": "PNG",
+  "events": [
+    {
+      "id": "PNG-german-new-guinea",
+      "title": "German New Guinea",
+      "startYear": 1884,
+      "endYear": 1914,
+      "exploiter": { "label": "Imperial Germany" },
+      "type": "colonization",
+      "resources": ["land", "labour"],
+      "territoryNames": ["German New Guinea", "Kaiser-Wilhelmsland"],
+      "hints": [
+        "A chartered company raised the flag on the north coast in 1884.",
+        "Plantations drew indentured labourers from villages.",
+        "Australian troops captured the colony in 1914."
+      ],
+      "summary": "Germany declared a protectorate over the northeastern part of New Guinea in 1884, governed first by the New Guinea Company and then directly. Plantations of coconut and other crops depended on indentured local labour, until Australian forces occupied the colony in 1914.",
+      "wikipediaTitle": "German New Guinea",
+      "sources": ["https://en.wikipedia.org/wiki/German_New_Guinea"]
+    },
+    {
+      "id": "PNG-british-new-guinea",
+      "title": "British New Guinea",
+      "startYear": 1884,
+      "endYear": 1906,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["land", "labour"],
+      "territoryNames": ["British New Guinea"],
+      "hints": [
+        "The south-eastern part was proclaimed a protectorate in the same year as a German claim.",
+        "Queensland pressed for its annexation.",
+        "Control passed to a dominion government in 1906."
+      ],
+      "summary": "In 1884 Britain proclaimed a protectorate over the south-eastern coast of New Guinea, and in 1888 it became a colony under pressure from Australian colonies. In 1906 it was handed to Australia as the Territory of Papua.",
+      "wikipediaTitle": "Territory of Papua",
+      "sources": ["https://en.wikipedia.org/wiki/Territory_of_Papua"]
+    },
+    {
+      "id": "PNG-australian-administration",
+      "title": "Australian administration",
+      "startYear": 1914,
+      "endYear": 1975,
+      "exploiter": { "label": "Australia" },
+      "type": "colonization",
+      "resources": ["gold", "labour"],
+      "territoryNames": ["the Territory of New Guinea"],
+      "hints": [
+        "A neighbouring dominion took over a German colony in the first months of the First World War.",
+        "A gold rush in the Bulolo valley in the 1920s attracted airlift operations.",
+        "An indenture system tied workers to employers until the 1950s."
+      ],
+      "summary": "Australia occupied German New Guinea in 1914 and administered it under a League of Nations mandate from 1920, later combining it with Papua. Indentured labour was used on plantations and gold mines, such as in the Bulolo goldfields, and Australia handed over power at independence in 1975.",
+      "wikipediaTitle": "Territory of New Guinea",
+      "sources": ["https://en.wikipedia.org/wiki/Territory_of_New_Guinea"]
+    },
+    {
+      "id": "PNG-japanese-occupation",
+      "title": "Japanese invasion and occupation",
+      "startYear": 1942,
+      "endYear": 1945,
+      "exploiter": { "label": "Japan" },
+      "type": "occupation",
+      "resources": ["labour"],
+      "hints": [
+        "Rabaul fell in January 1942 and became a giant Japanese base.",
+        "The Kokoda Track campaign was fought across the mountains.",
+        "Villagers were forced to carry supplies and build airstrips."
+      ],
+      "summary": "Japanese forces seized Rabaul in January 1942 and invaded the mainland, fighting Australian and American troops in campaigns such as the Kokoda Track. Many villagers were conscripted as carriers and labourers and suffered violence and starvation, and thousands died.",
+      "sensitive": true,
+      "wikipediaTitle": "New Guinea campaign",
+      "sources": ["https://en.wikipedia.org/wiki/New_Guinea_campaign"]
+    },
+    {
+      "id": "PNG-panguna-mine",
+      "title": "Panguna copper mine",
+      "startYear": 1972,
+      "endYear": 1989,
+      "exploiter": { "label": "the Rio Tinto Company" },
+      "type": "resource_extraction",
+      "resources": ["copper", "gold"],
+      "territoryNames": ["Bougainville"],
+      "hints": [
+        "One of the world's largest open-pit copper mines was opened on an island in 1972.",
+        "Landowners felt they received too little from its profits and complained of pollution.",
+        "Sabotage against it triggered a decade-long civil conflict."
+      ],
+      "summary": "The Panguna mine on Bougainville, run by Bougainville Copper Ltd, a subsidiary of Rio Tinto's predecessor CRA, began production in 1972 and became a major source of national revenue. Landowner grievances over royalties and environmental damage led to sabotage in 1988 and a civil war that closed the mine and killed thousands.",
+      "sensitive": true,
+      "wikipediaTitle": "Panguna mine",
+      "sources": ["https://en.wikipedia.org/wiki/Panguna_mine"]
+    }
+  ]
+}

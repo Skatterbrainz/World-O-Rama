@@ -1,0 +1,106 @@
+{
+  "country": "RWA",
+  "events": [
+    {
+      "id": "RWA-german-ruanda",
+      "title": "German rule over Ruanda",
+      "startYear": 1897,
+      "endYear": 1916,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "colonization",
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "German East Africa"
+      ],
+      "hints": [
+        "A European power established a post in this highland kingdom in 1897.",
+        "It ruled through the royal court with very few Europeans.",
+        "Belgian forces from a neighbouring colony occupied it in 1916."
+      ],
+      "summary": "Germany reached the kingdom in the 1890s and established a presence in 1897 under the Mwami's court, ruling indirectly within German East Africa. Belgian troops from the Congo occupied it in 1916.",
+      "wikipediaTitle": "German East Africa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/German_East_Africa"
+      ]
+    },
+    {
+      "id": "RWA-ruanda-urundi-belgian-mandate",
+      "title": "Belgian mandate of Ruanda-Urundi",
+      "startYear": 1916,
+      "endYear": 1962,
+      "exploiter": {
+        "label": "Belgium"
+      },
+      "type": "colonization",
+      "resources": [
+        "coffee",
+        "tin",
+        "labour"
+      ],
+      "territoryNames": [
+        "Ruanda-Urundi"
+      ],
+      "hints": [
+        "A League of Nations mandate passed this kingdom to a European power that already had a large colony to the west.",
+        "In the 1930s identity cards made ethnic labels official.",
+        "It became independent as a republic in 1962 after a violent upheaval."
+      ],
+      "summary": "Belgium ruled the territory from 1916 as a League of Nations mandate and UN trust territory. Coffee became the main export, and in the 1930s Belgium introduced identity cards recording ethnic group. A revolution in 1959-1961 abolished the monarchy before independence in 1962.",
+      "wikipediaTitle": "Ruanda-Urundi",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ruanda-Urundi"
+      ]
+    },
+    {
+      "id": "RWA-ruzagayura-famine",
+      "title": "Ruzagayura famine",
+      "startYear": 1943,
+      "endYear": 1944,
+      "exploiter": {
+        "label": "Belgium"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A wartime famine struck the highlands, and many people left in search of food.",
+        "The name means roughly 'search and find little'.",
+        "Colonial efforts to send food to a neighbouring colony for the war effort made it worse."
+      ],
+      "summary": "The Ruzagayura famine of 1943-1944 followed drought in the Belgian mandate of Ruanda-Urundi, worsened by colonial attempts to send agricultural produce to the Belgian Congo for the Allied war effort. It killed many people and drove several hundred thousand to migrate, mostly to the Congo and Uganda.",
+      "sensitive": true,
+      "wikipediaTitle": "Ruzagayura famine",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ruzagayura_famine"
+      ]
+    },
+    {
+      "id": "RWA-belgian-compulsory-labour-rw",
+      "title": "Compulsory labour under Belgian rule",
+      "startYear": 1920,
+      "endYear": 1957,
+      "exploiter": {
+        "label": "Belgium"
+      },
+      "type": "forced_labour",
+      "resources": [
+        "coffee",
+        "labour"
+      ],
+      "hints": [
+        "Peasants were required to work unpaid on roads and for chiefs.",
+        "Farmers were also obliged to cultivate crops for export.",
+        "The system was gradually dismantled in the 1950s."
+      ],
+      "summary": "Under Belgian administration, men were required to perform unpaid compulsory labour on public works and for local chiefs, and households were obliged to grow cash crops such as coffee. The obligations were gradually reduced in the 1950s.",
+      "sensitive": true,
+      "wikipediaTitle": "Ruanda-Urundi",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ruanda-Urundi"
+      ]
+    }
+  ]
+}

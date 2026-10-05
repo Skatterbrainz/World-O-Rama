@@ -1,0 +1,120 @@
+{
+  "country": "AZE",
+  "events": [
+    {
+      "id": "AZE-persian-expedition-1796",
+      "title": "Russian Persian expedition of 1796",
+      "startYear": 1796,
+      "endYear": 1796,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "An empress sent an army south in the last year of her reign to punish a shah who had burned a neighbouring capital.",
+        "A great fortress at the Caspian gate was stormed in May 1796, and the troops overran most of the region within weeks.",
+        "The army was withdrawn in November after the empress died."
+      ],
+      "summary": "In 1796 Catherine the Great sent an expedition under Valerian Zubov against Qajar Iran after the 1795 sack of Tbilisi. After storming Derbent in May, Russian troops overran most of the territory of present-day Azerbaijan, including Baku, Shamakhi and Ganja, without resistance. Catherine's death in November led her successor Paul I to order a withdrawal, and the expedition had no lasting territorial result.",
+      "quip": "The conquest was cancelled when the empress died, which is about as abrupt as foreign policy gets.",
+      "wikipediaTitle": "Persian expedition of 1796",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Persian_expedition_of_1796",
+        "https://en.wikipedia.org/wiki/Valerian_Zubov"
+      ]
+    },
+    {
+      "id": "AZE-treaty-of-gulistan",
+      "title": "Treaty of Gulistan",
+      "startYear": 1804,
+      "endYear": 1813,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "annexation",
+      "resources": ["land", "strategic_location"],
+      "territoryNames": ["the Baku Khanate", "the Karabakh Khanate"],
+      "hints": [
+        "A war between a European empire and Persia ended in 1813 with large cessions in the Caucasus.",
+        "The khanates of Baku, Ganja and Karabakh were among the lands lost.",
+        "Persia also renounced its claims to Georgia and Dagestan."
+      ],
+      "summary": "After the Russo-Persian War of 1804 to 1813, Persia ceded to Russia most of the Caucasian khanates it had held, including Baku, Ganja, Karabakh, Shaki, Shirvan and Quba, in the Treaty of Gulistan. Persia was also forced to renounce its claim to Georgian lands.",
+      "wikipediaTitle": "Treaty of Gulistan",
+      "sources": ["https://en.wikipedia.org/wiki/Treaty_of_Gulistan"]
+    },
+    {
+      "id": "AZE-siege-of-ganja-1804",
+      "title": "Russian storming of Ganja",
+      "startYear": 1804,
+      "endYear": 1804,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "invasion",
+      "resources": [],
+      "territoryNames": ["the Ganja Khanate"],
+      "hints": [
+        "A Russian general demanded surrender repeatedly during a month-long siege.",
+        "The khan replied that he would be found dead on the fortress wall.",
+        "The city, stormed on 15 January 1804, was later renamed Elisavetpol."
+      ],
+      "summary": "In early 1804 Russian troops under Pavel Tsitsianov besieged Ganja, a khanate under Qajar Iranian suzerainty, and stormed it on 15 January. Its ruler Javad Khan, who had refused repeated demands to surrender, was killed in the defence. The assault helped trigger the Russo-Persian War of 1804-1813.",
+      "sensitive": true,
+      "wikipediaTitle": "Siege of Ganja (1804)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siege_of_Ganja_%281804%29",
+        "https://en.wikipedia.org/wiki/Russo-Persian_War_%281804%E2%80%931813%29"
+      ]
+    },
+    {
+      "id": "AZE-baku-oil",
+      "title": "Baku oil boom",
+      "startYear": 1872,
+      "endYear": 1917,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "resource_extraction",
+      "resources": ["oil", "labour"],
+      "territoryNames": ["the Baku Governorate"],
+      "hints": [
+        "Wells on the Absheron peninsula produced about half the world's oil by 1900.",
+        "A Swedish family firm, Branobel, built pipelines and tanker ships.",
+        "Wealthy oil barons commissioned palaces in the capital."
+      ],
+      "summary": "After the Russian government began auctioning oil land in 1872, Baku became the centre of the global oil industry. By 1901 it produced roughly half of the world's oil. Firms such as the Nobel brothers' Branobel built pipelines and tankers, and migrant workers laboured in harsh conditions.",
+      "wikipediaTitle": "Branobel",
+      "sources": ["https://en.wikipedia.org/wiki/Branobel"]
+    },
+    {
+      "id": "AZE-soviet-invasion-1920",
+      "title": "Soviet invasion and the nationalisation of oil",
+      "startYear": 1920,
+      "endYear": 1920,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "invasion",
+      "resources": ["oil"],
+      "territoryNames": ["the Transcaucasian SFSR"],
+      "hints": [
+        "The Red Army entered the capital in April 1920 and ended a short-lived republic.",
+        "Its oil fields were nationalised.",
+        "The state became part of a Transcaucasian federation in 1922."
+      ],
+      "summary": "In April 1920 the Red Army's 11th Army crossed the border and occupied Baku, ending the Azerbaijan Democratic Republic, the first democratic republic in the Muslim world. The oil industry was nationalised, and the territory became part of the Transcaucasian federation in 1922.",
+      "wikipediaTitle": "Soviet invasion of Azerbaijan",
+      "sources": ["https://en.wikipedia.org/wiki/Soviet_invasion_of_Azerbaijan"]
+    },
+    {
+      "id": "AZE-black-january",
+      "title": "Black January",
+      "startYear": 1990,
+      "endYear": 1990,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "occupation",
+      "resources": [],
+      "hints": [
+        "Troops entered the capital on the night of 19 January 1990 to crush a popular movement.",
+        "More than a hundred civilians were killed.",
+        "A state of emergency was declared in the republic."
+      ],
+      "summary": "On the night of 19 to 20 January 1990, Soviet troops entered Baku to suppress the Popular Front movement and preserve communist control. More than 130 civilians were killed and hundreds injured.",
+      "sensitive": true,
+      "wikipediaTitle": "Black January",
+      "sources": ["https://en.wikipedia.org/wiki/Black_January"]
+    }
+  ]
+}

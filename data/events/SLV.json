@@ -1,0 +1,88 @@
+{
+  "country": "SLV",
+  "events": [
+    {
+      "id": "SLV-spanish-conquest",
+      "title": "Spanish conquest of the Pipil lands",
+      "startYear": 1524,
+      "endYear": 1821,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "indigo",
+        "cocoa",
+        "land",
+        "slaves"
+      ],
+      "territoryNames": [
+        "Cuzcatlán",
+        "the Captaincy General of Guatemala"
+      ],
+      "hints": [
+        "Pedro de Alvarado's forces fought the Pipil in the 1520s over a rich volcanic land.",
+        "The region later became a major source of a blue dye exported to Europe.",
+        "Indigenous labour was organised through encomienda and repartimiento on indigo estates."
+      ],
+      "summary": "Pedro de Alvarado's expeditions in 1524 began the conquest of the Pipil territory of Cuzcatlán. Under Spain the area exported cacao and balsam and later became a major indigo producer, with Indigenous and enslaved labour on the estates.",
+      "sensitive": true,
+      "wikipediaTitle": "Cuzcatlan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cuzcatlan",
+        "https://en.wikipedia.org/wiki/History_of_El_Salvador"
+      ]
+    },
+    {
+      "id": "SLV-mexican-annexation",
+      "title": "Annexation to the Mexican Empire",
+      "startYear": 1822,
+      "endYear": 1823,
+      "exploiter": {
+        "label": "Mexico"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "territoryNames": [
+        "the Mexican Empire"
+      ],
+      "hints": [
+        "After independence in 1821, Central American provinces were pressed to join a new empire to the north in 1822.",
+        "Troops under Vicente Filisola invaded and occupied the capital.",
+        "Petitions were made in 1822 to join a distant northern republic instead."
+      ],
+      "summary": "In 1822 the new Mexican Empire of Agustín de Iturbide annexed Central America. Salvadoran leaders resisted, and Mexican forces under Vicente Filisola occupied San Salvador in early 1823. The empire collapsed that year and the provinces went their own way.",
+      "quip": "Iturbide named himself emperor in 1822 and was in exile within a year.",
+      "wikipediaTitle": "First Mexican Empire",
+      "sources": [
+        "https://en.wikipedia.org/wiki/First_Mexican_Empire"
+      ]
+    },
+    {
+      "id": "SLV-civil-war-us-aid",
+      "title": "US-backed counterinsurgency in the civil war",
+      "startYear": 1980,
+      "endYear": 1992,
+      "exploiter": {
+        "label": "the United States"
+      },
+      "type": "proxy_war",
+      "resources": [
+        "strategic_location"
+      ],
+      "hints": [
+        "A conflict between a military-led government and a guerrilla coalition began in 1980.",
+        "A Cold War superpower supplied billions of dollars of aid to the government side.",
+        "The war, including the El Mozote massacre of 1981, ended with the 1992 Chapultepec Peace Accords."
+      ],
+      "summary": "During the 1980-1992 civil war, the United States gave the Salvadoran government large-scale military and economic aid as part of its Cold War strategy. A UN Truth Commission attributed most of the war's killings to state forces and allied death squads.",
+      "sensitive": true,
+      "wikipediaTitle": "Salvadoran Civil War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Salvadoran_Civil_War"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "country": "ESH",
+  "events": [
+    {
+      "id": "ESH-spanish-sahara",
+      "title": "Spanish Sahara",
+      "startYear": 1884,
+      "endYear": 1976,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "phosphates",
+        "fish",
+        "land"
+      ],
+      "territoryNames": [
+        "Spanish Sahara",
+        "Río de Oro",
+        "Saguia el-Hamra"
+      ],
+      "hints": [
+        "In 1884 a European power declared a protectorate over a long stretch of desert coast.",
+        "The territory was formally named after two regions, Saguia el-Hamra and Río de Oro.",
+        "Large phosphate deposits at Bou Craa were opened in the 1960s."
+      ],
+      "summary": "Spain declared a protectorate over the coast between Cape Bojador and Cape Blanc in 1884 and later organised it as Spanish Sahara. Huge phosphate deposits at Bou Craa were discovered in 1947 and mined from the 1960s. Spain withdrew in 1976.",
+      "wikipediaTitle": "Spanish Sahara",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spanish_Sahara"
+      ]
+    },
+    {
+      "id": "ESH-moroccan-annexation",
+      "title": "Moroccan annexation and the Green March",
+      "startYear": 1975,
+      "endYear": 2025,
+      "exploiter": {
+        "label": "Morocco"
+      },
+      "type": "annexation",
+      "resources": [
+        "phosphates",
+        "fish",
+        "land"
+      ],
+      "hints": [
+        "In November 1975 about 350,000 civilians marched across the border as Spain was ending its rule.",
+        "The International Court of Justice had ruled weeks earlier that there were no ties of sovereignty.",
+        "A 1991 ceasefire left most of the territory under one administration, and the UN still lists it as non-self-governing."
+      ],
+      "summary": "In October 1975 the ICJ advised that the territory's people had a right to self-determination. Morocco responded with the Green March of November 1975 and annexed most of the territory. A war with the Polisario Front ended in a 1991 ceasefire, and its status remains disputed.",
+      "wikipediaTitle": "Western Sahara conflict",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Western_Sahara_conflict"
+      ]
+    },
+    {
+      "id": "ESH-mauritanian-occupation",
+      "title": "Mauritanian occupation of the south",
+      "startYear": 1976,
+      "endYear": 1979,
+      "exploiter": {
+        "label": "Mauritania"
+      },
+      "type": "occupation",
+      "resources": [
+        "phosphates",
+        "fish"
+      ],
+      "hints": [
+        "A 1976 partition agreement gave the southern third to a neighbouring state.",
+        "The Polisario Front launched raids that devastated its economy and led to a military coup.",
+        "It renounced its claim in August 1979."
+      ],
+      "summary": "Under the 1975 Madrid Accords, Mauritania administered the southern third of the territory from 1976. Polisario attacks strained its economy and contributed to a 1978 coup, and in August 1979 it renounced its claim and withdrew.",
+      "wikipediaTitle": "Western Sahara War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Western_Sahara_War"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "country": "ATG",
+  "events": [
+    {
+      "id": "ATG-english-sugar-colony",
+      "title": "English and British sugar colony",
+      "startYear": 1632,
+      "endYear": 1981,
+      "exploiter": { "label": "the British Empire" },
+      "type": "colonization",
+      "resources": ["sugar", "slaves", "cotton"],
+      "territoryNames": ["British Antigua"],
+      "hints": [
+        "A small Leeward Islands twin-island state was settled from a neighbouring island in the 1630s.",
+        "By the 18th century almost the whole island was given over to sugar estates worked by enslaved Africans.",
+        "Slavery here ended in 1834 with no apprenticeship period, and the colony became independent in 1981."
+      ],
+      "summary": "English settlers arrived from Saint Kitts in 1632. Sugar plantations worked by enslaved Africans dominated the economy from the late 17th century. Slavery was abolished in 1834 without an apprenticeship period, and Britain granted independence in 1981.",
+      "sensitive": true,
+      "wikipediaTitle": "History of Antigua and Barbuda",
+      "sources": ["https://en.wikipedia.org/wiki/History_of_Antigua_and_Barbuda"]
+    },
+    {
+      "id": "ATG-english-harbour-dockyard",
+      "title": "Royal Navy dockyard at English Harbour",
+      "startYear": 1725,
+      "endYear": 1889,
+      "exploiter": { "label": "the British Empire" },
+      "type": "other",
+      "resources": ["strategic_location", "labour"],
+      "hints": [
+        "A sheltered natural harbour on the south coast became a hurricane-season refuge for warships.",
+        "The yard was later associated with a famous admiral who served there in the 1780s."
+      ],
+      "summary": "A deep, sheltered harbour on the south coast became the Royal Navy's principal base in the Leeward Islands, with a dockyard established in the 1720s and run until 1889. Much of the construction and repair work depended on enslaved labour.",
+      "sensitive": true,
+      "wikipediaTitle": "Nelson's Dockyard",
+      "sources": ["https://en.wikipedia.org/wiki/Nelson%27s_Dockyard"]
+    },
+    {
+      "id": "ATG-destroyers-for-bases",
+      "title": "US bases under the Destroyers for Bases deal",
+      "startYear": 1941,
+      "endYear": 1995,
+      "exploiter": { "label": "the United States" },
+      "type": "other",
+      "resources": ["land", "strategic_location"],
+      "hints": [
+        "In 1940 a European power traded 99-year base rights on its colonies for fifty old warships.",
+        "Local people were not consulted about land being leased to an ally's military.",
+        "The American air station on this island finally closed in 1995."
+      ],
+      "summary": "Under the 1940 Destroyers for Bases Agreement, Britain leased land in several colonies to the United States for 99 years in return for fifty destroyers. US forces built air and naval facilities on Antigua from 1941, and the air station closed in 1995.",
+      "quip": "Fifty second-hand destroyers: a bargain, as long as nobody asks the landlords.",
+      "wikipediaTitle": "Destroyers for Bases Agreement",
+      "sources": ["https://en.wikipedia.org/wiki/Destroyers_for_Bases_Agreement"]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "country": "MUS",
+  "events": [
+    {
+      "id": "MUS-dutch-mauritius",
+      "title": "Dutch Mauritius",
+      "startYear": 1638,
+      "endYear": 1710,
+      "exploiter": {
+        "label": "the Dutch East India Company"
+      },
+      "type": "colonization",
+      "resources": [
+        "timber",
+        "slaves",
+        "sugar"
+      ],
+      "territoryNames": [
+        "Dutch Mauritius"
+      ],
+      "hints": [
+        "A refreshment station for passing ships was settled in 1638 on an uninhabited island.",
+        "Ebony forests were felled and enslaved people from Madagascar were brought in.",
+        "The dodo was extinct within decades of arrival."
+      ],
+      "summary": "The Dutch East India Company settled the island in 1638 as a supply station. Settlers cut ebony forests, introduced sugar cane and brought enslaved people from Madagascar. The Dutch left in 1710, and the flightless dodo had vanished by the end of the 17th century.",
+      "sensitive": true,
+      "wikipediaTitle": "Dutch Mauritius",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dutch_Mauritius"
+      ]
+    },
+    {
+      "id": "MUS-isle-de-france",
+      "title": "French Isle de France",
+      "startYear": 1715,
+      "endYear": 1810,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "sugar",
+        "slaves",
+        "spices"
+      ],
+      "territoryNames": [
+        "Isle de France"
+      ],
+      "hints": [
+        "After the Dutch left, a different European power renamed the island and ran it as a base on the route to India.",
+        "Sugar plantations worked by enslaved people dominated the economy.",
+        "British forces captured it in 1810."
+      ],
+      "summary": "France took the island in 1715 and renamed it Isle de France. Under governors such as Mahé de La Bourdonnais it became a naval base and a plantation colony using enslaved labour. British forces captured it in December 1810.",
+      "sensitive": true,
+      "wikipediaTitle": "Isle de France (Mauritius)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Isle_de_France_(Mauritius)"
+      ]
+    },
+    {
+      "id": "MUS-indentured-labour",
+      "title": "Indentured labour at Aapravasi Ghat",
+      "startYear": 1834,
+      "endYear": 1923,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "sugar",
+        "labour"
+      ],
+      "hints": [
+        "After slavery was abolished, planters sought a new source of cheap labour.",
+        "Hundreds of thousands of workers from India arrived under contracts that bound them to estates.",
+        "A depot in the capital is now a UNESCO World Heritage Site."
+      ],
+      "summary": "After the abolition of slavery in 1835, Mauritian sugar planters recruited indentured labourers, mostly from India, under contracts that bound them to estates. About half a million passed through the Aapravasi Ghat depot between 1849 and 1923.",
+      "sensitive": true,
+      "wikipediaTitle": "Aapravasi Ghat",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aapravasi_Ghat"
+      ]
+    },
+    {
+      "id": "MUS-chagos-detachment",
+      "title": "Detachment of the Chagos Archipelago",
+      "startYear": 1965,
+      "endYear": 1973,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "annexation",
+      "resources": [
+        "strategic_location"
+      ],
+      "territoryNames": [
+        "the British Indian Ocean Territory"
+      ],
+      "hints": [
+        "In 1965 Britain split a group of islands from its colony as a condition of independence.",
+        "The islands were made into a new territory and the residents were forcibly removed.",
+        "In 2019 the International Court of Justice said the detachment was unlawful."
+      ],
+      "summary": "In 1965 Britain detached the Chagos Archipelago from Mauritius to create the British Indian Ocean Territory, and between 1967 and 1973 the islanders were forcibly removed to make way for a US military base on Diego Garcia. The ICJ issued an advisory opinion in 2019 that the detachment was unlawful.",
+      "sensitive": true,
+      "wikipediaTitle": "Chagos Archipelago",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chagos_Archipelago"
+      ]
+    }
+  ]
+}

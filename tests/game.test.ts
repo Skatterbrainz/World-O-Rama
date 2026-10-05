@@ -1,0 +1,406 @@
+import { describe, expect, it } from "vitest";
+import { readFileSync, readdirSync } from "node:fs";
+import { join } from "node:path";
+import { flattenCountryFiles } from "../src/data/load";
+import { countryByIso } from "../src/data/countries";
+import { centuryEra, decadeEra, eraBucket, eventEras, fmtYear, ordinal } from "../src/game/era";
+import { pickCandidates, TOPICS, passesFilters, allegedly, aOrAn, geographyHint, buildQuestionBank, constraintsKey, isCorrect, matches, normName, pickQuestion, NO_FILTERS } from "../src/game/questions";
+import { scoreAnswer } from "../src/game/scoring";
+import { loadSettings, breakdown, emptyStats, parseStats, recordAnswer, rollingAccuracy, saveStats, loadStats, startSession, weakSpots, type AnswerRecord, type KeyValueStore } from "../src/game/stats";
+import { quipFor } from "../src/game/humor";
+import type { CountryFile, GameEvent } from "../src/types";
+
+function ev(partial: Partial<GameEvent> & { id: string; country: string }): GameEvent {
+  return {
+    title: "t",
+    startYear: 1900,
+    endYear: 1908,
+    exploiter: { label: "Belgium" },
+    type: "colonization",
+    resources: ["rubber"],
+    summary: "x".repeat(50),
+    wikipediaTitle: "x",
+    sources: ["https://example.com"],
+    ...partial,
+  };
+}
+
+describe("era helpers", () => {
+  it("formats ordinals", () => {
+    expect([1, 2, 3, 4, 11, 12, 13, 21, 22, 101, 111].map(ordinal)).toEqual(["1st", "2nd", "3rd", "4th", "11th", "12th", "13th", "21st", "22nd", "101st", "111th"]);
+  });
+  it("computes centuries incl. boundaries and BCE", () => {
+    expect(centuryEra(1900)).toMatchObject({ start: 1801, end: 1900, label: "the 19th century" });
+    expect(centuryEra(1901)).toMatchObject({ start: 1901, end: 2000, label: "the 20th century" });
+    expect(centuryEra(-250)).toMatchObject({ start: -300, end: -201, label: "the 3rd century BCE" });
+    expect(centuryEra(795).label).toBe("the 8th century");
+  });
+  it("computes decades", () => {
+    expect(decadeEra(1963)).toMatchObject({ start: 1960, end: 1969, label: "the 1960s" });
+    expect(decadeEra(1900).label).toBe("the 1900s");
+  });
+  it("uses decades only from 1700 on", () => {
+    expect(eventEras(1556, 1556).every((e) => e.kind === "century")).toBe(true);
+    expect(eventEras(1885, 1908).some((e) => e.label === "the 1900s")).toBe(true);
+  });
+  it("buckets eras and formats BCE years", () => {
+    expect(eraBucket(300)).toBe("ancient");
+    expect(eraBucket(1000)).toBe("medieval");
+    expect(eraBucket(1650)).toBe("early-modern");
+    expect(eraBucket(1850)).toBe("19th-century");
+    expect(eraBucket(1960)).toBe("20th-century+");
+    expect(fmtYear(-44)).toBe("44 BCE");
+  });
+});
+
+describe("question engine", () => {
+  const events = [
+    ev({ id: "COD-a", country: "COD", exploiter: { label: "the Soviet Union" }, resources: ["oil"] }),
+    ev({ id: "ROU-a", country: "ROU", exploiter: { label: "Soviet Union" }, resources: ["oil"], startYear: 1944, endYear: 1958 }),
+    ev({ id: "COD-b", country: "COD", exploiter: { label: "Belgium" }, resources: ["rubber", "ivory"], territoryNames: ["the Congo Free State"], hints: ["Clue one.", "Clue two."] }),
+  ];
+
+  it("picks the right article", () => {
+    expect(aOrAn("European nation")).toBe("A European nation");
+    expect(aOrAn("African nation")).toBe("An African nation");
+    expect(aOrAn("Oceanian nation")).toBe("An Oceanian nation");
+    expect(aOrAn("Eastern European nation")).toBe("An Eastern European nation");
+    expect(aOrAn("Asian nation")).toBe("An Asian nation");
+    expect(aOrAn("South American nation")).toBe("A South American nation");
+    expect(aOrAn("nation in the Caucasus")).toBe("A nation in the Caucasus");
+  });
+
+  it("normalises exploiter names", () => {
+    expect(normName("the Soviet Union")).toBe(normName("Soviet Union"));
+  });
+
+  it("accepts every country that fits as an answer (answer sets)", () => {
+    const bank = buildQuestionBank(events);
+    const q = bank.questions.find((x) => x.constraints.exploiter === "soviet union" && x.constraints.resource === "oil" && !x.constraints.region && x.template === "exploiter-resource");
+    expect(q).toBeDefined();
+    expect(q!.answers).toEqual(["COD", "ROU"]);
+    expect(isCorrect(q!, "ROU")).toBe(true);
+    expect(isCorrect(q!, "COD")).toBe(true);
+    expect(isCorrect(q!, "FRA")).toBe(false);
+    expect(isCorrect(q!, null)).toBe(false);
+  });
+
+  it("produces the headline question shape", () => {
+    const bank = buildQuestionBank(events);
+    const q = bank.questions.find((x) => x.text === "An African nation that was exploited by Belgium for rubber in the 1900s");
+    expect(q?.text).toBe("An African nation that was exploited by Belgium for rubber in the 1900s");
+    expect(q?.answers).toEqual(["COD"]);
+  });
+
+  it("drops questions with too many valid answers", () => {
+    const many = ["COD", "ROU", "POL", "EST", "LVA"].map((c) => ev({ id: `${c}-x`, country: c, resources: ["coal"], exploiter: { label: "Nowhere" } }));
+    const bank = buildQuestionBank(many, 4);
+    expect(bank.tooAmbiguous.length).toBeGreaterThan(0);
+    expect(bank.questions.some((q) => q.constraints.exploiter === "nowhere" && !q.constraints.region && !q.constraints.eraStart && q.constraints.resource === "coal")).toBe(false);
+  });
+
+  it("builds territory-name and authored-clue questions", () => {
+    const bank = buildQuestionBank(events);
+    expect(bank.questions.some((q) => q.text === "A modern nation that was once part of the Congo Free State")).toBe(true);
+    const clue = bank.questions.filter((q) => q.template === "authored-clue");
+    expect(clue.map((q) => q.text).sort()).toEqual(["Clue one.", "Clue two."]);
+    expect(clue.find((q) => q.text === "Clue one.")!.hints).toContain("Clue two.");
+  });
+
+  it("always offers a hint ladder that never repeats the question constraints", () => {
+    const bank = buildQuestionBank(events);
+    const q = bank.questions.find((x) => x.text === "An African nation that was exploited by Belgium for rubber in the 1900s")!;
+    expect(q.hints.length).toBeGreaterThan(0);
+    expect(q.hints.length).toBeLessThanOrEqual(4);
+    expect(q.hints.some((h) => h.includes("exploiter was"))).toBe(false);
+    expect(q.hints.some((h) => h.includes("involved rubber"))).toBe(false);
+    const withSub = bank.questions.find((x) => x.template === "subregion-exploiter-era" && x.constraints.exploiter === "belgium");
+    expect(withSub?.hints.length ?? 0).toBeGreaterThan(0);
+  });
+
+  it("asks about coups and invasions by region, exploiter and era", () => {
+    const coups = [
+      ev({ id: "CHL-coup", country: "CHL", type: "coup", exploiter: { label: "the CIA" }, startYear: 1970, endYear: 1973, resources: [] }),
+      ev({ id: "HUN-inv", country: "HUN", type: "invasion", exploiter: { label: "the Soviet Union" }, startYear: 1956, endYear: 1956, resources: [] }),
+    ];
+    const bank = buildQuestionBank(coups);
+    const texts = bank.questions.map((q) => q.text);
+    expect(texts).toContain("A South American nation that had its government overthrown in a coup backed by the CIA in the 1970s");
+    expect(texts).toContain("A South American nation that had its government overthrown in a coup backed by the CIA");
+    expect(texts).toContain("A nation that was invaded by the Soviet Union in the 1950s");
+    expect(texts).toContain("An Eastern European nation that was invaded by the Soviet Union in the 1950s");
+    expect(texts).toContain("A European nation that was invaded by the Soviet Union");
+    const q = bank.questions.find((x) => x.text === "An Eastern European nation that was invaded by the Soviet Union in the 1950s")!;
+    expect(q.answers).toEqual(["HUN"]);
+  });
+
+  it("hedges contested events with 'allegedly' in text, hints and answer sets", () => {
+    expect(allegedly("was exploited by")).toBe("was allegedly exploited by");
+    expect(allegedly("had its government overthrown in a coup backed by")).toBe("had its government overthrown in a coup allegedly backed by");
+    expect(allegedly("was invaded by")).toBe("was allegedly invaded by");
+    const evs = [
+      ev({ id: "CHL-coup", country: "CHL", type: "coup", exploiter: { label: "the CIA" }, startYear: 1973, endYear: 1973, resources: [], alleged: true }),
+      ev({ id: "BOL-coup", country: "BOL", type: "coup", exploiter: { label: "the CIA" }, startYear: 1971, endYear: 1971, resources: [], alleged: true }),
+      ev({ id: "VNM-coup", country: "VNM", type: "coup", exploiter: { label: "the CIA" }, startYear: 1963, endYear: 1963, resources: [] }),
+    ];
+    const bank = buildQuestionBank(evs);
+    const texts = bank.questions.map((q) => q.text);
+    expect(texts).toContain("A South American nation that had its government overthrown in a coup allegedly backed by the CIA in the 1970s");
+    expect(texts).not.toContain("A South American nation that had its government overthrown in a coup backed by the CIA in the 1970s");
+    expect(texts).toContain("A Southeast Asian nation that had its government overthrown in a coup backed by the CIA in the 1960s");
+    // Contested and documented events never share an answer set.
+    const hedged = bank.questions.find((q) => q.text === "A nation that had its government overthrown in a coup allegedly backed by the CIA in the 20th century")!;
+    expect(hedged.answers).toEqual(["BOL", "CHL"]);
+    const plain = bank.questions.find((q) => q.text === "A nation that had its government overthrown in a coup backed by the CIA in the 20th century")!;
+    expect(plain.answers).toEqual(["VNM"]);
+    // Hints hedge too.
+    const q = bank.questions.find((x) => x.sourceCountry === "CHL" && x.template === "region-type-era")!;
+    expect(q.hints.some((h) => h.includes("allegedly the CIA"))).toBe(true);
+  });
+
+  it("hint highlights five countries with exactly one correct answer", () => {
+    const evs = [
+      ev({ id: "COD-a", country: "COD", exploiter: { label: "Belgium" } }),
+      ev({ id: "RWA-a", country: "RWA", exploiter: { label: "Belgium" }, startYear: 1916, endYear: 1962 }),
+    ];
+    const bank = buildQuestionBank(evs);
+    let seed = 1;
+    const rng = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
+    // Several accepted answers: still only one of them is highlighted.
+    const multi = bank.questions.find((q) => q.answers.length === 2)!;
+    for (let i = 0; i < 25; i++) {
+      const c = pickCandidates(multi, rng);
+      expect(c).toHaveLength(5);
+      expect(new Set(c).size).toBe(5);
+      expect(c.filter((iso) => multi.answers.includes(iso))).toHaveLength(1);
+    }
+    // A clue that names a region keeps the other four in that region.
+    const africa = bank.questions.find((q) => q.constraints.region === "Africa" && q.answers.length === 1)!;
+    for (let i = 0; i < 25; i++) {
+      const c = pickCandidates(africa, rng);
+      expect(c).toContain(africa.answers[0]);
+      expect(c.every((iso) => countryByIso(iso)!.region === "Africa")).toBe(true);
+    }
+    // A sub-region with too few countries falls back to the region.
+    const sub = bank.questions.find((q) => q.constraints.subregion === "Central Africa" && q.answers.length === 1);
+    if (sub) expect(pickCandidates(sub, rng, 5).every((iso) => countryByIso(iso)!.region === "Africa")).toBe(true);
+    // Deterministic for a given rng.
+    const fixed = () => 0.42;
+    expect(pickCandidates(africa, fixed)).toEqual(pickCandidates(africa, fixed));
+  });
+
+  it("defaults to the dark theme and ignores bad stored values", () => {
+    const store = fakeStore();
+    expect(loadSettings(store).theme).toBe("dark");
+    store.setItem("world-o-rama:settings:v1", JSON.stringify({ theme: "light" }));
+    expect(loadSettings(store).theme).toBe("light");
+    store.setItem("world-o-rama:settings:v1", JSON.stringify({ theme: "neon" }));
+    expect(loadSettings(store).theme).toBe("dark");
+    store.setItem("world-o-rama:settings:v1", "not json");
+    expect(loadSettings(store).theme).toBe("dark");
+  });
+
+  it("region filter never lets an off-region country be an accepted answer", () => {
+    const evs = [
+      ev({ id: "AGO-oil", country: "AGO", exploiter: { label: "the Soviet Union" }, resources: ["oil"], startYear: 1975, endYear: 1990 }),
+      ev({ id: "EST-oil", country: "EST", exploiter: { label: "the Soviet Union" }, resources: ["oil"], startYear: 1944, endYear: 1991 }),
+      ev({ id: "ROU-oil", country: "ROU", exploiter: { label: "the Soviet Union" }, resources: ["oil"], startYear: 1944, endYear: 1958 }),
+    ];
+    const bank = buildQuestionBank(evs);
+    const europe = bank.questions.filter((q) => passesFilters(q, { ...NO_FILTERS, regions: ["Europe"] }));
+    expect(europe.length).toBeGreaterThan(0);
+    for (const q of europe) expect(q.answers.every((a) => countryByIso(a)!.region === "Europe")).toBe(true);
+    expect(europe.some((q) => q.answers.includes("AGO"))).toBe(false);
+    // The mixed-region question exists, but only passes when every region it touches is selected.
+    const mixed = bank.questions.find((q) => q.text === "A nation that was exploited by the Soviet Union for oil in the 1970s")!;
+    expect(passesFilters(mixed, { ...NO_FILTERS, regions: ["Europe"] })).toBe(false);
+    expect(passesFilters(mixed, { ...NO_FILTERS, regions: ["Europe", "Africa"] })).toBe(true);
+  });
+
+  it("era filter uses the era the question states, not the midpoint of the event", () => {
+    // 1880 to 1960: midpoint 1920 (20th century), but the generated questions also say "in the 19th century".
+    const bank = buildQuestionBank([ev({ id: "KEN-long", country: "KEN", exploiter: { label: "the British Empire" }, resources: ["tea"], startYear: 1880, endYear: 1960 })]);
+    const only = (b: "19th-century" | "20th-century+") => bank.questions.filter((q) => passesFilters(q, { ...NO_FILTERS, eras: [b] }));
+    expect(only("20th-century+").some((q) => /in the 19th century/.test(q.text))).toBe(false);
+    expect(only("20th-century+").some((q) => /in the (20th century|19[6-9]0s|19[0-9]0s)/.test(q.text))).toBe(true);
+    expect(only("19th-century").every((q) => !/in the 20th century|in the 19[0-9]0s/.test(q.text) || /188|189|18/.test(q.text))).toBe(true);
+    expect(only("19th-century").some((q) => /in the 19th century/.test(q.text))).toBe(true);
+    // Questions that state no era pass when the event overlaps the chosen era at all.
+    const noEra = bank.questions.find((q) => q.constraints.eraStart === undefined && q.template === "exploiter-resource")!;
+    expect(passesFilters(noEra, { ...NO_FILTERS, eras: ["19th-century"] })).toBe(true);
+    expect(passesFilters(noEra, { ...NO_FILTERS, eras: ["20th-century+"] })).toBe(true);
+    expect(passesFilters(noEra, { ...NO_FILTERS, eras: ["medieval"] })).toBe(false);
+  });
+
+  it("hint decoys respect the region filter", () => {
+    const bank = buildQuestionBank([ev({ id: "ROU-x", country: "ROU", exploiter: { label: "the Soviet Union" }, resources: ["oil"] })]);
+    const q = bank.questions.find((x) => x.template === "exploiter-resource")!;
+    let seed = 7;
+    const rng = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
+    for (let i = 0; i < 20; i++) {
+      const c = pickCandidates(q, rng, 5, ["Europe"]);
+      expect(c).toHaveLength(5);
+      expect(c.every((iso) => countryByIso(iso)!.region === "Europe")).toBe(true);
+    }
+  });
+
+  it("filters questions by topic", () => {
+    const evs = [
+      ev({ id: "CHL-coup", country: "CHL", type: "coup", exploiter: { label: "the CIA" }, startYear: 1973, endYear: 1973, resources: [] }),
+      ev({ id: "HUN-inv", country: "HUN", type: "invasion", exploiter: { label: "the Soviet Union" }, startYear: 1956, endYear: 1956, resources: [] }),
+      ev({ id: "COD-col", country: "COD", type: "colonization", exploiter: { label: "Belgium" } }),
+    ];
+    const bank = buildQuestionBank(evs);
+    const by = (topic: keyof typeof TOPICS) => new Set(bank.questions.filter((q) => passesFilters(q, { ...NO_FILTERS, topic })).map((q) => q.sourceCountry));
+    expect([...by("coups")]).toEqual(["CHL"]);
+    expect([...by("invasions")]).toEqual(["HUN"]);
+    expect([...by("colonialism")]).toEqual(["COD"]);
+    expect(bank.questions.every((q) => passesFilters(q, NO_FILTERS))).toBe(true);
+    const picked = pickQuestion(bank, { filters: { ...NO_FILTERS, topic: "invasions" }, askedKeys: new Set(), recentCountries: [], countryStats: new Map(), rng: () => 0.3 });
+    expect(picked?.sourceCountry).toBe("HUN");
+  });
+
+  it("hints at the continent and at island or landlocked status", () => {
+    const hints = [
+      ev({ id: "MDG-x", country: "MDG", exploiter: { label: "France" }, resources: ["spices"] }),
+      ev({ id: "BDI-x", country: "BDI", exploiter: { label: "Belgium" }, resources: ["coffee"] }),
+    ];
+    const bank = buildQuestionBank(hints);
+    // A question that does not mention the continent gets it as the first hint.
+    const noRegion = bank.questions.find((q) => q.template === "exploiter-resource" && q.sourceCountry === "MDG")!;
+    expect(noRegion.hints[0]).toBe("Hint: it is in Africa.");
+    expect(noRegion.hints[1]).toBe("Hint: it is an island or an archipelago.");
+    const landlocked = bank.questions.find((q) => q.template === "exploiter-resource" && q.sourceCountry === "BDI")!;
+    expect(landlocked.hints).toContain("Hint: it is landlocked.");
+    // A question that already names the region skips the continent and starts with the geography.
+    const withRegion = bank.questions.find((q) => q.template === "region-exploiter-resource" && q.sourceCountry === "MDG")!;
+    expect(withRegion.hints.some((h) => h.includes("is in Africa"))).toBe(false);
+    expect(withRegion.hints[0]).toBe("Hint: it is an island or an archipelago.");
+  });
+
+  it("flags islands and landlocked countries correctly", () => {
+    expect(countryByIso("ISL")).toMatchObject({ island: "whole", landlocked: false });
+    expect(countryByIso("IRL")).toMatchObject({ island: "shared" });
+    expect(countryByIso("HTI")).toMatchObject({ island: "shared" });
+    expect(countryByIso("BOL")).toMatchObject({ landlocked: true, island: null });
+    expect(countryByIso("ETH")).toMatchObject({ landlocked: true });
+    expect(countryByIso("FRA")).toMatchObject({ landlocked: false, island: null });
+    expect(countryByIso("AFG")).toMatchObject({ subregion: "Central Asia", landlocked: true });
+    expect(geographyHint(countryByIso("FRA")!)).toBeNull();
+  });
+
+  it("deduplicates identical constraints", () => {
+    const bank = buildQuestionBank(events);
+    const keys = bank.questions.map((q) => q.key);
+    expect(new Set(keys).size).toBe(keys.length);
+    expect(constraintsKey({ region: "Africa", exploiter: "belgium" })).toBe("exploiter=belgium;region=Africa");
+  });
+
+  it("matches constraints against events", () => {
+    expect(matches(events[0], { region: "Africa", exploiter: "soviet union" })).toBe(true);
+    expect(matches(events[0], { region: "Europe" })).toBe(false);
+    expect(matches(events[1], { eraStart: 1950, eraEnd: 1959 })).toBe(true);
+    expect(matches(events[1], { eraStart: 1960, eraEnd: 1969 })).toBe(false);
+  });
+
+  it("picks questions honoring filters, repeats and weights", () => {
+    const bank = buildQuestionBank(events);
+    const rng = () => 0.1;
+    const q = pickQuestion(bank, { filters: { ...NO_FILTERS, regions: ["Europe"] }, askedKeys: new Set(), recentCountries: [], countryStats: new Map(), rng });
+    expect(q).not.toBeNull();
+    expect(q!.answers).toEqual(["ROU"]);
+    const none = pickQuestion(bank, { filters: { ...NO_FILTERS, regions: ["Oceania"] }, askedKeys: new Set(), recentCountries: [], countryStats: new Map(), rng });
+    expect(none).toBeNull();
+  });
+});
+
+describe("seed dataset", () => {
+  const dir = join(__dirname, "..", "data", "events");
+  const files = readdirSync(dir)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => JSON.parse(readFileSync(join(dir, f), "utf8")) as CountryFile);
+  const events = flattenCountryFiles(files);
+  const bank = buildQuestionBank(events);
+
+  it("has data and generates a healthy question bank", () => {
+    expect(events.length).toBeGreaterThan(30);
+    expect(bank.questions.length).toBeGreaterThan(300);
+  });
+
+  it("gives every seeded country at least 8 distinct questions", () => {
+    for (const f of files) expect(bank.byCountry.get(f.country)?.length ?? 0, f.country).toBeGreaterThanOrEqual(8);
+  });
+
+  it("keeps the Congo/Belgium example answerable", () => {
+    const q = bank.questions.find((x) => x.text === "An African nation that was exploited by Belgium for rubber in the 1900s");
+    expect(q).toBeUndefined(); // Belgium rubber is not in the seed; the Leopold event covers it
+    const q2 = bank.questions.find((x) => x.text === "An African nation that was exploited by King Leopold II for rubber in the 1900s");
+    expect(q2?.answers).toEqual(["COD"]);
+  });
+});
+
+describe("scoring", () => {
+  it("scores correct answers by difficulty, hints and streak", () => {
+    expect(scoreAnswer({ correct: true, difficulty: 1, hintsUsed: 0, streakBefore: 0 }).points).toBe(100);
+    expect(scoreAnswer({ correct: true, difficulty: 3, hintsUsed: 0, streakBefore: 0 }).points).toBe(200);
+    expect(scoreAnswer({ correct: true, difficulty: 2, hintsUsed: 2, streakBefore: 0 }).points).toBe(75);
+    expect(scoreAnswer({ correct: true, difficulty: 1, hintsUsed: 0, streakBefore: 3 }).points).toBe(130);
+    expect(scoreAnswer({ correct: true, difficulty: 1, hintsUsed: 0, streakBefore: 50 }).points).toBe(200);
+  });
+  it("never goes below 25% of base with max hints and resets streak on a miss", () => {
+    expect(scoreAnswer({ correct: true, difficulty: 1, hintsUsed: 9, streakBefore: 0 }).points).toBe(25);
+    const miss = scoreAnswer({ correct: false, difficulty: 2, hintsUsed: 0, streakBefore: 7 });
+    expect(miss).toMatchObject({ points: 0, streakAfter: 0 });
+  });
+});
+
+function fakeStore(): KeyValueStore & { data: Map<string, string> } {
+  const data = new Map<string, string>();
+  return { data, getItem: (k) => data.get(k) ?? null, setItem: (k, v) => void data.set(k, v), removeItem: (k) => void data.delete(k) };
+}
+
+function answer(correct: boolean, country = "COD", region: AnswerRecord["region"] = "Africa"): AnswerRecord {
+  return { t: 0, key: "k", country, guessed: country, correct, difficulty: 1, hints: 0, points: correct ? 100 : 0, region, era: "20th-century+", exploiter: "belgium" };
+}
+
+describe("stats and trend", () => {
+  it("persists and reloads", () => {
+    const store = fakeStore();
+    const data = emptyStats();
+    const s = startSession(data, "quick", 1000);
+    recordAnswer(data, s, answer(true), 1);
+    recordAnswer(data, s, answer(false), 0);
+    saveStats(store, data);
+    const loaded = loadStats(store);
+    expect(loaded.answers).toHaveLength(2);
+    expect(loaded.sessions[0]).toMatchObject({ answered: 2, correct: 1, score: 100, bestStreak: 1 });
+    expect(loaded.bestStreak).toBe(1);
+  });
+  it("ignores corrupt or foreign data", () => {
+    expect(parseStats("not json").answers).toEqual([]);
+    expect(parseStats(JSON.stringify({ version: 99 })).answers).toEqual([]);
+    expect(parseStats(null).sessions).toEqual([]);
+  });
+  it("computes rolling accuracy", () => {
+    const pts = rollingAccuracy([answer(true), answer(true), answer(false), answer(false)], 2);
+    expect(pts.map((p) => p.value)).toEqual([1, 1, 0.5, 0]);
+  });
+  it("finds weak spots and breakdowns", () => {
+    const data = emptyStats();
+    data.answers = [answer(false, "COD"), answer(false, "COD"), answer(true, "ROU", "Europe"), answer(true, "ROU", "Europe")];
+    expect(weakSpots(data)).toEqual([{ country: "COD", asked: 2, accuracy: 0 }]);
+    const rows = breakdown(data.answers, (a) => a.region);
+    expect(rows.find((r) => r.label === "Europe")?.accuracy).toBe(1);
+  });
+});
+
+describe("humor guardrails", () => {
+  it("never returns a quip for sensitive events or when quips are off", () => {
+    const quipped = ev({ id: "X-1", country: "COD", quip: "joke" });
+    expect(quipFor(quipped, true)).toBe("joke");
+    expect(quipFor(quipped, false)).toBeNull();
+    expect(quipFor({ ...quipped, sensitive: true }, true)).toBeNull();
+    expect(quipFor({ ...quipped, type: "slave_trade" }, true)).toBeNull();
+    expect(quipFor({ ...quipped, type: "forced_labour" }, true)).toBeNull();
+  });
+});

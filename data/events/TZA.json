@@ -1,0 +1,160 @@
+{
+  "country": "TZA",
+  "events": [
+    {
+      "id": "TZA-kilwa-portuguese",
+      "title": "Portuguese conquest of Kilwa",
+      "startYear": 1505,
+      "endYear": 1512,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "occupation",
+      "resources": [
+        "gold",
+        "trade_routes"
+      ],
+      "territoryNames": [
+        "the Kilwa Sultanate"
+      ],
+      "hints": [
+        "A sultanate on an island controlled the gold trade of the whole Swahili coast until a European fleet arrived in 1505.",
+        "The fleet's admiral sacked the town and installed a puppet ruler.",
+        "The Portuguese abandoned their fort in 1512."
+      ],
+      "summary": "In 1505 a Portuguese fleet under Francisco de Almeida sacked Kilwa, the main port in the gold trade from Sofala, and built Fort Santiago there. The Portuguese abandoned the fort in 1512, and the city declined.",
+      "wikipediaTitle": "Kilwa Sultanate",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kilwa_Sultanate"
+      ]
+    },
+    {
+      "id": "TZA-zanzibar-slave-trade",
+      "title": "Zanzibar slave trade and clove plantations",
+      "startYear": 1840,
+      "endYear": 1873,
+      "exploiter": {
+        "label": "the Sultanate of Zanzibar"
+      },
+      "type": "slave_trade",
+      "resources": [
+        "slaves",
+        "ivory",
+        "spices"
+      ],
+      "territoryNames": [
+        "the Sultanate of Zanzibar"
+      ],
+      "hints": [
+        "A sultan moved his capital to an island in 1840 and built it into a hub for ivory and captives.",
+        "Clove plantations were worked by enslaved people brought from the mainland.",
+        "A treaty under British pressure closed the open slave market in 1873."
+      ],
+      "summary": "Under Sultan Said bin Sultan the Omani court moved to Zanzibar in 1840. The island became the centre of the East African slave and ivory trades, and clove plantations used large numbers of enslaved people. The market was closed in 1873 under British pressure.",
+      "sensitive": true,
+      "wikipediaTitle": "Zanzibar",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zanzibar"
+      ]
+    },
+    {
+      "id": "TZA-german-east-africa",
+      "title": "German East Africa",
+      "startYear": 1885,
+      "endYear": 1919,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "colonization",
+      "resources": [
+        "cotton",
+        "rubber",
+        "coffee",
+        "labour"
+      ],
+      "territoryNames": [
+        "German East Africa"
+      ],
+      "hints": [
+        "A private German company obtained rights here in 1885, and the government soon took over.",
+        "The coastal Abushiri revolt of 1888-89 was crushed.",
+        "Plantations and taxes forced people into cash crops and wage labour."
+      ],
+      "summary": "Germany acquired the territory through the German East Africa Company from 1885, and after the Abushiri revolt of 1888-1889 the state took control. Plantations and a hut tax forced people into cash cropping and wage labour. Germany lost it in the First World War.",
+      "wikipediaTitle": "German East Africa",
+      "sources": [
+        "https://en.wikipedia.org/wiki/German_East_Africa"
+      ]
+    },
+    {
+      "id": "TZA-maji-maji-rebellion",
+      "title": "Maji Maji Rebellion",
+      "startYear": 1905,
+      "endYear": 1907,
+      "exploiter": {
+        "label": "Imperial Germany"
+      },
+      "type": "other",
+      "resources": [
+        "cotton"
+      ],
+      "hints": [
+        "A rebellion began in 1905 against forced cotton growing on state-controlled plots.",
+        "Fighters used a water medicine believed to turn bullets to water.",
+        "German scorched-earth tactics caused a famine."
+      ],
+      "summary": "The Maji Maji Rebellion of 1905-1907 was a revolt against German rule and forced cotton cultivation. German forces crushed it with scorched-earth tactics, and the resulting famine killed many. Estimates of the dead range from tens of thousands to several hundred thousand.",
+      "sensitive": true,
+      "wikipediaTitle": "Maji Maji Rebellion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Maji_Maji_Rebellion"
+      ]
+    },
+    {
+      "id": "TZA-anglo-zanzibar-war",
+      "title": "Anglo-Zanzibar War",
+      "startYear": 1896,
+      "endYear": 1896,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [],
+      "hints": [
+        "A succession dispute was settled by naval bombardment on 27 August 1896.",
+        "It lasted between 38 and 45 minutes, a world record for the shortest war.",
+        "Britain installed a sultan more to its liking."
+      ],
+      "summary": "On 27 August 1896 Britain bombarded the sultan's palace after Khalid bin Barghash seized the throne against British wishes. The war lasted between 38 and 45 minutes and killed an estimated 500 defenders. Britain installed a more compliant sultan.",
+      "sensitive": true,
+      "wikipediaTitle": "Anglo-Zanzibar War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War"
+      ]
+    },
+    {
+      "id": "TZA-groundnut-scheme",
+      "title": "Tanganyika groundnut scheme",
+      "startYear": 1946,
+      "endYear": 1951,
+      "exploiter": {
+        "label": "the British Empire"
+      },
+      "type": "other",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A postwar British government plan sought to grow peanuts for margarine on millions of acres.",
+        "The soil was too hard, the rains unreliable and the equipment unsuited to the land.",
+        "It was abandoned after losing tens of millions of pounds."
+      ],
+      "summary": "Launched in 1946, the scheme aimed to cultivate groundnuts across millions of acres of Tanganyika to ease British fat shortages. It failed because of poor planning, hard soil and unreliable rain, and was wound down in 1951 with large losses.",
+      "quip": "A grand plan to grow margarine's raw material on soil that could not be ploughed, which was a detail missed in the briefing.",
+      "wikipediaTitle": "Tanganyika groundnut scheme",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tanganyika_groundnut_scheme"
+      ]
+    }
+  ]
+}

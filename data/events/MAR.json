@@ -1,0 +1,135 @@
+{
+  "country": "MAR",
+  "events": [
+    {
+      "id": "MAR-portuguese-enclaves",
+      "title": "Portuguese enclaves on the Atlantic coast",
+      "startYear": 1415,
+      "endYear": 1769,
+      "exploiter": {
+        "label": "Portugal"
+      },
+      "type": "occupation",
+      "resources": [
+        "gold",
+        "grain",
+        "trade_routes"
+      ],
+      "hints": [
+        "A fleet took the port of Ceuta in 1415, starting a century of Portuguese coastal expansion.",
+        "Fortified trading posts along the Atlantic sold cloth and horses and shipped grain and gold.",
+        "The last enclave, a fortress with a famous cistern, fell in 1769."
+      ],
+      "summary": "Portugal captured Ceuta in 1415 and built fortified enclaves along the Atlantic coast, among them Tangier, Arzila and Mazagan. They supplied grain and traded in horses and gold. The last, Mazagan, was evacuated in 1769 after a Moroccan siege.",
+      "wikipediaTitle": "Mazagan",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mazagan"
+      ]
+    },
+    {
+      "id": "MAR-hispano-moroccan-war",
+      "title": "Hispano-Moroccan War",
+      "startYear": 1859,
+      "endYear": 1860,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "unequal_treaty",
+      "resources": [
+        "tribute",
+        "land"
+      ],
+      "hints": [
+        "A dispute over fortifications at Ceuta led to a Spanish invasion in 1859.",
+        "Spanish forces took Tetouan in February 1860.",
+        "The Treaty of Wad Ras required a huge indemnity and more territory."
+      ],
+      "summary": "After a border dispute near Ceuta, Spain invaded in 1859 and captured Tetouan in February 1860. The Treaty of Wad Ras required an indemnity of 100 million pesetas, which Morocco financed through foreign loans, and the cession of territory at Sidi Ifni.",
+      "wikipediaTitle": "Hispano-Moroccan War (1859–1860)",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hispano-Moroccan_War_(1859%E2%80%931860)"
+      ]
+    },
+    {
+      "id": "MAR-french-protectorate",
+      "title": "French protectorate",
+      "startYear": 1912,
+      "endYear": 1956,
+      "exploiter": {
+        "label": "France"
+      },
+      "type": "colonization",
+      "resources": [
+        "phosphates",
+        "land",
+        "grain"
+      ],
+      "territoryNames": [
+        "French Morocco"
+      ],
+      "hints": [
+        "The Treaty of Fez in 1912 made the sultan a figurehead under a resident-general.",
+        "Settlers received fertile land, and a state phosphate monopoly was created in 1920.",
+        "The sultan's exile in 1953 sparked a nationalist movement that won independence in 1956."
+      ],
+      "summary": "The 1912 Treaty of Fez made the sultanate a French protectorate under resident-general Hubert Lyautey. Settlers acquired fertile land, and a state phosphate monopoly was created in 1920. Sultan Mohammed V's exile in 1953 fuelled the independence movement, and France recognised independence in 1956.",
+      "quip": "A protectorate in which the sultan was protected from governing.",
+      "wikipediaTitle": "French protectorate in Morocco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_protectorate_in_Morocco"
+      ]
+    },
+    {
+      "id": "MAR-spanish-protectorate",
+      "title": "Spanish protectorate",
+      "startYear": 1912,
+      "endYear": 1956,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "colonization",
+      "resources": [
+        "land",
+        "iron_ore"
+      ],
+      "territoryNames": [
+        "Spanish Morocco"
+      ],
+      "hints": [
+        "A northern strip and a southern enclave were assigned to a second European power in 1912.",
+        "Iron ore from the Rif mountains was exported through the port of Melilla.",
+        "The northern zone returned in 1956."
+      ],
+      "summary": "Under the 1912 Treaty of Fez and a Franco-Spanish convention, Spain received a northern zone around Tetouan and a southern zone at Tarfaya. Iron ore from the Rif mountains was exported, and the northern zone returned to Morocco in 1956.",
+      "wikipediaTitle": "Spanish protectorate in Morocco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spanish_protectorate_in_Morocco"
+      ]
+    },
+    {
+      "id": "MAR-rif-war-chemical",
+      "title": "Rif War and chemical weapons",
+      "startYear": 1921,
+      "endYear": 1927,
+      "exploiter": {
+        "label": "Spain"
+      },
+      "type": "other",
+      "resources": [
+        "land",
+        "iron_ore"
+      ],
+      "hints": [
+        "A mountain republic defeated a Spanish army at Annual in July 1921.",
+        "Spain responded with aerial bombing using mustard gas bombs bought from Germany.",
+        "The victims suffered long-term health effects for decades afterwards."
+      ],
+      "summary": "After the Rif Republic defeated Spanish forces at Annual in 1921, Spain, with French help, escalated into a war that used aerial bombing and chemical weapons, including mustard gas. The war ended with the defeat of Abd el-Krim in 1926-1927.",
+      "sensitive": true,
+      "wikipediaTitle": "Rif War",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rif_War"
+      ]
+    }
+  ]
+}

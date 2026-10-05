@@ -1,0 +1,99 @@
+{
+  "country": "NOR",
+  "events": [
+    {
+      "id": "NOR-hanseatic-bergen",
+      "title": "Hanseatic domination of Bergen",
+      "startYear": 1360,
+      "endYear": 1754,
+      "exploiter": {
+        "label": "the Hanseatic League"
+      },
+      "type": "other",
+      "resources": [
+        "fish",
+        "grain"
+      ],
+      "hints": [
+        "A German merchant league ran its own walled trading quarter in the main port.",
+        "Dried cod was exchanged for imported grain on terms set by the merchants."
+      ],
+      "summary": "From about 1360 the Hanseatic League's Kontor in Bergen controlled much of the trade in stockfish and grain, with merchants living in a separate quarter at Bryggen. The Hansa's dominance lasted until the 1550s and its Kontor until 1754.",
+      "quip": "A walled merchant quarter with a very convenient monopoly.",
+      "wikipediaTitle": "Bryggen",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bryggen"
+      ]
+    },
+    {
+      "id": "NOR-denmark-norway",
+      "title": "Union of Denmark and Norway",
+      "startYear": 1536,
+      "endYear": 1814,
+      "exploiter": {
+        "label": "Denmark"
+      },
+      "type": "other",
+      "resources": [
+        "timber",
+        "fish",
+        "silver"
+      ],
+      "hints": [
+        "After 1536 the kingdom's council was abolished and the country was ruled from Copenhagen.",
+        "Forests were felled for export and a silver mining town grew at Kongsberg."
+      ],
+      "summary": "From 1536 the Norwegian Council of the Realm was dissolved and the country was governed from Copenhagen as part of the union of Denmark and Norway. Timber, fish and silver were exported, and the union ended with the Treaty of Kiel in 1814.",
+      "wikipediaTitle": "Denmark–Norway",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Denmark%E2%80%93Norway"
+      ]
+    },
+    {
+      "id": "NOR-swedish-union",
+      "title": "Union with Sweden",
+      "startYear": 1814,
+      "endYear": 1905,
+      "exploiter": {
+        "label": "Sweden"
+      },
+      "type": "annexation",
+      "resources": [
+        "land"
+      ],
+      "hints": [
+        "A brief war in the summer of 1814 left a country with its own constitution but a foreign king.",
+        "A dissolving referendum in 1905 ended the arrangement."
+      ],
+      "summary": "After the Treaty of Kiel, Norway declared independence and adopted a constitution in 1814, but Sweden invaded and pressured it into a union under the Swedish king. Foreign policy was run from Stockholm until the union was dissolved in 1905.",
+      "wikipediaTitle": "Union between Sweden and Norway",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Union_between_Sweden_and_Norway"
+      ]
+    },
+    {
+      "id": "NOR-german-occupation-ww2",
+      "title": "German occupation",
+      "startYear": 1940,
+      "endYear": 1945,
+      "exploiter": {
+        "label": "Nazi Germany"
+      },
+      "type": "occupation",
+      "resources": [
+        "fish",
+        "labour"
+      ],
+      "hints": [
+        "A surprise invasion of 9 April 1940 sank a cruiser in the Oslofjord and sent the king into exile.",
+        "A collaborator's name became a word for traitor."
+      ],
+      "summary": "Germany invaded on 9 April 1940 and occupied the country for five years, ruling through a Reichskommissar and a collaborationist government under Vidkun Quisling. The occupation exploited fish, industry and forced labour and ended in May 1945.",
+      "sensitive": true,
+      "wikipediaTitle": "German occupation of Norway",
+      "sources": [
+        "https://en.wikipedia.org/wiki/German_occupation_of_Norway"
+      ]
+    }
+  ]
+}

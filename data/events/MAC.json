@@ -1,0 +1,57 @@
+{
+  "country": "MAC",
+  "events": [
+    {
+      "id": "MAC-portuguese-macau",
+      "title": "Portuguese Macau",
+      "startYear": 1557,
+      "endYear": 1999,
+      "exploiter": { "label": "Portugal" },
+      "type": "colonization",
+      "resources": ["silver", "trade_routes"],
+      "territoryNames": ["Portuguese Macau"],
+      "hints": [
+        "A peninsula on the Pearl River estuary was granted to merchants as a trading base in the sixteenth century.",
+        "Annual rent was paid to local authorities until 1849.",
+        "It was the last European colony in Asia, returned in December 1999."
+      ],
+      "summary": "Portuguese merchants established a base on the Pearl River estuary in the 1550s, connecting the China, Japan and Europe trades and paying an annual rent until 1849. Portugal then asserted full control, and the enclave remained under its administration until its return to China on 20 December 1999.",
+      "wikipediaTitle": "Portuguese Macau",
+      "sources": ["https://en.wikipedia.org/wiki/Portuguese_Macau"]
+    },
+    {
+      "id": "MAC-treaty-of-1887",
+      "title": "Sino-Portuguese Treaty of Peking",
+      "startYear": 1887,
+      "endYear": 1887,
+      "exploiter": { "label": "Portugal" },
+      "type": "unequal_treaty",
+      "resources": ["land"],
+      "hints": [
+        "A treaty confirmed an enclave's status as a Portuguese possession in perpetuity.",
+        "The agreement said it could not be handed over to another power without consent from its signatory."
+      ],
+      "summary": "In the Sino-Portuguese Treaty of Peking (1887), China recognised Portugal's perpetual occupation and government of the enclave in return for a promise that Portugal would not transfer it to any third power without Chinese consent.",
+      "wikipediaTitle": "Sino-Portuguese Treaty of Peking",
+      "sources": ["https://en.wikipedia.org/wiki/Sino-Portuguese_Treaty_of_Peking"]
+    },
+    {
+      "id": "MAC-coolie-trade",
+      "title": "The coolie trade",
+      "startYear": 1851,
+      "endYear": 1874,
+      "exploiter": { "label": "Portugal" },
+      "type": "forced_labour",
+      "resources": ["labour"],
+      "hints": [
+        "It became the main port for shipping contract labourers overseas in the mid-nineteenth century.",
+        "Many workers were tricked, kidnapped or coerced into signing.",
+        "Most were shipped to Cuba and Peru."
+      ],
+      "summary": "Between 1851 and 1874 an estimated 215,000 Chinese were shipped from the enclave as contract labourers, primarily to Cuba and Peru. Many were kidnapped, tricked or coerced, and conditions on the ships and plantations were brutal. Portuguese authorities banned the trade in 1874 after international pressure.",
+      "sensitive": true,
+      "wikipediaTitle": "Coolie",
+      "sources": ["https://en.wikipedia.org/wiki/Coolie"]
+    }
+  ]
+}

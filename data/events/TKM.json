@@ -1,0 +1,78 @@
+{
+  "country": "TKM",
+  "events": [
+    {
+      "id": "TKM-merv-1221",
+      "title": "Mongol destruction of Merv",
+      "startYear": 1221,
+      "endYear": 1221,
+      "exploiter": { "label": "the Mongol Empire" },
+      "type": "other",
+      "resources": [],
+      "territoryNames": ["Merv"],
+      "hints": [
+        "One of the world's largest cities was taken after a short siege in early 1221.",
+        "Tolui, a son of Genghis Khan, led the attack.",
+        "Contemporary chroniclers claim hundreds of thousands were massacred."
+      ],
+      "summary": "In February 1221 Tolui's Mongol army besieged and captured Merv, then among the largest cities in the world and a major Silk Road centre. Chroniclers reported a vast massacre of its population, with figures of hundreds of thousands, which modern historians consider greatly exaggerated.",
+      "sensitive": true,
+      "wikipediaTitle": "Siege of Merv (1221)",
+      "sources": ["https://en.wikipedia.org/wiki/Siege_of_Merv_(1221)"]
+    },
+    {
+      "id": "TKM-geok-tepe",
+      "title": "Siege of Geok Tepe",
+      "startYear": 1879,
+      "endYear": 1881,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "invasion",
+      "resources": ["land", "strategic_location"],
+      "hints": [
+        "A mud fortress held out against a Russian army in 1879 and fell two years later.",
+        "General Skobelev stormed it in January 1881.",
+        "Thousands of defenders and civilians were killed."
+      ],
+      "summary": "Tekke Turkmen defeated a Russian expedition at Geok Tepe in 1879. In January 1881, General Mikhail Skobelev besieged and stormed the fortress, killing thousands of defenders and fleeing civilians. The fall ended major resistance to Russian conquest.",
+      "sensitive": true,
+      "wikipediaTitle": "Battle of Geok Tepe",
+      "sources": ["https://en.wikipedia.org/wiki/Battle_of_Geok_Tepe"]
+    },
+    {
+      "id": "TKM-transcaspia",
+      "title": "Transcaspian Oblast",
+      "startYear": 1881,
+      "endYear": 1917,
+      "exploiter": { "label": "the Russian Empire" },
+      "type": "colonization",
+      "resources": ["cotton", "trade_routes", "land"],
+      "territoryNames": ["the Transcaspian Oblast"],
+      "hints": [
+        "A military railway was driven across the desert from the Caspian Sea.",
+        "The Russian province was created after the fall of Geok Tepe.",
+        "Cotton and the railway tied the oases to the empire's economy."
+      ],
+      "summary": "After Geok Tepe, Russia created the Transcaspian Oblast in 1881 and built the Transcaspian Railway from the Caspian shore to Samarkand, linking the oases to the imperial economy and enabling cotton exports and further advances toward Afghanistan.",
+      "wikipediaTitle": "Transcaspian Oblast",
+      "sources": ["https://en.wikipedia.org/wiki/Transcaspian_Oblast"]
+    },
+    {
+      "id": "TKM-soviet-karakum-canal",
+      "title": "Soviet cotton and the Karakum Canal",
+      "startYear": 1925,
+      "endYear": 1991,
+      "exploiter": { "label": "the Soviet Union" },
+      "type": "resource_extraction",
+      "resources": ["cotton", "natural_gas", "land"],
+      "hints": [
+        "A giant irrigation canal was cut across the desert starting in 1954.",
+        "It watered cotton fields while less flowed to a shrinking sea.",
+        "Gas fields were also developed for the Soviet network."
+      ],
+      "summary": "Under Soviet rule, the republic was developed as a cotton producer with the Karakum Canal, one of the world's longest irrigation canals, begun in 1954 and drawing water from the Amu Darya, which contributed to the shrinking of the Aral Sea. Natural gas was also extracted for Soviet use.",
+      "quip": "Water redirected to cotton fields: a central planning masterpiece.",
+      "wikipediaTitle": "Karakum Canal",
+      "sources": ["https://en.wikipedia.org/wiki/Karakum_Canal"]
+    }
+  ]
+}
