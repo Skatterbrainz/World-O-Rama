@@ -386,7 +386,7 @@ export function startApp(root: HTMLElement): void {
       const span = ev.startYear === ev.endYear ? fmtYear(ev.startYear) : `${fmtYear(ev.startYear)} to ${fmtYear(ev.endYear)}`;
       evBlock.push(
         el("h3", {}, ev.title),
-        el("p", { class: "meta" }, `${countryByIso(ev.country)?.name ?? ev.country} \u00b7 ${span} \u00b7 ${ev.exploiter.label}`),
+        el("p", { class: "meta" }, `${countryByIso(ev.country)?.name ?? ev.country} \u00b7 ${span} \u00b7 ${ev.alleged ? "allegedly " : ""}${ev.exploiter.label}`),
         el("p", {}, ev.summary),
       );
       const quip = quipFor(ev, settings.quips);

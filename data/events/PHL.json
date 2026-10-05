@@ -119,8 +119,9 @@
         "The agency reportedly helped with his campaign slogan, songs and speeches, and with funds.",
         "He defeated the incumbent president in the November 1953 election."
       ],
-      "summary": "From 1950 Air Force Colonel Edward Lansdale, working under CIA auspices, advised Defence Secretary Ramon Magsaysay against the Huk rebellion and then helped run his 1953 presidential campaign. Reports say the CIA provided funds and public relations help, and Lansdale helped write the campaign slogan, songs and speeches. Magsaysay defeated President Elpidio Quirino in November 1953.",
+      "summary": "From 1950 Air Force Colonel Edward Lansdale, working under CIA auspices, advised Defence Secretary Ramon Magsaysay against the Huk rebellion and then helped run his 1953 presidential campaign. The CIA allegedly provided funds and public relations help, and Lansdale helped write the campaign slogan, songs and speeches. Magsaysay defeated President Elpidio Quirino in November 1953.",
       "quip": "The CIA reportedly helped write the slogan, the campaign song and a good share of the speeches.",
+      "alleged": true,
       "wikipediaTitle": "Edward Lansdale",
       "sources": ["https://en.wikipedia.org/wiki/Edward_Lansdale", "https://archium.ateneo.edu/cgi/viewcontent.cgi?article=2632&context=phstudies"]
     }

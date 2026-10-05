@@ -72,7 +72,7 @@ W. Sahara|ESH|Western Sahara|AF|North Africa
 Zambia|ZMB|Zambia|AF|Southern Africa
 Zimbabwe|ZWE|Zimbabwe|AF|Southern Africa
 Saint Helena|SHN|Saint Helena|AF|West Africa
-Afghanistan|AFG|Afghanistan|AS|South Asia
+Afghanistan|AFG|Afghanistan|AS|Central Asia
 Armenia|ARM|Armenia|AS|Caucasus
 Azerbaijan|AZE|Azerbaijan|AS|Caucasus
 Bahrain|BHR|Bahrain|AS|Middle East

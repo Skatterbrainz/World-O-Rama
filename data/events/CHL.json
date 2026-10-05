@@ -113,16 +113,15 @@
         "label": "the CIA"
       },
       "type": "coup",
-      "resources": [
-        "copper"
-      ],
+      "resources": [],
       "hints": [
         "After a socialist won the 1970 election, Washington's president told the CIA to make the economy scream.",
         "Covert funding went to opposition media and groups while credit was squeezed.",
         "A military coup on 11 September 1973 was followed by a long dictatorship."
       ],
-      "summary": "After Salvador Allende's 1970 election the CIA ran covert operations against his government, spending an estimated $8 million to fund opposition media and parties and keeping contacts in the military. The Church Committee found no direct CIA role in the 11 September 1973 coup itself. It brought General Augusto Pinochet's dictatorship, during which thousands were killed or disappeared.",
+      "summary": "After Salvador Allende's 1970 election the CIA ran covert operations against his government, spending an estimated $8 million to fund opposition media and parties and keeping contacts in the military. The Church Committee found no direct CIA role in the 11 September 1973 coup itself, though the agency has been alleged to have backed it through its covert action and contacts with the military. It brought General Augusto Pinochet's dictatorship, during which thousands were killed or disappeared.",
       "sensitive": true,
+      "alleged": true,
       "wikipediaTitle": "1973 Chilean coup d'état",
       "sources": [
         "https://en.wikipedia.org/wiki/1973_Chilean_coup_d'%C3%A9tat"
@@ -160,7 +159,7 @@
       "exploiter": {
         "label": "the CIA"
       },
-      "type": "coup",
+      "type": "other",
       "resources": [],
       "hints": [
         "A socialist won a plurality in the September 1970 presidential election.",

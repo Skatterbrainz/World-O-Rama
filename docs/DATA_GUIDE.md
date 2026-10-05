@@ -23,6 +23,7 @@ Run `npm run validate` after every change. `npm run validate -- --online` also c
       "summary": "40-700 characters, factual, neutral.",
       "quip": "Optional dry one-liner aimed at the exploiter, never at victims.",
       "sensitive": true,
+      "alleged": false,
       "wikipediaTitle": "Congo Free State",
       "sources": ["https://en.wikipedia.org/wiki/Congo_Free_State"]
     }
@@ -49,6 +50,10 @@ Choose the actor responsible for the exploitation. Several powers in the same ep
 - Facts first, neutral wording, no contested numbers stated as certain (use "an estimated ...").
 - Quips target empires, regimes, bureaucracy and hubris only.
 - Never add a `quip` to events involving slavery, forced labour, famine, massacre, genocide or mass death. Set `"sensitive": true` for those. The validator rejects quips on `slave_trade`, `forced_labour`, `engineered_famine` and on events marked sensitive.
+
+## Contested claims
+
+Set `"alleged": true` when the exploiter's role is disputed or only partly documented (for example a covert-action claim the agency denies). Question wording, hints and the reveal card then say "allegedly" ("a coup allegedly backed by the CIA"), and contested and documented events never share an answer set. Also hedge the summary itself (alleged, reportedly, according to ...). Documented events (declassified records, official inquiries, admissions) should stay unhedged.
 
 ## Quality bar
 

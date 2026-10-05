@@ -4,7 +4,7 @@ import { join } from "node:path";
 import { flattenCountryFiles } from "../src/data/load";
 import { countryByIso } from "../src/data/countries";
 import { centuryEra, decadeEra, eraBucket, eventEras, fmtYear, ordinal } from "../src/game/era";
-import { aOrAn, geographyHint, buildQuestionBank, constraintsKey, isCorrect, matches, normName, pickQuestion, NO_FILTERS } from "../src/game/questions";
+import { allegedly, aOrAn, geographyHint, buildQuestionBank, constraintsKey, isCorrect, matches, normName, pickQuestion, NO_FILTERS } from "../src/game/questions";
 import { scoreAnswer } from "../src/game/scoring";
 import { breakdown, emptyStats, parseStats, recordAnswer, rollingAccuracy, saveStats, loadStats, startSession, weakSpots, type AnswerRecord, type KeyValueStore } from "../src/game/stats";
 import { quipFor } from "../src/game/humor";
@@ -134,6 +134,30 @@ describe("question engine", () => {
     expect(q.answers).toEqual(["HUN"]);
   });
 
+  it("hedges contested events with 'allegedly' in text, hints and answer sets", () => {
+    expect(allegedly("was exploited by")).toBe("was allegedly exploited by");
+    expect(allegedly("had its government overthrown in a coup backed by")).toBe("had its government overthrown in a coup allegedly backed by");
+    expect(allegedly("was invaded by")).toBe("was allegedly invaded by");
+    const evs = [
+      ev({ id: "CHL-coup", country: "CHL", type: "coup", exploiter: { label: "the CIA" }, startYear: 1973, endYear: 1973, resources: [], alleged: true }),
+      ev({ id: "BOL-coup", country: "BOL", type: "coup", exploiter: { label: "the CIA" }, startYear: 1971, endYear: 1971, resources: [], alleged: true }),
+      ev({ id: "VNM-coup", country: "VNM", type: "coup", exploiter: { label: "the CIA" }, startYear: 1963, endYear: 1963, resources: [] }),
+    ];
+    const bank = buildQuestionBank(evs);
+    const texts = bank.questions.map((q) => q.text);
+    expect(texts).toContain("A South American nation that had its government overthrown in a coup allegedly backed by the CIA in the 1970s");
+    expect(texts).not.toContain("A South American nation that had its government overthrown in a coup backed by the CIA in the 1970s");
+    expect(texts).toContain("A Southeast Asian nation that had its government overthrown in a coup backed by the CIA in the 1960s");
+    // Contested and documented events never share an answer set.
+    const hedged = bank.questions.find((q) => q.text === "A nation that had its government overthrown in a coup allegedly backed by the CIA in the 20th century")!;
+    expect(hedged.answers).toEqual(["BOL", "CHL"]);
+    const plain = bank.questions.find((q) => q.text === "A nation that had its government overthrown in a coup backed by the CIA in the 20th century")!;
+    expect(plain.answers).toEqual(["VNM"]);
+    // Hints hedge too.
+    const q = bank.questions.find((x) => x.sourceCountry === "CHL" && x.template === "region-type-era")!;
+    expect(q.hints.some((h) => h.includes("allegedly the CIA"))).toBe(true);
+  });
+
   it("hints at the continent and at island or landlocked status", () => {
     const hints = [
       ev({ id: "MDG-x", country: "MDG", exploiter: { label: "France" }, resources: ["spices"] }),
@@ -159,6 +183,7 @@ describe("question engine", () => {
     expect(countryByIso("BOL")).toMatchObject({ landlocked: true, island: null });
     expect(countryByIso("ETH")).toMatchObject({ landlocked: true });
     expect(countryByIso("FRA")).toMatchObject({ landlocked: false, island: null });
+    expect(countryByIso("AFG")).toMatchObject({ subregion: "Central Asia", landlocked: true });
     expect(geographyHint(countryByIso("FRA")!)).toBeNull();
   });
 

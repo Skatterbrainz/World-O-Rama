@@ -57,6 +57,8 @@ export interface RawEvent {
   quip?: string;
   /** Force-suppress the quip on the reveal card. */
   sensitive?: boolean;
+  /** The exploiter's role is contested: question wording and hints say "allegedly". */
+  alleged?: boolean;
   wikipediaTitle: string;
   sources: string[];
 }
@@ -82,6 +84,8 @@ export interface Constraints {
   eventId?: string;
   /** For authored-clue questions: which entry of the event's hints[] is the prompt. */
   hintIndex?: number;
+  /** Set on exploiter questions: only events with the same alleged status match, so wording stays accurate. */
+  alleged?: boolean;
 }
 
 export type EraBucket = "ancient" | "medieval" | "early-modern" | "19th-century" | "20th-century+";

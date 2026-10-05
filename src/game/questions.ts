@@ -32,11 +32,21 @@ export function matches(ev: GameEvent, c: Constraints): boolean {
   if (c.exploiter && normName(ev.exploiter.label) !== c.exploiter) return false;
   if (c.resource && !ev.resources.includes(c.resource)) return false;
   if (c.type && ev.type !== c.type) return false;
+  if (c.alleged !== undefined && Boolean(ev.alleged) !== c.alleged) return false;
   if (c.territoryName && !(ev.territoryNames ?? []).some((n) => normName(n) === c.territoryName)) return false;
   if (c.eraStart !== undefined && c.eraEnd !== undefined) {
     if (!overlaps(ev.startYear, ev.endYear, c.eraStart, c.eraEnd)) return false;
   }
   return true;
+}
+
+/** Insert "allegedly" before the participle: "was exploited by" -> "was allegedly exploited by". */
+export function allegedly(verbPhrase: string): string {
+  const words = verbPhrase.split(" ");
+  const byIdx = words.lastIndexOf("by");
+  const at = byIdx > 0 ? byIdx - 1 : 1;
+  words.splice(at, 0, "allegedly");
+  return words.join(" ");
 }
 
 export function constraintsKey(c: Constraints): string {
@@ -100,7 +110,7 @@ function autoHints(ev: GameEvent, c: Constraints, authored: string[]): string[] 
     if (names.length) hints.push(`Hint: it involved ${joinList(names.slice(0, 3))}.`);
   }
   if (!c.type && TYPE_LABELS[ev.type]) hints.push(`Hint: the episode involved ${TYPE_LABELS[ev.type]}.`);
-  if (!c.exploiter) hints.push(`Hint: the exploiter was ${ev.exploiter.label}.`);
+  if (!c.exploiter) hints.push(`Hint: the exploiter was ${ev.alleged ? "allegedly " : ""}${ev.exploiter.label}.`);
   if (c.eraStart === undefined) {
     hints.push(
       ev.startYear === ev.endYear
@@ -120,6 +130,8 @@ function* candidatesFor(ev: GameEvent): Generator<Candidate> {
   const region: Region = country.region;
   const sub = country.subregion ?? undefined;
   const hasType = ev.type !== "other";
+  const exploitedBy = ev.alleged ? allegedly("was exploited by") : "was exploited by";
+  const typeVerb = ev.alleged ? allegedly(TYPE_VERBS[ev.type]) : TYPE_VERBS[ev.type];
 
   for (const era of eras) {
     const eraC = { eraStart: era.start, eraEnd: era.end };
@@ -128,7 +140,7 @@ function* candidatesFor(ev: GameEvent): Generator<Candidate> {
     // T2: region + exploiter + era (and subregion variant)
     yield {
       template: "region-exploiter-era",
-      text: `${aOrAn(nounPhrase({ region }))} that was exploited by ${label} ${eraText}`,
+      text: `${aOrAn(nounPhrase({ region }))} that ${exploitedBy} ${label} ${eraText}`,
       difficulty: 2,
       constraints: { region, exploiter, ...eraC },
       event: ev,
@@ -136,7 +148,7 @@ function* candidatesFor(ev: GameEvent): Generator<Candidate> {
     if (sub) {
       yield {
         template: "subregion-exploiter-era",
-        text: `${aOrAn(nounPhrase({ subregion: sub }))} that was exploited by ${label} ${eraText}`,
+        text: `${aOrAn(nounPhrase({ subregion: sub }))} that ${exploitedBy} ${label} ${eraText}`,
         difficulty: 1,
         constraints: { subregion: sub, exploiter, ...eraC },
         event: ev,
@@ -149,7 +161,7 @@ function* candidatesFor(ev: GameEvent): Generator<Candidate> {
       // T1: region + exploiter + resource + era
       yield {
         template: "region-exploiter-resource-era",
-        text: `${aOrAn(nounPhrase({ region }))} that was exploited by ${label} for ${phrase} ${eraText}`,
+        text: `${aOrAn(nounPhrase({ region }))} that ${exploitedBy} ${label} for ${phrase} ${eraText}`,
         difficulty: 1,
         constraints: { region, exploiter, resource: r, ...eraC },
         event: ev,
@@ -157,7 +169,7 @@ function* candidatesFor(ev: GameEvent): Generator<Candidate> {
       if (sub) {
         yield {
           template: "subregion-exploiter-resource-era",
-          text: `${aOrAn(nounPhrase({ subregion: sub }))} that was exploited by ${label} for ${phrase} ${eraText}`,
+          text: `${aOrAn(nounPhrase({ subregion: sub }))} that ${exploitedBy} ${label} for ${phrase} ${eraText}`,
           difficulty: 1,
           constraints: { subregion: sub, exploiter, resource: r, ...eraC },
           event: ev,
@@ -166,7 +178,7 @@ function* candidatesFor(ev: GameEvent): Generator<Candidate> {
       // T3b: exploiter + resource + era (any region)
       yield {
         template: "exploiter-resource-era",
-        text: `A nation that was exploited by ${label} for ${phrase} ${eraText}`,
+        text: `A nation that ${exploitedBy} ${label} for ${phrase} ${eraText}`,
         difficulty: 2,
         constraints: { exploiter, resource: r, ...eraC },
         event: ev,
@@ -185,7 +197,7 @@ function* candidatesFor(ev: GameEvent): Generator<Candidate> {
       // T6: exploiter + type + era
       yield {
         template: "exploiter-type-era",
-        text: `A nation that ${TYPE_VERBS[ev.type]} ${label} ${eraText}`,
+        text: `A nation that ${typeVerb} ${label} ${eraText}`,
         difficulty: 3,
         constraints: { exploiter, type: ev.type, ...eraC },
         event: ev,
@@ -194,7 +206,7 @@ function* candidatesFor(ev: GameEvent): Generator<Candidate> {
       // its government overthrown in a coup backed by the CIA in the 1970s"
       yield {
         template: "region-exploiter-type-era",
-        text: `${aOrAn(nounPhrase({ region }))} that ${TYPE_VERBS[ev.type]} ${label} ${eraText}`,
+        text: `${aOrAn(nounPhrase({ region }))} that ${typeVerb} ${label} ${eraText}`,
         difficulty: 2,
         constraints: { region, exploiter, type: ev.type, ...eraC },
         event: ev,
@@ -202,7 +214,7 @@ function* candidatesFor(ev: GameEvent): Generator<Candidate> {
       if (sub) {
         yield {
           template: "subregion-exploiter-type-era",
-          text: `${aOrAn(nounPhrase({ subregion: sub }))} that ${TYPE_VERBS[ev.type]} ${label} ${eraText}`,
+          text: `${aOrAn(nounPhrase({ subregion: sub }))} that ${typeVerb} ${label} ${eraText}`,
           difficulty: 1,
           constraints: { subregion: sub, exploiter, type: ev.type, ...eraC },
           event: ev,
@@ -217,14 +229,14 @@ function* candidatesFor(ev: GameEvent): Generator<Candidate> {
     if (!phrase) continue;
     yield {
       template: "exploiter-resource",
-      text: `A nation that was exploited by ${label} for ${phrase}`,
+      text: `A nation that ${exploitedBy} ${label} for ${phrase}`,
       difficulty: 2,
       constraints: { exploiter, resource: r },
       event: ev,
     };
     yield {
       template: "region-exploiter-resource",
-      text: `${aOrAn(nounPhrase({ region }))} that was exploited by ${label} for ${phrase}`,
+      text: `${aOrAn(nounPhrase({ region }))} that ${exploitedBy} ${label} for ${phrase}`,
       difficulty: 2,
       constraints: { region, exploiter, resource: r },
       event: ev,
@@ -235,7 +247,7 @@ function* candidatesFor(ev: GameEvent): Generator<Candidate> {
   if (hasType) {
     yield {
       template: "region-exploiter-type",
-      text: `${aOrAn(nounPhrase({ region }))} that ${TYPE_VERBS[ev.type]} ${label}`,
+      text: `${aOrAn(nounPhrase({ region }))} that ${typeVerb} ${label}`,
       difficulty: 2,
       constraints: { region, exploiter, type: ev.type },
       event: ev,
@@ -243,7 +255,7 @@ function* candidatesFor(ev: GameEvent): Generator<Candidate> {
     if (sub) {
       yield {
         template: "subregion-exploiter-type",
-        text: `${aOrAn(nounPhrase({ subregion: sub }))} that ${TYPE_VERBS[ev.type]} ${label}`,
+        text: `${aOrAn(nounPhrase({ subregion: sub }))} that ${typeVerb} ${label}`,
         difficulty: 1,
         constraints: { subregion: sub, exploiter, type: ev.type },
         event: ev,
@@ -302,6 +314,7 @@ export function buildQuestionBank(events: GameEvent[], maxAnswers = DEFAULT_MAX_
 
   for (const ev of events) {
     for (const cand of candidatesFor(ev)) {
+      if (cand.constraints.exploiter) cand.constraints.alleged = Boolean(ev.alleged);
       const key = constraintsKey(cand.constraints);
       if (seen.has(key) || ambiguousKeys.has(key)) continue;
       const pool = cand.constraints.exploiter ? (byExploiter.get(cand.constraints.exploiter) ?? []) : events;
