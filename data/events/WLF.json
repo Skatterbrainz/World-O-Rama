@@ -34,6 +34,27 @@
       "summary": "After a Free French ship deposed the Vichy-aligned administration, US Marines landed in May 1942. They built an airfield and camps on the island, with thousands of troops stationed there, roughly equal to the local population, until the war ended.",
       "wikipediaTitle": "Wallis and Futuna",
       "sources": ["https://en.wikipedia.org/wiki/Wallis_and_Futuna"]
+    },
+    {
+      "id": "WLF-tongan-invasions",
+      "title": "Tongan invasions",
+      "startYear": 1401,
+      "endYear": 1600,
+      "exploiter": {
+        "label": "the Tuʻi Tonga Empire"
+      },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "Warriors from a maritime empire built a stone fortress on the larger of the two islands in the 15th century.",
+        "The invasions of the 15th and 16th centuries met varying levels of resistance.",
+        "The smaller island kept more of its older culture, while the larger one changed its society, language and culture more deeply."
+      ],
+      "summary": "During the 15th and 16th centuries Tongan forces invaded the islands of Wallis (Uvea) and Futuna, building the Talietumu fortress on Wallis, and met varying levels of resistance. The islands accepted different degrees of assimilation: Futuna kept more of its pre-Tongan culture, while Wallis underwent greater changes in its society, language and culture.",
+      "wikipediaTitle": "Tuʻi Tonga Empire",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tu%CA%BBi_Tonga_Empire"
+      ]
     }
   ]
 }

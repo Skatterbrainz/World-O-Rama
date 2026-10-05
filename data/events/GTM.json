@@ -154,6 +154,76 @@
       "sources": [
         "https://en.wikipedia.org/wiki/First_Mexican_Empire"
       ]
+    },
+    {
+      "id": "GTM-teotihuacan-takeover-378",
+      "title": "Teotihuacan's takeover of Tikal",
+      "startYear": 378,
+      "endYear": 400,
+      "exploiter": {
+        "label": "Teotihuacan"
+      },
+      "type": "invasion",
+      "resources": [],
+      "hints": [
+        "A great city-state in the highlands of central Mexico reached deep into the Maya lowlands in the 4th century.",
+        "A warlord named Fire Is Born arrived in January 378 and the local king's line was replaced.",
+        "Temple architecture in the style of the distant metropolis began to appear at the region's greatest Maya city."
+      ],
+      "summary": "In January 378 the warlord Siyaj Kʼakʼ, from or closely allied with Teotihuacan, took Tikal. Over 378 and 379 he oversaw the replacement of the kings of Tikal and other Maya states with rulers who claimed descent from a Teotihuacan lord, and he remained their overlord until his death early in the fifth century. Scholars still debate whether this was a military invasion or an alliance-driven takeover.",
+      "alleged": true,
+      "wikipediaTitle": "Siyaj Kʼakʼ",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Siyaj_K%CA%BCak%CA%BC",
+        "https://en.wikipedia.org/wiki/Tikal"
+      ]
+    },
+    {
+      "id": "GTM-kaan-defeat-of-tikal-562",
+      "title": "Kaan kingdom's defeat of Tikal",
+      "startYear": 562,
+      "endYear": 562,
+      "exploiter": {
+        "label": "the Kaan kingdom"
+      },
+      "type": "invasion",
+      "resources": [
+        "trade_routes"
+      ],
+      "hints": [
+        "A rival superpower ruled by a dynasty named after snakes crushed a great Maya city-state in the year 562.",
+        "The defeat ended the city's regional power and left the victor as the dominant force in the lowlands.",
+        "The victor's dynasty was later based at Calakmul, and the rivalry lasted throughout the Classic period."
+      ],
+      "summary": "In 562 the Kaan (Snake) kingdom, ruled from Dzibanche and later Calakmul, defeated Tikal, ending its regional power and leaving Kaan as the hegemon of the Maya lowlands for about two centuries. Kaan had been making nearby sites tributary in order to control the region's trade routes. Some accounts credit the victory to Kaan's ally Caracol.",
+      "wikipediaTitle": "Kaan kingdom",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kaan_kingdom",
+        "https://en.wikipedia.org/wiki/Tikal"
+      ]
+    },
+    {
+      "id": "GTM-calakmul-conquest-of-tikal-657",
+      "title": "Calakmul's conquest of Tikal",
+      "startYear": 657,
+      "endYear": 695,
+      "exploiter": {
+        "label": "the Kaan kingdom"
+      },
+      "type": "invasion",
+      "resources": [
+        "tribute"
+      ],
+      "hints": [
+        "A second invasion in the 650s turned a defeated Maya king into a vassal.",
+        "The conqueror was a superpower under a ruler nicknamed the Great, who reigned for fifty years.",
+        "Its overlordship ended in 695, when the city won an important victory over its rival."
+      ],
+      "summary": "In 657 Calakmul, capital of the Kaan kingdom under Yuknoom Ch'een II, invaded and defeated Tikal, conquering the city and making its ruler Nuun Ujol Chaak a vassal. Tikal began to re-emerge, and in 695 it won a major victory over Calakmul that ended the Kaan kingdom's dominance.",
+      "wikipediaTitle": "Kaan kingdom",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kaan_kingdom"
+      ]
     }
   ]
 }

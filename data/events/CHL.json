@@ -173,6 +173,32 @@
         "https://en.wikipedia.org/wiki/Project_FUBELT",
         "https://www.intelligence.senate.gov/sites/default/files/94chile.pdf"
       ]
+    },
+    {
+      "id": "CHL-inca-conquest",
+      "title": "Inca conquest of northern and central Chile",
+      "startYear": 1470,
+      "endYear": 1535,
+      "exploiter": {
+        "label": "the Inca Empire"
+      },
+      "type": "invasion",
+      "resources": [],
+      "territoryNames": [
+        "Collasuyu"
+      ],
+      "hints": [
+        "A highland empire pushed south in the 1470s, uprooted farming peoples and resettled colonists from far away in their valleys.",
+        "A rebellion in the northern valleys was reportedly crushed with severe punishment.",
+        "According to a chronicler, a hard-fought battle on a southern river checked its advance, and its rule lasted only about sixty years."
+      ],
+      "summary": "From the 1470s the Inca Empire conquered northern and central Chile, mainly the Diaguita and part of the Promaucae (Picunche) peoples. Conquest by warfare caused severe depopulation in the Transverse Valleys, a rebellion in the north was reportedly repressed, and the Inca moved colonists (mitimaes) in and some local people out. The advance was checked south of Santiago, traditionally at the battle of the Maule. Inca rule ended in the 1530s.",
+      "sensitive": true,
+      "wikipediaTitle": "Incas in Central Chile",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Incas_in_Central_Chile",
+        "https://en.wikipedia.org/wiki/Diaguita"
+      ]
     }
   ]
 }

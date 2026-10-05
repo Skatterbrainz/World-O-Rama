@@ -71,6 +71,29 @@
       "sensitive": true,
       "wikipediaTitle": "SS Talune",
       "sources": ["https://en.wikipedia.org/wiki/SS_Talune"]
+    },
+    {
+      "id": "WSM-tongan-hegemony",
+      "title": "Tongan hegemony over the Tuʻi Tonga's tributaries",
+      "startYear": 1201,
+      "endYear": 1350,
+      "exploiter": {
+        "label": "the Tuʻi Tonga Empire"
+      },
+      "type": "other",
+      "resources": [
+        "tribute"
+      ],
+      "hints": [
+        "Voyaging kings from an island group to the south claimed annual tribute at a ceremony called the ʻinasi.",
+        "Chiefly marriages tied the royal families together, and fine mats flowed to the rulers.",
+        "In the 13th or 14th century the islanders expelled their overlords after a battle won by three brothers who founded a leading chiefly line."
+      ],
+      "summary": "Tongan expansion under the Tuʻi Tonga, from about 950 and at its peak between 1200 and 1500, brought much of the former domain of the Tui Manuʻa under Tongan hegemony, with tribute (ʻinasi) owed to the Tuʻi Tonga. The Manuʻa islands themselves stayed under their own ruler. Oral tradition says the Samoans expelled the Tongans in the 13th or 14th century after Talakaifaiki was defeated by the brothers Tuna, Fata and Savea, founders of the Malietoa line. Dates are traditional and approximate.",
+      "wikipediaTitle": "Tuʻi Tonga Empire",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tu%CA%BBi_Tonga_Empire"
+      ]
     }
   ]
 }

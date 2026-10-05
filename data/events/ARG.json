@@ -127,6 +127,34 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Roca%E2%80%93Runciman_Treaty"
       ]
+    },
+    {
+      "id": "ARG-inca-conquest",
+      "title": "Inca conquest of the north-west",
+      "startYear": 1430,
+      "endYear": 1532,
+      "exploiter": {
+        "label": "the Inca Empire"
+      },
+      "type": "invasion",
+      "resources": [
+        "labour"
+      ],
+      "territoryNames": [
+        "Collasuyu"
+      ],
+      "hints": [
+        "A highland empire built roads, forts and administrative centres across the north-western valleys and forced communities to relocate.",
+        "One valley people resisted strongly while their neighbours became imperial allies.",
+        "New radiocarbon dates put the empire in the region by the 1420s and 1430s, decades earlier than chroniclers claimed."
+      ],
+      "summary": "The Inca Empire incorporated north-west Argentina in the 15th century, building roads, tambos, forts and administrative centres. Local people faced forced relocation, the remodelling of their towns and the seizure of their shrines, and owed labour service. Chroniclers date the conquest to the 1470s under Topa Inca Yupanqui, but radiocarbon dates place Inca occupation of the northern Calchaquí valley by the 1420s or 1430s. The Calchaquí resisted strongly while the Pulares became allies.",
+      "wikipediaTitle": "Inca Empire",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Inca_Empire",
+        "https://doi.org/10.1017/S0003598X00048304",
+        "https://doi.org/10.1093/OXFORDHB/9780190219352.013.2"
+      ]
     }
   ]
 }

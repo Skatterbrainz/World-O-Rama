@@ -148,6 +148,30 @@
       "sources": [
         "https://en.wikipedia.org/wiki/International_Petroleum_Company"
       ]
+    },
+    {
+      "id": "PER-inca-conquest-of-chimor",
+      "title": "Inca conquest of the Chimú kingdom",
+      "startYear": 1470,
+      "endYear": 1493,
+      "exploiter": {
+        "label": "the Inca Empire"
+      },
+      "type": "invasion",
+      "resources": [],
+      "territoryNames": [
+        "Chimor"
+      ],
+      "hints": [
+        "A desert-coast kingdom famed for black pottery and fine metalwork controlled about 1,000 kilometres of shoreline.",
+        "Its vast adobe capital was founded, in its own tradition, by a hero who arrived on a balsa raft.",
+        "A highland empire conquered it from the 1470s, about fifty years before the Spanish arrived."
+      ],
+      "summary": "Chimor, the largest kingdom of the Late Intermediate Period, stretched along about 1,000 kilometres of the northern coast from its capital Chan Chan. The Inca emperor Topa Inca Yupanqui began its conquest in the 1470s, defeating its ruler Minchançaman, and the conquest was nearly complete when Huayna Capac took the throne in 1493, about fifty years before the Spanish arrived.",
+      "wikipediaTitle": "Chimor",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chim%C3%BA_culture"
+      ]
     }
   ]
 }
