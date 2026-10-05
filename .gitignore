@@ -3,4 +3,6 @@ dist/
 .vite/
 *.log
 .DS_Store
-release/
+# Packaged builds: track only the AppImage, ignore everything else in release/
+release/*
+!release/*.AppImage
